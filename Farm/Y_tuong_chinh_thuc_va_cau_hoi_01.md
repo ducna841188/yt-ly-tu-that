@@ -2,7 +2,7 @@
 
 - Ngày: **12/10/2026**, theo giờ Việt Nam.
 - Dự án: **Nghiên Cứu LTT / Farm**.
-- Trạng thái: đã tiếp nhận ý tưởng chính thức; câu trả lời cho các câu hỏi bên dưới **chưa có**.
+- Trạng thái: **đã tiếp nhận câu trả lời 1–11 ngày 12/10/2026**; dùng Định hướng chính thức v1.0 cho các quyết định hiện hành.
 - Hồ sơ khán giả vẫn là giả thuyết mục tiêu, chưa phải dữ liệu người xem thực tế đã xác minh.
 - Nội dung người dùng xác nhận được tách khỏi đánh giá và đề xuất của người phân tích.
 
@@ -16,17 +16,12 @@
 > Cách triển khai của tôi để làm video, tôi dự kiến sử dụng seedance 2.0, tạo các video từ các ảnh, có thể là các video dài 5s hoặc 30s tùy thuộc vào việc chúng ta nghiên cứu và triển khai.
 > Ban đầu sẽ học tập các video của Lý Tử Thất ( bóc tách từ các shot list), đưa ảnh của nhân vật của tôi, bối cảnh của tôi, nhưng có câu chuyện tương tự video của Lý Tử Thất.
 
-## 2. Phạm vi đã xác nhận
+## 2. Phạm vi hiện hành sau câu trả lời
+Xem [Định hướng chính thức v1.0](Dinh_huong_chinh_thuc.md) để triển khai: thư giãn trong thế giới làng quê; Mỹ là thị trường ưu tiên; cô gái sống cùng bà và vật nuôi; đời sống tiếp diễn; tập đầu giữ gần trình tự tham chiếu; Seedance 2.5 qua Dola; 90% AI theo dự kiến; người dùng lo âm môi trường/nhạc; chủ yếu không thoại; thumbnail thu hoạch; ưu tiên giữ chân, quay lại và cảm giác thư giãn.
 
-- Phục vụ nhu cầu thư giãn, cảnh đẹp, công việc được hoàn thành, kỹ năng thực hành và tình người đã mô tả trong [hồ sơ khán giả](Ho_so_khan_gia.md).
-- Khán giả mục tiêu sơ bộ: nữ 35–55 tuổi, sống tại đô thị ở Mỹ và Ấn Độ; chưa có cơ cấu khán giả thực tế hay dữ liệu chứng minh mức phù hợp với nội dung AI.
-- Tham khảo từ khóa và cách trình bày video từ [dữ liệu đầu vào](Farm_Du_lieu_goc_01.md).
-- Học ngôn ngữ hình ảnh Lý Tử Thất qua shot list, sử dụng ảnh nhân vật và bối cảnh của người dùng.
-- Dự kiến dùng Seedance để tạo video từ ảnh. Phiên bản/nền tảng cụ thể, thời lượng từng lần tạo và quy trình dựng còn phải xác nhận.
-- Chưa chốt lời hứa chính của kênh, độ dài video thành phẩm, lịch đăng, ngân sách, nhân lực, phần âm thanh, mức học theo câu chuyện gốc và tiêu chí thử nghiệm.
-- Không xem 5/30 giây mỗi lần tạo là độ dài bắt buộc của từng cảnh trong bản dựng.
+Độ dài thành phẩm, lịch đăng, trần chi phí và nhân lực vẫn chưa chốt. Câu trả lời số 9 bổ sung phương thức sản xuất, chưa cung cấp các con số đó. Bộ ảnh master và video tham chiếu của tập đầu cũng chưa được đối chiếu/chốt trong tài liệu này.
 
-## 3. Đánh giá ban đầu
+## 3. Đánh giá ban đầu — trước khi người dùng trả lời
 
 Ý tưởng có cơ sở để làm thử: nhu cầu mà người dùng mô tả phù hợp với câu chuyện lao động, sự biến đổi của nguyên liệu, cảnh quan và bữa ăn chung đã thấy trong shot list. Chưa có bằng chứng rằng thay nhân vật/bối cảnh, giữ từ khóa và học cách quay sẽ tái tạo được hiệu suất của một kênh khác.
 
@@ -145,4 +140,30 @@ Sau khi có câu trả lời và thử nghiệm, chọn thời lượng từng l
 
 ## 7. Trạng thái câu trả lời
 
-**Chưa có câu trả lời cho câu 1–11.** Không tự suy ra lựa chọn từ các phương án được đề xuất. Cập nhật tại chính tài liệu này khi người dùng trả lời.
+**Đã có câu trả lời cho câu 1–11**, nguyên văn ở phần 8. Các điểm đã chốt được tổng hợp tại [Định hướng chính thức](Dinh_huong_chinh_thuc.md). Các phần trước câu trả lời giữ vai trò lịch sử đánh giá/câu hỏi; không dùng các lựa chọn đang cân nhắc cũ thay cho quyết định mới.
+
+Còn chưa rõ: nguồn chứng minh nhân khẩu học, ngân sách/độ dài/lịch đăng/nhân lực, bộ tham chiếu chính thức, người kiểm thao tác và cách giới thiệu thế giới AI.
+
+## 8. Câu trả lời nguyên văn ngày 12/10/2026
+
+> 1- tôi chọn thư giãn trong 1 thế giới làng quê đẹp, chú ý tập trung và hồ sơ khán giả tôi đã nạp cho bạn.
+
+> 2- tôi muốn tập trung vào giá trị cốt lõi mà video muốn đem lại - giúp người xem xả stress sau một ngày mệt mỏi, tiếng nhạc chữa lành, cảnh cây cối xanh biếc, sinh trưởng, mùa vụ thu hoạch, từ thu hoạch mùa vụ đến chế biến nó thành các công cụ, món ăn, cảnh gia đình quây quần ấm cúng, ăn các món ăn mà họ tự trồng trọt, chế biến
+
+> 3- tôi ưu tiên Mỹ.
+
+> 4- tạm thời ban đầu tôi sẽ Giữ gần nguyên trình tự cảnh, video đầu tiên tôi cần biết cách làm, ở các video sau tôi mới nâng cấp, sáng tạo hơn.
+
+> 5- nhân vật có đời sống tiếp diễn. Cô ấy sống với bà, và các vật nuôi như chó, mèo... Có hàng xóm, có anh chị em họ hàng qua thăm.
+
+> 6- tôi chưa làm, và cần bạn hướng dẫn để nghiệm chứng. Tôi sử dụng công cụ seedance 2.5, nguồn từ dola.
+
+> 7- tiêu chuẩn chân thực của tôi là nhìn như camera thực được quay, như video của Lý Tử Thất. Có thể người xem sẽ phát hiện là AI, nhưng thứ tôi muốn truyền tải là các hình ảnh, video, nội dung giúp xoa dịu tâm hồn mệt mỏi, stress, trầm cảm của họ.
+
+> 8- tôi sẽ chịu trách nhiệm làm âm thanh, nhạc nền. Nếu AI làm video có thể có sẵn 1 số sound effect là tốt nhất, còn lại các âm thanh về môi trường, nhạc nền là tôi sẽ làm. Các video chủ yếu sẽ không có tiếng nói, chỉ có tiếng động của việc làm (tiếng đổ nước, tiếng nấu ăn, tiếng cuốc đất, tiếng thu hoạch hoa quả mùa vụ), hoặc tiếng môi trường xung quanh ( tiếng chim hót, tiếng mưa, tiếng gió...)
+
+> 9- tôi dự tính sẽ làm 90% là bằng AI. Nếu dùng tính năng từ ảnh tạo video, bạn có thể thoải mái.
+
+> 10- thumbnail đầu tiên hứa về cảnh thu hoạch mùa vụ, nhân vật chính vui vẻ thu hoạch trái cây, xung quanh là các cây trái bội mùa thu hoạch.
+
+> 11- sau 3-5 video, điều này là thứ tôi ưu tiên nhất: Giữ chân người xem, người xem quay lại, phản hồi về cảm giác thư giãn.

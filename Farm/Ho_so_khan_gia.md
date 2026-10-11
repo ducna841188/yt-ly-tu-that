@@ -1,6 +1,6 @@
 # Farm — Hồ sơ khán giả sơ bộ
 
-- Phiên bản: **0.1**.
+- Phiên bản: **0.2**.
 - Ngày tiếp nhận: **12/10/2026**, theo giờ Việt Nam.
 - Trạng thái: **Chưa đầy đủ; sẽ tiếp tục bổ sung và cập nhật**.
 - Nguồn: thông tin người dùng cung cấp trong cuộc trò chuyện của dự án **Nghiên Cứu LTT / Farm**.
@@ -19,7 +19,7 @@ Người dùng đặt tên nhóm thông tin này là **Nhân Chủng Học**.
 | Thuộc tính | Thông tin người dùng cung cấp |
 | --- | --- |
 | Giới tính | Khách hàng là Nữ |
-| Quốc gia | Mỹ, Ấn Độ |
+| Quốc gia | **Ưu tiên Mỹ** theo quyết định ngày 12/10/2026; Ấn Độ thuộc hồ sơ mục tiêu ban đầu |
 | Tuổi | 35-55t. |
 | Địa điểm sống | ở các thành phố lớn. |
 
@@ -75,10 +75,24 @@ Hai câu bên dưới ý “cảm động tình người” được giữ theo 
 - Cảnh quê yên bình, giản dị
 - Cuộc sống tuy ít vật chất nhưng đầy tiếng cười.
 
-## 8. Lịch sử cập nhật
+## 8. Ưu tiên đã chốt ngày 12/10/2026
+
+- Lời hứa chính: **thư giãn trong một thế giới làng quê đẹp**.
+- Giữ các nhu cầu/nỗi đau đã nạp; không tự bổ sung một nhóm nhân khẩu học mới.
+- Thị trường ưu tiên: **Mỹ**.
+- Giá trị cốt lõi: xả stress sau ngày mệt mỏi; nhạc nhẹ nhàng; cây cối xanh tươi; sinh trưởng và mùa vụ; thu hoạch trở thành món ăn/vật dụng; cô gái và bà quây quần cùng thành quả tự làm.
+- Đời sống nhân vật tiếp diễn, có chó/mèo, hàng xóm và họ hàng tới thăm.
+- Video chủ yếu không thoại; âm thao tác và môi trường cùng nhạc nền tạo trải nghiệm.
+- Sau 3–5 video: ưu tiên giữ chân, người xem quay lại và phản hồi thư giãn.
+- Tệp tuổi/giới tính và mức chấp nhận AI vẫn chưa được xác minh bằng dữ liệu người xem thực tế.
+
+Xem [Định hướng chính thức](Dinh_huong_chinh_thuc.md) và [câu trả lời nguyên văn](Y_tuong_chinh_thuc_va_cau_hoi_01.md). Các giá trị học nấu ăn/làm vườn trong hồ sơ ban đầu vẫn là nhu cầu liên quan; chưa phải lời hứa chủ đạo của kênh.
+
+## 9. Lịch sử cập nhật
 
 | Ngày | Phiên bản | Nội dung |
 | --- | --- | --- |
 | 12/10/2026 | 0.1 | Lưu hồ sơ khán giả ban đầu do người dùng cung cấp; giữ đầy đủ các nhóm thông tin và đánh dấu trạng thái sơ bộ. |
+| 12/10/2026 | 0.2 | Chốt ưu tiên Mỹ, lời hứa thư giãn, thế giới nhân vật tiếp diễn và ba tiêu chí đánh giá theo câu trả lời 1–11. |
 
-Những lần bổ sung sau sẽ cập nhật hồ sơ này và ghi lại thay đổi. Chưa thực hiện phân tích mở rộng hoặc tự bổ sung các đặc điểm khán giả còn thiếu.
+Những lần bổ sung sau sẽ tiếp tục ghi lại thay đổi. Các cập nhật v0.2 ở trên dựa trên câu trả lời của người dùng; không tự suy ra tỷ lệ giới tính, độ tuổi hoặc quốc gia.

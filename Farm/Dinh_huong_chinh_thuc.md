@@ -1,0 +1,109 @@
+# Farm — Định hướng chính thức
+- Phiên bản: **1.0**.
+- Cập nhật: **12/10/2026**, theo giờ Việt Nam.
+- Nguồn quyết định: câu trả lời 1–11 của người dùng trong dự án Nghiên Cứu LTT.
+- Tài liệu này ghi quyết định hiện hành. [Dữ liệu đầu vào](Farm_Du_lieu_goc_01.md) và câu hỏi ban đầu được giữ để truy nguyên, không dùng phần giới thiệu cũ thay cho lựa chọn mới.
+- Tên dự án tạm thời vẫn là **Farm**; chưa chốt tên kênh chính thức.
+
+## 1. Lời hứa cốt lõi
+
+**Một thế giới làng quê xanh tươi, nơi người xem nghỉ ngơi sau ngày mệt mỏi, theo mùa vụ lớn lên, nhìn thu hoạch trở thành món ăn hoặc vật dụng, rồi cảm nhận sự ấm áp khi cô gái và bà cùng tận hưởng thành quả.**
+
+Định vị chính là trải nghiệm thư giãn, bình yên và thân thuộc. Trồng trọt, chế biến và kỹ năng sống là chất liệu câu chuyện; giáo trình làm vườn ban công không còn là lời hứa chính. Phần giới thiệu kênh và tiêu đề mới cần đi theo lựa chọn này khi được soạn.
+
+Người dùng mô tả mong muốn xoa dịu sự mệt mỏi, stress và trầm cảm. Nguyên văn được lưu ở [câu trả lời vòng 01](Y_tuong_chinh_thuc_va_cau_hoi_01.md). Trong diễn giải định vị, dùng ngôn ngữ trải nghiệm như thư giãn, dễ chịu, bình yên; các mục tiêu cảm xúc này chưa phải tác dụng điều trị đã được chứng minh.
+
+## 2. Khán giả ưu tiên
+
+- **Mỹ** là thị trường ưu tiên.
+- Giữ hồ sơ mục tiêu đã nạp: **nữ 35–55 tuổi, sống tại các thành phố lớn**.
+- Ấn Độ vẫn nằm trong hồ sơ ban đầu, nhưng chưa là thị trường ưu tiên triển khai.
+- Tiếp tục dùng các nhu cầu trong [hồ sơ khán giả](Ho_so_khan_gia.md): nghỉ ngơi, nhìn công việc hoàn thành, chiêm ngưỡng thành quả, sự thân thuộc, tình người, học thêm kỹ năng và quay lại tìm cảm giác dễ chịu.
+- Đây là mục tiêu và giả thuyết của dự án; chưa có dữ liệu YouTube Analytics xác minh tuổi, giới tính hoặc mức chấp nhận AI.
+
+## 3. Thế giới và nhân vật
+
+- Nhân vật chính là cô gái của người dùng, dùng đúng ảnh/bộ tham chiếu đã được duyệt khi sản xuất.
+- Cô gái **sống với bà**.
+- Có vật nuôi như **chó, mèo**.
+- Có **hàng xóm, anh chị em và họ hàng** tới thăm.
+- Nhân vật có **đời sống tiếp diễn qua các tập**.
+- Địa điểm, căn nhà, vườn, bếp, sân, trang phục, người và vật nuôi cần giữ quan hệ nhất quán giữa các cảnh/tập.
+- Các ảnh master, tạo hình cụ thể của bà/vật nuôi, loài nông sản, lịch mùa vụ và bản đồ bối cảnh chưa được đối chiếu trong tài liệu này; không tự coi một ảnh khác là bản đã duyệt.
+
+## 4. Chất liệu nội dung người dùng xác nhận
+
+- Cây cối xanh biếc, sinh trưởng và mùa vụ.
+- Thu hoạch nông sản.
+- Chế biến sản vật thành món ăn và công cụ/vật dụng.
+- Gia đình quây quần ấm cúng.
+- Ăn những món được trồng trọt và chế biến trong đời sống của nhân vật.
+- Nhạc nhẹ nhàng mang cảm giác được xoa dịu.
+- Công việc có tiến trình và thành quả nhìn thấy được.
+
+Chuỗi “mùa vụ → thu hoạch → chế biến → quây quần” là cách tổ chức các chất liệu đã chốt, không bắt buộc mọi tập phải chứa toàn bộ chu kỳ trong cùng thời lượng.
+
+## 5. Học tập từ Lý Tử Thất
+
+- **Tập đầu:** người dùng muốn giữ gần nguyên trình tự cảnh của video tham chiếu để học quy trình làm.
+- **Các tập sau:** nâng cấp và sáng tạo hơn.
+- Dùng nhân vật và bối cảnh của người dùng.
+- Học bố cục, quan hệ cỡ cảnh, chiều sâu, chất liệu, nhịp kể công việc và cách cho thấy thành quả.
+- [VID 01](VID_01/README.md) hiện là bộ shot list đã được phân tích trong kho; chưa có xác nhận riêng rằng đây chắc chắn là video được chọn cho tập đầu.
+- Một số trường tái dựng của nguồn còn mâu thuẫn. Khi viết shot sản xuất, kiểm lại diễn tiến và tính nhất quán từng cảnh; giữ thứ tự tham chiếu không có nghĩa dùng nguyên các trường sai.
+- Việc đăng video hoàn chỉnh chưa thuộc thao tác đã thực hiện trong lần tiếp nhận này.
+
+## 6. Công cụ, tỷ lệ AI và tiêu chuẩn hình ảnh
+
+- Công cụ người dùng chốt: **Seedance 2.5 qua Dola**.
+- Người dùng **chưa chạy thử**, cần hướng dẫn nghiệm chứng.
+- Mức dự kiến: **90% bằng AI**. Chưa xác định tỷ lệ này tính theo thời lượng hình, số cảnh hay khối lượng công việc; không chuyển thành một tỷ lệ kỹ thuật khác.
+- Người dùng cho phép chủ động dùng quy trình **ảnh → video**.
+- Tiêu chuẩn mong muốn: **trông như camera thật quay**, gần cảm giác chân thực của video Lý Tử Thất.
+- Người dùng chấp nhận khả năng khán giả nhận ra AI; giá trị thư giãn vẫn là ưu tiên.
+- Đánh giá cả bề mặt ảnh lẫn chuyển động: nhận diện người, tay và dụng cụ, tiếp xúc vật lý, trọng lượng vật, trạng thái nông sản, ánh sáng và không gian.
+- Chưa có kết quả chứng minh Dola đáp ứng tiêu chuẩn này cho bộ nhân vật/bối cảnh của dự án.
+
+Thông tin đối chiếu ngày 12/10/2026: [trang Seedance 2.5 của ByteDance](https://seed.bytedance.com/en/seedance2_5) công bố tạo hình và âm thanh đồng thời, đoạn tối đa 30 giây và dẫn liên kết “Try Dola”. Thông số/các nút thực sự có trong tài khoản Dola của người dùng vẫn phải quan sát khi thử.
+
+## 7. Âm thanh
+
+- Người dùng chịu trách nhiệm **âm môi trường và nhạc nền**.
+- Nếu AI sinh được âm thao tác phù hợp thì giữ lại sau khi kiểm tra.
+- Video **chủ yếu không có tiếng nói**.
+- Âm thao tác: đổ nước, nấu ăn, cuốc đất, thu hoạch.
+- Âm môi trường: chim, mưa, gió và âm của nơi sống.
+- Prompt thử ưu tiên âm thao tác tự nhiên, không thêm thoại hay nhạc tự phát.
+- Khi dựng, kiểm âm có khớp vật đang làm và nhịp động tác; native audio không mặc nhiên được dùng nếu sai.
+
+## 8. Thumbnail và mở đầu
+
+- Thumbnail đầu tiên: **cô gái vui vẻ thu hoạch trái cây giữa cây trái bội mùa**.
+- Hình ảnh cần có quan hệ với việc/loại quả thực sự xuất hiện trong video.
+- Thứ tự mở đầu của tập đầu chưa chốt: đang có mong muốn bám trình tự nguồn đồng thời hứa thu hoạch. Khi chọn video tham chiếu, kiểm thời điểm khán giả được thấy điều thumbnail hứa.
+- Bài thử kỹ thuật thu hoạch không tự quyết định thứ tự của video hoàn chỉnh.
+
+## 9. Tiêu chí sau 3–5 video
+
+Ưu tiên người dùng chốt:
+1. **Giữ chân người xem.**
+2. **Người xem quay lại.**
+3. **Phản hồi về cảm giác thư giãn.**
+
+Chưa đặt ngưỡng CTR, VPH, retention hoặc doanh thu tuyệt đối. Bài thử kỹ thuật và phản hồi nhóm nhỏ chỉ giúp kiểm nghiệm bước đầu; chưa thay thế dữ liệu khán giả từ các video xuất bản.
+
+## 10. Phần còn cần chốt theo tiến độ
+
+- Video tham chiếu nào làm tập đầu.
+- Độ dài video thành phẩm, lịch đăng, trần chi phí và nhân lực.
+- Bộ ảnh master chính thức dùng khi thử; tạo hình bà và vật nuôi.
+- Nông sản/món ăn cụ thể và trạng thái ở từng công đoạn.
+- Giao diện, chế độ tham chiếu, độ dài và âm thanh mà Dola thực sự cung cấp.
+- Tiêu chí lỗi chấp nhận/cần tạo lại; người kiểm tra thao tác trồng/nấu.
+- Cách giới thiệu thế giới/nhân vật AI với người xem.
+
+Các mục này chưa có câu trả lời đầy đủ. Không suy ra “90% AI” hoặc “thoải mái từ ảnh tạo video” là ngân sách không giới hạn.
+
+## 11. Bước triển khai đã chuẩn bị
+
+[Bài thử Seedance 2.5 qua Dola](Nghiem_chung_Seedance_2_5_Dola.md): sáu cảnh ngắn và một đoạn 30 giây có cùng chuỗi nội dung, để đánh giá tính chân thực, nhất quán, âm thanh và chi phí trên phần hình dùng được. Đây là đề xuất thử nghiệm được chuẩn bị để hướng dẫn người dùng; chưa có video đầu ra.

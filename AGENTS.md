@@ -9,3 +9,10 @@ Quy ước do người dùng xác nhận ngày 12/10/2026, theo giờ Việt Nam
 - Khi cần lưu hoặc cập nhật tài liệu của dự án, dùng kho này làm đích mặc định; không hỏi lại người dùng về kho đích đã được xác nhận.
 - Lưu tài liệu của dự án con **Farm** trong thư mục `Farm/`.
 - Sau khi lưu thành công, cung cấp đường dẫn đến tệp hoặc thư mục đã lưu trên GitHub.
+
+## Tài liệu định hướng hiện hành của Farm
+
+- Đọc [Farm/Dinh_huong_chinh_thuc.md](Farm/Dinh_huong_chinh_thuc.md) trước khi lập kịch bản/quy trình sản xuất; đây là bản tổng hợp các quyết định người dùng đã chốt ngày 12/10/2026.
+- Câu trả lời nguyên văn lưu trong [Farm/Y_tuong_chinh_thuc_va_cau_hoi_01.md](Farm/Y_tuong_chinh_thuc_va_cau_hoi_01.md).
+- Dùng lựa chọn hiện hành: ưu tiên Mỹ; trải nghiệm thư giãn làng quê; Seedance 2.5 qua Dola; chủ yếu không thoại; người dùng lo âm môi trường/nhạc.
+- Các đề xuất thử nghiệm và mục chưa chốt không tự trở thành quyết định của người dùng.
