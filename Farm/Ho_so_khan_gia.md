@@ -60,8 +60,6 @@ Hai câu bên dưới ý “cảm động tình người” được giữ theo 
 - Tôi muốn học nấu ăn, làm vườn: tôi muốn tự tay tạo giá trị và có thêm kỹ năng sống
 - Tôi muốn xem lại video cũ: tôi muốn tìm lại một cảm xúc dễ chịu đã từng trải nghiệm.
 
-Các nỗi đau được lưu như nhận định ban đầu về nhu cầu khán giả; không dùng để khẳng định tình trạng sức khỏe của khán giả hoặc hứa hẹn tác dụng điều trị của video.
-
 ## 6. Lời hứa
 
 - Thumb Cảnh đẹp, thư giãn, làng quê thiên nhiên
