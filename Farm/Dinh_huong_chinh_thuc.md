@@ -1,5 +1,5 @@
 # Farm — Định hướng chính thức
-- Phiên bản: **1.0**.
+- Phiên bản: **1.1**.
 - Cập nhật: **12/10/2026**, theo giờ Việt Nam.
 - Nguồn quyết định: câu trả lời 1–11 của người dùng trong dự án Nghiên Cứu LTT.
 - Tài liệu này ghi quyết định hiện hành. [Dữ liệu đầu vào](Farm_Du_lieu_goc_01.md) và câu hỏi ban đầu được giữ để truy nguyên, không dùng phần giới thiệu cũ thay cho lựa chọn mới.
@@ -29,7 +29,9 @@ Người dùng mô tả mong muốn xoa dịu sự mệt mỏi, stress và trầ
 - Có **hàng xóm, anh chị em và họ hàng** tới thăm.
 - Nhân vật có **đời sống tiếp diễn qua các tập**.
 - Địa điểm, căn nhà, vườn, bếp, sân, trang phục, người và vật nuôi cần giữ quan hệ nhất quán giữa các cảnh/tập.
-- Các ảnh master, tạo hình cụ thể của bà/vật nuôi, loài nông sản, lịch mùa vụ và bản đồ bối cảnh chưa được đối chiếu trong tài liệu này; không tự coi một ảnh khác là bản đã duyệt.
+- Ngày 12/10/2026, người dùng đã duyệt hai ảnh cô gái và hai hướng nhìn của khu vườn; bản nguyên byte nằm trong [bộ tham chiếu test](Tests/Co_gai_va_vuon_30s/references/).
+- Lần thử hiện hành chỉ cô gái và vườn, tạm chưa thêm bà hoặc vật nuôi. Thiết lập đời sống lâu dài có bà vẫn giữ.
+- Tham chiếu cụ thể của bà/vật nuôi, loài nông sản và lịch mùa vụ chưa được đối chiếu trong bài thử này; không tự coi ảnh khác là bản đã duyệt.
 
 ## 4. Chất liệu nội dung người dùng xác nhận
 
@@ -96,7 +98,7 @@ Chưa đặt ngưỡng CTR, VPH, retention hoặc doanh thu tuyệt đối. Bài
 
 - Video tham chiếu nào làm tập đầu.
 - Độ dài video thành phẩm, lịch đăng, trần chi phí và nhân lực.
-- Bộ ảnh master chính thức dùng khi thử; tạo hình bà và vật nuôi.
+- Bộ ảnh cô gái/vườn đã chốt cho test hiện hành; tham chiếu bà và vật nuôi sẽ đối chiếu khi tới cảnh tương ứng.
 - Nông sản/món ăn cụ thể và trạng thái ở từng công đoạn.
 - Giao diện, chế độ tham chiếu, độ dài và âm thanh mà Dola thực sự cung cấp.
 - Tiêu chí lỗi chấp nhận/cần tạo lại; người kiểm tra thao tác trồng/nấu.
@@ -106,4 +108,4 @@ Các mục này chưa có câu trả lời đầy đủ. Không suy ra “90% AI
 
 ## 11. Bước triển khai đã chuẩn bị
 
-[Bài thử Seedance 2.5 qua Dola](Nghiem_chung_Seedance_2_5_Dola.md): sáu cảnh ngắn và một đoạn 30 giây có cùng chuỗi nội dung, để đánh giá tính chân thực, nhất quán, âm thanh và chi phí trên phần hình dùng được. Đây là đề xuất thử nghiệm được chuẩn bị để hướng dẫn người dùng; chưa có video đầu ra.
+[Bài thử Seedance 2.5 qua Dola](Nghiem_chung_Seedance_2_5_Dola.md) bản 0.2: **10 cảnh × 3 giây**, chỉ cô gái và khu vườn theo yêu cầu mới. [Bộ ảnh và kịch bản](Tests/Co_gai_va_vuon_30s/README.md) đã chuẩn bị 10 PNG riêng từ bộ duyệt. Theo dõi một quả vàng từ hái tới rửa; chưa có video Dola đầu ra. 2,9–3 giây là độ dài cảnh dùng trong bản dựng, không tự giả định mọi nền tảng có tùy chọn xuất đúng 3 giây.
