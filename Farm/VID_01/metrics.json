@@ -1,0 +1,305 @@
+{
+  "basis": "Uploaded workbook; durations and labels, not independent video measurement",
+  "shot_count": 471,
+  "duration_seconds": 1364.44,
+  "mean_shot_seconds": 2.896900212314225,
+  "median_shot_seconds": 2.8,
+  "minimum_shot_seconds": 0.32,
+  "maximum_shot_seconds": 8.36,
+  "duration_bands": {
+    "less_than_1_second": 22,
+    "less_than_2_seconds": 90,
+    "2_to_less_than_4_seconds": 332,
+    "4_to_less_than_6_seconds": 41,
+    "6_seconds_or_longer": 8
+  },
+  "checks": {
+    "shot_ids_sequential": true,
+    "timecode_gaps_or_overlaps": [],
+    "duration_mismatches": []
+  },
+  "source_shot_size_labels": [
+    {
+      "label": "Toàn cảnh / Toàn cảnh rộng (WS/EWS)",
+      "count": 36,
+      "count_percent": 7.643312101910828,
+      "duration_seconds": 120.36
+    },
+    {
+      "label": "Cận cảnh / Đặc tả (CU / Insert)",
+      "count": 269,
+      "count_percent": 57.11252653927813,
+      "duration_seconds": 690.04
+    },
+    {
+      "label": "Trung cảnh / Trung toàn (MS/MLS)",
+      "count": 102,
+      "count_percent": 21.656050955414013,
+      "duration_seconds": 341.68
+    },
+    {
+      "label": "Cực cận / Macro (ECU)",
+      "count": 23,
+      "count_percent": 4.8832271762208075,
+      "duration_seconds": 65.84
+    },
+    {
+      "label": "Không xác định chắc từ ba frame; cần xem frame gốc",
+      "count": 35,
+      "count_percent": 7.43099787685775,
+      "duration_seconds": 128.08
+    },
+    {
+      "label": "Trung cảnh (MS)",
+      "count": 4,
+      "count_percent": 0.8492569002123143,
+      "duration_seconds": 12.64
+    },
+    {
+      "label": "Trung cận (MCU)",
+      "count": 2,
+      "count_percent": 0.42462845010615713,
+      "duration_seconds": 5.8
+    }
+  ],
+  "source_phases": [
+    {
+      "label": "Mở đầu – chuẩn bị vật liệu và gieo mầm",
+      "first_shot": "Shot 001",
+      "last_shot": "Shot 013",
+      "start": "00:00.00",
+      "end": "00:41.72",
+      "count": 13,
+      "duration_seconds": 41.72
+    },
+    {
+      "label": "Sơ chế lạc đầu mùa",
+      "first_shot": "Shot 014",
+      "last_shot": "Shot 020",
+      "start": "00:41.72",
+      "end": "01:02.68",
+      "count": 7,
+      "duration_seconds": 20.96
+    },
+    {
+      "label": "Làm đất – phủ màng – gieo",
+      "first_shot": "Shot 021",
+      "last_shot": "Shot 040",
+      "start": "01:02.68",
+      "end": "02:02.72",
+      "count": 20,
+      "duration_seconds": 60.04
+    },
+    {
+      "label": "Chuẩn bị hạt – chăm cây non",
+      "first_shot": "Shot 041",
+      "last_shot": "Shot 060",
+      "start": "02:02.72",
+      "end": "03:03.40",
+      "count": 20,
+      "duration_seconds": 60.68
+    },
+    {
+      "label": "Sinh trưởng – chuyển mùa",
+      "first_shot": "Shot 061",
+      "last_shot": "Shot 080",
+      "start": "03:03.40",
+      "end": "04:04.36",
+      "count": 20,
+      "duration_seconds": 60.96
+    },
+    {
+      "label": "Thu hoạch và phơi lúa",
+      "first_shot": "Shot 081",
+      "last_shot": "Shot 098",
+      "start": "04:04.36",
+      "end": "05:00.20",
+      "count": 18,
+      "duration_seconds": 55.84
+    },
+    {
+      "label": "Thu hoạch và cất bí",
+      "first_shot": "Shot 099",
+      "last_shot": "Shot 113",
+      "start": "05:00.20",
+      "end": "05:59.96",
+      "count": 15,
+      "duration_seconds": 59.76
+    },
+    {
+      "label": "Thu hoạch – xử lý – phơi lạc",
+      "first_shot": "Shot 114",
+      "last_shot": "Shot 144",
+      "start": "05:59.96",
+      "end": "07:19.12",
+      "count": 31,
+      "duration_seconds": 79.16
+    },
+    {
+      "label": "Xử lý nông sản – xay/sàng gạo tím",
+      "first_shot": "Shot 145",
+      "last_shot": "Shot 160",
+      "start": "07:19.12",
+      "end": "07:57.48",
+      "count": 16,
+      "duration_seconds": 38.36
+    },
+    {
+      "label": "Rửa gạo tím – vào rừng thu hái",
+      "first_shot": "Shot 161",
+      "last_shot": "Shot 180",
+      "start": "07:57.48",
+      "end": "09:00.28",
+      "count": 20,
+      "duration_seconds": 62.8
+    },
+    {
+      "label": "Thu hái – tách hạt dẻ",
+      "first_shot": "Shot 181",
+      "last_shot": "Shot 200",
+      "start": "09:00.28",
+      "end": "09:56.80",
+      "count": 20,
+      "duration_seconds": 56.52
+    },
+    {
+      "label": "Hấp – ủ gạo tím",
+      "first_shot": "Shot 201",
+      "last_shot": "Shot 224",
+      "start": "09:56.80",
+      "end": "11:06.32",
+      "count": 24,
+      "duration_seconds": 69.52
+    },
+    {
+      "label": "Rượu/nước gạo tím – chuyển thời gian",
+      "first_shot": "Shot 225",
+      "last_shot": "Shot 232",
+      "start": "11:06.32",
+      "end": "11:27.96",
+      "count": 8,
+      "duration_seconds": 21.64
+    },
+    {
+      "label": "Chuẩn bị thịt và bí – bếp/lò",
+      "first_shot": "Shot 233",
+      "last_shot": "Shot 260",
+      "start": "11:27.96",
+      "end": "12:46.04",
+      "count": 28,
+      "duration_seconds": 78.08
+    },
+    {
+      "label": "Rang – giã – rây – tạo lớp bánh",
+      "first_shot": "Shot 261",
+      "last_shot": "Shot 300",
+      "start": "12:46.04",
+      "end": "14:33.24",
+      "count": 40,
+      "duration_seconds": 107.2
+    },
+    {
+      "label": "Giã khối tím – khách tới – cắt bánh",
+      "first_shot": "Shot 301",
+      "last_shot": "Shot 320",
+      "start": "14:33.24",
+      "end": "15:35.28",
+      "count": 20,
+      "duration_seconds": 62.04
+    },
+    {
+      "label": "Sơ chế cá – hái rau – nấu canh",
+      "first_shot": "Shot 321",
+      "last_shot": "Shot 340",
+      "start": "15:35.28",
+      "end": "16:24.68",
+      "count": 20,
+      "duration_seconds": 49.4
+    },
+    {
+      "label": "Xào/nấu – hoàn thiện nhiều món – cán bánh tím",
+      "first_shot": "Shot 341",
+      "last_shot": "Shot 380",
+      "start": "16:24.68",
+      "end": "18:16.96",
+      "count": 40,
+      "duration_seconds": 112.28
+    },
+    {
+      "label": "Bày bánh – rau – trứng – bánh hấp",
+      "first_shot": "Shot 381",
+      "last_shot": "Shot 420",
+      "start": "18:16.96",
+      "end": "19:51.76",
+      "count": 40,
+      "duration_seconds": 94.8
+    },
+    {
+      "label": "Hoàn thiện món – bày bàn chiều tối",
+      "first_shot": "Shot 421",
+      "last_shot": "Shot 440",
+      "start": "19:51.76",
+      "end": "21:00.36",
+      "count": 20,
+      "duration_seconds": 68.6
+    },
+    {
+      "label": "Bữa ăn ngoài sân ban đêm",
+      "first_shot": "Shot 441",
+      "last_shot": "Shot 460",
+      "start": "21:00.36",
+      "end": "22:01.60",
+      "count": 20,
+      "duration_seconds": 61.24
+    },
+    {
+      "label": "Pháo hoa – kết",
+      "first_shot": "Shot 461",
+      "last_shot": "Shot 471",
+      "start": "22:01.60",
+      "end": "22:44.44",
+      "count": 11,
+      "duration_seconds": 42.84
+    }
+  ],
+  "analyst_narrative_blocks": [
+    {
+      "label": "Chuẩn bị, gieo, chăm cây, chuyển mùa",
+      "first_shot": 1,
+      "last_shot": 80,
+      "count": 80,
+      "duration_seconds": 244.36,
+      "duration_percent": 17.909178857260123
+    },
+    {
+      "label": "Thu hoạch, cất trữ, sơ chế nông sản",
+      "first_shot": 81,
+      "last_shot": 200,
+      "count": 120,
+      "duration_seconds": 352.44,
+      "duration_percent": 25.830377297645917
+    },
+    {
+      "label": "Chế biến, khách tới, hoàn thiện và bày bàn",
+      "first_shot": 201,
+      "last_shot": 440,
+      "count": 240,
+      "duration_seconds": 663.56,
+      "duration_percent": 48.632405968749076
+    },
+    {
+      "label": "Ăn chung, sinh hoạt ban đêm và kết",
+      "first_shot": 441,
+      "last_shot": 471,
+      "count": 31,
+      "duration_seconds": 104.08,
+      "duration_percent": 7.628037876344873
+    }
+  ],
+  "source_transition_status_counts": {
+    "Chưa khóa tuyệt đối từ ba frame; cần xem nhiều frame quanh cut để xác định transition.": 471
+  },
+  "source_audio_status_counts": {
+    "Chưa phân tích/nghe audio trong pass này; không tự gán Ambient/Foley/Music.": 471
+  }
+}
