@@ -1,6 +1,7 @@
 # Farm — Hồ sơ khán giả sơ bộ
 
-- Phiên bản: **0.2**.
+- Phiên bản: **0.3**.
+- Cập nhật: **14/10/2026**, theo giờ Việt Nam.
 - Ngày tiếp nhận: **12/10/2026**, theo giờ Việt Nam.
 - Trạng thái: **Chưa đầy đủ; sẽ tiếp tục bổ sung và cập nhật**.
 - Nguồn: thông tin người dùng cung cấp trong cuộc trò chuyện của dự án **Nghiên Cứu LTT / Farm**.
@@ -94,5 +95,24 @@ Xem [Định hướng chính thức](Dinh_huong_chinh_thuc.md) và [câu trả l
 | --- | --- | --- |
 | 12/10/2026 | 0.1 | Lưu hồ sơ khán giả ban đầu do người dùng cung cấp; giữ đầy đủ các nhóm thông tin và đánh dấu trạng thái sơ bộ. |
 | 12/10/2026 | 0.2 | Chốt ưu tiên Mỹ, lời hứa thư giãn, thế giới nhân vật tiếp diễn và ba tiêu chí đánh giá theo câu trả lời 1–11. |
+| 14/10/2026 | 0.3 | Lưu nghiên cứu khán giả theo yêu cầu mới; bổ sung khung nhu cầu/trạng thái xem và liên kết 96 cảnh gợi ý. Các phần bổ sung là đề xuất cần kiểm chứng; chưa thay đổi mục tiêu nhân khẩu học hay quyết định chính thức. |
 
 Những lần bổ sung sau sẽ tiếp tục ghi lại thay đổi. Các cập nhật v0.2 ở trên dựa trên câu trả lời của người dùng; không tự suy ra tỷ lệ giới tính, độ tuổi hoặc quốc gia.
+
+
+## 10. Nghiên cứu bổ sung ngày 14/10/2026 — chưa phải kết quả xác nhận khán giả
+
+Người dùng yêu cầu đào sâu sở thích cảnh, màu sắc, góc nhìn, hành động và âm thanh; sau đó yêu cầu rà soát, cải tiến và lưu toàn bộ nghiên cứu vào GitHub. Xem [bộ nghiên cứu đầy đủ](Nghien_cuu_khan_gia/README.md).
+
+Các phần dưới do người phân tích đề xuất, chưa tự thành lựa chọn đã duyệt:
+
+- Bên cạnh nữ 35–55 đô thị Mỹ, hỏi hoàn cảnh và mục đích xem, xem trực tiếp/để nền, độ nhạy với âm/cảnh và giá trị sau khi biết AI.
+- Nhu cầu giả định gồm được nghỉ, nhìn việc có tiến triển, chiêm ngưỡng năng lực, cảm nhận sự chăm sóc có đáp lại, theo dõi sự sống và khám phá nhẹ nhàng.
+- Không gắn tệp mục tiêu với chẩn đoán trầm cảm; stress, buồn, ít hứng thú và mong thư giãn cần được phân biệt.
+- Bổ sung việc vừa sức có kết quả gần, quyền nghỉ trước khi mọi thứ hoàn hảo, nhân vật lớn tuổi có tự chủ, và một đời sống quen nhưng có thay đổi.
+- Thử tiến trình dễ bước vào → hiểu việc → tò mò → nhận kết quả → có quan hệ → thả lỏng; chưa áp tỷ lệ hoặc thời lượng cố định.
+- Tách phản hồi thư giãn, ấm áp, tò mò, hoài niệm, buồn và tự so sánh; không coi giữ chân cao là tác dụng trị liệu.
+- Thư viện có 72 cảnh N01–N72 ở v0.1 và 24 cảnh bổ sung N73–N96 ở v0.2, với màu/cỡ/góc/âm và điểm cần giữ.
+- Các nghiên cứu gốc hỗ trợ câu hỏi thiết kế ở phạm vi riêng; chưa xác nhận sở thích từng cảnh của Farm, mức chấp nhận AI hay hiệu quả điều trị.
+
+Giữ nguyên các quyết định đã chốt tại mục 8 và Định hướng chính thức. Không tự đổi độ tuổi/giới/quốc gia; phần giới thiệu mục tiêu cảm xúc không được biến thành lời hứa chữa bệnh.
