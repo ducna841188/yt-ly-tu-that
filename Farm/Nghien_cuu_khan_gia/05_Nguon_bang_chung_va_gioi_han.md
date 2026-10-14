@@ -1,7 +1,7 @@
 # Farm — Nguồn bằng chứng và giới hạn
-Ngày rà soát: 14/10/2026. Đọc cùng [v0.1](01_Nghien_cuu_72_canh_v0_1.md) và [v0.2](02_Ra_soat_va_cai_tien_v0_2.md).
+Ngày rà soát: 14/10/2026. Đọc cùng [v0.1](01_Nghien_cuu_72_canh_v0_1.md), [v0.2](02_Ra_soat_va_cai_tien_v0_2.md) và [v0.3 cho tệp trầm cảm](07_Cai_tien_cho_khan_gia_tram_cam_v0_3.md).
 
-Mã S1–S11 là nền nghiên cứu đầu; S12–S16 được bổ sung ở lượt rà soát. Bảng phân biệt nghiên cứu gốc, khung lý thuyết, tổng quan và hướng dẫn. Chỉ dùng nguồn hỗ trợ đúng phạm vi; không gọi mọi nguồn là một thử nghiệm sở thích khán giả.
+Mã S1–S11 là nền nghiên cứu đầu; S12–S16 được bổ sung ở lượt rà soát v0.2; S17–S21 được bổ sung ở lượt v0.3 tập trung khán giả trầm cảm. Bảng phân biệt nghiên cứu gốc, khung lý thuyết, tổng quan và hướng dẫn. Chỉ dùng nguồn hỗ trợ đúng phạm vi; không gọi mọi nguồn là một thử nghiệm sở thích khán giả.
 
 | Mã | Nguồn và loại bằng chứng | Điều có thể dùng | Giới hạn đối với Farm |
 |---|---|---|---|
@@ -21,6 +21,11 @@ Mã S1–S11 là nền nghiên cứu đầu; S12–S16 được bổ sung ở l�
 | S14 | Richards et al. (2016), COBRA, thử nghiệm ngẫu nhiên không thua kém. [PubMed](https://pubmed.ncbi.nlm.nih.gov/27461440/) | Bằng chứng kích hoạt hành vi trong điều trị trầm cảm với người thực hiện can thiệp | 440 người; hoạt động trị liệu thực tế, không phải xem video người khác làm |
 | S15 | Breines & Chen (2012), bốn thí nghiệm tự trắc ẩn. [Tóm tắt bài gốc](https://journals.sagepub.com/doi/abs/10.1177/0146167212445599) | Một số kết quả động lực sau cách đối xử chấp nhận với sai sót | Không đo cảnh nghỉ/người AI hoặc kết quả trị liệu trầm cảm của Farm |
 | S16 | Watkins et al. (2011), thử nghiệm pha II trị liệu suy nghĩ lặp lại. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21778171/) | Suy nghĩ lặp lại là vấn đề được nghiên cứu trong trị liệu có cấu trúc | 42 người; không chứng minh cảnh yên gây hay chữa suy nghĩ lặp lại |
+| S17 | Berman et al. (2012), nghiên cứu đi bộ thiên nhiên/đô thị ở người trầm cảm. [PubMed](https://pubmed.ncbi.nlm.nih.gov/22464936/), [DOI](https://doi.org/10.1016/j.jad.2012.03.012) | Thay đổi ở nhiệm vụ trí nhớ và cảm xúc sau tiếp xúc thực tế | 20 người có MDD, đi bộ 50 phút; không đo video, nội dung AI hoặc hiệu quả điều trị dài hạn |
+| S18 | Sherdell, Waugh & Gotlib (2012), nghiên cứu mong chờ và động lực phần thưởng. [PubMed](https://pubmed.ncbi.nlm.nih.gov/21842963/), [DOI](https://doi.org/10.1037/a0024945) | Mong chờ, công sức muốn bỏ ra và thích khi trải nghiệm không phải một chỉ số | 38 người MDD và 30 đối chiếu, tranh/việc lựa chọn; không xác nhận cách mở đầu video hoặc sở thích của toàn bộ người trầm cảm |
+| S19 | Craske et al. (2019), thử nghiệm ngẫu nhiên Positive Affect Treatment. [PubMed](https://pubmed.ncbi.nlm.nih.gov/30998048/), [DOI](https://doi.org/10.1037/ccp0000396) | Nghiên cứu cảm xúc tích cực bên cạnh giảm cảm xúc tiêu cực | 96 người có triệu chứng trầm cảm hoặc lo âu nghiêm trọng; 15 buổi trị liệu cá nhân mỗi tuần; không phải xem nội dung thụ động |
+| S20 | Meuret et al. (2026), thử nghiệm ngẫu nhiên, công bố 24/04/2026. [Bài gốc JAMA Network Open](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2848142), [DOI](https://doi.org/10.1001/jamanetworkopen.2026.7403) | So điều trị tập trung cảm xúc tích cực với cảm xúc tiêu cực; giúp đặt câu hỏi riêng về hứng thú và nhẹ nhõm | 98 người, 15 buổi trị liệu trực tuyến cá nhân; giới hạn về tính đặc hiệu cơ chế, phần lớn kết quả trung gian là tự báo cáo; không chứng minh video Farm kích hoạt một cơ chế não hoặc có hiệu quả tương đương |
+| S21 | NIMH, Depression, tài liệu chính thức sửa năm 2024, kiểm tra ngày 14/10/2026. [Trang chính thức](https://www.nimh.nih.gov/health/publications/depression) | Khó tập trung/ghi nhớ/quyết định, mất hứng thú và ít năng lượng là các triệu chứng có thể gặp | Không phải ai cũng có mọi triệu chứng; không suy chẩn đoán hoặc tốc độ cắt tối ưu từ trang hướng dẫn |
 
 ## Những kết luận chưa có bằng chứng riêng
 
@@ -30,6 +35,9 @@ Mã S1–S11 là nền nghiên cứu đầu; S12–S16 được bổ sung ở l�
 - Xem thời gian dài, bình luận xúc động hoặc quay lại là bằng chứng trị liệu.
 - Đổi nhân vật/bối cảnh/từ khóa sẽ tái tạo hiệu suất một kênh tham chiếu.
 - AI trông thật tự động làm người xem tin công việc và cảm thấy gắn kết.
+- Cách mở đầu, giữ thành phẩm hoặc biểu cảm nhỏ được đề xuất ở v0.3 cải thiện trầm cảm.
+- Hiệu quả của đi bộ ngoài thiên nhiên hay 15 buổi trị liệu chuyển nguyên vẹn sang việc xem YouTube.
+- Giảm khó chịu đồng nghĩa tăng hứng thú, hoặc người ít mong chờ cũng không thể thích lúc xem.
 
 ## Cách phân loại phát biểu
 

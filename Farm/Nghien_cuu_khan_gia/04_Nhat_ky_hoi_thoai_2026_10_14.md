@@ -79,3 +79,27 @@ Thiết kế trải nghiệm theo trạng thái xem; một việc vừa sức c�
 **Trạng thái quyết định:**
 
 Người dùng đã yêu cầu lưu toàn bộ nghiên cứu vào GitHub. Yêu cầu lưu không tự xác nhận 96 cảnh hay các khung mới là công thức đã duyệt hoặc có hiệu quả trị liệu. Chưa có thử nghiệm người xem, kết quả YouTube Analytics hoặc thay đổi tuổi/giới/quốc gia đã xác nhận.
+
+## Vòng 4 — Tiếp tục đào sâu tệp trầm cảm và cập nhật cải tiến
+
+Ngày yêu cầu: 14/10/2026, theo giờ Việt Nam.
+
+**Người dùng:**
+
+> tiếp tục nghiên cứu phục vụ cho tệp khán giả trầm cảm, đọc lại kết quả nghiên cứu cũ, với kinh nghiệm 20 năm phục vụ cho tệp khán giả này, còn điều gì cần cải tiến để tốt hơn nữa không? Sau đó cập nhật cải tiến này vào github
+
+**Phần đã thực hiện:**
+
+- Đọc lại các bản 72 cảnh, rà soát 24 cảnh bổ sung, khung thử, bảng nguồn, nhật ký, hồ sơ v0.3 và định hướng v1.1 ở commit nền cf0c09f0e4edcc8bf9b206a67dc548ba80519a83.
+- Đối chiếu thêm nghiên cứu về mong chờ/cảm nhận dễ chịu, cảm xúc tích cực, tiếp xúc thiên nhiên ở người trầm cảm và tài liệu triệu chứng NIMH. Thêm S17–S21; bảng nguồn hiện có 21 mục, ghi phạm vi từng nguồn.
+- [Bản cải tiến v0.3](07_Cai_tien_cho_khan_gia_tram_cam_v0_3.md) lưu kết quả đọc lại, bằng chứng mới, bốn phần trải nghiệm, góc nhìn/hành động cụ thể và cách vận dụng cảnh đã có.
+- [Kế hoạch thử trải nghiệm v0.3](08_Thu_nghiem_trai_nghiem_v0_3.md) lưu ba cặp để thử lần lượt, câu hỏi trung lập và mẫu tổng hợp chưa chạy.
+- Cập nhật chỉ mục và hồ sơ khán giả v0.4, giữ quyết định chính thức về Mỹ, nữ 35–55, thế giới nhân vật và lời hứa thư giãn.
+
+**Điểm cải tiến trọng tâm:**
+
+Sớm nhận ra điều đáng xem; giảm công sức suy đoán qua cắt; tách xong việc khỏi cơ hội nhận kết quả; cho phép niềm dễ chịu nhỏ và biểu cảm bình thường; hỏi riêng nhẹ nhõm và hứng thú; tập tự hiểu được; thử mức hiện diện xã hội; hỏi dư âm tự nguyện; so âm tự nhiên/nhạc trên cùng hình. Ba thử ưu tiên là mở đầu, nhận kết quả và âm.
+
+**Trạng thái quyết định và dữ liệu:**
+
+Yêu cầu người dùng xác định tệp trầm cảm là trọng tâm nghiên cứu ở vòng này và cho phép cập nhật GitHub. Giữ 96 cảnh N01–N96; chưa thêm cảnh mới, chưa chạy thử hoặc có Analytics mới. Các cách quay/dựng là đề xuất cần kiểm chứng, không là công thức lâm sàng hoặc lựa chọn sản xuất đã duyệt. Phân tích dựa trên kiến thức và nguồn; không trình bày như kinh nghiệm hành nghề cá nhân được xác nhận.

@@ -1,6 +1,6 @@
 # Farm — Hồ sơ khán giả sơ bộ
 
-- Phiên bản: **0.3**.
+- Phiên bản: **0.4**.
 - Cập nhật: **14/10/2026**, theo giờ Việt Nam.
 - Ngày tiếp nhận: **12/10/2026**, theo giờ Việt Nam.
 - Trạng thái: **Chưa đầy đủ; sẽ tiếp tục bổ sung và cập nhật**.
@@ -96,6 +96,7 @@ Xem [Định hướng chính thức](Dinh_huong_chinh_thuc.md) và [câu trả l
 | 12/10/2026 | 0.1 | Lưu hồ sơ khán giả ban đầu do người dùng cung cấp; giữ đầy đủ các nhóm thông tin và đánh dấu trạng thái sơ bộ. |
 | 12/10/2026 | 0.2 | Chốt ưu tiên Mỹ, lời hứa thư giãn, thế giới nhân vật tiếp diễn và ba tiêu chí đánh giá theo câu trả lời 1–11. |
 | 14/10/2026 | 0.3 | Lưu nghiên cứu khán giả theo yêu cầu mới; bổ sung khung nhu cầu/trạng thái xem và liên kết 96 cảnh gợi ý. Các phần bổ sung là đề xuất cần kiểm chứng; chưa thay đổi mục tiêu nhân khẩu học hay quyết định chính thức. |
+| 14/10/2026 | 0.4 | Ghi yêu cầu tiếp tục tập trung nghiên cứu tệp trầm cảm; bổ sung bốn phần trải nghiệm và kế hoạch thử v0.3, giữ thư viện 96 cảnh. Chưa có kết quả thử và không đổi nhân khẩu học hay lời hứa chính. |
 
 Những lần bổ sung sau sẽ tiếp tục ghi lại thay đổi. Các cập nhật v0.2 ở trên dựa trên câu trả lời của người dùng; không tự suy ra tỷ lệ giới tính, độ tuổi hoặc quốc gia.
 
@@ -116,3 +117,20 @@ Các phần dưới do người phân tích đề xuất, chưa tự thành lự
 - Các nghiên cứu gốc hỗ trợ câu hỏi thiết kế ở phạm vi riêng; chưa xác nhận sở thích từng cảnh của Farm, mức chấp nhận AI hay hiệu quả điều trị.
 
 Giữ nguyên các quyết định đã chốt tại mục 8 và Định hướng chính thức. Không tự đổi độ tuổi/giới/quốc gia; phần giới thiệu mục tiêu cảm xúc không được biến thành lời hứa chữa bệnh.
+
+## 11. Trọng tâm nghiên cứu tệp trầm cảm — bổ sung theo yêu cầu mới
+
+Người dùng yêu cầu tiếp tục nghiên cứu phục vụ khán giả trầm cảm và cập nhật cải tiến vào GitHub. Đây là trọng tâm nghiên cứu được yêu cầu rõ; hồ sơ mục tiêu vẫn là nữ 35–55 ở đô thị Mỹ. Chưa biết bao nhiêu khán giả thực tế có chẩn đoán hoặc triệu chứng.
+
+Đọc [bản cải tiến trải nghiệm v0.3](Nghien_cuu_khan_gia/07_Cai_tien_cho_khan_gia_tram_cam_v0_3.md) và [kế hoạch thử v0.3](Nghien_cuu_khan_gia/08_Thu_nghiem_trai_nghiem_v0_3.md).
+
+Các điểm mới cần kiểm:
+
+- Nhận ra điều đáng xem → muốn ở lại → cảm nhận kết quả → dư âm/trở lại. Mong chờ và thích khi xem được hỏi riêng.
+- Giảm việc phải đoán người, vật, vị trí hoặc trạng thái qua cắt; không chỉ kéo chậm mọi cảnh.
+- Cho thành quả được nhìn, dùng hoặc nhận, rồi mới chuyển; biểu cảm có thể bình thường với tín hiệu dễ chịu nhỏ.
+- Tách được nghỉ/nhẹ nhõm khỏi hứng thú/tò mò; không coi mọi phản hồi ấm áp là thư giãn.
+- Mỗi tập tự hiểu được, thế giới tiếp diễn là giá trị bổ sung; có biến thể ít người để thử mà vẫn giữ thế giới đã chốt.
+- Thử mở đầu, khoảnh khắc nhận kết quả và âm môi trường so với thêm nhạc, dùng 96 cảnh hiện có.
+
+Người tự mô tả có triệu chứng và người cho biết đã được chẩn đoán cần được phân biệt khi đọc phản hồi. Không suy bệnh từ bình luận hoặc số liệu xem; không công khai dữ liệu sức khỏe hay nhận diện cá nhân trong kho này. Các nghiên cứu lâm sàng là nền đặt câu hỏi thiết kế, chưa là bằng chứng điều trị của Farm.
