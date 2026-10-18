@@ -1,0 +1,500 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FARM-VID01-REPORT-EXAMPLE",
+  "version": "0.1.0",
+  "record_type": "analysis",
+  "status": "partial",
+  "core_version": "1.0.0",
+  "niche_id": "FARM",
+  "title": "VID_01: ví dụ hai shot theo báo cáo có sẵn, chưa kiểm video",
+  "duration_seconds": 1364.44,
+  "fps": null,
+  "time_origin": {
+    "unit": "seconds",
+    "original_asset_id": "VID01-REPORT",
+    "local_offset_seconds": 0,
+    "time_basis": "source_report",
+    "boundary_convention": "start_inclusive_end_exclusive"
+  },
+  "assets": [
+    {
+      "id": "VID01-REPORT",
+      "kind": "report",
+      "title": "Bảng/ảnh và báo cáo VID_01",
+      "uri": "https://github.com/ducna841188/yt-ly-tu-that/blob/5bb00dc0984da0c6203f9e00250895f2e01739fc/Farm/VID_01/README.md",
+      "sha256": null,
+      "source_revision": "5bb00dc0984da0c6203f9e00250895f2e01739fc"
+    }
+  ],
+  "coverage": {
+    "visual_motion_intervals": [],
+    "audio_intervals": [],
+    "sampled_frame_times": [],
+    "audio_presence": "unknown",
+    "whole_visual_reviewed": false,
+    "whole_audio_reviewed": false,
+    "limitations": [
+      "Chỉ đọc báo cáo và số liệu nguồn; không xem video/audio trong bước này.",
+      "Không dùng span của report như khoảng đã xem.",
+      "Hai shot là ví dụ cấu trúc, không phân tích mới toàn phim."
+    ]
+  },
+  "evidence_records": [
+    {
+      "id": "VID01-RPT",
+      "kind": "source_report",
+      "asset_id": "VID01-REPORT",
+      "start_seconds": 0,
+      "end_seconds": 1364.44,
+      "locator": "https://github.com/ducna841188/yt-ly-tu-that/blob/5bb00dc0984da0c6203f9e00250895f2e01739fc/Farm/VID_01/Phan_tich_dien_anh.md",
+      "note": "Báo cáo từ workbook và ảnh; không là độ phủ xem chuyển động/audio."
+    }
+  ],
+  "viewer_brief": {
+    "promise": "Thư giãn trong thế giới làng quê xanh, theo tiến trình lao động và sự quây quần hưởng thành quả.",
+    "audience": "Nữ 35–55 ở đô thị Mỹ theo mục tiêu hiện hành",
+    "status": "user_decision"
+  },
+  "segments": [
+    {
+      "id": "VID01-SEG1",
+      "start_seconds": 0,
+      "end_seconds": 244.36,
+      "function": "Chuẩn bị, gieo, chăm và chuyển mùa theo cách gom trong báo cáo."
+    }
+  ],
+  "sequences": [
+    {
+      "id": "VID01-SEQ1",
+      "segment_id": "VID01-SEG1",
+      "start_seconds": 0,
+      "end_seconds": 244.36,
+      "objective": "Thiết lập thế giới và tiến trình gieo/chăm theo báo cáo.",
+      "change": "Đi từ chuẩn bị tới các dấu sinh trưởng theo mô tả.",
+      "relationship_to_next": null
+    }
+  ],
+  "shots": [
+    {
+      "id": "VID01-SHOT001",
+      "sequence_id": "VID01-SEQ1",
+      "start_seconds": 0,
+      "end_seconds": 3.2,
+      "observed": {
+        "summary": {
+          "value": "Theo báo cáo: hoa đào, mái nhà và núi mờ.",
+          "status": "source_report",
+          "basis": "source_report",
+          "evidence_refs": [
+            "VID01-RPT"
+          ],
+          "uncertainty_reason": null
+        },
+        "subject_count": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "identities": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "action": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "state_start": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "contact_and_change": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "state_end": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "setting": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "composition": {
+          "value": "Báo cáo mô tả cành gần, cây/mái nhà và núi xa.",
+          "status": "source_report",
+          "basis": "source_report",
+          "evidence_refs": [
+            "VID01-RPT"
+          ],
+          "uncertainty_reason": null
+        },
+        "shot_size": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "camera_height_and_angle": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "camera_motion": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "lens_and_perspective": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "focus": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "lighting": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "color": {
+          "value": "Báo cáo ảnh thiên lam–xám lạnh và hồng hoa.",
+          "status": "source_report",
+          "basis": "source_report",
+          "evidence_refs": [
+            "VID01-RPT"
+          ],
+          "uncertainty_reason": null
+        },
+        "material_texture": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "on_screen_text": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "time_treatment": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "cut_in": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "cut_out": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_ambience": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_action": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_dialogue": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_music": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        }
+      },
+      "events": [],
+      "interpretations": [],
+      "reconstruction_proposals": [],
+      "unresolved_questions": [
+        "Chuyển động và âm của shot chưa được xem/nghe độc lập trong lượt này."
+      ]
+    },
+    {
+      "id": "VID01-SHOT010",
+      "sequence_id": "VID01-SEQ1",
+      "start_seconds": 23.64,
+      "end_seconds": 32.0,
+      "observed": {
+        "summary": {
+          "value": "Theo báo cáo: người tưới/phun, chó nhỏ, tia nước và cây ở gần máy.",
+          "status": "source_report",
+          "basis": "source_report",
+          "evidence_refs": [
+            "VID01-RPT"
+          ],
+          "uncertainty_reason": null
+        },
+        "subject_count": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "identities": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "action": {
+          "value": "Báo cáo ảnh thấy dụng cụ có vòi và tia nước; không mặc định nghiêng bình để đổ.",
+          "status": "source_report",
+          "basis": "source_report",
+          "evidence_refs": [
+            "VID01-RPT"
+          ],
+          "uncertainty_reason": null
+        },
+        "state_start": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "contact_and_change": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "state_end": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "setting": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "composition": {
+          "value": "Báo cáo mô tả lớp cây gần máy và người/chó phía sau.",
+          "status": "source_report",
+          "basis": "source_report",
+          "evidence_refs": [
+            "VID01-RPT"
+          ],
+          "uncertainty_reason": null
+        },
+        "shot_size": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "camera_height_and_angle": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "camera_motion": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "lens_and_perspective": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "focus": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "lighting": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "color": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "material_texture": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "on_screen_text": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "time_treatment": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "cut_in": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "cut_out": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_ambience": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_action": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_dialogue": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        },
+        "audio_music": {
+          "value": null,
+          "status": "unknown",
+          "basis": "unknown",
+          "evidence_refs": [],
+          "uncertainty_reason": "Chưa có bằng chứng cho trường này."
+        }
+      },
+      "events": [],
+      "interpretations": [],
+      "reconstruction_proposals": [],
+      "unresolved_questions": [
+        "Chuyển động và âm của shot chưa được xem/nghe độc lập trong lượt này."
+      ]
+    }
+  ],
+  "emotional_intent": [],
+  "viewer_evidence": [],
+  "findings": [
+    {
+      "statement": "Theo báo cáo, có thể nghiên cứu quan hệ cảnh quan–thao tác–thành quả như một hướng thiết kế.",
+      "function": "Ứng viên học phong cách",
+      "desired_response": "Dễ theo dõi và mong nhận kết quả",
+      "status": "analyst_hypothesis",
+      "evidence_refs": [
+        "VID01-RPT"
+      ],
+      "limits": "Chưa phải quan sát mới toàn video hay phản hồi khán giả.",
+      "core_ids": [
+        "ST-004",
+        "ED-001",
+        "CA-005"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Cần video/audio gốc để xác minh chuyển động, ranh giới cắt, nhạc và thao tác toàn thời gian.",
+    "Ví dụ này chỉ ghi hai shot; không bao phủ lại cả 471 shot."
+  ],
+  "generation_tested": false,
+  "review_log": [
+    {
+      "date": "2026-10-18",
+      "action": "Đọc nguồn ghim và chuyển hai ví dụ vào schema mới",
+      "scope": "Nguồn báo cáo; không xem video/audio, không sửa 471 bản ghi gốc."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "repository_revision": "5bb00dc0984da0c6203f9e00250895f2e01739fc",
+  "sources": [
+    {
+      "id": "FARM-SRC-AUDIENCE",
+      "path": "Farm/Ho_so_khan_gia.md",
+      "revision": "5bb00dc0984da0c6203f9e00250895f2e01739fc",
+      "blob_sha": "beccbc77d9b15d041aeedefe89021fda3f06be68",
+      "scope": "Hồ sơ v0.4: mục tiêu và giả thuyết, chưa là dữ liệu khán giả xác nhận."
+    },
+    {
+      "id": "FARM-SRC-DIRECTION",
+      "path": "Farm/Dinh_huong_chinh_thuc.md",
+      "revision": "5bb00dc0984da0c6203f9e00250895f2e01739fc",
+      "blob_sha": "1bc50eb4eff6c800016e9810ff8f4765f68a2cc0",
+      "scope": "Quyết định sản xuất được chốt ngày 12/10/2026; áp dụng đúng phạm vi."
+    },
+    {
+      "id": "FARM-SRC-VID-README",
+      "path": "Farm/VID_01/README.md",
+      "revision": "5bb00dc0984da0c6203f9e00250895f2e01739fc",
+      "blob_sha": "6bba8f0a0b672d767a2fb513272f04432a226fcb",
+      "scope": "Phạm vi nguồn VID_01, bảng 471 shot và ảnh tĩnh."
+    },
+    {
+      "id": "FARM-SRC-VID-QA",
+      "path": "Farm/VID_01/Qa_du_lieu.md",
+      "revision": "5bb00dc0984da0c6203f9e00250895f2e01739fc",
+      "blob_sha": "5807adf157dc20f154be78a8099d4e083aaa53fc",
+      "scope": "Những trường mâu thuẫn và phần chưa kiểm bằng video/audio."
+    },
+    {
+      "id": "FARM-SRC-VID-METRICS",
+      "path": "Farm/VID_01/metrics.json",
+      "revision": "5bb00dc0984da0c6203f9e00250895f2e01739fc",
+      "blob_sha": "de6bf08e0cebbd345c186ad0e1fdf068266e578d",
+      "scope": "Thời lượng/tỷ lệ nhãn tính từ bảng, không từ lượt xem video độc lập."
+    },
+    {
+      "id": "FARM-SRC-VID-ANALYSIS",
+      "path": "Farm/VID_01/Phan_tich_dien_anh.md",
+      "revision": "5bb00dc0984da0c6203f9e00250895f2e01739fc",
+      "blob_sha": "3148b8dd1c356432c9b2e755d47e46b0d3617cca",
+      "scope": "Diễn giải từ bảng và 12 ảnh; giữ giới hạn nguồn."
+    }
+  ],
+  "note": "Liên kết ghim tới bản đã đọc; tài liệu gốc không bị sửa hoặc sao thay thế."
+}

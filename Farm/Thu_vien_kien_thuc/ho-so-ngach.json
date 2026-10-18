@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FARM",
+  "version": "1.0.0",
+  "title": "Đời sống nông thôn yên bình — nhánh ứng dụng",
+  "core_dependency": {
+    "repository": "ducna841188/kien-thuc-dien-anh",
+    "version": "1.0.0",
+    "commit": "da4b991ef001943138f5df9ab58067f01d19f4d1",
+    "manifest_url": "https://github.com/ducna841188/kien-thuc-dien-anh/blob/da4b991ef001943138f5df9ab58067f01d19f4d1/thu-vien/manifest.json"
+  },
+  "source_refs": [
+    {
+      "id": "FARM-SRC-AUDIENCE",
+      "path": "Farm/Ho_so_khan_gia.md",
+      "revision": "5bb00dc0984da0c6203f9e00250895f2e01739fc",
+      "blob_sha": "beccbc77d9b15d041aeedefe89021fda3f06be68",
+      "scope": "Hồ sơ v0.4: mục tiêu và giả thuyết, chưa là dữ liệu khán giả xác nhận."
+    },
+    {
+      "id": "FARM-SRC-DIRECTION",
+      "path": "Farm/Dinh_huong_chinh_thuc.md",
+      "revision": "5bb00dc0984da0c6203f9e00250895f2e01739fc",
+      "blob_sha": "1bc50eb4eff6c800016e9810ff8f4765f68a2cc0",
+      "scope": "Quyết định sản xuất được chốt ngày 12/10/2026; áp dụng đúng phạm vi."
+    },
+    {
+      "id": "FARM-SRC-VID-README",
+      "path": "Farm/VID_01/README.md",
+      "revision": "5bb00dc0984da0c6203f9e00250895f2e01739fc",
+      "blob_sha": "6bba8f0a0b672d767a2fb513272f04432a226fcb",
+      "scope": "Phạm vi nguồn VID_01, bảng 471 shot và ảnh tĩnh."
+    },
+    {
+      "id": "FARM-SRC-VID-QA",
+      "path": "Farm/VID_01/Qa_du_lieu.md",
+      "revision": "5bb00dc0984da0c6203f9e00250895f2e01739fc",
+      "blob_sha": "5807adf157dc20f154be78a8099d4e083aaa53fc",
+      "scope": "Những trường mâu thuẫn và phần chưa kiểm bằng video/audio."
+    },
+    {
+      "id": "FARM-SRC-VID-METRICS",
+      "path": "Farm/VID_01/metrics.json",
+      "revision": "5bb00dc0984da0c6203f9e00250895f2e01739fc",
+      "blob_sha": "de6bf08e0cebbd345c186ad0e1fdf068266e578d",
+      "scope": "Thời lượng/tỷ lệ nhãn tính từ bảng, không từ lượt xem video độc lập."
+    },
+    {
+      "id": "FARM-SRC-VID-ANALYSIS",
+      "path": "Farm/VID_01/Phan_tich_dien_anh.md",
+      "revision": "5bb00dc0984da0c6203f9e00250895f2e01739fc",
+      "blob_sha": "3148b8dd1c356432c9b2e755d47e46b0d3617cca",
+      "scope": "Diễn giải từ bảng và 12 ảnh; giữ giới hạn nguồn."
+    }
+  ],
+  "audience": {
+    "target": "Nữ 35–55 ở đô thị Mỹ theo mục tiêu hiện hành",
+    "promise": "Thư giãn trong thế giới làng quê xanh, theo tiến trình lao động và sự quây quần hưởng thành quả.",
+    "status": "target_hypothesis",
+    "unknowns": [
+      "Thành phần người xem thực tế",
+      "Mức chấp nhận AI",
+      "Sở thích từng cảnh và phản hồi thực",
+      "Hoàn cảnh xem trực tiếp hay để nền"
+    ]
+  },
+  "confirmed_choices": [
+    "Ưu tiên thị trường Mỹ.",
+    "Chủ yếu không thoại, trọng tâm nghỉ ngơi và đời sống làng quê.",
+    "Nhân vật sống với bà, có vật nuôi và quan hệ tiếp diễn.",
+    "Kiến thức ngách kế thừa core, không thay thế nền chung.",
+    "Công cụ cho thư viện linh hoạt theo nhu cầu mới; lựa chọn sản xuất cụ thể trong tài liệu Farm phải đọc đúng phạm vi và thời điểm."
+  ],
+  "rules": [
+    {
+      "id": "FARM-001",
+      "core_ids": [
+        "AU-001",
+        "ST-001",
+        "YT-001"
+      ],
+      "context": "Lời hứa Farm: nghỉ ngơi trong một thế giới làng quê xanh, theo mùa vụ và nhận thành quả.",
+      "application": [
+        "Chọn việc có tiến trình đọc được trong một nơi sống có quan hệ.",
+        "Dùng mở đầu và cách giới thiệu phù hợp lời hứa thư giãn."
+      ],
+      "acceptance_checks": [
+        "Người xem nhận ra nơi chốn và việc đáng theo.",
+        "Không thêm sốc/kịch tính lớn chỉ để lôi kéo."
+      ],
+      "status": "user_decision",
+      "source_refs": [
+        "FARM-SRC-DIRECTION",
+        "FARM-SRC-AUDIENCE"
+      ],
+      "limits": "Lời hứa không tự chứng minh tác dụng thư giãn của từng video; cần kiểm phản hồi."
+    },
+    {
+      "id": "FARM-002",
+      "core_ids": [
+        "AU-001",
+        "AU-006",
+        "YT-005"
+      ],
+      "context": "Tệp mục tiêu nữ 35–55 ở đô thị Mỹ; hồ sơ là mục tiêu chưa xác minh.",
+      "application": [
+        "Giữ nhân khẩu học mục tiêu theo nguồn.",
+        "Ghi hoàn cảnh/mục đích xem và phản hồi như dữ liệu cần thu, không tự thêm tỷ lệ."
+      ],
+      "acceptance_checks": [
+        "Không nói mọi người trong tệp có cùng sở thích.",
+        "Không suy chẩn đoán sức khỏe từ bình luận."
+      ],
+      "status": "user_decision",
+      "source_refs": [
+        "FARM-SRC-AUDIENCE"
+      ],
+      "limits": "Nghiên cứu trầm cảm là trọng tâm được yêu cầu ở hồ sơ cũ, chưa xác nhận tình trạng sức khỏe của khán giả thực."
+    },
+    {
+      "id": "FARM-003",
+      "core_ids": [
+        "ST-004",
+        "CO-004",
+        "AI-003"
+      ],
+      "context": "Chuỗi việc trồng–thu–chế biến hoặc làm vật dụng.",
+      "application": [
+        "Cho thấy trạng thái đầu, thao tác có tiếp xúc và kết quả.",
+        "Chọn dấu hoàn tất như giỏ đầy, vật dùng được hoặc món được nhận."
+      ],
+      "acceptance_checks": [
+        "Không có thành phẩm vô cớ khi mạch cần hiểu quá trình.",
+        "Bước quan trọng có góc đọc được."
+      ],
+      "status": "editorial_hypothesis",
+      "source_refs": [
+        "FARM-SRC-DIRECTION",
+        "FARM-SRC-VID-ANALYSIS"
+      ],
+      "limits": "Không bắt mọi tập có toàn chu kỳ; mức giữ bước phụ thuộc trải nghiệm, không biến thành giáo trình kỹ thuật."
+    },
+    {
+      "id": "FARM-004",
+      "core_ids": [
+        "CA-001",
+        "CA-005",
+        "DR-005"
+      ],
+      "context": "Thiên nhiên, việc làm và chất liệu thuộc cùng thế giới.",
+      "application": [
+        "Dùng toàn/trung để giữ quan hệ người–nơi.",
+        "Dùng cận cho thao tác hoặc chất liệu có chức năng, chọn cảnh thiên nhiên theo vai trò nối."
+      ],
+      "acceptance_checks": [
+        "Không cố đạt tỷ lệ cỡ cảnh của một video.",
+        "Chi tiết gần không che mất thao tác ngoài ý đồ."
+      ],
+      "status": "editorial_hypothesis",
+      "source_refs": [
+        "FARM-SRC-VID-ANALYSIS",
+        "FARM-SRC-VID-QA"
+      ],
+      "limits": "Nhãn cỡ cảnh nguồn có sai lệch; cần video để xác nhận trước khi dùng thống kê phong cách."
+    },
+    {
+      "id": "FARM-005",
+      "core_ids": [
+        "ED-001",
+        "ED-004",
+        "ED-005",
+        "AU-005"
+      ],
+      "context": "Nhịp yên bình nhưng có tiến triển.",
+      "application": [
+        "Nén phần lặp và giữ bước cần hiểu.",
+        "Dành cơ hội nhận thành quả, phản ứng hoặc khoảng thở có nhiệm vụ."
+      ],
+      "acceptance_checks": [
+        "Người xem theo được vật/người/trạng thái qua cut.",
+        "Không kéo dài mọi shot hoặc đặt 2.9 giây thành chuẩn."
+      ],
+      "status": "editorial_hypothesis",
+      "source_refs": [
+        "FARM-SRC-VID-METRICS",
+        "FARM-SRC-VID-ANALYSIS"
+      ],
+      "limits": "2.90 giây là trung bình theo bảng VID_01, không phép đo cảm xúc và không chuẩn nhịp Farm."
+    },
+    {
+      "id": "FARM-006",
+      "core_ids": [
+        "DR-004",
+        "ST-008",
+        "YT-004"
+      ],
+      "context": "Đời sống tiếp diễn: cô gái, bà, chó/mèo, người thân và hàng xóm.",
+      "application": [
+        "Giữ quan hệ gia đình/thế giới đã chốt.",
+        "Chọn số người theo nhiệm vụ mỗi shot; nếu job yêu cầu một người thì giữ đúng một người."
+      ],
+      "acceptance_checks": [
+        "Không biến cả loạt thành một nhân vật duy nhất vì một ca sửa lỗi.",
+        "Mỗi tập vẫn hiểu được khi chưa xem tập trước."
+      ],
+      "status": "user_decision",
+      "source_refs": [
+        "FARM-SRC-DIRECTION"
+      ],
+      "limits": "Tham chiếu nhân vật/vật nuôi và lựa chọn cho từng shot phải lấy từ tài sản đã duyệt, không tự bịa."
+    },
+    {
+      "id": "FARM-007",
+      "core_ids": [
+        "SO-001",
+        "SO-005",
+        "SO-006",
+        "SO-008"
+      ],
+      "context": "Video chủ yếu không thoại; âm thao tác, môi trường và nhạc nhẹ có vai trò.",
+      "application": [
+        "Giữ tiếng thao tác phù hợp sự kiện nếu dùng được.",
+        "Người dùng quản lý nền/nhạc; chọn chỗ có và không có nhạc theo trải nghiệm."
+      ],
+      "acceptance_checks": [
+        "Không tự thêm thoại vào bản yêu cầu không thoại.",
+        "Không giật âm hoặc che tiếng chính ngoài ý đồ."
+      ],
+      "status": "user_decision",
+      "source_refs": [
+        "FARM-SRC-DIRECTION",
+        "FARM-SRC-AUDIENCE"
+      ],
+      "limits": "Chưa nghe audio VID_01; không lấy lời mô tả nguồn để khẳng định cách trộn thực."
+    },
+    {
+      "id": "FARM-008",
+      "core_ids": [
+        "AI-002",
+        "LI-005",
+        "CO-005",
+        "QC-004"
+      ],
+      "context": "Nhân vật, nhà, vườn, dụng cụ và mùa vụ cần giữ quan hệ qua tập.",
+      "application": [
+        "Ghim asset ID/phiên bản và quyền tham chiếu.",
+        "Theo dõi trạng thái nguyên liệu, tay, ánh sáng, trang phục và địa lý qua chuỗi."
+      ],
+      "acceptance_checks": [
+        "Không đổi mặt/áo hoặc nhân đôi người/vật vô cớ.",
+        "Thay mùa/giờ có tín hiệu và điều kiện phù hợp."
+      ],
+      "status": "user_decision",
+      "source_refs": [
+        "FARM-SRC-DIRECTION"
+      ],
+      "limits": "Không có đủ hồ sơ tài sản hiện hành trong nhánh thư viện này; tiếp nhận đúng bộ duyệt khi sản xuất."
+    },
+    {
+      "id": "FARM-009",
+      "core_ids": [
+        "YT-003",
+        "YT-004",
+        "YT-005",
+        "QC-003"
+      ],
+      "context": "Ưu tiên đánh giá: giữ chân, người quay lại và phản hồi thư giãn.",
+      "application": [
+        "Ghi dữ liệu theo video/đoạn và hoàn cảnh.",
+        "Tách phản hồi yên, tò mò, ấm, nhớ nhung, buồn hoặc tự so sánh khi cần."
+      ],
+      "acceptance_checks": [
+        "Không dùng giữ chân làm chứng nhận thư giãn/điều trị.",
+        "Không tự đặt ngưỡng thắng khi chưa thống nhất mục tiêu dữ liệu."
+      ],
+      "status": "user_decision",
+      "source_refs": [
+        "FARM-SRC-AUDIENCE",
+        "FARM-SRC-DIRECTION"
+      ],
+      "limits": "Mốc sau 3–5 video là lựa chọn rà dự án trong nguồn, không điều kiện đủ chứng minh nguyên lý."
+    },
+    {
+      "id": "FARM-010",
+      "core_ids": [
+        "EV-001",
+        "EV-004",
+        "EV-006",
+        "QC-006"
+      ],
+      "context": "VID_01 là nguồn bảng/ảnh cần giữ giới hạn khi học phong cách.",
+      "application": [
+        "Dùng dữ liệu thời gian đã đối soát như dữ liệu bảng.",
+        "Giữ các trường chuyển động/âm chưa biết và mâu thuẫn chưa giải; bổ sung lớp xem video sau."
+      ],
+      "acceptance_checks": [
+        "Không tuyên bố đã xem 22:44.44 chuyển động/audio từ workbook.",
+        "Không tự sửa nguồn để đồng ý với giả thuyết."
+      ],
+      "status": "editorial_hypothesis",
+      "source_refs": [
+        "FARM-SRC-VID-README",
+        "FARM-SRC-VID-QA"
+      ],
+      "limits": "Nhánh này chưa tiếp nhận video mới; đây là khung vận dụng và đối chiếu nguồn đã có."
+    }
+  ],
+  "corpus": [
+    {
+      "id": "VID_01",
+      "path": "Farm/VID_01",
+      "revision": "5bb00dc0984da0c6203f9e00250895f2e01739fc",
+      "media_review_state": "workbook_and_stills_only_in_existing_analysis",
+      "limitations": [
+        "471 bản ghi từ bảng; 12 ảnh nhúng ở nguồn.",
+        "Chưa có lượt xem/nghe độc lập toàn video ở dữ liệu nguồn.",
+        "Một số nhãn và câu mẫu mâu thuẫn mô tả."
+      ]
+    }
+  ],
+  "promotion_candidates": [
+    {
+      "id": "FARM-CAND-001",
+      "core_ids": [
+        "ED-001",
+        "MO-006"
+      ],
+      "claim": "Cảm giác sống chậm có thể cùng tồn tại với chuỗi shot ngắn khi việc dễ theo.",
+      "evidence_refs": [
+        "FARM-SRC-VID-METRICS",
+        "FARM-SRC-VID-ANALYSIS"
+      ],
+      "conditions": [
+        "Thời lượng mới từ bảng; cần xem hình/âm và phản hồi để kiểm trải nghiệm."
+      ],
+      "counterexample": "Shot ngắn dày thông tin hoặc âm giật có thể gây căng, ngay trong bối cảnh làng quê.",
+      "status": "candidate"
+    },
+    {
+      "id": "FARM-CAND-002",
+      "core_ids": [
+        "ST-004",
+        "ED-005"
+      ],
+      "claim": "Cho kết quả được nhận hoặc sử dụng có thể làm vòng công việc rõ và có ý nghĩa.",
+      "evidence_refs": [
+        "FARM-SRC-VID-ANALYSIS"
+      ],
+      "conditions": [
+        "Cần xem tiến trình và phần nhận kết quả thực tế."
+      ],
+      "counterexample": "Một tác phẩm giữ mở có chủ ý có thể chọn không xác nhận hoàn tất.",
+      "status": "candidate"
+    },
+    {
+      "id": "FARM-CAND-003",
+      "core_ids": [
+        "ED-007",
+        "ST-005"
+      ],
+      "claim": "Ngoại cảnh có chức năng nối nơi, thời gian hoặc trọng tâm sẽ có lý do rõ hơn cảnh trang trí ngẫu nhiên.",
+      "evidence_refs": [
+        "FARM-SRC-VID-ANALYSIS"
+      ],
+      "conditions": [
+        "Phải kiểm quan hệ trước–sau; chưa xác định loại cut/audio nguồn."
+      ],
+      "counterexample": "Một đoạn phi tuyến có thể liên kết bằng ý tưởng thay vì địa lý/thời gian.",
+      "status": "candidate"
+    }
+  ],
+  "updated_on": "2026-10-18"
+}
