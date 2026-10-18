@@ -1,0 +1,739 @@
+{
+  "id": "FARM-VID02-DNA",
+  "version": "0.1.0",
+  "core_version": "1.3.1",
+  "source_analysis": "phan-tich.json",
+  "scope": "Một phim, ảnh theo thời gian; chưa là công thức thành công chín phim hoặc quan hệ nhân quả.",
+  "viewer_data_received": false,
+  "rules": [
+    {
+      "id": "V02-DNA-01",
+      "kind": "STYLE",
+      "title": "Đan việc trong các khoảng chờ",
+      "observations": "Một vòng được đưa vào trạng thái chờ, công việc khác phát triển, rồi phim quay lại trả kết quả.",
+      "shot_refs": [
+        "V02-S018",
+        "V02-S024",
+        "V02-S045",
+        "V02-S046",
+        "V02-S058",
+        "V02-S059",
+        "V02-S068",
+        "V02-S070",
+        "V02-S077",
+        "V02-S080",
+        "V02-S081",
+        "V02-S150"
+      ],
+      "evidence_refs": [
+        "V02-F003139",
+        "V02-F003436",
+        "V02-F004304",
+        "V02-F004517",
+        "V02-F007555",
+        "V02-F007853",
+        "V02-F007860",
+        "V02-F008109",
+        "V02-F010161",
+        "V02-F010396",
+        "V02-F010403",
+        "V02-F010630",
+        "V02-F011915",
+        "V02-F012028",
+        "V02-F012117",
+        "V02-F012361",
+        "V02-F013365",
+        "V02-F013593",
+        "V02-F013769",
+        "V02-F013945",
+        "V02-F013952",
+        "V02-F014098",
+        "V02-F025005",
+        "V02-F025091"
+      ],
+      "conditions": [
+        "Có vài tiến trình cùng tồn tại và dấu vật/trạng thái đủ để nhận ra lúc trở lại."
+      ],
+      "interpretation": "Có thể chuyển giao chức năng theo điều kiện; tác dụng với tệp Farm cần kiểm.",
+      "reconstruction_recipe": "Giữ một bảng món đang mở, dấu vào chờ và mốc quay lại; dùng cảnh trở lại có vật mốc rõ.",
+      "exceptions": [
+        "Nếu thêm quá nhiều món mà không có mốc nhận ra, sự đan xen có thể làm lạc tiến trình."
+      ],
+      "next_test": "Cho người mới kể lại thứ tự từng món, so bản có/không dấu nhắc lúc trở lại.",
+      "evidence_state": "conditional_hypothesis",
+      "knowledge_refs": [
+        {
+          "id": "ST-004",
+          "version": "1.2.1"
+        },
+        {
+          "id": "ED-001",
+          "version": "1.2.1"
+        }
+      ],
+      "generation_tested": false,
+      "viewer_tested": false
+    },
+    {
+      "id": "V02-DNA-02",
+      "kind": "STYLE",
+      "title": "Bằng chứng biến đổi thay cho lời giải thích dài",
+      "observations": "Nhiều cận cho thấy vật liệu đổi hình hoặc được dụng cụ tác động, bên cạnh góc người làm.",
+      "shot_refs": [
+        "V02-S014",
+        "V02-S026",
+        "V02-S039",
+        "V02-S055",
+        "V02-S065",
+        "V02-S068",
+        "V02-S078",
+        "V02-S133",
+        "V02-S135"
+      ],
+      "evidence_refs": [
+        "V02-F002365",
+        "V02-F002518",
+        "V02-F004707",
+        "V02-F004891",
+        "V02-F006604",
+        "V02-F006762",
+        "V02-F009551",
+        "V02-F009757",
+        "V02-F011528",
+        "V02-F011691",
+        "V02-F011915",
+        "V02-F012028",
+        "V02-F013600",
+        "V02-F013703",
+        "V02-F022223",
+        "V02-F022593",
+        "V02-F022696",
+        "V02-F022875"
+      ],
+      "conditions": [
+        "Biến đổi là thông tin chính; điểm tiếp xúc và kết quả phải đủ lớn để đọc."
+      ],
+      "interpretation": "Có thể chuyển giao chức năng theo điều kiện; tác dụng với tệp Farm cần kiểm.",
+      "reconstruction_recipe": "Lập đầu–đỡ–chạm–tác động–cuối trước chọn cỡ, chia pha nếu AI không giữ được.",
+      "exceptions": [
+        "Một chuỗi chỉ có cận vẫn có thể mất quan hệ nơi chốn hoặc không giải thích được thao tác."
+      ],
+      "next_test": "Kiểm người chưa biết việc nhận đúng biến đổi, rồi kiểm toàn clip AI chứ không chỉ frame.",
+      "evidence_state": "conditional_hypothesis",
+      "knowledge_refs": [
+        {
+          "id": "DR-008",
+          "version": "1.1.0"
+        },
+        {
+          "id": "CA-001",
+          "version": "1.1.0"
+        },
+        {
+          "id": "AI-003",
+          "version": "1.1.0"
+        }
+      ],
+      "generation_tested": false,
+      "viewer_tested": false
+    },
+    {
+      "id": "V02-DNA-03",
+      "kind": "STYLE",
+      "title": "Bộ cỡ đi theo nhiệm vụ",
+      "observations": "Khung rộng giữ quan hệ người–nơi, khung gần giữ điểm tác động, khung món xác nhận kết quả.",
+      "shot_refs": [
+        "V02-S011",
+        "V02-S012",
+        "V02-S013",
+        "V02-S014",
+        "V02-S015",
+        "V02-S038",
+        "V02-S039",
+        "V02-S042",
+        "V02-S098",
+        "V02-S099",
+        "V02-S107",
+        "V02-S108"
+      ],
+      "evidence_refs": [
+        "V02-F001740",
+        "V02-F002050",
+        "V02-F002057",
+        "V02-F002201",
+        "V02-F002208",
+        "V02-F002358",
+        "V02-F002365",
+        "V02-F002518",
+        "V02-F002525",
+        "V02-F002644",
+        "V02-F006384",
+        "V02-F006597",
+        "V02-F006604",
+        "V02-F006762",
+        "V02-F007032",
+        "V02-F007235",
+        "V02-F016789",
+        "V02-F017030",
+        "V02-F017037",
+        "V02-F017107",
+        "V02-F017986",
+        "V02-F018158",
+        "V02-F018165",
+        "V02-F018402"
+      ],
+      "conditions": [
+        "Mỗi lần đổi cỡ bổ sung thông tin hoặc đổi trọng tâm thật."
+      ],
+      "interpretation": "Có thể chuyển giao chức năng theo điều kiện; tác dụng với tệp Farm cần kiểm.",
+      "reconstruction_recipe": "Thiết kế bộ góc tối thiểu theo bằng chứng cần thấy; dùng một góc nếu đã làm đủ nhiệm vụ.",
+      "exceptions": [
+        "Ép tỷ lệ cận/toàn theo mẫu có thể tạo cảnh thừa hoặc mất định hướng."
+      ],
+      "next_test": "Thử bỏ một góc và kiểm người xem có mất thông tin thiết yếu hay không.",
+      "evidence_state": "conditional_hypothesis",
+      "knowledge_refs": [
+        {
+          "id": "CA-001",
+          "version": "1.1.0"
+        },
+        {
+          "id": "CA-005",
+          "version": "1.0.0"
+        },
+        {
+          "id": "ED-009",
+          "version": "1.1.0"
+        }
+      ],
+      "generation_tested": false,
+      "viewer_tested": false
+    },
+    {
+      "id": "V02-DNA-04",
+      "kind": "STYLE",
+      "title": "Đạo cụ gieo trước, có công dụng muộn",
+      "observations": "Bó rơm được chế tạo ở đầu và trở lại làm giá giữ các xiên kẹo về sau.",
+      "shot_refs": [
+        "V02-S020",
+        "V02-S021",
+        "V02-S022",
+        "V02-S023",
+        "V02-S148",
+        "V02-S149"
+      ],
+      "evidence_refs": [
+        "V02-F003616",
+        "V02-F003841",
+        "V02-F003848",
+        "V02-F003994",
+        "V02-F004001",
+        "V02-F004114",
+        "V02-F004121",
+        "V02-F004297",
+        "V02-F024677",
+        "V02-F024745",
+        "V02-F024752",
+        "V02-F024998"
+      ],
+      "conditions": [
+        "Đạo cụ có hình nhận ra và công dụng nhìn thấy, không cần nhắc liên tục."
+      ],
+      "interpretation": "Có thể chuyển giao chức năng theo điều kiện; tác dụng với tệp Farm cần kiểm.",
+      "reconstruction_recipe": "Đánh dấu thiết lập đạo cụ, các lần thấy, và khoảnh khắc nó thực hiện công năng.",
+      "exceptions": [
+        "Nếu đạo cụ không liên quan lời hứa, kéo dài khâu làm nó có thể thành đường vòng."
+      ],
+      "next_test": "Hỏi người mới có nhận ra công dụng khi giá kẹo xuất hiện; không gợi đáp án trước.",
+      "evidence_state": "conditional_hypothesis",
+      "knowledge_refs": [
+        {
+          "id": "EV-001",
+          "version": "1.0.0"
+        },
+        {
+          "id": "ST-004",
+          "version": "1.2.1"
+        }
+      ],
+      "generation_tested": false,
+      "viewer_tested": false
+    },
+    {
+      "id": "V02-DNA-05",
+      "kind": "STYLE",
+      "title": "Thành quả tích vào nơi sống",
+      "observations": "Các món được đổ đầy, đóng túi, đặt hộp và cất cạnh những món đã có; nền phòng giữ dấu tích công việc.",
+      "shot_refs": [
+        "V02-S050",
+        "V02-S110",
+        "V02-S111",
+        "V02-S146",
+        "V02-S149",
+        "V02-S153",
+        "V02-S156",
+        "V02-S157",
+        "V02-S167",
+        "V02-S168",
+        "V02-S175"
+      ],
+      "evidence_refs": [
+        "V02-F008715",
+        "V02-F008937",
+        "V02-F018570",
+        "V02-F018724",
+        "V02-F018731",
+        "V02-F018966",
+        "V02-F024359",
+        "V02-F024512",
+        "V02-F024752",
+        "V02-F024998",
+        "V02-F025560",
+        "V02-F025724",
+        "V02-F025983",
+        "V02-F026138",
+        "V02-F026145",
+        "V02-F026374",
+        "V02-F027906",
+        "V02-F028088",
+        "V02-F028095",
+        "V02-F028339",
+        "V02-F029881",
+        "V02-F030132"
+      ],
+      "conditions": [
+        "Vị trí vật và lớp trước/sau nhất quán đủ để người xem hiểu sự đầy lên."
+      ],
+      "interpretation": "Có thể chuyển giao chức năng theo điều kiện; tác dụng với tệp Farm cần kiểm.",
+      "reconstruction_recipe": "Dùng sổ nơi cất và dung lượng vật chứa, ghi món thêm vào và đồ phải còn ở góc sau.",
+      "exceptions": [
+        "Chỉ bày nhiều món đẹp mà không có nguyên nhân tạo ra dễ thành trưng bày rời."
+      ],
+      "next_test": "Kiểm bản dựng xem món/giỏ có tự sinh hoặc biến mất; kiểm người mới nhận ra thành quả chung.",
+      "evidence_state": "conditional_hypothesis",
+      "knowledge_refs": [
+        {
+          "id": "ST-004",
+          "version": "1.2.1"
+        },
+        {
+          "id": "ED-001",
+          "version": "1.2.1"
+        }
+      ],
+      "generation_tested": false,
+      "viewer_tested": false
+    },
+    {
+      "id": "V02-DNA-06",
+      "kind": "STYLE",
+      "title": "Đời sống phụ có hoạt động riêng",
+      "observations": "Vật nuôi ăn lá, đi cùng người, nghỉ hoặc ngước nhìn, được xen giữa thao tác món ăn.",
+      "shot_refs": [
+        "V02-S002",
+        "V02-S008",
+        "V02-S019",
+        "V02-S075",
+        "V02-S097",
+        "V02-S129",
+        "V02-S169",
+        "V02-S176"
+      ],
+      "evidence_refs": [
+        "V02-F000144",
+        "V02-F000331",
+        "V02-F001125",
+        "V02-F001345",
+        "V02-F003443",
+        "V02-F003609",
+        "V02-F013023",
+        "V02-F013267",
+        "V02-F016705",
+        "V02-F016782",
+        "V02-F021665",
+        "V02-F021799",
+        "V02-F028346",
+        "V02-F028676",
+        "V02-F030139",
+        "V02-F030593"
+      ],
+      "conditions": [
+        "Hoạt động phụ thuộc cùng nơi sống và không làm mất mốc chính."
+      ],
+      "interpretation": "Có thể chuyển giao chức năng theo điều kiện; tác dụng với tệp Farm cần kiểm.",
+      "reconstruction_recipe": "Chọn một hành vi có điểm nhìn/quan hệ rõ cho vật nuôi, giữ nhận diện và vị trí qua tập.",
+      "exceptions": [
+        "Chèn thú ngẫu nhiên không liên quan có thể làm đứt tiến trình; ảnh ngước không chứng minh đã được cho ăn."
+      ],
+      "next_test": "So hai bản có/không một nhịp phụ; hỏi người xem hiểu quan hệ và có thấy bị ngắt hay không.",
+      "evidence_state": "conditional_hypothesis",
+      "knowledge_refs": [
+        {
+          "id": "CA-005",
+          "version": "1.0.0"
+        },
+        {
+          "id": "ED-001",
+          "version": "1.2.1"
+        }
+      ],
+      "generation_tested": false,
+      "viewer_tested": false
+    },
+    {
+      "id": "V02-DNA-07",
+      "kind": "STYLE",
+      "title": "Mốc thời gian cùng đổi diện mạo",
+      "observations": "Mái tối, trời sao và cảnh sương nối hai giai đoạn; trang phục/tóc của người cũng thay đổi.",
+      "shot_refs": [
+        "V02-S089",
+        "V02-S090",
+        "V02-S091",
+        "V02-S092",
+        "V02-S094",
+        "V02-S112",
+        "V02-S114"
+      ],
+      "evidence_refs": [
+        "V02-F015448",
+        "V02-F015477",
+        "V02-F015484",
+        "V02-F015667",
+        "V02-F015674",
+        "V02-F015810",
+        "V02-F015817",
+        "V02-F015972",
+        "V02-F016185",
+        "V02-F016358",
+        "V02-F018973",
+        "V02-F019136",
+        "V02-F019256",
+        "V02-F019374"
+      ],
+      "conditions": [
+        "Chỉ đọc thứ tự biểu đạt, không suy số giờ/ngày hoặc tốc độ quay thực từ ảnh."
+      ],
+      "interpretation": "Có thể chuyển giao chức năng theo điều kiện; tác dụng với tệp Farm cần kiểm.",
+      "reconstruction_recipe": "Chốt từng giai đoạn trang phục và tín hiệu thời gian, giữ chúng theo chuỗi.",
+      "exceptions": [
+        "Tự áp tất cả cảnh sương là sáng hôm sau hoặc gán timelapse chưa kiểm sẽ làm sai thư viện."
+      ],
+      "next_test": "Xem trọn chuỗi đêm–sáng, kiểm tốc độ thật rồi hỏi người mới hiểu thời gian thế nào.",
+      "evidence_state": "conditional_hypothesis",
+      "knowledge_refs": [
+        {
+          "id": "EV-004",
+          "version": "1.1.0"
+        },
+        {
+          "id": "ED-001",
+          "version": "1.2.1"
+        }
+      ],
+      "generation_tested": false,
+      "viewer_tested": false
+    },
+    {
+      "id": "V02-DNA-08",
+      "kind": "EFFECT_HYPOTHESIS",
+      "title": "Nhịp yên có thể cần độ dài khác nhau",
+      "observations": "Các khoảng dựng dài ngắn khác nhau; cảnh mái chỉ 0,70 giây, cảnh cuối 9,22 giây, cảnh rót/tráng bánh 7,54 giây.",
+      "shot_refs": [
+        "V02-S089",
+        "V02-S094",
+        "V02-S098",
+        "V02-S105",
+        "V02-S106",
+        "V02-S107",
+        "V02-S133",
+        "V02-S175",
+        "V02-S176"
+      ],
+      "evidence_refs": [
+        "V02-F015448",
+        "V02-F015477",
+        "V02-F016185",
+        "V02-F016358",
+        "V02-F016789",
+        "V02-F017030",
+        "V02-F017684",
+        "V02-F017906",
+        "V02-F017913",
+        "V02-F017981",
+        "V02-F017986",
+        "V02-F018158",
+        "V02-F022223",
+        "V02-F022593",
+        "V02-F029881",
+        "V02-F030132",
+        "V02-F030139",
+        "V02-F030593"
+      ],
+      "conditions": [
+        "Thời gian được cấp theo nhận diện, thao tác, chờ hoặc nhận kết; cảm giác thực còn cần nghe/xem và hỏi người xem."
+      ],
+      "interpretation": "Có thể chuyển giao chức năng theo điều kiện; tác dụng với tệp Farm cần kiểm.",
+      "reconstruction_recipe": "Giữ chức năng thời gian trước khi chọn số giây; không đặt mọi cú ba giây.",
+      "exceptions": [
+        "Độ dài biến thiên tự nó không đảm bảo thư giãn hoặc giữ chân."
+      ],
+      "next_test": "Thử một chuỗi dựng theo hành động và một bản đều nhịp, kiểm hiểu/cảm nhận riêng.",
+      "evidence_state": "conditional_hypothesis",
+      "knowledge_refs": [
+        {
+          "id": "EV-007",
+          "version": "1.1.0"
+        },
+        {
+          "id": "EV-008",
+          "version": "1.1.0"
+        },
+        {
+          "id": "ED-001",
+          "version": "1.2.1"
+        }
+      ],
+      "generation_tested": false,
+      "viewer_tested": false
+    },
+    {
+      "id": "V02-DNA-09",
+      "kind": "EFFECT_HYPOTHESIS",
+      "title": "Trao và cùng dùng là một kiểu trả kết quả",
+      "observations": "Một số món được ăn thử; phần cuối có chuyển quyền giữ rồi hai người cùng ăn.",
+      "shot_refs": [
+        "V02-S047",
+        "V02-S048",
+        "V02-S109",
+        "V02-S151",
+        "V02-S154",
+        "V02-S173",
+        "V02-S174",
+        "V02-S175"
+      ],
+      "evidence_refs": [
+        "V02-F008116",
+        "V02-F008296",
+        "V02-F008303",
+        "V02-F008466",
+        "V02-F018409",
+        "V02-F018563",
+        "V02-F025098",
+        "V02-F025351",
+        "V02-F025731",
+        "V02-F025857",
+        "V02-F029384",
+        "V02-F029667",
+        "V02-F029674",
+        "V02-F029874",
+        "V02-F029881",
+        "V02-F030132"
+      ],
+      "conditions": [
+        "Cảnh cần thể hiện người nhận/ý nghĩa sử dụng, không chỉ món đẹp."
+      ],
+      "interpretation": "Có thể chuyển giao chức năng theo điều kiện; tác dụng với tệp Farm cần kiểm.",
+      "reconstruction_recipe": "Cho thấy vật được dùng/nhận bằng hành động nhỏ; giữ điểm đỡ trước khi người trao nhả.",
+      "exceptions": [
+        "Một kết mở có thể không cần hành động dùng; gương mặt trong ảnh không xác nhận khán giả cảm thấy ấm áp."
+      ],
+      "next_test": "Kiểm chuyển vật về kỹ thuật, hỏi người xem ý nghĩa/quan hệ họ nhận ra và cảm xúc họ tự trải nghiệm.",
+      "evidence_state": "conditional_hypothesis",
+      "knowledge_refs": [
+        {
+          "id": "ST-004",
+          "version": "1.2.1"
+        },
+        {
+          "id": "DR-008",
+          "version": "1.1.0"
+        }
+      ],
+      "generation_tested": false,
+      "viewer_tested": false
+    },
+    {
+      "id": "V02-DNA-10",
+      "kind": "STYLE",
+      "title": "Cao trào nhỏ là ngoại lệ đáng giữ đúng phạm vi",
+      "observations": "Chuỗi bình rang có chuẩn bị, người đứng tránh, khói bùng và hình kết bỏng đầy giỏ; khác chuỗi nấu êm trước.",
+      "shot_refs": [
+        "V02-S099",
+        "V02-S100",
+        "V02-S102",
+        "V02-S105",
+        "V02-S106",
+        "V02-S107",
+        "V02-S108"
+      ],
+      "evidence_refs": [
+        "V02-F017037",
+        "V02-F017107",
+        "V02-F017114",
+        "V02-F017229",
+        "V02-F017320",
+        "V02-F017431",
+        "V02-F017684",
+        "V02-F017906",
+        "V02-F017913",
+        "V02-F017981",
+        "V02-F017986",
+        "V02-F018158",
+        "V02-F018165",
+        "V02-F018402"
+      ],
+      "conditions": [
+        "Không rút quy tắc toàn phim phải có cú bùng hoặc toàn phim luôn nhẹ; âm của nguồn vẫn chưa nghe."
+      ],
+      "interpretation": "Có thể chuyển giao chức năng theo điều kiện; tác dụng với tệp Farm cần kiểm.",
+      "reconstruction_recipe": "Trong Farm, quyết định riêng có dùng một khoảnh khắc tương phản như vậy theo lời hứa; thử phản hồi trước áp rộng.",
+      "exceptions": [
+        "Một cú tương phản có thể gây giật hoặc phá trải nghiệm nghỉ ngơi của tệp mục tiêu."
+      ],
+      "next_test": "Nghe/xem toàn chuỗi rồi thử với tệp phù hợp, không suy từ động tác bịt tai rằng âm đã được xác minh.",
+      "evidence_state": "conditional_hypothesis",
+      "knowledge_refs": [
+        {
+          "id": "EV-007",
+          "version": "1.1.0"
+        },
+        {
+          "id": "ED-001",
+          "version": "1.2.1"
+        },
+        {
+          "id": "YT-010",
+          "version": "1.1.0"
+        }
+      ],
+      "generation_tested": false,
+      "viewer_tested": false
+    },
+    {
+      "id": "V02-DNA-11",
+      "kind": "AI_FEASIBILITY",
+      "title": "Nguy cơ nằm ở quan hệ vật, không chỉ độ đẹp",
+      "observations": "Các thao tác có điểm đỡ, che/lộ, vật rời, chất dẻo, xoắn giấy hoặc chuyển quyền giữ đòi hỏi kiểm riêng.",
+      "shot_refs": [
+        "V02-S018",
+        "V02-S026",
+        "V02-S039",
+        "V02-S068",
+        "V02-S135",
+        "V02-S164",
+        "V02-S165",
+        "V02-S174"
+      ],
+      "evidence_refs": [
+        "V02-F003139",
+        "V02-F003436",
+        "V02-F004707",
+        "V02-F004891",
+        "V02-F006604",
+        "V02-F006762",
+        "V02-F011915",
+        "V02-F012028",
+        "V02-F022696",
+        "V02-F022875",
+        "V02-F027207",
+        "V02-F027361",
+        "V02-F027368",
+        "V02-F027610",
+        "V02-F029674",
+        "V02-F029874"
+      ],
+      "conditions": [
+        "Ảnh đầu khả thi và tài sản chuẩn; chưa có clip AI tạo để chứng minh model đáp ứng."
+      ],
+      "interpretation": "Có thể chuyển giao chức năng theo điều kiện; tác dụng với tệp Farm cần kiểm.",
+      "reconstruction_recipe": "Thử mỗi kiểu khó bằng một clip đại diện, ghi chi phí giây dùng được và giữ phần đạt khi sửa.",
+      "exceptions": [
+        "Một prompt rất dài hoặc ảnh đầu/cuối đẹp không chứng nhận đoạn giữa đúng hành động."
+      ],
+      "next_test": "Xem tốc độ thật và rà pha khó, kiểm cả take và hai điểm nối; âm kiểm bằng kênh nghe thật.",
+      "evidence_state": "conditional_hypothesis",
+      "knowledge_refs": [
+        {
+          "id": "DR-008",
+          "version": "1.1.0"
+        },
+        {
+          "id": "AI-003",
+          "version": "1.1.0"
+        },
+        {
+          "id": "QC-010",
+          "version": "1.3.0"
+        }
+      ],
+      "generation_tested": false,
+      "viewer_tested": false
+    },
+    {
+      "id": "V02-DNA-12",
+      "kind": "STYLE",
+      "title": "Tên món là một lớp thông tin riêng",
+      "observations": "Nhãn chữ dọc xuất hiện ở nhiều hình thành phẩm; không đồng nhất chúng với thoại hoặc hướng dẫn công thức.",
+      "shot_refs": [
+        "V02-S042",
+        "V02-S045",
+        "V02-S050",
+        "V02-S080",
+        "V02-S088",
+        "V02-S110",
+        "V02-S121",
+        "V02-S128",
+        "V02-S136",
+        "V02-S150"
+      ],
+      "evidence_refs": [
+        "V02-F007032",
+        "V02-F007235",
+        "V02-F007555",
+        "V02-F007853",
+        "V02-F008715",
+        "V02-F008937",
+        "V02-F013769",
+        "V02-F013945",
+        "V02-F015137",
+        "V02-F015442",
+        "V02-F018570",
+        "V02-F018724",
+        "V02-F020381",
+        "V02-F020608",
+        "V02-F021494",
+        "V02-F021658",
+        "V02-F022882",
+        "V02-F023046",
+        "V02-F025005",
+        "V02-F025091"
+      ],
+      "conditions": [
+        "Người xem cần nhận tên món và có đủ khoảng trống/độ tương phản để đọc."
+      ],
+      "interpretation": "Có thể chuyển giao chức năng theo điều kiện; tác dụng với tệp Farm cần kiểm.",
+      "reconstruction_recipe": "Tạo chữ bằng công cụ dựng sau khi hình đạt; dịch/tinh chỉnh cho tệp Mỹ theo mục tiêu từng tập.",
+      "exceptions": [
+        "Chữ quá nhiều có thể che chất liệu hoặc tăng công đọc; chưa có bằng chứng nguồn hoàn toàn không thoại."
+      ],
+      "next_test": "Kiểm hiển thị trên màn hình thật và khả năng nhận tên; nghe nguồn riêng nếu đánh giá vai trò lời nói.",
+      "evidence_state": "conditional_hypothesis",
+      "knowledge_refs": [
+        {
+          "id": "EV-001",
+          "version": "1.0.0"
+        },
+        {
+          "id": "CA-001",
+          "version": "1.1.0"
+        },
+        {
+          "id": "YT-010",
+          "version": "1.1.0"
+        }
+      ],
+      "generation_tested": false,
+      "viewer_tested": false
+    }
+  ]
+}

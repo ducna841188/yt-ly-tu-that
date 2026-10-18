@@ -1,8 +1,8 @@
 # FARM — Nhánh kiến thức đời sống nông thôn yên bình
 
-Phiên bản 1.1.3, ngày 18/10/2026. Dùng [FILM-KB hiện hành](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md); đọc manifest trên main trước khi áp dụng. core_dependency.version là bản đã đối chiếu gần nhất, commit = null để không khóa hướng dẫn vào bản cũ.
+Phiên bản 1.2.0, ngày 18/10/2026. Dùng [FILM-KB hiện hành](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md); đọc manifest trên main trước khi áp dụng. core_dependency.version là bản đã đối chiếu gần nhất, commit = null để không khóa hướng dẫn vào bản cũ.
 
-**10 quy tắc ứng dụng · 3 ứng viên nghiên cứu · 1 ví dụ dữ liệu từ báo cáo VID_01.** Chưa tiếp nhận video mới hoặc kiểm nghiệm video/khán giả trong lần tạo nhánh này.
+**10 quy tắc ứng dụng · 3 ứng viên chung · ví dụ lịch sử VID_01 · hồ sơ mới VID_02.** VID_02 đã có tệp và lớp phân tích ảnh: 176 cú máy dự kiến, 25 nhóm/cú và 12 giả thuyết DNA riêng; chưa phát toàn chuyển động/nghe âm, chưa tạo clip hoặc kiểm khán giả.
 
 ## Đọc theo thứ tự
 
@@ -11,6 +11,7 @@ Phiên bản 1.1.3, ngày 18/10/2026. Dùng [FILM-KB hiện hành](https://githu
 3. [Chuẩn phân tích chung](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/02_CHUAN_PHAN_TICH.md) và [chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md).
 4. [Nguồn và giới hạn VID_01](https://github.com/ducna841188/yt-ly-tu-that/blob/main/Farm/VID_01/Qa_du_lieu.md).
 5. [Ví dụ chuyển hai shot từ báo cáo vào schema](vi-du-vid01-tu-bao-cao.json).
+6. [VID_02: phân tích hình và tái tạo](../VID_02/README.md).
 
 ## Những điều đang dùng
 
@@ -34,4 +35,4 @@ Ghi asset, tệp, mốc gốc, offset từng phần và độ phủ. Phân tích
 
 Tài liệu làm việc trỏ main để đọc bản hiện hành. Revision trong nguồn/phân tích ghi lại bằng chứng lúc phân tích, không là bản sao tài liệu cần đọc thêm. Lịch sử cập nhật thư viện và Farm nằm trong một nhật ký chung; chi tiết trước–sau dùng Git.
 
-[Kế hoạch bộ chín video](KE_HOACH_NGHIEN_CUU.md) đã ghi nhận tám video bổ sung được người dùng chọn; đang chờ danh sách/media để tiếp nhận.
+[Kế hoạch bộ chín video](KE_HOACH_NGHIEN_CUU.md) đã ghi nhận tám video bổ sung được người dùng chọn; tiếp nhận từng video theo yêu cầu mới. Đã nhận VID_02; còn bảy video bổ sung chờ gửi. Mẫu phương pháp còn chờ duyệt chuyển động/âm.

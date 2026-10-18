@@ -1,8 +1,8 @@
 {
   "id": "FARM-LTT-RESEARCH",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "core_version": "1.3.1",
-  "status": "ready_for_source_list_and_pilot",
+  "status": "pilot_visual_annotations_ready_motion_audio_pending",
   "user_confirmed": {
     "on": "2026-10-18",
     "eight_additional_videos_selected": true,
@@ -11,8 +11,18 @@
   },
   "source_state": {
     "selected_additional_list_received": false,
-    "new_video_media_received": 0,
-    "vid01": "Workbook/12 stills only; source video URL/full audio not received or independently verified."
+    "new_video_media_received": 1,
+    "vid01": "Workbook/12 stills only; source video URL/full audio not received or independently verified.",
+    "selected_additional_list_state": "partial_1_of_8",
+    "known_additional_videos": [
+      {
+        "id": "VID_02",
+        "url": "https://www.youtube.com/watch?v=FWMIPukvdsQ",
+        "analysis": "Farm/VID_02/phan-tich.json",
+        "analysis_status": "partial_timed_stills_no_full_motion_or_listening"
+      }
+    ],
+    "remaining_selected_additional_videos_not_received": 7
   },
   "source_intake_fields": [
     "video_id",
@@ -35,12 +45,12 @@
   "sequence": [
     {
       "step": 1,
-      "work": "Đối chiếu danh sách tám video đã chọn và nhận diện VID_01; giữ bộ chọn của người dùng.",
+      "work": "Tiếp nhận lần lượt từng video người dùng đã chọn, giữ đúng mã; hiện có VID_02 và URL, còn bảy video bổ sung chờ gửi.",
       "exit": "Nguồn được xác định, phần thiếu được ghi rõ."
     },
     {
       "step": 2,
-      "work": "Thử một đoạn đủ hình–âm, rồi phân tích đầy đủ video mẫu; nếu VID_01 chưa có media, chọn một video mới làm mẫu và giữ VID_01 chờ xác minh.",
+      "work": "VID_02 làm mẫu phương pháp: đã lập 176 mục theo ảnh, còn phát full motion/nghe âm để khóa phương pháp. Không đợi đủ tám link mới phân tích phần độc lập.",
       "exit": "Có mẫu phân tích thực, quy ước nhãn và độ phủ thật."
     },
     {
@@ -100,7 +110,10 @@
     "change_log": "ducna841188/kien-thuc-dien-anh/thu-vien/CHANGELOG.md"
   },
   "production_choices_changed": false,
-  "new_video_analysis_performed": false,
+  "new_video_analysis_performed": true,
   "viewer_tests": 0,
-  "updated_on": "2026-10-18"
+  "updated_on": "2026-10-18",
+  "intake_mode": "one_video_at_a_time_as_user_requested",
+  "pilot_video_id": "VID_02",
+  "pilot_full_review_completed": false
 }
