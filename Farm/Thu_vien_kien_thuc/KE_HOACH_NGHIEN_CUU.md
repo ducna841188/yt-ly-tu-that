@@ -1,6 +1,6 @@
 # Kế hoạch nghiên cứu chín video Lý Tử Thất
 
-Phiên bản kế hoạch 0.3.0; core 1.3.1. Người dùng xác nhận đã chọn đủ tám video bổ sung ngày 18/10/2026. Đã nhận VID_02 (tệp 10:11.92 và URL); còn bảy video bổ sung chưa gửi. Người dùng sẽ nạp từng video. [Bản dữ liệu](ke-hoach-nghien-cuu.json).
+Phiên bản kế hoạch 0.4.0; core 1.3.1. Người dùng xác nhận đã chọn đủ tám video bổ sung ngày 18/10/2026. Đã nhận VID_02 (tệp 10:11.92 và URL); còn bảy video bổ sung chưa gửi. Người dùng sẽ nạp từng video. [Bản dữ liệu](ke-hoach-nghien-cuu.json).
 
 ## Nguồn cần tiếp nhận
 
@@ -18,7 +18,7 @@ VID_01 hiện chỉ có workbook/12 ảnh và phân tích nguồn thuật lại;
 | 4 | Hai video cuối, vẫn phân tích đầy đủ | Kiểm quy tắc trên phần chưa dùng để rút giả thuyết |
 | 5 | Các đoạn thử AI và vận dụng sang Farm | Kiểm khả thi, trải nghiệm và chi phí thực dùng |
 
-Phân vai 7+2 khi nhận diện đủ bộ nguồn; giữ tám video người dùng đã chọn. VID_02 là mẫu phương pháp đầu tiên, hiện ở trạng thái partial: 176 phiếu sâu về hình/góc/màu/trạng thái, 26 chuỗi/77 nhịp, 175 liên kết hình, 13 giả thuyết DNA; chưa phát trọn chuyển động. Âm ngoài phạm vi, không chặn lượt hình. Phân tích từ toàn phim tới sự kiện; tuyến âm chỉ triển khai khi thuộc phạm vi yêu cầu. Chỉ mục từng giây là công cụ tra cứu; shot theo ranh giới cắt thực. Khi chia lượt, lưu mốc tiếp tục và phần chưa xem/nghe.
+Phân vai 7+2 khi nhận diện đủ bộ nguồn; giữ tám video người dùng đã chọn. VID_02 là mẫu phương pháp đầu tiên, hiện ở trạng thái partial: 176 phiếu sâu về hình/góc/màu/trạng thái, 26 chuỗi/77 nhịp, 175 ranh giới đối chiếu cặp frame, 12 ca sâu/17 cầu nối chú ý/12 vùng pixel, 13 giả thuyết DNA; chưa phát trọn chuyển động. Âm ngoài phạm vi, không chặn lượt hình. Phân tích từ toàn phim tới sự kiện; tuyến âm chỉ triển khai khi thuộc phạm vi yêu cầu. Chỉ mục từng giây là công cụ tra cứu; shot theo ranh giới cắt thực. Khi chia lượt, lưu mốc tiếp tục và phần chưa xem/nghe.
 
 ## Ba lớp DNA
 

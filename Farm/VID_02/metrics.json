@@ -1,6 +1,6 @@
 {
   "id": "V02-METRICS",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "duration_seconds": 611.92,
   "shot_count_provisional": 176,
   "boundary_count_provisional": 175,
@@ -166,7 +166,7 @@
     "observed": 1231,
     "unknown": 1057
   },
-  "sampled_evidence_points": 1328,
+  "sampled_evidence_points": 1665,
   "main_atlas_frame_displays": 882,
   "dense_frame_displays": 476,
   "dense_contact_studies": 10,
@@ -187,8 +187,8 @@
     "groups_per_shot": 25,
     "events_are_points_not_invented_intervals": true,
     "point_event_count": 403,
-    "distinct_frame_evidence": 1328,
-    "atlas_checksums_valid": 43,
+    "distinct_frame_evidence": 1665,
+    "atlas_checksums_valid": 60,
     "reconstruction_links_valid": true,
     "state_ledgers_valid": 13,
     "conditional_dna_records_valid": 13,
@@ -206,7 +206,17 @@
     "visual_edit_links_valid": 175,
     "audio_excluded_from_acceptance": true,
     "visual_content_beats_valid": 77,
-    "legacy_and_source_bytes_unchanged": true
+    "legacy_and_source_bytes_unchanged": true,
+    "adjacent_boundary_pairs_valid": 175,
+    "advanced_visual_case_studies_valid": 12,
+    "editorial_attention_bridges_valid": 17,
+    "color_region_records_valid": 12,
+    "exact_selected_boundaries_confirmed": true,
+    "missing_cut_search_complete": false,
+    "timing_landmarks_valid": 3,
+    "old_vid02_atlases_unchanged": 43,
+    "second_index_points_valid": 1665,
+    "render_layouts_within_bounds": true
   },
   "visual_decision_sheets": 176,
   "visual_sequence_cards": 26,
@@ -214,5 +224,12 @@
   "visual_edit_links": 175,
   "conditional_dna_records": 13,
   "audio_scope": "excluded_by_user",
-  "audio_completion_gate": false
+  "audio_completion_gate": false,
+  "boundary_pairs_reviewed": 175,
+  "boundaries_confirmed_at_selected_frame": 175,
+  "boundary_frame_displays": 350,
+  "advanced_visual_case_studies": 12,
+  "editorial_attention_bridges": 17,
+  "color_region_records": 12,
+  "atlas_files": 60
 }

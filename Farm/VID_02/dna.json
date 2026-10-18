@@ -1,6 +1,6 @@
 {
   "id": "FARM-VID02-DNA",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "core_version": "1.3.1",
   "source_analysis": "phan-tich.json",
   "scope": "Hình một phim theo ảnh có mốc, 13 giả thuyết có điều kiện; âm ngoài phạm vi. Chưa là nguyên nhân thành công.",
@@ -72,7 +72,8 @@
         }
       ],
       "generation_tested": false,
-      "viewer_tested": false
+      "viewer_tested": false,
+      "advanced_study_refs": []
     },
     {
       "id": "V02-DNA-02",
@@ -135,7 +136,14 @@
         }
       ],
       "generation_tested": false,
-      "viewer_tested": false
+      "viewer_tested": false,
+      "advanced_study_refs": [
+        "V02-DEEP-01",
+        "V02-DEEP-02",
+        "V02-DEEP-03",
+        "V02-DEEP-04",
+        "V02-DEEP-05"
+      ]
     },
     {
       "id": "V02-DNA-03",
@@ -241,7 +249,13 @@
         }
       ],
       "generation_tested": false,
-      "viewer_tested": false
+      "viewer_tested": false,
+      "advanced_study_refs": [
+        "V02-DEEP-01",
+        "V02-DEEP-02",
+        "V02-DEEP-03",
+        "V02-DEEP-05"
+      ]
     },
     {
       "id": "V02-DNA-04",
@@ -291,7 +305,10 @@
         }
       ],
       "generation_tested": false,
-      "viewer_tested": false
+      "viewer_tested": false,
+      "advanced_study_refs": [
+        "V02-DEEP-09"
+      ]
     },
     {
       "id": "V02-DNA-05",
@@ -356,7 +373,11 @@
         }
       ],
       "generation_tested": false,
-      "viewer_tested": false
+      "viewer_tested": false,
+      "advanced_study_refs": [
+        "V02-DEEP-09",
+        "V02-DEEP-12"
+      ]
     },
     {
       "id": "V02-DNA-06",
@@ -412,7 +433,10 @@
         }
       ],
       "generation_tested": false,
-      "viewer_tested": false
+      "viewer_tested": false,
+      "advanced_study_refs": [
+        "V02-DEEP-12"
+      ]
     },
     {
       "id": "V02-DNA-07",
@@ -465,7 +489,8 @@
         }
       ],
       "generation_tested": false,
-      "viewer_tested": false
+      "viewer_tested": false,
+      "advanced_study_refs": []
     },
     {
       "id": "V02-DNA-08",
@@ -528,7 +553,14 @@
         }
       ],
       "generation_tested": false,
-      "viewer_tested": false
+      "viewer_tested": false,
+      "advanced_study_refs": [
+        "V02-DEEP-01",
+        "V02-DEEP-04",
+        "V02-DEEP-05",
+        "V02-DEEP-06",
+        "V02-DEEP-11"
+      ]
     },
     {
       "id": "V02-DNA-09",
@@ -584,7 +616,12 @@
         }
       ],
       "generation_tested": false,
-      "viewer_tested": false
+      "viewer_tested": false,
+      "advanced_study_refs": [
+        "V02-DEEP-10",
+        "V02-DEEP-11",
+        "V02-DEEP-12"
+      ]
     },
     {
       "id": "V02-DNA-10",
@@ -641,7 +678,10 @@
         }
       ],
       "generation_tested": false,
-      "viewer_tested": false
+      "viewer_tested": false,
+      "advanced_study_refs": [
+        "V02-DEEP-08"
+      ]
     },
     {
       "id": "V02-DNA-11",
@@ -701,7 +741,16 @@
         }
       ],
       "generation_tested": false,
-      "viewer_tested": false
+      "viewer_tested": false,
+      "advanced_study_refs": [
+        "V02-DEEP-01",
+        "V02-DEEP-02",
+        "V02-DEEP-04",
+        "V02-DEEP-05",
+        "V02-DEEP-06",
+        "V02-DEEP-07",
+        "V02-DEEP-11"
+      ]
     },
     {
       "id": "V02-DNA-12",
@@ -767,7 +816,8 @@
         }
       ],
       "generation_tested": false,
-      "viewer_tested": false
+      "viewer_tested": false,
+      "advanced_study_refs": []
     },
     {
       "id": "V02-DNA-13",
@@ -830,7 +880,12 @@
         }
       ],
       "generation_tested": false,
-      "viewer_tested": false
+      "viewer_tested": false,
+      "advanced_study_refs": [
+        "V02-DEEP-02",
+        "V02-DEEP-03",
+        "V02-DEEP-05"
+      ]
     }
   ]
 }

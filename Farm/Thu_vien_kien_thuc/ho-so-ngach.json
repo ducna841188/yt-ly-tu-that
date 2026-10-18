@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "id": "FARM",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "title": "Đời sống nông thôn yên bình — nhánh ứng dụng",
   "core_dependency": {
     "repository": "ducna841188/kien-thuc-dien-anh",
@@ -321,11 +321,11 @@
       "id": "VID_02",
       "path": "Farm/VID_02",
       "revision": "media-sha256:4a62804fd886d4d31b3b8d7c850b3263578428dcfc9a42afc7a36c528495877c",
-      "media_review_state": "uploaded_video_visual_still_deep_analysis_audio_excluded",
+      "media_review_state": "visual_deep_cases_adjacent_cut_pairs_audio_excluded",
       "limitations": [
-        "176 cú máy dự kiến, 26 phiếu chuỗi/77 nhịp nội dung, 175 liên kết hình, 1.328 mốc ảnh và 13 giả thuyết DNA.",
-        "Đủ lớp phân tích trong phạm vi ảnh/góc/màu/trạng thái; không khai phát trọn chuyển động hoặc khóa mọi cut.",
-        "Âm ngoài phạm vi theo người dùng, không là điều kiện chặn lượt hình; chưa sinh clip/kiểm khán giả."
+        "176 cú máy dự kiến/26 chuỗi/77 nhịp; 175 ranh giới đã đối chiếu 350 frame liền kề, chưa dò hết cut có thể còn thiếu bên trong khoảng.",
+        "1.665 mốc ảnh riêng, 12 ca sâu, 17 cầu nối chú ý biên tập, 12 vùng pixel và 60 bảng ảnh; không khai phát trọn chuyển động.",
+        "13 giả thuyết một phim; chưa sinh clip/kiểm khán giả. Âm ngoài phạm vi, không là điều kiện chặn."
       ]
     }
   ],

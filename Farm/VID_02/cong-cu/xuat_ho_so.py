@@ -28,8 +28,8 @@ def main():
       '',f"Bản {a['version']} · core {a['core_version']} · tệp {tc(a['duration_seconds'])} · **phân tích hình theo ảnh có mốc; âm ngoài phạm vi**.",
       '',f"[Nguồn người dùng](https://www.youtube.com/watch?v=FWMIPukvdsQ) · [Bản JSON chuẩn](phan-tich.json) · [Phiếu tái tạo](tai-tao.json) · [DNA có điều kiện](dna.json) · [Mục lục](README.md)",
       '', '## Cách hiểu độ phủ', '',
-      'Đã đọc ảnh theo toàn trục tệp, không phải đã phát trọn video ở tốc độ thật. Có 882 lần hiển thị ảnh theo khoảng cú máy và 476 lần hiển thị ảnh rà dày; một số mốc trùng nhau. Bộ bằng chứng có '+str(m['sampled_evidence_points'])+' mốc ảnh riêng. Chuyển động máy và tốc độ thật chưa được chứng nhận từ ảnh. Âm ngoài phạm vi theo người dùng; không phải điều kiện chặn lượt hình.',
-      '', '**176 là danh sách cú máy làm việc**, sau khi gộp khói bùng 05:59.48 vào cùng góc trước đó. Chưa chứng nhận không còn cut ít tương phản bị bỏ sót. Mốc tính từ đầu tệp tải lên, chưa xác minh offset với phiên bản YouTube.',
+      'Đã đọc ảnh theo toàn trục tệp, không phải phát trọn chuyển động tốc độ thật. Bổ sung 350 frame ở 175 cặp ranh giới, 12 ca sâu và bảng màu vật liệu; các lần hiển thị có mốc trùng nhau. Bộ bằng chứng có '+str(m['sampled_evidence_points'])+' mốc ảnh riêng. Chuyển động máy và tốc độ thật chưa được chứng nhận từ ảnh. Âm ngoài phạm vi theo người dùng; không phải điều kiện chặn lượt hình.',
+      '', '**176 là danh sách cú máy làm việc**, sau khi gộp khói bùng 05:59.48 vào cùng góc trước đó. 175 ranh giới hiện hành đã thấy đổi hình ở cặp frame liền kề; chưa chứng nhận không còn cut khác bị bỏ sót trong các khoảng. Mốc tính từ đầu tệp tải lên, chưa xác minh offset với phiên bản YouTube.',
       '', 'Mỗi nhận xét có loại bằng chứng. “Diễn giải” là cách đọc ảnh, “đề xuất” là phương án làm phim mới; cả hai không tự thành ý đồ tác giả hoặc hiệu quả đã đo. Trường số người đếm người/thân/tay nhận ra trong ảnh, **không đếm động vật**, không bảo chứng toàn khoảng.',
       '', '## Cách đọc toàn phim', '',
       '**Giả thuyết trục kể:** nhiều công việc nhỏ được đan trong lúc chờ, thành món hoàn chỉnh, rồi được gói/cất và chia sẻ trong một căn nhà đang đầy dần. Thiên nhiên và vật nuôi giữ cảm giác đây là đời sống tiếp diễn. Phần quả thu cuối không tự được coi là nguyên liệu của món nón vàng nếu nguồn không cho thấy mối nối đó.',
@@ -58,6 +58,8 @@ def main():
             lines.append(f"| {LABELS[key]} | {value} | {STATUS[v['status']]} |")
         vd=target['visual_decision']
         link=next((x for x in r['visual_study']['visual_cut_links'] if x['from_shot']==ident),None)
+        case_refs=vd.get('advanced_study_refs',[])
+        if case_refs:lines += ['', '**Nghiên cứu sâu liên quan:** '+' · '.join(f"[{x}](../Phan_tich_dien_anh.md#{x.lower()})" for x in case_refs)]
         lines += ['', '**Vì sao chọn bộ góc trong chuỗi:** '+vd['angle_reason_in_sequence'], '', '**Cần giữ quan hệ hành động:** '+vd['critical_relationship'], '', '**Công đoạn lược / giới hạn nhân quả:** '+vd['sequence_continuity_and_omissions'], '', '**Nối cú sau:** '+(link['reading'] if link else 'Kết tệp; fade trong cú cuối.'), '', '**Đề xuất hình cho AI:** '+vd['reconstruction_visual_brief']]
         lines += ['', '**Chức năng dự kiến:** '+target['function'],'', '**Cần giữ khi tái tạo:** '+target['protected_elements'][0], '', '**Trạng thái vào–ra:** '+target['start_state']+' → '+target['end_state'], '', '**Độ dài:** là độ dài mục tiêu trong bản dựng; có thể phải sinh dài hơn rồi cắt, tùy công cụ thực. Chưa sinh clip.']
         if ident in contacts:
@@ -86,6 +88,32 @@ def main():
         seq_lines.append(f"| {x['setup']} | {x['return']} | {x['object']} | {x['unseen']} |")
     seq_lines += ['', '### Hai mối nối không được bịa thêm','','Bưởi/quýt thu cuối không được cho thấy thành khối quả vàng trong món nón. Nón cuối cũng chưa được chứng minh cùng mẻ với ống bánh trước. Khi làm bản mới có thể thiết kế thêm bước nối, nhưng phải ghi là sáng tạo mới.','']
     lines[at:end]=seq_lines
+    study=r['visual_study']
+    deep=['## Đào sâu cách hình ảnh hoạt động','','175 ranh giới hiện hành đã được đối chiếu bằng 350 frame liền kề n−1/n. Cả 175 cặp có đổi hình rõ tại mốc đang xét. Kiểm này không thay dò mọi cut còn thiếu hoặc xem trọn chuyển động.','',
+      '### Đọc các cặp điểm cắt','','Mỗi cặp: bên trái là frame cuối trước mốc, bên phải là frame đầu từ mốc; thứ tự trái sang phải, trên xuống dưới.','',
+      ' · '.join(f'[Cặp cắt {n:02}](anh/diem-cat-{n:02}.jpg)' for n in range(1,13)), '',
+      '### 12 nghiên cứu sâu','','Mỗi ca tách quan sát ở mốc chọn, cách đọc hình và đề xuất làm mới. Phần giả định thay/bỏ cảnh là phân tích phương án, chưa phải thử người xem.','']
+    for c in study['advanced_case_studies']:
+        deep += [f'<a id="{c["id"].lower()}"></a>',f"### {c['id']} — {c['title']}",'',
+          f"[Mở bảng đối chiếu lớn]({c['illustration']})",'',
+          '**Mốc ảnh:** '+', '.join(f"{x['shot_id']} @ {tc(x['seconds'])}" for x in c['anchors']), '',
+          '**Thấy gì:** '+c['observation'], '', '**Đường chú ý dự kiến:** '+c['attention_path'], '',
+          '**Góc và không gian:** '+c['spatial_and_camera_logic'], '', '**Thời điểm dựng:** '+c['edit_timing_reading'], '',
+          '**Sáng–màu–chất liệu:** '+c['light_color_material'], '', '**Ứng dụng khi làm mới:** '+c['reconstruction_decision'], '',
+          '**Nếu thay hoặc bỏ:** '+c['counterfactual'], '', '**Tiêu chí duyệt:**','']
+        deep += ['- '+x for x in c['acceptance_checks']]
+        deep += ['', '**Giới hạn:** '+c['limits'],'']
+    deep += ['### 17 cầu nối chú ý qua điểm cắt','','Vị trí dưới đây là nhận định biên tập từ hình, không phải đo mắt người xem.','',
+      '| Điểm cắt | Trước → sau | Chức năng dự kiến |','| --- | --- | --- |']
+    for x in study['attention_bridges']:
+        deep.append(f"| {x['boundary_id']} | {cell(x['from_attention_zone'])} → {cell(x['to_attention_zone'])} | {cell(x['editorial_reading'])} |")
+    deep += ['', '### Đối chiếu màu ở vùng vật liệu','','[Mở sáu ảnh lớn](anh/doi-chieu-mau.jpg). Mỗi ảnh đo một vùng chủ thể và một vùng so sánh, tọa độ nằm trong JSON. V là kênh giá trị HSV=max(R,G,B) của ảnh JPEG giải mã, **không phải độ chói tuyến tính, độ rọi, f-stop, cảm giác sáng hoặc tỷ lệ đèn**. Vùng chứa pixel hỗn hợp; khác số giữa hai góc còn do vật liệu, ánh sáng, khung và mã hóa.','',
+      '| Cú máy / mốc | HEX trung vị chủ thể | V chủ thể / vùng so | S chủ thể / vùng so |','| --- | --- | --- | --- |']
+    for x in study['color_regions']['records']:
+        u=x['subject_region'];v=x['comparison_region']
+        deep.append(f"| {x['shot_id']} @ {tc(x['seconds'])} | {u['median_rgb_hex']} | {u['median_hsv_value']:.3f} / {v['median_hsv_value']:.3f} | {u['median_hsv_saturation']:.3f} / {v['median_hsv_saturation']:.3f} |")
+    deep += ['', 'Các số giúp truy nguyên vùng đã so, không là công thức chỉnh màu. Với siro/đồ ăn, vị trí và hình phản sáng cùng bề mặt đổi có ý nghĩa hơn việc chỉ ép màu trung bình giống nhau.','']
+    pos=lines.index('## 26 chuỗi việc — bóc tách hình và nội dung');lines[pos:pos]=deep
     first_detail=lines.index('## 176 hồ sơ cú máy')
     closing=lines.index('## Những việc cần làm để khóa tái tạo')
     blocks={};i=first_detail
@@ -117,7 +145,7 @@ def main():
 
 **Bản {a['version']} · tập trung hình ảnh, góc máy, màu sắc và chuỗi hành động. Âm ngoài phạm vi theo người dùng.**
 
-176 hồ sơ cú máy dự kiến · 26 phiếu chuỗi · {m['visual_content_beats']} nhịp nội dung · 175 liên kết trạng thái qua điểm cắt · 13 sổ sản vật · 13 giả thuyết DNA · 43 bảng ảnh nguồn.
+176 hồ sơ cú máy dự kiến · 26 phiếu chuỗi · {m['visual_content_beats']} nhịp nội dung · 175 liên kết trạng thái qua điểm cắt · 13 sổ sản vật · 13 giả thuyết DNA · {m['atlas_files']} bảng ảnh nguồn/đối chiếu.
 
 ## Đọc theo thứ tự
 
@@ -129,6 +157,7 @@ def main():
 
 ## Các kết quả chính
 
+- Bổ sung 12 nghiên cứu sâu, 17 cầu nối chú ý dự kiến, 350 frame đối chiếu 175 ranh giới, 12 vùng đo pixel có tọa độ và ba mốc thời gian được chú thích giới hạn.
 - Góc cao đọc mặt phẳng/vật chứa; tầm mặt vật đọc độ dày, mặt cắt, sợi kéo và cuộn; rộng trả quan hệ người–nơi. Chọn góc theo thông tin.
 - Màu có vật mang: chàm áo, nâu tre/gỗ, xanh xám nền, đỏ quả/giấy, vàng bánh. Biến đổi bề mặt kể tiến trình thô–tan–phủ–cắt–chín–gói.
 - Hạt dẻ, lát quả, phôi kẹo và thịt có trạng thái chờ rồi được trả; bó rơm có công dụng muộn ở giá hồ lô.
@@ -137,7 +166,7 @@ def main():
 
 ## Phạm vi bằng chứng
 
-Tệp tải dài 10:11.92, 1280×720, mã hóa 50fps. 1.328 mốc ảnh riêng theo toàn trục; đây không phải chứng nhận phát trọn chuyển động ở tốc độ thật. 176 cú là phân hoạch làm việc, chưa khóa mọi cut. Không đoán ống kính, khẩu, LUT/Kelvin hoặc tốc độ quay từ ảnh. Chưa có clip AI đầu ra hoặc thử khán giả.
+Tệp tải dài 10:11.92, 1280×720, mã hóa 50fps. {m['sampled_evidence_points']:,} mốc ảnh riêng theo toàn trục; đây không phải chứng nhận phát trọn chuyển động ở tốc độ thật. 175 ranh giới hiện hành đã đối chiếu cặp frame, 176 cú vẫn là phân hoạch làm việc vì còn khả năng cut khác bị sót bên trong. Không đoán ống kính, khẩu, LUT/Kelvin hoặc tốc độ quay từ ảnh. Chưa có clip AI đầu ra hoặc thử khán giả.
 
 Audio cũ được giữ để truy nguyên, không được phân tích thêm và không chặn lượt hình. Nguồn/checksum, VID_01 và lựa chọn Farm giữ nguyên. Mọi tài liệu sửa tại chỗ; lịch sử ở Git và [nhật ký chung](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/CHANGELOG.md).
 

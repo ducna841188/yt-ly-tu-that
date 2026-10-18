@@ -1,14 +1,14 @@
 # VID_02 — Phân tích hình, cấu trúc và tái tạo
 
-Bản 0.2.0 · core 1.3.1 · tệp 10:11.92 · **phân tích hình theo ảnh có mốc; âm ngoài phạm vi**.
+Bản 0.3.0 · core 1.3.1 · tệp 10:11.92 · **phân tích hình theo ảnh có mốc; âm ngoài phạm vi**.
 
 [Nguồn người dùng](https://www.youtube.com/watch?v=FWMIPukvdsQ) · [Bản JSON chuẩn](phan-tich.json) · [Phiếu tái tạo](tai-tao.json) · [DNA có điều kiện](dna.json) · [Mục lục](README.md)
 
 ## Cách hiểu độ phủ
 
-Đã đọc ảnh theo toàn trục tệp, không phải đã phát trọn video ở tốc độ thật. Có 882 lần hiển thị ảnh theo khoảng cú máy và 476 lần hiển thị ảnh rà dày; một số mốc trùng nhau. Bộ bằng chứng có 1328 mốc ảnh riêng. Chuyển động máy và tốc độ thật chưa được chứng nhận từ ảnh. Âm ngoài phạm vi theo người dùng; không phải điều kiện chặn lượt hình.
+Đã đọc ảnh theo toàn trục tệp, không phải phát trọn chuyển động tốc độ thật. Bổ sung 350 frame ở 175 cặp ranh giới, 12 ca sâu và bảng màu vật liệu; các lần hiển thị có mốc trùng nhau. Bộ bằng chứng có 1665 mốc ảnh riêng. Chuyển động máy và tốc độ thật chưa được chứng nhận từ ảnh. Âm ngoài phạm vi theo người dùng; không phải điều kiện chặn lượt hình.
 
-**176 là danh sách cú máy làm việc**, sau khi gộp khói bùng 05:59.48 vào cùng góc trước đó. Chưa chứng nhận không còn cut ít tương phản bị bỏ sót. Mốc tính từ đầu tệp tải lên, chưa xác minh offset với phiên bản YouTube.
+**176 là danh sách cú máy làm việc**, sau khi gộp khói bùng 05:59.48 vào cùng góc trước đó. 175 ranh giới hiện hành đã thấy đổi hình ở cặp frame liền kề; chưa chứng nhận không còn cut khác bị bỏ sót trong các khoảng. Mốc tính từ đầu tệp tải lên, chưa xác minh offset với phiên bản YouTube.
 
 Mỗi nhận xét có loại bằng chứng. “Diễn giải” là cách đọc ảnh, “đề xuất” là phương án làm phim mới; cả hai không tự thành ý đồ tác giả hoặc hiệu quả đã đo. Trường số người đếm người/thân/tay nhận ra trong ảnh, **không đếm động vật**, không bảo chứng toàn khoảng.
 
@@ -26,6 +26,407 @@ Mỗi nhận xét có loại bằng chứng. “Diễn giải” là cách đọ
 | V02-P06 | 07:40.98–08:47.54 | Cùng hoàn thiện, đóng gói, cất giữ |
 | V02-P07 | 08:47.54–09:26.84 | Thu hái quả tươi và mang vào nhà |
 | V02-P08 | 09:26.84–10:11.92 | Món cuối, trao và cùng ăn |
+
+## Đào sâu cách hình ảnh hoạt động
+
+175 ranh giới hiện hành đã được đối chiếu bằng 350 frame liền kề n−1/n. Cả 175 cặp có đổi hình rõ tại mốc đang xét. Kiểm này không thay dò mọi cut còn thiếu hoặc xem trọn chuyển động.
+
+### Đọc các cặp điểm cắt
+
+Mỗi cặp: bên trái là frame cuối trước mốc, bên phải là frame đầu từ mốc; thứ tự trái sang phải, trên xuống dưới.
+
+[Cặp cắt 01](anh/diem-cat-01.jpg) · [Cặp cắt 02](anh/diem-cat-02.jpg) · [Cặp cắt 03](anh/diem-cat-03.jpg) · [Cặp cắt 04](anh/diem-cat-04.jpg) · [Cặp cắt 05](anh/diem-cat-05.jpg) · [Cặp cắt 06](anh/diem-cat-06.jpg) · [Cặp cắt 07](anh/diem-cat-07.jpg) · [Cặp cắt 08](anh/diem-cat-08.jpg) · [Cặp cắt 09](anh/diem-cat-09.jpg) · [Cặp cắt 10](anh/diem-cat-10.jpg) · [Cặp cắt 11](anh/diem-cat-11.jpg) · [Cặp cắt 12](anh/diem-cat-12.jpg)
+
+### 12 nghiên cứu sâu
+
+Mỗi ca tách quan sát ở mốc chọn, cách đọc hình và đề xuất làm mới. Phần giả định thay/bỏ cảnh là phân tích phương án, chưa phải thử người xem.
+
+<a id="v02-deep-01"></a>
+### V02-DEEP-01 — Khung trống có nhiệm vụ: thiết lập mặt đỡ rồi mới cho thao tác
+
+[Mở bảng đối chiếu lớn](anh/nghien-cuu-01.jpg)
+
+**Mốc ảnh:** V02-S014 @ 00:47.22, V02-S014 @ 00:47.54, V02-S014 @ 00:48.50, V02-S014 @ 00:50.10
+
+**Thấy gì:** S014 mở bằng mặt gỗ chưa có hạt trong vùng chính ở 47,22s; 47,54s có hạt và găng đỡ; 48,50s cạnh dao tới vùng vỏ; 50,10s vùng chính trống sau tay/hạt rời. Đối chiếu S047 có bệ trống ở frame đầu và S067 có khay trống trước khối dẻo.
+
+**Đường chú ý dự kiến:** Vùng trống → vật/tay đi vào → điểm dao–vỏ → vùng vừa được trả trống. Người xem dự kiến có mốc nền để đọc thứ gì đã đến/đi; chưa đo mắt.
+
+**Góc và không gian:** Khung cận giữ mặt đỡ trong ảnh. Không cần thấy mặt người để hiểu quan hệ dao–găng–hạt–gỗ; nền không được thay khi tay che.
+
+**Thời điểm dựng:** Giữ cả khoảng chuẩn bị và sau rời là một lựa chọn có trong các ảnh, không mặc định mọi frame trống đều thừa. Các mốc là trạng thái được chọn, không là thời điểm bắt đầu/kết thúc động tác chính xác.
+
+**Sáng–màu–chất liệu:** Găng sáng đỡ hạt nâu bóng trên gỗ tối; vệt sáng nhỏ đọc hình tròn, không cần tăng sáng toàn nền.
+
+**Ứng dụng khi làm mới:** Thiết kế ảnh đầu có mặt đỡ và chỗ cho tay vào, ảnh giữa có chạm, ảnh cuối giữ dấu rời. Có thể sinh dư đầu/cuối để chọn nhịp dựng.
+
+**Nếu thay hoặc bỏ:** Nếu vào khi dao đã chạm, người chưa kịp nhận vật có thể bỏ lỡ nguyên nhân. Nếu ra trước khi vật được nhấc, mất một dấu hoàn tất; đây là giả thuyết cần thử.
+
+**Tiêu chí duyệt:**
+
+- Hạt có trên gỗ trước dao tới.
+- Găng giữ đúng bên, ngón ngoài đường dao.
+- Vùng gỗ lộ lại có vân và hình học cùng mặt cũ.
+
+**Giới hạn:** Không suy nhát khía đã xuyên sâu bao nhiêu hoặc tốc độ phát thật. Không áp khoảng trống đầu/cuối cho mọi cú.
+
+<a id="v02-deep-02"></a>
+### V02-DEEP-02 — Độ sánh được kể bằng sợi và nền sau, không chỉ bằng đỏ bóng
+
+[Mở bảng đối chiếu lớn](anh/nghien-cuu-01.jpg)
+
+**Mốc ảnh:** V02-S039 @ 02:12.00, V02-S039 @ 02:13.36, V02-S039 @ 02:14.32, V02-S039 @ 02:15.28
+
+**Thấy gì:** Trong S039: quả ở mặt siro tại 132,00s; 133,36s xiên ở trên mặt chảo; 134,32s có sợi nối xuống; 135,28s xiên ngoài phần trên còn sợi. S040 sau cut chuyển sang hàng thành phẩm nằm trên gỗ.
+
+**Đường chú ý dự kiến:** Ban đầu đọc quả trên mặt chảo, sau đó điểm nhìn dự kiến theo vật lên rồi xuống sợi rơi. Khi vật ra trên, phần siro còn trong khung vẫn mang thông tin.
+
+**Góc và không gian:** Góc xiên gần mặt chảo cho khoảng hở đứng để đọc sợi; nhìn thẳng xuống có thể thấy diện phủ nhưng giảm dấu chiều dài sợi. Vành chảo và nền tối làm mốc.
+
+**Thời điểm dựng:** Mốc quả cao và sợi tồn tại nằm trước cut 135,30s. Không cắt ngay khi quả rời mặt siro nếu bằng chứng độ kéo còn là mục tiêu. Không suy tốc độ nâng từ một ảnh nhòe.
+
+**Sáng–màu–chất liệu:** Phản sáng trên đỏ và sợi mảnh cho chất ướt/bóng; chảo không phải nền tối đều vì mặt siro có mảng phản sáng lạnh. Cần chọn vùng tương phản sau từng sợi.
+
+**Ứng dụng khi làm mới:** Tách mục tiêu phủ và mục tiêu chứng nhận độ sánh. Giữ đủ khoảng trên chảo, điểm chạm, nâng có đỡ và vệt rơi; bản mới có thể dùng góc bổ sung khi model không giữ được.
+
+**Nếu thay hoặc bỏ:** Một ảnh hàng xiên bóng có thể cho vẻ hấp dẫn nhưng không chứng minh vật đã được phủ; bỏ sợi sẽ đổi loại thông tin, chưa chắc giảm thích thú.
+
+**Tiêu chí duyệt:**
+
+- Que còn gắn cùng nhóm quả sau che.
+- Sợi có gốc ở lớp phủ và hướng xuống, không nối ngẫu nhiên vào tay.
+- Không tự lặp một lần nhúng đầy đủ khi bằng chứng chỉ thấy các mốc.
+
+**Giới hạn:** Mốc 133,36s là ảnh chọn đã thấy khoảng hở, không tuyên bố thời điểm đầu tiên rời siro; công thức và nhiệt không xác định.
+
+<a id="v02-deep-03"></a>
+### V02-DEEP-03 — Ba góc khác nhau cho nguyên liệu, chất kết dính và mặt cắt
+
+[Mở bảng đối chiếu lớn](anh/nghien-cuu-01.jpg)
+
+**Mốc ảnh:** V02-S060 @ 03:34.44, V02-S065 @ 03:52.18, V02-S067 @ 03:57.06, V02-S078 @ 04:33.02
+
+**Thấy gì:** S060 chia nguyên liệu theo ngăn; S065 thấy các lớp trong chảo; S067 khối kéo dính ở khay; S078 lộ mặt cắt có vùng đỏ và hạt trong nền trắng.
+
+**Đường chú ý dự kiến:** Bản đồ nhóm → quan hệ thêm lớp → khối dính → cấu trúc bên trong. Nhận dạng vật liệu được trả nhiều lần dưới dạng khác.
+
+**Góc và không gian:** Góc cao/thẳng xuống hợp phân loại mặt phẳng; xiên giữ chiều cao khối; ngang mặt cắt cho phần bên trong lớn trong ảnh. Không có một góc đẹp nhất cho tất cả công đoạn.
+
+**Thời điểm dựng:** Mốc phôi chờ trước đoạn thịt rồi quay lại cắt; khoảng nguội được lược. S078 tới sau khi phôi đã được nhận ra, giảm nhu cầu giải thích lại nguồn vật liệu.
+
+**Sáng–màu–chất liệu:** Trắng nguyên khối khác kem đã trộn và trắng mờ phủ bột; vùng đỏ từ nguyên liệu được nhận lại ở mặt cắt. Cấu trúc và độ bóng quan trọng cùng sắc.
+
+**Ứng dụng khi làm mới:** Khóa sổ vật liệu xuyên các trạng thái, chọn bộ góc theo thông tin mới thay vì lặp cận mỹ thực. Ảnh tham chiếu phải gồm mặt ngoài và mặt cắt nếu clip cần cả hai.
+
+**Nếu thay hoặc bỏ:** Nếu chỉ có góc cao, dễ mất độ dày/độ kéo; chỉ có cận mặt cắt thì mất quá trình các thành phần tới đó. So phương án theo điều cần hiểu, không số góc.
+
+**Tiêu chí duyệt:**
+
+- Thành phần đã thêm không biến mất sau khuấy/che.
+- Mặt cắt có cấu trúc thuộc khối, không là hình dâu dán lên bề mặt.
+- Không yêu cầu mọi miếng có hoa văn nội bộ giống hệt nhau.
+
+**Giới hạn:** Chưa có công thức đủ lượng hoặc tên chắc mọi bột; không dùng màu để kết luận cùng mẻ tuyệt đối khi thiếu dấu riêng.
+
+<a id="v02-deep-04"></a>
+### V02-DEEP-04 — Hai bàn tay có vai khác nhau trong một thao tác cán
+
+[Mở bảng đối chiếu lớn](anh/nghien-cuu-02.jpg)
+
+**Mốc ảnh:** V02-S068 @ 03:58.22, V02-S068 @ 03:58.62, V02-S068 @ 03:59.90, V02-S068 @ 04:00.54
+
+**Thấy gì:** S068 có tay găng giữ phôi/giấy và tay trần vận hành cán; cuối các ảnh chọn, tay rời dần và mặt phôi lộ đầy khay.
+
+**Đường chú ý dự kiến:** Từ tay/cán đang che tới phần mặt vừa lộ. Vùng che không chỉ là cản nhìn: nó đặt yêu cầu phôi phải còn đúng cấu trúc khi lộ.
+
+**Góc và không gian:** Góc chúc giữ diện khay và biên phôi để so độ dày/lan. Trục cán nằm ngang vùng làm; tay giữ và tay tác động không được tráo.
+
+**Thời điểm dựng:** Ảnh 239,90s đang rút tay, 240,54s phôi không còn tay che. Cut 240,62s còn cách mốc phôi lộ 0,08s; không coi 0,08s là toàn thời gian phim cho đọc kết quả vì phôi đã được thấy trước đó.
+
+**Sáng–màu–chất liệu:** Kem có chấm đỏ/nâu giữ thông tin nguyên liệu; bóng tay cho điểm chạm, mặt phôi không bị nâng trắng tới mất chấm.
+
+**Ứng dụng khi làm mới:** Khóa vai tay, mép giấy, biên khay và bản đồ thô các thành phần. Có thể tách khối vào khay và cán thành hai đơn vị sinh như cấu trúc nguồn.
+
+**Nếu thay hoặc bỏ:** Yêu cầu chung “hai tay cán” có thể làm cả hai cùng dùng cán, mất tay giữ. Yêu cầu phôi phẳng ngay đầu sẽ mất biến đổi mà cú này cần.
+
+**Tiêu chí duyệt:**
+
+- Găng không tự chuyển tay.
+- Cán nằm trên phôi/giấy, không xuyên cạnh khay.
+- Vùng lộ sau tay không đổi sang một mẻ sạch không hạt.
+
+**Giới hạn:** Ảnh không đo lực ép hoặc mọi vòng cán liên tục; số liệu sau mốc chọn không phải thời gian cảm nhận đo trên người xem.
+
+<a id="v02-deep-05"></a>
+### V02-DEEP-05 — Nhịp dựng theo ba biến đổi của bánh: lan, nhận nhiệt, cuộn
+
+[Mở bảng đối chiếu lớn](anh/nghien-cuu-02.jpg)
+
+**Mốc ảnh:** V02-S133 @ 07:24.46, V02-S133 @ 07:28.16, V02-S133 @ 07:31.86, V02-S135 @ 07:35.70
+
+**Thấy gì:** S133 đi từ chảo gần trống qua vùng bột nhỏ sang lớp rộng trong các mẫu; S134 là khe lửa; S135 có tấm bánh và phần cuộn; S136 đổi sang khay nhiều ống.
+
+**Đường chú ý dự kiến:** Dòng rót và biên lan là trọng tâm đầu; lửa đổi chú ý ngắn; mép cuộn thành thông tin hình học; hàng ống trả quy mô.
+
+**Góc và không gian:** Chúc để thấy biên bột trên đáy, thấp đọc nguồn nhiệt, gần ngang để thấy độ dày và vòng ống. Lý do đổi góc nằm ở loại biến đổi.
+
+**Thời điểm dựng:** 7,54s cho S133, 1,92s cho S134, 3,72s cho S135, 3,42s cho S136. Thời lượng khác nhau theo việc trong khung; quá trình nấu và làm nhiều chiếc bị lược.
+
+**Sáng–màu–chất liệu:** Kem/vàng mặt bột chuyển sang vàng có mảng nâu; chảo đen làm biên, lửa cam có vị trí dưới. Mảng nâu phải thuộc bánh thay vì texture nổi trôi.
+
+**Ứng dụng khi làm mới:** Tạo riêng rót/lan và cuộn, giữ ảnh liên tục về chảo/lượng bột/mặt bánh. Cú khay là kết quả theo mẻ, không bắt sinh tất cả từ một chiếc trong cùng clip.
+
+**Nếu thay hoặc bỏ:** Một chuyển hình từ chất lỏng thẳng thành ống bỏ mất bằng chứng quan trọng. Giữ cả quá trình nấu thật có thể quá dài với mục tiêu kể đời sống; cần chọn dấu đủ hiểu.
+
+**Tiêu chí duyệt:**
+
+- Bột lan từ lượng có nguồn, không tự tạo hình tròn tức thì.
+- Cuộn tiến từ một mép và phần chưa cuộn giảm tương ứng.
+- Không coi S135 đã đưa ống khỏi chảo; khay nhiều ống là lược lặp.
+
+**Giới hạn:** Đây là thời lượng bản dựng, không thời gian nấu hoặc tốc độ quay. Hình chỉ xác nhận các trạng thái chọn.
+
+<a id="v02-deep-06"></a>
+### V02-DEEP-06 — Trọng lượng được chứng minh bằng chuyển điểm đỡ
+
+[Mở bảng đối chiếu lớn](anh/nghien-cuu-02.jpg)
+
+**Mốc ảnh:** V02-S164 @ 09:04.14, V02-S165 @ 09:07.28, V02-S165 @ 09:11.28, V02-S165 @ 09:11.92
+
+**Thấy gì:** S164 thân người hạ dần bên thang nhưng chân có phần bị giỏ che. S165 mở với hai giỏ trên đất; tới mẫu 551,28s vẫn gần đất, 551,92s thấy cả hai có khoảng hở.
+
+**Đường chú ý dự kiến:** Thang/tay đỡ → giỏ và đòn → khoảng hở dưới tải. Điểm chính không chỉ là gương mặt mang vẻ nặng.
+
+**Góc và không gian:** Toàn vừa cho quan hệ người–thang; thấp giữ hai đáy giỏ và mặt đất trong một khung. Sau đó S166 rộng trả dáng người đi trong vườn.
+
+**Thời điểm dựng:** S165 dài 4,98s; mốc hai giỏ đã rời đất 551,92s tới cut 552,26s là 0,34s. Đây là khoảng từ một mẫu kết quả tới cut, không thời lượng nâng hoặc thời điểm rời đất đầu tiên.
+
+**Sáng–màu–chất liệu:** Cam quýt và vàng quả lớn phân hai tải trên đất nâu; nền xanh mờ giữ giỏ rõ. Bóng/tiếp đất và khoảng hở mang thông tin cơ học.
+
+**Ứng dụng khi làm mới:** Thiết kế trạng thái đỡ theo từng pha: đất → quai/đòn/tay → cấu hình mang. Nếu cần khóa vai đỡ trong sản phẩm, bổ sung tham chiếu thấy rõ vai thay vì đoán vùng khuất nguồn.
+
+**Nếu thay hoặc bỏ:** Cận mặt gồng nhưng đáy giỏ luôn ngoài khung sẽ không chứng minh tải được nâng. Tuy vậy không phải mọi cảnh mang đều cần khoe đầy đủ thao tác nếu mạch đã rõ.
+
+**Tiêu chí duyệt:**
+
+- Hai tải không nhấc trước khi có liên kết giữ.
+- Đòn/quai không xuyên giỏ hoặc tự đổi cấu trúc khi qua thân người.
+- Không bịa vị trí từng bàn chân trên bậc khuất.
+
+**Giới hạn:** Không tính khối lượng, lực hoặc khóa điểm tựa vai của nguồn từ các ảnh này.
+
+<a id="v02-deep-07"></a>
+### V02-DEEP-07 — Gói một viên rồi trả cả lượng, giữ vật và quyền cầm
+
+[Mở bảng đối chiếu lớn](anh/nghien-cuu-03.jpg)
+
+**Mốc ảnh:** V02-S142 @ 07:54.92, V02-S142 @ 07:56.84, V02-S143 @ 07:58.96, V02-S145 @ 08:05.46
+
+**Thấy gì:** S142 mở với giấy đỏ còn một phần mở rồi siết gọn; S143 là đống gói đỏ; S144 dùng giấy nhạt; S145 hai đôi tay quanh hai nhóm.
+
+**Đường chú ý dự kiến:** Miếng/giấy → chỗ gấp/xoắn → gói kín → lượng nhiều → hai người cùng gom. Lần lặp chủ yếu được biểu diễn bằng kết quả.
+
+**Góc và không gian:** Cận đủ thấy hai tay và phần giấy dư, nền bánh vàng mềm; góc có hai đôi tay ở bước cùng làm là thông tin quan hệ, không là người thừa.
+
+**Thời điểm dựng:** S142 dài 2,66s, S143 dài 2,92s, S144 dài 3,40s và S145 dài 3,28s. Giữ thay đổi một viên trước khi chuyển sang lượng; không cần xem hết các viên được gói.
+
+**Sáng–màu–chất liệu:** Giấy đỏ phản sáng và in trắng khác giấy nhạt mờ; màu nhóm hỗ trợ phân loại nhưng không định danh chắc ruột từng viên.
+
+**Ứng dụng khi làm mới:** Tạo một hành động gấp có miếng thật ở trong và giấy có kích cỡ đủ. Cú đống gói dùng bản đồ số lượng/hình dạng riêng; giữ họa tiết trên cùng gói khi xoay.
+
+**Nếu thay hoặc bỏ:** Nếu chỉ có đống gói sẽ mất khéo tay; nếu lặp đầy đủ hàng chục viên sẽ đổi nhịp. Để model tự tạo tay ngoài khung dễ gây quyền cầm không rõ.
+
+**Tiêu chí duyệt:**
+
+- Giấy ôm quanh một vật có trước, không tự biến thành bao in sẵn.
+- Đầu giấy và họa tiết gắn với cùng tờ.
+- Hai nhóm trắng/đỏ không đổi màu khi bàn tay che.
+
+**Giới hạn:** Không suy số lượng toàn mẻ hay loại kẹo mọi gói; công đoạn đóng kín toàn bộ có thể bị lược.
+
+<a id="v02-deep-08"></a>
+### V02-DEEP-08 — Khói che là một sự kiện, đổi góc là một ranh giới khác
+
+[Mở bảng đối chiếu lớn](anh/nghien-cuu-03.jpg)
+
+**Mốc ảnh:** V02-S105 @ 05:55.88, V02-S106 @ 05:59.44, V02-S106 @ 05:59.48, V02-S107 @ 06:01.44
+
+**Thấy gì:** S105 đặt ba người quanh sân; S106 trước khói ở 359,44s và bị khói dày ở 359,48s; cặp 359,62/359,64s cho đổi từ cận thiết bị sang rộng sân. S108 trả bỏng trong giỏ.
+
+**Đường chú ý dự kiến:** Địa lý ba người → cơ cấu → khói làm giảm thấy → rộng giữ lại người/nơi → thành phẩm. Mất nhìn cục bộ có vai trò, không phải mọi chi tiết phải rõ mọi lúc.
+
+**Góc và không gian:** Rộng trước và sau giúp giữ quan hệ khi cận bị che. Không dùng khói làm lý do đổi số người/vị trí thiết bị vô căn cứ.
+
+**Thời điểm dựng:** Khói bắt đầu trước cut thực đã đối chiếu ở 359,64s. Tăng thay đổi pixel trong cùng cú không tự là cut, và góc rộng không tự chứng minh toàn phản ứng liên tục.
+
+**Sáng–màu–chất liệu:** Đen bình/cam lửa chuyển thành trắng khói, tương phản giảm; cố cân mọi frame về cùng độ sáng sẽ xóa biến cố.
+
+**Ứng dụng khi làm mới:** Khóa vật thể và người sau lớp che; với AI có thể tách trước khói và rộng sau khói bằng cut hợp lý, vẫn giữ trạng thái và hướng.
+
+**Nếu thay hoặc bỏ:** Chỉ có cận khói sẽ mất quan hệ nơi chốn; bỏ đoạn chuẩn bị có thể biến sự kiện thành hình ngẫu nhiên. Chưa kiểm tác dụng gây chờ/giật trên người xem.
+
+**Tiêu chí duyệt:**
+
+- Khói có vùng phát và phát triển, không là màn trắng dán thay cảnh.
+- Người/thiết bị còn cùng thế giới sau che.
+- Không đếm lại sự kiện khói thành shot mới.
+
+**Giới hạn:** Không hướng dẫn thao tác bình thật, không suy thông số áp suất hoặc thiết kế âm; chỉ nghiên cứu hình.
+
+<a id="v02-deep-09"></a>
+### V02-DEEP-09 — Một đạo cụ trả công dụng và trở thành mốc không gian
+
+[Mở bảng đối chiếu lớn](anh/nghien-cuu-03.jpg)
+
+**Mốc ảnh:** V02-S021 @ 01:18.40, V02-S023 @ 01:24.16, V02-S148 @ 08:14.20, V02-S149 @ 08:17.48
+
+**Thấy gì:** Bó rơm được cắt/chỉnh và đặt cạnh quả/que ở Q04; S148 đã có nhiều xiên trên giá và bổ sung thao tác cắm; S149 mang giá bên tủ, về sau nó vẫn là dấu của kho thành quả.
+
+**Đường chú ý dự kiến:** Hình bó khác thường đặt câu hỏi chức năng; tới giá cắm, hình cũ có công dụng. Đỏ trên đầu rơm và vị trí cao giúp nhận lại bằng hình.
+
+**Góc và không gian:** Cận hình bó cho nhận diện, trung người–giá cho công năng, rộng tủ cho chỗ đặt. Cùng một đạo cụ có ba nhiệm vụ ở các quy mô.
+
+**Thời điểm dựng:** Gieo ở 72,24–86,00s, trả công dụng quanh 493,46s trở đi. Độ trễ là quan hệ dựng; không chứng minh mọi người nhớ đúng đạo cụ.
+
+**Sáng–màu–chất liệu:** Vàng rơm khô giữ vật liệu; đỏ quả trở thành đầu nhấn cao; đỏ mũ ở thấp là vật khác cùng họ sắc.
+
+**Ứng dụng khi làm mới:** Lập ID đạo cụ và nơi cất; giữ hình bó/chân đỡ/đầu cắm qua các cảnh. Một chi tiết nền về sau phải có khả năng tiếp diễn, không sinh lại ngẫu nhiên.
+
+**Nếu thay hoặc bỏ:** Nếu bỏ phần làm bó, cảnh giá kẹo vẫn hiểu được nhưng mất một vòng trả công dụng. Nếu giữ quá lâu mà không trả, đoạn làm bó có thể thành đường vòng.
+
+**Tiêu chí duyệt:**
+
+- Giá có điểm kê và cấu trúc chịu xiên.
+- Cùng hình bó nhận ra được trước/sau.
+- Vị trí giá cạnh tủ nối được với các góc cuối.
+
+**Giới hạn:** Chưa thấy đủ kết cấu lõi/đế, không tự chốt mọi xiên là cùng chiếc được phủ ở cận trước.
+
+<a id="v02-deep-10"></a>
+### V02-DEEP-10 — Gieo người nhận trước khi cận trao
+
+[Mở bảng đối chiếu lớn](anh/nghien-cuu-04.jpg)
+
+**Mốc ảnh:** V02-S173 @ 09:47.68, V02-S173 @ 09:50.50, V02-S173 @ 09:53.34, V02-S174 @ 09:53.40
+
+**Thấy gì:** S173 mở ở cửa tối sau đầu/mũ người lớn tuổi gần; người trẻ mang hai phần đi ra. Cặp cut 593,38/593,40s đổi sang người nhận/tay và món tiến vào.
+
+**Đường chú ý dự kiến:** Người nhận ở lớp gần → cửa trống → người mang xuất hiện → khoảng cách giảm → cận điểm trao. Đích đến đã có trước bằng chứng đổi chủ.
+
+**Góc và không gian:** Lớp người nhận mờ không cần sắc để chỉ nơi đến; cửa và khoảng trống dành đường đi. Qua cut, phương hướng được hiểu bằng quan hệ người–món hơn khớp mọi tọa độ.
+
+**Thời điểm dựng:** 5,80s cho S173 và 4,14s cho S174; bước đi không bị nén thành một ảnh người đã tới. Không lấy tổng giây làm bằng chứng ấm áp.
+
+**Sáng–màu–chất liệu:** Đỏ mũ gần, chàm áo và vàng món là ba vật mốc; cửa tối làm người mới bước ra có chuyển che/lộ rõ.
+
+**Ứng dụng khi làm mới:** Khóa đích nhận và đường từ cửa, giữ đúng hai phần. Có thể đặt cận vào sớm đủ nhận bàn tay trước khi đổi chủ, không bắt đầu khi người nhận đã cầm xong.
+
+**Nếu thay hoặc bỏ:** Nếu chỉ cắt từ món trên bàn sang người đã ăn, vẫn hiểu kết quả nhưng mất hành động chăm sóc được thể hiện bằng mang/trao. Đây là lựa chọn ý nghĩa, chưa là phản ứng đo.
+
+**Tiêu chí duyệt:**
+
+- Người nhận tồn tại trước lúc trao.
+- Hai phần theo người qua cửa, không tăng/giảm khi bị mũ tiền cảnh che.
+- Không tự thêm nụ cười lớn, thoại hay nhìn máy.
+
+**Giới hạn:** Không có đo mắt hoặc xác nhận ý đồ tác giả; địa lý tuyệt đối ngoài khung chưa suy ra được.
+
+<a id="v02-deep-11"></a>
+### V02-DEEP-11 — Trao là chuyển quyền giữ, không phải hai tay đi ngang nhau
+
+[Mở bảng đối chiếu lớn](anh/nghien-cuu-04.jpg)
+
+**Mốc ảnh:** V02-S174 @ 09:53.40, V02-S174 @ 09:54.12, V02-S174 @ 09:55.16, V02-S174 @ 09:56.12
+
+**Thấy gì:** Ở ảnh 593,40s người trao còn giữ; 594,12s có hai tay cùng giữ; 595,16s tay trao đã tách; 596,12s người nhận giữ phần mình. Sau đó hai người dùng que lấy quả trong cùng cú.
+
+**Đường chú ý dự kiến:** Đích món → chỗ bàn tay cùng giữ → khoảng tách tay → phần đã thuộc người nhận. S175 trả quan hệ hai người dùng thành quả.
+
+**Góc và không gian:** Khung cận giữ cả tay trao/nhận và vỏ nón, tránh che hết điểm đổi chủ; nền áo/tường chỉ phụ.
+
+**Thời điểm dựng:** Từ mốc độc lập 595,16s tới cut 597,54s còn 2,38s, nhưng khoảng này có hành động dùng món nên không gọi là 2,38s giữ tĩnh. Không suy 595,16s là thời điểm nhả đầu tiên.
+
+**Sáng–màu–chất liệu:** Vàng/xanh món trên áo chàm giúp giữ nhận dạng; phản sáng quả khác vỏ nón khô, không biến nón thành cốc nhựa.
+
+**Ứng dụng khi làm mới:** Chỉ đạo chuỗi: mang tới → người nhận đặt tay → cùng giữ → người trao mở/rời → người nhận giữ riêng → dùng món. Kiểm từng quyền giữ khi tay giao nhau.
+
+**Nếu thay hoặc bỏ:** Cắt trước khi tay trao rời có thể làm việc nhận chưa được xác nhận; cắt trực tiếp sang rộng vẫn có thể trả trạng thái nếu rộng đủ rõ. Không có luật phải giữ mọi pha trong một cận.
+
+**Tiêu chí duyệt:**
+
+- Không có thời điểm món không được đỡ.
+- Bàn tay không morph từ người này thành người kia.
+- Một phần mỗi người sau trao, không trao hai lần qua cut.
+
+**Giới hạn:** Các mốc xác nhận trạng thái chọn, chưa phát trọn diễn tiến hoặc đo cảm xúc người xem.
+
+<a id="v02-deep-12"></a>
+### V02-DEEP-12 — Thành quả không chỉ là món: người, vật nuôi và kho cùng tồn tại
+
+[Mở bảng đối chiếu lớn](anh/nghien-cuu-04.jpg)
+
+**Mốc ảnh:** V02-S011 @ 00:37.88, V02-S097 @ 05:34.86, V02-S169 @ 09:30.20, V02-S175 @ 10:00.12
+
+**Thấy gì:** S011 có người cùng ngồi/lửa/chó; S097 chó nghỉ cạnh bếp; S169 người ngồi thấp tương tác chó trước tủ; S175 hai người dùng món với chó ở giữa và đồ trữ sau.
+
+**Đường chú ý dự kiến:** Công việc cá nhân mở sang đời sống có chủ thể phụ; ở cuối, món không chiếm toàn khung mà trở thành một phần quan hệ.
+
+**Góc và không gian:** Toàn giữ nhiều người/vật ở các lớp; thấp theo chó đổi chủ thể; kho/giá làm nền có lịch sử thay vì phông trang trí.
+
+**Thời điểm dựng:** Cảnh phụ xen khi công việc chờ hoặc vừa hoàn tất. Kết giữ S175 5,16s và S176 9,22s gồm fade; thời lượng là mô tả, không chuẩn bắt buộc.
+
+**Sáng–màu–chất liệu:** Đỏ mũ, chàm áo, vàng gỗ/tre và kem lông chó lặp thành nhận diện thế giới; khác chất liệu dù một số sắc gần nhau.
+
+**Ứng dụng khi làm mới:** Tạo sổ người/vật nuôi/đạo cụ theo vị trí và việc riêng. Phần chưa có tài sản Farm được duyệt phải tiếp nhận đúng bộ, không lấy mặt người nguồn thay thế.
+
+**Nếu thay hoặc bỏ:** Xóa người/vật nuôi để mỗi clip dễ sinh hơn sẽ đổi lời hứa thế giới; thêm chuyển động phụ quá mạnh lại có thể tranh việc chính. Chọn mức theo cảnh.
+
+**Tiêu chí duyệt:**
+
+- Chủ thể phụ có vị trí và đích hoạt động.
+- Đồ đã làm/cất không biến mất ở toàn cảnh cuối.
+- Không suy được cho ăn, cảm xúc thật hoặc quan hệ họ hàng chỉ từ khung.
+
+**Giới hạn:** Tác dụng thân thuộc/ấm áp vẫn là giả thuyết, không dữ liệu giữ chân hoặc sức khỏe.
+
+### 17 cầu nối chú ý qua điểm cắt
+
+Vị trí dưới đây là nhận định biên tập từ hình, không phải đo mắt người xem.
+
+| Điểm cắt | Trước → sau | Chức năng dự kiến |
+| --- | --- | --- |
+| V02-L013 | Người/tay trên bàn ở lớp giữa → Mặt gỗ trống vùng giữa | Đổi thang nhìn rồi cho vật vào; không bắt đầu ngay ở đỉnh tác động. |
+| V02-L014 | Vùng gỗ vừa trống sau tay rời → Đĩa và bát đầy hạt | Từ thao tác một đơn vị sang lượng; không ép khớp một hạt qua cut. |
+| V02-L038 | Tay người và chảo trong khung trung → Xiên và mặt siro giữa ảnh | Cận trả bằng chứng lớp phủ; phải nhận được vật trước khi nhấc. |
+| V02-L039 | Sợi siro phía trên mặt chảo → Hàng xiên nằm thấp/chạy vào sâu | Đổi từ biến đổi sang kết quả và lượng; nền gỗ trở thành mặt đỡ mới. |
+| V02-L059 | Người mang/nguyên liệu trên bàn rộng → Mặt bàn và hộp ngăn đi vào từ phải | Góc trên dành diện phẳng cho bản đồ vật liệu, không cần mặt người. |
+| V02-L066 | Mặt người đang nhìn xuống → Khay giấy trống giữa ảnh | Nối theo công việc/đích nhìn dự kiến, không tuyên bố điểm nhìn chủ quan của nhân vật. |
+| V02-L067 | Khối dẻo có chiều cao trên khay → Phôi đã rộng dưới giấy và cán | Góc mới đọc độ phẳng, có lược giai đoạn dàn; không cố nối khớp khối cao với phôi phẳng. |
+| V02-L077 | Tay/dao và phôi ở bên phải bàn → Mặt cắt có dâu đỏ gần giữa | Cận thêm cấu trúc bên trong, tránh tay/dao che hết mặt cắt vào lúc cần đọc. |
+| V02-L106 | Khói gần trắng che phần lớn khung → Sân rộng, ba người và khói | Khung mới trả địa lý khi thông tin cận bị che; không suy người đã mất khỏi thế giới. |
+| V02-L132 | Người khuấy và bát ở bên phải → Lòng chảo gần trống ở giữa | Thiết lập vùng nhận trước rót, chảo và bát không là cùng vật chứa. |
+| V02-L135 | Ống bánh còn ở gần chảo → Khay nhiều ống cùng hướng | Trả mẻ qua lược lặp; không cần nhét mọi lần tráng/cuộn vào một clip. |
+| V02-L147 | Hàng táo bóng dọc mặt gỗ → Giá hồ lô và người cạnh cửa | Đổi từ hàng nằm sang công dụng giá đứng, khóa cùng họ vật liệu và vị trí que. |
+| V02-L165 | Giỏ vừa được mang khỏi vùng gần → Người nhỏ trong vòm cây | Tái lập toàn dáng và đường đi sau cận chịu lực; lớn dần có thể do người tới máy, không phải zoom đã xác minh. |
+| V02-L172 | Bàn/đĩa còn lại sau nón được nhấc → Cửa tối sau người nhận ở gần | Khoảng trống mới dành đường xuất hiện; không thêm vật ngay giữa khung chỉ để cảnh luôn bận. |
+| V02-L173 | Người mang hai phần tiến tới người nhận → Tay người nhận và món từ bên phải | Đích nhận đã gieo rồi cận giữ điểm đổi chủ; vùng cần nhìn không bắt buộc giữ cùng tọa độ. |
+| V02-L174 | Hai người đã có phần riêng và dùng que → Toàn hai người, bàn/chó/kho | Trả quan hệ chung sau bằng chứng trao; không chỉ chuyển để đủ tỷ lệ toàn/cận. |
+| V02-L175 | Hai người ăn trong không gian kho → Hai chó ngước bên thân/tay người | Hạ trọng tâm xuống đời sống phụ; người vẫn cầm món, không xác nhận chó được cho ăn. |
+
+### Đối chiếu màu ở vùng vật liệu
+
+[Mở sáu ảnh lớn](anh/doi-chieu-mau.jpg). Mỗi ảnh đo một vùng chủ thể và một vùng so sánh, tọa độ nằm trong JSON. V là kênh giá trị HSV=max(R,G,B) của ảnh JPEG giải mã, **không phải độ chói tuyến tính, độ rọi, f-stop, cảm giác sáng hoặc tỷ lệ đèn**. Vùng chứa pixel hỗn hợp; khác số giữa hai góc còn do vật liệu, ánh sáng, khung và mã hóa.
+
+| Cú máy / mốc | HEX trung vị chủ thể | V chủ thể / vùng so | S chủ thể / vùng so |
+| --- | --- | --- | --- |
+| V02-S025 @ 01:32.24 | #75130F | 0.463 / 0.373 | 0.878 / 0.806 |
+| V02-S040 @ 02:16.48 | #6C0C0F | 0.424 / 0.478 | 0.859 / 0.293 |
+| V02-S065 @ 03:52.18 | #9D836C | 0.620 / 0.008 | 0.331 / 1.000 |
+| V02-S078 @ 04:33.02 | #7A6D8A | 0.580 / 0.314 | 0.341 / 0.567 |
+| V02-S135 @ 07:35.70 | #3B3C20 | 0.263 / 0.914 | 0.448 / 0.298 |
+| V02-S171 @ 09:40.58 | #855A0B | 0.525 / 0.016 | 0.896 / 0.706 |
+
+Các số giúp truy nguyên vùng đã so, không là công thức chỉnh màu. Với siro/đồ ăn, vị trí và hình phản sáng cùng bề mặt đổi có ý nghĩa hơn việc chỉ ép màu trung bình giống nhau.
 
 ## 26 chuỗi việc — bóc tách hình và nội dung
 

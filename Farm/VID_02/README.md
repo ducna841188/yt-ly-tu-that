@@ -1,8 +1,8 @@
 # VID_02 — Đồ ăn vặt cho Tết Nguyên đán
 
-**Bản 0.2.0 · tập trung hình ảnh, góc máy, màu sắc và chuỗi hành động. Âm ngoài phạm vi theo người dùng.**
+**Bản 0.3.0 · tập trung hình ảnh, góc máy, màu sắc và chuỗi hành động. Âm ngoài phạm vi theo người dùng.**
 
-176 hồ sơ cú máy dự kiến · 26 phiếu chuỗi · 77 nhịp nội dung · 175 liên kết trạng thái qua điểm cắt · 13 sổ sản vật · 13 giả thuyết DNA · 43 bảng ảnh nguồn.
+176 hồ sơ cú máy dự kiến · 26 phiếu chuỗi · 77 nhịp nội dung · 175 liên kết trạng thái qua điểm cắt · 13 sổ sản vật · 13 giả thuyết DNA · 60 bảng ảnh nguồn/đối chiếu.
 
 ## Đọc theo thứ tự
 
@@ -14,6 +14,7 @@
 
 ## Các kết quả chính
 
+- Bổ sung 12 nghiên cứu sâu, 17 cầu nối chú ý dự kiến, 350 frame đối chiếu 175 ranh giới, 12 vùng đo pixel có tọa độ và ba mốc thời gian được chú thích giới hạn.
 - Góc cao đọc mặt phẳng/vật chứa; tầm mặt vật đọc độ dày, mặt cắt, sợi kéo và cuộn; rộng trả quan hệ người–nơi. Chọn góc theo thông tin.
 - Màu có vật mang: chàm áo, nâu tre/gỗ, xanh xám nền, đỏ quả/giấy, vàng bánh. Biến đổi bề mặt kể tiến trình thô–tan–phủ–cắt–chín–gói.
 - Hạt dẻ, lát quả, phôi kẹo và thịt có trạng thái chờ rồi được trả; bó rơm có công dụng muộn ở giá hồ lô.
@@ -22,7 +23,7 @@
 
 ## Phạm vi bằng chứng
 
-Tệp tải dài 10:11.92, 1280×720, mã hóa 50fps. 1.328 mốc ảnh riêng theo toàn trục; đây không phải chứng nhận phát trọn chuyển động ở tốc độ thật. 176 cú là phân hoạch làm việc, chưa khóa mọi cut. Không đoán ống kính, khẩu, LUT/Kelvin hoặc tốc độ quay từ ảnh. Chưa có clip AI đầu ra hoặc thử khán giả.
+Tệp tải dài 10:11.92, 1280×720, mã hóa 50fps. 1,665 mốc ảnh riêng theo toàn trục; đây không phải chứng nhận phát trọn chuyển động ở tốc độ thật. 175 ranh giới hiện hành đã đối chiếu cặp frame, 176 cú vẫn là phân hoạch làm việc vì còn khả năng cut khác bị sót bên trong. Không đoán ống kính, khẩu, LUT/Kelvin hoặc tốc độ quay từ ảnh. Chưa có clip AI đầu ra hoặc thử khán giả.
 
 Audio cũ được giữ để truy nguyên, không được phân tích thêm và không chặn lượt hình. Nguồn/checksum, VID_01 và lựa chọn Farm giữ nguyên. Mọi tài liệu sửa tại chỗ; lịch sử ở Git và [nhật ký chung](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/CHANGELOG.md).
 

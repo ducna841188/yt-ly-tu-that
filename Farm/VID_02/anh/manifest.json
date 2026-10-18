@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.3.0",
   "source_asset_id": "V02-ASSET-UPLOAD",
   "source_sha256": "4a62804fd886d4d31b3b8d7c850b3263578428dcfc9a42afc7a36c528495877c",
   "purpose": "Source screenshots for analytical annotation; no generated footage.",
@@ -12225,9 +12225,8174 @@
       "atlas": "anh/tiep-xuc-V02-S174-2.jpg",
       "row": 1,
       "column": 4
+    },
+    {
+      "evidence_id": "V02-F000139",
+      "shot_id": "V02-S001",
+      "frame": 139,
+      "seconds": 2.78,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": "V02-L001 2.80s | n=139 -> 140"
+    },
+    {
+      "evidence_id": "V02-F000140",
+      "shot_id": "V02-S002",
+      "frame": 140,
+      "seconds": 2.8,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        240,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F000333",
+      "shot_id": "V02-S002",
+      "frame": 333,
+      "seconds": 6.66,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        480,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": "V02-L002 6.68s | n=333 -> 334"
+    },
+    {
+      "evidence_id": "V02-F000334",
+      "shot_id": "V02-S003",
+      "frame": 334,
+      "seconds": 6.68,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        720,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F000466",
+      "shot_id": "V02-S003",
+      "frame": 466,
+      "seconds": 9.32,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 1,
+      "column": 5,
+      "render_box": [
+        960,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": "V02-L003 9.34s | n=466 -> 467"
+    },
+    {
+      "evidence_id": "V02-F000467",
+      "shot_id": "V02-S004",
+      "frame": 467,
+      "seconds": 9.34,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 1,
+      "column": 6,
+      "render_box": [
+        1200,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F000561",
+      "shot_id": "V02-S004",
+      "frame": 561,
+      "seconds": 11.22,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": "V02-L004 11.24s | n=561 -> 562"
+    },
+    {
+      "evidence_id": "V02-F000562",
+      "shot_id": "V02-S005",
+      "frame": 562,
+      "seconds": 11.24,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        240,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F000712",
+      "shot_id": "V02-S005",
+      "frame": 712,
+      "seconds": 14.24,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        480,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": "V02-L005 14.26s | n=712 -> 713"
+    },
+    {
+      "evidence_id": "V02-F000713",
+      "shot_id": "V02-S006",
+      "frame": 713,
+      "seconds": 14.26,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        720,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F000927",
+      "shot_id": "V02-S006",
+      "frame": 927,
+      "seconds": 18.54,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 2,
+      "column": 5,
+      "render_box": [
+        960,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": "V02-L006 18.56s | n=927 -> 928"
+    },
+    {
+      "evidence_id": "V02-F000928",
+      "shot_id": "V02-S007",
+      "frame": 928,
+      "seconds": 18.56,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 2,
+      "column": 6,
+      "render_box": [
+        1200,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F001120",
+      "shot_id": "V02-S007",
+      "frame": 1120,
+      "seconds": 22.4,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": "V02-L007 22.42s | n=1120 -> 1121"
+    },
+    {
+      "evidence_id": "V02-F001121",
+      "shot_id": "V02-S008",
+      "frame": 1121,
+      "seconds": 22.42,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        240,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F001347",
+      "shot_id": "V02-S008",
+      "frame": 1347,
+      "seconds": 26.94,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        480,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": "V02-L008 26.96s | n=1347 -> 1348"
+    },
+    {
+      "evidence_id": "V02-F001348",
+      "shot_id": "V02-S009",
+      "frame": 1348,
+      "seconds": 26.96,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        720,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F001581",
+      "shot_id": "V02-S009",
+      "frame": 1581,
+      "seconds": 31.62,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 3,
+      "column": 5,
+      "render_box": [
+        960,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": "V02-L009 31.64s | n=1581 -> 1582"
+    },
+    {
+      "evidence_id": "V02-F001582",
+      "shot_id": "V02-S010",
+      "frame": 1582,
+      "seconds": 31.64,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 3,
+      "column": 6,
+      "render_box": [
+        1200,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F001735",
+      "shot_id": "V02-S010",
+      "frame": 1735,
+      "seconds": 34.7,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 4,
+      "column": 1,
+      "render_box": [
+        0,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": "V02-L010 34.72s | n=1735 -> 1736"
+    },
+    {
+      "evidence_id": "V02-F001736",
+      "shot_id": "V02-S011",
+      "frame": 1736,
+      "seconds": 34.72,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 4,
+      "column": 2,
+      "render_box": [
+        240,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F002052",
+      "shot_id": "V02-S011",
+      "frame": 2052,
+      "seconds": 41.04,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 4,
+      "column": 3,
+      "render_box": [
+        480,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": "V02-L011 41.06s | n=2052 -> 2053"
+    },
+    {
+      "evidence_id": "V02-F002053",
+      "shot_id": "V02-S012",
+      "frame": 2053,
+      "seconds": 41.06,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 4,
+      "column": 4,
+      "render_box": [
+        720,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F002203",
+      "shot_id": "V02-S012",
+      "frame": 2203,
+      "seconds": 44.06,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 4,
+      "column": 5,
+      "render_box": [
+        960,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": "V02-L012 44.08s | n=2203 -> 2204"
+    },
+    {
+      "evidence_id": "V02-F002204",
+      "shot_id": "V02-S013",
+      "frame": 2204,
+      "seconds": 44.08,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 4,
+      "column": 6,
+      "render_box": [
+        1200,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F002360",
+      "shot_id": "V02-S013",
+      "frame": 2360,
+      "seconds": 47.2,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 5,
+      "column": 1,
+      "render_box": [
+        0,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": "V02-L013 47.22s | n=2360 -> 2361"
+    },
+    {
+      "evidence_id": "V02-F002361",
+      "shot_id": "V02-S014",
+      "frame": 2361,
+      "seconds": 47.22,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 5,
+      "column": 2,
+      "render_box": [
+        240,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F002520",
+      "shot_id": "V02-S014",
+      "frame": 2520,
+      "seconds": 50.4,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 5,
+      "column": 3,
+      "render_box": [
+        480,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": "V02-L014 50.42s | n=2520 -> 2521"
+    },
+    {
+      "evidence_id": "V02-F002521",
+      "shot_id": "V02-S015",
+      "frame": 2521,
+      "seconds": 50.42,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 5,
+      "column": 4,
+      "render_box": [
+        720,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F002646",
+      "shot_id": "V02-S015",
+      "frame": 2646,
+      "seconds": 52.92,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 5,
+      "column": 5,
+      "render_box": [
+        960,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": "V02-L015 52.94s | n=2646 -> 2647"
+    },
+    {
+      "evidence_id": "V02-F002647",
+      "shot_id": "V02-S016",
+      "frame": 2647,
+      "seconds": 52.94,
+      "atlas": "anh/diem-cat-01.jpg",
+      "row": 5,
+      "column": 6,
+      "render_box": [
+        1200,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F002983",
+      "shot_id": "V02-S016",
+      "frame": 2983,
+      "seconds": 59.66,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": "V02-L016 59.68s | n=2983 -> 2984"
+    },
+    {
+      "evidence_id": "V02-F002984",
+      "shot_id": "V02-S017",
+      "frame": 2984,
+      "seconds": 59.68,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        240,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F003134",
+      "shot_id": "V02-S017",
+      "frame": 3134,
+      "seconds": 62.68,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        480,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": "V02-L017 62.70s | n=3134 -> 3135"
+    },
+    {
+      "evidence_id": "V02-F003135",
+      "shot_id": "V02-S018",
+      "frame": 3135,
+      "seconds": 62.7,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        720,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F003438",
+      "shot_id": "V02-S018",
+      "frame": 3438,
+      "seconds": 68.76,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 1,
+      "column": 5,
+      "render_box": [
+        960,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": "V02-L018 68.78s | n=3438 -> 3439"
+    },
+    {
+      "evidence_id": "V02-F003439",
+      "shot_id": "V02-S019",
+      "frame": 3439,
+      "seconds": 68.78,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 1,
+      "column": 6,
+      "render_box": [
+        1200,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F003611",
+      "shot_id": "V02-S019",
+      "frame": 3611,
+      "seconds": 72.22,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": "V02-L019 72.24s | n=3611 -> 3612"
+    },
+    {
+      "evidence_id": "V02-F003612",
+      "shot_id": "V02-S020",
+      "frame": 3612,
+      "seconds": 72.24,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        240,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F003843",
+      "shot_id": "V02-S020",
+      "frame": 3843,
+      "seconds": 76.86,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        480,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": "V02-L020 76.88s | n=3843 -> 3844"
+    },
+    {
+      "evidence_id": "V02-F003844",
+      "shot_id": "V02-S021",
+      "frame": 3844,
+      "seconds": 76.88,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        720,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F003996",
+      "shot_id": "V02-S021",
+      "frame": 3996,
+      "seconds": 79.92,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 2,
+      "column": 5,
+      "render_box": [
+        960,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": "V02-L021 79.94s | n=3996 -> 3997"
+    },
+    {
+      "evidence_id": "V02-F003997",
+      "shot_id": "V02-S022",
+      "frame": 3997,
+      "seconds": 79.94,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 2,
+      "column": 6,
+      "render_box": [
+        1200,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F004116",
+      "shot_id": "V02-S022",
+      "frame": 4116,
+      "seconds": 82.32,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": "V02-L022 82.34s | n=4116 -> 4117"
+    },
+    {
+      "evidence_id": "V02-F004117",
+      "shot_id": "V02-S023",
+      "frame": 4117,
+      "seconds": 82.34,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        240,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F004299",
+      "shot_id": "V02-S023",
+      "frame": 4299,
+      "seconds": 85.98,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        480,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": "V02-L023 86.00s | n=4299 -> 4300"
+    },
+    {
+      "evidence_id": "V02-F004300",
+      "shot_id": "V02-S024",
+      "frame": 4300,
+      "seconds": 86.0,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        720,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F004519",
+      "shot_id": "V02-S024",
+      "frame": 4519,
+      "seconds": 90.38,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 3,
+      "column": 5,
+      "render_box": [
+        960,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": "V02-L024 90.40s | n=4519 -> 4520"
+    },
+    {
+      "evidence_id": "V02-F004520",
+      "shot_id": "V02-S025",
+      "frame": 4520,
+      "seconds": 90.4,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 3,
+      "column": 6,
+      "render_box": [
+        1200,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F004702",
+      "shot_id": "V02-S025",
+      "frame": 4702,
+      "seconds": 94.04,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 4,
+      "column": 1,
+      "render_box": [
+        0,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": "V02-L025 94.06s | n=4702 -> 4703"
+    },
+    {
+      "evidence_id": "V02-F004703",
+      "shot_id": "V02-S026",
+      "frame": 4703,
+      "seconds": 94.06,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 4,
+      "column": 2,
+      "render_box": [
+        240,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F004893",
+      "shot_id": "V02-S026",
+      "frame": 4893,
+      "seconds": 97.86,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 4,
+      "column": 3,
+      "render_box": [
+        480,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": "V02-L026 97.88s | n=4893 -> 4894"
+    },
+    {
+      "evidence_id": "V02-F004894",
+      "shot_id": "V02-S027",
+      "frame": 4894,
+      "seconds": 97.88,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 4,
+      "column": 4,
+      "render_box": [
+        720,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F005017",
+      "shot_id": "V02-S027",
+      "frame": 5017,
+      "seconds": 100.34,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 4,
+      "column": 5,
+      "render_box": [
+        960,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": "V02-L027 100.36s | n=5017 -> 5018"
+    },
+    {
+      "evidence_id": "V02-F005018",
+      "shot_id": "V02-S028",
+      "frame": 5018,
+      "seconds": 100.36,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 4,
+      "column": 6,
+      "render_box": [
+        1200,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F005166",
+      "shot_id": "V02-S028",
+      "frame": 5166,
+      "seconds": 103.32,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 5,
+      "column": 1,
+      "render_box": [
+        0,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": "V02-L028 103.34s | n=5166 -> 5167"
+    },
+    {
+      "evidence_id": "V02-F005167",
+      "shot_id": "V02-S029",
+      "frame": 5167,
+      "seconds": 103.34,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 5,
+      "column": 2,
+      "render_box": [
+        240,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F005404",
+      "shot_id": "V02-S029",
+      "frame": 5404,
+      "seconds": 108.08,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 5,
+      "column": 3,
+      "render_box": [
+        480,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": "V02-L029 108.10s | n=5404 -> 5405"
+    },
+    {
+      "evidence_id": "V02-F005405",
+      "shot_id": "V02-S030",
+      "frame": 5405,
+      "seconds": 108.1,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 5,
+      "column": 4,
+      "render_box": [
+        720,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F005521",
+      "shot_id": "V02-S030",
+      "frame": 5521,
+      "seconds": 110.42,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 5,
+      "column": 5,
+      "render_box": [
+        960,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": "V02-L030 110.44s | n=5521 -> 5522"
+    },
+    {
+      "evidence_id": "V02-F005522",
+      "shot_id": "V02-S031",
+      "frame": 5522,
+      "seconds": 110.44,
+      "atlas": "anh/diem-cat-02.jpg",
+      "row": 5,
+      "column": 6,
+      "render_box": [
+        1200,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F005639",
+      "shot_id": "V02-S031",
+      "frame": 5639,
+      "seconds": 112.78,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": "V02-L031 112.80s | n=5639 -> 5640"
+    },
+    {
+      "evidence_id": "V02-F005640",
+      "shot_id": "V02-S032",
+      "frame": 5640,
+      "seconds": 112.8,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        240,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F005755",
+      "shot_id": "V02-S032",
+      "frame": 5755,
+      "seconds": 115.1,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        480,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": "V02-L032 115.12s | n=5755 -> 5756"
+    },
+    {
+      "evidence_id": "V02-F005756",
+      "shot_id": "V02-S033",
+      "frame": 5756,
+      "seconds": 115.12,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        720,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F005907",
+      "shot_id": "V02-S033",
+      "frame": 5907,
+      "seconds": 118.14,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 1,
+      "column": 5,
+      "render_box": [
+        960,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": "V02-L033 118.16s | n=5907 -> 5908"
+    },
+    {
+      "evidence_id": "V02-F005908",
+      "shot_id": "V02-S034",
+      "frame": 5908,
+      "seconds": 118.16,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 1,
+      "column": 6,
+      "render_box": [
+        1200,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F006053",
+      "shot_id": "V02-S034",
+      "frame": 6053,
+      "seconds": 121.06,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": "V02-L034 121.08s | n=6053 -> 6054"
+    },
+    {
+      "evidence_id": "V02-F006054",
+      "shot_id": "V02-S035",
+      "frame": 6054,
+      "seconds": 121.08,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        240,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F006143",
+      "shot_id": "V02-S035",
+      "frame": 6143,
+      "seconds": 122.86,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        480,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": "V02-L035 122.88s | n=6143 -> 6144"
+    },
+    {
+      "evidence_id": "V02-F006144",
+      "shot_id": "V02-S036",
+      "frame": 6144,
+      "seconds": 122.88,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        720,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F006224",
+      "shot_id": "V02-S036",
+      "frame": 6224,
+      "seconds": 124.48,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 2,
+      "column": 5,
+      "render_box": [
+        960,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": "V02-L036 124.50s | n=6224 -> 6225"
+    },
+    {
+      "evidence_id": "V02-F006225",
+      "shot_id": "V02-S037",
+      "frame": 6225,
+      "seconds": 124.5,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 2,
+      "column": 6,
+      "render_box": [
+        1200,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F006379",
+      "shot_id": "V02-S037",
+      "frame": 6379,
+      "seconds": 127.58,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": "V02-L037 127.60s | n=6379 -> 6380"
+    },
+    {
+      "evidence_id": "V02-F006380",
+      "shot_id": "V02-S038",
+      "frame": 6380,
+      "seconds": 127.6,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        240,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F006599",
+      "shot_id": "V02-S038",
+      "frame": 6599,
+      "seconds": 131.98,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        480,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": "V02-L038 132.00s | n=6599 -> 6600"
+    },
+    {
+      "evidence_id": "V02-F006600",
+      "shot_id": "V02-S039",
+      "frame": 6600,
+      "seconds": 132.0,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        720,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F006764",
+      "shot_id": "V02-S039",
+      "frame": 6764,
+      "seconds": 135.28,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 3,
+      "column": 5,
+      "render_box": [
+        960,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": "V02-L039 135.30s | n=6764 -> 6765"
+    },
+    {
+      "evidence_id": "V02-F006765",
+      "shot_id": "V02-S040",
+      "frame": 6765,
+      "seconds": 135.3,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 3,
+      "column": 6,
+      "render_box": [
+        1200,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F006883",
+      "shot_id": "V02-S040",
+      "frame": 6883,
+      "seconds": 137.66,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 4,
+      "column": 1,
+      "render_box": [
+        0,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": "V02-L040 137.68s | n=6883 -> 6884"
+    },
+    {
+      "evidence_id": "V02-F006884",
+      "shot_id": "V02-S041",
+      "frame": 6884,
+      "seconds": 137.68,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 4,
+      "column": 2,
+      "render_box": [
+        240,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F007027",
+      "shot_id": "V02-S041",
+      "frame": 7027,
+      "seconds": 140.54,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 4,
+      "column": 3,
+      "render_box": [
+        480,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": "V02-L041 140.56s | n=7027 -> 7028"
+    },
+    {
+      "evidence_id": "V02-F007028",
+      "shot_id": "V02-S042",
+      "frame": 7028,
+      "seconds": 140.56,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 4,
+      "column": 4,
+      "render_box": [
+        720,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F007237",
+      "shot_id": "V02-S042",
+      "frame": 7237,
+      "seconds": 144.74,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 4,
+      "column": 5,
+      "render_box": [
+        960,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": "V02-L042 144.76s | n=7237 -> 7238"
+    },
+    {
+      "evidence_id": "V02-F007238",
+      "shot_id": "V02-S043",
+      "frame": 7238,
+      "seconds": 144.76,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 4,
+      "column": 6,
+      "render_box": [
+        1200,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F007433",
+      "shot_id": "V02-S043",
+      "frame": 7433,
+      "seconds": 148.66,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 5,
+      "column": 1,
+      "render_box": [
+        0,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": "V02-L043 148.68s | n=7433 -> 7434"
+    },
+    {
+      "evidence_id": "V02-F007434",
+      "shot_id": "V02-S044",
+      "frame": 7434,
+      "seconds": 148.68,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 5,
+      "column": 2,
+      "render_box": [
+        240,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F007550",
+      "shot_id": "V02-S044",
+      "frame": 7550,
+      "seconds": 151.0,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 5,
+      "column": 3,
+      "render_box": [
+        480,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": "V02-L044 151.02s | n=7550 -> 7551"
+    },
+    {
+      "evidence_id": "V02-F007551",
+      "shot_id": "V02-S045",
+      "frame": 7551,
+      "seconds": 151.02,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 5,
+      "column": 4,
+      "render_box": [
+        720,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F007855",
+      "shot_id": "V02-S045",
+      "frame": 7855,
+      "seconds": 157.1,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 5,
+      "column": 5,
+      "render_box": [
+        960,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": "V02-L045 157.12s | n=7855 -> 7856"
+    },
+    {
+      "evidence_id": "V02-F007856",
+      "shot_id": "V02-S046",
+      "frame": 7856,
+      "seconds": 157.12,
+      "atlas": "anh/diem-cat-03.jpg",
+      "row": 5,
+      "column": 6,
+      "render_box": [
+        1200,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F008111",
+      "shot_id": "V02-S046",
+      "frame": 8111,
+      "seconds": 162.22,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": "V02-L046 162.24s | n=8111 -> 8112"
+    },
+    {
+      "evidence_id": "V02-F008112",
+      "shot_id": "V02-S047",
+      "frame": 8112,
+      "seconds": 162.24,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        240,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F008298",
+      "shot_id": "V02-S047",
+      "frame": 8298,
+      "seconds": 165.96,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        480,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": "V02-L047 165.98s | n=8298 -> 8299"
+    },
+    {
+      "evidence_id": "V02-F008299",
+      "shot_id": "V02-S048",
+      "frame": 8299,
+      "seconds": 165.98,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        720,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F008468",
+      "shot_id": "V02-S048",
+      "frame": 8468,
+      "seconds": 169.36,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 1,
+      "column": 5,
+      "render_box": [
+        960,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": "V02-L048 169.38s | n=8468 -> 8469"
+    },
+    {
+      "evidence_id": "V02-F008469",
+      "shot_id": "V02-S049",
+      "frame": 8469,
+      "seconds": 169.38,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 1,
+      "column": 6,
+      "render_box": [
+        1200,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F008710",
+      "shot_id": "V02-S049",
+      "frame": 8710,
+      "seconds": 174.2,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": "V02-L049 174.22s | n=8710 -> 8711"
+    },
+    {
+      "evidence_id": "V02-F008711",
+      "shot_id": "V02-S050",
+      "frame": 8711,
+      "seconds": 174.22,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        240,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F008939",
+      "shot_id": "V02-S050",
+      "frame": 8939,
+      "seconds": 178.78,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        480,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": "V02-L050 178.80s | n=8939 -> 8940"
+    },
+    {
+      "evidence_id": "V02-F008940",
+      "shot_id": "V02-S051",
+      "frame": 8940,
+      "seconds": 178.8,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        720,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F009099",
+      "shot_id": "V02-S051",
+      "frame": 9099,
+      "seconds": 181.98,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 2,
+      "column": 5,
+      "render_box": [
+        960,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": "V02-L051 182.00s | n=9099 -> 9100"
+    },
+    {
+      "evidence_id": "V02-F009100",
+      "shot_id": "V02-S052",
+      "frame": 9100,
+      "seconds": 182.0,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 2,
+      "column": 6,
+      "render_box": [
+        1200,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F009233",
+      "shot_id": "V02-S052",
+      "frame": 9233,
+      "seconds": 184.66,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": "V02-L052 184.68s | n=9233 -> 9234"
+    },
+    {
+      "evidence_id": "V02-F009234",
+      "shot_id": "V02-S053",
+      "frame": 9234,
+      "seconds": 184.68,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        240,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F009386",
+      "shot_id": "V02-S053",
+      "frame": 9386,
+      "seconds": 187.72,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        480,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": "V02-L053 187.74s | n=9386 -> 9387"
+    },
+    {
+      "evidence_id": "V02-F009387",
+      "shot_id": "V02-S054",
+      "frame": 9387,
+      "seconds": 187.74,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        720,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F009546",
+      "shot_id": "V02-S054",
+      "frame": 9546,
+      "seconds": 190.92,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 3,
+      "column": 5,
+      "render_box": [
+        960,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": "V02-L054 190.94s | n=9546 -> 9547"
+    },
+    {
+      "evidence_id": "V02-F009547",
+      "shot_id": "V02-S055",
+      "frame": 9547,
+      "seconds": 190.94,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 3,
+      "column": 6,
+      "render_box": [
+        1200,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F009759",
+      "shot_id": "V02-S055",
+      "frame": 9759,
+      "seconds": 195.18,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 4,
+      "column": 1,
+      "render_box": [
+        0,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": "V02-L055 195.20s | n=9759 -> 9760"
+    },
+    {
+      "evidence_id": "V02-F009760",
+      "shot_id": "V02-S056",
+      "frame": 9760,
+      "seconds": 195.2,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 4,
+      "column": 2,
+      "render_box": [
+        240,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F009918",
+      "shot_id": "V02-S056",
+      "frame": 9918,
+      "seconds": 198.36,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 4,
+      "column": 3,
+      "render_box": [
+        480,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": "V02-L056 198.38s | n=9918 -> 9919"
+    },
+    {
+      "evidence_id": "V02-F009919",
+      "shot_id": "V02-S057",
+      "frame": 9919,
+      "seconds": 198.38,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 4,
+      "column": 4,
+      "render_box": [
+        720,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F010156",
+      "shot_id": "V02-S057",
+      "frame": 10156,
+      "seconds": 203.12,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 4,
+      "column": 5,
+      "render_box": [
+        960,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": "V02-L057 203.14s | n=10156 -> 10157"
+    },
+    {
+      "evidence_id": "V02-F010157",
+      "shot_id": "V02-S058",
+      "frame": 10157,
+      "seconds": 203.14,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 4,
+      "column": 6,
+      "render_box": [
+        1200,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F010398",
+      "shot_id": "V02-S058",
+      "frame": 10398,
+      "seconds": 207.96,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 5,
+      "column": 1,
+      "render_box": [
+        0,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": "V02-L058 207.98s | n=10398 -> 10399"
+    },
+    {
+      "evidence_id": "V02-F010399",
+      "shot_id": "V02-S059",
+      "frame": 10399,
+      "seconds": 207.98,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 5,
+      "column": 2,
+      "render_box": [
+        240,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F010632",
+      "shot_id": "V02-S059",
+      "frame": 10632,
+      "seconds": 212.64,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 5,
+      "column": 3,
+      "render_box": [
+        480,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": "V02-L059 212.66s | n=10632 -> 10633"
+    },
+    {
+      "evidence_id": "V02-F010633",
+      "shot_id": "V02-S060",
+      "frame": 10633,
+      "seconds": 212.66,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 5,
+      "column": 4,
+      "render_box": [
+        720,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F010811",
+      "shot_id": "V02-S060",
+      "frame": 10811,
+      "seconds": 216.22,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 5,
+      "column": 5,
+      "render_box": [
+        960,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": "V02-L060 216.24s | n=10811 -> 10812"
+    },
+    {
+      "evidence_id": "V02-F010812",
+      "shot_id": "V02-S061",
+      "frame": 10812,
+      "seconds": 216.24,
+      "atlas": "anh/diem-cat-04.jpg",
+      "row": 5,
+      "column": 6,
+      "render_box": [
+        1200,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F010933",
+      "shot_id": "V02-S061",
+      "frame": 10933,
+      "seconds": 218.66,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": "V02-L061 218.68s | n=10933 -> 10934"
+    },
+    {
+      "evidence_id": "V02-F010934",
+      "shot_id": "V02-S062",
+      "frame": 10934,
+      "seconds": 218.68,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        240,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F011089",
+      "shot_id": "V02-S062",
+      "frame": 11089,
+      "seconds": 221.78,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        480,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": "V02-L062 221.80s | n=11089 -> 11090"
+    },
+    {
+      "evidence_id": "V02-F011090",
+      "shot_id": "V02-S063",
+      "frame": 11090,
+      "seconds": 221.8,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        720,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F011264",
+      "shot_id": "V02-S063",
+      "frame": 11264,
+      "seconds": 225.28,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 1,
+      "column": 5,
+      "render_box": [
+        960,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": "V02-L063 225.30s | n=11264 -> 11265"
+    },
+    {
+      "evidence_id": "V02-F011265",
+      "shot_id": "V02-S064",
+      "frame": 11265,
+      "seconds": 225.3,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 1,
+      "column": 6,
+      "render_box": [
+        1200,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F011523",
+      "shot_id": "V02-S064",
+      "frame": 11523,
+      "seconds": 230.46,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": "V02-L064 230.48s | n=11523 -> 11524"
+    },
+    {
+      "evidence_id": "V02-F011524",
+      "shot_id": "V02-S065",
+      "frame": 11524,
+      "seconds": 230.48,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        240,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F011693",
+      "shot_id": "V02-S065",
+      "frame": 11693,
+      "seconds": 233.86,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        480,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": "V02-L065 233.88s | n=11693 -> 11694"
+    },
+    {
+      "evidence_id": "V02-F011694",
+      "shot_id": "V02-S066",
+      "frame": 11694,
+      "seconds": 233.88,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        720,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F011794",
+      "shot_id": "V02-S066",
+      "frame": 11794,
+      "seconds": 235.88,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 2,
+      "column": 5,
+      "render_box": [
+        960,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": "V02-L066 235.90s | n=11794 -> 11795"
+    },
+    {
+      "evidence_id": "V02-F011795",
+      "shot_id": "V02-S067",
+      "frame": 11795,
+      "seconds": 235.9,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 2,
+      "column": 6,
+      "render_box": [
+        1200,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F011910",
+      "shot_id": "V02-S067",
+      "frame": 11910,
+      "seconds": 238.2,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": "V02-L067 238.22s | n=11910 -> 11911"
+    },
+    {
+      "evidence_id": "V02-F011911",
+      "shot_id": "V02-S068",
+      "frame": 11911,
+      "seconds": 238.22,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        240,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F012030",
+      "shot_id": "V02-S068",
+      "frame": 12030,
+      "seconds": 240.6,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        480,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": "V02-L068 240.62s | n=12030 -> 12031"
+    },
+    {
+      "evidence_id": "V02-F012031",
+      "shot_id": "V02-S069",
+      "frame": 12031,
+      "seconds": 240.62,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        720,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F012112",
+      "shot_id": "V02-S069",
+      "frame": 12112,
+      "seconds": 242.24,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 3,
+      "column": 5,
+      "render_box": [
+        960,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": "V02-L069 242.26s | n=12112 -> 12113"
+    },
+    {
+      "evidence_id": "V02-F012113",
+      "shot_id": "V02-S070",
+      "frame": 12113,
+      "seconds": 242.26,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 3,
+      "column": 6,
+      "render_box": [
+        1200,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F012363",
+      "shot_id": "V02-S070",
+      "frame": 12363,
+      "seconds": 247.26,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 4,
+      "column": 1,
+      "render_box": [
+        0,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": "V02-L070 247.28s | n=12363 -> 12364"
+    },
+    {
+      "evidence_id": "V02-F012364",
+      "shot_id": "V02-S071",
+      "frame": 12364,
+      "seconds": 247.28,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 4,
+      "column": 2,
+      "render_box": [
+        240,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F012501",
+      "shot_id": "V02-S071",
+      "frame": 12501,
+      "seconds": 250.02,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 4,
+      "column": 3,
+      "render_box": [
+        480,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": "V02-L071 250.04s | n=12501 -> 12502"
+    },
+    {
+      "evidence_id": "V02-F012502",
+      "shot_id": "V02-S072",
+      "frame": 12502,
+      "seconds": 250.04,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 4,
+      "column": 4,
+      "render_box": [
+        720,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F012683",
+      "shot_id": "V02-S072",
+      "frame": 12683,
+      "seconds": 253.66,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 4,
+      "column": 5,
+      "render_box": [
+        960,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": "V02-L072 253.68s | n=12683 -> 12684"
+    },
+    {
+      "evidence_id": "V02-F012684",
+      "shot_id": "V02-S073",
+      "frame": 12684,
+      "seconds": 253.68,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 4,
+      "column": 6,
+      "render_box": [
+        1200,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F012856",
+      "shot_id": "V02-S073",
+      "frame": 12856,
+      "seconds": 257.12,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 5,
+      "column": 1,
+      "render_box": [
+        0,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": "V02-L073 257.14s | n=12856 -> 12857"
+    },
+    {
+      "evidence_id": "V02-F012857",
+      "shot_id": "V02-S074",
+      "frame": 12857,
+      "seconds": 257.14,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 5,
+      "column": 2,
+      "render_box": [
+        240,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F013018",
+      "shot_id": "V02-S074",
+      "frame": 13018,
+      "seconds": 260.36,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 5,
+      "column": 3,
+      "render_box": [
+        480,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": "V02-L074 260.38s | n=13018 -> 13019"
+    },
+    {
+      "evidence_id": "V02-F013019",
+      "shot_id": "V02-S075",
+      "frame": 13019,
+      "seconds": 260.38,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 5,
+      "column": 4,
+      "render_box": [
+        720,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F013269",
+      "shot_id": "V02-S075",
+      "frame": 13269,
+      "seconds": 265.38,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 5,
+      "column": 5,
+      "render_box": [
+        960,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": "V02-L075 265.40s | n=13269 -> 13270"
+    },
+    {
+      "evidence_id": "V02-F013270",
+      "shot_id": "V02-S076",
+      "frame": 13270,
+      "seconds": 265.4,
+      "atlas": "anh/diem-cat-05.jpg",
+      "row": 5,
+      "column": 6,
+      "render_box": [
+        1200,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F013360",
+      "shot_id": "V02-S076",
+      "frame": 13360,
+      "seconds": 267.2,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": "V02-L076 267.22s | n=13360 -> 13361"
+    },
+    {
+      "evidence_id": "V02-F013361",
+      "shot_id": "V02-S077",
+      "frame": 13361,
+      "seconds": 267.22,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        240,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F013595",
+      "shot_id": "V02-S077",
+      "frame": 13595,
+      "seconds": 271.9,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        480,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": "V02-L077 271.92s | n=13595 -> 13596"
+    },
+    {
+      "evidence_id": "V02-F013596",
+      "shot_id": "V02-S078",
+      "frame": 13596,
+      "seconds": 271.92,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        720,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F013705",
+      "shot_id": "V02-S078",
+      "frame": 13705,
+      "seconds": 274.1,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 1,
+      "column": 5,
+      "render_box": [
+        960,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": "V02-L078 274.12s | n=13705 -> 13706"
+    },
+    {
+      "evidence_id": "V02-F013706",
+      "shot_id": "V02-S079",
+      "frame": 13706,
+      "seconds": 274.12,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 1,
+      "column": 6,
+      "render_box": [
+        1200,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F013764",
+      "shot_id": "V02-S079",
+      "frame": 13764,
+      "seconds": 275.28,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": "V02-L079 275.30s | n=13764 -> 13765"
+    },
+    {
+      "evidence_id": "V02-F013765",
+      "shot_id": "V02-S080",
+      "frame": 13765,
+      "seconds": 275.3,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        240,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F013947",
+      "shot_id": "V02-S080",
+      "frame": 13947,
+      "seconds": 278.94,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        480,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": "V02-L080 278.96s | n=13947 -> 13948"
+    },
+    {
+      "evidence_id": "V02-F013948",
+      "shot_id": "V02-S081",
+      "frame": 13948,
+      "seconds": 278.96,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        720,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F014100",
+      "shot_id": "V02-S081",
+      "frame": 14100,
+      "seconds": 282.0,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 2,
+      "column": 5,
+      "render_box": [
+        960,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": "V02-L081 282.02s | n=14100 -> 14101"
+    },
+    {
+      "evidence_id": "V02-F014101",
+      "shot_id": "V02-S082",
+      "frame": 14101,
+      "seconds": 282.02,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 2,
+      "column": 6,
+      "render_box": [
+        1200,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F014257",
+      "shot_id": "V02-S082",
+      "frame": 14257,
+      "seconds": 285.14,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": "V02-L082 285.16s | n=14257 -> 14258"
+    },
+    {
+      "evidence_id": "V02-F014258",
+      "shot_id": "V02-S083",
+      "frame": 14258,
+      "seconds": 285.16,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        240,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F014452",
+      "shot_id": "V02-S083",
+      "frame": 14452,
+      "seconds": 289.04,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        480,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": "V02-L083 289.06s | n=14452 -> 14453"
+    },
+    {
+      "evidence_id": "V02-F014453",
+      "shot_id": "V02-S084",
+      "frame": 14453,
+      "seconds": 289.06,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        720,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F014647",
+      "shot_id": "V02-S084",
+      "frame": 14647,
+      "seconds": 292.94,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 3,
+      "column": 5,
+      "render_box": [
+        960,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": "V02-L084 292.96s | n=14647 -> 14648"
+    },
+    {
+      "evidence_id": "V02-F014648",
+      "shot_id": "V02-S085",
+      "frame": 14648,
+      "seconds": 292.96,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 3,
+      "column": 6,
+      "render_box": [
+        1200,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F014793",
+      "shot_id": "V02-S085",
+      "frame": 14793,
+      "seconds": 295.86,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 4,
+      "column": 1,
+      "render_box": [
+        0,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": "V02-L085 295.88s | n=14793 -> 14794"
+    },
+    {
+      "evidence_id": "V02-F014794",
+      "shot_id": "V02-S086",
+      "frame": 14794,
+      "seconds": 295.88,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 4,
+      "column": 2,
+      "render_box": [
+        240,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F014952",
+      "shot_id": "V02-S086",
+      "frame": 14952,
+      "seconds": 299.04,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 4,
+      "column": 3,
+      "render_box": [
+        480,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": "V02-L086 299.06s | n=14952 -> 14953"
+    },
+    {
+      "evidence_id": "V02-F014953",
+      "shot_id": "V02-S087",
+      "frame": 14953,
+      "seconds": 299.06,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 4,
+      "column": 4,
+      "render_box": [
+        720,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F015132",
+      "shot_id": "V02-S087",
+      "frame": 15132,
+      "seconds": 302.64,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 4,
+      "column": 5,
+      "render_box": [
+        960,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": "V02-L087 302.66s | n=15132 -> 15133"
+    },
+    {
+      "evidence_id": "V02-F015133",
+      "shot_id": "V02-S088",
+      "frame": 15133,
+      "seconds": 302.66,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 4,
+      "column": 6,
+      "render_box": [
+        1200,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F015444",
+      "shot_id": "V02-S088",
+      "frame": 15444,
+      "seconds": 308.88,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 5,
+      "column": 1,
+      "render_box": [
+        0,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": "V02-L088 308.90s | n=15444 -> 15445"
+    },
+    {
+      "evidence_id": "V02-F015445",
+      "shot_id": "V02-S089",
+      "frame": 15445,
+      "seconds": 308.9,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 5,
+      "column": 2,
+      "render_box": [
+        240,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F015479",
+      "shot_id": "V02-S089",
+      "frame": 15479,
+      "seconds": 309.58,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 5,
+      "column": 3,
+      "render_box": [
+        480,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": "V02-L089 309.60s | n=15479 -> 15480"
+    },
+    {
+      "evidence_id": "V02-F015480",
+      "shot_id": "V02-S090",
+      "frame": 15480,
+      "seconds": 309.6,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 5,
+      "column": 4,
+      "render_box": [
+        720,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F015669",
+      "shot_id": "V02-S090",
+      "frame": 15669,
+      "seconds": 313.38,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 5,
+      "column": 5,
+      "render_box": [
+        960,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": "V02-L090 313.40s | n=15669 -> 15670"
+    },
+    {
+      "evidence_id": "V02-F015670",
+      "shot_id": "V02-S091",
+      "frame": 15670,
+      "seconds": 313.4,
+      "atlas": "anh/diem-cat-06.jpg",
+      "row": 5,
+      "column": 6,
+      "render_box": [
+        1200,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F015812",
+      "shot_id": "V02-S091",
+      "frame": 15812,
+      "seconds": 316.24,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": "V02-L091 316.26s | n=15812 -> 15813"
+    },
+    {
+      "evidence_id": "V02-F015813",
+      "shot_id": "V02-S092",
+      "frame": 15813,
+      "seconds": 316.26,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        240,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F015974",
+      "shot_id": "V02-S092",
+      "frame": 15974,
+      "seconds": 319.48,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        480,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": "V02-L092 319.50s | n=15974 -> 15975"
+    },
+    {
+      "evidence_id": "V02-F015975",
+      "shot_id": "V02-S093",
+      "frame": 15975,
+      "seconds": 319.5,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        720,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F016180",
+      "shot_id": "V02-S093",
+      "frame": 16180,
+      "seconds": 323.6,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 1,
+      "column": 5,
+      "render_box": [
+        960,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": "V02-L093 323.62s | n=16180 -> 16181"
+    },
+    {
+      "evidence_id": "V02-F016181",
+      "shot_id": "V02-S094",
+      "frame": 16181,
+      "seconds": 323.62,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 1,
+      "column": 6,
+      "render_box": [
+        1200,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F016360",
+      "shot_id": "V02-S094",
+      "frame": 16360,
+      "seconds": 327.2,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": "V02-L094 327.22s | n=16360 -> 16361"
+    },
+    {
+      "evidence_id": "V02-F016361",
+      "shot_id": "V02-S095",
+      "frame": 16361,
+      "seconds": 327.22,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        240,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F016589",
+      "shot_id": "V02-S095",
+      "frame": 16589,
+      "seconds": 331.78,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        480,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": "V02-L095 331.80s | n=16589 -> 16590"
+    },
+    {
+      "evidence_id": "V02-F016590",
+      "shot_id": "V02-S096",
+      "frame": 16590,
+      "seconds": 331.8,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        720,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F016700",
+      "shot_id": "V02-S096",
+      "frame": 16700,
+      "seconds": 334.0,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 2,
+      "column": 5,
+      "render_box": [
+        960,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": "V02-L096 334.02s | n=16700 -> 16701"
+    },
+    {
+      "evidence_id": "V02-F016701",
+      "shot_id": "V02-S097",
+      "frame": 16701,
+      "seconds": 334.02,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 2,
+      "column": 6,
+      "render_box": [
+        1200,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F016784",
+      "shot_id": "V02-S097",
+      "frame": 16784,
+      "seconds": 335.68,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": "V02-L097 335.70s | n=16784 -> 16785"
+    },
+    {
+      "evidence_id": "V02-F016785",
+      "shot_id": "V02-S098",
+      "frame": 16785,
+      "seconds": 335.7,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        240,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F017032",
+      "shot_id": "V02-S098",
+      "frame": 17032,
+      "seconds": 340.64,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        480,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": "V02-L098 340.66s | n=17032 -> 17033"
+    },
+    {
+      "evidence_id": "V02-F017033",
+      "shot_id": "V02-S099",
+      "frame": 17033,
+      "seconds": 340.66,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        720,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F017109",
+      "shot_id": "V02-S099",
+      "frame": 17109,
+      "seconds": 342.18,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 3,
+      "column": 5,
+      "render_box": [
+        960,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": "V02-L099 342.20s | n=17109 -> 17110"
+    },
+    {
+      "evidence_id": "V02-F017110",
+      "shot_id": "V02-S100",
+      "frame": 17110,
+      "seconds": 342.2,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 3,
+      "column": 6,
+      "render_box": [
+        1200,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F017231",
+      "shot_id": "V02-S100",
+      "frame": 17231,
+      "seconds": 344.62,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 4,
+      "column": 1,
+      "render_box": [
+        0,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": "V02-L100 344.64s | n=17231 -> 17232"
+    },
+    {
+      "evidence_id": "V02-F017232",
+      "shot_id": "V02-S101",
+      "frame": 17232,
+      "seconds": 344.64,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 4,
+      "column": 2,
+      "render_box": [
+        240,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F017315",
+      "shot_id": "V02-S101",
+      "frame": 17315,
+      "seconds": 346.3,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 4,
+      "column": 3,
+      "render_box": [
+        480,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": "V02-L101 346.32s | n=17315 -> 17316"
+    },
+    {
+      "evidence_id": "V02-F017316",
+      "shot_id": "V02-S102",
+      "frame": 17316,
+      "seconds": 346.32,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 4,
+      "column": 4,
+      "render_box": [
+        720,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F017433",
+      "shot_id": "V02-S102",
+      "frame": 17433,
+      "seconds": 348.66,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 4,
+      "column": 5,
+      "render_box": [
+        960,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": "V02-L102 348.68s | n=17433 -> 17434"
+    },
+    {
+      "evidence_id": "V02-F017434",
+      "shot_id": "V02-S103",
+      "frame": 17434,
+      "seconds": 348.68,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 4,
+      "column": 6,
+      "render_box": [
+        1200,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F017597",
+      "shot_id": "V02-S103",
+      "frame": 17597,
+      "seconds": 351.94,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 5,
+      "column": 1,
+      "render_box": [
+        0,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": "V02-L103 351.96s | n=17597 -> 17598"
+    },
+    {
+      "evidence_id": "V02-F017598",
+      "shot_id": "V02-S104",
+      "frame": 17598,
+      "seconds": 351.96,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 5,
+      "column": 2,
+      "render_box": [
+        240,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F017679",
+      "shot_id": "V02-S104",
+      "frame": 17679,
+      "seconds": 353.58,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 5,
+      "column": 3,
+      "render_box": [
+        480,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": "V02-L104 353.60s | n=17679 -> 17680"
+    },
+    {
+      "evidence_id": "V02-F017680",
+      "shot_id": "V02-S105",
+      "frame": 17680,
+      "seconds": 353.6,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 5,
+      "column": 4,
+      "render_box": [
+        720,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F017908",
+      "shot_id": "V02-S105",
+      "frame": 17908,
+      "seconds": 358.16,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 5,
+      "column": 5,
+      "render_box": [
+        960,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": "V02-L105 358.18s | n=17908 -> 17909"
+    },
+    {
+      "evidence_id": "V02-F017909",
+      "shot_id": "V02-S106",
+      "frame": 17909,
+      "seconds": 358.18,
+      "atlas": "anh/diem-cat-07.jpg",
+      "row": 5,
+      "column": 6,
+      "render_box": [
+        1200,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F017981",
+      "shot_id": "V02-S106",
+      "frame": 17981,
+      "seconds": 359.62,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": "V02-L106 359.64s | n=17981 -> 17982"
+    },
+    {
+      "evidence_id": "V02-F017982",
+      "shot_id": "V02-S107",
+      "frame": 17982,
+      "seconds": 359.64,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        240,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F018160",
+      "shot_id": "V02-S107",
+      "frame": 18160,
+      "seconds": 363.2,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        480,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": "V02-L107 363.22s | n=18160 -> 18161"
+    },
+    {
+      "evidence_id": "V02-F018161",
+      "shot_id": "V02-S108",
+      "frame": 18161,
+      "seconds": 363.22,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        720,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F018404",
+      "shot_id": "V02-S108",
+      "frame": 18404,
+      "seconds": 368.08,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 1,
+      "column": 5,
+      "render_box": [
+        960,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": "V02-L108 368.10s | n=18404 -> 18405"
+    },
+    {
+      "evidence_id": "V02-F018405",
+      "shot_id": "V02-S109",
+      "frame": 18405,
+      "seconds": 368.1,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 1,
+      "column": 6,
+      "render_box": [
+        1200,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F018565",
+      "shot_id": "V02-S109",
+      "frame": 18565,
+      "seconds": 371.3,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": "V02-L109 371.32s | n=18565 -> 18566"
+    },
+    {
+      "evidence_id": "V02-F018566",
+      "shot_id": "V02-S110",
+      "frame": 18566,
+      "seconds": 371.32,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        240,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F018726",
+      "shot_id": "V02-S110",
+      "frame": 18726,
+      "seconds": 374.52,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        480,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": "V02-L110 374.54s | n=18726 -> 18727"
+    },
+    {
+      "evidence_id": "V02-F018727",
+      "shot_id": "V02-S111",
+      "frame": 18727,
+      "seconds": 374.54,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        720,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F018968",
+      "shot_id": "V02-S111",
+      "frame": 18968,
+      "seconds": 379.36,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 2,
+      "column": 5,
+      "render_box": [
+        960,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": "V02-L111 379.38s | n=18968 -> 18969"
+    },
+    {
+      "evidence_id": "V02-F018969",
+      "shot_id": "V02-S112",
+      "frame": 18969,
+      "seconds": 379.38,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 2,
+      "column": 6,
+      "render_box": [
+        1200,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F019138",
+      "shot_id": "V02-S112",
+      "frame": 19138,
+      "seconds": 382.76,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": "V02-L112 382.78s | n=19138 -> 19139"
+    },
+    {
+      "evidence_id": "V02-F019139",
+      "shot_id": "V02-S113",
+      "frame": 19139,
+      "seconds": 382.78,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        240,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F019251",
+      "shot_id": "V02-S113",
+      "frame": 19251,
+      "seconds": 385.02,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        480,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": "V02-L113 385.04s | n=19251 -> 19252"
+    },
+    {
+      "evidence_id": "V02-F019252",
+      "shot_id": "V02-S114",
+      "frame": 19252,
+      "seconds": 385.04,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        720,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F019376",
+      "shot_id": "V02-S114",
+      "frame": 19376,
+      "seconds": 387.52,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 3,
+      "column": 5,
+      "render_box": [
+        960,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": "V02-L114 387.54s | n=19376 -> 19377"
+    },
+    {
+      "evidence_id": "V02-F019377",
+      "shot_id": "V02-S115",
+      "frame": 19377,
+      "seconds": 387.54,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 3,
+      "column": 6,
+      "render_box": [
+        1200,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F019499",
+      "shot_id": "V02-S115",
+      "frame": 19499,
+      "seconds": 389.98,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 4,
+      "column": 1,
+      "render_box": [
+        0,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": "V02-L115 390.00s | n=19499 -> 19500"
+    },
+    {
+      "evidence_id": "V02-F019500",
+      "shot_id": "V02-S116",
+      "frame": 19500,
+      "seconds": 390.0,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 4,
+      "column": 2,
+      "render_box": [
+        240,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F019708",
+      "shot_id": "V02-S116",
+      "frame": 19708,
+      "seconds": 394.16,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 4,
+      "column": 3,
+      "render_box": [
+        480,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": "V02-L116 394.18s | n=19708 -> 19709"
+    },
+    {
+      "evidence_id": "V02-F019709",
+      "shot_id": "V02-S117",
+      "frame": 19709,
+      "seconds": 394.18,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 4,
+      "column": 4,
+      "render_box": [
+        720,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F019902",
+      "shot_id": "V02-S117",
+      "frame": 19902,
+      "seconds": 398.04,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 4,
+      "column": 5,
+      "render_box": [
+        960,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": "V02-L117 398.06s | n=19902 -> 19903"
+    },
+    {
+      "evidence_id": "V02-F019903",
+      "shot_id": "V02-S118",
+      "frame": 19903,
+      "seconds": 398.06,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 4,
+      "column": 6,
+      "render_box": [
+        1200,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F020054",
+      "shot_id": "V02-S118",
+      "frame": 20054,
+      "seconds": 401.08,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 5,
+      "column": 1,
+      "render_box": [
+        0,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": "V02-L118 401.10s | n=20054 -> 20055"
+    },
+    {
+      "evidence_id": "V02-F020055",
+      "shot_id": "V02-S119",
+      "frame": 20055,
+      "seconds": 401.1,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 5,
+      "column": 2,
+      "render_box": [
+        240,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F020252",
+      "shot_id": "V02-S119",
+      "frame": 20252,
+      "seconds": 405.04,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 5,
+      "column": 3,
+      "render_box": [
+        480,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": "V02-L119 405.06s | n=20252 -> 20253"
+    },
+    {
+      "evidence_id": "V02-F020253",
+      "shot_id": "V02-S120",
+      "frame": 20253,
+      "seconds": 405.06,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 5,
+      "column": 4,
+      "render_box": [
+        720,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F020376",
+      "shot_id": "V02-S120",
+      "frame": 20376,
+      "seconds": 407.52,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 5,
+      "column": 5,
+      "render_box": [
+        960,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": "V02-L120 407.54s | n=20376 -> 20377"
+    },
+    {
+      "evidence_id": "V02-F020377",
+      "shot_id": "V02-S121",
+      "frame": 20377,
+      "seconds": 407.54,
+      "atlas": "anh/diem-cat-08.jpg",
+      "row": 5,
+      "column": 6,
+      "render_box": [
+        1200,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F020610",
+      "shot_id": "V02-S121",
+      "frame": 20610,
+      "seconds": 412.2,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": "V02-L121 412.22s | n=20610 -> 20611"
+    },
+    {
+      "evidence_id": "V02-F020611",
+      "shot_id": "V02-S122",
+      "frame": 20611,
+      "seconds": 412.22,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        240,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F020777",
+      "shot_id": "V02-S122",
+      "frame": 20777,
+      "seconds": 415.54,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        480,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": "V02-L122 415.56s | n=20777 -> 20778"
+    },
+    {
+      "evidence_id": "V02-F020778",
+      "shot_id": "V02-S123",
+      "frame": 20778,
+      "seconds": 415.56,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        720,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F021020",
+      "shot_id": "V02-S123",
+      "frame": 21020,
+      "seconds": 420.4,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 1,
+      "column": 5,
+      "render_box": [
+        960,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": "V02-L123 420.42s | n=21020 -> 21021"
+    },
+    {
+      "evidence_id": "V02-F021021",
+      "shot_id": "V02-S124",
+      "frame": 21021,
+      "seconds": 420.42,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 1,
+      "column": 6,
+      "render_box": [
+        1200,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F021240",
+      "shot_id": "V02-S124",
+      "frame": 21240,
+      "seconds": 424.8,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": "V02-L124 424.82s | n=21240 -> 21241"
+    },
+    {
+      "evidence_id": "V02-F021241",
+      "shot_id": "V02-S125",
+      "frame": 21241,
+      "seconds": 424.82,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        240,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F021326",
+      "shot_id": "V02-S125",
+      "frame": 21326,
+      "seconds": 426.52,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        480,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": "V02-L125 426.54s | n=21326 -> 21327"
+    },
+    {
+      "evidence_id": "V02-F021327",
+      "shot_id": "V02-S126",
+      "frame": 21327,
+      "seconds": 426.54,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        720,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F021406",
+      "shot_id": "V02-S126",
+      "frame": 21406,
+      "seconds": 428.12,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 2,
+      "column": 5,
+      "render_box": [
+        960,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": "V02-L126 428.14s | n=21406 -> 21407"
+    },
+    {
+      "evidence_id": "V02-F021407",
+      "shot_id": "V02-S127",
+      "frame": 21407,
+      "seconds": 428.14,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 2,
+      "column": 6,
+      "render_box": [
+        1200,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F021489",
+      "shot_id": "V02-S127",
+      "frame": 21489,
+      "seconds": 429.78,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": "V02-L127 429.80s | n=21489 -> 21490"
+    },
+    {
+      "evidence_id": "V02-F021490",
+      "shot_id": "V02-S128",
+      "frame": 21490,
+      "seconds": 429.8,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        240,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F021660",
+      "shot_id": "V02-S128",
+      "frame": 21660,
+      "seconds": 433.2,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        480,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": "V02-L128 433.22s | n=21660 -> 21661"
+    },
+    {
+      "evidence_id": "V02-F021661",
+      "shot_id": "V02-S129",
+      "frame": 21661,
+      "seconds": 433.22,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        720,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F021801",
+      "shot_id": "V02-S129",
+      "frame": 21801,
+      "seconds": 436.02,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 3,
+      "column": 5,
+      "render_box": [
+        960,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": "V02-L129 436.04s | n=21801 -> 21802"
+    },
+    {
+      "evidence_id": "V02-F021802",
+      "shot_id": "V02-S130",
+      "frame": 21802,
+      "seconds": 436.04,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 3,
+      "column": 6,
+      "render_box": [
+        1200,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F022051",
+      "shot_id": "V02-S130",
+      "frame": 22051,
+      "seconds": 441.02,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 4,
+      "column": 1,
+      "render_box": [
+        0,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": "V02-L130 441.04s | n=22051 -> 22052"
+    },
+    {
+      "evidence_id": "V02-F022052",
+      "shot_id": "V02-S131",
+      "frame": 22052,
+      "seconds": 441.04,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 4,
+      "column": 2,
+      "render_box": [
+        240,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F022138",
+      "shot_id": "V02-S131",
+      "frame": 22138,
+      "seconds": 442.76,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 4,
+      "column": 3,
+      "render_box": [
+        480,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": "V02-L131 442.78s | n=22138 -> 22139"
+    },
+    {
+      "evidence_id": "V02-F022139",
+      "shot_id": "V02-S132",
+      "frame": 22139,
+      "seconds": 442.78,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 4,
+      "column": 4,
+      "render_box": [
+        720,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F022218",
+      "shot_id": "V02-S132",
+      "frame": 22218,
+      "seconds": 444.36,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 4,
+      "column": 5,
+      "render_box": [
+        960,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": "V02-L132 444.38s | n=22218 -> 22219"
+    },
+    {
+      "evidence_id": "V02-F022219",
+      "shot_id": "V02-S133",
+      "frame": 22219,
+      "seconds": 444.38,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 4,
+      "column": 6,
+      "render_box": [
+        1200,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F022595",
+      "shot_id": "V02-S133",
+      "frame": 22595,
+      "seconds": 451.9,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 5,
+      "column": 1,
+      "render_box": [
+        0,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": "V02-L133 451.92s | n=22595 -> 22596"
+    },
+    {
+      "evidence_id": "V02-F022596",
+      "shot_id": "V02-S134",
+      "frame": 22596,
+      "seconds": 451.92,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 5,
+      "column": 2,
+      "render_box": [
+        240,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F022691",
+      "shot_id": "V02-S134",
+      "frame": 22691,
+      "seconds": 453.82,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 5,
+      "column": 3,
+      "render_box": [
+        480,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": "V02-L134 453.84s | n=22691 -> 22692"
+    },
+    {
+      "evidence_id": "V02-F022692",
+      "shot_id": "V02-S135",
+      "frame": 22692,
+      "seconds": 453.84,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 5,
+      "column": 4,
+      "render_box": [
+        720,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F022877",
+      "shot_id": "V02-S135",
+      "frame": 22877,
+      "seconds": 457.54,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 5,
+      "column": 5,
+      "render_box": [
+        960,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": "V02-L135 457.56s | n=22877 -> 22878"
+    },
+    {
+      "evidence_id": "V02-F022878",
+      "shot_id": "V02-S136",
+      "frame": 22878,
+      "seconds": 457.56,
+      "atlas": "anh/diem-cat-09.jpg",
+      "row": 5,
+      "column": 6,
+      "render_box": [
+        1200,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F023048",
+      "shot_id": "V02-S136",
+      "frame": 23048,
+      "seconds": 460.96,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": "V02-L136 460.98s | n=23048 -> 23049"
+    },
+    {
+      "evidence_id": "V02-F023049",
+      "shot_id": "V02-S137",
+      "frame": 23049,
+      "seconds": 460.98,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        240,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F023203",
+      "shot_id": "V02-S137",
+      "frame": 23203,
+      "seconds": 464.06,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        480,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": "V02-L137 464.08s | n=23203 -> 23204"
+    },
+    {
+      "evidence_id": "V02-F023204",
+      "shot_id": "V02-S138",
+      "frame": 23204,
+      "seconds": 464.08,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        720,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F023286",
+      "shot_id": "V02-S138",
+      "frame": 23286,
+      "seconds": 465.72,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 1,
+      "column": 5,
+      "render_box": [
+        960,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": "V02-L138 465.74s | n=23286 -> 23287"
+    },
+    {
+      "evidence_id": "V02-F023287",
+      "shot_id": "V02-S139",
+      "frame": 23287,
+      "seconds": 465.74,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 1,
+      "column": 6,
+      "render_box": [
+        1200,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F023368",
+      "shot_id": "V02-S139",
+      "frame": 23368,
+      "seconds": 467.36,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": "V02-L139 467.38s | n=23368 -> 23369"
+    },
+    {
+      "evidence_id": "V02-F023369",
+      "shot_id": "V02-S140",
+      "frame": 23369,
+      "seconds": 467.38,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        240,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F023582",
+      "shot_id": "V02-S140",
+      "frame": 23582,
+      "seconds": 471.64,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        480,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": "V02-L140 471.66s | n=23582 -> 23583"
+    },
+    {
+      "evidence_id": "V02-F023583",
+      "shot_id": "V02-S141",
+      "frame": 23583,
+      "seconds": 471.66,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        720,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F023741",
+      "shot_id": "V02-S141",
+      "frame": 23741,
+      "seconds": 474.82,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 2,
+      "column": 5,
+      "render_box": [
+        960,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": "V02-L141 474.84s | n=23741 -> 23742"
+    },
+    {
+      "evidence_id": "V02-F023742",
+      "shot_id": "V02-S142",
+      "frame": 23742,
+      "seconds": 474.84,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 2,
+      "column": 6,
+      "render_box": [
+        1200,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F023874",
+      "shot_id": "V02-S142",
+      "frame": 23874,
+      "seconds": 477.48,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": "V02-L142 477.50s | n=23874 -> 23875"
+    },
+    {
+      "evidence_id": "V02-F023875",
+      "shot_id": "V02-S143",
+      "frame": 23875,
+      "seconds": 477.5,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        240,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F024020",
+      "shot_id": "V02-S143",
+      "frame": 24020,
+      "seconds": 480.4,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        480,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": "V02-L143 480.42s | n=24020 -> 24021"
+    },
+    {
+      "evidence_id": "V02-F024021",
+      "shot_id": "V02-S144",
+      "frame": 24021,
+      "seconds": 480.42,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        720,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F024190",
+      "shot_id": "V02-S144",
+      "frame": 24190,
+      "seconds": 483.8,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 3,
+      "column": 5,
+      "render_box": [
+        960,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": "V02-L144 483.82s | n=24190 -> 24191"
+    },
+    {
+      "evidence_id": "V02-F024191",
+      "shot_id": "V02-S145",
+      "frame": 24191,
+      "seconds": 483.82,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 3,
+      "column": 6,
+      "render_box": [
+        1200,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F024354",
+      "shot_id": "V02-S145",
+      "frame": 24354,
+      "seconds": 487.08,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 4,
+      "column": 1,
+      "render_box": [
+        0,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": "V02-L145 487.10s | n=24354 -> 24355"
+    },
+    {
+      "evidence_id": "V02-F024355",
+      "shot_id": "V02-S146",
+      "frame": 24355,
+      "seconds": 487.1,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 4,
+      "column": 2,
+      "render_box": [
+        240,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F024514",
+      "shot_id": "V02-S146",
+      "frame": 24514,
+      "seconds": 490.28,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 4,
+      "column": 3,
+      "render_box": [
+        480,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": "V02-L146 490.30s | n=24514 -> 24515"
+    },
+    {
+      "evidence_id": "V02-F024515",
+      "shot_id": "V02-S147",
+      "frame": 24515,
+      "seconds": 490.3,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 4,
+      "column": 4,
+      "render_box": [
+        720,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F024672",
+      "shot_id": "V02-S147",
+      "frame": 24672,
+      "seconds": 493.44,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 4,
+      "column": 5,
+      "render_box": [
+        960,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": "V02-L147 493.46s | n=24672 -> 24673"
+    },
+    {
+      "evidence_id": "V02-F024673",
+      "shot_id": "V02-S148",
+      "frame": 24673,
+      "seconds": 493.46,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 4,
+      "column": 6,
+      "render_box": [
+        1200,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F024747",
+      "shot_id": "V02-S148",
+      "frame": 24747,
+      "seconds": 494.94,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 5,
+      "column": 1,
+      "render_box": [
+        0,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": "V02-L148 494.96s | n=24747 -> 24748"
+    },
+    {
+      "evidence_id": "V02-F024748",
+      "shot_id": "V02-S149",
+      "frame": 24748,
+      "seconds": 494.96,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 5,
+      "column": 2,
+      "render_box": [
+        240,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F025000",
+      "shot_id": "V02-S149",
+      "frame": 25000,
+      "seconds": 500.0,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 5,
+      "column": 3,
+      "render_box": [
+        480,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": "V02-L149 500.02s | n=25000 -> 25001"
+    },
+    {
+      "evidence_id": "V02-F025001",
+      "shot_id": "V02-S150",
+      "frame": 25001,
+      "seconds": 500.02,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 5,
+      "column": 4,
+      "render_box": [
+        720,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F025093",
+      "shot_id": "V02-S150",
+      "frame": 25093,
+      "seconds": 501.86,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 5,
+      "column": 5,
+      "render_box": [
+        960,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": "V02-L150 501.88s | n=25093 -> 25094"
+    },
+    {
+      "evidence_id": "V02-F025094",
+      "shot_id": "V02-S151",
+      "frame": 25094,
+      "seconds": 501.88,
+      "atlas": "anh/diem-cat-10.jpg",
+      "row": 5,
+      "column": 6,
+      "render_box": [
+        1200,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F025353",
+      "shot_id": "V02-S151",
+      "frame": 25353,
+      "seconds": 507.06,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": "V02-L151 507.08s | n=25353 -> 25354"
+    },
+    {
+      "evidence_id": "V02-F025354",
+      "shot_id": "V02-S152",
+      "frame": 25354,
+      "seconds": 507.08,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        240,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F025555",
+      "shot_id": "V02-S152",
+      "frame": 25555,
+      "seconds": 511.1,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        480,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": "V02-L152 511.12s | n=25555 -> 25556"
+    },
+    {
+      "evidence_id": "V02-F025556",
+      "shot_id": "V02-S153",
+      "frame": 25556,
+      "seconds": 511.12,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        720,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F025726",
+      "shot_id": "V02-S153",
+      "frame": 25726,
+      "seconds": 514.52,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 1,
+      "column": 5,
+      "render_box": [
+        960,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": "V02-L153 514.54s | n=25726 -> 25727"
+    },
+    {
+      "evidence_id": "V02-F025727",
+      "shot_id": "V02-S154",
+      "frame": 25727,
+      "seconds": 514.54,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 1,
+      "column": 6,
+      "render_box": [
+        1200,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F025859",
+      "shot_id": "V02-S154",
+      "frame": 25859,
+      "seconds": 517.18,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": "V02-L154 517.20s | n=25859 -> 25860"
+    },
+    {
+      "evidence_id": "V02-F025860",
+      "shot_id": "V02-S155",
+      "frame": 25860,
+      "seconds": 517.2,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        240,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F025978",
+      "shot_id": "V02-S155",
+      "frame": 25978,
+      "seconds": 519.56,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        480,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": "V02-L155 519.58s | n=25978 -> 25979"
+    },
+    {
+      "evidence_id": "V02-F025979",
+      "shot_id": "V02-S156",
+      "frame": 25979,
+      "seconds": 519.58,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        720,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F026140",
+      "shot_id": "V02-S156",
+      "frame": 26140,
+      "seconds": 522.8,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 2,
+      "column": 5,
+      "render_box": [
+        960,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": "V02-L156 522.82s | n=26140 -> 26141"
+    },
+    {
+      "evidence_id": "V02-F026141",
+      "shot_id": "V02-S157",
+      "frame": 26141,
+      "seconds": 522.82,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 2,
+      "column": 6,
+      "render_box": [
+        1200,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F026376",
+      "shot_id": "V02-S157",
+      "frame": 26376,
+      "seconds": 527.52,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": "V02-L157 527.54s | n=26376 -> 26377"
+    },
+    {
+      "evidence_id": "V02-F026377",
+      "shot_id": "V02-S158",
+      "frame": 26377,
+      "seconds": 527.54,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        240,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F026550",
+      "shot_id": "V02-S158",
+      "frame": 26550,
+      "seconds": 531.0,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        480,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": "V02-L158 531.02s | n=26550 -> 26551"
+    },
+    {
+      "evidence_id": "V02-F026551",
+      "shot_id": "V02-S159",
+      "frame": 26551,
+      "seconds": 531.02,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        720,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F026701",
+      "shot_id": "V02-S159",
+      "frame": 26701,
+      "seconds": 534.02,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 3,
+      "column": 5,
+      "render_box": [
+        960,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": "V02-L159 534.04s | n=26701 -> 26702"
+    },
+    {
+      "evidence_id": "V02-F026702",
+      "shot_id": "V02-S160",
+      "frame": 26702,
+      "seconds": 534.04,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 3,
+      "column": 6,
+      "render_box": [
+        1200,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F026831",
+      "shot_id": "V02-S160",
+      "frame": 26831,
+      "seconds": 536.62,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 4,
+      "column": 1,
+      "render_box": [
+        0,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": "V02-L160 536.64s | n=26831 -> 26832"
+    },
+    {
+      "evidence_id": "V02-F026832",
+      "shot_id": "V02-S161",
+      "frame": 26832,
+      "seconds": 536.64,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 4,
+      "column": 2,
+      "render_box": [
+        240,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F026952",
+      "shot_id": "V02-S161",
+      "frame": 26952,
+      "seconds": 539.04,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 4,
+      "column": 3,
+      "render_box": [
+        480,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": "V02-L161 539.06s | n=26952 -> 26953"
+    },
+    {
+      "evidence_id": "V02-F026953",
+      "shot_id": "V02-S162",
+      "frame": 26953,
+      "seconds": 539.06,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 4,
+      "column": 4,
+      "render_box": [
+        720,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F027072",
+      "shot_id": "V02-S162",
+      "frame": 27072,
+      "seconds": 541.44,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 4,
+      "column": 5,
+      "render_box": [
+        960,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": "V02-L162 541.46s | n=27072 -> 27073"
+    },
+    {
+      "evidence_id": "V02-F027073",
+      "shot_id": "V02-S163",
+      "frame": 27073,
+      "seconds": 541.46,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 4,
+      "column": 6,
+      "render_box": [
+        1200,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F027202",
+      "shot_id": "V02-S163",
+      "frame": 27202,
+      "seconds": 544.04,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 5,
+      "column": 1,
+      "render_box": [
+        0,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": "V02-L163 544.06s | n=27202 -> 27203"
+    },
+    {
+      "evidence_id": "V02-F027203",
+      "shot_id": "V02-S164",
+      "frame": 27203,
+      "seconds": 544.06,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 5,
+      "column": 2,
+      "render_box": [
+        240,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F027363",
+      "shot_id": "V02-S164",
+      "frame": 27363,
+      "seconds": 547.26,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 5,
+      "column": 3,
+      "render_box": [
+        480,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": "V02-L164 547.28s | n=27363 -> 27364"
+    },
+    {
+      "evidence_id": "V02-F027364",
+      "shot_id": "V02-S165",
+      "frame": 27364,
+      "seconds": 547.28,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 5,
+      "column": 4,
+      "render_box": [
+        720,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F027612",
+      "shot_id": "V02-S165",
+      "frame": 27612,
+      "seconds": 552.24,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 5,
+      "column": 5,
+      "render_box": [
+        960,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": "V02-L165 552.26s | n=27612 -> 27613"
+    },
+    {
+      "evidence_id": "V02-F027613",
+      "shot_id": "V02-S166",
+      "frame": 27613,
+      "seconds": 552.26,
+      "atlas": "anh/diem-cat-11.jpg",
+      "row": 5,
+      "column": 6,
+      "render_box": [
+        1200,
+        685,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        663
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F027901",
+      "shot_id": "V02-S166",
+      "frame": 27901,
+      "seconds": 558.02,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": "V02-L166 558.04s | n=27901 -> 27902"
+    },
+    {
+      "evidence_id": "V02-F027902",
+      "shot_id": "V02-S167",
+      "frame": 27902,
+      "seconds": 558.04,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        240,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F028090",
+      "shot_id": "V02-S167",
+      "frame": 28090,
+      "seconds": 561.8,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        480,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": "V02-L167 561.82s | n=28090 -> 28091"
+    },
+    {
+      "evidence_id": "V02-F028091",
+      "shot_id": "V02-S168",
+      "frame": 28091,
+      "seconds": 561.82,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        720,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F028341",
+      "shot_id": "V02-S168",
+      "frame": 28341,
+      "seconds": 566.82,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 1,
+      "column": 5,
+      "render_box": [
+        960,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": "V02-L168 566.84s | n=28341 -> 28342"
+    },
+    {
+      "evidence_id": "V02-F028342",
+      "shot_id": "V02-S169",
+      "frame": 28342,
+      "seconds": 566.84,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 1,
+      "column": 6,
+      "render_box": [
+        1200,
+        25,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        3
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F028678",
+      "shot_id": "V02-S169",
+      "frame": 28678,
+      "seconds": 573.56,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": "V02-L169 573.58s | n=28678 -> 28679"
+    },
+    {
+      "evidence_id": "V02-F028679",
+      "shot_id": "V02-S170",
+      "frame": 28679,
+      "seconds": 573.58,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        240,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F028953",
+      "shot_id": "V02-S170",
+      "frame": 28953,
+      "seconds": 579.06,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        480,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": "V02-L170 579.08s | n=28953 -> 28954"
+    },
+    {
+      "evidence_id": "V02-F028954",
+      "shot_id": "V02-S171",
+      "frame": 28954,
+      "seconds": 579.08,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        720,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F029103",
+      "shot_id": "V02-S171",
+      "frame": 29103,
+      "seconds": 582.06,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 2,
+      "column": 5,
+      "render_box": [
+        960,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": "V02-L171 582.08s | n=29103 -> 29104"
+    },
+    {
+      "evidence_id": "V02-F029104",
+      "shot_id": "V02-S172",
+      "frame": 29104,
+      "seconds": 582.08,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 2,
+      "column": 6,
+      "render_box": [
+        1200,
+        190,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        168
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F029379",
+      "shot_id": "V02-S172",
+      "frame": 29379,
+      "seconds": 587.58,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": "V02-L172 587.60s | n=29379 -> 29380"
+    },
+    {
+      "evidence_id": "V02-F029380",
+      "shot_id": "V02-S173",
+      "frame": 29380,
+      "seconds": 587.6,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        240,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F029669",
+      "shot_id": "V02-S173",
+      "frame": 29669,
+      "seconds": 593.38,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        480,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": "V02-L173 593.40s | n=29669 -> 29670"
+    },
+    {
+      "evidence_id": "V02-F029670",
+      "shot_id": "V02-S174",
+      "frame": 29670,
+      "seconds": 593.4,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        720,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        485,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F029876",
+      "shot_id": "V02-S174",
+      "frame": 29876,
+      "seconds": 597.52,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 3,
+      "column": 5,
+      "render_box": [
+        960,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": "V02-L174 597.54s | n=29876 -> 29877"
+    },
+    {
+      "evidence_id": "V02-F029877",
+      "shot_id": "V02-S175",
+      "frame": 29877,
+      "seconds": 597.54,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 3,
+      "column": 6,
+      "render_box": [
+        1200,
+        355,
+        240,
+        135
+      ],
+      "caption_xy": [
+        965,
+        333
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F030134",
+      "shot_id": "V02-S175",
+      "frame": 30134,
+      "seconds": 602.68,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 4,
+      "column": 1,
+      "render_box": [
+        0,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": "V02-L175 602.70s | n=30134 -> 30135"
+    },
+    {
+      "evidence_id": "V02-F030135",
+      "shot_id": "V02-S176",
+      "frame": 30135,
+      "seconds": 602.7,
+      "atlas": "anh/diem-cat-12.jpg",
+      "row": 4,
+      "column": 2,
+      "render_box": [
+        240,
+        520,
+        240,
+        135
+      ],
+      "caption_xy": [
+        5,
+        498
+      ],
+      "caption": ""
+    },
+    {
+      "evidence_id": "V02-F002361",
+      "shot_id": "V02-S014",
+      "frame": 2361,
+      "seconds": 47.22,
+      "atlas": "anh/nghien-cuu-01.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        4,
+        4
+      ],
+      "caption": "V02-DEEP-01 | V02-S014 | 47.22s"
+    },
+    {
+      "evidence_id": "V02-F002377",
+      "shot_id": "V02-S014",
+      "frame": 2377,
+      "seconds": 47.54,
+      "atlas": "anh/nghien-cuu-01.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        360,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        364,
+        4
+      ],
+      "caption": "V02-DEEP-01 | V02-S014 | 47.54s"
+    },
+    {
+      "evidence_id": "V02-F002425",
+      "shot_id": "V02-S014",
+      "frame": 2425,
+      "seconds": 48.5,
+      "atlas": "anh/nghien-cuu-01.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        720,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        724,
+        4
+      ],
+      "caption": "V02-DEEP-01 | V02-S014 | 48.50s"
+    },
+    {
+      "evidence_id": "V02-F002505",
+      "shot_id": "V02-S014",
+      "frame": 2505,
+      "seconds": 50.1,
+      "atlas": "anh/nghien-cuu-01.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        1080,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        1084,
+        4
+      ],
+      "caption": "V02-DEEP-01 | V02-S014 | 50.10s"
+    },
+    {
+      "evidence_id": "V02-F006600",
+      "shot_id": "V02-S039",
+      "frame": 6600,
+      "seconds": 132.0,
+      "atlas": "anh/nghien-cuu-01.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        4,
+        254
+      ],
+      "caption": "V02-DEEP-02 | V02-S039 | 132.00s"
+    },
+    {
+      "evidence_id": "V02-F006668",
+      "shot_id": "V02-S039",
+      "frame": 6668,
+      "seconds": 133.36,
+      "atlas": "anh/nghien-cuu-01.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        360,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        364,
+        254
+      ],
+      "caption": "V02-DEEP-02 | V02-S039 | 133.36s"
+    },
+    {
+      "evidence_id": "V02-F006716",
+      "shot_id": "V02-S039",
+      "frame": 6716,
+      "seconds": 134.32,
+      "atlas": "anh/nghien-cuu-01.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        720,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        724,
+        254
+      ],
+      "caption": "V02-DEEP-02 | V02-S039 | 134.32s"
+    },
+    {
+      "evidence_id": "V02-F006764",
+      "shot_id": "V02-S039",
+      "frame": 6764,
+      "seconds": 135.28,
+      "atlas": "anh/nghien-cuu-01.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        1080,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        1084,
+        254
+      ],
+      "caption": "V02-DEEP-02 | V02-S039 | 135.28s"
+    },
+    {
+      "evidence_id": "V02-F010722",
+      "shot_id": "V02-S060",
+      "frame": 10722,
+      "seconds": 214.44,
+      "atlas": "anh/nghien-cuu-01.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        4,
+        504
+      ],
+      "caption": "V02-DEEP-03 | V02-S060 | 214.44s"
+    },
+    {
+      "evidence_id": "V02-F011609",
+      "shot_id": "V02-S065",
+      "frame": 11609,
+      "seconds": 232.18,
+      "atlas": "anh/nghien-cuu-01.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        360,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        364,
+        504
+      ],
+      "caption": "V02-DEEP-03 | V02-S065 | 232.18s"
+    },
+    {
+      "evidence_id": "V02-F011853",
+      "shot_id": "V02-S067",
+      "frame": 11853,
+      "seconds": 237.06,
+      "atlas": "anh/nghien-cuu-01.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        720,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        724,
+        504
+      ],
+      "caption": "V02-DEEP-03 | V02-S067 | 237.06s"
+    },
+    {
+      "evidence_id": "V02-F013651",
+      "shot_id": "V02-S078",
+      "frame": 13651,
+      "seconds": 273.02,
+      "atlas": "anh/nghien-cuu-01.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        1080,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        1084,
+        504
+      ],
+      "caption": "V02-DEEP-03 | V02-S078 | 273.02s"
+    },
+    {
+      "evidence_id": "V02-F011911",
+      "shot_id": "V02-S068",
+      "frame": 11911,
+      "seconds": 238.22,
+      "atlas": "anh/nghien-cuu-02.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        4,
+        4
+      ],
+      "caption": "V02-DEEP-04 | V02-S068 | 238.22s"
+    },
+    {
+      "evidence_id": "V02-F011931",
+      "shot_id": "V02-S068",
+      "frame": 11931,
+      "seconds": 238.62,
+      "atlas": "anh/nghien-cuu-02.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        360,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        364,
+        4
+      ],
+      "caption": "V02-DEEP-04 | V02-S068 | 238.62s"
+    },
+    {
+      "evidence_id": "V02-F011995",
+      "shot_id": "V02-S068",
+      "frame": 11995,
+      "seconds": 239.9,
+      "atlas": "anh/nghien-cuu-02.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        720,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        724,
+        4
+      ],
+      "caption": "V02-DEEP-04 | V02-S068 | 239.90s"
+    },
+    {
+      "evidence_id": "V02-F012027",
+      "shot_id": "V02-S068",
+      "frame": 12027,
+      "seconds": 240.54,
+      "atlas": "anh/nghien-cuu-02.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        1080,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        1084,
+        4
+      ],
+      "caption": "V02-DEEP-04 | V02-S068 | 240.54s"
+    },
+    {
+      "evidence_id": "V02-F022223",
+      "shot_id": "V02-S133",
+      "frame": 22223,
+      "seconds": 444.46,
+      "atlas": "anh/nghien-cuu-02.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        4,
+        254
+      ],
+      "caption": "V02-DEEP-05 | V02-S133 | 444.46s"
+    },
+    {
+      "evidence_id": "V02-F022408",
+      "shot_id": "V02-S133",
+      "frame": 22408,
+      "seconds": 448.16,
+      "atlas": "anh/nghien-cuu-02.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        360,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        364,
+        254
+      ],
+      "caption": "V02-DEEP-05 | V02-S133 | 448.16s"
+    },
+    {
+      "evidence_id": "V02-F022593",
+      "shot_id": "V02-S133",
+      "frame": 22593,
+      "seconds": 451.86,
+      "atlas": "anh/nghien-cuu-02.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        720,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        724,
+        254
+      ],
+      "caption": "V02-DEEP-05 | V02-S133 | 451.86s"
+    },
+    {
+      "evidence_id": "V02-F022785",
+      "shot_id": "V02-S135",
+      "frame": 22785,
+      "seconds": 455.7,
+      "atlas": "anh/nghien-cuu-02.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        1080,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        1084,
+        254
+      ],
+      "caption": "V02-DEEP-05 | V02-S135 | 455.70s"
+    },
+    {
+      "evidence_id": "V02-F027207",
+      "shot_id": "V02-S164",
+      "frame": 27207,
+      "seconds": 544.14,
+      "atlas": "anh/nghien-cuu-02.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        4,
+        504
+      ],
+      "caption": "V02-DEEP-06 | V02-S164 | 544.14s"
+    },
+    {
+      "evidence_id": "V02-F027364",
+      "shot_id": "V02-S165",
+      "frame": 27364,
+      "seconds": 547.28,
+      "atlas": "anh/nghien-cuu-02.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        360,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        364,
+        504
+      ],
+      "caption": "V02-DEEP-06 | V02-S165 | 547.28s"
+    },
+    {
+      "evidence_id": "V02-F027564",
+      "shot_id": "V02-S165",
+      "frame": 27564,
+      "seconds": 551.28,
+      "atlas": "anh/nghien-cuu-02.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        720,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        724,
+        504
+      ],
+      "caption": "V02-DEEP-06 | V02-S165 | 551.28s"
+    },
+    {
+      "evidence_id": "V02-F027596",
+      "shot_id": "V02-S165",
+      "frame": 27596,
+      "seconds": 551.92,
+      "atlas": "anh/nghien-cuu-02.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        1080,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        1084,
+        504
+      ],
+      "caption": "V02-DEEP-06 | V02-S165 | 551.92s"
+    },
+    {
+      "evidence_id": "V02-F023746",
+      "shot_id": "V02-S142",
+      "frame": 23746,
+      "seconds": 474.92,
+      "atlas": "anh/nghien-cuu-03.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        4,
+        4
+      ],
+      "caption": "V02-DEEP-07 | V02-S142 | 474.92s"
+    },
+    {
+      "evidence_id": "V02-F023842",
+      "shot_id": "V02-S142",
+      "frame": 23842,
+      "seconds": 476.84,
+      "atlas": "anh/nghien-cuu-03.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        360,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        364,
+        4
+      ],
+      "caption": "V02-DEEP-07 | V02-S142 | 476.84s"
+    },
+    {
+      "evidence_id": "V02-F023948",
+      "shot_id": "V02-S143",
+      "frame": 23948,
+      "seconds": 478.96,
+      "atlas": "anh/nghien-cuu-03.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        720,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        724,
+        4
+      ],
+      "caption": "V02-DEEP-07 | V02-S143 | 478.96s"
+    },
+    {
+      "evidence_id": "V02-F024273",
+      "shot_id": "V02-S145",
+      "frame": 24273,
+      "seconds": 485.46,
+      "atlas": "anh/nghien-cuu-03.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        1080,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        1084,
+        4
+      ],
+      "caption": "V02-DEEP-07 | V02-S145 | 485.46s"
+    },
+    {
+      "evidence_id": "V02-F017794",
+      "shot_id": "V02-S105",
+      "frame": 17794,
+      "seconds": 355.88,
+      "atlas": "anh/nghien-cuu-03.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        4,
+        254
+      ],
+      "caption": "V02-DEEP-08 | V02-S105 | 355.88s"
+    },
+    {
+      "evidence_id": "V02-F017972",
+      "shot_id": "V02-S106",
+      "frame": 17972,
+      "seconds": 359.44,
+      "atlas": "anh/nghien-cuu-03.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        360,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        364,
+        254
+      ],
+      "caption": "V02-DEEP-08 | V02-S106 | 359.44s"
+    },
+    {
+      "evidence_id": "V02-F017974",
+      "shot_id": "V02-S106",
+      "frame": 17974,
+      "seconds": 359.48,
+      "atlas": "anh/nghien-cuu-03.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        720,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        724,
+        254
+      ],
+      "caption": "V02-DEEP-08 | V02-S106 | 359.48s"
+    },
+    {
+      "evidence_id": "V02-F018072",
+      "shot_id": "V02-S107",
+      "frame": 18072,
+      "seconds": 361.44,
+      "atlas": "anh/nghien-cuu-03.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        1080,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        1084,
+        254
+      ],
+      "caption": "V02-DEEP-08 | V02-S107 | 361.44s"
+    },
+    {
+      "evidence_id": "V02-F003920",
+      "shot_id": "V02-S021",
+      "frame": 3920,
+      "seconds": 78.4,
+      "atlas": "anh/nghien-cuu-03.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        4,
+        504
+      ],
+      "caption": "V02-DEEP-09 | V02-S021 | 78.40s"
+    },
+    {
+      "evidence_id": "V02-F004208",
+      "shot_id": "V02-S023",
+      "frame": 4208,
+      "seconds": 84.16,
+      "atlas": "anh/nghien-cuu-03.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        360,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        364,
+        504
+      ],
+      "caption": "V02-DEEP-09 | V02-S023 | 84.16s"
+    },
+    {
+      "evidence_id": "V02-F024710",
+      "shot_id": "V02-S148",
+      "frame": 24710,
+      "seconds": 494.2,
+      "atlas": "anh/nghien-cuu-03.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        720,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        724,
+        504
+      ],
+      "caption": "V02-DEEP-09 | V02-S148 | 494.20s"
+    },
+    {
+      "evidence_id": "V02-F024874",
+      "shot_id": "V02-S149",
+      "frame": 24874,
+      "seconds": 497.48,
+      "atlas": "anh/nghien-cuu-03.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        1080,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        1084,
+        504
+      ],
+      "caption": "V02-DEEP-09 | V02-S149 | 497.48s"
+    },
+    {
+      "evidence_id": "V02-F029384",
+      "shot_id": "V02-S173",
+      "frame": 29384,
+      "seconds": 587.68,
+      "atlas": "anh/nghien-cuu-04.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        4,
+        4
+      ],
+      "caption": "V02-DEEP-10 | V02-S173 | 587.68s"
+    },
+    {
+      "evidence_id": "V02-F029525",
+      "shot_id": "V02-S173",
+      "frame": 29525,
+      "seconds": 590.5,
+      "atlas": "anh/nghien-cuu-04.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        360,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        364,
+        4
+      ],
+      "caption": "V02-DEEP-10 | V02-S173 | 590.50s"
+    },
+    {
+      "evidence_id": "V02-F029667",
+      "shot_id": "V02-S173",
+      "frame": 29667,
+      "seconds": 593.34,
+      "atlas": "anh/nghien-cuu-04.jpg",
+      "row": 1,
+      "column": 3,
+      "render_box": [
+        720,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        724,
+        4
+      ],
+      "caption": "V02-DEEP-10 | V02-S173 | 593.34s"
+    },
+    {
+      "evidence_id": "V02-F029670",
+      "shot_id": "V02-S174",
+      "frame": 29670,
+      "seconds": 593.4,
+      "atlas": "anh/nghien-cuu-04.jpg",
+      "row": 1,
+      "column": 4,
+      "render_box": [
+        1080,
+        28,
+        360,
+        203
+      ],
+      "caption_xy": [
+        1084,
+        4
+      ],
+      "caption": "V02-DEEP-10 | V02-S174 | 593.40s"
+    },
+    {
+      "evidence_id": "V02-F029670",
+      "shot_id": "V02-S174",
+      "frame": 29670,
+      "seconds": 593.4,
+      "atlas": "anh/nghien-cuu-04.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        4,
+        254
+      ],
+      "caption": "V02-DEEP-11 | V02-S174 | 593.40s"
+    },
+    {
+      "evidence_id": "V02-F029706",
+      "shot_id": "V02-S174",
+      "frame": 29706,
+      "seconds": 594.12,
+      "atlas": "anh/nghien-cuu-04.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        360,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        364,
+        254
+      ],
+      "caption": "V02-DEEP-11 | V02-S174 | 594.12s"
+    },
+    {
+      "evidence_id": "V02-F029758",
+      "shot_id": "V02-S174",
+      "frame": 29758,
+      "seconds": 595.16,
+      "atlas": "anh/nghien-cuu-04.jpg",
+      "row": 2,
+      "column": 3,
+      "render_box": [
+        720,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        724,
+        254
+      ],
+      "caption": "V02-DEEP-11 | V02-S174 | 595.16s"
+    },
+    {
+      "evidence_id": "V02-F029806",
+      "shot_id": "V02-S174",
+      "frame": 29806,
+      "seconds": 596.12,
+      "atlas": "anh/nghien-cuu-04.jpg",
+      "row": 2,
+      "column": 4,
+      "render_box": [
+        1080,
+        278,
+        360,
+        203
+      ],
+      "caption_xy": [
+        1084,
+        254
+      ],
+      "caption": "V02-DEEP-11 | V02-S174 | 596.12s"
+    },
+    {
+      "evidence_id": "V02-F001894",
+      "shot_id": "V02-S011",
+      "frame": 1894,
+      "seconds": 37.88,
+      "atlas": "anh/nghien-cuu-04.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        4,
+        504
+      ],
+      "caption": "V02-DEEP-12 | V02-S011 | 37.88s"
+    },
+    {
+      "evidence_id": "V02-F016743",
+      "shot_id": "V02-S097",
+      "frame": 16743,
+      "seconds": 334.86,
+      "atlas": "anh/nghien-cuu-04.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        360,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        364,
+        504
+      ],
+      "caption": "V02-DEEP-12 | V02-S097 | 334.86s"
+    },
+    {
+      "evidence_id": "V02-F028510",
+      "shot_id": "V02-S169",
+      "frame": 28510,
+      "seconds": 570.2,
+      "atlas": "anh/nghien-cuu-04.jpg",
+      "row": 3,
+      "column": 3,
+      "render_box": [
+        720,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        724,
+        504
+      ],
+      "caption": "V02-DEEP-12 | V02-S169 | 570.20s"
+    },
+    {
+      "evidence_id": "V02-F030006",
+      "shot_id": "V02-S175",
+      "frame": 30006,
+      "seconds": 600.12,
+      "atlas": "anh/nghien-cuu-04.jpg",
+      "row": 3,
+      "column": 4,
+      "render_box": [
+        1080,
+        528,
+        360,
+        203
+      ],
+      "caption_xy": [
+        1084,
+        504
+      ],
+      "caption": "V02-DEEP-12 | V02-S175 | 600.12s"
+    },
+    {
+      "evidence_id": "V02-F004612",
+      "shot_id": "V02-S025",
+      "frame": 4612,
+      "seconds": 92.24,
+      "atlas": "anh/doi-chieu-mau.jpg",
+      "row": 1,
+      "column": 1,
+      "render_box": [
+        0,
+        24,
+        640,
+        360
+      ],
+      "caption_xy": [
+        5,
+        2
+      ],
+      "caption": "V02-S025 92.24s"
+    },
+    {
+      "evidence_id": "V02-F006824",
+      "shot_id": "V02-S040",
+      "frame": 6824,
+      "seconds": 136.48,
+      "atlas": "anh/doi-chieu-mau.jpg",
+      "row": 1,
+      "column": 2,
+      "render_box": [
+        640,
+        24,
+        640,
+        360
+      ],
+      "caption_xy": [
+        645,
+        2
+      ],
+      "caption": "V02-S040 136.48s"
+    },
+    {
+      "evidence_id": "V02-F011609",
+      "shot_id": "V02-S065",
+      "frame": 11609,
+      "seconds": 232.18,
+      "atlas": "anh/doi-chieu-mau.jpg",
+      "row": 2,
+      "column": 1,
+      "render_box": [
+        0,
+        409,
+        640,
+        360
+      ],
+      "caption_xy": [
+        5,
+        387
+      ],
+      "caption": "V02-S065 232.18s"
+    },
+    {
+      "evidence_id": "V02-F013651",
+      "shot_id": "V02-S078",
+      "frame": 13651,
+      "seconds": 273.02,
+      "atlas": "anh/doi-chieu-mau.jpg",
+      "row": 2,
+      "column": 2,
+      "render_box": [
+        640,
+        409,
+        640,
+        360
+      ],
+      "caption_xy": [
+        645,
+        387
+      ],
+      "caption": "V02-S078 273.02s"
+    },
+    {
+      "evidence_id": "V02-F022785",
+      "shot_id": "V02-S135",
+      "frame": 22785,
+      "seconds": 455.7,
+      "atlas": "anh/doi-chieu-mau.jpg",
+      "row": 3,
+      "column": 1,
+      "render_box": [
+        0,
+        794,
+        640,
+        360
+      ],
+      "caption_xy": [
+        5,
+        772
+      ],
+      "caption": "V02-S135 455.70s"
+    },
+    {
+      "evidence_id": "V02-F029029",
+      "shot_id": "V02-S171",
+      "frame": 29029,
+      "seconds": 580.58,
+      "atlas": "anh/doi-chieu-mau.jpg",
+      "row": 3,
+      "column": 2,
+      "render_box": [
+        640,
+        794,
+        640,
+        360
+      ],
+      "caption_xy": [
+        645,
+        772
+      ],
+      "caption": "V02-S171 580.58s"
     }
   ],
   "files": [
+    {
+      "path": "anh/diem-cat-01.jpg",
+      "bytes": 473562,
+      "sha256": "73e3b0e0f61ab1c8d53ae1d9ccbb93168bc7645f60052243dfc26050b5c34f86"
+    },
+    {
+      "path": "anh/diem-cat-02.jpg",
+      "bytes": 451623,
+      "sha256": "4c9e88c0da4b44d463dcaacb68db938c531c5d02f6226be6fd932ebb50d252de"
+    },
+    {
+      "path": "anh/diem-cat-03.jpg",
+      "bytes": 457351,
+      "sha256": "dff695f2c9cf155b24a807830c855b41227564423a4b3a7b2c4d88ce69fbddb5"
+    },
+    {
+      "path": "anh/diem-cat-04.jpg",
+      "bytes": 420373,
+      "sha256": "039a181b91f1c9b48fc421df5bd645c78e21008a0ad3a5e70a05eeff80913acc"
+    },
+    {
+      "path": "anh/diem-cat-05.jpg",
+      "bytes": 414620,
+      "sha256": "3541148440713503da7cead5c99e85823165fd7f43e9d4432d1223a1a92d862c"
+    },
+    {
+      "path": "anh/diem-cat-06.jpg",
+      "bytes": 391586,
+      "sha256": "c427fa5872e221945d05f83823f154a6291240ef008bdf6a96c489edeeba1bbc"
+    },
+    {
+      "path": "anh/diem-cat-07.jpg",
+      "bytes": 399467,
+      "sha256": "d0a9de1fc897c555e17e2e4c343ffb36efa2aa40fd35ab9a15dfb1b8ce04c6f2"
+    },
+    {
+      "path": "anh/diem-cat-08.jpg",
+      "bytes": 424374,
+      "sha256": "36bfa9b4af09aee7461536d79356c2b0b1933de98cafdf8a84f7fea5b89ae836"
+    },
+    {
+      "path": "anh/diem-cat-09.jpg",
+      "bytes": 389833,
+      "sha256": "7c3be80d4213d4950e1dd14df6de3c2ff884bb7d4e80f31ec7a3bd0003acb761"
+    },
+    {
+      "path": "anh/diem-cat-10.jpg",
+      "bytes": 447259,
+      "sha256": "a09661d78dd404d9d27a7d287e7a7ad084c63f1f0058323495b5a75c66a49185"
+    },
+    {
+      "path": "anh/diem-cat-11.jpg",
+      "bytes": 477423,
+      "sha256": "3dee295e9b5f1b912305d4a76a944263098efcb6f090fb8b7a81ed5798dc2094"
+    },
+    {
+      "path": "anh/diem-cat-12.jpg",
+      "bytes": 270151,
+      "sha256": "f8a60c3e2f6a033526502756005b716061337bea159f841e4a950cdb8e8bf69f"
+    },
+    {
+      "path": "anh/doi-chieu-mau.jpg",
+      "bytes": 335211,
+      "sha256": "7f4bdebee3e6f7303c42c85e3b65091223dfb1bbf9e99a07f16b838e3bb54faf"
+    },
+    {
+      "path": "anh/nghien-cuu-01.jpg",
+      "bytes": 292089,
+      "sha256": "d98c3ffc8e6b7470fcaf189df77ebce5b5070f3e68ffbf16ce25c2ff55981ac6"
+    },
+    {
+      "path": "anh/nghien-cuu-02.jpg",
+      "bytes": 310636,
+      "sha256": "15e4c45afc1ad9abd3427d76059ff877ba10b9d2d45709f8bf1c2023d8b77e13"
+    },
+    {
+      "path": "anh/nghien-cuu-03.jpg",
+      "bytes": 331706,
+      "sha256": "482bab08bd2781733c08e44a1b9a00e762c1a3de5479ce55e5b78dfa4bca248d"
+    },
+    {
+      "path": "anh/nghien-cuu-04.jpg",
+      "bytes": 289029,
+      "sha256": "5c121a6ea9cdb7362058cf40142319592e404ce1b84030fb222078b8ea50d199"
+    },
     {
       "path": "anh/shot-01.jpg",
       "bytes": 706154,
@@ -12443,5 +20608,126 @@
       "bytes": 65381,
       "sha256": "89118180109413ca5e2de5f3e15fc1bb1bb2b364cbfc49c2776df6de412ab816"
     }
-  ]
+  ],
+  "layouts": {
+    "anh/diem-cat-01.jpg": {
+      "width": 1440,
+      "height": 825,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/diem-cat-02.jpg": {
+      "width": 1440,
+      "height": 825,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/diem-cat-03.jpg": {
+      "width": 1440,
+      "height": 825,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/diem-cat-04.jpg": {
+      "width": 1440,
+      "height": 825,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/diem-cat-05.jpg": {
+      "width": 1440,
+      "height": 825,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/diem-cat-06.jpg": {
+      "width": 1440,
+      "height": 825,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/diem-cat-07.jpg": {
+      "width": 1440,
+      "height": 825,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/diem-cat-08.jpg": {
+      "width": 1440,
+      "height": 825,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/diem-cat-09.jpg": {
+      "width": 1440,
+      "height": 825,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/diem-cat-10.jpg": {
+      "width": 1440,
+      "height": 825,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/diem-cat-11.jpg": {
+      "width": 1440,
+      "height": 825,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/diem-cat-12.jpg": {
+      "width": 1440,
+      "height": 825,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/nghien-cuu-01.jpg": {
+      "width": 1440,
+      "height": 750,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/nghien-cuu-02.jpg": {
+      "width": 1440,
+      "height": 750,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/nghien-cuu-03.jpg": {
+      "width": 1440,
+      "height": 750,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/nghien-cuu-04.jpg": {
+      "width": 1440,
+      "height": 750,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    },
+    "anh/doi-chieu-mau.jpg": {
+      "width": 1280,
+      "height": 1155,
+      "background": "#14171c",
+      "font_size": 15,
+      "caption_color": "white"
+    }
+  }
 }

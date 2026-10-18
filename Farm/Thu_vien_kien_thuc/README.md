@@ -1,8 +1,8 @@
 # FARM — Nhánh kiến thức đời sống nông thôn yên bình
 
-Phiên bản 1.3.0, ngày 18/10/2026. Dùng [FILM-KB hiện hành](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md); đọc manifest trên main trước khi áp dụng. core_dependency.version là bản đã đối chiếu gần nhất, commit = null để không khóa hướng dẫn vào bản cũ.
+Phiên bản 1.4.0, ngày 18/10/2026. Dùng [FILM-KB hiện hành](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md); đọc manifest trên main trước khi áp dụng. core_dependency.version là bản đã đối chiếu gần nhất, commit = null để không khóa hướng dẫn vào bản cũ.
 
-**10 quy tắc ứng dụng · 3 ứng viên chung · ví dụ lịch sử VID_01 · hồ sơ mới VID_02.** VID_02 đã có tệp và lớp phân tích ảnh: 176 phiếu hình/góc/màu/trạng thái, 26 chuỗi/77 nhịp, 175 liên kết và 13 giả thuyết DNA. Âm ngoài phạm vi lượt hiện hành; chưa phát trọn chuyển động, tạo clip hoặc kiểm khán giả.
+**10 quy tắc ứng dụng · 3 ứng viên chung · ví dụ lịch sử VID_01 · hồ sơ mới VID_02.** VID_02 đã có tệp và lớp phân tích ảnh: 176 phiếu hình, 26 chuỗi/77 nhịp, 175 ranh giới đối chiếu cặp frame, 12 ca sâu/17 cầu nối chú ý/12 vùng pixel và 13 giả thuyết DNA. Âm ngoài phạm vi lượt hiện hành; chưa phát trọn chuyển động, tạo clip hoặc kiểm khán giả.
 
 ## Đọc theo thứ tự
 

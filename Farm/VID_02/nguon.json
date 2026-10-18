@@ -1,6 +1,6 @@
 {
   "id": "VID_02",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "title_from_user": "Đậu phộng, hạt hướng dương, kẹo hồ lô, khô bò, kẹo bông tuyết.. thức ăn vặt cho Tết Nguyên đán",
   "creator_attribution_from_user": "Lý Tử Thất",
   "source_url": "https://www.youtube.com/watch?v=FWMIPukvdsQ",
@@ -61,7 +61,9 @@
       "full_motion_playback_performed": false,
       "coverage": "176 hồ sơ và 26 chuỗi đã có phân tích hình có mốc; không chứng nhận mọi frame chuyển động hoặc tác dụng khán giả."
     },
-    "visual_deepening": "Rà 176 khung đại diện, đối chiếu ảnh nhiều mốc đã trích ở 30 bảng chính và 13 bảng dày; đọc kỹ bó rơm, kẹo, tráng/cuộn, giỏ/thang/đòn và trao món. Màu ghi theo vật thể từng cú, không suy LUT/Kelvin."
+    "visual_deepening": "Rà 176 khung đại diện, đối chiếu ảnh nhiều mốc đã trích ở 30 bảng chính và 13 bảng dày; đọc kỹ bó rơm, kẹo, tráng/cuộn, giỏ/thang/đòn và trao món. Màu ghi theo vật thể từng cú, không suy LUT/Kelvin.",
+    "boundary_review": "Decoded original frames n-1/n at each current boundary on the uploaded 50fps time axis; all 175 pairs visually inspected in 12 boards.",
+    "advanced_visual_review": "12 ca sâu, 17 cầu nối chú ý biên tập, 6 cặp vùng pixel và 3 mốc thời gian; dữ liệu ở tai-tao.json/visual_study."
   },
   "analysis_current": "phan-tich.json",
   "reconstruction_current": "tai-tao.json",
@@ -171,13 +173,33 @@
     {
       "id": "ED-010",
       "version": "1.1.0"
+    },
+    {
+      "id": "CA-011",
+      "version": "1.1.0"
+    },
+    {
+      "id": "CA-008",
+      "version": "1.2.1"
+    },
+    {
+      "id": "CA-012",
+      "version": "1.1.0"
+    },
+    {
+      "id": "ED-002",
+      "version": "1.1.0"
+    },
+    {
+      "id": "DR-003",
+      "version": "1.0.0"
     }
   ],
   "coverage_limitations": [
-    "Đã rà lại 176 hồ sơ theo ảnh có mốc ở toàn trục 0–611,92s; chưa phát trọn hình ở tốc độ thật, whole_visual_reviewed=false.",
-    "882 lần hiển thị ảnh chính, 476 lần rà dày 10 thao tác, 1.328 mốc riêng. Mốc trùng không tính thành độ phủ chuyển động.",
+    "Đã rà ảnh toàn trục và 175 cặp frame liền kề tại ranh giới hiện hành; 12 nghiên cứu sâu về động tác/bố cục/điểm nhìn. Chưa phát trọn hình tốc độ thật; whole_visual_reviewed=false.",
+    "1665 mốc ảnh riêng; 350 ảnh mới ở ranh giới, có mốc trùng bộ cũ. 12 bảng cặp cut, 4 bảng ca sâu và 1 bảng đối chiếu màu thêm vào cùng thư mục bằng chứng.",
     "Âm ngoài phạm vi theo người dùng, bốn trường null giữ để tương thích schema và không là điều kiện chặn lượt hình.",
-    "176 cú là phân hoạch làm việc, chưa chứng nhận mọi cut ít tương phản; thống kê gắn phân hoạch này.",
+    "175 ranh giới hiện hành đều có đổi hình tại cặp n-1/n đã xem. 176 cú vẫn là phân hoạch làm việc vì chưa loại hết cut có thể còn thiếu bên trong khoảng; không gán mọi cut là khớp hành động.",
     "Màu đọc trên bản hiển thị; không suy LUT/Kelvin/ống kính/khẩu/tốc độ quay từ hình.",
     "Mốc theo tệp tải, URL do người dùng gán; chưa đối chiếu mọi frame bản YouTube. Chức năng/góc/cảm xúc là diễn giải; chưa sinh clip hoặc kiểm khán giả."
   ],

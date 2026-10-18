@@ -29,6 +29,16 @@ def main():
         subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-i',str(source),'-vf',filt,'-an','-fps_mode','vfr','-start_number','0','-q:v','2',str(folder/'%05d.jpg')],check=True)
         if len(list(folder.glob('*.jpg')))!=len(frames):raise SystemExit('Extracted frame count mismatch.')
         for name,items in groups.items():
+            layout=manifest.get('layouts',{}).get(name)
+            if layout:
+                canvas=Image.new('RGB',(layout['width'],layout['height']),layout['background']);draw=ImageDraw.Draw(canvas)
+                fnt=ImageFont.truetype(str(fontdir/'DejaVuSans.ttf'),layout['font_size'])
+                for f in items:
+                    x,y,w,h=f['render_box'];im=Image.open(folder/f"{by_frame[f['frame']]:05d}.jpg").resize((w,h),Image.Resampling.LANCZOS)
+                    canvas.paste(im,(x,y))
+                    if f['caption']:draw.text(tuple(f['caption_xy']),f['caption'],font=fnt,fill=layout['caption_color'])
+                canvas.save(BASE/name,quality=92)
+                continue
             dense='tiep-xuc-' in name;rows=max(f['row'] for f in items)
             width=1920 if dense else 1600;step=204 if dense else 214;header=28 if dense else 26
             canvas=Image.new('RGB',(width,rows*step+header),'#eeeeee' if dense else '#f3f0e8');draw=ImageDraw.Draw(canvas)
