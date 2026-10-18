@@ -16,3 +16,10 @@ Quy ước do người dùng xác nhận ngày 12/10/2026, theo giờ Việt Nam
 - Câu trả lời nguyên văn lưu trong [Farm/Y_tuong_chinh_thuc_va_cau_hoi_01.md](Farm/Y_tuong_chinh_thuc_va_cau_hoi_01.md).
 - Dùng lựa chọn hiện hành: ưu tiên Mỹ; trải nghiệm thư giãn làng quê; Seedance 2.5 qua Dola; chủ yếu không thoại; người dùng lo âm môi trường/nhạc.
 - Các đề xuất thử nghiệm và mục chưa chốt không tự trở thành quyết định của người dùng.
+
+
+## Sửa tài liệu tại chỗ
+
+- Theo quyết định người dùng ngày 18/10/2026: mỗi tài liệu/mã chỉ có một bản hiện hành ở đường dẫn cố định. Sửa trực tiếp và cập nhật version; không nhân bản theo v1/v2, ngày hoặc đợt. Lịch sử và khôi phục dùng Git.
+- Với thư viện core–Farm, dùng một [nhật ký chung](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/CHANGELOG.md). Không tạo nhật ký riêng cho mỗi phiên bản hoặc ngách.
+- Đọc tài liệu hướng dẫn hiện hành trên main; revision/checksum trong nguồn quan sát giữ cho truy nguyên, không bắt người dùng đọc lại các bản hướng dẫn cũ.

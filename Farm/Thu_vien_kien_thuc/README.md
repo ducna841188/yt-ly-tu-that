@@ -1,15 +1,15 @@
 # FARM — Nhánh kiến thức đời sống nông thôn yên bình
 
-Phiên bản 1.0.0, ngày 18/10/2026. Kế thừa [FILM-KB 1.0.0](https://github.com/ducna841188/kien-thuc-dien-anh/blob/da4b991ef001943138f5df9ab58067f01d19f4d1/thu-vien/README.md).
+Phiên bản 1.1.0, ngày 18/10/2026. Dùng [FILM-KB hiện hành](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md); đọc manifest trên main trước khi áp dụng. core_dependency.version là bản đã đối chiếu gần nhất, commit = null để không khóa hướng dẫn vào bản cũ.
 
 **10 quy tắc ứng dụng · 3 ứng viên nghiên cứu · 1 ví dụ dữ liệu từ báo cáo VID_01.** Chưa tiếp nhận video mới hoặc kiểm nghiệm video/khán giả trong lần tạo nhánh này.
 
 ## Đọc theo thứ tự
 
 1. [Hồ sơ ngách](ho-so-ngach.json).
-2. [Định hướng đã chốt](https://github.com/ducna841188/yt-ly-tu-that/blob/5bb00dc0984da0c6203f9e00250895f2e01739fc/Farm/Dinh_huong_chinh_thuc.md) và [hồ sơ khán giả](https://github.com/ducna841188/yt-ly-tu-that/blob/5bb00dc0984da0c6203f9e00250895f2e01739fc/Farm/Ho_so_khan_gia.md).
-3. [Chuẩn phân tích chung](https://github.com/ducna841188/kien-thuc-dien-anh/blob/da4b991ef001943138f5df9ab58067f01d19f4d1/thu-vien/02_CHUAN_PHAN_TICH.md) và [chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/da4b991ef001943138f5df9ab58067f01d19f4d1/thu-vien/03_RA_QUYET_DINH.md).
-4. [Nguồn và giới hạn VID_01](https://github.com/ducna841188/yt-ly-tu-that/blob/5bb00dc0984da0c6203f9e00250895f2e01739fc/Farm/VID_01/Qa_du_lieu.md).
+2. [Định hướng đã chốt](https://github.com/ducna841188/yt-ly-tu-that/blob/main/Farm/Dinh_huong_chinh_thuc.md) và [hồ sơ khán giả](https://github.com/ducna841188/yt-ly-tu-that/blob/main/Farm/Ho_so_khan_gia.md).
+3. [Chuẩn phân tích chung](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/02_CHUAN_PHAN_TICH.md) và [chuẩn quyết định](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/03_RA_QUYET_DINH.md).
+4. [Nguồn và giới hạn VID_01](https://github.com/ducna841188/yt-ly-tu-that/blob/main/Farm/VID_01/Qa_du_lieu.md).
 5. [Ví dụ chuyển hai shot từ báo cáo vào schema](vi-du-vid01-tu-bao-cao.json).
 
 ## Những điều đang dùng
@@ -28,6 +28,8 @@ Các ứng viên gửi về core có trạng thái candidate. Cần bằng chứ
 
 ## Khi tiếp nhận video mới
 
-Ghi asset, tệp, mốc gốc, offset từng phần và độ phủ. Phân tích toàn phim → phân đoạn → chuỗi → shot → sự kiện theo cùng schema. Lưu kết quả trong corpus riêng theo video/version, rồi tổng hợp sau một lượt nhập.
+Ghi asset, tệp, mốc gốc, offset từng phần và độ phủ. Phân tích toàn phim → phân đoạn → chuỗi → shot → sự kiện theo cùng schema. Lưu mỗi video/asset thật với một hồ sơ phân tích hiện hành; sửa đúng tệp đó, không tạo thư mục bản sao theo version. Tổng hợp sau một lượt nhập.
 
-[Nguồn ghim](nguon.json) · [Quy tắc làm việc](AGENTS.md).
+[Dấu vết nguồn đã đọc](nguon.json) · [Quy tắc làm việc](AGENTS.md) · [Nhật ký chung](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/CHANGELOG.md).
+
+Tài liệu làm việc trỏ main để đọc bản hiện hành. Revision trong nguồn/phân tích ghi lại bằng chứng lúc phân tích, không là bản sao tài liệu cần đọc thêm. Lịch sử cập nhật thư viện và Farm nằm trong một nhật ký chung; chi tiết trước–sau dùng Git.
