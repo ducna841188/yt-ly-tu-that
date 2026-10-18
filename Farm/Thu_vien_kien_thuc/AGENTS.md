@@ -4,7 +4,7 @@
 
 - Đọc core hiện hành trên main và manifest trước khi dùng; core_dependency trong ho-so-ngach.json ghi version đã đối chiếu, commit = null. Kiểm các mã đang dùng khi core đổi; không tự đổi lựa chọn sáng tạo.
 - Quy tắc ngách chỉ áp đúng lời hứa/khán giả của Farm; không tự nâng lên core.
-- Giữ nguồn và 471 dòng phân tích cũ; thêm lớp kiểm lại theo video mới, không viết đè bằng câu mẫu.
+- Giữ báo cáo nguồn 471 dòng cùng revision để truy nguyên. Phân tích do thư viện tạo được sửa tại chỗ khi có bằng chứng mới, ghi rõ nguồn/mốc và lý do; không viết đè lời nguồn bằng câu mẫu hoặc giả thành đã xem video.
 - Chỉ dẫn người dùng hiện tại và phần đã duyệt của tác vụ được ưu tiên; sửa người thừa phải giữ timelapse/hành động đã đạt.
 - Kiến thức/thủ pháp cảm xúc là giả thuyết cho tới khi có dữ liệu phù hợp; không suy sức khỏe từ bình luận.
 - Bổ sung/sửa có căn cứ và nhật ký; trình thay đổi đảo nguyên tắc trước áp dụng rộng.

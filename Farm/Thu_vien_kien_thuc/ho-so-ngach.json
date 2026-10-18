@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0.0",
   "id": "FARM",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "title": "Đời sống nông thôn yên bình — nhánh ứng dụng",
   "core_dependency": {
     "repository": "ducna841188/kien-thuc-dien-anh",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "commit": null,
     "manifest_url": "https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/manifest.json"
   },
