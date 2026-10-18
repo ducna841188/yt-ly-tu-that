@@ -1,0 +1,106 @@
+{
+  "id": "FARM-LTT-RESEARCH",
+  "version": "0.1.0",
+  "core_version": "1.3.1",
+  "status": "ready_for_source_list_and_pilot",
+  "user_confirmed": {
+    "on": "2026-10-18",
+    "eight_additional_videos_selected": true,
+    "human_handbook_primary_device": "desktop",
+    "expected_total_videos": 9
+  },
+  "source_state": {
+    "selected_additional_list_received": false,
+    "new_video_media_received": 0,
+    "vid01": "Workbook/12 stills only; source video URL/full audio not received or independently verified."
+  },
+  "source_intake_fields": [
+    "video_id",
+    "title",
+    "original_url",
+    "accessible_media_location",
+    "duration_seconds",
+    "audio_presence",
+    "version_or_edit",
+    "segments_with_offsets_if_split"
+  ],
+  "optional_context": [
+    "publication_date",
+    "public_view_count_with_checked_date",
+    "thumbnail",
+    "title",
+    "viewer_comments_with_selection_method",
+    "actual_analytics_if_available"
+  ],
+  "sequence": [
+    {
+      "step": 1,
+      "work": "Đối chiếu danh sách tám video đã chọn và nhận diện VID_01; giữ bộ chọn của người dùng.",
+      "exit": "Nguồn được xác định, phần thiếu được ghi rõ."
+    },
+    {
+      "step": 2,
+      "work": "Thử một đoạn đủ hình–âm, rồi phân tích đầy đủ video mẫu; nếu VID_01 chưa có media, chọn một video mới làm mẫu và giữ VID_01 chờ xác minh.",
+      "exit": "Có mẫu phân tích thực, quy ước nhãn và độ phủ thật."
+    },
+    {
+      "step": 3,
+      "work": "Phân tích thêm sáu video, theo hai nhóm ba; đối chiếu sau mỗi nhóm.",
+      "exit": "Bảy video được phân tích cùng chuẩn, có các giả thuyết và ngoại lệ."
+    },
+    {
+      "step": 4,
+      "work": "Ghi trước dự đoán cho hai video để lại, rồi phân tích chi tiết cả hai.",
+      "exit": "Cả chín video có hồ sơ; quy tắc được kiểm đối chiếu, không giả thành nguyên nhân thành công."
+    },
+    {
+      "step": 5,
+      "work": "Thiết kế/tạo các đoạn thử đại diện và vận dụng sang Farm; tập đầu bám gần trình tự nguồn với nhân vật/bối cảnh riêng, các tập sau phát triển sáng tạo.",
+      "exit": "Có bằng chứng khả thi theo công cụ thật trước mở rộng sản xuất."
+    }
+  ],
+  "split": {
+    "proposed": "7 videos for hypotheses + 2 for later comparison",
+    "assigned_video_ids": null,
+    "note": "Phân vai sau khi nhận danh sách; cả chín cuối cùng đều phân tích đầy đủ."
+  },
+  "analysis_scales": [
+    "film",
+    "segment",
+    "sequence",
+    "shot",
+    "event"
+  ],
+  "per_shot_standard": "Core 02_CHUAN_PHAN_TICH.md: 25 groups, value/status/basis/evidence_refs/uncertainty_reason.",
+  "audio_review": "Independent timed track checked against visual events; stills do not certify audio or synchronization.",
+  "chunking": "Keep original time axis and offsets, record actual reviewed coverage, overlap boundaries as needed and avoid double-counting.",
+  "dna_record_fields": [
+    "claim",
+    "kind_style_or_effect_or_ai_feasibility",
+    "conditions",
+    "source_video_shot_time_refs",
+    "observations",
+    "interpretation",
+    "exceptions",
+    "reconstruction_recipe",
+    "next_test",
+    "evidence_state",
+    "core_ids_and_versions"
+  ],
+  "dna_evidence_states": [
+    "observed_in_sample",
+    "conditional_hypothesis",
+    "supported_by_specific_test",
+    "unresolved"
+  ],
+  "storage": {
+    "analyses": "Farm/VID_01 ... Farm/VID_09, one current analysis per source",
+    "dna": "Farm/Thu_vien_kien_thuc, linked to source analyses and core IDs",
+    "history": "git_commits",
+    "change_log": "ducna841188/kien-thuc-dien-anh/thu-vien/CHANGELOG.md"
+  },
+  "production_choices_changed": false,
+  "new_video_analysis_performed": false,
+  "viewer_tests": 0,
+  "updated_on": "2026-10-18"
+}
