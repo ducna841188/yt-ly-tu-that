@@ -1,6 +1,6 @@
 # FARM — Nhánh kiến thức đời sống nông thôn yên bình
 
-Phiên bản 1.1.1, ngày 18/10/2026. Dùng [FILM-KB hiện hành](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md); đọc manifest trên main trước khi áp dụng. core_dependency.version là bản đã đối chiếu gần nhất, commit = null để không khóa hướng dẫn vào bản cũ.
+Phiên bản 1.1.2, ngày 18/10/2026. Dùng [FILM-KB hiện hành](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md); đọc manifest trên main trước khi áp dụng. core_dependency.version là bản đã đối chiếu gần nhất, commit = null để không khóa hướng dẫn vào bản cũ.
 
 **10 quy tắc ứng dụng · 3 ứng viên nghiên cứu · 1 ví dụ dữ liệu từ báo cáo VID_01.** Chưa tiếp nhận video mới hoặc kiểm nghiệm video/khán giả trong lần tạo nhánh này.
 
