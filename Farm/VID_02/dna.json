@@ -1,9 +1,9 @@
 {
   "id": "FARM-VID02-DNA",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "core_version": "1.3.1",
   "source_analysis": "phan-tich.json",
-  "scope": "Một phim, ảnh theo thời gian; chưa là công thức thành công chín phim hoặc quan hệ nhân quả.",
+  "scope": "Hình một phim theo ảnh có mốc, 13 giả thuyết có điều kiện; âm ngoài phạm vi. Chưa là nguyên nhân thành công.",
   "viewer_data_received": false,
   "rules": [
     {
@@ -140,8 +140,8 @@
     {
       "id": "V02-DNA-03",
       "kind": "STYLE",
-      "title": "Bộ cỡ đi theo nhiệm vụ",
-      "observations": "Khung rộng giữ quan hệ người–nơi, khung gần giữ điểm tác động, khung món xác nhận kết quả.",
+      "title": "Cỡ và góc theo loại bằng chứng cần thấy",
+      "observations": "Góc cao đọc lòng chảo/khay và nhóm nguyên liệu; tầm mặt vật đọc dao, mặt cắt, siro kéo và cuộn; rộng trả người–nơi. Cụ thể: S060/S073/S116; S014/S039/S078/S135; S011/S070/S098/S175.",
       "shot_refs": [
         "V02-S011",
         "V02-S012",
@@ -154,7 +154,14 @@
         "V02-S098",
         "V02-S099",
         "V02-S107",
-        "V02-S108"
+        "V02-S108",
+        "V02-S060",
+        "V02-S073",
+        "V02-S116",
+        "V02-S078",
+        "V02-S135",
+        "V02-S070",
+        "V02-S175"
       ],
       "evidence_refs": [
         "V02-F001740",
@@ -180,13 +187,32 @@
         "V02-F017986",
         "V02-F018158",
         "V02-F018165",
-        "V02-F018402"
+        "V02-F018402",
+        "V02-F001894",
+        "V02-F002128",
+        "V02-F002282",
+        "V02-F002441",
+        "V02-F002584",
+        "V02-F006490",
+        "V02-F006682",
+        "V02-F007133",
+        "V02-F016909",
+        "V02-F017072",
+        "V02-F018072",
+        "V02-F018283",
+        "V02-F010722",
+        "V02-F012770",
+        "V02-F019604",
+        "V02-F013651",
+        "V02-F022785",
+        "V02-F012238",
+        "V02-F030006"
       ],
       "conditions": [
         "Mỗi lần đổi cỡ bổ sung thông tin hoặc đổi trọng tâm thật."
       ],
       "interpretation": "Có thể chuyển giao chức năng theo điều kiện; tác dụng với tệp Farm cần kiểm.",
-      "reconstruction_recipe": "Thiết kế bộ góc tối thiểu theo bằng chứng cần thấy; dùng một góc nếu đã làm đủ nhiệm vụ.",
+      "reconstruction_recipe": "Viết thông tin cần thấy trước tên góc: mặt phẳng chứa, mặt cắt/độ dày, lực tay hay người–nơi. Chọn cao/thấp, cỡ/nét theo thông tin ấy, không gán máy cao luôn yếu hoặc máy thấp luôn mạnh.",
       "exceptions": [
         "Ép tỷ lệ cận/toàn theo mẫu có thể tạo cảnh thừa hoặc mất định hướng."
       ],
@@ -204,6 +230,14 @@
         {
           "id": "ED-009",
           "version": "1.1.0"
+        },
+        {
+          "id": "CA-002",
+          "version": "1.0.0"
+        },
+        {
+          "id": "CA-003",
+          "version": "1.0.0"
         }
       ],
       "generation_tested": false,
@@ -500,7 +534,7 @@
       "id": "V02-DNA-09",
       "kind": "EFFECT_HYPOTHESIS",
       "title": "Trao và cùng dùng là một kiểu trả kết quả",
-      "observations": "Một số món được ăn thử; phần cuối có chuyển quyền giữ rồi hai người cùng ăn.",
+      "observations": "S173 gieo người nhận ở gần trước khi món tới; S174 cùng giữ rồi nhả; S175 xác nhận hai người ăn phần riêng. Nếm món trước đó là chức năng khác, không thay được quan hệ trao cuối.",
       "shot_refs": [
         "V02-S047",
         "V02-S048",
@@ -730,6 +764,69 @@
         {
           "id": "YT-010",
           "version": "1.1.0"
+        }
+      ],
+      "generation_tested": false,
+      "viewer_tested": false
+    },
+    {
+      "id": "V02-DNA-13",
+      "kind": "STYLE",
+      "title": "Màu có vật mang và thay đổi theo trạng thái",
+      "observations": "Chàm áo, nâu tre/gỗ và xanh xám làm hệ nền; đỏ quả thô thành đỏ bóng, trắng khối thành kem có đỏ/hạt/mặt cắt, bột/trứng thành bánh vàng nâu. Lửa/khói/đêm là ngoại lệ theo sự kiện.",
+      "shot_refs": [
+        "V02-S025",
+        "V02-S039",
+        "V02-S065",
+        "V02-S078",
+        "V02-S107",
+        "V02-S130",
+        "V02-S135",
+        "V02-S143",
+        "V02-S175"
+      ],
+      "evidence_refs": [
+        "V02-F004612",
+        "V02-F006682",
+        "V02-F011609",
+        "V02-F013651",
+        "V02-F018072",
+        "V02-F021927",
+        "V02-F022785",
+        "V02-F023948",
+        "V02-F030006"
+      ],
+      "conditions": [
+        "Vật thể có trạng thái nhận ra; so chủ thể với nền sát nó, không chỉ màu trung bình toàn ảnh."
+      ],
+      "interpretation": "Màu và chất liệu có thể giúp đọc tiến trình/nhận diện; chưa có phép đo hiệu quả khán giả.",
+      "reconstruction_recipe": "Lập vai màu nền–người–món–nhấn theo từng chuỗi; khóa trạng thái thô/tan/phủ/cắt/chín/gói. Chọn góc/sáng cho vật liệu rồi khớp các góc cùng nơi, giữ chuyển ngày/đêm có nhiệm vụ.",
+      "exceptions": [
+        "Nền cây chiếm nhiều pixel không có nghĩa xanh là điểm chính.",
+        "Ép lửa/đêm/khói dịu và sáng như nhau sẽ mất thông tin."
+      ],
+      "next_test": "Đối chiếu vật mang màu/giai đoạn trên các phim tiếp; thử người mới nhận nguyên liệu/giai đoạn trong clip Farm. Chưa thực hiện.",
+      "evidence_state": "conditional_hypothesis",
+      "knowledge_refs": [
+        {
+          "id": "CO-002",
+          "version": "1.0.0"
+        },
+        {
+          "id": "CO-003",
+          "version": "1.0.0"
+        },
+        {
+          "id": "CO-004",
+          "version": "1.3.0"
+        },
+        {
+          "id": "CO-008",
+          "version": "1.1.0"
+        },
+        {
+          "id": "LI-006",
+          "version": "1.0.0"
         }
       ],
       "generation_tested": false,

@@ -1,12 +1,12 @@
 # VID_02 — Phân tích hình, cấu trúc và tái tạo
 
-Bản 0.1.0 · core 1.3.1 · tệp 10:11.92 · **trạng thái partial (chưa đủ hình chuyển động/âm)**.
+Bản 0.2.0 · core 1.3.1 · tệp 10:11.92 · **phân tích hình theo ảnh có mốc; âm ngoài phạm vi**.
 
 [Nguồn người dùng](https://www.youtube.com/watch?v=FWMIPukvdsQ) · [Bản JSON chuẩn](phan-tich.json) · [Phiếu tái tạo](tai-tao.json) · [DNA có điều kiện](dna.json) · [Mục lục](README.md)
 
 ## Cách hiểu độ phủ
 
-Đã đọc ảnh theo toàn trục tệp, không phải đã phát trọn video ở tốc độ thật. Có 882 lần hiển thị ảnh theo khoảng cú máy và 476 lần hiển thị ảnh rà dày; một số mốc trùng nhau. Bộ bằng chứng có 1328 mốc ảnh riêng. Bốn nhóm âm, chuyển động máy và tốc độ đều để chưa kiểm khi chưa đủ bằng chứng.
+Đã đọc ảnh theo toàn trục tệp, không phải đã phát trọn video ở tốc độ thật. Có 882 lần hiển thị ảnh theo khoảng cú máy và 476 lần hiển thị ảnh rà dày; một số mốc trùng nhau. Bộ bằng chứng có 1328 mốc ảnh riêng. Chuyển động máy và tốc độ thật chưa được chứng nhận từ ảnh. Âm ngoài phạm vi theo người dùng; không phải điều kiện chặn lượt hình.
 
 **176 là danh sách cú máy làm việc**, sau khi gộp khói bùng 05:59.48 vào cùng góc trước đó. Chưa chứng nhận không còn cut ít tương phản bị bỏ sót. Mốc tính từ đầu tệp tải lên, chưa xác minh offset với phiên bản YouTube.
 
@@ -27,46 +27,498 @@ Mỗi nhận xét có loại bằng chứng. “Diễn giải” là cách đọ
 | V02-P07 | 08:47.54–09:26.84 | Thu hái quả tươi và mang vào nhà |
 | V02-P08 | 09:26.84–10:11.92 | Món cuối, trao và cùng ăn |
 
-## 26 chuỗi việc
+## 26 chuỗi việc — bóc tách hình và nội dung
 
-Chuỗi là đơn vị phân tích tiến trình; một chuỗi có thể chứa nhiều góc hoặc địa điểm. Không đồng nhất 26 chuỗi với 26 cảnh quay sản xuất độc lập.
+Mỗi chuỗi có câu hỏi người xem, nhịp việc theo trạng thái, lý do bộ góc, màu vật liệu và phần không được tự nối nhân quả. Đây là diễn giải có bằng chứng, chưa là ý đồ tác giả hoặc hiệu quả đã đo.
 
-| Chuỗi | Khoảng | Mục tiêu và thay đổi | Nối tiếp |
+### V02-Q01 — Nhặt hạt và đường về
+
+**Câu hỏi dẫn:** Hạt từ đâu, ai thu, mang về đâu?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Gieo hạt trong vỏ gai | V02-S001 | 00:00.00–00:02.80 |
+| Người/chó và tay nhặt xen cành | V02-S002, V02-S003, V02-S004, V02-S005 | 00:02.80–00:14.26 |
+| Nơi thu và giỏ có sản vật | V02-S006, V02-S007 | 00:14.26–00:22.42 |
+| Đường về rồi quả dưới tán | V02-S008, V02-S009, V02-S010 | 00:22.42–00:34.72 |
+
+**Góc máy và bố cục:** Đặc tả vật mở trước người; cận chúc đọc tay/đất; rộng giữ giỏ–chó; thân cây gần ở S008 và địa hình lớn S009 mở dần quy mô.
+
+**Màu và chất liệu:** Nâu vật liệu làm nền; chàm người và trắng găng/lông chó là dấu nhận; vàng quả/xanh tán cuối mở vùng màu mới.
+
+**Cần giữ / phần đã lược:** Giữ hạt–vỏ–giỏ; cảnh cành không chứng minh đúng hạt vừa nhặt rơi từ cành đó. Không suy flycam chỉ từ góc cao.
+
+[Ảnh lớn đầu chuỗi](anh/shot-01.jpg)
+
+### V02-Q02 — Xử lý và đưa hạt dẻ vào lò
+
+**Câu hỏi dẫn:** Hạt còn vỏ gai thành mẻ vào lò thế nào?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Sân có người cùng ngồi, tách vỏ, về bàn | V02-S011, V02-S012, V02-S013 | 00:34.72–00:47.22 |
+| Khía một hạt rồi mẻ đã khía | V02-S014, V02-S015 | 00:47.22–00:52.94 |
+| Lò, tro, hai khay vào rồi chặn cửa | V02-S016, V02-S017, V02-S018 | 00:52.94–01:08.78 |
+
+**Góc máy và bố cục:** Rộng định vị người/lửa/bàn; góc chúc đọc lực ủng, cận dao đọc khía; ngang cửa giữ xẻng và khay có chỗ đỡ.
+
+**Màu và chất liệu:** Chàm/xám xanh sân lò đỡ nâu hạt và tre vàng; lửa cam chỉ là nhấn cục bộ.
+
+**Cần giữ / phần đã lược:** Hai khay trong lò phải còn sau xẻng rút. Đóng cửa tạo trạng thái chờ; không suy nhiệt/thời gian nướng từ thời lượng phim.
+
+[Ảnh lớn đầu chuỗi](anh/shot-02.jpg)
+
+### V02-Q03 — Con vật ăn lá
+
+**Câu hỏi dẫn:** Đời sống ngoài công việc vẫn tiếp diễn thế nào?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Con vật lông trắng ăn lá | V02-S019 | 01:08.78–01:12.24 |
+
+**Góc máy và bố cục:** Tầm thân giữ miệng–lá trong một khung, hoạt động phụ vẫn có đích chạm.
+
+**Màu và chất liệu:** Trắng lông trên nâu đất, xanh lá là điểm thức ăn.
+
+**Cần giữ / phần đã lược:** Không suy chắc loài, không ép nhìn máy; giữ miệng và lá cùng vị trí tiếp xúc.
+
+[Ảnh lớn đầu chuỗi](anh/shot-04.jpg)
+
+### V02-Q04 — Làm bó rơm/giá trưng
+
+**Câu hỏi dẫn:** Bó rơm được định hình và dùng làm gì về sau?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Gom rơm | V02-S020 | 01:12.24–01:16.88 |
+| Buộc/định hình và cắt đầu | V02-S021, V02-S022 | 01:16.88–01:22.34 |
+| Bó nằm cạnh quả và que | V02-S023 | 01:22.34–01:26.00 |
+
+**Góc máy và bố cục:** Rơm gần mờ bao người; qua vai đọc tay ôm; cận kéo đọc cọng bị cắt; mặt bàn gieo liên hệ với hồ lô.
+
+**Màu và chất liệu:** Vàng rơm trên chàm áo; cuối thêm đỏ quả cạnh que vàng nhạt.
+
+**Cần giữ / phần đã lược:** Giữ đầu phình/thân dài, dây bó, điểm đỡ; công dụng chưa trả ở đây, quay lại S148.
+
+[Ảnh lớn đầu chuỗi](anh/shot-04.jpg)
+
+### V02-Q05 — Xiên quả và phủ siro
+
+**Câu hỏi dẫn:** Quả và đường thành xiên bóng qua dấu biến đổi nào?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Xử lý/xâu/xếp và biến thể táo | V02-S024, V02-S025, V02-S026, V02-S027, V02-S028 | 01:26.00–01:43.34 |
+| Đường khối tới chất lỏng/bọt | V02-S029, V02-S030, V02-S031, V02-S032, V02-S033 | 01:43.34–01:58.16 |
+| Băm hạt và xử lý mặt gỗ trong lúc chờ | V02-S034, V02-S035, V02-S036, V02-S037 | 01:58.16–02:07.60 |
+| Phủ xiên/táo và sợi kéo | V02-S038, V02-S039, V02-S040, V02-S041 | 02:07.60–02:20.56 |
+| Cả nhóm thành phẩm | V02-S042 | 02:20.56–02:24.76 |
+
+**Góc máy và bố cục:** Trung giữ sơ đồ người–chảo–quả; cao đọc lòng chảo; thấp dọc hàng đọc lượng; gần ngang siro lộ sợi kéo, khác nhiệm vụ góc công thức.
+
+**Màu và chất liệu:** Đỏ thô lốm đốm → đỏ thành hàng → đỏ bóng có vệt phản; hổ phách siro và chảo tối giúp lớp phủ đọc được.
+
+**Cần giữ / phần đã lược:** Giữ que xuyên cùng trục, số quả sau che, siro có nguồn và rơi hợp lý; không suy nhiệt/tỷ lệ hoặc gọi chắc chất chà bàn.
+
+[Ảnh lớn đầu chuỗi](anh/shot-04.jpg)
+
+### V02-Q06 — Kẹo hạt
+
+**Câu hỏi dẫn:** Hạt được kết dính và nhận vào đâu?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Hạt trong siro | V02-S043 | 02:24.76–02:28.68 |
+| Người đảo | V02-S044 | 02:28.68–02:31.02 |
+| Đổ vào đĩa | V02-S045 | 02:31.02–02:37.12 |
+
+**Góc máy và bố cục:** Cận quan hệ hạt–chất dính, trung lực tay, thấp đĩa cho dòng nhận; hồ lô sau giữ dấu món trước.
+
+**Màu và chất liệu:** Kem hạt/hổ phách ở trước, đỏ hồ lô thành nền phụ.
+
+**Cần giữ / phần đã lược:** Đĩa phải dưới dòng rơi và lượng tăng có nguyên nhân; không gọi đĩa này là phôi kẹo trắng Q09.
+
+[Ảnh lớn đầu chuỗi](anh/shot-08.jpg)
+
+### V02-Q07 — Trả vòng hạt dẻ
+
+**Câu hỏi dẫn:** Mẻ hạt dẻ đang chờ được trả thế nào?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Đúng lò, khay, bóc | V02-S046, V02-S047 | 02:37.12–02:45.98 |
+| Ăn thử | V02-S048 | 02:45.98–02:49.38 |
+| Thêm khay, đổ vào mẹt | V02-S049, V02-S050 | 02:49.38–02:58.80 |
+
+**Góc máy và bố cục:** Góc lò nhắc nơi cũ; cận vết khía/ruột cho kết quả; mặt người xác nhận dùng; mẹt trả quy mô mẻ.
+
+**Màu và chất liệu:** Nâu vỏ/vàng ruột trên xám xanh lò; mẹt vàng nâu đỡ hạt.
+
+**Cần giữ / phần đã lược:** Giữ hai khay và vỏ/ruột, miếng phải có ở tay trước khi tới môi; không đo phút nướng bị lược.
+
+[Ảnh lớn đầu chuỗi](anh/shot-08.jpg)
+
+### V02-Q08 — Lát quả vào lò
+
+**Câu hỏi dẫn:** Lát quả được chuẩn bị và đặt chờ ở đâu?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Vào phòng, rổ và chọn | V02-S051, V02-S052, V02-S053 | 02:58.80–03:07.74 |
+| Gọt/thái/xếp nhiều loại | V02-S054, V02-S055, V02-S056 | 03:07.74–03:18.38 |
+| Khay vào lò và chặn cửa | V02-S057, V02-S058 | 03:18.38–03:27.98 |
+
+**Góc máy và bố cục:** Khung cửa báo đổi nơi; ngang thớt thấy độ mỏng; chúc khay đọc mặt phẳng; lò quen tái sử dụng địa lý.
+
+**Màu và chất liệu:** Vàng thịt quả, trắng kem lát khác và xám khay; chàm/lò xám nối thế giới.
+
+**Cần giữ / phần đã lược:** Lát sinh từ khối có trước; giữ nhiều loại và khay vừa cửa. Chưa thành đồ khô ngay; trả vòng ở S150.
+
+[Ảnh lớn đầu chuỗi](anh/shot-09.jpg)
+
+### V02-Q09 — Nền kẹo bông tuyết
+
+**Câu hỏi dẫn:** Nguyên liệu rời thành phôi dẻo phẳng ra sao?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Bàn và bản đồ nguyên liệu | V02-S059, V02-S060 | 03:27.98–03:36.24 |
+| Khối trắng, khuấy và thêm bột | V02-S061, V02-S062, V02-S063 | 03:36.24–03:45.30 |
+| Thêm hạt/quả/bánh, xen mặt | V02-S064, V02-S065, V02-S066 | 03:45.30–03:55.90 |
+| Chuyển khay và cán | V02-S067, V02-S068 | 03:55.90–04:00.62 |
+
+**Góc máy và bố cục:** Thẳng xuống S060 đọc nhóm; xiên S064 thấy chảo lẫn ngăn; thấp S067 thấy sợi dính; cao S068 đọc toàn phôi và hai vai tay.
+
+**Màu và chất liệu:** Trắng khối → kem nền → kem có nâu/đỏ → phôi đều; hoa vàng và chàm áo là mốc nền.
+
+**Cần giữ / phần đã lược:** Giữ thành phần thêm trước dưới lớp sau; tay găng giữ phôi/giấy, tay trần dùng cán. Không suy tên bột/tỷ lệ/thời gian nguội.
+
+[Ảnh lớn đầu chuỗi](anh/shot-10.jpg)
+
+### V02-Q10 — Quả và lá dây leo
+
+**Câu hỏi dẫn:** Không gian còn gì ngoài bàn tay làm việc?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Quả nhạt và lá dây leo khô | V02-S069 | 04:00.62–04:02.26 |
+
+**Góc máy và bố cục:** Cận ngang có dây gần/vườn xa đổi chủ thể nhìn trong 1,64 giây.
+
+**Màu và chất liệu:** Xanh nhạt quả cạnh vàng xám lá héo, không toàn lá non hoàn hảo.
+
+**Cần giữ / phần đã lược:** Không nối quả này thành nguyên liệu thịt; không dùng nó đo chính xác thời gian trôi.
+
+[Ảnh lớn đầu chuỗi](anh/shot-12.jpg)
+
+### V02-Q11 — Sơ chế/nấu thịt
+
+**Câu hỏi dẫn:** Thịt đi qua trạng thái gì trước khi chờ?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Bếp lớn và khối trong nước | V02-S070, V02-S071 | 04:02.26–04:10.04 |
+| Cắt khối, bản đồ thịt/gia vị | V02-S072, V02-S073 | 04:10.04–04:17.14 |
+| Thêm nước vào chảo | V02-S074 | 04:17.14–04:20.38 |
+| Người/chó và lửa | V02-S075, V02-S076 | 04:20.38–04:27.22 |
+
+**Góc máy và bố cục:** Toàn bếp giữ quy mô; ngang thớt thấy ngoài/trong; thẳng xuống đọc gia vị; lửa là dấu nhiệt, góc người/chó giữ đời sống lúc chờ.
+
+**Màu và chất liệu:** Xanh đen bếp/chàm áo làm nền; đỏ thịt và đỏ/xanh/vàng gia vị là thông tin; cam lửa là ngoại lệ mạnh.
+
+**Cần giữ / phần đã lược:** Phân biệt chảo lớn với chảo nhỏ; không suy loài, mức chín, công thức hoặc thời gian nấu từ ảnh.
+
+[Ảnh lớn đầu chuỗi](anh/shot-12.jpg)
+
+### V02-Q12 — Cắt và bày kẹo trắng
+
+**Câu hỏi dẫn:** Phôi kẹo trở thành phần ăn nhận ra thế nào?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Phôi trở lại, dao/mặt cắt | V02-S077, V02-S078 | 04:27.22–04:34.12 |
+| Miếng rời phủ bột và bày có nhãn | V02-S079, V02-S080 | 04:34.12–04:38.96 |
+
+**Góc máy và bố cục:** Khung thớt gọi lại nơi; thấp mặt cắt cho dâu bên trong; xiên khay cho lượng; tĩnh vật chừa khoảng tối cho chữ.
+
+**Màu và chất liệu:** Kem và đỏ dâu tiếp nối phôi trước; bột làm bề mặt mờ hơn lúc dẻo.
+
+**Cần giữ / phần đã lược:** Mặt dâu phải thuộc thành phần đã trộn, không tự vẽ hoa văn giống nhau; làm nguội và nhiều nhát cắt đã lược.
+
+[Ảnh lớn đầu chuỗi](anh/shot-13.jpg)
+
+### V02-Q13 — Thịt thái nhỏ, xào, lên vỉ
+
+**Câu hỏi dẫn:** Thịt sau chờ được thái/xào và đặt ra sao?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Bếp cũ, thịt sẫm thái nhỏ | V02-S081, V02-S082 | 04:38.96–04:45.16 |
+| Xào, cận bóng và người đảo | V02-S083, V02-S084, V02-S085, V02-S086 | 04:45.16–04:59.06 |
+| Chảo/gắp rồi vỉ | V02-S087, V02-S088 | 04:59.06–05:08.90 |
+
+**Góc máy và bố cục:** Trung gọi lại địa lý; thấp thớt cho lát mỏng; cận món xen trung lực tay; rất cao chảo S087 khác thấp vỉ S088.
+
+**Màu và chất liệu:** Nâu đỏ bóng thay đỏ tươi; xanh hành, đỏ ớt, tím hành là nhấn nhỏ; nền đen cho hơi và vệt bóng.
+
+**Cần giữ / phần đã lược:** Lát mỏng khác lát dày trước; có đỡ khi gắp/đảo. Vỉ và màu nâu không tự chứng minh toàn quy trình làm khô.
+
+[Ảnh lớn đầu chuỗi](anh/shot-14.jpg)
+
+### V02-Q14 — Đêm rồi không gian sương
+
+**Câu hỏi dẫn:** Hình báo thời gian trôi qua bằng gì?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Mái tối | V02-S089 | 05:08.90–05:09.60 |
+| Trời sao | V02-S090 | 05:09.60–05:13.40 |
+| Núi sương | V02-S091 | 05:13.40–05:16.26 |
+
+**Góc máy và bố cục:** Bỏ người, từ ngói gần sang trời rộng rồi núi nhiều lớp; đổi thang không gian để đóng cụm công việc.
+
+**Màu và chất liệu:** Lam đen → lam trời → lam xám sương; không cân mọi cú sáng bằng nhau.
+
+**Cần giữ / phần đã lược:** Mái 0,70s, trời 3,80s, núi 2,76s. Không suy số giờ/ngày, time-lapse hay nguồn trời thật/tổng hợp.
+
+[Ảnh lớn đầu chuỗi](anh/shot-15.jpg)
+
+### V02-Q15 — Sinh hoạt sáng
+
+**Câu hỏi dẫn:** Sinh hoạt sáng và diện mạo mới được nhận ra thế nào?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Đánh răng, nước trên bệ | V02-S092, V02-S093 | 05:16.26–05:23.62 |
+| Người vươn tay, đồng sương | V02-S094, V02-S095 | 05:23.62–05:31.80 |
+
+**Góc máy và bố cục:** Cận người cho tóc/áo mới, cận nước cho vật liệu, hai khung rất rộng mở thoáng.
+
+**Màu và chất liệu:** Trắng áo/đen tóc trên xanh vườn rồi xanh lam xa nhạt dần.
+
+**Cần giữ / phần đã lược:** Giữ hai bím/áo trắng trong cụm sau; không biến góc rộng thành chứng cứ máy bay hoặc tác dụng sức khỏe.
+
+[Ảnh lớn đầu chuỗi](anh/shot-16.jpg)
+
+### V02-Q16 — Bỏng ngô và cất giữ
+
+**Câu hỏi dẫn:** Thiết bị cho kết quả gì và kết quả đi đâu?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Sân, chó ngủ, người và bình | V02-S096, V02-S097, V02-S098 | 05:31.80–05:40.66 |
+| Nạp/khóa/gia nhiệt/chờ | V02-S099, V02-S100, V02-S101, V02-S102, V02-S103, V02-S104 | 05:40.66–05:53.60 |
+| Ba người, cơ cấu, khói rồi rộng | V02-S105, V02-S106, V02-S107 | 05:53.60–06:03.22 |
+| Giỏ bỏng và mang vào | V02-S108, V02-S109 | 06:03.22–06:11.32 |
+| Vật chứa và cất | V02-S110, V02-S111 | 06:11.32–06:19.38 |
+
+**Góc máy và bố cục:** Rộng trước cận cơ khí; cao thấy cửa nạp, thấp thấy nhiệt/trục. S105 định vị ba người, khói bắt đầu trong S106, S107 mới đổi góc; giỏ trả kết quả.
+
+**Màu và chất liệu:** Trắng áo đối chàm, đen bình/cam lửa; khói trắng giảm tương phản rồi kem bỏng trên giỏ nâu.
+
+**Cần giữ / phần đã lược:** Giữ bình–giá–trục và người sau khói. 359,48s là sự kiện, không cut; chất trắng trong thùng chưa được chứng minh cùng loại bỏng. Không dùng hồ sơ làm hướng dẫn vận hành thiết bị thật.
+
+[Ảnh lớn đầu chuỗi](anh/shot-16.jpg)
+
+### V02-Q17 — Hạt hướng dương
+
+**Câu hỏi dẫn:** Đầu hoa thành bát hạt rang qua dấu nào?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Thùng, đầu hoa, tách và khay hạt | V02-S112, V02-S113, V02-S114, V02-S115 | 06:19.38–06:30.00 |
+| Chất hạt trắng, thêm hạt sọc và đảo | V02-S116, V02-S117, V02-S118 | 06:30.00–06:41.10 |
+| Rây, người sàng, bát | V02-S119, V02-S120, V02-S121 | 06:41.10–06:52.22 |
+
+**Góc máy và bố cục:** Nguyên dạng → người tách → hạt rời; góc trên là bản đồ chảo; rây và người giữ lực trước cận bát kết.
+
+**Màu và chất liệu:** Nâu hoa/tre, xám sọc vỏ và trắng hạt phụ; giảm đỏ/vàng rực của chuỗi kẹo.
+
+**Cần giữ / phần đã lược:** Hạt lớn ở rây, hạt mịn qua; giữ vỏ sọc, không tự thành nhân. Không gọi chắc muối vì thấy trắng.
+
+[Ảnh lớn đầu chuỗi](anh/shot-19.jpg)
+
+### V02-Q18 — Lạc rang
+
+**Câu hỏi dẫn:** Lạc rang lặp và khác chuỗi hướng dương ở đâu?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Vật liệu xám, chảo lớn và lạc | V02-S122, V02-S123, V02-S124 | 06:52.22–07:04.82 |
+| Rây giữ lạc, phần mịn xuống | V02-S125, V02-S126 | 07:04.82–07:08.14 |
+| Hai món cạnh nhau và lạc có nhãn | V02-S127, V02-S128 | 07:08.14–07:13.22 |
+
+**Góc máy và bố cục:** Bộ góc quy trình quen nhưng thông tin mới: vật liệu xám và vỏ lạc; S127 trả hai kết quả tích lũy.
+
+**Màu và chất liệu:** Nâu hồng lạc khác xám sọc hướng dương; vật liệu xám khác chất hạt trắng trước.
+
+**Cần giữ / phần đã lược:** Giữ hai nhóm riêng, rây đúng kích thước; không suy tên vật liệu, nhiệt hoặc thời gian rang.
+
+[Ảnh lớn đầu chuỗi](anh/shot-21.jpg)
+
+### V02-Q19 — Chó dưới bàn
+
+**Câu hỏi dẫn:** Vật nuôi đang hướng chú ý về đâu?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Chó ngước/vươn dưới bàn | V02-S129 | 07:13.22–07:16.04 |
+
+**Góc máy và bố cục:** Máy hạ theo chó, người chỉ còn chân; đổi chủ thể dù cùng nơi.
+
+**Màu và chất liệu:** Kem vàng lông nổi trên gầm bàn xanh đen, chàm quần là mốc người.
+
+**Cần giữ / phần đã lược:** Cảnh 2,82s vẫn có đích nhìn và động tác; không suy chó được cho ăn hoặc đếm chân thành người thêm.
+
+[Ảnh lớn đầu chuỗi](anh/shot-22.jpg)
+
+### V02-Q20 — Bánh cuộn
+
+**Câu hỏi dẫn:** Lỏng thành tấm rồi ống bằng biến đổi nào?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Trứng/bột, chất lỏng và khuấy | V02-S130, V02-S131, V02-S132 | 07:16.04–07:24.38 |
+| Rót/nghiêng chảo, nhiệt | V02-S133, V02-S134 | 07:24.38–07:33.84 |
+| Cuộn rồi khay ống | V02-S135, V02-S136 | 07:33.84–07:40.98 |
+
+**Góc máy và bố cục:** Góc chúc thấy biên bột lan, thấp thấy lửa, gần ngang thấy vòng cuộn; khay nhiều ống xác nhận lượng.
+
+**Màu và chất liệu:** Trắng/vàng trứng → kem lỏng → vàng có mảng nâu; chảo đen giữ biên.
+
+**Cần giữ / phần đã lược:** S133 7,54s dành cho nhiều trạng thái, lửa 1,92s. Cuối S135 bánh vẫn gần chảo; khay nhiều ống là lược lặp, chưa chứng minh cùng mẻ với nón cuối.
+
+[Ảnh lớn đầu chuỗi](anh/shot-22.jpg)
+
+### V02-Q21 — Cùng gói và chia kẹo/hạt
+
+**Câu hỏi dẫn:** Các món rời trở thành đồ trữ qua việc cùng làm nào?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Phòng/bàn, hạt dẻ và lạc vào túi | V02-S137, V02-S138, V02-S139 | 07:40.98–07:47.38 |
+| Hạt sọc, người gói đỏ, đống gói | V02-S140, V02-S141, V02-S142, V02-S143 | 07:47.38–08:00.42 |
+| Gói nhạt, hai đôi tay, hộp | V02-S144, V02-S145, V02-S146 | 08:00.42–08:10.30 |
+
+**Góc máy và bố cục:** Toàn phòng gieo cộng tác; cận dòng cho nhận dạng, cận tay cho cách gấp, đống cho lượng. Hai đôi tay ở S145 có chức năng cùng làm.
+
+**Màu và chất liệu:** Đỏ mũ/giấy cùng họ màu nhưng khác vật liệu; vàng bánh/gỗ và trắng xanh tường đỡ.
+
+**Cần giữ / phần đã lược:** Giữ miệng túi, giấy ôm viên, quyền cầm hai người và độ đầy hộp; chưa định danh chắc mọi loại kẹo trong mọi gói.
+
+[Ảnh lớn đầu chuỗi](anh/shot-23.jpg)
+
+### V02-Q22 — Giá trưng hồ lô
+
+**Câu hỏi dẫn:** Bó rơm đầu phim được trả công dụng ra sao?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Nhấc hồ lô, cắm giá | V02-S147, V02-S148 | 08:10.30–08:14.96 |
+| Mang giá bên tủ | V02-S149 | 08:14.96–08:20.02 |
+
+**Góc máy và bố cục:** Thấp theo hàng táo → trung thấy chức năng → rộng chỉ nơi cất; không cần kể lại làm bó.
+
+**Màu và chất liệu:** Đỏ quả trên vàng rơm/gỗ, đỏ mũ thấp đối giá cao trong phòng.
+
+**Cần giữ / phần đã lược:** Giữ hình bó, điểm cắm/đỡ và vị trí bên tủ ở các cảnh sau; chưa xác nhận từng xiên là cùng chiếc cận trước.
+
+[Ảnh lớn đầu chuỗi](anh/shot-25.jpg)
+
+### V02-Q23 — Đồ sấy/bánh/thịt vào hộp
+
+**Câu hỏi dẫn:** Các vòng còn mở được gom về kho/người thế nào?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Khay lát và hai người | V02-S150, V02-S151 | 08:20.02–08:27.08 |
+| Ống vào túi/hộp | V02-S152, V02-S153 | 08:27.08–08:34.54 |
+| Nếm, thịt/vỉ/túi/hộp | V02-S154, V02-S155, V02-S156 | 08:34.54–08:42.82 |
+| Tủ/giỏ/giá | V02-S157 | 08:42.82–08:47.54 |
+
+**Góc máy và bố cục:** Cận khay trả chờ, qua vai giữ quan hệ, cận ống/vỉ/hộp giữ nhóm riêng; trung tủ cho kết quả tổng.
+
+**Màu và chất liệu:** Vàng nâu lát/bánh, nâu đỏ thịt, đỏ gói/giá; túi bóng khác bánh mờ và thịt bóng.
+
+**Cần giữ / phần đã lược:** Không đổi món khi che dưới màng; không coi mọi miếng đang nếm là thịt nếu không rõ; giữ đồ đã cất trong thế giới cuối.
+
+[Ảnh lớn đầu chuỗi](anh/shot-25.jpg)
+
+### V02-Q24 — Thu hái quả tươi và mang về
+
+**Câu hỏi dẫn:** Thu hai loại quả, gom tải và mang về có bằng chứng nào?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Vườn, cành/dụng cụ, quả lớn vào giỏ | V02-S158, V02-S159, V02-S160 | 08:47.54–08:56.64 |
+| Quýt, toàn tán, giỏ, xuống thang | V02-S161, V02-S162, V02-S163, V02-S164 | 08:56.64–09:07.28 |
+| Hai giỏ từ đất, nâng và mang | V02-S165, V02-S166 | 09:07.28–09:18.04 |
+| Cất hai giỏ | V02-S167, V02-S168 | 09:18.04–09:26.84 |
+
+**Góc máy và bố cục:** Rộng định hướng, ngước đọc hái, thấp giỏ đọc nhận/nhả; toàn thang trả độ cao. S165 phải thấy hai tải và khoảng hở dưới giỏ; S166 trả dáng trong vườn.
+
+**Màu và chất liệu:** Vàng quả lớn khác cam quýt, xanh vườn bao chàm người; đỏ hồ lô tái xuất khi vào kho.
+
+**Cần giữ / phần đã lược:** Giữ giỏ/quả/quai–đòn–tay–đất và thang. Chân có lúc khuất, điểm tựa vai chưa rõ trong cận; không nối bưởi/quýt thành khối vàng món sau.
+
+[Ảnh lớn đầu chuỗi](anh/shot-27.jpg)
+
+### V02-Q25 — Món cuối hướng tới người nhận
+
+**Câu hỏi dẫn:** Món cuối từ đâu và đến người nhận qua bước nào?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Người/chó, lấy phần vàng ở tủ | V02-S169, V02-S170 | 09:26.84–09:39.08 |
+| Thêm khối quả, rưới rồi nhấc hai nón | V02-S171, V02-S172 | 09:39.08–09:47.60 |
+| Đến cửa, trao, cùng cầm rồi nhả | V02-S173, V02-S174 | 09:47.60–09:57.54 |
+
+**Góc máy và bố cục:** Toàn nhóm gieo người nhận; trung tủ cho nguồn gần. Cận S171 đọc khối, S172 rộng hơn đọc hai phần/rưới; S173 gieo đích trước cận hai tay S174.
+
+**Màu và chất liệu:** Vàng quả/nón và xanh lá trên nâu tối, đỏ mũ người nhận và chàm người nối thế giới.
+
+**Cần giữ / phần đã lược:** S171 là thêm khối, S172 mới rưới. Chưa chứng minh nón từ mẻ ống hoặc khối vàng từ quả thu. 594,12s cùng giữ, 595,16s tay trao đã rời.
+
+[Ảnh lớn đầu chuỗi](anh/shot-29.jpg)
+
+### V02-Q26 — Cùng ăn và hạ kết
+
+**Câu hỏi dẫn:** Kết phim trả điều gì ngoài danh sách món?
+
+| Nhịp nội dung | Cú máy | Khoảng |
+| --- | --- | --- |
+| Hai người ăn, chó giữa, kho phía sau | V02-S175 | 09:57.54–10:02.70 |
+| Hai chó ngước món, tối dần | V02-S176 | 10:02.70–10:11.92 |
+
+**Góc máy và bố cục:** Rộng xác nhận quan hệ sau cận trao, rồi hạ chủ thể xuống chó; người còn thân/tay nên đời sống vẫn tiếp.
+
+**Màu và chất liệu:** Đỏ mũ, chàm áo, vàng gỗ/món và kem chó trước trắng xanh tường; fade giảm tín hiệu cuối.
+
+**Cần giữ / phần đã lược:** S175 5,16s, S176 9,22s gồm tối dần; không bắt mọi phim kết cùng độ dài, không thêm việc chó được cho ăn chưa thấy.
+
+[Ảnh lớn đầu chuỗi](anh/shot-30.jpg)
+
+### Các vòng chờ và trả kết quả
+
+| Gieo trạng thái | Quay lại | Vật mốc | Phần không thấy |
 | --- | --- | --- | --- |
-| V02-Q01 | 00:00.00–00:34.72 | Nhặt hạt và đường về. Hạt trong vỏ/đất → giỏ có sản vật → rời rừng. | Tới sân nhà để xử lý. |
-| V02-Q02 | 00:34.72–01:08.78 | Xử lý và đưa hạt dẻ vào lò. Sản vật thô → hạt khía → hai khay trong lò. | Lược phần chờ bằng công việc khác. |
-| V02-Q03 | 01:08.78–01:12.24 | Con vật ăn lá. Đời sống bên sân vẫn diễn ra. | Hạ mật độ thao tác trước việc làm đạo cụ. |
-| V02-Q04 | 01:12.24–01:26.00 | Làm bó rơm/giá trưng. Rơm dài → bó tỉa gọn trên bàn cạnh que xiên. | Đạo cụ sẽ được dùng muộn hơn trong phim. |
-| V02-Q05 | 01:26.00–02:24.76 | Xiên quả và phủ siro. Quả đỏ/táo → xiên → áo bóng → hàng kẹo. | Phần siro còn lại mở món hạt. |
-| V02-Q06 | 02:24.76–02:37.12 | Kẹo hạt. Hạt rời + siro → hỗn hợp kết dính trên đĩa. | Quay lại lò hạt dẻ. |
-| V02-Q07 | 02:37.12–02:58.80 | Trả vòng hạt dẻ. Khay trong lò → hạt lấy ra, tách/ăn → mẹt đầy. | Chuyển phòng và lấy quả mới. |
-| V02-Q08 | 02:58.80–03:27.98 | Lát quả vào lò. Quả nguyên → lát xếp khay → vào lò đóng cửa. | Một vòng chờ mới cho phép làm kẹo. |
-| V02-Q09 | 03:27.98–04:00.62 | Nền kẹo bông tuyết. Khối trắng + bột + phần giòn/quả → phôi cán trong khay. | Lược lúc phôi ổn định bằng việc bếp khác. |
-| V02-Q10 | 04:00.62–04:02.26 | Quả và lá dây leo. Không có thay đổi công việc trong mẫu. | Một mốc nối thiên nhiên trước bếp tối. |
-| V02-Q11 | 04:02.26–04:27.22 | Sơ chế/nấu thịt. Thịt lấy khỏi nước → thái → gia vị trong chảo; chen người/chó và lửa. | Quay lại phôi kẹo đã cán. |
-| V02-Q12 | 04:27.22–04:38.96 | Cắt và bày kẹo trắng. Phôi → miếng cắt lộ mặt trong → xếp giới thiệu món. | Trở lại tuyến thịt sau khoảng lược. |
-| V02-Q13 | 04:38.96–05:08.90 | Thịt thái nhỏ, xào, lên vỉ. Thịt sẫm → dải có gia vị → lớp trên vỉ. | Chuyển sang đêm. |
-| V02-Q14 | 05:08.90–05:16.26 | Đêm rồi không gian sương. Mái tối → trời sao → núi sáng trong sương. | Mở giai đoạn sinh hoạt mới, không đo được số giờ/ngày. |
-| V02-Q15 | 05:16.26–05:31.80 | Sinh hoạt sáng. Chải răng/cốc → người nhìn xa → đồng sương. | Mở việc chung có người tới. |
-| V02-Q16 | 05:31.80–06:19.38 | Bỏng ngô và cất giữ. Người/thiết bị → hạt vào → chờ → khói bùng → giỏ bỏng → túi/thùng. | Từ món nở sang hạt rang, không đồng nhất hai loại hạt trong thùng. |
-| V02-Q17 | 06:19.38–06:52.22 | Hạt hướng dương. Đầu hoa dự trữ → hạt rời → rang/trộn lớp trắng → rây → bát hạt. | Chuyển sang lạc có cấu trúc tương tự. |
-| V02-Q18 | 06:52.22–07:13.22 | Lạc rang. Vật liệu hạt phụ → lạc xử lý trong chảo → rây → mẹt đầy. | Nhịp chó chen trước món bánh. |
-| V02-Q19 | 07:13.22–07:16.04 | Chó dưới bàn. Động tác ngước/vươn độc lập khỏi công việc. | Mở món bánh từ bát nguyên liệu. |
-| V02-Q20 | 07:16.04–07:40.98 | Bánh cuộn. Trứng/bột/chất lỏng → lớp bánh mỏng → cuộn → khay ống. | Đưa mọi món vào phòng đóng gói. |
-| V02-Q21 | 07:40.98–08:10.30 | Cùng gói và chia kẹo/hạt. Nhiều món bày → túi lớn, viên gói → hộp tổ chức. | Nhấc hồ lô và dùng đạo cụ đã làm. |
-| V02-Q22 | 08:10.30–08:20.02 | Giá trưng hồ lô. Xiên bóng → cắm bó rơm → đặt trong phòng. | Đạo cụ cũ có công dụng, tiếp tục đóng gói món khác. |
-| V02-Q23 | 08:20.02–08:47.54 | Đồ sấy/bánh/thịt vào hộp. Trả khay quả sấy → ăn/chia → túi riêng → hộp nhiều lớp → cất tủ. | Món khô đã được dự trữ, phim ra vườn lấy quả tươi. |
-| V02-Q24 | 08:47.54–09:26.84 | Thu hái quả tươi và mang về. Quả trên cành → giỏ → hai giỏ nối đòn → góc nhà đầy hơn. | Từ thành quả chung tới một món ăn để trao. |
-| V02-Q25 | 09:26.84–09:57.54 | Món cuối hướng tới người nhận. Chơi với chó → lấy phần quả → nón bánh đầy → mang ra → trao tay. | Sau khi chuyển quyền giữ, nhìn cả hai cùng ăn. |
-| V02-Q26 | 09:57.54–10:11.92 | Cùng ăn và hạ kết. Hai người ăn trong căn phòng đã có đồ dự trữ, chó ngước, hình tối dần. | Kết tệp, đời sống được gợi là tiếp diễn. |
+| V02-S018 | V02-S046 | Hai khay hạt dẻ/lò | Thời gian/nhiệt nướng |
+| V02-S023 | V02-S148 | Bó rơm → giá hồ lô | Cấu tạo đế và mọi lượt cắm |
+| V02-S058 | V02-S150 | Khay lát → đồ sấy gom/gói | Nhiệt/thời gian/độ khô chính xác |
+| V02-S068 | V02-S077 | Phôi trắng → cắt miếng | Thời gian nguội |
+| V02-S074 | V02-S081 | Thịt trong nước → sẫm/thái/xào | Toàn phần nấu chờ |
+
+### Hai mối nối không được bịa thêm
+
+Bưởi/quýt thu cuối không được cho thấy thành khối quả vàng trong món nón. Nón cuối cũng chưa được chứng minh cùng mẻ với ống bánh trước. Khi làm bản mới có thể thiết kế thêm bước nối, nhưng phải ghi là sáng tạo mới.
 
 ## Nhịp và giới hạn thống kê
 
 Theo phân hoạch hiện hành: trung bình **3.48 giây**, trung vị **3.24 giây**, ngắn nhất **0.70**, dài nhất **9.22**. Đây là số mô tả bản dựng dự kiến, không là chuẩn ba giây, điểm cảm xúc hoặc bằng chứng giữ chân.
 
-Các cú rót/tráng bánh và cảnh cuối dài hơn nhiều cận thay đổi vật liệu. Chuỗi bình rang có chuẩn bị–chờ–khói bùng–kết quả, là một đoạn tương phản về hình; chưa nghe để kết luận cường độ/thiết kế âm của đoạn.
+Các cú rót/tráng bánh và cảnh cuối dài hơn nhiều cận thay đổi vật liệu. Chuỗi bình rang có chuẩn bị–chờ–khói bùng–kết quả, là một đoạn tương phản về hình; lượt này chỉ đánh giá diễn tiến hình.
 
-## 12 giả thuyết DNA
+## 13 giả thuyết DNA
 
 ### V02-DNA-01 — Đan việc trong các khoảng chờ
 
@@ -96,15 +548,15 @@ Nhiều cận cho thấy vật liệu đổi hình hoặc được dụng cụ t
 
 **Phép kiểm tiếp:** Kiểm người chưa biết việc nhận đúng biến đổi, rồi kiểm toàn clip AI chứ không chỉ frame.
 
-### V02-DNA-03 — Bộ cỡ đi theo nhiệm vụ
+### V02-DNA-03 — Cỡ và góc theo loại bằng chứng cần thấy
 
-Khung rộng giữ quan hệ người–nơi, khung gần giữ điểm tác động, khung món xác nhận kết quả.
+Góc cao đọc lòng chảo/khay và nhóm nguyên liệu; tầm mặt vật đọc dao, mặt cắt, siro kéo và cuộn; rộng trả người–nơi. Cụ thể: S060/S073/S116; S014/S039/S078/S135; S011/S070/S098/S175.
 
-**Mốc:** V02-S011, V02-S012, V02-S013, V02-S014, V02-S015, V02-S038, V02-S039, V02-S042, V02-S098, V02-S099, V02-S107, V02-S108.
+**Mốc:** V02-S011, V02-S012, V02-S013, V02-S014, V02-S015, V02-S038, V02-S039, V02-S042, V02-S098, V02-S099, V02-S107, V02-S108, V02-S060, V02-S073, V02-S116, V02-S078, V02-S135, V02-S070, V02-S175.
 
 **Dùng khi:** Mỗi lần đổi cỡ bổ sung thông tin hoặc đổi trọng tâm thật.
 
-**Tái tạo chức năng:** Thiết kế bộ góc tối thiểu theo bằng chứng cần thấy; dùng một góc nếu đã làm đủ nhiệm vụ.
+**Tái tạo chức năng:** Viết thông tin cần thấy trước tên góc: mặt phẳng chứa, mặt cắt/độ dày, lực tay hay người–nơi. Chọn cao/thấp, cỡ/nét theo thông tin ấy, không gán máy cao luôn yếu hoặc máy thấp luôn mạnh.
 
 **Ngoại lệ:** Ép tỷ lệ cận/toàn theo mẫu có thể tạo cảnh thừa hoặc mất định hướng.
 
@@ -182,7 +634,7 @@ Các khoảng dựng dài ngắn khác nhau; cảnh mái chỉ 0,70 giây, cản
 
 ### V02-DNA-09 — Trao và cùng dùng là một kiểu trả kết quả
 
-Một số món được ăn thử; phần cuối có chuyển quyền giữ rồi hai người cùng ăn.
+S173 gieo người nhận ở gần trước khi món tới; S174 cùng giữ rồi nhả; S175 xác nhận hai người ăn phần riêng. Nếm món trước đó là chức năng khác, không thay được quan hệ trao cuối.
 
 **Mốc:** V02-S047, V02-S048, V02-S109, V02-S151, V02-S154, V02-S173, V02-S174, V02-S175.
 
@@ -235,6 +687,20 @@ Nhãn chữ dọc xuất hiện ở nhiều hình thành phẩm; không đồng 
 **Ngoại lệ:** Chữ quá nhiều có thể che chất liệu hoặc tăng công đọc; chưa có bằng chứng nguồn hoàn toàn không thoại.
 
 **Phép kiểm tiếp:** Kiểm hiển thị trên màn hình thật và khả năng nhận tên; nghe nguồn riêng nếu đánh giá vai trò lời nói.
+
+### V02-DNA-13 — Màu có vật mang và thay đổi theo trạng thái
+
+Chàm áo, nâu tre/gỗ và xanh xám làm hệ nền; đỏ quả thô thành đỏ bóng, trắng khối thành kem có đỏ/hạt/mặt cắt, bột/trứng thành bánh vàng nâu. Lửa/khói/đêm là ngoại lệ theo sự kiện.
+
+**Mốc:** V02-S025, V02-S039, V02-S065, V02-S078, V02-S107, V02-S130, V02-S135, V02-S143, V02-S175.
+
+**Dùng khi:** Vật thể có trạng thái nhận ra; so chủ thể với nền sát nó, không chỉ màu trung bình toàn ảnh.
+
+**Tái tạo chức năng:** Lập vai màu nền–người–món–nhấn theo từng chuỗi; khóa trạng thái thô/tan/phủ/cắt/chín/gói. Chọn góc/sáng cho vật liệu rồi khớp các góc cùng nơi, giữ chuyển ngày/đêm có nhiệm vụ.
+
+**Ngoại lệ:** Nền cây chiếm nhiều pixel không có nghĩa xanh là điểm chính. Ép lửa/đêm/khói dịu và sáng như nhau sẽ mất thông tin.
+
+**Phép kiểm tiếp:** Đối chiếu vật mang màu/giai đoạn trên các phim tiếp; thử người mới nhận nguyên liệu/giai đoạn trong clip Farm. Chưa thực hiện.
 
 ## 13 sổ trạng thái sản vật
 
@@ -492,10 +958,9 @@ Mở phần tương ứng để xem đầy đủ 25 nhóm và các mốc tiếp 
 
 ## Những việc cần làm để khóa tái tạo
 
-1. Xem đầy đủ chuyển động và rà frame quanh mọi ranh giới để khóa cut, máy, vận tốc và điểm tiếp xúc.
-2. Nghe toàn tuyến âm: nhạc, lời, nền, SFX, điểm nghe, chuyển qua cut và đồng bộ sự kiện; hiện không thể tự xác minh.
-3. Đối chiếu phiên bản tải lên với URL nguồn, tiêu đề/thumbnail/ngày đăng và dữ liệu khán giả nếu tiếp cận được.
-4. Các tên chất lỏng/bột, vật liệu rang, cách rây và từng pha chịu lực chưa rõ cần nguồn/diễn tiến phù hợp.
-5. Thử các công đoạn AI khó với tài sản Farm đã duyệt trước khi viết đơn hàng sản xuất đầy đủ.
+1. Khi khóa take: kiểm pha giữa mốc, chuyển động/tốc độ thật và các cut cần khớp.
+2. Định danh nguyên liệu/sốt/vật liệu rang cần nguồn có căn cứ nếu công việc yêu cầu; chuỗi hình không là công thức nấu đầy đủ.
+3. Đối chiếu các video tiếp để kiểm ngoại lệ của góc, màu và chờ–trả; chưa có công thức gây view.
+4. Thử các clip khó bằng tài sản Farm: khay/lò, siro, cán phôi, cuộn, giỏ–đòn–thang và trao–nhận; hiện chưa thử.
 
 Chưa có dữ liệu CTR/giữ chân, bình luận được lấy mẫu, khảo sát người xem hoặc video AI đầu ra. Bộ này dùng được làm bản thiết kế và danh sách kiểm; chưa chứng nhận tái tạo hoàn chỉnh.

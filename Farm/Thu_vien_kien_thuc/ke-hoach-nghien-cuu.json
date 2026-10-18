@@ -1,6 +1,6 @@
 {
   "id": "FARM-LTT-RESEARCH",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "core_version": "1.3.1",
   "status": "pilot_visual_annotations_ready_motion_audio_pending",
   "user_confirmed": {
@@ -19,7 +19,7 @@
         "id": "VID_02",
         "url": "https://www.youtube.com/watch?v=FWMIPukvdsQ",
         "analysis": "Farm/VID_02/phan-tich.json",
-        "analysis_status": "partial_timed_stills_no_full_motion_or_listening"
+        "analysis_status": "visual_deep_still_analysis_audio_excluded"
       }
     ],
     "remaining_selected_additional_videos_not_received": 7
@@ -50,7 +50,7 @@
     },
     {
       "step": 2,
-      "work": "VID_02 làm mẫu phương pháp: đã lập 176 mục theo ảnh, còn phát full motion/nghe âm để khóa phương pháp. Không đợi đủ tám link mới phân tích phần độc lập.",
+      "work": "VID_02 làm mẫu: 176 phiếu hình/góc/màu/trạng thái, 26 chuỗi/77 nhịp và 175 liên kết hình; âm ngoài phạm vi. Chuyển động/tốc độ và cut còn kiểm khi khóa sản xuất.",
       "exit": "Có mẫu phân tích thực, quy ước nhãn và độ phủ thật."
     },
     {
@@ -82,7 +82,7 @@
     "event"
   ],
   "per_shot_standard": "Core 02_CHUAN_PHAN_TICH.md: 25 groups, value/status/basis/evidence_refs/uncertainty_reason.",
-  "audio_review": "Independent timed track checked against visual events; stills do not certify audio or synchronization.",
+  "audio_review": "Lượt VID_02 hiện hành: âm ngoài phạm vi theo người dùng, không là điều kiện nghiệm thu. Chuẩn 25 nhóm vẫn giữ bốn trường null.",
   "chunking": "Keep original time axis and offsets, record actual reviewed coverage, overlap boundaries as needed and avoid double-counting.",
   "dna_record_fields": [
     "claim",
@@ -115,5 +115,7 @@
   "updated_on": "2026-10-18",
   "intake_mode": "one_video_at_a_time_as_user_requested",
   "pilot_video_id": "VID_02",
-  "pilot_full_review_completed": false
+  "pilot_full_review_completed": false,
+  "pilot_in_scope_deliverable_complete": true,
+  "pilot_scope": "visual_still_analysis_and_reconstruction_design"
 }

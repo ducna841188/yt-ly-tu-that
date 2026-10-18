@@ -1,6 +1,6 @@
 {
   "id": "VID_02",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "title_from_user": "Đậu phộng, hạt hướng dương, kẹo hồ lô, khô bò, kẹo bông tuyết.. thức ăn vặt cho Tết Nguyên đán",
   "creator_attribution_from_user": "Lý Tử Thất",
   "source_url": "https://www.youtube.com/watch?v=FWMIPukvdsQ",
@@ -44,8 +44,24 @@
     "primary_frames": "Five points per initial shot, two in very short smoke interval; after merge seven points for one shot.",
     "dense_sampling": "Ten contact/event studies, 0.08s; smoke interval 0.02s.",
     "frame_index_basis": "0-based frame n mapped to n/50 on uploaded file; frame count and duration agree with encoded nominal rate, not acquisition rate.",
-    "audio": "Decoded full track to mono 16 kHz float for 1s RMS/sample peak; no semantic listening.",
-    "manual_reading_status": "All 30 main sheets, 18 detector sheets and 13 dense sheets inspected; no real-time motion/audio playback."
+    "audio": "Ngoài phạm vi hiện hành; dữ liệu tín hiệu cũ giữ nguyên, không thêm phân tích âm.",
+    "manual_reading_status": "All 30 main sheets, 18 detector sheets and 13 dense sheets inspected; no real-time motion/audio playback.",
+    "current_scope": {
+      "version": "0.2.0",
+      "included": [
+        "images",
+        "camera_angle_composition",
+        "displayed_color_light_material",
+        "content_action_states",
+        "visual_edit_links",
+        "visual_reconstruction"
+      ],
+      "audio": "excluded_by_user",
+      "audio_completion_gate": false,
+      "full_motion_playback_performed": false,
+      "coverage": "176 hồ sơ và 26 chuỗi đã có phân tích hình có mốc; không chứng nhận mọi frame chuyển động hoặc tác dụng khán giả."
+    },
+    "visual_deepening": "Rà 176 khung đại diện, đối chiếu ảnh nhiều mốc đã trích ở 30 bảng chính và 13 bảng dày; đọc kỹ bó rơm, kẹo, tráng/cuộn, giỏ/thang/đòn và trao món. Màu ghi theo vật thể từng cú, không suy LUT/Kelvin."
   },
   "analysis_current": "phan-tich.json",
   "reconstruction_current": "tai-tao.json",
@@ -93,10 +109,6 @@
       "version": "1.1.0"
     },
     {
-      "id": "SO-003",
-      "version": "1.3.0"
-    },
-    {
       "id": "AI-003",
       "version": "1.1.0"
     },
@@ -107,16 +119,67 @@
     {
       "id": "YT-010",
       "version": "1.1.0"
+    },
+    {
+      "id": "CA-002",
+      "version": "1.0.0"
+    },
+    {
+      "id": "CA-003",
+      "version": "1.0.0"
+    },
+    {
+      "id": "CA-004",
+      "version": "1.3.0"
+    },
+    {
+      "id": "CO-002",
+      "version": "1.0.0"
+    },
+    {
+      "id": "CO-003",
+      "version": "1.0.0"
+    },
+    {
+      "id": "CO-004",
+      "version": "1.3.0"
+    },
+    {
+      "id": "CO-008",
+      "version": "1.1.0"
+    },
+    {
+      "id": "LI-001",
+      "version": "1.0.0"
+    },
+    {
+      "id": "LI-002",
+      "version": "1.1.0"
+    },
+    {
+      "id": "LI-006",
+      "version": "1.0.0"
+    },
+    {
+      "id": "ED-003",
+      "version": "1.0.0"
+    },
+    {
+      "id": "ED-004",
+      "version": "1.0.0"
+    },
+    {
+      "id": "ED-010",
+      "version": "1.1.0"
     }
   ],
   "coverage_limitations": [
-    "Đã đọc ảnh trích theo toàn trục 0–611,92 giây; chưa phát/xem trọn hình chuyển động ở tốc độ thực. whole_visual_reviewed=false.",
-    "Đã xem 882 ảnh theo khoảng shot và 476 ảnh rà dày của 10 thao tác; đây là các lần hiển thị, có thời điểm trùng. 421 ảnh ứng viên đổi hình cũng đã được rà để loại báo động.",
-    "Âm có trong tệp, đã giải mã và đo tín hiệu; môi trường trả audio content omitted because you do not support audio input. Chưa nghe/ngữ nghĩa/nhạc/thoại/SFX/đồng bộ, whole_audio_reviewed=false.",
-    "176 là danh sách cú máy làm việc sau rà ảnh, không chứng nhận đã bắt mọi chuyển cảnh ít tương phản. Mốc ứng viên đo ở file 50fps, không phải độ chính xác đã duyệt của mọi điểm cắt.",
-    "Tất cả mốc tính từ đầu tệp tải lên. Người dùng nối tệp với URL YouTube; chưa xác minh tệp byte này khớp toàn bộ phiên bản YouTube.",
-    "Chức năng cảnh, cảm xúc và công thức tái tạo là giả thuyết/đề xuất. Không có dữ liệu giữ chân, khảo sát khán giả hay video AI đầu ra.",
-    "Tên nguyên liệu, quan hệ họ hàng, tốc độ quay, tiêu cự, khẩu độ, LUT, bố trí đèn và công thức nấu không tự xác nhận từ ảnh."
+    "Đã rà lại 176 hồ sơ theo ảnh có mốc ở toàn trục 0–611,92s; chưa phát trọn hình ở tốc độ thật, whole_visual_reviewed=false.",
+    "882 lần hiển thị ảnh chính, 476 lần rà dày 10 thao tác, 1.328 mốc riêng. Mốc trùng không tính thành độ phủ chuyển động.",
+    "Âm ngoài phạm vi theo người dùng, bốn trường null giữ để tương thích schema và không là điều kiện chặn lượt hình.",
+    "176 cú là phân hoạch làm việc, chưa chứng nhận mọi cut ít tương phản; thống kê gắn phân hoạch này.",
+    "Màu đọc trên bản hiển thị; không suy LUT/Kelvin/ống kính/khẩu/tốc độ quay từ hình.",
+    "Mốc theo tệp tải, URL do người dùng gán; chưa đối chiếu mọi frame bản YouTube. Chức năng/góc/cảm xúc là diễn giải; chưa sinh clip hoặc kiểm khán giả."
   ],
   "source_media_storage": "Uploaded source remains the original Library attachment; no 217MB duplicate committed to Git. Re-extract via source SHA and frame manifest.",
   "history": "git_commits",

@@ -1,6 +1,6 @@
 {
   "id": "V02-METRICS",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "duration_seconds": 611.92,
   "shot_count_provisional": 176,
   "boundary_count_provisional": 175,
@@ -162,8 +162,8 @@
   },
   "shot_size_scope": "Descriptive still-based labels; not normalized to one author/camera lens taxonomy.",
   "attribute_status_counts": {
-    "interpretation": 1936,
-    "observed": 1407,
+    "interpretation": 2112,
+    "observed": 1231,
     "unknown": 1057
   },
   "sampled_evidence_points": 1328,
@@ -191,7 +191,7 @@
     "atlas_checksums_valid": 43,
     "reconstruction_links_valid": true,
     "state_ledgers_valid": 13,
-    "conditional_dna_records_valid": 12,
+    "conditional_dna_records_valid": 13,
     "full_motion_or_listening_claimed": false,
     "source_file_sha256_verified": true,
     "original_core_cards_unchanged": 132,
@@ -200,6 +200,19 @@
     "legacy_farm_source_and_example_unchanged": true,
     "production_choices_changed": false,
     "generated_video_tests": 0,
-    "viewer_tests": 0
-  }
+    "viewer_tests": 0,
+    "visual_decision_sheets_valid": 176,
+    "visual_sequence_cards_valid": 26,
+    "visual_edit_links_valid": 175,
+    "audio_excluded_from_acceptance": true,
+    "visual_content_beats_valid": 77,
+    "legacy_and_source_bytes_unchanged": true
+  },
+  "visual_decision_sheets": 176,
+  "visual_sequence_cards": 26,
+  "visual_content_beats": 77,
+  "visual_edit_links": 175,
+  "conditional_dna_records": 13,
+  "audio_scope": "excluded_by_user",
+  "audio_completion_gate": false
 }

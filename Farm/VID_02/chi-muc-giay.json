@@ -1,6 +1,6 @@
 {
   "id": "V02-SECOND-INDEX",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "derived_from": "phan-tich.json",
   "meaning": "Chỉ mục tra cứu khoảng giao mỗi giây, không chứng nhận đã xem/nghe liên tục từng giây.",
   "windows": [

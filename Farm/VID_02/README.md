@@ -1,33 +1,29 @@
 # VID_02 — Đồ ăn vặt cho Tết Nguyên đán
 
-**Bản nạp 0.1.0: đã phân tích ảnh theo toàn trục; chưa xem trọn chuyển động hoặc nghe âm.** Tệp dài **10:11.92**, 1280×720, mã hóa 50 fps, có AAC stereo. [Nguồn do người dùng gửi](https://www.youtube.com/watch?v=FWMIPukvdsQ).
+**Bản 0.2.0 · tập trung hình ảnh, góc máy, màu sắc và chuỗi hành động. Âm ngoài phạm vi theo người dùng.**
 
-**176 cú máy dự kiến · 26 chuỗi việc · 8 phân đoạn · 25 nhóm mỗi cú · 1.328 mốc ảnh riêng · 10 lượt rà tiếp xúc · 13 sổ trạng thái · 12 giả thuyết DNA.** Đây là dữ liệu nghiên cứu có điều kiện, chưa là công thức gây lượt xem.
+176 hồ sơ cú máy dự kiến · 26 phiếu chuỗi · 77 nhịp nội dung · 175 liên kết trạng thái qua điểm cắt · 13 sổ sản vật · 13 giả thuyết DNA · 43 bảng ảnh nguồn.
 
 ## Đọc theo thứ tự
 
-1. [Bản phân tích có mục lục và hồ sơ từng cú máy](Phan_tich_dien_anh.md).
-2. [JSON phân tích chuẩn](phan-tich.json): quan sát ảnh, diễn giải, nguồn/mốc và phần chưa biết. AI nên đọc từng sequence_id, không cần nạp toàn tệp trong một lượt.
-3. [Phiếu tái tạo](tai-tao.json): trạng thái, khung, điểm đỡ, phần phải giữ, yêu cầu tham chiếu, âm đề xuất và dấu duyệt cho từng cú. Đây là thiết kế chưa tạo thử.
-4. [DNA có điều kiện](dna.json): bằng chứng, điều kiện, ngoại lệ, cách làm và phép kiểm tiếp.
-5. [Nguồn và phương pháp](nguon.json), [mục lục ảnh/checksum](anh/manifest.json), [thống kê](metrics.json), [chỉ mục từng giây](chi-muc-giay.json), [tuyến âm chờ nghe](am-thanh.json).
+1. [Phân tích có mục lục](Phan_tich_dien_anh.md): bức tranh toàn phim, 26 chuỗi chi tiết, góc/màu/lược việc và đường dẫn từng cú.
+2. [Phân tích chuẩn](phan-tich.json): 25 nhóm với bằng chứng; bốn nhóm âm để null vì ngoài phạm vi. Bản đọc chỉ hiện 21 nhóm hình.
+3. [Phiếu tái tạo](tai-tao.json): shots[].visual_decision cho từng cú; visual_study.sequence_designs cho chuỗi; visual_study.visual_cut_links cho 175 điểm nối. Các bản thiết kế chưa sinh thử.
+4. [DNA có điều kiện](dna.json): 13 giả thuyết, điều kiện, ngoại lệ và phép kiểm. Chưa là công thức gây view.
+5. [Nguồn/phương pháp](nguon.json), [ảnh/checksum](anh/manifest.json), [thống kê](metrics.json), [chỉ mục từng giây](chi-muc-giay.json).
 
-## Những điểm có thể vận dụng ngay
+## Các kết quả chính
 
-- Đan công việc trong lúc món khác chờ rồi quay lại trả kết quả: hạt dẻ, lát quả sấy, phôi kẹo và thịt.
-- Cho thấy biến đổi bằng điểm tiếp xúc; kết quả tiếp tục được dùng, gói hoặc cất giữ.
-- Giữ vật nuôi, người nhận và nơi cất đồ như các phần của đời sống tiếp diễn.
-- Bó rơm được làm sớm rồi trở lại làm giá cắm hồ lô; một đạo cụ có công dụng nhìn thấy.
-- Không ép mỗi cú máy ba giây: bản phân hoạch hiện tại có trung vị 3.24s, dao động 0.70–9.22s.
+- Góc cao đọc mặt phẳng/vật chứa; tầm mặt vật đọc độ dày, mặt cắt, sợi kéo và cuộn; rộng trả quan hệ người–nơi. Chọn góc theo thông tin.
+- Màu có vật mang: chàm áo, nâu tre/gỗ, xanh xám nền, đỏ quả/giấy, vàng bánh. Biến đổi bề mặt kể tiến trình thô–tan–phủ–cắt–chín–gói.
+- Hạt dẻ, lát quả, phôi kẹo và thịt có trạng thái chờ rồi được trả; bó rơm có công dụng muộn ở giá hồ lô.
+- Không nối bịa bưởi/quýt thành phần quả vàng món cuối, hoặc ống bánh thành cùng mẻ nón nếu chưa có bước/bằng chứng.
+- Giữ lực/đỡ/nhả ở dao, xẻng/lò, siro, cán phôi, cuộn, giỏ–đòn–thang và trao món.
 
-## Phần còn phải xác minh
+## Phạm vi bằng chứng
 
-Chuyển động máy, vận tốc, mọi pha tay/vật giữa ảnh, độ đầy đủ ranh giới và toàn bộ nội dung âm. Đo RMS/sample peak không thay cho nghe nhạc/thoại/SFX hoặc kiểm đồng bộ. 176 cú là danh sách làm việc, không số đếm đã duyệt bằng phát toàn phim.
+Tệp tải dài 10:11.92, 1280×720, mã hóa 50fps. 1.328 mốc ảnh riêng theo toàn trục; đây không phải chứng nhận phát trọn chuyển động ở tốc độ thật. 176 cú là phân hoạch làm việc, chưa khóa mọi cut. Không đoán ống kính, khẩu, LUT/Kelvin hoặc tốc độ quay từ ảnh. Chưa có clip AI đầu ra hoặc thử khán giả.
 
-Mốc 05:59.48 là khói bùng trong cùng góc, đã gộp vào V02-S106. Điểm cắt sang góc rộng dự kiến ở 05:59.64. Các nhận định cảm xúc/công dụng là giả thuyết, chưa có phản hồi người xem. Đọc trường coverage trước sử dụng.
+Audio cũ được giữ để truy nguyên, không được phân tích thêm và không chặn lượt hình. Nguồn/checksum, VID_01 và lựa chọn Farm giữ nguyên. Mọi tài liệu sửa tại chỗ; lịch sử ở Git và [nhật ký chung](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/CHANGELOG.md).
 
-## Lưu trữ và chạy lại
-
-Nguồn 217 MB vẫn là tệp người dùng đã tải lên; [nguon.json](nguon.json) giữ mã tệp và SHA-256, không chép video lớn vào Git. 43 bảng ảnh là ảnh nguồn phục vụ phân tích. [Công cụ xuất bản đọc](cong-cu/xuat_ho_so.py) đọc JSON hiện hành; [công cụ trích lại ảnh](cong-cu/trich_anh.py) cần tệp đúng checksum.
-
-Mọi tệp sửa tại chỗ; lịch sử ở Git và [nhật ký chung](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/CHANGELOG.md). [Thư viện Farm](../Thu_vien_kien_thuc/README.md) · [Core hiện hành](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md).
+[Thư viện Farm](../Thu_vien_kien_thuc/README.md) · [Core hiện hành](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/README.md).
