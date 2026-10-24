@@ -1,10 +1,12 @@
 # Vườn nhỏ, bữa cơm nhà
 
-Phiên bản 0.6 · 24/10/2026
+Phiên bản 0.7 · 24/10/2026
 
-**Bản hiện hành: 134 cảnh · 468 giây · 00:00–07:48.** C01–C05 đã duyệt; C06 chờ duyệt. Mục tiêu phim 20 phút, khoảng 350 cảnh. Chưa viết prompt.
+**Bản hiện hành: 158 cảnh · 552 giây · 00:00–09:12.** C01–C06 đã duyệt; C07 chờ duyệt. Mục tiêu phim 20 phút, khoảng 350 cảnh. Chưa viết prompt.
 
-**Phạm vi:** C01–C05 đã được duyệt qua yêu cầu tiếp tục. Chỉ bổ sung C06, S111–S134; dừng chờ duyệt trước C07. Chưa viết prompt.
+**Phạm vi:** C01–C06 đã được duyệt qua yêu cầu tiếp tục. Chỉ bổ sung C07, S135–S158; dừng chờ duyệt trước C08. Chưa viết prompt.
+
+**Thời gian C07:** nối thu gọn chiều ngày 44, chuyển tới khoảng ngày 50 để vun khoai và gieo dưa chuột; sau đó tiến tới ngày 58 và khoảng ngày 70. Cà chua lúc cuối đã ra hoa, dưa đang leo non, rau dền chưa gieo. Các mốc là khoảng dựng để khóa tuổi cây, không gán lịch nước ngoài cho Côn Minh.
 
 **Thời gian C06:** chiều cùng ngày sau cuối C05, khoảng ngày 44 sau gieo. Cây đã quen nắng; chọn điều kiện đất ấm, không còn nguy cơ sương giá, chiều dịu ít gió. Chưa khóa tháng/mùa địa phương, không gán lịch nước ngoài cho Côn Minh.
 
@@ -1998,7 +2000,7 @@ Máy cố định mọi cảnh. Timelapse ở S087, S103, S109; các thao tác v
 
 ## C06 — Trồng sáu cây cà chua ra luống và cắm cọc tre
 
-**24 cảnh · 84 giây · 06:24–07:48 · Chờ duyệt.**
+**24 cảnh · 84 giây · 06:24–07:48 · Đã duyệt.**
 
 Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để lược phần xới đất, làm hố, đóng cọc và trồng lặp. Theo đủ cây đầu từ tháo chậu, hạ bầu, lấp đất đến ổn định; cây sau tiến triển ở vị trí mới. Dựng cọc trước khi đặt cây. Buộc số tám lỏng bằng dây mềm, tưới chậm quanh bầu. Giữ đúng sáu cây, sáu cọc, sáu chậu rỗng cuối cụm. Khoai trong hậu cảnh phải lớn đúng thời gian đã trôi.
 
@@ -2035,7 +2037,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S111 — Buổi chiều trên khu vườn
 
-**06:24–06:27 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:24–06:27 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Khu vườn trước nhà.
@@ -2052,7 +2054,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S112 — Làm tơi mặt luống cà chua
 
-**06:27–06:30 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:27–06:30 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Luống cà chua B06.
@@ -2069,7 +2071,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S113 — Vụn đất rời khỏi lưỡi cuốc
 
-**06:30–06:34 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:30–06:34 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Cùng luống cà chua.
@@ -2086,7 +2088,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S114 — Mở xong sáu vị trí trồng
 
-**06:34–06:37 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:34–06:37 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Cùng luống cà chua.
@@ -2103,7 +2105,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S115 — Mang sáu chậu ra vườn
 
-**06:37–06:41 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:37–06:41 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Lối hiên–luống cà chua.
@@ -2120,7 +2122,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S116 — Hạ khay bên hàng trồng
 
-**06:41–06:44 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:41–06:44 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Lối cạnh luống cà chua.
@@ -2137,7 +2139,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S117 — Dựng cọc trước khi đặt cây
 
-**06:44–06:48 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:44–06:48 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Đầu luống cà chua.
@@ -2154,7 +2156,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S118 — Gõ chắc chân cọc
 
-**06:48–06:51 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:48–06:51 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Cùng vị trí cọc đầu.
@@ -2171,7 +2173,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S119 — Làm rời bầu khỏi chậu đầu
 
-**06:51–06:55 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:51–06:55 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Đầu luống cà chua.
@@ -2188,7 +2190,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S120 — Đỡ bầu nguyên ra khỏi chậu
 
-**06:55–06:58 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:55–06:58 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Cùng đầu luống.
@@ -2205,7 +2207,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S121 — Đặt cây đầu xuống hố
 
-**06:58–07:02 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:58–07:02 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Hố trồng đầu tiên.
@@ -2222,7 +2224,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S122 — Kéo đất lấp quanh bầu
 
-**07:02–07:05 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:02–07:05 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Cùng hố đầu.
@@ -2239,7 +2241,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S123 — Ép nhẹ vòng đất quanh cây
 
-**07:05–07:09 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:05–07:09 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Cùng cây đầu.
@@ -2256,7 +2258,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S124 — Trồng tiếp cây thứ hai
 
-**07:09–07:12 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:09–07:12 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Dọc luống cà chua.
@@ -2273,7 +2275,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S125 — Sáu cây đã vào luống
 
-**07:12–07:16 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:12–07:16 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Cuối luống cà chua.
@@ -2290,7 +2292,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S126 — Đưa dây mềm quanh cọc
 
-**07:16–07:19 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:16–07:19 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Đầu hàng cà chua.
@@ -2307,7 +2309,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S127 — Khép vòng số tám lỏng
 
-**07:19–07:23 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:19–07:23 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Cùng cây đang buộc.
@@ -2324,7 +2326,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S128 — Hoàn tất dây đỡ cây cuối
 
-**07:23–07:26 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:23–07:26 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Cuối hàng cà chua.
@@ -2341,7 +2343,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S129 — Xách nước tới luống vừa trồng
 
-**07:26–07:30 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:26–07:30 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Lối từ vòi nước tới luống cà chua.
@@ -2358,7 +2360,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S130 — Múc nước tưới gốc đầu tiên
 
-**07:30–07:33 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:30–07:33 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Đầu luống cà chua.
@@ -2375,7 +2377,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S131 — Nước vào hõm quanh bầu
 
-**07:33–07:37 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:33–07:37 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Cây cà chua đầu hàng.
@@ -2392,7 +2394,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S132 — Tưới hết lượt cho hàng mới trồng
 
-**07:37–07:40 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:37–07:40 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Cuối hàng cà chua.
@@ -2409,7 +2411,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S133 — Cây con đứng bên cọc tre
 
-**07:40–07:44 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:40–07:44 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Cây cuối vừa tưới.
@@ -2426,7 +2428,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 
 #### S134 — Hàng cà chua mới trồng trong chiều dịu
 
-**07:44–07:48 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:44–07:48 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.
 - **Địa điểm:** Khu vườn trước nhà.
@@ -2440,6 +2442,451 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 - **Nối cảnh:** Kết C06 cùng chiều ngày 44; không tự có giàn dưa, rau dền hoặc hoa cà chua. Dừng chờ duyệt.
 - **Âm thanh:** Gáo chạm xô, gỗ khay, gió và chim chiều. Không nhạc, không lời thoại.
 - **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13.
+
+## C07 — Vun khoai, gieo dưa chuột và chăm cà chua
+
+**24 cảnh · 84 giây · 07:48–09:12 · Chờ duyệt.**
+
+Máy cố định mọi cảnh. S136, S150, S152 timelapse chuyển ngày hoặc sinh trưởng; các thao tác ở tốc độ tự nhiên. Vun khoai chỉ các lượt tiêu biểu. Dưa chuột gieo sau hai cây dài ngày, giàn chữ A dựng trước gieo, bốn vị trí mỗi vị trí một hạt. Chỉ dẫn ngọn khi dây đã đủ dài; không bắt tua tự cuốn hết trong một cảnh tốc độ thật. Cuối cụm trở lại cà chua đã lớn, bổ sung dây đỡ và bấm một chồi nách, giữ hoa nguyên. Chó xuất hiện ngắn ở lối, không ngắt công việc.
+
+### Bảng đọc nhanh
+
+| Mã | Dòng thời gian | Giây | Cỡ cảnh | Tốc độ | Diễn biến |
+|---|---|---:|---|---|---|
+| S135 | 07:48–07:52 | 4 | Toàn người và lối về nhà; máy cố định. | Tự nhiên | Cô mang khay theo lối về hiên, chậu rỗng đứng yên trên khay. |
+| S136 | 07:52–07:55 | 3 | Toàn vườn | Timelapse | Nắng và bóng mái đổi qua các chu kỳ ngày; tán cây biến đổi nhẹ, không có người trong khung. |
+| S137 | 07:55–07:59 | 4 | Toàn cô và một đoạn hàng khoai; máy cố định. | Tự nhiên | Cô kéo đất hai bên gom về chân cây theo một dải, bước dịch dọc hàng. |
+| S138 | 07:59–08:02 | 3 | Cận thấp | Tự nhiên | Cô kéo nhịp đất mới tới chân đoạn kế, nhấc lưỡi cuốc khi đất đã gom vào. |
+| S139 | 08:02–08:06 | 4 | Toàn người | Tự nhiên | Cô bước đến đầu luống, hạ giỏ xuống lối rồi đưa tay lấy cuốc đặt gần đó. |
+| S140 | 08:06–08:09 | 3 | Trung chéo bên | Tự nhiên | Cô xới nhẹ dải đất dành gieo, kéo vụn đất về chỗ thấp rồi dịch chân theo luống. |
+| S141 | 08:09–08:13 | 4 | Trung toàn thân | Tự nhiên | Cô dựng nghiêng một thanh về thanh đối diện đã tựa sẵn, chỉnh chân cho hai thanh giao nhau thành chữ A. |
+| S142 | 08:13–08:16 | 3 | Cận nút giao hai thanh và bàn tay; máy cố định. | Tự nhiên | Cô kéo đầu dây cho các vòng ôm chắc, luồn nút chốt rồi thử nhẹ bằng tay. |
+| S143 | 08:16–08:20 | 4 | Toàn cô và cả luống có giàn; máy cố định. | Tự nhiên | Cô khép nút cuối ở thanh leo thấp, buông tay rồi kiểm khung bằng một cái đẩy nhẹ. |
+| S144 | 08:20–08:23 | 3 | Cận hơi cao | Tự nhiên | Cô dùng mũi xẻng mở một hốc nông ở vị trí gieo đầu, gạt đất tơi sang mép. |
+| S145 | 08:23–08:27 | 4 | Trung chéo bên | Tự nhiên | Cô hạ hạt xuống hốc, buông nhẹ rồi chuyển tay về phần đất tơi bên mép. |
+| S146 | 08:27–08:30 | 3 | Cận tay và hốc đầu; máy cố định. | Tự nhiên | Cô kéo đất mịn từ mép vào che hạt, ấn rất nhẹ rồi rút tay. |
+| S147 | 08:30–08:34 | 4 | Toàn người | Tự nhiên | Cô phủ nốt chỗ thứ tư, hạ xẻng cạnh giỏ rồi quay lấy gáo ở xô đã mang tới. |
+| S148 | 08:34–08:37 | 3 | Trung chéo bên | Tự nhiên | Cô đưa gáo thấp, rải nước nhẹ lên vùng gieo đầu rồi dựng gáo để chuyển lượt. |
+| S149 | 08:37–08:41 | 4 | Cận vùng gieo thứ hai | Tự nhiên | Lượt nước mới rải xuống vùng thứ hai, các giọt lắng vào đất rồi dứt. |
+| S150 | 08:41–08:44 | 3 | Cận một vị trí gieo | Timelapse | Một mầm đội đất lên, thân nâng và hai lá mầm tròn dày mở ra; vị trí lân cận nhú lệch nhịp. |
+| S151 | 08:44–08:48 | 4 | Trung cô ngồi ở lối cạnh giàn; máy cố định. | Tự nhiên | Cô ngồi thấp, nhìn lần lượt các cây, nhẹ gạt một vụn đất rời khỏi khoảng trống sát mép hốc. |
+| S152 | 08:48–08:51 | 3 | Trung cả giàn tre | Timelapse | Lá thật mở thêm, ngọn vươn dài về các thanh leo; tua xuất hiện và một số tự chạm giàn. |
+| S153 | 08:51–08:55 | 4 | Trung chéo bên | Tự nhiên | Cô luồn bàn tay đỡ phần ngọn có lá, nâng rất nhẹ để dây tựa cạnh thanh tre rồi nới tay. |
+| S154 | 08:55–08:58 | 3 | Cận ngọn vừa dẫn | Tự nhiên | Cô rút tay khỏi ngọn; lá và tua rung rất nhẹ, ngọn vẫn tựa ổn định. |
+| S155 | 08:58–09:02 | 4 | Trung chéo từ lối | Tự nhiên | Cô vòng đoạn dây mềm mới ở phần thân cao hơn, khép vòng lỏng và thắt phía cọc. |
+| S156 | 09:02–09:05 | 3 | Cận nách lá và tay | Tự nhiên | Cô dùng ngón tay bấm gọn chồi nách nhỏ, đưa chồi ra khỏi tán. |
+| S157 | 09:05–09:09 | 4 | Cận chùm hoa vàng còn trên cây; máy cố định. | Tự nhiên | Chùm hoa rung nhẹ theo gió; không có tay can thiệp hoặc quả đỏ xuất hiện. |
+| S158 | 09:09–09:12 | 3 | Toàn cô | Tự nhiên | Cô tiếp tục chỉnh dây ở cây kế, chó đi chậm vào bóng mát cạnh lối rồi nằm xuống. |
+
+### Mô tả chi tiết
+
+#### S135 — Mang chậu rỗng về hiên
+
+**07:48–07:52 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Chiều ngày 44, nối cuối C06.
+- **Địa điểm:** Lối từ luống cà chua về hiên.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Toàn người và lối về nhà; máy cố định.
+- **Bố cục:** Giữ quan hệ luống–lối–nhà và đúng hình khung tre; vị trí cây và dụng cụ phải kế thừa qua góc sau.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Cô đã nhấc khay sáu chậu rỗng ở S134; cà chua đã ở luống.
+- **Hành động:** Cô mang khay theo lối về hiên, chậu rỗng đứng yên trên khay.
+- **Kết quả:** Khay và sáu chậu được mang khỏi vùng làm vườn, không còn cây trong chậu.
+- **Nối cảnh:** Nối đúng vật đang cầm cuối S134. Các dụng cụ còn lại được thu gọn cùng buổi ngoài phần dựng, không để bất động ngoài vườn nhiều tuần.
+- **Âm thanh:** Bước chân, khay và đất nung chạm nhẹ.
+- **Tham chiếu:** B01; B03; B05; P01; D02; D09; D10.
+
+#### S136 — Thêm vài buổi sáng trên vườn
+
+**07:52–07:55 · 3 giây · Máy cố định · Timelapse · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Sau ngày 44 → sáng khoảng ngày 50.
+- **Địa điểm:** Khu nhà và vườn.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Toàn vườn, góc khóa theo nhà–luống; máy cố định.
+- **Bố cục:** Giữ quan hệ luống–lối–nhà và đúng hình khung tre; vị trí cây và dụng cụ phải kế thừa qua góc sau.
+- **Nhân vật và dụng cụ:** Không có người; chỉ khu vườn hoặc cây và khung tre đúng trạng thái.
+- **Trạng thái đầu:** Cà chua đã trồng trong luống B06, sáu cọc còn nguyên; khoai đã lớn hơn giai đoạn chồi.
+- **Hành động:** Nắng và bóng mái đổi qua các chu kỳ ngày; tán cây biến đổi nhẹ, không có người trong khung.
+- **Kết quả:** Sang khoảng ngày 50; luống dưa chuột vẫn trống, rau dền chưa gieo.
+- **Nối cảnh:** Thời gian chỉ tiến tới; không đổi kiến trúc hoặc tự có giàn dưa. Chăm ẩm trong những ngày giữa được lược.
+- **Âm thanh:** Âm sáng–chiều chuyển dịu, không tăng tốc âm gốc.
+- **Tham chiếu:** B01; B03; B05; P01; D02; D09; D10.
+
+#### S137 — Vun đất quanh hàng khoai
+
+**07:55–07:59 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Sáng khoảng ngày 50.
+- **Địa điểm:** Luống khoai B03.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Toàn cô và một đoạn hàng khoai; máy cố định.
+- **Bố cục:** Giữ quan hệ luống–lối–nhà và đúng hình khung tre; vị trí cây và dụng cụ phải kế thừa qua góc sau.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Cây khoai đã cao đủ vun, khoảng gần một gang đến ngang cẳng chân, chưa thu hoạch; đất hai bên hàng tơi. Cuốc đã được cô mang ra trong đoạn lược.
+- **Hành động:** Cô kéo đất hai bên gom về chân cây theo một dải, bước dịch dọc hàng.
+- **Kết quả:** Đoạn gốc đầu được phủ đất thêm; ngọn và phần lớn lá vẫn ở trên đất.
+- **Nối cảnh:** Vun theo trạng thái cây, không theo con số ngày cứng. Không bới lộ củ, không đổ đất lên toàn bộ tán.
+- **Âm thanh:** Cuốc kéo đất xào xạo, bước chân nhẹ.
+- **Tham chiếu:** B01; B03; B05; P01; D02; D09; D10.
+
+#### S138 — Đất ôm kín phần chân kế tiếp
+
+**07:59–08:02 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng.
+- **Địa điểm:** Cùng hàng khoai.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Cận thấp, lưỡi cuốc và thân khoai làm mốc; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Đoạn kế vùng vừa vun còn thấp; cây đứng nguyên.
+- **Hành động:** Cô kéo nhịp đất mới tới chân đoạn kế, nhấc lưỡi cuốc khi đất đã gom vào.
+- **Kết quả:** Dải vun tiến thêm, phủ phần chân nhưng không làm gãy thân.
+- **Nối cảnh:** Tiếp tiến triển S137, không kéo lại cùng mẻ đất. Phần còn lại của hàng được hoàn tất ngoài phần dựng trước khi sang việc khác.
+- **Âm thanh:** Đất trượt khỏi lưỡi cuốc, lá ngoài vùng thao tác.
+- **Tham chiếu:** B01; B03; B05; P01; D02; D09; D10.
+
+#### S139 — Mang hạt và đồ làm giàn ra luống mới
+
+**08:02–08:06 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Sau khi vun xong, cùng buổi sáng.
+- **Địa điểm:** Lối cạnh luống dưa chuột B07.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Toàn người, giỏ tre và luống trống; máy cố định.
+- **Bố cục:** Giữ quan hệ luống–lối–nhà và đúng hình khung tre; vị trí cây và dụng cụ phải kế thừa qua góc sau.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Bó tre, vồ và dây buộc đã được mang tới lối trước phần dựng; cô cầm giỏ tre có gói hạt dưa, xẻng nhỏ và dây mềm.
+- **Hành động:** Cô bước đến đầu luống, hạ giỏ xuống lối rồi đưa tay lấy cuốc đặt gần đó.
+- **Kết quả:** Hạt và dụng cụ ở cạnh đúng luống, chưa có cây dưa hoặc giàn dựng.
+- **Nối cảnh:** Dùng giỏ D01 đã thu gọn từ các buổi trước; gói hạt là vật mới được mang ra, không tự xuất hiện trong tay.
+- **Âm thanh:** Giỏ đặt nền, tre và cán gỗ chạm nhẹ.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S140 — Làm tơi dải gieo dưới giàn
+
+**08:06–08:09 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng.
+- **Địa điểm:** Luống dưa chuột B07.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Trung chéo bên, tay–cuốc–đất rõ; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Luống có sẵn, mặt còn thô; vật liệu tre trên lối bên ngoài vùng cuốc.
+- **Hành động:** Cô xới nhẹ dải đất dành gieo, kéo vụn đất về chỗ thấp rồi dịch chân theo luống.
+- **Kết quả:** Một dải gieo tơi hơn, chưa tạo hố hoặc đặt hạt.
+- **Nối cảnh:** Chỉ lượt làm tiêu biểu; phần còn lại lược trước cảnh dựng cọc. Không tăng diện tích vườn.
+- **Âm thanh:** Cuốc và đất, vải áo nhẹ.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S141 — Dựng cặp tre đầu giàn
+
+**08:09–08:13 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng.
+- **Địa điểm:** Cùng luống dưa chuột.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Trung toàn thân, thấy chân tre và dải gieo; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Dải gieo đã làm tơi. Chân tre đặt ngoài các vị trí sẽ gieo; cặp đầu có hai thanh tre dài, vồ ở lối.
+- **Hành động:** Cô dựng nghiêng một thanh về thanh đối diện đã tựa sẵn, chỉnh chân cho hai thanh giao nhau thành chữ A.
+- **Kết quả:** Cặp tre đầu đứng ở tư thế chuẩn bị buộc; chưa có cả giàn hoàn chỉnh.
+- **Nối cảnh:** Dựng trước khi gieo để tránh dẫm lên hạt hoặc chọc rễ. Tre đã được cắm chân đủ ban đầu trong nhịp lược, không tự đứng trên mặt đất.
+- **Âm thanh:** Tre chạm tre, chân tre cọ đất.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S142 — Siết nút buộc đỉnh tre
+
+**08:13–08:16 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng.
+- **Địa điểm:** Đỉnh cặp tre đầu.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Cận nút giao hai thanh và bàn tay; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Dây đã quấn vài vòng quanh chỗ giao; một tay cô giữ cặp tre đứng.
+- **Hành động:** Cô kéo đầu dây cho các vòng ôm chắc, luồn nút chốt rồi thử nhẹ bằng tay.
+- **Kết quả:** Cặp tre đầu được buộc chắc, không lắc rời hoặc tự xoay.
+- **Nối cảnh:** Chỉ phần cuối một nút buộc; không yêu cầu quấn và hoàn thành toàn bộ từ dây thẳng trong ba giây.
+- **Âm thanh:** Dây cọ tre, tiếng tre khẽ chạm.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S143 — Khung giàn chữ A hoàn tất
+
+**08:16–08:20 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng.
+- **Địa điểm:** Luống dưa chuột B07.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Toàn cô và cả luống có giàn; máy cố định.
+- **Bố cục:** Giữ quan hệ luống–lối–nhà và đúng hình khung tre; vị trí cây và dụng cụ phải kế thừa qua góc sau.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Hai cặp tre còn lại, thanh dọc đỉnh và các thanh leo đã được làm trong đoạn lược; cô ở mối buộc cuối.
+- **Hành động:** Cô khép nút cuối ở thanh leo thấp, buông tay rồi kiểm khung bằng một cái đẩy nhẹ.
+- **Kết quả:** Giàn tre nhỏ chắc, chân giàn ngoài bốn vị trí gieo; chưa có dây dưa leo lên.
+- **Nối cảnh:** Giàn gồm ba cặp tre và một thanh dọc đỉnh, thanh leo thưa, giữ hình qua mọi lần xuất hiện. Không biến khung tre thành lưới kim loại.
+- **Âm thanh:** Dây, tre, bước chân nhẹ.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S144 — Mở hốc gieo cạnh chân giàn
+
+**08:20–08:23 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng.
+- **Địa điểm:** Dải gieo dưới giàn B07.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Cận hơi cao, xẻng nhỏ và thành hốc; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Giàn đã chắc; dải gieo còn chưa có hạt. Xẻng nhỏ lấy từ giỏ, gói hạt ở cạnh.
+- **Hành động:** Cô dùng mũi xẻng mở một hốc nông ở vị trí gieo đầu, gạt đất tơi sang mép.
+- **Kết quả:** Hốc đầu sâu vừa cho hạt dưa, không thành hố đặt bầu cà chua.
+- **Nối cảnh:** Bốn vị trí gieo có khoảng cách cho dây leo, tránh sát chân tre. Chọn độ sâu theo hạt, không phủ sơ như hạt rau dền.
+- **Âm thanh:** Mũi xẻng và đất vụn.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S145 — Đặt hạt dưa đầu tiên
+
+**08:23–08:27 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng.
+- **Địa điểm:** Cùng vị trí gieo đầu.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Trung chéo bên, thấy hốc và tay; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Gói giấy đã mở trong đoạn lược, một hạt dưa trong tay; hốc đầu còn trống.
+- **Hành động:** Cô hạ hạt xuống hốc, buông nhẹ rồi chuyển tay về phần đất tơi bên mép.
+- **Kết quả:** Hạt đầu nằm trong hốc; chưa phủ, các vị trí khác chưa gieo.
+- **Nối cảnh:** Một hạt cho mỗi vị trí, bốn vị trí cho quy mô gia đình. Hạt thon dẹt màu sáng, không biến thành hạt cà chua nhỏ.
+- **Âm thanh:** Giấy sột soạt nhẹ, âm sân; không khuếch đại tiếng hạt.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S146 — Khép đất trên hạt
+
+**08:27–08:30 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng.
+- **Địa điểm:** Cùng vị trí gieo đầu.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Cận tay và hốc đầu; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Hạt vừa được đặt nằm yên trong hốc.
+- **Hành động:** Cô kéo đất mịn từ mép vào che hạt, ấn rất nhẹ rồi rút tay.
+- **Kết quả:** Hốc đầu đã được phủ, mặt còn tơi; không có cây nhú.
+- **Nối cảnh:** Nối S145, không đặt lại hạt. Lớp phủ phù hợp hạt dưa, không nén cứng hoặc hất bật hạt ra.
+- **Âm thanh:** Đất vụn và tay nhẹ.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S147 — Gieo xong bốn vị trí
+
+**08:30–08:34 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng.
+- **Địa điểm:** Luống dưa chuột B07.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Toàn người, bốn chỗ gieo và giàn; máy cố định.
+- **Bố cục:** Giữ quan hệ luống–lối–nhà và đúng hình khung tre; vị trí cây và dụng cụ phải kế thừa qua góc sau.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Qua điểm cắt, ba vị trí đã gieo phủ; hạt ở vị trí thứ tư vừa đặt. Gói hạt ở giỏ.
+- **Hành động:** Cô phủ nốt chỗ thứ tư, hạ xẻng cạnh giỏ rồi quay lấy gáo ở xô đã mang tới.
+- **Kết quả:** Bốn chỗ gieo đã phủ; giàn trống đứng sẵn, chưa có lá dưa.
+- **Nối cảnh:** Lược các lượt mở hốc, gieo và phủ giữa. Xô đã có nước mới từ vòi hiện có, lược phần hứng và xách đã thấy ở cụm trước.
+- **Âm thanh:** Đất, cán xẻng đặt xuống, gáo chạm xô.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S148 — Tưới nhẹ chỗ gieo đầu
+
+**08:34–08:37 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng.
+- **Địa điểm:** Đầu luống dưa chuột.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Trung chéo bên, thấy xô và vùng nhận nước; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Cô đã múc lượng nước vừa trong gáo; xô đứng trên lối, hạt đã phủ kín.
+- **Hành động:** Cô đưa gáo thấp, rải nước nhẹ lên vùng gieo đầu rồi dựng gáo để chuyển lượt.
+- **Kết quả:** Vùng đầu sẫm ẩm, đất không xói lộ hạt.
+- **Nối cảnh:** Không hất mạnh quét ngang giàn hoặc tưới lại cà chua. Cùng xô/gáo gỗ D05.
+- **Âm thanh:** Nước rơi lên đất, lá nền.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S149 — Nước thấm ở chỗ gieo kế
+
+**08:37–08:41 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng.
+- **Địa điểm:** Vị trí gieo thứ hai dưới giàn.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Cận vùng gieo thứ hai, miệng gáo ở rìa khung; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Qua điểm cắt cô đã múc lượt mới, chỗ thứ hai còn nhạt.
+- **Hành động:** Lượt nước mới rải xuống vùng thứ hai, các giọt lắng vào đất rồi dứt.
+- **Kết quả:** Chỗ thứ hai đã ẩm; hạt vẫn ở dưới lớp phủ.
+- **Nối cảnh:** Không phát lại lượt S148. Hai vị trí cuối được tưới trong đoạn lược trước khi chuyển ngày.
+- **Âm thanh:** Giọt nước và âm vườn, không tiếng thấm phóng đại.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S150 — Dưa chuột nhú lá mầm
+
+**08:41–08:44 · 3 giây · Máy cố định · Timelapse · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Khoảng ngày 50 → 58 của câu chuyện.
+- **Địa điểm:** Luống dưa chuột B07.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Cận một vị trí gieo, chân tre làm mốc; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Không có người; chỉ khu vườn hoặc cây và khung tre đúng trạng thái.
+- **Trạng thái đầu:** Bốn hạt đã gieo và tưới, đất được giữ ẩm; giàn có sẵn.
+- **Hành động:** Một mầm đội đất lên, thân nâng và hai lá mầm tròn dày mở ra; vị trí lân cận nhú lệch nhịp.
+- **Kết quả:** Bắt đầu có bốn cây dưa ở đúng bốn chỗ gieo; chưa phủ kín giàn hoặc có quả.
+- **Nối cảnh:** Nén nhiều ngày, không phải mọc ngay sau tưới. Không thêm mầm ngoài vị trí đã gieo hoặc đổi thành lá cà chua.
+- **Âm thanh:** Âm vườn dịu theo ngày, không tiếng mọc cây hoặc tăng tốc âm.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S151 — Kiểm tra cây dưa vừa lên
+
+**08:44–08:48 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Sáng khoảng ngày 58.
+- **Địa điểm:** Luống dưa chuột B07.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Trung cô ngồi ở lối cạnh giàn; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Bốn cây có lá mầm, một số mới hé lá thật; đất mặt đủ ẩm.
+- **Hành động:** Cô ngồi thấp, nhìn lần lượt các cây, nhẹ gạt một vụn đất rời khỏi khoảng trống sát mép hốc.
+- **Kết quả:** Cây đứng nguyên, mặt đất quanh chỗ gieo gọn; không nhổ cây để kiểm rễ.
+- **Nối cảnh:** Quan sát ngắn nối kết quả S150. Chưa dẫn một cây chỉ có lá mầm lên cao trên giàn.
+- **Âm thanh:** Vải áo, tay chạm đất rất nhẹ, chim sáng.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S152 — Dây dưa dài dần dưới giàn
+
+**08:48–08:51 · 3 giây · Máy cố định · Timelapse · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Sau ngày 58 → khoảng ngày 70.
+- **Địa điểm:** Luống dưa chuột B07.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Trung cả giàn tre, máy khóa chắc; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Không có người; chỉ khu vườn hoặc cây và khung tre đúng trạng thái.
+- **Trạng thái đầu:** Bốn cây còn thấp, giàn trống phần trên.
+- **Hành động:** Lá thật mở thêm, ngọn vươn dài về các thanh leo; tua xuất hiện và một số tự chạm giàn.
+- **Kết quả:** Dây đủ dài để được dẫn lên thanh thấp; giàn vẫn còn nhiều khoảng trống, chưa có quả thu hoạch.
+- **Nối cảnh:** Cây lớn trong nhiều ngày, chân cây và thanh tre giữ cùng vị trí; chăm nước giữa các ngày được lược. Không hòa hình biến giàn trống thành giàn kín quả.
+- **Âm thanh:** Gió và chim nhẹ, không tiếng tăng trưởng.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S153 — Dẫn ngọn dưa tới thanh thấp
+
+**08:51–08:55 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Sáng khoảng ngày 70.
+- **Địa điểm:** Cùng giàn dưa.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Trung chéo bên, tay và đường dây leo rõ; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Một ngọn đã đủ dài nhưng đang lệch khỏi thanh leo thấp.
+- **Hành động:** Cô luồn bàn tay đỡ phần ngọn có lá, nâng rất nhẹ để dây tựa cạnh thanh tre rồi nới tay.
+- **Kết quả:** Ngọn nằm gần chỗ bám, thân không bị kéo căng; tua mới chạm thanh.
+- **Nối cảnh:** Chỉ đưa hướng, không cuộn cưỡng bức cả dây quanh cọc hoặc bẻ thân. Không tự sinh dây buộc trên thân dưa.
+- **Âm thanh:** Lá cọ tay và tre nhẹ, chim.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S154 — Tua dưa chạm thanh tre
+
+**08:55–08:58 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng.
+- **Địa điểm:** Cùng thanh leo thấp.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Cận ngọn vừa dẫn, tua và thanh tre rõ; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Ngọn vừa tựa vào thanh; một tua chạm bề mặt tre nhưng chưa quấn kín.
+- **Hành động:** Cô rút tay khỏi ngọn; lá và tua rung rất nhẹ, ngọn vẫn tựa ổn định.
+- **Kết quả:** Thấy kết quả dẫn dây, không giả tua cuốn hết trong ba giây.
+- **Nối cảnh:** Tiếp S153; sự tự bám sẽ phát triển theo thời gian ở các cảnh sau. Không tua nhanh bàn tay.
+- **Âm thanh:** Lá cọ tre rất nhẹ, âm nền vườn.
+- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15.
+
+#### S155 — Buộc thêm dây đỡ cà chua
+
+**08:58–09:02 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Sau khi dẫn dưa, cùng buổi sáng ngày 70.
+- **Địa điểm:** Luống cà chua B06.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Trung chéo từ lối, thấy cọc và thân đã cao hơn; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Sáu cây đã lớn từ lúc trồng ngày 44; có thêm nhánh và một số chùm hoa. Dây cũ còn thấp, dây mềm mới trong giỏ cô mang theo.
+- **Hành động:** Cô vòng đoạn dây mềm mới ở phần thân cao hơn, khép vòng lỏng và thắt phía cọc.
+- **Kết quả:** Một đoạn thân mới được đỡ; dây cũ không biến mất, ngọn và chùm hoa tự do.
+- **Nối cảnh:** Lược quãng đi giữa hai luống; cọc vẫn đúng sáu cọc D12. Nút bắt đầu từ dây đã vòng sơ, không đòi thắt trọn chuỗi dài trong bốn giây.
+- **Âm thanh:** Vải mềm cọ tre, lá nhẹ.
+- **Tham chiếu:** B06; P01; D01; D12.
+
+#### S156 — Bấm một chồi nách còn nhỏ
+
+**09:02–09:05 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng.
+- **Địa điểm:** Một cây cà chua thân cao.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Cận nách lá và tay, không che chùm hoa; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Chồi non nhỏ nằm ở nách giữa thân chính và cuống lá; phân biệt rõ với ngọn và chùm hoa.
+- **Hành động:** Cô dùng ngón tay bấm gọn chồi nách nhỏ, đưa chồi ra khỏi tán.
+- **Kết quả:** Chồi đã được lấy ra; thân chính, lá lớn và chùm hoa vẫn nguyên.
+- **Nối cảnh:** Chỉ một lượt tiêu biểu cho kiểu cà chua thân cao đã chọn; không tước sạch lá hoặc bẻ chùm hoa. Không có sâu bệnh hay xử lý hóa chất.
+- **Âm thanh:** Tiếng bấm rất nhẹ, lá xào xạc.
+- **Tham chiếu:** B06; P01; D01; D12.
+
+#### S157 — Hoa cà chua trong tán xanh
+
+**09:05–09:09 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng.
+- **Địa điểm:** Cùng luống cà chua.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Cận chùm hoa vàng còn trên cây; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
+- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Trạng thái đầu:** Chùm hoa còn nguyên sau chăm cây; dây đỡ và cọc có thể mờ trong nền.
+- **Hành động:** Chùm hoa rung nhẹ theo gió; không có tay can thiệp hoặc quả đỏ xuất hiện.
+- **Kết quả:** Xác lập giai đoạn ra hoa; chưa thu hoạch cà chua.
+- **Nối cảnh:** Cảnh kết quả sau S156, chùm hoa không phải chồi vừa bấm. Không quay ngược về cây con trong chậu.
+- **Âm thanh:** Gió và lá nhẹ; không tiếng hoa nở giả.
+- **Tham chiếu:** B06; P01; D01; D12.
+
+#### S158 — Chó nằm cạnh lối khi cô chăm vườn
+
+**09:09–09:12 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng ngày 70.
+- **Địa điểm:** Lối vườn cạnh luống cà chua.
+- **Ánh sáng:** Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Cỡ cảnh và góc nhìn:** Toàn cô, hàng cà chua và lối có bóng mát; máy cố định.
+- **Bố cục:** Giữ quan hệ luống–lối–nhà và đúng hình khung tre; vị trí cây và dụng cụ phải kế thừa qua góc sau.
+- **Nhân vật và dụng cụ:** Cô gái P01 và chó P04; sáu cây cà chua và lối ngoài luống.
+- **Trạng thái đầu:** Cô chuyển sang kiểm dây đỡ ở cây kế; chó đi vào từ lối phía sau, chưa xuất hiện ở cảnh trước.
+- **Hành động:** Cô tiếp tục chỉnh dây ở cây kế, chó đi chậm vào bóng mát cạnh lối rồi nằm xuống.
+- **Kết quả:** Công việc vẫn tiếp diễn; chó ở ngoài luống, cà chua đang ra hoa và dưa còn leo non.
+- **Nối cảnh:** Kết C07; không tương tác làm gián đoạn việc, không để chó giẫm cây. Rau dền chưa gieo; chưa có nông sản được thu hoạch. Dừng chờ duyệt.
+- **Âm thanh:** Bước chân chó nhẹ, áo và lá; không bắt buộc sủa, không nhạc/thoại.
+- **Tham chiếu:** B06; P01; P04; D12.
 
 ## Tài nguyên và liên tục
 
@@ -2474,6 +2921,11 @@ Mã tài nguyên là nhãn chức năng; chưa phải tên ảnh đã đối chi
 | D12 | Sáu cọc tre và dây vải mềm | Sáu cọc chắc cùng kiểu, dựng cạnh hố trước khi đặt cây. Sáu dây mềm buộc số tám lỏng, thắt phía cọc. | Cà chua được chọn theo kiểu thân cao cần cọc; chưa khóa tên giống. Không thêm giàn ngang hoặc dây kim loại. |
 | D13 | Vồ gỗ đóng cọc | Vồ gỗ nhỏ vừa sức; cô giữ cọc và gõ các nhịp tiêu biểu, phần lặp lược qua điểm cắt. | Đóng cọc trước khi cây vào hố, không đánh sát thân cây đã trồng. |
 
+| B07 | Luống dưa chuột | Luống trống có thật trong bộ vườn, khác khoai và cà chua; bốn vị trí gieo dưới giàn. | S139 còn trống; S149 gieo xong; S154 bốn dây đang lên thanh thấp, chưa có quả. |
+| D14 | Giàn tre chữ A cho dưa | Ba cặp tre, thanh dọc đỉnh và thanh leo thưa; chân khung ngoài vị trí gieo, vừa quy mô gia đình. | Giữ số cặp, hình học và mối buộc khi cây lớn; không biến thành giàn kim loại hoặc giàn cà chua. |
+| D15 | Gói hạt dưa và dây mềm bổ sung | Gói giấy không chữ/logo, hạt dưa thon dẹt màu sáng; mang trong giỏ D01. Dây mềm mới dùng cho cà chua lớn thêm. | Bốn vị trí, mỗi vị trí một hạt; phần hạt dư cất lại giỏ, không cần kể nguồn gốc. |
+| P04 | Chó | Dùng đúng bộ tham chiếu chó khi sản xuất; S158 đi vào từ lối và nằm ở bóng mát. | Không chạy vào luống, chạm cây hoặc thực phẩm; không thêm người. |
+
 **Bàn giao cuối S039 (đầu vào C03):** một hàng khoai đã đặt củ và phủ đất. Đầu hàng đã tưới; phần xa chưa khẳng định tưới xong. Cô, xô, gáo ở đầu luống. Cuốc, xẻng, giỏ, khay rỗng và rổ giống rỗng ở lối đầu luống. Các luống khác chưa trồng. Chưa có cây mọc.
 
 **Bàn giao cuối S062:** hàng khoai đã được tưới xong. Một khay cà chua vừa gieo và phủ lớp mỏng nằm ở vị trí ươm ấm, kín gió dưới hiên; giá thể đủ ẩm, chưa có mầm. Xô/gáo ở cạnh bàn gieo; gói hạt đã khép, dụng cụ gieo ở bàn. Giỏ, khay khoai, rổ, cuốc và xẻng vẫn ở đầu luống. Chưa gieo dưa chuột hoặc rau dền.
@@ -2484,9 +2936,11 @@ Mã tài nguyên là nhãn chức năng; chưa phải tên ảnh đã đối chi
 
 **Bàn giao cuối S134:** chiều khoảng ngày 44, sáu cây cà chua đã trồng trong luống B06, sáu cọc có dây đỡ mềm lỏng, đất quanh bầu đã tưới; chưa có hoa/quả. Cô nhấc khay chứa sáu chậu rỗng để mang về. Cuốc, xẻng, vồ, xô/gáo ở lối chờ thu gọn. Khay cây dự phòng vẫn ở hiên; khoai trong vườn đã lớn đúng tuổi, hai rau còn lại chưa gieo.
 
+**Bàn giao cuối S158:** khoảng ngày 70, khoai đã được vun; sáu cà chua cao hơn và bắt đầu ra hoa, dây đỡ bổ sung; bốn dưa chuột đang leo non dưới giàn chữ A, chưa có quả thu hoạch. Cô tiếp tục kiểm dây ở cây cà chua kế, chó nằm bóng mát cạnh lối. Rau dền chưa gieo. Không có nông sản đã thu hoạch.
+
 ## Quy chuẩn hiện hành
 
-- **Phạm vi duyệt:** C01/S001–S015 đã duyệt qua yêu cầu tiếp tục. C02/S016–S039 đã duyệt. C03/S040–S062 đã duyệt. C04/S063–S086 đã duyệt. C05/S087–S110 đã duyệt. C06/S111–S134 chờ duyệt; dừng trước C07.
+- **Phạm vi duyệt:** C01/S001–S015 đã duyệt qua yêu cầu tiếp tục. C02/S016–S039 đã duyệt. C03/S040–S062 đã duyệt. C04/S063–S086 đã duyệt. C05/S087–S110 đã duyệt. C06/S111–S134 đã duyệt. C07/S135–S158 chờ duyệt; dừng trước C08.
 
 - **Thời lượng:** Mục tiêu toàn phim 20 phút, 350 cảnh. 12 phút đầu cho mở đầu và việc vườn; 6 phút cho chuẩn bị bếp, sơ chế, nấu; 2 phút cho dọn và ăn tối. Thời lượng cảnh là phần dùng trong bản dựng.
 
@@ -2494,11 +2948,11 @@ Mã tài nguyên là nhãn chức năng; chưa phải tên ảnh đã đối chi
 
 - **Máy và dựng:** Máy cố định ở mọi cảnh. Chủ yếu toàn–trung–cận. Cắt thẳng; đổi góc để tiếp diễn hoặc lược thời gian ở điểm cắt. Không yêu cầu hoàn thành nhiều phút lao động trong vài giây tự nhiên.
 
-- **Tốc độ:** Công việc và tình cảm ở tốc độ tự nhiên; tua nhanh dành cho chờ hoặc sinh trưởng. C01–C03 đều tự nhiên. C04 có sáu cảnh timelapse chuyển ngày/sinh trưởng; C05 có ba cảnh timelapse lớn thêm, ổn định sau sang chậu và quen nắng. C06 hoàn toàn tự nhiên. Cảnh người và tình cảm vẫn tự nhiên. Phần việc lặp được lược tại điểm cắt.
+- **Tốc độ:** Công việc và tình cảm ở tốc độ tự nhiên; tua nhanh dành cho chờ hoặc sinh trưởng. C01–C03 đều tự nhiên. C04 có sáu cảnh timelapse chuyển ngày/sinh trưởng; C05 có ba cảnh timelapse lớn thêm, ổn định sau sang chậu và quen nắng. C06 hoàn toàn tự nhiên. C07 có S136, S150, S152 timelapse; các cảnh khác tự nhiên. Cảnh người và tình cảm vẫn tự nhiên. Phần việc lặp được lược tại điểm cắt.
 
 - **Âm thanh:** Chỉ âm thao tác và môi trường khớp hình; không nhạc, không lời thoại, không lời bình. Tiếng chim thưa và gió nhẹ nối liền qua các điểm cắt.
 
-- **Nhân vật:** Cô gái là chính; bà là người được chăm sóc. Chó, mèo thỉnh thoảng xuất hiện tự nhiên. C01–C03 chỉ có cô gái. C04 có bà ở S072–S077 và mèo ở S084; chó chưa xuất hiện. C05–C06 chỉ có cô gái.
+- **Nhân vật:** Cô gái là chính; bà là người được chăm sóc. Chó, mèo thỉnh thoảng xuất hiện tự nhiên. C01–C03 chỉ có cô gái. C04 có bà ở S072–S077 và mèo ở S084; chó xuất hiện lần đầu ở S158. C05–C06 chỉ có cô gái. C07 có thêm chó ở S158.
 
 - **Cây và món:** Cà chua là tuyến chính; khoai tây, dưa chuột, rau dền là các tuyến bổ sung. Năm món đã chốt: khoai tây kiểu bà, Hồng tam đóa, trứng xào cà chua, dưa chuột trộn tỏi, rau dền xào tỏi.
 
@@ -2533,6 +2987,10 @@ Phỏng vấn của người dùng là căn cứ ưu tiên. Khung đã đọc: K
 - [Trồng và cọc cà chua](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes): UMN Extension: trồng ra ngoài khi đất ấm, hết nguy cơ sương giá; chọn chiều muộn hoặc ngày dịu ít gió, bố trí cọc ngay khi trồng. Chỉ đối chiếu kỹ thuật, không dùng lịch Minnesota cho Côn Minh.
 - [Buộc thân vào cọc](https://yardandgarden.extension.iastate.edu/how-to/how-train-tomatoes-home-garden): Iowa State Extension: buộc mềm theo vòng số tám lỏng, cọc một vòng và thân một vòng, tránh làm hại rễ vì đóng cọc muộn. Dùng nguyên tắc hỗ trợ cây, không sao chép toàn bộ hệ kích thước.
 
-**Kiểm tra:** 134 mã liên tục, không trùng; mỗi cảnh 3–4 giây; C01 51 giây, C02 84 giây, C03 81 giây, C04 84 giây, C05 84 giây, C06 84 giây, tổng 468 giây. Các công đoạn kéo dài được lược tại điểm cắt, không tăng tốc người.
+- [Gieo và dẫn dưa chuột](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-cucumbers): UMN Extension: gieo trực tiếp khi đất đã ấm, dùng giàn cho giống dạng leo. Chỉ đối chiếu kỹ thuật, không dùng tháng gieo Minnesota cho Côn Minh.
+- [Vun khoai](https://lancaster.unl.edu/planting-seed-potatoes/): Nebraska Extension: vun khi thân cây đủ cao, kéo đất dọc chân hàng. Trạng thái cây quyết định thời điểm, không chỉ số ngày trong kịch bản.
+- [Chăm cà chua thân cao](https://yardandgarden.extension.iastate.edu/how-to/how-train-tomatoes-home-garden): Iowa State Extension: bổ sung dây đỡ mềm lỏng theo thân lớn và bấm chồi nách với hệ trồng cọc. Giữ chùm hoa và phần lá cần thiết.
 
-**Điểm duyệt:** duyệt hoặc góp ý C06 trước khi tiếp tục C07.
+**Kiểm tra:** 158 mã liên tục, không trùng; mỗi cảnh 3–4 giây; C01 51 giây, C02 84 giây, C03 81 giây, C04 84 giây, C05 84 giây, C06 84 giây, C07 84 giây, tổng 552 giây. Các công đoạn kéo dài được lược tại điểm cắt, không tăng tốc người.
+
+**Điểm duyệt:** duyệt hoặc góp ý C07 trước khi tiếp tục C08.
