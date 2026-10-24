@@ -1,10 +1,12 @@
 # Vườn nhỏ, bữa cơm nhà
 
-Phiên bản 0.8 · 24/10/2026
+Phiên bản 0.9 · 24/10/2026
 
-**Bản hiện hành: 182 cảnh · 636 giây · 00:00–10:36.** C01–C07 đã duyệt; C08 chờ duyệt. Mục tiêu phim 20 phút, khoảng 350 cảnh. Chưa viết prompt.
+**Bản hiện hành: 206 cảnh · 720 giây · 00:00–12:00.** C01–C08 đã duyệt; C09 chờ duyệt. Mục tiêu phim 20 phút, khoảng 350 cảnh. Chưa viết prompt.
 
-**Phạm vi:** C01–C07 đã được duyệt qua yêu cầu tiếp tục. Chỉ bổ sung C08, S159–S182; dừng chờ duyệt trước C09. Chưa viết prompt.
+**Phạm vi:** C01–C08 đã được duyệt qua yêu cầu tiếp tục. Chỉ bổ sung C09, S183–S206; dừng chờ duyệt trước C10/phần bếp. Chưa viết prompt.
+
+**Thời gian C09:** cùng buổi sáng thu hoạch khoảng ngày 105, đi từ vườn qua chỗ chia/kho tới bàn bếp phụ. Kết chính xác mốc dựng 12:00. Các món chưa được sơ chế hoặc nấu.
 
 **Thời gian C08:** từ sau ngày 70, gieo dền khoảng ngày 75, đi tuyến tính tới sáng khoảng ngày 105. Các cây được chọn theo nhóm giống và điều kiện phù hợp để có đợt thu cùng buổi; không mặc định mọi giống đều chín đúng cùng số ngày. Chưa khóa tháng/mùa địa phương.
 
@@ -2892,7 +2894,7 @@ Máy cố định mọi cảnh. S136, S150, S152 timelapse chuyển ngày hoặc
 
 ## C08 — Gieo rau dền và theo vườn tới ngày thu hoạch
 
-**24 cảnh · 84 giây · 09:12–10:36 · Chờ duyệt.**
+**24 cảnh · 84 giây · 09:12–10:36 · Đã duyệt.**
 
 Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; cảnh người và kiểm cây tự nhiên. Dền là cây ăn lá gieo sau, lá xanh có mảng đỏ tím, chưa trổ bông. Hạt rất nhỏ được trộn ít cát sạch để rải thưa, phủ mỏng, tưới nhẹ. Các tuyến quả tiến theo thứ tự thời gian: cà chua xanh → dưa vừa đậu → cà chua chín; dền lớn và khoai già đúng thời gian đã trôi. Kết cô cầm giỏ trống đầu buổi thu, chưa hái/đào.
 
@@ -2929,7 +2931,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S159 — Vườn bước sang đợt gieo rau cuối
 
-**09:12–09:16 · 4 giây · Máy cố định · Timelapse · Chờ duyệt**
+**09:12–09:16 · 4 giây · Máy cố định · Timelapse · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Sau ngày 70 → khoảng ngày 75.
 - **Địa điểm:** Khu nhà và vườn.
@@ -2946,7 +2948,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S160 — Mang hạt rau dền tới luống
 
-**09:16–09:19 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:16–09:19 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Sáng khoảng ngày 75.
 - **Địa điểm:** Luống rau dền B08.
@@ -2963,7 +2965,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S161 — San mịn mặt luống rau
 
-**09:19–09:23 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:19–09:23 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Cùng buổi sáng.
 - **Địa điểm:** Luống rau dền B08.
@@ -2980,7 +2982,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S162 — Răng cào đi qua dải đất kế
 
-**09:23–09:26 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:23–09:26 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Cùng buổi sáng.
 - **Địa điểm:** Cùng luống rau dền.
@@ -2997,7 +2999,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S163 — Trộn ít hạt nhỏ vào cát mịn
 
-**09:26–09:30 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:26–09:30 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Cùng buổi sáng.
 - **Địa điểm:** Đầu luống rau dền.
@@ -3014,7 +3016,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S164 — Hạt li ti phân đều trong bát
 
-**09:30–09:33 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:30–09:33 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Cùng buổi sáng.
 - **Địa điểm:** Cùng đầu luống.
@@ -3031,7 +3033,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S165 — Rải thưa dọc mặt luống
 
-**09:33–09:37 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:33–09:37 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Cùng buổi sáng.
 - **Địa điểm:** Luống rau dền B08.
@@ -3048,7 +3050,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S166 — Phủ lớp đất mịn rất mỏng
 
-**09:37–09:40 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:37–09:40 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Cùng buổi sáng.
 - **Địa điểm:** Cùng luống rau dền.
@@ -3065,7 +3067,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S167 — Tưới nhẹ trên luống vừa gieo
 
-**09:40–09:44 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:40–09:44 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Cùng buổi sáng.
 - **Địa điểm:** Đầu luống rau dền.
@@ -3082,7 +3084,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S168 — Nước lắng trên đoạn gieo kế
 
-**09:44–09:47 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:44–09:47 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Cùng buổi sáng.
 - **Địa điểm:** Đoạn kế trên luống rau dền.
@@ -3099,7 +3101,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S169 — Rau dền nhú thành những hàng lá nhỏ
 
-**09:47–09:51 · 4 giây · Máy cố định · Timelapse · Chờ duyệt**
+**09:47–09:51 · 4 giây · Máy cố định · Timelapse · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Khoảng ngày 75 → 82.
 - **Địa điểm:** Luống rau dền B08.
@@ -3116,7 +3118,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S170 — Tỉa chỗ cây mọc quá sát
 
-**09:51–09:54 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:51–09:54 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Sáng khoảng ngày 82.
 - **Địa điểm:** Luống rau dền B08.
@@ -3133,7 +3135,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S171 — Hoa cà chua chuyển thành quả xanh
 
-**09:54–09:58 · 4 giây · Máy cố định · Timelapse · Chờ duyệt**
+**09:54–09:58 · 4 giây · Máy cố định · Timelapse · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Sau ngày 82 → khoảng ngày 90.
 - **Địa điểm:** Luống cà chua B06.
@@ -3150,7 +3152,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S172 — Đỡ kiểm tra chùm quả non
 
-**09:58–10:01 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:58–10:01 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Sáng khoảng ngày 90.
 - **Địa điểm:** Luống cà chua B06.
@@ -3167,7 +3169,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S173 — Quả xanh nằm dưới đài
 
-**10:01–10:05 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:01–10:05 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Cùng buổi sáng.
 - **Địa điểm:** Cùng chùm cà chua.
@@ -3184,7 +3186,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S174 — Dưa bắt đầu đậu trái
 
-**10:05–10:08 · 3 giây · Máy cố định · Timelapse · Chờ duyệt**
+**10:05–10:08 · 3 giây · Máy cố định · Timelapse · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Sau ngày 90 → khoảng ngày 96.
 - **Địa điểm:** Giàn dưa chuột B07.
@@ -3201,7 +3203,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S175 — Đưa quả non ra ngoài chỗ lá chèn
 
-**10:08–10:12 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:08–10:12 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Sáng khoảng ngày 96.
 - **Địa điểm:** Giàn dưa chuột B07.
@@ -3218,7 +3220,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S176 — Quả dưa non thả dưới giàn
 
-**10:12–10:15 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:12–10:15 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Cùng buổi sáng.
 - **Địa điểm:** Cùng quả dưa vừa được đưa ra.
@@ -3235,7 +3237,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S177 — Cà chua chuyển dần sang đỏ
 
-**10:15–10:19 · 4 giây · Máy cố định · Timelapse · Chờ duyệt**
+**10:15–10:19 · 4 giây · Máy cố định · Timelapse · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Sau ngày 96 → khoảng ngày 103.
 - **Địa điểm:** Luống cà chua B06.
@@ -3252,7 +3254,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S178 — Kiểm tra luống rau đã đủ lớn
 
-**10:19–10:22 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:19–10:22 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Sáng khoảng ngày 104.
 - **Địa điểm:** Luống rau dền B08.
@@ -3269,7 +3271,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S179 — Lá dền non trên ngọn
 
-**10:22–10:26 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:22–10:26 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Cùng buổi sáng.
 - **Địa điểm:** Cùng luống rau dền.
@@ -3286,7 +3288,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S180 — Hàng khoai tới độ thu củ
 
-**10:26–10:29 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:26–10:29 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Cùng buổi sáng khoảng ngày 104.
 - **Địa điểm:** Luống khoai B03.
@@ -3303,7 +3305,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S181 — Từ chiều yên tới sáng thu hoạch
 
-**10:29–10:33 · 4 giây · Máy cố định · Timelapse · Chờ duyệt**
+**10:29–10:33 · 4 giây · Máy cố định · Timelapse · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Cuối ngày 104 → sáng khoảng ngày 105.
 - **Địa điểm:** Khu nhà và vườn.
@@ -3320,7 +3322,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 
 #### S182 — Mang giỏ trống tới vườn
 
-**10:33–10:36 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:33–10:36 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Sáng khoảng ngày 105.
 - **Địa điểm:** Lối hiên–vườn.
@@ -3334,6 +3336,451 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 - **Nối cảnh:** Kết C08 tại đầu buổi thu hoạch, chưa thực hiện thao tác hái/đào. Cụm sau phải nối tay đang cầm giỏ, chọn nông sản đủ độ. Dừng chờ duyệt.
 - **Âm thanh:** Bước chân, quai giỏ, chim và gió sáng. Không nhạc, không lời thoại.
 - **Tham chiếu:** B01; B03; B06; B07; B08; P01; D01.
+
+## C09 — Thu hoạch bốn loại thực phẩm, chia phần và mang vào bếp
+
+**24 cảnh · 84 giây · 10:36–12:00 · Chờ duyệt.**
+
+Toàn bộ máy cố định và tốc độ tự nhiên; lượt thu và chuyến mang lặp được lược tại điểm cắt. Thu khoai trước, tới cà chua đỏ, dưa xanh đủ cỡ và rau dền non cuối cùng. Bốn loại có giỏ/rổ riêng, không đè rau bằng củ nặng. Giữ thao tác cây/quả rời gốc/cuống và được tay đỡ trước khi đặt vào rổ. Phân phần ngắn: khoai/cà dư để riêng trong kho, phần nấu cả bốn loại nguyên chưa rửa tới bếp. Không thêm bảo quản cầu kỳ.
+
+### Bảng đọc nhanh
+
+| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
+|---|---|---:|---|---|
+| S183 | 10:36–10:40 | 4 | Toàn người | Cô hạ giỏ khoai xuống chỗ khô, buông quai khi giỏ vững rồi lấy xẻng nhỏ. |
+| S184 | 10:40–10:43 | 3 | Trung chéo bên | Cô đưa xẻng xuống phía ngoài vùng gốc, nạy nhẹ cho đất rời rồi dịch sang cạnh kế. |
+| S185 | 10:43–10:47 | 4 | Cận thấp | Cô nâng nhẹ phần gốc trong khi tay kia gạt đất tơi ra, để lộ vài củ còn nằm trong đất. |
+| S186 | 10:47–10:50 | 3 | Trung cô và giỏ ở cạnh lối; máy cố định. | Cô nhặt củ vừa cỡ từ đất tơi, đặt nhẹ vào giỏ rồi đưa tay tìm củ kế. |
+| S187 | 10:50–10:54 | 4 | Cận tay và miệng giỏ khoai; máy cố định. | Cô gỡ nhẹ cục đất rời trên vỏ, đặt củ vào khoảng trống trong giỏ rồi rút tay. |
+| S188 | 10:54–10:57 | 3 | Toàn cô | Cô đặt rổ trên lối cạnh cây, đưa mắt theo một chùm có quả đỏ rồi đưa tay tới. |
+| S189 | 10:57–11:01 | 4 | Trung chéo bên | Một tay cô đỡ quả đỏ, tay kia giữ nhẹ đoạn cành gần cuống rồi xoay quả lên một góc nhỏ. |
+| S190 | 11:01–11:04 | 3 | Cận tay | Cô hoàn tất nhịp xoay nhẹ tại khớp cuống, quả tách ra nằm trong lòng tay. |
+| S191 | 11:04–11:08 | 4 | Trung cô và rổ trên lối; máy cố định. | Cô hạ quả nhẹ vào rổ rồi đưa tay lên chùm kế để chọn quả đỏ khác. |
+| S192 | 11:08–11:11 | 3 | Cận rổ có cà chua và tay đang hạ quả mới; máy cố định. | Cô đặt quả mới vào rổ, rút tay; hậu cảnh vẫn thấy chùm còn quả xanh chưa hái. |
+| S193 | 11:11–11:15 | 4 | Toàn cô | Cô đặt rổ dưới khoảng lối cạnh giàn, nâng một quả dưa vỏ xanh vừa cỡ, đưa kéo tới cuống. |
+| S194 | 11:15–11:18 | 3 | Trung tay | Cô khép kéo cắt cuống, giữ quả yên khi quả vừa rời dây. |
+| S195 | 11:18–11:22 | 4 | Cận quả vừa cắt và rổ ở dưới; máy cố định. | Cô hạ quả nằm nhẹ trong rổ, buông khi quả được đáy rổ đỡ. |
+| S196 | 11:22–11:25 | 3 | Toàn cô và mảng giàn; máy cố định. | Cô đặt quả cuối vào rổ, cất kéo gọn ở giỏ dụng cụ rồi nâng rổ khỏi lối. |
+| S197 | 11:25–11:29 | 4 | Toàn cô | Cô ngồi thấp, gom nhẹ vài thân dền vừa cỡ vào một tay, tay kia giữ mặt đất cạnh gốc. |
+| S198 | 11:29–11:32 | 3 | Trung chéo thấp | Cô kéo nhẹ nhóm cây lên theo trục thân, tay còn lại đỡ sát chân để rễ rời đất. |
+| S199 | 11:32–11:36 | 4 | Cận rễ dền và tay giữ bó | Cô rũ nhẹ một nhịp trên mép luống để đất rời rơi xuống, giữ bó không quật lá. |
+| S200 | 11:36–11:39 | 3 | Trung cô | Cô hạ bó cuối vào rổ, để rễ cùng một hướng và phần lá không bị đè, rồi rút tay. |
+| S201 | 11:39–11:43 | 4 | Toàn người trên lối về kho; máy cố định. | Cô xách hai giỏ/rổ lượng vừa sức đi theo lối về khu nhà, không chồng chúng lên nhau. |
+| S202 | 11:43–11:46 | 3 | Trung mặt kê có sẵn và các rổ riêng; máy cố định. | Cô đặt củ khoai cuối dành cho bữa vào rổ con đúng loại, chỉnh rổ cà chua bên cạnh rồi đẩy giỏ phần để dành về phía cửa kho. |
+| S203 | 11:46–11:50 | 4 | Trung cô và kệ kho hiện có; máy cố định. | Cô hạ giỏ lên kệ thấp thoáng, tránh ánh sáng trực tiếp rồi buông quai. |
+| S204 | 11:50–11:53 | 3 | Cận tay và rổ cà chua trên kệ khác; máy cố định. | Cô đặt rổ lên mặt kê thoáng riêng, chỉnh một quả khỏi chỗ bị tì rồi rút tay. |
+| S205 | 11:53–11:57 | 4 | Toàn cô đi qua cửa bếp; máy cố định. | Cô đỡ giỏ phần nấu bằng hai tay, bước qua cửa bếp phụ hướng tới bàn chuẩn bị. |
+| S206 | 11:57–12:00 | 3 | Trung bàn bếp phụ | Cô hạ giỏ lên bàn vững, buông tay rồi nhấc rổ cà chua riêng đặt sát chậu gỗ. |
+
+### Mô tả chi tiết
+
+#### S183 — Đặt giỏ xuống cạnh hàng khoai
+
+**10:36–10:40 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Lối cạnh luống khoai B03.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Toàn người, đầu luống và vùng đặt đồ; máy cố định.
+- **Bố cục:** Giữ đường đi vườn–kho–bếp theo bối cảnh thật; thấy vị trí giỏ và phần luống đã thu, không đổi trạng thái ngoài lý do dựng.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Cô vẫn cầm giỏ trống cuối S182. Ba rổ tre riêng cho cà chua, dưa và rau cùng xẻng nhỏ/kéo đã đặt sẵn trên lối khô trước buổi thu, nay mới vào góc máy.
+- **Hành động:** Cô hạ giỏ khoai xuống chỗ khô, buông quai khi giỏ vững rồi lấy xẻng nhỏ.
+- **Kết quả:** Giỏ ở cạnh luống, tay cô có xẻng; chưa đào hoặc có củ trong giỏ.
+- **Nối cảnh:** Nối đúng tay cầm giỏ cuối C08. Không đổ chung bốn loại vào giỏ dính đất; các rổ trống đã được xác lập ngay đầu cụm.
+- **Âm thanh:** Giỏ chạm nền, cán xẻng và bước chân nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B03; P01; D01; D03; D18; D19.
+
+#### S184 — Xới vòng ngoài gốc khoai
+
+**10:40–10:43 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Luống khoai B03.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Trung chéo bên, thấy xẻng và gốc già; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Thân lá đã già như S180; đất vun còn che củ, cô đứng/ngồi ở lối.
+- **Hành động:** Cô đưa xẻng xuống phía ngoài vùng gốc, nạy nhẹ cho đất rời rồi dịch sang cạnh kế.
+- **Kết quả:** Vòng đất quanh một gốc đã được nới, chưa có củ bị xẻng chém trúng.
+- **Nối cảnh:** Xới cách gốc, không bổ thẳng vào chỗ có củ. Chỉ thấy các nhịp tiêu biểu; phần nới còn lại được lược trước nhấc gốc.
+- **Âm thanh:** Xẻng vào đất, đất tách xào xạo. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B03; P01; D01; D03; D18; D19.
+
+#### S185 — Lộ củ dưới lớp đất đã nới
+
+**10:43–10:47 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Cùng gốc khoai.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Cận thấp, tay, chân gốc và đất rõ; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Đất đã nới quanh gốc; tay cô đặt thấp gần chân thân già.
+- **Hành động:** Cô nâng nhẹ phần gốc trong khi tay kia gạt đất tơi ra, để lộ vài củ còn nằm trong đất.
+- **Kết quả:** Một số củ đã lộ, phần lớn vẫn tựa đất; không thành chùm củ treo như chùm nho trên rễ.
+- **Nối cảnh:** Tiếp gốc đã xới S184. Chỉ thấy củ sau khi đất mở; không dựng xuyên đất hoặc củ tự trồi lên.
+- **Âm thanh:** Đất vụn, thân già cọ tay nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B03; P01; D01; D03; D18; D19.
+
+#### S186 — Nhặt củ nguyên vẹn vào giỏ
+
+**10:47–10:50 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Cùng luống khoai.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Trung cô và giỏ ở cạnh lối; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Vài củ đã lộ, gốc nhấc sang bên; giỏ còn trống.
+- **Hành động:** Cô nhặt củ vừa cỡ từ đất tơi, đặt nhẹ vào giỏ rồi đưa tay tìm củ kế.
+- **Kết quả:** Giỏ bắt đầu có khoai còn vỏ và ít đất khô bám; không ném củ.
+- **Nối cảnh:** Không cắt hoặc rửa khoai tại vườn. Chọn củ đủ độ, nguyên vẹn; không thêm cảnh củ hỏng hoặc bị thương.
+- **Âm thanh:** Củ chạm giỏ tre đục nhẹ, đất vụn. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B03; P01; D01; D03; D18; D19.
+
+#### S187 — Gỡ đất khô trên củ cuối
+
+**10:50–10:54 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Cuối lượt thu khoai tiêu biểu.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Cận tay và miệng giỏ khoai; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Sau các lượt nhặt và vài gốc được lược, giỏ có lượng khoai vừa cho dùng và để dành; tay cô cầm củ cuối còn ít đất khô.
+- **Hành động:** Cô gỡ nhẹ cục đất rời trên vỏ, đặt củ vào khoảng trống trong giỏ rồi rút tay.
+- **Kết quả:** Giỏ khoai đủ lượt này, củ chưa rửa, không chà tróc vỏ; phần luống chưa đào vẫn còn.
+- **Nối cảnh:** Không làm sạch bóng hoặc gọt vỏ. Chỉ thu phần đủ dùng và để dành, không làm cả vườn biến thành luống trống.
+- **Âm thanh:** Đất vụn rơi, củ chạm tre nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B03; P01; D01; D03; D18; D19.
+
+#### S188 — Chuyển sang chọn cà chua chín
+
+**10:54–10:57 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Luống cà chua B06.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Toàn cô, rổ sạch và tán cà chua; máy cố định.
+- **Bố cục:** Giữ đường đi vườn–kho–bếp theo bối cảnh thật; thấy vị trí giỏ và phần luống đã thu, không đổi trạng thái ngoài lý do dựng.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Khoai giữ trong giỏ riêng ở vùng đặt đồ có bóng râm. Cô đã lấy rổ cà chua rỗng từ bộ rổ đầu cụm và tới luống trong đoạn lược.
+- **Hành động:** Cô đặt rổ trên lối cạnh cây, đưa mắt theo một chùm có quả đỏ rồi đưa tay tới.
+- **Kết quả:** Rổ cà chua ở chỗ đỡ chắc, tay cô gần quả chín; các quả xanh còn trên cây.
+- **Nối cảnh:** Lược quãng đi và lấy rổ, không đổi giỏ khoai đầy thành rổ trống. Chọn quả đỏ đủ độ, chưa mềm nát.
+- **Âm thanh:** Rổ tre đặt nền, lá và áo. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B06; P01; D18.
+
+#### S189 — Đỡ quả đỏ, giữ cành ổn định
+
+**10:57–11:01 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Cùng cây cà chua.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Trung chéo bên, thấy hai tay và chùm quả; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Tay cô vừa tới quả đỏ, cuống còn nguyên, quả xanh ở cạnh.
+- **Hành động:** Một tay cô đỡ quả đỏ, tay kia giữ nhẹ đoạn cành gần cuống rồi xoay quả lên một góc nhỏ.
+- **Kết quả:** Quả chín đã được nâng và xoay, chưa khẳng định rời cuống; cành không bị kéo xuống.
+- **Nối cảnh:** Cắt trong chuyển động sang cận S190; không giật cả chùm hoặc bứt quả xanh.
+- **Âm thanh:** Lá cọ tay nhẹ, chim sáng. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B06; P01; D18.
+
+#### S190 — Quả chín rời cuống
+
+**11:01–11:04 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Cùng chùm cà chua.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Cận tay, cuống quả đỏ và cành; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Quả đang ở góc nâng cuối S189, tay giữ cành ổn định.
+- **Hành động:** Cô hoàn tất nhịp xoay nhẹ tại khớp cuống, quả tách ra nằm trong lòng tay.
+- **Kết quả:** Một quả đỏ đã rời cây, vỏ còn nguyên; quả xanh vẫn gắn trên chùm.
+- **Nối cảnh:** Tiếp phần cuối S189, không diễn lại lần đưa tay và đỡ quả từ đầu. Quả không tự tách trước khi tay tác động.
+- **Âm thanh:** Tiếng cuống tách rất nhẹ, lá xào xạc. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B06; P01; D18.
+
+#### S191 — Đặt quả đầu rồi chọn tiếp
+
+**11:04–11:08 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Cùng luống cà chua.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Trung cô và rổ trên lối; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Quả đầu đã nằm trong tay; rổ cà chua còn rỗng.
+- **Hành động:** Cô hạ quả nhẹ vào rổ rồi đưa tay lên chùm kế để chọn quả đỏ khác.
+- **Kết quả:** Rổ có quả đầu, cô tiếp tục ở vị trí mới, không sắp hàng tạo dáng.
+- **Nối cảnh:** Không đặt lại quả đã thấy vào rổ nhiều lần. Rổ không nằm trên mặt đất ướt hoặc giẫm lên gốc.
+- **Âm thanh:** Quả chạm tre nhẹ, vải áo. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B06; P01; D18.
+
+#### S192 — Giữ lại quả xanh trên cây
+
+**11:08–11:11 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Cuối lượt thu cà chua.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Cận rổ có cà chua và tay đang hạ quả mới; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Các lượt hái giữa đã được lược; rổ có một lớp quả đỏ, tay cô cầm quả chín mới từ chùm khác.
+- **Hành động:** Cô đặt quả mới vào rổ, rút tay; hậu cảnh vẫn thấy chùm còn quả xanh chưa hái.
+- **Kết quả:** Rổ cà chua đủ phần dùng và để dành ngắn ngày; không chất cao đè dập.
+- **Nối cảnh:** Đây là quả mới, không chiếu lại quả đầu S191. Giữ đủ lượng cà chua cho hai món có cà chua và Hồng tam đóa, không chỉ một quả tượng trưng.
+- **Âm thanh:** Quả và giỏ, lá nền. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B06; P01; D18.
+
+#### S193 — Chọn quả dưa vừa cỡ
+
+**11:11–11:15 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Giàn dưa chuột B07.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Toàn cô, giàn và rổ dưa riêng; máy cố định.
+- **Bố cục:** Giữ đường đi vườn–kho–bếp theo bối cảnh thật; thấy vị trí giỏ và phần luống đã thu, không đổi trạng thái ngoài lý do dựng.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Rổ cà chua đã đưa về bóng râm trong đoạn lược. Cô có rổ dưa rỗng riêng và kéo nhỏ sạch từ vùng đặt đồ đầu cụm.
+- **Hành động:** Cô đặt rổ dưới khoảng lối cạnh giàn, nâng một quả dưa vỏ xanh vừa cỡ, đưa kéo tới cuống.
+- **Kết quả:** Quả được tay đỡ, kéo ở gần cuống; dây vẫn tựa giàn không bị kéo căng.
+- **Nối cảnh:** Không chọn quả già vàng, không dùng rổ đã chứa cà chua hoặc giỏ đất khoai. Giàn giữ nguyên hình từ C07.
+- **Âm thanh:** Rổ đặt, lá cọ tay, kéo mở nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B07; P01; D18; D19.
+
+#### S194 — Cắt cuống, giữ quả trên tay
+
+**11:15–11:18 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Cùng quả dưa đã chọn.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Trung tay, cuống và phần dây leo; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Quả nằm trong tay đỡ, lưỡi kéo mở sát cuống nhưng tránh thân chính.
+- **Hành động:** Cô khép kéo cắt cuống, giữ quả yên khi quả vừa rời dây.
+- **Kết quả:** Quả dưa có đoạn cuống ngắn đã tách, dây và tua không bị giật khỏi giàn.
+- **Nối cảnh:** Tiếp vị trí kéo S193, không kéo đứt cả dây. Không cắt lặp lại cùng cuống ở góc sau.
+- **Âm thanh:** Một tiếng kéo gọn, lá nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B07; P01; D18; D19.
+
+#### S195 — Hạ quả dưa vào rổ
+
+**11:18–11:22 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Cùng vị trí thu dưa.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Cận quả vừa cắt và rổ ở dưới; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Quả đã rời cuống ở S194; cô giữ bằng tay, kéo ở tay kia ngoài đường hạ.
+- **Hành động:** Cô hạ quả nằm nhẹ trong rổ, buông khi quả được đáy rổ đỡ.
+- **Kết quả:** Rổ có quả đầu, vỏ nguyên, kéo không chạm vào thực phẩm hoặc rổ khi hạ.
+- **Nối cảnh:** Chỉ phần đặt quả sau lần cắt, không làm lại việc hái. Không thả rơi từ cao.
+- **Âm thanh:** Quả chạm tre nhẹ, áo chuyển. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B07; P01; D18; D19.
+
+#### S196 — Kết lượt dưa cho bữa ăn
+
+**11:22–11:25 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Cuối lượt thu dưa.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Toàn cô và mảng giàn; máy cố định.
+- **Bố cục:** Giữ đường đi vườn–kho–bếp theo bối cảnh thật; thấy vị trí giỏ và phần luống đã thu, không đổi trạng thái ngoài lý do dựng.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Sau các lượt chọn/cắt được lược, rổ có vài quả xanh; tay cô cầm quả cuối đã cắt.
+- **Hành động:** Cô đặt quả cuối vào rổ, cất kéo gọn ở giỏ dụng cụ rồi nâng rổ khỏi lối.
+- **Kết quả:** Dưa đã thu đủ cho bữa, các quả non còn trên giàn; rổ dưa không trộn quả khác.
+- **Nối cảnh:** Không làm toàn bộ giàn trụi quả và lá. Lượng vừa quy mô hai bà cháu, chưa rửa hoặc cắt đầu quả.
+- **Âm thanh:** Rổ nhấc, kéo đặt gọn, lá giàn. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B07; P01; D18; D19.
+
+#### S197 — Chọn ngọn dền còn non
+
+**11:25–11:29 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Luống rau dền B08.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Toàn cô, luống dền và rổ rau riêng; máy cố định.
+- **Bố cục:** Giữ đường đi vườn–kho–bếp theo bối cảnh thật; thấy vị trí giỏ và phần luống đã thu, không đổi trạng thái ngoài lý do dựng.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Rổ dưa đã về bóng râm qua đoạn lược. Cô đặt rổ rau rỗng riêng bên lối; dền đủ non, chưa trổ bông.
+- **Hành động:** Cô ngồi thấp, gom nhẹ vài thân dền vừa cỡ vào một tay, tay kia giữ mặt đất cạnh gốc.
+- **Kết quả:** Một nhóm cây đã được chọn, vẫn còn rễ trong đất, không gom cả luống.
+- **Nối cảnh:** Dền xanh có mảng đỏ tím đúng C08. Thu rau cuối để mang vào bếp ngay; không tước lá hoặc nhặt bỏ rễ ở vườn.
+- **Âm thanh:** Lá rau cọ tay, vải áo nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B08; P01; D18.
+
+#### S198 — Nhổ nhẹ cây dền đã chọn
+
+**11:29–11:32 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Cùng vị trí rau dền.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Trung chéo thấp, thấy tay và gốc; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Một nhóm thân đang được giữ thấp, đất đủ tơi để nhổ.
+- **Hành động:** Cô kéo nhẹ nhóm cây lên theo trục thân, tay còn lại đỡ sát chân để rễ rời đất.
+- **Kết quả:** Rau đã rời luống cùng rễ, lá không dập; phần dền chưa chọn vẫn nguyên.
+- **Nối cảnh:** Nối nhóm đang cầm S197. Không nhổ rồi trồng lại hoặc biến rau thành bó đã cắt rễ sạch.
+- **Âm thanh:** Rễ rời đất nhẹ, lá xào xạc. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B08; P01; D18.
+
+#### S199 — Rũ phần đất rời ở rễ
+
+**11:32–11:36 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Cùng mép luống.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Cận rễ dền và tay giữ bó, lá ngoài vùng đất rơi; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Rau vừa nhổ, rễ còn ít đất tơi; rổ rau đặt cách vùng rũ.
+- **Hành động:** Cô rũ nhẹ một nhịp trên mép luống để đất rời rơi xuống, giữ bó không quật lá.
+- **Kết quả:** Rễ còn nguyên và có thể bám chút đất; rau chưa rửa hoặc sơ chế.
+- **Nối cảnh:** Đất rơi trở về luống, không rũ lên rổ cà chua hoặc dưa. Không cắt rễ ở cảnh này.
+- **Âm thanh:** Đất nhỏ rơi, lá nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B08; P01; D18.
+
+#### S200 — Xếp rau vào rổ riêng
+
+**11:36–11:39 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Cuối lượt thu rau dền.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Trung cô, rổ rau và phần luống còn lại; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Qua phần thu lặp được lược, rổ có vài bó rau non; cô cầm bó cuối đã rũ đất rời.
+- **Hành động:** Cô hạ bó cuối vào rổ, để rễ cùng một hướng và phần lá không bị đè, rồi rút tay.
+- **Kết quả:** Rau đủ bữa trong rổ riêng, vẫn nguyên rễ; không chất giỏ nặng lên lá.
+- **Nối cảnh:** Chưa nhặt, rửa, cắt hoặc bó chặt. Các bước sơ chế dành cho phần bếp; phần rau khác còn trên luống.
+- **Âm thanh:** Lá chạm rổ, tre và vải. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B08; P01; D18.
+
+#### S201 — Mang lượt thu về khu nhà
+
+**11:39–11:43 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Lối vườn–khu nhà.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Toàn người trên lối về kho; máy cố định.
+- **Bố cục:** Giữ đường đi vườn–kho–bếp theo bối cảnh thật; thấy vị trí giỏ và phần luống đã thu, không đổi trạng thái ngoài lý do dựng.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Bốn loại đã ở bốn giỏ/rổ riêng trong bóng râm. Cô đã lấy giỏ khoai một tay và rổ cà chua tay kia; dưa/dền còn chờ chuyến sau ở chỗ mát.
+- **Hành động:** Cô xách hai giỏ/rổ lượng vừa sức đi theo lối về khu nhà, không chồng chúng lên nhau.
+- **Kết quả:** Khoai và cà chua được đưa tới khu chia phần; rau dưa còn trong bóng râm chờ chuyến ngắn tiếp.
+- **Nối cảnh:** Chỉ thể hiện một chuyến mang tiêu biểu; chuyến dưa/rau được lược trước cảnh sau. Không bắt cô mang bốn rổ đầy bằng hai tay.
+- **Âm thanh:** Bước chân, quai tre chuyển, chim sân. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B09; P01; D01; D18; D20.
+
+#### S202 — Chia phần nấu và phần để dành
+
+**11:43–11:46 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Chỗ chia phần có bóng râm gần kho.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Trung mặt kê có sẵn và các rổ riêng; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Sau chuyến thứ hai được lược, bốn loại đều ở chỗ chia. Giỏ mang bếp sạch D20 có bốn rổ con đã nhận phần dùng nấu qua các lượt chọn được lược; phần khoai/cà dư còn riêng.
+- **Hành động:** Cô đặt củ khoai cuối dành cho bữa vào rổ con đúng loại, chỉnh rổ cà chua bên cạnh rồi đẩy giỏ phần để dành về phía cửa kho.
+- **Kết quả:** Phần nấu có đủ bốn loại, vẫn nguyên chưa rửa; dưa/dền dùng cho bữa, khoai và cà chua có phần để dành riêng.
+- **Nối cảnh:** Phần chia ngắn, chỉ một lượt chọn cuối đại diện, không cân hoặc đếm kỹ. Rổ con ngăn riêng khoai, quả và lá, không đè rau bằng củ nặng.
+- **Âm thanh:** Củ chạm tre, rổ xê nhẹ trên mặt kê. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B09; P01; D01; D18; D20.
+
+#### S203 — Đặt giỏ khoai vào chỗ thoáng tối
+
+**11:46–11:50 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Kho B09.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Trung cô và kệ kho hiện có; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Giỏ khoai để dành còn củ nguyên chưa rửa, ít đất khô bám; cô đã mang giỏ tới cửa kho qua điểm cắt.
+- **Hành động:** Cô hạ giỏ lên kệ thấp thoáng, tránh ánh sáng trực tiếp rồi buông quai.
+- **Kết quả:** Khoai ở khu riêng, giỏ mở thoáng, không đậy kín hoặc trộn với cà chua.
+- **Nối cảnh:** Đây là bước đặt khoai chờ khô/để dành, không khẳng định đã hoàn tất bảo quản dài ngày ngay sau đào. Không thêm quy trình xử lý hoặc đóng gói.
+- **Âm thanh:** Giỏ chạm kệ gỗ, bước chân. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B09; P01; D01; D18; D20.
+
+#### S204 — Để riêng rổ cà chua còn lại
+
+**11:50–11:53 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Khu thoáng mát gần cửa kho, tránh nắng.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Cận tay và rổ cà chua trên kệ khác; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Rổ cà chua để dành ngắn ngày ở tay cô, không có khoai hoặc rau lá bên trong.
+- **Hành động:** Cô đặt rổ lên mặt kê thoáng riêng, chỉnh một quả khỏi chỗ bị tì rồi rút tay.
+- **Kết quả:** Cà chua được để theo loại, một lớp thoáng; phần nguyên liệu nấu vẫn ở giỏ D20 ngoài kho.
+- **Nối cảnh:** Không mô tả đây là cách giữ cà chua chín lâu nhiều tuần. Không đặt ngay trong vùng tối bí hoặc dưới giỏ khoai nặng.
+- **Âm thanh:** Rổ và gỗ nhẹ, âm sân xa. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B09; P01; D01; D18; D20.
+
+#### S205 — Mang phần dùng nấu vào bếp phụ
+
+**11:53–11:57 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Từ chỗ chia phần tới bếp phụ B10.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Toàn cô đi qua cửa bếp; máy cố định.
+- **Bố cục:** Giữ đường đi vườn–kho–bếp theo bối cảnh thật; thấy vị trí giỏ và phần luống đã thu, không đổi trạng thái ngoài lý do dựng.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Giỏ D20 có bốn rổ con riêng: khoai còn vỏ, cà chua nguyên, dưa nguyên và dền còn rễ. Phần để dành đã ở khu kho.
+- **Hành động:** Cô đỡ giỏ phần nấu bằng hai tay, bước qua cửa bếp phụ hướng tới bàn chuẩn bị.
+- **Kết quả:** Bốn loại thực phẩm cùng được đưa vào bếp, vẫn chưa rửa hoặc cắt.
+- **Nối cảnh:** Lược quãng đi quay lại lấy giỏ; giỏ D20 được xác lập ở S202, không biến giỏ khoai lưu lại thành giỏ sạch chứa cả bốn loại.
+- **Âm thanh:** Bước chân trên nền bếp, quai tre và áo. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B10; P01; D20.
+
+#### S206 — Đặt nguyên liệu thô lên bàn bếp
+
+**11:57–12:00 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Ngày trong câu chuyện:** Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.
+- **Địa điểm:** Bàn bếp phụ B10.
+- **Ánh sáng:** Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Cỡ cảnh và góc nhìn:** Trung bàn bếp phụ, giỏ và tay cô; máy cố định.
+- **Bố cục:** Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
+- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Trạng thái đầu:** Cô đang đỡ giỏ D20 cạnh bàn; chậu gỗ rửa đặt ở bàn, xô cao gần cửa đúng thiết kế, chưa lấy nước.
+- **Hành động:** Cô hạ giỏ lên bàn vững, buông tay rồi nhấc rổ cà chua riêng đặt sát chậu gỗ.
+- **Kết quả:** Bốn loại đã tới bàn: cà chua nguyên, khoai còn vỏ, dưa nguyên, dền còn rễ. Chậu rửa chưa có thao tác rửa, chưa nấu.
+- **Nối cảnh:** Kết C09 ở mốc 12:00. Phần bếp sau phải bắt đầu từ trạng thái nguyên liệu thô này, lấy nước từ xô cao gần cửa. Dừng chờ duyệt.
+- **Âm thanh:** Giỏ chạm bàn, rổ cà chua đặt nhẹ, âm sân qua cửa; không nhạc/thoại. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Tham chiếu:** B10; P01; D20.
 
 ## Tài nguyên và liên tục
 
@@ -3377,6 +3824,12 @@ Mã tài nguyên là nhãn chức năng; chưa phải tên ảnh đã đối chi
 | D16 | Cào cán gỗ | Một cào thủ công cùng kiểu qua S160–S162, dùng san lớp mặt, đặt lại ở lối khi gieo. | Không biến thành cuốc hoặc máy xới. |
 | D17 | Bộ gieo rau dền | Gói giấy hạt nâu đen li ti; bát gỗ ít cát sạch mịn để trộn rải đều; rổ đất mịn phủ mỏng. | Không phải phân bón hoặc thuốc, không truy nguồn. Gieo khoảng ngày 75, đến sáng ngày 105 đủ non để thu. |
 
+| B09 | Chỗ chia phần và kho hiện có | Dùng mặt kê có sẵn trong bóng râm gần kho; khoai và cà chua đặt riêng theo loại. | Khoai để thoáng tránh sáng, cà chua để riêng thoáng mát dùng ngắn ngày; không có cảnh bảo quản cầu kỳ. |
+| B10 | Bàn bếp phụ theo thiết kế | Bàn gỗ, chậu gỗ rửa trên bàn và xô cao gần cửa đúng ảnh bếp người dùng; không thêm vòi ở bàn. | S206 mới đặt thực phẩm nguyên lên bàn, chưa rửa/gọt/cắt hoặc nhóm lửa. |
+| D18 | Ba rổ thu riêng | Ba rổ tre sạch riêng cho cà chua, dưa và rau; xác lập cạnh vùng đặt đồ S183. Giỏ D01 dành khoai. | Không đổi rổ khoai đầy thành rổ quả trống qua điểm cắt; rau luôn tránh bị củ/quả đè. |
+| D19 | Kéo nhỏ thu cuống dưa | Kéo thủ công sạch, có ở vùng đặt đồ S183; dùng cắt cuống dưa, tay kia đỡ quả. | Không kéo đứt cả dây dưa; cất kéo sau lượt thu. |
+| D20 | Giỏ mang bếp và bốn rổ con | Một giỏ sạch đỡ bốn rổ nhỏ ngăn riêng bốn loại phần nấu, xác lập khi chia phần S202. | S206 ở bàn bếp; rổ cà chua đã nhấc ra sát chậu rửa, các loại khác vẫn trong rổ riêng. |
+
 **Bàn giao cuối S039 (đầu vào C03):** một hàng khoai đã đặt củ và phủ đất. Đầu hàng đã tưới; phần xa chưa khẳng định tưới xong. Cô, xô, gáo ở đầu luống. Cuốc, xẻng, giỏ, khay rỗng và rổ giống rỗng ở lối đầu luống. Các luống khác chưa trồng. Chưa có cây mọc.
 
 **Bàn giao cuối S062:** hàng khoai đã được tưới xong. Một khay cà chua vừa gieo và phủ lớp mỏng nằm ở vị trí ươm ấm, kín gió dưới hiên; giá thể đủ ẩm, chưa có mầm. Xô/gáo ở cạnh bàn gieo; gói hạt đã khép, dụng cụ gieo ở bàn. Giỏ, khay khoai, rổ, cuốc và xẻng vẫn ở đầu luống. Chưa gieo dưa chuột hoặc rau dền.
@@ -3391,9 +3844,11 @@ Mã tài nguyên là nhãn chức năng; chưa phải tên ảnh đã đối chi
 
 **Bàn giao cuối S182:** sáng khoảng ngày 105, cà chua có quả chín đỏ xen quả xanh, dưa đủ cỡ ăn nhưng vỏ còn xanh, dền có lá non chưa bông, khoai đã già lá và củ vẫn dưới đất. Cô cầm giỏ tre sạch còn trống trên lối vườn; chưa thu bất kỳ loại nào. Giữ đúng sáu cây cà chua/cọc, bốn cây dưa và hình giàn tre, luống dền riêng.
 
+**Bàn giao cuối S206 / đầu phần bếp:** đúng 12:00, bốn loại phần nấu đã tới bàn bếp phụ, vẫn nguyên chưa rửa/gọt/cắt. Khoai còn vỏ và ít đất khô; cà chua/dưa nguyên; dền còn rễ. Giỏ D20 ở bàn, rổ cà chua đã nhấc ra sát chậu gỗ, ba loại khác vẫn trong rổ riêng. Xô cao cạnh cửa chưa được múc, chậu chưa có thao tác rửa, chưa nhóm lửa. Khoai/cà dư đã đặt riêng theo loại ở khu kho.
+
 ## Quy chuẩn hiện hành
 
-- **Phạm vi duyệt:** C01/S001–S015 đã duyệt qua yêu cầu tiếp tục. C02/S016–S039 đã duyệt. C03/S040–S062 đã duyệt. C04/S063–S086 đã duyệt. C05/S087–S110 đã duyệt. C06/S111–S134 đã duyệt. C07/S135–S158 đã duyệt. C08/S159–S182 chờ duyệt; dừng trước C09.
+- **Phạm vi duyệt:** C01/S001–S015 đã duyệt qua yêu cầu tiếp tục. C02/S016–S039 đã duyệt. C03/S040–S062 đã duyệt. C04/S063–S086 đã duyệt. C05/S087–S110 đã duyệt. C06/S111–S134 đã duyệt. C07/S135–S158 đã duyệt. C08/S159–S182 đã duyệt. C09/S183–S206 chờ duyệt; dừng trước C10.
 
 - **Thời lượng:** Mục tiêu toàn phim 20 phút, 350 cảnh. 12 phút đầu cho mở đầu và việc vườn; 6 phút cho chuẩn bị bếp, sơ chế, nấu; 2 phút cho dọn và ăn tối. Thời lượng cảnh là phần dùng trong bản dựng.
 
@@ -3401,11 +3856,11 @@ Mã tài nguyên là nhãn chức năng; chưa phải tên ảnh đã đối chi
 
 - **Máy và dựng:** Máy cố định ở mọi cảnh. Chủ yếu toàn–trung–cận. Cắt thẳng; đổi góc để tiếp diễn hoặc lược thời gian ở điểm cắt. Không yêu cầu hoàn thành nhiều phút lao động trong vài giây tự nhiên.
 
-- **Tốc độ:** Công việc và tình cảm ở tốc độ tự nhiên; tua nhanh dành cho chờ hoặc sinh trưởng. C01–C03 đều tự nhiên. C04 có sáu cảnh timelapse chuyển ngày/sinh trưởng; C05 có ba cảnh timelapse lớn thêm, ổn định sau sang chậu và quen nắng. C06 hoàn toàn tự nhiên. C07 có S136, S150, S152 timelapse; các cảnh khác tự nhiên. C08 có S159, S169, S171, S174, S177, S181 timelapse; các cảnh còn lại tự nhiên. Cảnh người và tình cảm vẫn tự nhiên. Phần việc lặp được lược tại điểm cắt.
+- **Tốc độ:** Công việc và tình cảm ở tốc độ tự nhiên; tua nhanh dành cho chờ hoặc sinh trưởng. C01–C03 đều tự nhiên. C04 có sáu cảnh timelapse chuyển ngày/sinh trưởng; C05 có ba cảnh timelapse lớn thêm, ổn định sau sang chậu và quen nắng. C06 hoàn toàn tự nhiên. C07 có S136, S150, S152 timelapse; các cảnh khác tự nhiên. C08 có S159, S169, S171, S174, S177, S181 timelapse; các cảnh còn lại tự nhiên. C09 hoàn toàn tự nhiên; lượt thu và chuyến mang lặp lược tại điểm cắt. Cảnh người và tình cảm vẫn tự nhiên. Phần việc lặp được lược tại điểm cắt.
 
 - **Âm thanh:** Chỉ âm thao tác và môi trường khớp hình; không nhạc, không lời thoại, không lời bình. Tiếng chim thưa và gió nhẹ nối liền qua các điểm cắt.
 
-- **Nhân vật:** Cô gái là chính; bà là người được chăm sóc. Chó, mèo thỉnh thoảng xuất hiện tự nhiên. C01–C03 chỉ có cô gái. C04 có bà ở S072–S077 và mèo ở S084; chó xuất hiện lần đầu ở S158. C05–C06 chỉ có cô gái. C07 có thêm chó ở S158. C08 chỉ có cô gái.
+- **Nhân vật:** Cô gái là chính; bà là người được chăm sóc. Chó, mèo thỉnh thoảng xuất hiện tự nhiên. C01–C03 chỉ có cô gái. C04 có bà ở S072–S077 và mèo ở S084; chó xuất hiện lần đầu ở S158. C05–C06 chỉ có cô gái. C07 có thêm chó ở S158. C08–C09 chỉ có cô gái.
 
 - **Cây và món:** Cà chua là tuyến chính; khoai tây, dưa chuột, rau dền là các tuyến bổ sung. Năm món đã chốt: khoai tây kiểu bà, Hồng tam đóa, trứng xào cà chua, dưa chuột trộn tỏi, rau dền xào tỏi.
 
@@ -3447,6 +3902,9 @@ Phỏng vấn của người dùng là căn cứ ưu tiên. Khung đã đọc: K
 - [Dền ăn lá và nhịp sinh trưởng](https://ask.ifas.ufl.edu/publication/HS1407): UF/IFAS, Production Guide of Vegetable Amaranth: hạt nhỏ nâu đen, gieo nông, tỉa thưa khi lớn; rau ăn lá có thể thu khoảng 30 ngày tùy điều kiện. Chỉ dùng kỹ thuật và khoảng tuổi, không áp dụng lịch Florida cho Côn Minh.
 - [Trộn hạt dền để rải đều](https://cast.caas.cn/kj/syjs/zzyjs/213034.html): Viện Khoa học Nông nghiệp Trung Quốc, bài kỹ thuật 苋菜: có thể trộn hạt với cát mịn để rải đều. Chỉ lấy nguyên tắc trộn hạt, không dùng phần bón phân/xử lý sâu bệnh ngoài phạm vi người dùng.
 
-**Kiểm tra:** 182 mã liên tục, không trùng; mỗi cảnh 3–4 giây; C01 51 giây, C02 84 giây, C03 81 giây, C04 84 giây, C05 84 giây, C06 84 giây, C07 84 giây, C08 84 giây, tổng 636 giây. Các công đoạn kéo dài được lược tại điểm cắt, không tăng tốc người.
+- [Độ thu hoạch và khoai để dành](https://www.umass.edu/agriculture-food-environment/home-lawn-garden/fact-sheets/harvesting-vegetables): UMass Extension, Harvesting Vegetables: nhận độ thu qua trạng thái cây; cà chua đỏ còn chắc, dưa xanh chưa già; khoai thu nhẹ tay khi thân lá đã già và đất phù hợp. Khoai để dài ngày cần giai đoạn làm lành vỏ riêng; cụm này chỉ đặt thoáng, không mô tả đã hoàn tất bảo quản.
+- [Cắt cuống dưa](https://hgic.clemson.edu/factsheet/cucumber/): Clemson Extension, Cucumber: dùng dao/kéo sắc cắt cuống khi thu, tránh làm hỏng dây. Kịch bản chọn kéo nhỏ sạch để tay còn lại đỡ quả.
 
-**Điểm duyệt:** duyệt hoặc góp ý C08 trước khi tiếp tục C09.
+**Kiểm tra:** 206 mã liên tục, không trùng; mỗi cảnh 3–4 giây; C01 51 giây, C02 84 giây, C03 81 giây, C04 84 giây, C05 84 giây, C06 84 giây, C07 84 giây, C08 84 giây, C09 84 giây, tổng 720 giây. Đã khép 12 phút đầu theo phân bổ, còn phần bếp 6 phút và dọn/ăn tối 2 phút chưa viết. Các công đoạn kéo dài được lược tại điểm cắt, không tăng tốc người.
+
+**Điểm duyệt:** duyệt hoặc góp ý C09 trước khi tiếp tục C10/phần bếp.
