@@ -1,39 +1,35 @@
 # Vườn nhỏ, bữa cơm nhà
 
-Phiên bản 1.0 · 24/10/2026
+Phiên bản 1.1 · 24/10/2026
 
-**Bản hiện hành: 350 cảnh · 1.200 giây · 00:00–20:00.** C01–C09 đã duyệt; C10–C16 chờ duyệt tổng thể. Chưa viết prompt.
+**Bản tổng hợp: 350 shot · 1.200 giây · 00:00–20:00 · S001–S350.** Nội dung được người dùng xác nhận trước yêu cầu tổng hợp. Giữ nguyên toàn bộ hành động, thứ tự và thời lượng đã xây dựng; thống nhất trạng thái và trình bày.
 
-**Phạm vi:** Theo yêu cầu mới “tiếp tục với những shot còn lại”, hoàn thành C10–C16 tới hết 20:00 trong một lần. C01–C09 giữ trạng thái đã duyệt; phần mới C10–C16 vẫn là bản chờ duyệt, không tự coi là đã duyệt. Chưa viết prompt.
+**Phạm vi:** Chỉ hoàn thành danh sách shot. Chưa triển khai storyboard hình, prompt Seedance hoặc video.
 
-**Thời gian C10:** chiều cùng ngày thu hoạch, lược khoảng chờ sau buổi sáng bằng điểm cắt và thay đổi ánh sáng bếp. Nguyên liệu thu được giữ râm mát trong đoạn chờ. Đây là 72 giây dựng khởi động phần bếp, không phải thời gian thật để cơm hoặc khoai chín.
+**Cách đọc:** Bảng tổng quan bên dưới chia 16 cụm công việc theo thứ tự phim. Trong từng cụm có bảng đọc nhanh và mô tả đầy đủ từng shot: địa điểm, ánh sáng, góc máy, bố cục, nhân vật/dụng cụ, trạng thái đầu, hành động, kết quả, nối cảnh, âm thanh và tham chiếu.
 
-**Thời gian C09:** cùng buổi sáng thu hoạch khoảng ngày 105, đi từ vườn qua chỗ chia/kho tới bàn bếp phụ. Kết chính xác mốc dựng 12:00. Các món chưa được sơ chế hoặc nấu.
+**Thời gian câu chuyện:** C01–C03 cùng buổi sáng bắt đầu vụ; C04 khoảng ngày 1–21; C05 khoảng ngày 21–44; C06 chiều ngày 44; C07 khoảng ngày 44–70; C08 khoảng ngày 75–105; C09 sáng ngày 105; C10–C16 từ chiều tới tối cùng ngày thu hoạch. Đây là mốc tương đối để giữ tuổi cây và nối cảnh; chưa khóa tháng, mùa địa phương hoặc giống cụ thể. Cần chọn giống và điều kiện phù hợp để thu bốn loại cùng đợt. Các khoảng chờ, công việc lặp và thời gian đun chín được lược ở điểm cắt; thời lượng trên bảng là thời gian dùng trong dựng.
 
-**Thời gian C08:** từ sau ngày 70, gieo dền khoảng ngày 75, đi tuyến tính tới sáng khoảng ngày 105. Các cây được chọn theo nhóm giống và điều kiện phù hợp để có đợt thu cùng buổi; không mặc định mọi giống đều chín đúng cùng số ngày. Chưa khóa tháng/mùa địa phương.
+## Tổng quan 16 cụm công việc
 
-**Thời gian C07:** nối thu gọn chiều ngày 44, chuyển tới khoảng ngày 50 để vun khoai và gieo dưa chuột; sau đó tiến tới ngày 58 và khoảng ngày 70. Cà chua lúc cuối đã ra hoa, dưa đang leo non, rau dền chưa gieo. Các mốc là khoảng dựng để khóa tuổi cây, không gán lịch nước ngoài cho Côn Minh.
-
-**Thời gian C06:** chiều cùng ngày sau cuối C05, khoảng ngày 44 sau gieo. Cây đã quen nắng; chọn điều kiện đất ấm, không còn nguy cơ sương giá, chiều dịu ít gió. Chưa khóa tháng/mùa địa phương, không gán lịch nước ngoài cho Côn Minh.
-
-**Thời gian C05:** khoảng ngày 21–44 sau gieo. Sang chậu khoảng tuần thứ tư, hồi cây vài ngày, sau đó cho quen điều kiện ngoài trời dần qua khoảng hai tuần. Không mặc định có thể đưa ngay từ chỗ che ra nắng cả ngày. Chưa khóa tháng/mùa toàn vườn.
-
-**Thời gian C04:** từ ngày kế sau gieo đến khoảng ngày 21. Các khoảng ngày là thiết kế tuổi cây, chưa khóa tháng/mùa hoặc lịch đồng bộ bốn cây. Không dùng lịch từ nguồn kỹ thuật nước ngoài cho Côn Minh.
-
-**Mùa và thời gian C01–C03:** C01–C03 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Lịch đồng bộ bốn cây chưa khóa; không dùng lịch riêng một cây thay cho lịch toàn vườn.
-
-## Phân bổ bản hoàn chỉnh
-
-| Cụm | Mã cảnh | Thời gian | Nội dung |
-|---|---|---|---|
-| C01–C09 | S001–S206 | 00:00–12:00 | Mở đầu, gieo/chăm, thu hoạch và chia phần |
-| C10 | S207–S228 | 12:00–13:12 | Nhóm lửa, vo/nấu cơm và bắt đầu luộc khoai |
-| C11 | S229–S250 | 13:12–14:24 | Rửa rau quả, chuẩn bị gia vị và hạ lửa nồi cơm |
-| C12 | S251–S272 | 14:24–15:36 | Bóc khoai, thái nguyên liệu, băm thịt và đánh trứng |
-| C13 | S273–S293 | 15:36–16:48 | Xào khoai tây kiểu bà và Hồng tam đóa |
-| C14 | S294–S314 | 16:48–18:00 | Hoàn tất trứng cà chua, rau dền, dưa trộn và cơm |
-| C15 | S315–S332 | 18:00–19:00 | Dọn năm món ra sân và mời bà vào bàn |
-| C16 | S333–S350 | 19:00–20:00 | Hai bà cháu ăn tối và khép lại ngày làm vườn |
+| Cụm | Nội dung | Mã shot | Số shot | Thời lượng | Dòng thời gian |
+|---|---|---|---:|---:|---|
+| C01 | Mở buổi sáng và làm tơi đoạn luống đầu tiên | S001–S015 | 15 | 51 giây | 00:00–00:51 |
+| C02 | Trồng khoai tây và tưới lượt đầu | S016–S039 | 24 | 84 giây | 00:51–02:15 |
+| C03 | Hoàn tất tưới khoai và gieo ươm cà chua | S040–S062 | 23 | 81 giây | 02:15–03:36 |
+| C04 | Những ngày đầu chăm cây và mầm sống xuất hiện | S063–S086 | 24 | 84 giây | 03:36–05:00 |
+| C05 | Sang chậu và cho cà chua quen dần với nắng | S087–S110 | 24 | 84 giây | 05:00–06:24 |
+| C06 | Trồng sáu cây cà chua ra luống và cắm cọc tre | S111–S134 | 24 | 84 giây | 06:24–07:48 |
+| C07 | Vun khoai, gieo dưa chuột và chăm cà chua | S135–S158 | 24 | 84 giây | 07:48–09:12 |
+| C08 | Gieo rau dền và theo vườn tới ngày thu hoạch | S159–S182 | 24 | 84 giây | 09:12–10:36 |
+| C09 | Thu hoạch bốn loại thực phẩm, chia phần và mang vào bếp | S183–S206 | 24 | 84 giây | 10:36–12:00 |
+| C10 | Nhóm bếp, vo gạo và bắt đầu luộc khoai | S207–S228 | 22 | 72 giây | 12:00–13:12 |
+| C11 | Rửa rau quả, chuẩn bị gia vị và hạ lửa nồi cơm | S229–S250 | 22 | 72 giây | 13:12–14:24 |
+| C12 | Bóc khoai, thái nguyên liệu, băm thịt và đánh trứng | S251–S272 | 22 | 72 giây | 14:24–15:36 |
+| C13 | Xào khoai tây kiểu bà và Hồng tam đóa | S273–S293 | 21 | 72 giây | 15:36–16:48 |
+| C14 | Hoàn tất trứng cà chua, rau dền, dưa trộn và cơm | S294–S314 | 21 | 72 giây | 16:48–18:00 |
+| C15 | Dọn năm món ra sân và mời bà vào bàn | S315–S332 | 18 | 60 giây | 18:00–19:00 |
+| C16 | Hai bà cháu ăn tối và khép lại ngày làm vườn | S333–S350 | 18 | 60 giây | 19:00–20:00 |
 
 ## C01 — Mở buổi sáng và làm tơi đoạn luống đầu tiên
 
@@ -717,7 +713,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 - **Trạng thái đầu:** Một đoạn vừa nhận nước từ S038 còn giọt trên vụn đất; không thấy củ.
 - **Hành động:** Những giọt cuối lắng xuống, nước thấm vào khe đất, bề mặt chuyển sẫm ẩm đều.
 - **Kết quả:** Hoàn thành lượt tưới tiêu biểu ở đầu hàng; phần còn lại chưa khẳng định đã tưới xong.
-- **Nối cảnh:** Kết C02 trên kết quả của S038; không tự cho cây mọc. Cô và xô ở cạnh đầu luống ngoài khung; chờ duyệt.
+- **Nối cảnh:** Kết C02 trên kết quả của S038; không tự cho cây mọc. Cô và xô ở cạnh đầu luống ngoài khung.
 - **Âm thanh:** Giọt nhỏ thấm đất; chim và gió nhẹ. Không nhạc, không thoại.
 - **Tham chiếu:** B03; P01; D05.
 
@@ -1121,7 +1117,7 @@ Khép việc tưới hàng khoai rồi theo cô trở về góc làm việc dư�
 - **Trạng thái đầu:** Khay vừa được đặt vững, mặt phủ hơi ẩm; không nhìn thấy hạt hoặc cây.
 - **Hành động:** Bàn tay cô rời mép khay; bóng lá rất nhẹ chuyển trên nền hiên phía sau.
 - **Kết quả:** Khay nằm yên chờ nảy mầm; hôm gieo chưa có mầm xuất hiện.
-- **Nối cảnh:** Kết C03 tại trạng thái vừa gieo. Chưa tua nhanh, chưa sang ngày mới; dừng chờ duyệt.
+- **Nối cảnh:** Kết C03 tại trạng thái vừa gieo. Chưa tua nhanh, chưa sang ngày mới.
 - **Âm thanh:** Lá ngoài hiên, tiếng bước chân cô xa nhẹ nếu vừa rời khung. Không nhạc, không thoại.
 - **Tham chiếu:** B05; P01; D06; D07; D05.
 
@@ -1568,7 +1564,7 @@ Bà xuất hiện trong cùng lần cô chăm khay: giữ ghế, chạm tay, m�
 - **Trạng thái đầu:** Một vài cây có lá thật đầu như cuối S085; vẫn nhận ra hai lá mầm thấp hơn.
 - **Hành động:** Lá thật rung rất nhẹ, một bóng lá nền trượt chậm qua hậu cảnh; không có tay trong khung.
 - **Kết quả:** Cà chua có lá thật đầu; khoai ngoài vườn vẫn ở giai đoạn cây non. Chưa cấy cây hoặc gieo hai rau còn lại.
-- **Nối cảnh:** Kết C04 ở trạng thái cây con khoảng ba tuần, không quay lại ảnh chỉ có lá mầm. Dừng chờ duyệt.
+- **Nối cảnh:** Kết C04 ở trạng thái cây con khoảng ba tuần, không quay lại ảnh chỉ có lá mầm.
 - **Âm thanh:** Lá nền và chim sáng; không nhạc hoặc lời thoại.
 - **Tham chiếu:** B05; P01; D05; D06.
 
@@ -2013,7 +2009,7 @@ Máy cố định mọi cảnh. Timelapse ở S087, S103, S109; các thao tác v
 - **Trạng thái đầu:** Sáu cây đang ở chậu riêng, đã quen dần điều kiện ngoài trời; có vài lá thật phát triển.
 - **Hành động:** Cô ngồi xuống kiểm nhanh dọc hàng chậu, nhẹ chỉnh khoảng cách chậu cuối rồi nhìn về hướng vườn.
 - **Kết quả:** Sáu cây vẫn trong chậu, chuẩn bị cho bước tiếp theo; chưa đào hố hoặc mang ra trồng.
-- **Nối cảnh:** Kết C05. Khoai ngoài khung cũng đã tiến tới cùng ngày, không giữ mãi hình cây ba tuần; mức phát triển sẽ gắn ở lần xuất hiện kế tiếp. Dừng chờ duyệt.
+- **Nối cảnh:** Kết C05. Khoai ngoài khung cũng đã tiến tới cùng ngày, không giữ mãi hình cây ba tuần; mức phát triển sẽ gắn ở lần xuất hiện kế tiếp.
 - **Âm thanh:** Chậu đặt nhẹ, lá và chim sáng; không thoại, nhạc.
 - **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11.
 
@@ -2458,7 +2454,7 @@ Toàn bộ máy cố định, tốc độ tự nhiên. Dùng điểm cắt để
 - **Trạng thái đầu:** Sáu cây đã trồng, buộc và tưới. Xô/gáo, khay sáu chậu rỗng cùng dụng cụ trên lối, ngoài luống.
 - **Hành động:** Cô đặt gáo về xô, nhìn dọc hàng một nhịp rồi nhấc khay chậu rỗng để mang về.
 - **Kết quả:** Sáu cây ở luống đúng vị trí; cô cầm khay sáu chậu rỗng. Cuốc, xẻng, vồ và xô còn ở lối chờ thu gọn.
-- **Nối cảnh:** Kết C06 cùng chiều ngày 44; không tự có giàn dưa, rau dền hoặc hoa cà chua. Dừng chờ duyệt.
+- **Nối cảnh:** Kết C06 cùng chiều ngày 44; không tự có giàn dưa, rau dền hoặc hoa cà chua.
 - **Âm thanh:** Gáo chạm xô, gỗ khay, gió và chim chiều. Không nhạc, không lời thoại.
 - **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13.
 
@@ -2903,7 +2899,7 @@ Máy cố định mọi cảnh. S136, S150, S152 timelapse chuyển ngày hoặc
 - **Trạng thái đầu:** Cô chuyển sang kiểm dây đỡ ở cây kế; chó đi vào từ lối phía sau, chưa xuất hiện ở cảnh trước.
 - **Hành động:** Cô tiếp tục chỉnh dây ở cây kế, chó đi chậm vào bóng mát cạnh lối rồi nằm xuống.
 - **Kết quả:** Công việc vẫn tiếp diễn; chó ở ngoài luống, cà chua đang ra hoa và dưa còn leo non.
-- **Nối cảnh:** Kết C07; không tương tác làm gián đoạn việc, không để chó giẫm cây. Rau dền chưa gieo; chưa có nông sản được thu hoạch. Dừng chờ duyệt.
+- **Nối cảnh:** Kết C07; không tương tác làm gián đoạn việc, không để chó giẫm cây. Rau dền chưa gieo; chưa có nông sản được thu hoạch.
 - **Âm thanh:** Bước chân chó nhẹ, áo và lá; không bắt buộc sủa, không nhạc/thoại.
 - **Tham chiếu:** B06; P01; P04; D12.
 
@@ -3348,7 +3344,7 @@ Máy cố định mọi cảnh. S159, S169, S171, S174, S177, S181 timelapse; c�
 - **Trạng thái đầu:** Cô cầm giỏ tre sạch còn trống; cà chua đỏ xen quả xanh, dưa cỡ vừa ăn vỏ xanh, dền non và khoai già đã sẵn.
 - **Hành động:** Cô mang giỏ đi vào lối cạnh các luống, dừng gần chỗ đặt giỏ để bắt đầu thu.
 - **Kết quả:** Giỏ vẫn trống trong tay; chưa có quả hoặc rau đã hái.
-- **Nối cảnh:** Kết C08 tại đầu buổi thu hoạch, chưa thực hiện thao tác hái/đào. Cụm sau phải nối tay đang cầm giỏ, chọn nông sản đủ độ. Dừng chờ duyệt.
+- **Nối cảnh:** Kết C08 tại đầu buổi thu hoạch, chưa thực hiện thao tác hái/đào. Cụm sau phải nối tay đang cầm giỏ, chọn nông sản đủ độ.
 - **Âm thanh:** Bước chân, quai giỏ, chim và gió sáng. Không nhạc, không lời thoại.
 - **Tham chiếu:** B01; B03; B06; B07; B08; P01; D01.
 
@@ -3793,13 +3789,13 @@ Toàn bộ máy cố định và tốc độ tự nhiên; lượt thu và chuy�
 - **Trạng thái đầu:** Cô đang đỡ giỏ D20 cạnh bàn; chậu gỗ rửa đặt ở bàn, xô cao gần cửa đúng thiết kế, chưa lấy nước.
 - **Hành động:** Cô hạ giỏ lên bàn vững, buông tay rồi nhấc rổ cà chua riêng đặt sát chậu gỗ.
 - **Kết quả:** Bốn loại đã tới bàn: cà chua nguyên, khoai còn vỏ, dưa nguyên, dền còn rễ. Chậu rửa chưa có thao tác rửa, chưa nấu.
-- **Nối cảnh:** Kết C09 ở mốc 12:00. Phần bếp sau phải bắt đầu từ trạng thái nguyên liệu thô này, lấy nước từ xô cao gần cửa. Dừng chờ duyệt.
+- **Nối cảnh:** Kết C09 ở mốc 12:00. Phần bếp sau phải bắt đầu từ trạng thái nguyên liệu thô này, lấy nước từ xô cao gần cửa.
 - **Âm thanh:** Giỏ chạm bàn, rổ cà chua đặt nhẹ, âm sân qua cửa; không nhạc/thoại. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
 - **Tham chiếu:** B10; P01; D20.
 
 ## C10 — Nhóm bếp, vo gạo và bắt đầu luộc khoai
 
-**22 cảnh · 72 giây · 12:00–13:12 · Chờ duyệt.**
+**22 cảnh · 72 giây · 12:00–13:12 · Đã duyệt.**
 
 Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nhóm bằng diêm, không chẻ củi. Vo gạo bằng nước sạch từ xô cao gần cửa, chắt các lượt vo rồi thêm nước nấu. Trong lúc bếp bắt lửa, chuẩn bị gạo; khi nồi cơm đã lên trái, rửa khoai rồi cho nguyên vỏ vào nước lạnh ở nồi phải. Khoai kiểu bà sẽ bóc/nghiền/xào sau, chưa làm trong cụm này. Các rau quả khác và nguyên liệu phụ còn thô, chia bát riêng; không kể nguồn gốc. Không cho nồi mới đặt sôi/chín ngay.
 
@@ -3834,7 +3830,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S207 — Ánh chiều và nguyên liệu trên bàn bếp
 
-**12:00–12:04 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:00–12:04 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Bếp phụ B10 và bếp chính B11.
@@ -3851,7 +3847,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S208 — Lấy mồi và củi nhỏ bên lò
 
-**12:04–12:07 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:04–12:07 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Bếp chính B11.
@@ -3868,7 +3864,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S209 — Châm mồi bằng que diêm
 
-**12:07–12:10 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:07–12:10 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Cùng cửa lò.
@@ -3885,7 +3881,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S210 — Đưa mồi vào lò, kê củi
 
-**12:10–12:14 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:10–12:14 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Bếp chính B11.
@@ -3902,7 +3898,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S211 — Lửa bám vào củi nhỏ
 
-**12:14–12:17 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:14–12:17 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Cùng bếp chính.
@@ -3919,7 +3915,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S212 — Lấy nước sạch vào nồi gạo
 
-**12:17–12:20 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:17–12:20 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Bếp phụ B10.
@@ -3936,7 +3932,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S213 — Vo gạo lượt đầu
 
-**12:20–12:23 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:20–12:23 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Cùng bàn bếp phụ.
@@ -3953,7 +3949,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S214 — Chắt bỏ nước vo đầu
 
-**12:23–12:27 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:23–12:27 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Bếp phụ, hướng cửa và vị trí xả hiện có.
@@ -3970,7 +3966,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S215 — Vo lại với lượt nước mới
 
-**12:27–12:30 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:27–12:30 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Cùng bàn bếp phụ.
@@ -3987,7 +3983,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S216 — Chắt nước vo cuối
 
-**12:30–12:33 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:30–12:33 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Cùng vị trí xả hiện có.
@@ -4004,7 +4000,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S217 — Thêm nước để nấu cơm
 
-**12:33–12:36 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:33–12:36 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Bàn bếp phụ B10.
@@ -4021,7 +4017,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S218 — Đưa nồi cơm lên vị trí bếp trái
 
-**12:36–12:40 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:36–12:40 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Bếp chính B11.
@@ -4038,7 +4034,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S219 — Đậy nắp nồi cơm
 
-**12:40–12:43 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:40–12:43 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Cùng bếp chính.
@@ -4055,7 +4051,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S220 — Trở lại chậu rửa khoai
 
-**12:43–12:46 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:43–12:46 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Bếp phụ B10.
@@ -4072,7 +4068,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S221 — Múc nước vào chậu khoai
 
-**12:46–12:49 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:46–12:49 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Cùng bàn bếp phụ.
@@ -4089,7 +4085,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S222 — Rửa sạch đất trên vỏ khoai
 
-**12:49–12:53 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:49–12:53 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Cùng chậu gỗ.
@@ -4106,7 +4102,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S223 — Vớt khoai đã rửa ra rổ
 
-**12:53–12:56 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:53–12:56 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Cùng bàn bếp phụ.
@@ -4123,7 +4119,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S224 — Đổ nước rửa bẩn khỏi chậu
 
-**12:56–12:59 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:56–12:59 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Từ bàn bếp phụ tới chỗ xả hiện có.
@@ -4140,7 +4136,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S225 — Cho khoai sạch vào nồi luộc
 
-**12:59–13:02 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:59–13:02 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Bếp phụ B10.
@@ -4157,7 +4153,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S226 — Thêm nước lạnh ngập khoai
 
-**13:02–13:06 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:02–13:06 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Cùng bàn bếp phụ.
@@ -4174,7 +4170,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S227 — Đặt nồi khoai lên vị trí bếp phải
 
-**13:06–13:09 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:06–13:09 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Bếp chính B11.
@@ -4191,7 +4187,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 #### S228 — Nồi khoai bắt đầu nhận nhiệt
 
-**13:09–13:12 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:09–13:12 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Ngày trong câu chuyện:** Chiều cùng ngày thu hoạch khoảng ngày 105, chuẩn bị bữa tối. Các khoảng chờ đun sẽ được lược, không tua nhanh tay.
 - **Địa điểm:** Cùng bếp chính.
@@ -4208,7 +4204,7 @@ Máy cố định, tốc độ tự nhiên. Củi/mồi đã có cạnh lò; nh�
 
 ## C11 — Rửa rau quả, chuẩn bị gia vị và hạ lửa nồi cơm
 
-**22 cảnh · 72 giây · 13:12–14:24 · Chờ duyệt tổng thể.**
+**22 cảnh · 72 giây · 13:12–14:24 · Đã duyệt.**
 
 Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu vừa bỏ nước khoai bẩn; cà chua/dưa nguyên, dền còn rễ, gia vị chưa sơ chế.
 
@@ -4243,7 +4239,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S229 — Tráng lại chậu gỗ
 
-**13:12–13:16 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:12–13:16 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4260,7 +4256,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S230 — Lấy lượt nước rửa mới
 
-**13:16–13:19 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:16–13:19 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4277,7 +4273,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S231 — Đưa cà chua vào chậu
 
-**13:19–13:22 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:19–13:22 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4294,7 +4290,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S232 — Rửa quanh đài và vỏ quả
 
-**13:22–13:26 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:22–13:26 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4311,7 +4307,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S233 — Vớt cà chua để ráo
 
-**13:26–13:29 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:26–13:29 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4328,7 +4324,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S234 — Rửa dưa bằng nước mới
 
-**13:29–13:32 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:29–13:32 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4345,7 +4341,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S235 — Chà vỏ dưa rồi vớt
 
-**13:32–13:36 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:32–13:36 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4362,7 +4358,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S236 — Đặt rau dền lên thớt rau
 
-**13:36–13:39 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:36–13:39 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4379,7 +4375,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S237 — Cắt phần rễ dền
 
-**13:39–13:42 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:39–13:42 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4396,7 +4392,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S238 — Nhặt phần lá và thân non
 
-**13:42–13:46 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:42–13:46 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4413,7 +4409,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S239 — Rửa rau ở lượt nước sạch
 
-**13:46–13:49 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:46–13:49 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4430,7 +4426,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S240 — Đảo lá nhẹ trong nước
 
-**13:49–13:52 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:49–13:52 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4447,7 +4443,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S241 — Nhấc rau khỏi phần cặn
 
-**13:52–13:55 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:52–13:55 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4464,7 +4460,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S242 — Tráng rau bằng lượt nước mới
 
-**13:55–13:59 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:55–13:59 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4481,7 +4477,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S243 — Để rau ráo cạnh bàn
 
-**13:59–14:02 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**13:59–14:02 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4498,7 +4494,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S244 — Rửa ớt và hành
 
-**14:02–14:05 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:02–14:05 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4515,7 +4511,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S245 — Bóc tỏi
 
-**14:05–14:08 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:05–14:08 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4532,7 +4528,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S246 — Băm tỏi dùng chung các món
 
-**14:08–14:11 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:08–14:11 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4549,7 +4545,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S247 — Cạo vỏ gừng
 
-**14:11–14:14 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:11–14:14 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4566,7 +4562,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S248 — Băm gừng
 
-**14:14–14:17 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:14–14:17 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4583,7 +4579,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S249 — Kiểm tra nồi cơm đã cạn mặt
 
-**14:17–14:21 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:17–14:21 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4600,7 +4596,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 
 #### S250 — Hạ lửa để cơm chín tiếp
 
-**14:21–14:24 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:21–14:24 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4616,7 +4612,7 @@ Nối S228: cơm bên trái đang nấu, khoai bên phải mới luộc. Chậu 
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D25; D26; D27; D28; D29.
 ## C12 — Bóc khoai, thái nguyên liệu, băm thịt và đánh trứng
 
-**22 cảnh · 72 giây · 14:24–15:36 · Chờ duyệt tổng thể.**
+**22 cảnh · 72 giây · 14:24–15:36 · Đã duyệt.**
 
 Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên phải. Rau quả/gia vị đã rửa hoặc băm theo C11; thịt và trứng còn nguyên.
 
@@ -4651,7 +4647,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S251 — Mở nồi khoai sau thời gian luộc
 
-**14:24–14:28 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:24–14:28 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4668,7 +4664,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S252 — Thử độ mềm của khoai
 
-**14:28–14:31 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:28–14:31 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4685,7 +4681,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S253 — Vớt khoai luộc
 
-**14:31–14:34 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:31–14:34 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4702,7 +4698,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S254 — Chuyển khoai tới bàn chuẩn bị
 
-**14:34–14:38 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:34–14:38 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4719,7 +4715,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S255 — Bóc vỏ củ khoai đầu
 
-**14:38–14:41 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:38–14:41 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4736,7 +4732,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S256 — Hoàn tất bát khoai đã bóc
 
-**14:41–14:44 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:41–14:44 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4753,7 +4749,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S257 — Chia cà chua cho hai món
 
-**14:44–14:48 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:44–14:48 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4770,7 +4766,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S258 — Bỏ cuống, cắt múi cho món trứng
 
-**14:48–14:51 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:48–14:51 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4787,7 +4783,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S259 — Đưa múi cà chua vào bát
 
-**14:51–14:54 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:51–14:54 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4804,7 +4800,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S260 — Băm nhỏ phần cà chua còn lại
 
-**14:54–14:57 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:54–14:57 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4821,7 +4817,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S261 — Bỏ cuống và lõi ớt tươi
 
-**14:57–15:01 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**14:57–15:01 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4838,7 +4834,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S262 — Thái ớt nhỏ
 
-**15:01–15:04 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:01–15:04 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4855,7 +4851,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S263 — Thái hành lá
 
-**15:04–15:07 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:04–15:07 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4872,7 +4868,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S264 — Rửa nhanh và vắt cải muối
 
-**15:07–15:10 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:07–15:10 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4889,7 +4885,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S265 — Thái cải muối chua
 
-**15:10–15:14 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:10–15:14 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4906,7 +4902,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S266 — Chuyển sang thớt thịt riêng
 
-**15:14–15:17 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:14–15:17 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4923,7 +4919,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S267 — Thái thịt thành lát, dải nhỏ
 
-**15:17–15:20 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:17–15:20 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4940,7 +4936,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S268 — Băm thịt và gom vào bát
 
-**15:20–15:23 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:20–15:23 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4957,7 +4953,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S269 — Trộn gia vị vào thịt băm
 
-**15:23–15:26 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:23–15:26 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4974,7 +4970,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S270 — Đập trứng vào bát
 
-**15:26–15:29 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:26–15:29 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -4991,7 +4987,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S271 — Đánh trứng với chút muối
 
-**15:29–15:33 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:29–15:33 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -5008,7 +5004,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 
 #### S272 — Cho nồi cơm nghỉ đậy nắp
 
-**15:33–15:36 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:33–15:36 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp phụ B10, bếp chính B11 khi kiểm hoặc nhấc nồi.
@@ -5024,7 +5020,7 @@ Nối C11: cơm đã cạn và đang chín lửa nhỏ; khoai còn đun bên ph�
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D25; D26; D27; D28; D29.
 ## C13 — Xào khoai tây kiểu bà và Hồng tam đóa
 
-**21 cảnh · 72 giây · 15:36–16:48 · Chờ duyệt tổng thể.**
+**21 cảnh · 72 giây · 15:36–16:48 · Đã duyệt.**
 
 Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt đã chuẩn bị, thịt băm sống đã trộn và trứng đánh còn sống. Hai vị trí bếp trống để dùng chảo.
 
@@ -5058,7 +5054,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S273 — Đặt chảo lên bếp, thêm củi nhỏ
 
-**15:36–15:40 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:36–15:40 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5075,7 +5071,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S274 — Cho dầu vào chảo
 
-**15:40–15:43 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:40–15:43 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5092,7 +5088,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S275 — Bẻ ớt khô cho món khoai
 
-**15:43–15:47 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:43–15:47 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5109,7 +5105,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S276 — Phi tỏi và ớt khô
 
-**15:47–15:50 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:47–15:50 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5126,7 +5122,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S277 — Đảo gia vị trong dầu
 
-**15:50–15:54 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:50–15:54 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5143,7 +5139,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S278 — Xào cải muối
 
-**15:54–15:57 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:54–15:57 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5160,7 +5156,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S279 — Đưa khoai chín vào chảo
 
-**15:57–16:01 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**15:57–16:01 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5177,7 +5173,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S280 — Dùng xẻng ép vỡ khoai
 
-**16:01–16:04 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:01–16:04 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5194,7 +5190,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S281 — Đảo khoai với cải và tỏi
 
-**16:04–16:08 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:04–16:08 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5211,7 +5207,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S282 — Nêm món khoai
 
-**16:08–16:11 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:08–16:11 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5228,7 +5224,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S283 — Thêm hành lá cuối
 
-**16:11–16:15 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:11–16:15 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5245,7 +5241,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S284 — Cho khoai ra đĩa
 
-**16:15–16:18 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:15–16:18 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5262,7 +5258,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S285 — Làm nóng chảo Hồng tam đóa
 
-**16:18–16:22 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:18–16:22 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5279,7 +5275,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S286 — Cho thịt băm vào chảo
 
-**16:22–16:25 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:22–16:25 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5296,7 +5292,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S287 — Tách thịt băm khi đảo
 
-**16:25–16:28 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:25–16:28 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5313,7 +5309,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S288 — Xúc thịt đã xào ra bát
 
-**16:28–16:32 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:28–16:32 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5330,7 +5326,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S289 — Xào cà chua băm
 
-**16:32–16:35 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:32–16:35 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5347,7 +5343,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S290 — Cho ớt tươi vào sốt
 
-**16:35–16:38 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:35–16:38 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5364,7 +5360,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S291 — Trộn thịt trở lại
 
-**16:38–16:42 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:38–16:42 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5381,7 +5377,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S292 — Nêm và đảo lượt cuối
 
-**16:42–16:45 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:42–16:45 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5398,7 +5394,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 
 #### S293 — Cho Hồng tam đóa ra đĩa
 
-**16:45–16:48 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:45–16:48 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5414,7 +5410,7 @@ Cơm chín nghỉ đậy; khoai chín bóc vỏ, tỏi/gừng/hành/cải/ớt �
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D25; D26; D27; D28; D29.
 ## C14 — Hoàn tất trứng cà chua, rau dền, dưa trộn và cơm
 
-**21 cảnh · 72 giây · 16:48–18:00 · Chờ duyệt tổng thể.**
+**21 cảnh · 72 giây · 16:48–18:00 · Đã duyệt.**
 
 Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ. Trứng đánh sống, cà chua múi, rau dền sạch ráo và dưa nguyên đã rửa chờ làm.
 
@@ -5448,7 +5444,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S294 — Làm sạch chảo cho món trứng
 
-**16:48–16:52 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:48–16:52 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5465,7 +5461,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S295 — Đổ trứng vào dầu nóng
 
-**16:52–16:55 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:52–16:55 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5482,7 +5478,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S296 — Gom trứng thành miếng mềm
 
-**16:55–16:59 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:55–16:59 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5499,7 +5495,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S297 — Xúc trứng ra bát sạch
 
-**16:59–17:02 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**16:59–17:02 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5516,7 +5512,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S298 — Cho múi cà chua vào chảo
 
-**17:02–17:06 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:02–17:06 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5533,7 +5529,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S299 — Trả trứng vào cà chua mềm
 
-**17:06–17:09 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:06–17:09 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5550,7 +5546,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S300 — Nêm và thêm ít hành
 
-**17:09–17:13 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:09–17:13 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5567,7 +5563,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S301 — Bày trứng xào cà chua
 
-**17:13–17:16 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:13–17:16 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5584,7 +5580,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S302 — Chuẩn bị chảo rau dền
 
-**17:16–17:20 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:16–17:20 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5601,7 +5597,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S303 — Tỏi thơm trước khi thêm rau
 
-**17:20–17:23 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:20–17:23 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5618,7 +5614,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S304 — Đưa rau dền vào chảo
 
-**17:23–17:27 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:23–17:27 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5635,7 +5631,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S305 — Đảo rau cho chín đều
 
-**17:27–17:30 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:27–17:30 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5652,7 +5648,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S306 — Nêm rau gần chín
 
-**17:30–17:34 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:30–17:34 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5669,7 +5665,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S307 — Cho rau ra đĩa dùng ngay
 
-**17:34–17:37 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:34–17:37 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5686,7 +5682,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S308 — Cắt đầu dưa đã rửa
 
-**17:37–17:40 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:37–17:40 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5703,7 +5699,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S309 — Đập dưa nhẹ bằng mặt dao
 
-**17:40–17:44 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:40–17:44 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5720,7 +5716,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S310 — Cắt đoạn và chuyển vào bát
 
-**17:44–17:47 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:44–17:47 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5737,7 +5733,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S311 — Pha tỏi và nước trộn
 
-**17:47–17:50 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:47–17:50 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5754,7 +5750,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S312 — Trộn dưa rồi bày ra đĩa
 
-**17:50–17:54 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:50–17:54 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5771,7 +5767,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S313 — Xới cơm đã nghỉ
 
-**17:54–17:57 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:54–17:57 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5788,7 +5784,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 
 #### S314 — Năm món sẵn trên bàn bếp
 
-**17:57–18:00 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**17:57–18:00 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bếp chính B11 / bàn chuẩn bị B10 theo động tác.
@@ -5804,7 +5800,7 @@ Khoai và Hồng tam đóa đã ra đĩa có nắp nhẹ giữ ấm; cơm nghỉ
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D25; D26; D27; D28; D29.
 ## C15 — Dọn năm món ra sân và mời bà vào bàn
 
-**18 cảnh · 60 giây · 18:00–19:00 · Chờ duyệt tổng thể.**
+**18 cảnh · 60 giây · 18:00–19:00 · Đã duyệt.**
 
 Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sân theo thiết kế chưa có món, bà vẫn ở khu nhà, không có khách khác.
 
@@ -5835,7 +5831,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S315 — Chuẩn bị bàn ăn ngoài sân
 
-**18:00–18:04 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:00–18:04 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -5852,7 +5848,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S316 — Đặt hai bộ bát đũa
 
-**18:04–18:07 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:04–18:07 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -5869,7 +5865,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S317 — Chỉnh muỗng cạnh bát bà
 
-**18:07–18:10 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:07–18:10 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -5886,7 +5882,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S318 — Lấy khay ba món đầu
 
-**18:10–18:14 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:10–18:14 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -5903,7 +5899,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S319 — Mang khay tới bàn sân
 
-**18:14–18:17 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:14–18:17 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -5920,7 +5916,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S320 — Hạ khay lên bàn
 
-**18:17–18:20 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:17–18:20 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -5937,7 +5933,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S321 — Bày ba đĩa đầu
 
-**18:20–18:24 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:20–18:24 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -5954,7 +5950,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S322 — Mang phần còn lại ra sân
 
-**18:24–18:27 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:24–18:27 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -5971,7 +5967,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S323 — Đặt khay thứ hai vững
 
-**18:27–18:30 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:27–18:30 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -5988,7 +5984,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S324 — Khép mâm cơm đủ năm món
 
-**18:30–18:34 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:30–18:34 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6005,7 +6001,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S325 — Bà bước ra bàn ăn
 
-**18:34–18:37 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:34–18:37 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6022,7 +6018,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S326 — Kéo ghế và mời bằng cử chỉ
 
-**18:37–18:40 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:37–18:40 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6039,7 +6035,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S327 — Giữ ghế cho bà ngồi
 
-**18:40–18:43 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:40–18:43 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6056,7 +6052,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S328 — Bà ngồi, cháu mở nồi cơm
 
-**18:43–18:47 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:43–18:47 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6073,7 +6069,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S329 — Múc cơm cho bà
 
-**18:47–18:50 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:47–18:50 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6090,7 +6086,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S330 — Đưa bát cơm tới tay bà
 
-**18:50–18:53 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:50–18:53 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6107,7 +6103,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S331 — Múc phần cháu rồi ngồi xuống
 
-**18:53–18:57 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:53–18:57 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6124,7 +6120,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 
 #### S332 — Hai bà cháu bên mâm cơm
 
-**18:57–19:00 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**18:57–19:00 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6140,7 +6136,7 @@ Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sâ
 - **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30.
 ## C16 — Hai bà cháu ăn tối và khép lại ngày làm vườn
 
-**18 cảnh · 60 giây · 19:00–20:00 · Chờ duyệt tổng thể.**
+**18 cảnh · 60 giây · 19:00–20:00 · Đã duyệt.**
 
 Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đã dọn. Không hội thoại, chỉ cử chỉ, tiếng bát đũa và môi trường.
 
@@ -6171,7 +6167,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S333 — Mời bà phần khoai mềm
 
-**19:00–19:04 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:00–19:04 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6188,7 +6184,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S334 — Khoai được đặt vào bát bà
 
-**19:04–19:07 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:04–19:07 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6205,7 +6201,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S335 — Bà múc lại món cho cháu
 
-**19:07–19:10 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:07–19:10 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6222,7 +6218,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S336 — Cháu nhận phần bà mời
 
-**19:10–19:14 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:10–19:14 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6239,7 +6235,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S337 — Bắt đầu dùng bữa
 
-**19:14–19:17 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:14–19:17 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6256,7 +6252,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S338 — Bà thưởng thức miếng đầu
 
-**19:17–19:20 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:17–19:20 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6273,7 +6269,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S339 — Cháu lấy trứng cà chua
 
-**19:20–19:24 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:20–19:24 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6290,7 +6286,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S340 — Cô ăn rồi nhìn bà
 
-**19:24–19:27 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:24–19:27 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6307,7 +6303,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S341 — Bà thử miếng dưa giòn
 
-**19:27–19:30 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:27–19:30 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6324,7 +6320,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S342 — Bữa cơm tiếp diễn
 
-**19:30–19:34 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:30–19:34 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6341,7 +6337,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S343 — Gắp rau cho bà
 
-**19:34–19:37 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:34–19:37 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6358,7 +6354,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S344 — Dấu bữa ăn trên mâm
 
-**19:37–19:40 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:37–19:40 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6375,7 +6371,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S345 — Ánh mắt giữa hai người
 
-**19:40–19:43 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:40–19:43 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6392,7 +6388,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S346 — Vật nuôi nghỉ ngoài vùng bàn ăn
 
-**19:43–19:47 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:43–19:47 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Lối sân ngoài vùng bàn ăn.
@@ -6409,7 +6405,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S347 — Đặt đũa sau lượt ăn cuối
 
-**19:47–19:50 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:47–19:50 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6426,7 +6422,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S348 — Cử chỉ cảm ơn không lời
 
-**19:50–19:53 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:50–19:53 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6443,7 +6439,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S349 — Sân nhà vào chạng vạng
 
-**19:53–19:57 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:53–19:57 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6460,7 +6456,7 @@ Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đ
 
 #### S350 — Ngôi nhà yên trong buổi tối
 
-**19:57–20:00 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**19:57–20:00 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Thời gian:** Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.
 - **Địa điểm:** Bàn ăn ngoài sân B12 và lối bếp–sân.
@@ -6559,7 +6555,7 @@ Mã tài nguyên là nhãn chức năng; chưa phải tên ảnh đã đối chi
 
 ## Quy chuẩn hiện hành
 
-- **Phạm vi duyệt:** C01/S001–S015 đã duyệt qua yêu cầu tiếp tục. C02/S016–S039 đã duyệt. C03/S040–S062 đã duyệt. C04/S063–S086 đã duyệt. C05/S087–S110 đã duyệt. C06/S111–S134 đã duyệt. C07/S135–S158 đã duyệt. C08/S159–S182 đã duyệt. C09/S183–S206 đã duyệt. C10–C16/S207–S350 chờ duyệt tổng thể theo yêu cầu hoàn thành những shot còn lại.
+- **Phạm vi duyệt:** Toàn bộ C01–C16/S001–S350 đã được người dùng xác nhận nội dung và yêu cầu tổng hợp. Bản này chỉ hoàn thành danh sách shot; dừng trước bước tiếp theo.
 
 - **Thời lượng:** Mục tiêu toàn phim 20 phút, 350 cảnh. 12 phút đầu cho mở đầu và việc vườn; 6 phút cho chuẩn bị bếp, sơ chế, nấu; 2 phút cho dọn và ăn tối. Thời lượng cảnh là phần dùng trong bản dựng.
 
