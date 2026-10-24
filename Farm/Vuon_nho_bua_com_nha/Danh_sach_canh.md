@@ -1,12 +1,12 @@
 # Vườn nhỏ, bữa cơm nhà
 
-Phiên bản 0.2 · 24/10/2026
+Phiên bản 0.3 · 24/10/2026
 
-**Bản hiện hành: 39 cảnh · 135 giây · 00:00–02:15.** C01 đã duyệt; C02 chờ duyệt. Mục tiêu phim 20 phút, khoảng 350 cảnh. Chưa viết prompt.
+**Bản hiện hành: 62 cảnh · 216 giây · 00:00–03:36.** C01 và C02 đã duyệt; C03 chờ duyệt. Mục tiêu phim 20 phút, khoảng 350 cảnh. Chưa viết prompt.
 
-**Phạm vi:** C01 đã được duyệt qua yêu cầu tiếp tục. Chỉ bổ sung C02, S016–S039; dừng chờ duyệt trước C03. Chưa viết prompt.
+**Phạm vi:** C01 và C02 đã được duyệt qua yêu cầu tiếp tục. Chỉ bổ sung C03, S040–S062; dừng chờ duyệt trước C04. Chưa viết prompt.
 
-**Mùa và thời gian:** C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Lịch đồng bộ bốn cây chưa khóa; không dùng lịch riêng một cây thay cho lịch toàn vườn.
+**Mùa và thời gian:** C01–C03 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Lịch đồng bộ bốn cây chưa khóa; không dùng lịch riêng một cây thay cho lịch toàn vườn.
 
 ## C01 — Mở buổi sáng và làm tơi đoạn luống đầu tiên
 
@@ -275,7 +275,7 @@ Phiên bản 0.2 · 24/10/2026
 - **Tham chiếu:** B03; P01; D01; D02; D03.
 ## C02 — Trồng khoai tây và tưới lượt đầu
 
-**24 cảnh · 84 giây · 00:51–02:15 · Chờ duyệt.**
+**24 cảnh · 84 giây · 00:51–02:15 · Đã duyệt.**
 
 Nối đúng S015. Làm tơi phần còn lại của một luống đã có; mở một hàng rãnh; mang rổ củ giống nguyên có mầm ngắn từ hiên ra, chọn và đặt củ, phủ đất; lấy nước từ vòi bằng xô gỗ và tưới bằng gáo gỗ. Chỉ trình bày các lượt tiêu biểu, lược thao tác lặp tại điểm cắt. Dừng trên đất đầu hàng vừa thấm nước. Không có tua nhanh hoặc cây mọc trong cụm này. Củ đã có mầm từ đầu; cụm không mô tả quá trình ủ nảy mầm.
 
@@ -312,7 +312,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S016 — Tiếp tục dải đất còn thô
 
-**00:51–00:55 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:51–00:55 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -328,7 +328,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S017 — Đất tơi dần về cuối hàng
 
-**00:55–00:58 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:55–00:58 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -344,7 +344,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S018 — Mở hàng đặt củ
 
-**00:58–01:02 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:58–01:02 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -360,7 +360,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S019 — Hoàn thiện rãnh trồng
 
-**01:02–01:05 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:02–01:05 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -376,7 +376,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S020 — Mang rổ củ giống ra
 
-**01:05–01:09 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:05–01:09 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Góc hiên chứa rổ giống và hướng ra vườn.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -392,7 +392,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S021 — Đưa củ giống sang khay
 
-**01:09–01:12 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:09–01:12 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -408,7 +408,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S022 — Chọn củ chắc, có mầm ngắn
 
-**01:12–01:16 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:12–01:16 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -424,7 +424,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S023 — Nhìn rõ mắt mầm
 
-**01:16–01:19 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:16–01:19 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -440,7 +440,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S024 — Đặt củ đầu hàng
 
-**01:19–01:23 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:19–01:23 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -456,7 +456,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S025 — Đặt củ tiếp, giữ khoảng cách
 
-**01:23–01:26 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:23–01:26 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -472,7 +472,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S026 — Củ tiếp theo chạm đất
 
-**01:26–01:30 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:26–01:30 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -488,7 +488,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S027 — Hàng củ dần hoàn tất
 
-**01:30–01:33 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:30–01:33 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -504,7 +504,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S028 — Bắt đầu phủ đất lên củ
 
-**01:33–01:37 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:33–01:37 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -520,7 +520,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S029 — Đất khép trên hàng trồng
 
-**01:37–01:40 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:37–01:40 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -536,7 +536,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S030 — Kết thúc lấp hàng
 
-**01:40–01:44 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:40–01:44 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -552,7 +552,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S031 — Đến vòi lấy xô tưới
 
-**01:44–01:47 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:44–01:47 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Vòi nước có sẵn trong khu nhà.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -568,7 +568,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S032 — Mở nước vào xô gỗ
 
-**01:47–01:51 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:47–01:51 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Vòi nước có sẵn trong khu nhà.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -584,7 +584,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S033 — Nước nâng gáo trong xô
 
-**01:51–01:54 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:51–01:54 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Vòi nước có sẵn trong khu nhà.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -600,7 +600,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S034 — Xách nước ra luống
 
-**01:54–01:58 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:54–01:58 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Lối từ vòi nước tới luống khoai.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -616,7 +616,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S035 — Đặt xô và cầm gáo
 
-**01:58–02:01 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:58–02:01 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -632,7 +632,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S036 — Múc lượt nước đầu
 
-**02:01–02:05 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:01–02:05 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -648,7 +648,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S037 — Hất nước nhẹ lên đầu hàng
 
-**02:05–02:08 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:05–02:08 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -664,7 +664,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S038 — Tưới dần sang đoạn kế
 
-**02:08–02:12 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:08–02:12 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -680,7 +680,7 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 
 #### S039 — Nước thấm trên đất tơi
 
-**02:12–02:15 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:12–02:15 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
 
 - **Địa điểm:** Luống khoai tây đầu tiên và lối đi cạnh luống.
 - **Ánh sáng:** Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày..
@@ -694,6 +694,410 @@ Nối đúng S015. Làm tơi phần còn lại của một luống đã có; m�
 - **Âm thanh:** Giọt nhỏ thấm đất; chim và gió nhẹ. Không nhạc, không thoại.
 - **Tham chiếu:** B03; P01; D05.
 
+## C03 — Hoàn tất tưới khoai và gieo ươm cà chua
+
+**23 cảnh · 81 giây · 02:15–03:36 · Chờ duyệt.**
+
+Khép việc tưới hàng khoai rồi theo cô trở về góc làm việc dưới hiên. Cà chua bắt đầu từ hạt trong một khay ươm riêng: cho giá thể sạch vào khay có thoát nước, làm ẩm, tạo rãnh nông, gieo thưa và phủ mỏng. Kết ở khay mới gieo đặt nơi ấm, sáng tán xạ, kín gió. Toàn bộ cùng buổi sáng, máy cố định, tốc độ tự nhiên. Chưa mô tả nảy mầm hoặc trồng cây con ra luống.
+
+### Bảng đọc nhanh
+
+| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
+|---|---|---:|---|---|
+| S040 | 02:15–02:19 | 4 | Toàn ngang mắt | Cô đặt gáo gọn trong xô, nhấc quai rồi xách xô dịch theo lối tới đoạn đất chưa tưới. |
+| S041 | 02:19–02:22 | 3 | Trung chéo bên | Cô đưa gáo thấp, hất nước tỏa nhẹ lên phần đất còn nhạt bên cạnh vùng đã ẩm. |
+| S042 | 02:22–02:26 | 4 | Toàn từ phía lối | Cô tưới lượt cuối lên đoạn còn nhạt rồi đưa gáo trở lại xô. |
+| S043 | 02:26–02:29 | 3 | Cận thấp | Giọt nước lắng vào đất; các khe nhỏ tối màu khi nước thấm. |
+| S044 | 02:29–02:33 | 4 | Toàn ngang mắt | Cô xách xô đi theo lối về hiên, nước còn lại sóng nhẹ trong xô. |
+| S045 | 02:33–02:36 | 3 | Trung chéo 45 độ | Cô đặt xô sát chân bàn rồi kéo khay ươm về phía mình để bắt đầu. |
+| S046 | 02:36–02:40 | 4 | Toàn người và góc bàn | Cô nghiêng thau, chuyển một phần giá thể vào khay rồi đặt thau xuống để tay còn lại dàn phần vừa đổ. |
+| S047 | 02:40–02:43 | 3 | Cận chéo từ trên | Cô kéo phần giá thể ở giữa sang góc thấp, bóp tơi một cục nhỏ bằng đầu ngón tay. |
+| S048 | 02:43–02:47 | 4 | Trung bên hông | Cô nghiêng gáo thấp, cho lượng nước nhỏ chạy lần lượt trên mặt giá thể rồi đưa gáo về xô. |
+| S049 | 02:47–02:50 | 3 | Cận hơi cao | Cô xoa nhẹ lớp mặt, dàn nốt chỗ lõm bằng đầu ngón tay. |
+| S050 | 02:50–02:54 | 4 | Trung ngang ngực và bàn | Cô nhấc gói giấy, mở nếp gấp và nghiêng miệng gói về lòng bàn tay khô. |
+| S051 | 02:54–02:57 | 3 | Cận đặc tả lòng bàn tay và miệng gói; máy cố định. | Cô nghiêng nhẹ thêm một nhịp cho số hạt vừa đủ rơi xuống rồi dựng gói trở lại. |
+| S052 | 02:57–03:01 | 4 | Toàn chéo hơi cao | Cô cầm que tre kéo một rãnh nông qua mặt giá thể ẩm, nhấc que để chuyển sang hàng kế. |
+| S053 | 03:01–03:04 | 3 | Trung chéo đối diện bàn | Cô lấy một nhúm rất nhỏ, để hạt rơi thưa dọc đoạn đầu rãnh, tay dịch đều theo hàng. |
+| S054 | 03:04–03:08 | 4 | Cận từ trên chéo | Cô thả hai hoặc ba hạt cách nhau vào phần rãnh còn trống, nhấc tay trở về đĩa. |
+| S055 | 03:08–03:11 | 3 | Toàn người và mặt bàn; máy cố định. | Cô gieo nốt đoạn còn lại, đặt đĩa sang phần khô của bàn rồi với về bát giá thể phủ. |
+| S056 | 03:11–03:15 | 4 | Trung từ đầu ngắn của khay | Cô bốc một ít giá thể mịn, rắc thưa dọc hàng đầu để che hạt. |
+| S057 | 03:15–03:18 | 3 | Cận ngang hơi cao | Đầu ngón tay rắc lớp mịn qua hàng kế, hạt dần khuất dưới lớp phủ. |
+| S058 | 03:18–03:22 | 4 | Trung chéo bên | Cô đặt nhẹ đầu ngón tay lên một dải mặt khay, vuốt rất nhẹ rồi rút tay. |
+| S059 | 03:22–03:25 | 3 | Cận ngang mặt bàn | Cô trút số hạt dư từ đĩa trở lại gói, gập miệng rồi đặt sang góc khô. |
+| S060 | 03:25–03:29 | 4 | Toàn ngang mắt | Cô luồn hai tay đỡ đáy khay, nhấc lên và bước ngắn tới chỗ sáng tán xạ, kín gió. |
+| S061 | 03:29–03:32 | 3 | Trung chéo thấp | Cô hạ khay lên hai thanh kê thấp có sẵn, chờ đáy được đỡ hoàn toàn rồi buông tay. |
+| S062 | 03:32–03:36 | 4 | Cận chéo mép khay và mặt giá thể; máy cố định. | Bàn tay cô rời mép khay; bóng lá rất nhẹ chuyển trên nền hiên phía sau. |
+
+### Mô tả chi tiết
+
+#### S040 — Đưa xô tới đoạn chưa tưới
+
+**02:15–02:19 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Luống khoai và lối đi cạnh luống.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Toàn ngang mắt, chéo dọc luống; máy cố định.
+- **Bố cục:** Giữ chiều nhà–vườn đã xác lập; vật dụng và phần đất ẩm phải đúng vị trí qua điểm cắt.
+- **Nhân vật và dụng cụ:** Cô gái; xô và gáo gỗ D05. Dụng cụ còn lại giữ ở đầu luống.
+- **Trạng thái đầu:** Đầu hàng đã ẩm; đoạn giữa và cuối còn nhạt. Gáo đã về xô sau S038; S039 chỉ nhìn đất.
+- **Hành động:** Cô đặt gáo gọn trong xô, nhấc quai rồi xách xô dịch theo lối tới đoạn đất chưa tưới.
+- **Kết quả:** Xô và gáo chuyển theo cô, đất mới chưa nhận nước.
+- **Nối cảnh:** Nối trực tiếp trạng thái S039; không đi lại từ vòi hoặc tưới lại đầu hàng.
+- **Âm thanh:** Quai gỗ, bước chân, nước sóng nhẹ. Không nhạc, không thoại.
+- **Tham chiếu:** B03; B02; P01; D05.
+
+#### S041 — Tưới đoạn kế của hàng khoai
+
+**02:19–02:22 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Đoạn giữa hàng khoai.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Trung chéo bên, thấy cả xô và vùng nhận nước; máy cố định.
+- **Bố cục:** Giữ chiều nhà–vườn đã xác lập; vật dụng và phần đất ẩm phải đúng vị trí qua điểm cắt.
+- **Nhân vật và dụng cụ:** Cô gái; xô và gáo gỗ D05. Dụng cụ còn lại giữ ở đầu luống.
+- **Trạng thái đầu:** Sau điểm cắt cô đã đặt xô và múc một lượt mới; gáo có nước.
+- **Hành động:** Cô đưa gáo thấp, hất nước tỏa nhẹ lên phần đất còn nhạt bên cạnh vùng đã ẩm.
+- **Kết quả:** Một đoạn mới chuyển sẫm; đất không bị xói lộ củ.
+- **Nối cảnh:** Lược việc đặt xô và múc tại điểm cắt; đây là lượt mới, không lặp S037–S038.
+- **Âm thanh:** Nước rải lên đất và gió nhẹ. Không nhạc, không thoại.
+- **Tham chiếu:** B03; B02; P01; D05.
+
+#### S042 — Tưới xong đoạn cuối
+
+**02:22–02:26 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Cuối hàng khoai.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Toàn từ phía lối, nhìn dọc hàng; máy cố định.
+- **Bố cục:** Giữ chiều nhà–vườn đã xác lập; vật dụng và phần đất ẩm phải đúng vị trí qua điểm cắt.
+- **Nhân vật và dụng cụ:** Cô gái; xô và gáo gỗ D05. Dụng cụ còn lại giữ ở đầu luống.
+- **Trạng thái đầu:** Đã lược các lượt tưới giữa hàng; đất phía sau sẫm ẩm, chỉ đoạn cuối chưa tưới. Xô đã dịch tới cuối hàng.
+- **Hành động:** Cô tưới lượt cuối lên đoạn còn nhạt rồi đưa gáo trở lại xô.
+- **Kết quả:** Cả hàng có độ ẩm bề mặt tương đối đều; không có vũng đọng.
+- **Nối cảnh:** Lược nhiều lượt múc, tưới và dịch xô; người luôn chuyển động ở tốc độ tự nhiên. Các luống khác vẫn trống.
+- **Âm thanh:** Lượt nước cuối, gáo chạm thành xô nhẹ. Không nhạc, không thoại.
+- **Tham chiếu:** B03; B02; P01; D05.
+
+#### S043 — Đất cuối hàng thấm nước
+
+**02:26–02:29 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Đoạn cuối hàng khoai.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Cận thấp, thấy mặt đất và mép hàng; máy cố định.
+- **Bố cục:** Giữ chiều nhà–vườn đã xác lập; vật dụng và phần đất ẩm phải đúng vị trí qua điểm cắt.
+- **Nhân vật và dụng cụ:** Cô gái; xô và gáo gỗ D05. Dụng cụ còn lại giữ ở đầu luống.
+- **Trạng thái đầu:** Nước vừa chạm đoạn đất cuối ở S042.
+- **Hành động:** Giọt nước lắng vào đất; các khe nhỏ tối màu khi nước thấm.
+- **Kết quả:** Việc tưới hàng khoai được khép lại; chưa có lá hoặc mầm cây trên mặt luống.
+- **Nối cảnh:** Cảnh kết quả nối lượt nước S042; không lặp cận đất ở đầu hàng S039.
+- **Âm thanh:** Giọt nhỏ và âm nền vườn; không phóng đại tiếng thấm. Không nhạc, không thoại.
+- **Tham chiếu:** B03; B02; P01; D05.
+
+#### S044 — Mang xô về hiên
+
+**02:29–02:33 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Lối từ vườn về góc hiên làm việc.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Toàn ngang mắt, giữ chiều đi từ vườn về nhà; máy cố định.
+- **Bố cục:** Giữ chiều nhà–vườn đã xác lập; vật dụng và phần đất ẩm phải đúng vị trí qua điểm cắt.
+- **Nhân vật và dụng cụ:** Cô gái; xô và gáo gỗ D05. Dụng cụ còn lại giữ ở đầu luống.
+- **Trạng thái đầu:** Gáo nằm trong xô; xô vẫn còn nước sau các lượt tưới.
+- **Hành động:** Cô xách xô đi theo lối về hiên, nước còn lại sóng nhẹ trong xô.
+- **Kết quả:** Cô tới gần góc làm việc dưới hiên; xô theo tay, không đổi sang bình tưới.
+- **Nối cảnh:** Lược nhịp nhấc xô ở cuối hàng; giỏ, khay khoai, rổ, cuốc và xẻng vẫn ở lối đầu luống.
+- **Âm thanh:** Bước chân đổi theo mặt lối, nước trong xô. Không nhạc, không thoại.
+- **Tham chiếu:** B03; B02; P01; D05.
+
+#### S045 — Bắt đầu góc gieo ươm
+
+**02:33–02:36 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Góc làm việc dưới hiên có sẵn.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Trung chéo 45 độ, thấy mặt bàn và chỗ đặt xô; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Khay ươm gỗ sạch, có lỗ thoát đáy và lớp lưới giữ giá thể; thau giá thể ươm tơi sạch, bát nhỏ chứa giá thể phủ, đĩa con khô, que tre và gói hạt nằm sẵn trên bàn.
+- **Hành động:** Cô đặt xô sát chân bàn rồi kéo khay ươm về phía mình để bắt đầu.
+- **Kết quả:** Khay rỗng nằm chắc trên bàn, xô ở dưới cạnh cô, gáo vẫn trong xô.
+- **Nối cảnh:** Góc hiên dùng đúng bối cảnh hiện có, không xây thêm nhà ươm. Khay này khác khay khoai D01.
+- **Âm thanh:** Xô chạm nền, gỗ khay trượt nhẹ trên bàn. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S046 — Cho giá thể vào khay
+
+**02:36–02:40 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Bàn gieo ươm dưới hiên.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Toàn người và góc bàn, hơi chéo; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Khay còn rỗng, thau giá thể bên cạnh, hai tay cô rảnh.
+- **Hành động:** Cô nghiêng thau, chuyển một phần giá thể vào khay rồi đặt thau xuống để tay còn lại dàn phần vừa đổ.
+- **Kết quả:** Khay có lớp giá thể đầu; vẫn còn chỗ để bổ sung.
+- **Nối cảnh:** Chỉ thấy phần chuyển đầu; không làm đầy và san cả khay ngay trong một nhịp. Không trộn phân.
+- **Âm thanh:** Giá thể rơi nhẹ, thau đặt trên gỗ. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S047 — Dàn giá thể tới góc khay
+
+**02:40–02:43 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Cùng bàn gieo ươm.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Cận chéo từ trên, đọc rõ thành khay; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Sau phần bổ sung được lược, khay gần đủ giá thể; một góc còn thấp.
+- **Hành động:** Cô kéo phần giá thể ở giữa sang góc thấp, bóp tơi một cục nhỏ bằng đầu ngón tay.
+- **Kết quả:** Các góc khay được lấp đều, giá thể thấp hơn thành khay để giữ nước khi tưới.
+- **Nối cảnh:** Kế thừa phần đã đổ, không đổ lại từ khay rỗng. Không dùng đất luống còn dính củ giống.
+- **Âm thanh:** Đầu ngón tay và giá thể trên đáy gỗ. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S048 — Làm ẩm giá thể trước gieo
+
+**02:43–02:47 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Bàn gieo ươm, xô đặt dưới cạnh bàn.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Trung bên hông, thấy gáo và toàn khay; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Mặt giá thể đã dàn sơ, chưa có hạt. Cô đã múc lượng nước nhỏ trong gáo qua điểm cắt.
+- **Hành động:** Cô nghiêng gáo thấp, cho lượng nước nhỏ chạy lần lượt trên mặt giá thể rồi đưa gáo về xô.
+- **Kết quả:** Vùng được tưới sẫm ẩm; nước không tràn thành khay.
+- **Nối cảnh:** Được phép tưới trước khi gieo; không đổ dòng mạnh lên hạt. Lược nhịp múc từ xô, không thêm vòi ở bàn.
+- **Âm thanh:** Nước nhỏ vào giá thể, gáo chạm xô nhẹ. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S049 — Hoàn thiện mặt gieo
+
+**02:47–02:50 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Cùng bàn gieo ươm.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Cận hơi cao, bàn tay và mặt khay rõ; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Sau thời gian nước thấm và phần làm ẩm còn lại được lược, giá thể ẩm đều, không sũng.
+- **Hành động:** Cô xoa nhẹ lớp mặt, dàn nốt chỗ lõm bằng đầu ngón tay.
+- **Kết quả:** Mặt gieo bằng, tơi ẩm, thấp hơn thành khay; không có hạt.
+- **Nối cảnh:** Điểm cắt lược chờ nước thấm; không dùng timelapse cho bàn tay. Chỉ ép nhẹ để ổn định mặt, không nén chặt.
+- **Âm thanh:** Giá thể ẩm chạm tay; chim xa. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S050 — Mở gói hạt cà chua
+
+**02:50–02:54 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Cùng bàn gieo ươm.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Trung ngang ngực và bàn, tay ở vùng nét; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Gói giấy nhỏ nằm cạnh bát giá thể phủ; tay cô đã rời mặt khay.
+- **Hành động:** Cô nhấc gói giấy, mở nếp gấp và nghiêng miệng gói về lòng bàn tay khô.
+- **Kết quả:** Gói mở, một ít hạt bắt đầu ra lòng tay.
+- **Nối cảnh:** Lược nhịp phủi khô tay; gói không in chữ, logo hoặc hình nhãn bắt buộc. Không kể nguồn gốc hạt.
+- **Âm thanh:** Giấy sột soạt; âm hiên yên. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S051 — Hạt nhỏ trong lòng tay
+
+**02:54–02:57 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Cùng bàn gieo ươm.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Cận đặc tả lòng bàn tay và miệng gói; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Vài hạt đã ra tay; gói vẫn nghiêng như cuối S050.
+- **Hành động:** Cô nghiêng nhẹ thêm một nhịp cho số hạt vừa đủ rơi xuống rồi dựng gói trở lại.
+- **Kết quả:** Một lượng hạt nhỏ nằm trong lòng tay, gói thôi đổ.
+- **Nối cảnh:** Tiếp lần đổ S050, không đổ lại từ đầu. Hạt cà chua nhỏ dẹt màu vàng nhạt, không thành hạt đậu lớn.
+- **Âm thanh:** Giấy chuyển động nhẹ; không khuếch đại tiếng từng hạt. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S052 — Tạo rãnh gieo nông
+
+**02:57–03:01 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Cùng bàn gieo ươm.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Toàn chéo hơi cao, thấy khay, gói hạt và hai tay; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Qua điểm cắt, gói và hạt đã được đặt trong đĩa con khô trên bàn; que tre ở bên khay.
+- **Hành động:** Cô cầm que tre kéo một rãnh nông qua mặt giá thể ẩm, nhấc que để chuyển sang hàng kế.
+- **Kết quả:** Một rãnh gieo nông xuất hiện; hạt vẫn nằm trong đĩa.
+- **Nối cảnh:** Lược việc chuyển hạt từ tay sang đĩa, đĩa đã thấy từ cảnh bàn S045. Rãnh cho hạt nhỏ, khác rãnh khoai sâu ngoài vườn.
+- **Âm thanh:** Que tre lướt qua giá thể ẩm. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S053 — Gieo những hạt đầu
+
+**03:01–03:04 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Cùng bàn gieo ươm.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Trung chéo đối diện bàn, cùng phía trục tay; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Qua điểm cắt, các rãnh nông đã tạo xong; que tre đặt sát đĩa hạt.
+- **Hành động:** Cô lấy một nhúm rất nhỏ, để hạt rơi thưa dọc đoạn đầu rãnh, tay dịch đều theo hàng.
+- **Kết quả:** Đoạn đầu rãnh có vài hạt tách nhau; phần sau chưa gieo.
+- **Nối cảnh:** Lược thao tác tạo các rãnh còn lại, không biến thành thao tác lặp trên cùng rãnh. Không rải dày kín mặt.
+- **Âm thanh:** Áo chạm bàn nhẹ, âm nền hiên. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S054 — Hạt rơi vào rãnh kế tiếp
+
+**03:04–03:08 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Cùng khay ươm.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Cận từ trên chéo, đầu ngón tay và rãnh rõ; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Cô đã tiến qua đoạn đầu; tay mang hạt tới khoảng trống tiếp theo.
+- **Hành động:** Cô thả hai hoặc ba hạt cách nhau vào phần rãnh còn trống, nhấc tay trở về đĩa.
+- **Kết quả:** Một đoạn mới có hạt; số hạt trong đĩa giảm.
+- **Nối cảnh:** Tiếp diễn công việc, không chiếu lại những hạt S053 vừa thả. Hạt giữ đúng kích thước qua góc cận.
+- **Âm thanh:** Chuyển động tay rất nhẹ; chim xa. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S055 — Hoàn tất hàng gieo cuối
+
+**03:08–03:11 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Cùng bàn gieo ươm.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Toàn người và mặt bàn; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Các đoạn gieo giữa đã được lược; chỉ đoạn ngắn cuối hàng cuối còn trống.
+- **Hành động:** Cô gieo nốt đoạn còn lại, đặt đĩa sang phần khô của bàn rồi với về bát giá thể phủ.
+- **Kết quả:** Các hàng đã gieo đủ cho một khay nhỏ, chưa phủ; bát ở trong tầm tay.
+- **Nối cảnh:** Chỉ một khay cho vườn gia đình; không tự nhân thêm khay hoặc xuất hiện cây con.
+- **Âm thanh:** Đĩa chạm gỗ, vải chuyển. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S056 — Phủ lớp mỏng trên hạt
+
+**03:11–03:15 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Cùng bàn gieo ươm.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Trung từ đầu ngắn của khay, nhìn rõ bàn tay; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Bát nhỏ có giá thể mịn hơi ẩm đặt bên khay; hạt còn thấy trong các rãnh.
+- **Hành động:** Cô bốc một ít giá thể mịn, rắc thưa dọc hàng đầu để che hạt.
+- **Kết quả:** Hàng đầu đã được phủ lớp mỏng, những hàng kế còn hở.
+- **Nối cảnh:** Đây là phủ hạt, không phải bón phân; không đổ cả bát thành ụ dày.
+- **Âm thanh:** Giá thể mịn rơi nhẹ. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S057 — Lớp giá thể khép trên hàng kế
+
+**03:15–03:18 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Cùng khay ươm.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Cận ngang hơi cao, vùng nét theo hàng hạt; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Một hàng kế tiếp còn hở hạt; tay cô mang giá thể từ bát.
+- **Hành động:** Đầu ngón tay rắc lớp mịn qua hàng kế, hạt dần khuất dưới lớp phủ.
+- **Kết quả:** Đoạn mới được phủ, không còn hạt lộ trong vùng nét.
+- **Nối cảnh:** Không làm lại hàng S056; giữ độ mỏng phù hợp với hạt cà chua, không thành lớp đất phủ khoai.
+- **Âm thanh:** Giá thể và bàn tay; không thêm âm hạt va lớn. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S058 — Ổn định mặt khay
+
+**03:18–03:22 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Cùng bàn gieo ươm.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Trung chéo bên, thấy hai tay và cả mặt khay; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Sau khi lược phần phủ các hàng còn lại, cả khay có lớp mặt mịn hơi ẩm.
+- **Hành động:** Cô đặt nhẹ đầu ngón tay lên một dải mặt khay, vuốt rất nhẹ rồi rút tay.
+- **Kết quả:** Lớp phủ tiếp xúc ổn định với giá thể ẩm bên dưới; mặt vẫn xốp, không đóng bánh.
+- **Nối cảnh:** Không cào bật hạt hoặc ép chặt. Không tưới dòng nước mạnh sau khi gieo.
+- **Âm thanh:** Tay lướt nhẹ; chim và lá ngoài hiên. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S059 — Cất hạt còn lại gọn bên bàn
+
+**03:22–03:25 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Phần khô của bàn gieo ươm.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Cận ngang mặt bàn, gói giấy và đĩa trong vùng nét; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Trong đĩa còn ít hạt; gói mở nằm sát bên, tay đã rời khay.
+- **Hành động:** Cô trút số hạt dư từ đĩa trở lại gói, gập miệng rồi đặt sang góc khô.
+- **Kết quả:** Hạt dư đã cất; đĩa rỗng, gói khép, không nằm trên mặt khay.
+- **Nối cảnh:** Chuỗi gọn trong cùng nhịp làm việc; không thêm cảnh lưu kho hạt hoặc ghi nhãn có chữ.
+- **Âm thanh:** Giấy gấp, đĩa chạm bàn nhẹ. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S060 — Mang khay tới chỗ ươm
+
+**03:25–03:29 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Từ bàn tới vị trí ươm trong cùng khu hiên.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Toàn ngang mắt, góc hiên và chỗ đặt cùng đọc được; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Khay đã gieo phủ xong, đủ nhẹ để cô nâng bằng hai tay; góc ươm nằm gần bàn.
+- **Hành động:** Cô luồn hai tay đỡ đáy khay, nhấc lên và bước ngắn tới chỗ sáng tán xạ, kín gió.
+- **Kết quả:** Khay được mang ngang, giá thể không đổ; cô tới gần chỗ đặt.
+- **Nối cảnh:** Chọn nơi có thật trong bối cảnh, tránh gió lùa và nắng trưa; không tự thêm nhà kính hay chuyển sang khu bếp.
+- **Âm thanh:** Khay rời bàn, bước chân nhẹ. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S061 — Đặt khay vững ở góc ươm
+
+**03:29–03:32 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Vị trí ươm trong khu hiên.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Trung chéo thấp, thấy tay đỡ và mặt kê; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Khay còn được cô đỡ hai tay; mặt kê gỗ khô có sẵn ngay trước cô.
+- **Hành động:** Cô hạ khay lên hai thanh kê thấp có sẵn, chờ đáy được đỡ hoàn toàn rồi buông tay.
+- **Kết quả:** Khay đứng vững, đáy thoát nước không bị bịt; tay rút khỏi mép khay.
+- **Nối cảnh:** Nối phần hạ khay sau S060; không đặt lại một lần nữa. Hai thanh kê chỉ là vật nhỏ, không đổi kiến trúc hiên.
+- **Âm thanh:** Gỗ chạm gỗ nhẹ, vải áo. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
+#### S062 — Khay ươm mới gieo trong ánh sáng dịu
+
+**03:32–03:36 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+
+- **Địa điểm:** Cùng vị trí ươm.
+- **Ánh sáng:** Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Cỡ cảnh và góc nhìn:** Cận chéo mép khay và mặt giá thể; máy cố định.
+- **Bố cục:** Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
+- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Trạng thái đầu:** Khay vừa được đặt vững, mặt phủ hơi ẩm; không nhìn thấy hạt hoặc cây.
+- **Hành động:** Bàn tay cô rời mép khay; bóng lá rất nhẹ chuyển trên nền hiên phía sau.
+- **Kết quả:** Khay nằm yên chờ nảy mầm; hôm gieo chưa có mầm xuất hiện.
+- **Nối cảnh:** Kết C03 tại trạng thái vừa gieo. Chưa tua nhanh, chưa sang ngày mới; dừng chờ duyệt.
+- **Âm thanh:** Lá ngoài hiên, tiếng bước chân cô xa nhẹ nếu vừa rời khung. Không nhạc, không thoại.
+- **Tham chiếu:** B05; P01; D06; D07; D05.
+
 ## Tài nguyên và liên tục
 
 Mã tài nguyên là nhãn chức năng; chưa phải tên ảnh đã đối chiếu. Mọi vị trí phải gắn vào bộ bối cảnh người dùng khi sản xuất.
@@ -703,7 +1107,7 @@ Mã tài nguyên là nhãn chức năng; chưa phải tên ảnh đã đối chi
 | B01 | Toàn thể khu nhà và vườn trước nhà | Giữ tường bao, các công trình liền kề và luống có sẵn; không thêm suối/cầu. | Cần gắn ảnh tổng thể hiện hành khi sản xuất. |
 | B02 | Hiên, lối ra vườn và nơi để dụng cụ | Dùng vị trí có thật trong bộ bối cảnh. Hướng đi trên màn ảnh từ hiên đến vườn giữ nhất quán. | Chưa khóa tên ảnh/góc máy cụ thể. |
 | B03 | Luống khoai tây đầu tiên và lối đi cạnh luống | Đúng luống S007–S015; C02 làm tơi tiếp phần còn lại, mở một hàng trồng dọc luống, đặt củ rồi phủ đất. Các luống khác chưa trồng. | Giữ hình học luống; chỉ mặt đất thay đổi theo công việc. |
-| P01 | Cô gái | Ngoại hình và trang phục từ ảnh người dùng gắn khi sản xuất. | Ngoại hình/trang phục giữ xuyên C01–C02, cùng một buổi sáng. |
+| P01 | Cô gái | Ngoại hình và trang phục từ ảnh người dùng gắn khi sản xuất. | Ngoại hình/trang phục giữ xuyên C01–C03, cùng một buổi sáng. |
 | D01 | Giỏ tre và khay gỗ nông | S016–S020 giỏ và khay ở đầu luống; xẻng trong khay. S021 khay nhận củ từ rổ giống; S024 khay theo cô dọc hàng; S030 khay rỗng trở lại cạnh giỏ. | Không đổi kích thước hoặc biến khay thành rổ. Củ vừa đủ cho một hàng tự cung tự cấp. |
 | D02 | Cuốc cán gỗ | Một cây cuốc duy nhất. Cán và lưỡi không đổi hình; vị trí phải được ghi qua điểm cắt. | Dùng cả hai tay khi cuốc, không đồng thời xách giỏ. |
 | D03 | Xẻng nhỏ | Nằm trong giỏ ở cảnh đầu; S009 đặt vào khay, chưa dùng ở C01. | Không tự xuất hiện trên luống. |
@@ -711,11 +1115,17 @@ Mã tài nguyên là nhãn chức năng; chưa phải tên ảnh đã đối chi
 | D04 | Rổ tre nhỏ đựng củ giống | S020 mang từ góc hiên đã để sẵn; củ nhỏ, nguyên, có mầm ngắn chắc; không phải hạt khoai. | Rổ đặt cạnh giỏ sau khi chuyển củ sang khay; không biến thành giỏ D01. |
 | D05 | Xô gỗ và gáo gỗ tưới vườn | Có sẵn cùng nhau cạnh vòi ở S031. Gáo nằm trong xô; khi xách, gáo vẫn ở xô. | Dụng cụ tưới ngoài vườn, khác xô cao lấy nước rửa trong bếp. |
 
-**Bàn giao cuối S039:** một hàng khoai đã đặt củ và phủ đất. Đầu hàng đã tưới; phần xa chưa khẳng định tưới xong. Cô, xô, gáo ở đầu luống. Cuốc, xẻng, giỏ, khay rỗng và rổ giống rỗng ở lối đầu luống. Các luống khác chưa trồng. Chưa có cây mọc.
+| B05 | Góc gieo ươm và vị trí đặt khay dưới hiên | Dùng góc hiên hiện có, ấm và kín gió. Khóa bàn và vị trí kê khay qua S045–S062. | Chưa gắn ảnh; không tạo thêm công trình hoặc nhà kính. |
+| D06 | Khay ươm cà chua riêng | Một khay gỗ sạch có lỗ thoát đáy và lưới giữ giá thể. Khác khay khoai D01; mặt kê có hai thanh thấp. | Cuối S062: đã gieo, phủ mỏng, giá thể đủ ẩm; không có cây con. |
+| D07 | Bộ gieo hạt | Thau giá thể ươm tơi sạch, bát nhỏ lớp phủ mịn, đĩa con khô, gói giấy hạt và que tre. | Gói hạt đã khép tại S059; các đồ nhỏ ở bàn. Không có chữ, logo. |
+
+**Bàn giao cuối S039 (đầu vào C03):** một hàng khoai đã đặt củ và phủ đất. Đầu hàng đã tưới; phần xa chưa khẳng định tưới xong. Cô, xô, gáo ở đầu luống. Cuốc, xẻng, giỏ, khay rỗng và rổ giống rỗng ở lối đầu luống. Các luống khác chưa trồng. Chưa có cây mọc.
+
+**Bàn giao cuối S062:** hàng khoai đã được tưới xong. Một khay cà chua vừa gieo và phủ lớp mỏng nằm ở vị trí ươm ấm, kín gió dưới hiên; giá thể đủ ẩm, chưa có mầm. Xô/gáo ở cạnh bàn gieo; gói hạt đã khép, dụng cụ gieo ở bàn. Giỏ, khay khoai, rổ, cuốc và xẻng vẫn ở đầu luống. Chưa gieo dưa chuột hoặc rau dền.
 
 ## Quy chuẩn hiện hành
 
-- **Phạm vi duyệt:** C01/S001–S015 đã duyệt qua yêu cầu tiếp tục. C02/S016–S039 chờ duyệt; dừng trước C03.
+- **Phạm vi duyệt:** C01/S001–S015 đã duyệt qua yêu cầu tiếp tục. C02/S016–S039 đã duyệt. C03/S040–S062 chờ duyệt; dừng trước C04.
 
 - **Thời lượng:** Mục tiêu toàn phim 20 phút, 350 cảnh. 12 phút đầu cho mở đầu và việc vườn; 6 phút cho chuẩn bị bếp, sơ chế, nấu; 2 phút cho dọn và ăn tối. Thời lượng cảnh là phần dùng trong bản dựng.
 
@@ -723,11 +1133,11 @@ Mã tài nguyên là nhãn chức năng; chưa phải tên ảnh đã đối chi
 
 - **Máy và dựng:** Máy cố định ở mọi cảnh. Chủ yếu toàn–trung–cận. Cắt thẳng; đổi góc để tiếp diễn hoặc lược thời gian ở điểm cắt. Không yêu cầu hoàn thành nhiều phút lao động trong vài giây tự nhiên.
 
-- **Tốc độ:** Công việc và tình cảm ở tốc độ tự nhiên; tua nhanh dành cho chờ hoặc sinh trưởng. C01–C02 đều tự nhiên; phần việc lặp lại được lược tại điểm cắt.
+- **Tốc độ:** Công việc và tình cảm ở tốc độ tự nhiên; tua nhanh dành cho chờ hoặc sinh trưởng. C01–C03 đều tự nhiên; phần việc lặp lại được lược tại điểm cắt.
 
 - **Âm thanh:** Chỉ âm thao tác và môi trường khớp hình; không nhạc, không lời thoại, không lời bình. Tiếng chim thưa và gió nhẹ nối liền qua các điểm cắt.
 
-- **Nhân vật:** Cô gái là chính; bà là người được chăm sóc. Chó, mèo thỉnh thoảng xuất hiện tự nhiên. C01–C02 chỉ có cô gái; không ép nhân vật phụ vào mọi cụm.
+- **Nhân vật:** Cô gái là chính; bà là người được chăm sóc. Chó, mèo thỉnh thoảng xuất hiện tự nhiên. C01–C03 chỉ có cô gái; không ép nhân vật phụ vào mọi cụm.
 
 - **Cây và món:** Cà chua là tuyến chính; khoai tây, dưa chuột, rau dền là các tuyến bổ sung. Năm món đã chốt: khoai tây kiểu bà, Hồng tam đóa, trứng xào cà chua, dưa chuột trộn tỏi, rau dền xào tỏi.
 
@@ -752,6 +1162,8 @@ Phỏng vấn của người dùng là căn cứ ưu tiên. Khung đã đọc: K
 - [Nguyên tắc dùng củ giống nguyên nhỏ](https://www.yunfu.gov.cn/nyncj/zdht/syjs/content/post_1519127.html): Cơ quan nông nghiệp Vân Phù: củ giống cỡ khoảng 50 g có thể trồng nguyên. Chỉ dùng để đối chiếu dạng củ giống, không dùng lịch mùa vùng này cho Côn Minh.
 - [Bối cảnh mùa vụ Vân Nam](https://agri-history.ihns.ac.cn/agrobiology/sunmaolin3.htm): Nghiên cứu của tác giả thuộc Viện KHNN Vân Nam và ĐH Sư phạm Vân Nam: lịch khoai khác theo vùng sinh thái. Chưa đủ để khóa lịch chung bốn cây tại địa điểm cụ thể.
 
-**Kiểm tra:** 39 mã liên tục, không trùng; mỗi cảnh 3–4 giây; C01 51 giây, C02 84 giây, tổng 135 giây. Các công đoạn kéo dài được lược tại điểm cắt, không tăng tốc người.
+- [Kỹ thuật gieo ươm — UMN Extension](https://extension.umn.edu/planting-and-growing-guides/starting-seeds-indoors): chỉ đối chiếu giá thể tơi sạch, khay có thoát nước, làm ẩm trước gieo và phủ phù hợp kích thước hạt. Không áp dụng lịch Minnesota cho Côn Minh.
 
-**Điểm duyệt:** duyệt hoặc góp ý C02 trước khi tiếp tục C03.
+**Kiểm tra:** 62 mã liên tục, không trùng; mỗi cảnh 3–4 giây; C01 51 giây, C02 84 giây, C03 81 giây, tổng 216 giây. Các công đoạn kéo dài được lược tại điểm cắt, không tăng tốc người.
+
+**Điểm duyệt:** duyệt hoặc góp ý C03 trước khi tiếp tục C04.
