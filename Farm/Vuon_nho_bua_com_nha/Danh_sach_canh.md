@@ -1,5597 +1,3754 @@
 # Vườn nhỏ, bữa cơm nhà
 
-Phiên bản 1.2 · 24/10/2026
+Phiên bản 1.3 · 25/10/2026
 
-**350 shot · 1.200 giây · 00:00–20:00 · S001–S350.** Bản sửa theo hai hướng người dùng duyệt: gộp động tác thành nhịp làm việc tự nhiên và đan xen việc bếp trong khoảng chờ. Cốt truyện, bốn cây, năm món, nhân vật và máy cố định giữ nguyên.
+**234 shot · 845.1 giây · 14:05.1.** Bản shotlist đã chỉnh toàn bộ theo tài liệu ADN hình/nhịp người dùng cung cấp. Cỡ cảnh và thời lượng đi theo dạng hành động, thông tin và điểm cắt. Không ép số lượng shot hoặc tổng thời lượng. Đây là thời lượng đề xuất dùng trong dựng, cần tinh chỉnh theo take thực. Máy cố định toàn bộ. Chưa viết prompt.
 
-**Phạm vi:** Chỉ danh sách shot; chưa viết prompt hoặc tạo storyboard hình/video. Các dòng đã sửa/đổi vị trí có trạng thái Chờ duyệt để người dùng rà bản kết quả. Mã S001–S350 là thứ tự dựng hiện hành; khi đối chiếu ảnh/prompt dùng bản 1.2.
+## Tổng quan các cụm
 
-**Nhịp sống:** Quan sát một người làm công việc hằng ngày. Mỗi shot là một nhịp có mục đích; cảnh sau tiếp phần chưa xong hoặc một phần việc mới. Đổi góc không làm lại động tác. Thao tác người ở tốc độ tự nhiên, phần lặp/chờ lược tại cut; không buộc bộ toàn–trung–cận cho mỗi động tác nhỏ.
+| Cụm | Nội dung | Mã shot | Dòng thời gian |
+|---|---|---|---|
+| C01 | Buổi sáng và chuẩn bị đất | S001–S009 | 00:00.0–00:31.7 |
+| C02 | Trồng khoai và tưới lượt đầu | S010–S021 | 00:31.7–01:09.4 |
+| C03 | Gieo ươm cà chua | S022–S033 | 01:09.4–01:46.4 |
+| C04 | Những ngày đầu, cây nhú và bà cùng chăm | S034–S050 | 01:46.4–02:53.6 |
+| C05 | Sang chậu, chăm cây và quen nắng | S051–S064 | 02:53.6–03:43.8 |
+| C06 | Trồng cà chua ra luống | S065–S078 | 03:43.8–04:31.4 |
+| C07 | Vun khoai, dựng giàn, gieo dưa và chăm cây | S079–S098 | 04:31.4–05:36.9 |
+| C08 | Gieo dền, chăm quả và chờ tới độ thu | S099–S116 | 05:36.9–06:47.7 |
+| C09 | Thu hoạch, chia phần và mang vào bếp | S117–S135 | 06:47.7–07:49.7 |
+| C10 | Nhóm lửa, vo gạo và bắt đầu luộc khoai | S136–S149 | 07:49.7–08:45.0 |
+| C11 | Rửa rau quả, kiểm nồi và chuẩn bị gia vị | S150–S163 | 08:45.0–09:33.2 |
+| C12 | Sơ chế trong thời gian chờ, để khoai nguội rồi bóc | S164–S185 | 09:33.2–10:47.6 |
+| C13 | Cho cơm nghỉ, nấu khoai và Hồng tam đóa | S186–S204 | 10:47.6–11:54.6 |
+| C14 | Trứng cà chua, xới cơm và món rau cuối | S205–S216 | 11:54.6–12:36.8 |
+| C15 | Dọn bàn, mời bà và chia cơm | S217–S223 | 12:36.8–13:13.4 |
+| C16 | Hai bà cháu ăn tối, khép ngày | S224–S234 | 13:13.4–14:05.1 |
 
-**Thời gian câu chuyện:** Bắt đầu vụ tới khoảng ngày 105; mốc ngày là tương đối, chưa khóa tháng/mùa địa phương hoặc giống. Tất cả luống xuất hiện cùng một thời điểm phải cùng tiến tuổi. Thu sáng, nấu chiều và ăn tối cùng ngày.
+## C01 — Buổi sáng và chuẩn bị đất
 
-**Dòng công việc bếp:** Nhóm lửa và đặt cơm/khoai → rửa rau, kiểm cơm và băm gia vị trong lúc đun → chuẩn bị dưa/nước trộn → kiểm khoai, vớt để nguội → thái rau quả, chuẩn bị thịt/trứng → bóc khoai → cho cơm nghỉ → xào khoai → xào thịt và cà chua → tranh thủ trộn dưa khi sốt mềm ở lửa vừa → trở lại hoàn tất Hồng tam đóa → làm trứng cà chua → xới cơm → xào dền cuối → dọn và ăn. Không để một người đồng thời đảo hai chảo.
-
-## Tổng quan 16 cụm công việc
-
-| Cụm | Nội dung | Mã shot | Số shot | Thời lượng | Dòng thời gian |
-|---|---|---|---:|---:|---|
-| C01 | Buổi sáng, cô mang dụng cụ ra làm đất | S001–S013 | 13 | 41 giây | 00:00–00:41 |
-| C02 | Trồng khoai và lấy nước tưới | S014–S032 | 19 | 62 giây | 00:41–01:43 |
-| C03 | Tưới nốt luống khoai rồi gieo ươm cà chua | S033–S051 | 19 | 69 giây | 01:43–02:52 |
-| C04 | Những ngày đầu chăm cây và mầm sống xuất hiện | S052–S079 | 28 | 99 giây | 02:52–04:31 |
-| C05 | Sang chậu và cho cà chua quen dần với nắng | S080–S103 | 24 | 85 giây | 04:31–05:56 |
-| C06 | Trồng sáu cây cà chua ra luống và cắm cọc tre | S104–S126 | 23 | 81 giây | 05:56–07:17 |
-| C07 | Vun khoai, gieo dưa chuột và chăm cà chua | S127–S154 | 28 | 99 giây | 07:17–08:56 |
-| C08 | Gieo rau dền và theo vườn tới ngày thu hoạch | S155–S182 | 28 | 100 giây | 08:56–10:36 |
-| C09 | Thu hoạch bốn loại thực phẩm, chia phần và mang vào bếp | S183–S206 | 24 | 84 giây | 10:36–12:00 |
-| C10 | Nhóm bếp, vo gạo và bắt đầu luộc khoai | S207–S228 | 22 | 72 giây | 12:00–13:12 |
-| C11 | Rửa rau quả, kiểm nồi cơm và chuẩn bị gia vị | S229–S250 | 22 | 70 giây | 13:12–14:22 |
-| C12 | Chuẩn bị dưa trong lúc đun, vớt khoai để nguội và thái nguyên liệu | S251–S272 | 22 | 73 giây | 14:22–15:35 |
-| C13 | Hoàn tất sơ chế, xào khoai rồi bắt đầu món thịt cà chua | S273–S293 | 21 | 72 giây | 15:35–16:47 |
-| C14 | Trộn dưa trong lúc chờ sốt, hoàn tất các món và xào rau cuối | S294–S314 | 21 | 73 giây | 16:47–18:00 |
-| C15 | Dọn năm món ra sân và mời bà vào bàn | S315–S332 | 18 | 60 giây | 18:00–19:00 |
-| C16 | Hai bà cháu ăn tối và khép lại ngày làm vườn | S333–S350 | 18 | 60 giây | 19:00–20:00 |
-
-## C01 — Buổi sáng, cô mang dụng cụ ra làm đất
-
-**13 shot · 41 giây · 00:00–00:41.**
-
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
 |---|---|---:|---|---|
-| S001 | 00:00–00:03 | 3 | Rộng, máy cố định từ điểm cao có thật | Gió nhẹ chuyển tán lá; bóng lá rung trên sân trong ánh sáng sớm. |
-| S002 | 00:03–00:06 | 3 | Trung cảnh môi trường, máy cố định ngang tầm người quan sát. | Nhánh cây lay nhẹ và bóng lá di chuyển trên mép luống. |
-| S003 | 00:06–00:09 | 3 | Cận lá, máy cố định | Lá rung nhẹ theo gió, giọt sương rung và bắt ánh sáng. |
-| S004 | 00:09–00:13 | 4 | Toàn | Cô bước qua cửa, đi tới chỗ cuốc và đưa tay về cán trong cùng nhịp bước. |
-| S005 | 00:13–00:16 | 3 | Trung | Cô nhấc cuốc khỏi chỗ tựa, xoay người rồi bước về phía vườn. |
-| S006 | 00:16–00:19 | 3 | Toàn người và lối đi, máy cố định. | Cô đi đều tới đầu luống, cuốc mang thấp và giỏ đung đưa nhẹ theo bước chân. |
-| S007 | 00:19–00:23 | 4 | Trung | Cô hạ giỏ xuống mặt khô, tựa cuốc nằm an toàn cạnh lối rồi ngồi thấp bên luống. |
-| S008 | 00:23–00:26 | 3 | Toàn người và đoạn luống ngắn, máy cố định. | Cô lấy cuốc đã tựa bên lối, nắm bằng hai tay, đứng vững và bổ nhịp đầu vào lớp đất mặt. |
-| S009 | 00:26–00:29 | 3 | Trung chéo bên, thấy hai tay, cán và đất đang làm | Cô chuyển trọng tâm, làm tiếp một đến hai nhịp cuốc ở phần đất kế bên; kéo đất về trong tầm với. |
-| S010 | 00:29–00:32 | 3 | Cận lưỡi cuốc và đất, máy cố định thấp chéo ngoài vùng vung dụng cụ. | Lưỡi cuốc cắm xuống, được kéo về làm đất tách thành cục nhỏ và rơi lại trên mặt luống. |
-| S011 | 00:32–00:35 | 3 | Trung chéo từ cùng phía trục, máy cố định. | Cô hạ cuốc nằm gọn cạnh lối rồi ngồi xổm, nhặt một mẩu cành khô khỏi mặt luống. |
-| S012 | 00:35–00:38 | 3 | Cận hai tay và mặt luống, máy cố định hơi từ trên xuống. | Cô bóp rời một cục đất bằng hai tay, để đất vụn rơi xuống luống rồi nhặt viên sỏi nhỏ đặt ra mép ngoài vùng trồng. |
-| S013 | 00:38–00:41 | 3 | Toàn, máy cố định đúng vị trí S008. | Cô gạt nhẹ đất vụn vào phần vừa làm, đứng dậy rồi nhấc cuốc để tiếp tục công việc. |
+| S001 | 00:00.0–00:03.1 | 3.1 | Toàn | Gió chuyển nhẹ tán lá, bóng lá lay trên sân và những luống còn trống. |
+| S002 | 00:03.1–00:07.9 | 4.8 | Trung | Cô bước qua cửa với giỏ ở tay trái, nhấc cuốc bằng tay phải rồi xoay đi theo lối vườn. |
+| S003 | 00:07.9–00:12.4 | 4.5 | Toàn | Ở đoạn cuối lối đi, cô hạ giỏ lên chỗ khô, đặt cuốc an toàn cạnh lối rồi ngồi xuống. |
+| S004 | 00:12.4–00:16.6 | 4.2 | Toàn | Cô dùng hai tay cuốc hai nhịp liền ở dải đất trong tầm với, bước dịch theo phần vừa làm. |
+| S005 | 00:16.6–00:19.2 | 2.6 | Cận | Lưỡi cuốc bổ xuống dải kế, kéo về làm cục đất tách và rơi lại thành vụn. |
+| S006 | 00:19.2–00:24.2 | 5.0 | Cận | Sau khi đặt cuốc ngoài vùng trồng qua điểm cắt, cô nhặt mẩu cành, bóp một cục đất rồi đưa viên sỏi ra mép. |
+| S007 | 00:24.2–00:26.2 | 2.0 | Toàn | Sau các lượt cuốc được lược, cô kéo nhịp cuối ở phần hàng còn thô, dịch chân về phía mở rãnh. |
+| S008 | 00:26.2–00:29.6 | 3.4 | Cận | Cô kéo lưỡi cuốc qua mặt đất tơi, mở một đoạn rãnh có thành đất hai bên. |
+| S009 | 00:29.6–00:31.7 | 2.1 | Toàn | Cô khép nhịp mở rãnh cuối rồi hạ cuốc phẳng ngoài vùng trồng. |
 
 ### Mô tả chi tiết
 
-#### S001 — Buổi sáng tại khu nhà
+#### S001 — Ban mai tại khu nhà
 
-**00:00–00:03 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**00:00.0–00:03.1 · 3.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Rộng, máy cố định từ điểm cao có thật; không dùng chuyển động bay. Nhà và vườn cùng hiện rõ; tán cây tạo viền khung; không cố đưa mọi công trình vào hình.
-- **Địa điểm, thời gian và ánh sáng:** Toàn thể khu nhà và vườn trước nhà C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
-- **Nhân vật và dụng cụ:** Không có người; kiến trúc và cây nền.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Toàn thể khu nhà và vườn trước nhà  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
+- **Nhân vật và dụng cụ:** Không có người; cây và kiến trúc theo khung.
 - **Trạng thái đầu:** Sân yên, luống đã có hình nhưng chưa có bốn loại cây vụ mới.
-- **Hành động:** Gió nhẹ chuyển tán lá; bóng lá rung trên sân trong ánh sáng sớm.
+- **Hành động:** Gió chuyển nhẹ tán lá, bóng lá lay trên sân và những luống còn trống.
 - **Kết quả cuối:** Không gian và quan hệ nhà–vườn được xác lập; ánh sáng vẫn cùng một buổi sáng.
-- **Nối cảnh:** Mở phim. Cắt thẳng vào khu vườn nằm trong chính không gian này.
-- **Âm thanh:** Gió nhẹ, lá và chim xa; không thêm tiếng bước chân.
+- **Liên tục và điểm cắt:** Ra khi quan hệ nhà–vườn đã đọc rõ; vào ngay việc lấy dụng cụ. Sau đó nối S002.
+- **Âm thanh:** Gió nhẹ, lá và chim xa; không thêm tiếng bước chân hoặc tiếng dụng cụ khi chưa có người. Không nhạc, không thoại.
 - **Tham chiếu:** B01
 
-#### S002 — Luống đất dưới tán cây
+#### S002 — Mang giỏ và lấy cuốc
 
-**00:03–00:06 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**00:03.1–00:07.9 · 4.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung cảnh môi trường, máy cố định ngang tầm người quan sát. Một nhánh lá ở gần; phía sau đọc được mép luống và lối đi; độ sâu vừa đủ thấy quan hệ.
-- **Địa điểm, thời gian và ánh sáng:** Rìa vườn trước nhà C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
-- **Nhân vật và dụng cụ:** Không có người; nhánh cây và luống.
-- **Trạng thái đầu:** Cây nền xanh; luống trống, mặt đất còn thô.
-- **Hành động:** Nhánh cây lay nhẹ và bóng lá di chuyển trên mép luống.
-- **Kết quả cuối:** Thấy rõ nơi công việc sắp diễn ra; không có thay đổi mùa hoặc cây mọc mới.
-- **Nối cảnh:** Thu hẹp từ S001. Chọn nhánh cây này làm đối tượng cận ở S003.
-- **Âm thanh:** Lá gần rõ hơn; chim vẫn xa, âm nền liền mạch.
-- **Tham chiếu:** B01; B03
-
-#### S003 — Giọt sương trên lá
-
-**00:06–00:09 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Cận lá, máy cố định; nền vườn mờ tự nhiên. Mé lá và giọt sương ở vùng rõ; không cần giọt rơi đúng nhịp.
-- **Địa điểm, thời gian và ánh sáng:** Nhánh cây đã thấy ở S002 C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
-- **Nhân vật và dụng cụ:** Không có người; lá thuộc cây nền, không phải cây vụ mới.
-- **Trạng thái đầu:** Giọt sương còn bám trên mép lá.
-- **Hành động:** Lá rung nhẹ theo gió, giọt sương rung và bắt ánh sáng.
-- **Kết quả cuối:** Giọt vẫn bám; không làm thay đổi trạng thái khu vườn.
-- **Nối cảnh:** Kết ba cảnh không gian. Cắt về toàn hiên để cô gái xuất hiện.
-- **Âm thanh:** Lá nhẹ; không phóng đại tiếng giọt nước khi không thấy giọt rơi.
-- **Tham chiếu:** B01
-
-#### S004 — Ra vườn buổi sớm
-
-**00:09–00:13 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Cửa nhà và hiên hướng ra vườn C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
-- **Nhân vật và dụng cụ:** Cô gái; giỏ tre cầm ở tay trái; khay gỗ và xẻng nhỏ nằm trong giỏ.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cửa nhà và hiên hướng ra vườn  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D03 Xẻng nhỏ, D02 Cuốc cán gỗ.
 - **Trạng thái đầu:** Cô ở trong cửa, giỏ dụng cụ cầm bên người; cuốc tựa gần lối.
-- **Hành động:** Cô bước qua cửa, đi tới chỗ cuốc và đưa tay về cán trong cùng nhịp bước.
-- **Kết quả cuối:** Cô đứng cạnh cuốc, giỏ vẫn cầm bên người.
-- **Nối cảnh:** Nối S003 → S004 → S005. Cô ở trong cửa, giỏ dụng cụ cầm bên người; cuốc tựa gần lối. Cảnh này tạo kết quả mới: Cô đứng cạnh cuốc, giỏ vẫn cầm bên người. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Bước chân trên nền hiên, giỏ và đồ bên trong chạm nhẹ.
-- **Tham chiếu:** B02; P01; D01; D03
-
-#### S005 — Lấy cuốc rồi đi tiếp
-
-**00:13–00:16 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Cùng vị trí để dụng cụ C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
-- **Nhân vật và dụng cụ:** Tay cô gái, cuốc; giỏ nằm ngoài khung nhưng vẫn ở tay trái.
-- **Trạng thái đầu:** Tay cô đã tới cán cuốc; giỏ ở tay còn lại.
-- **Hành động:** Cô nhấc cuốc khỏi chỗ tựa, xoay người rồi bước về phía vườn.
+- **Hành động:** Cô bước qua cửa với giỏ ở tay trái, nhấc cuốc bằng tay phải rồi xoay đi theo lối vườn.
 - **Kết quả cuối:** Cuốc mang thấp, cô bắt đầu đi theo lối.
-- **Nối cảnh:** Nối S004 → S005 → S006. Tay cô đã tới cán cuốc; giỏ ở tay còn lại. Cảnh này tạo kết quả mới: Cuốc mang thấp, cô bắt đầu đi theo lối. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Cán/lưỡi rời điểm tựa một tiếng nhẹ; không tự thêm tiếng kim loại lớn.
-- **Tham chiếu:** B02; P01; D02
+- **Liên tục và điểm cắt:** Cắt khi cuốc đã rời chỗ tựa, cô bắt đầu chuyển hướng; lược quãng đường giữa. Sau đó nối S003.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B02; P01; D01; D03; D02
 
-#### S006 — Mang dụng cụ ra luống
+#### S003 — Tới đầu luống
 
-**00:16–00:19 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:07.9–00:12.4 · 4.5 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn người và lối đi, máy cố định. Cô di chuyển theo cùng một chiều trên màn ảnh; mốc hiên và đầu luống cùng nhận ra được.
-- **Địa điểm, thời gian và ánh sáng:** Lối từ hiên đến luống đầu tiên C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
-- **Nhân vật và dụng cụ:** Cô gái; giỏ trái; cuốc phải.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Lối từ hiên đến luống đầu tiên  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ.
 - **Trạng thái đầu:** Cô đã rời chỗ để dụng cụ, đi vào đoạn lối gần vườn.
-- **Hành động:** Cô đi đều tới đầu luống, cuốc mang thấp và giỏ đung đưa nhẹ theo bước chân.
-- **Kết quả cuối:** Cô tới khoảng trống khô ở đầu luống; cây cuốc vẫn ở tay phải.
-- **Nối cảnh:** Lược phần đường trung gian bằng điểm cắt từ S005. S007 nối việc dừng và đặt giỏ.
-- **Âm thanh:** Bước chân đổi theo mặt lối đi; giỏ và cán gỗ rung nhẹ.
-- **Tham chiếu:** B02; B03; P01; D01; D02
-
-#### S007 — Đặt giỏ bên luống
-
-**00:19–00:23 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Mặt lối khô cạnh đầu luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
-- **Nhân vật và dụng cụ:** Cô gái; giỏ/khay/xẻng; cuốc.
-- **Trạng thái đầu:** Cô tới đầu luống với cuốc và giỏ; xẻng nhỏ cùng khay ở trong giỏ.
-- **Hành động:** Cô hạ giỏ xuống mặt khô, tựa cuốc nằm an toàn cạnh lối rồi ngồi thấp bên luống.
+- **Hành động:** Ở đoạn cuối lối đi, cô hạ giỏ lên chỗ khô, đặt cuốc an toàn cạnh lối rồi ngồi xuống.
 - **Kết quả cuối:** Giỏ và dụng cụ ở đầu luống; cô chuẩn bị làm đất.
-- **Nối cảnh:** Nối S006 → S007 → S008. Cô tới đầu luống với cuốc và giỏ; xẻng nhỏ cùng khay ở trong giỏ. Cảnh này tạo kết quả mới: Giỏ và dụng cụ ở đầu luống; cô chuẩn bị làm đất. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Đáy giỏ chạm nền nhẹ, lưỡi cuốc chạm đất; không ném dụng cụ.
-- **Tham chiếu:** B03; P01; D01; D02; D03
+- **Liên tục và điểm cắt:** Giỏ đã được đất đỡ, cuốc không còn ở tay; lược nhịp đứng lên lấy cuốc trước công việc. Sau đó nối S004.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B02; B03; P01; D01; D02; D03
 
-#### S008 — Bắt đầu làm tơi mặt luống
+#### S004 — Cuốc đoạn đất đầu
 
-**00:23–00:26 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:12.4–00:16.6 · 4.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn người và đoạn luống ngắn, máy cố định. Đủ thấy giỏ/khay nằm cạnh lối và phần đất cô làm; giữ một mốc hậu cảnh cố định.
-- **Địa điểm, thời gian và ánh sáng:** Đầu luống đã xác lập C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
-- **Nhân vật và dụng cụ:** Cô gái; cuốc; giỏ/khay/xẻng ở cạnh lối.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Đầu luống đã xác lập  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ.
 - **Trạng thái đầu:** Cô đứng cạnh bộ đồ đã bày; luống đã lên hình, mặt còn vón thô.
-- **Hành động:** Cô lấy cuốc đã tựa bên lối, nắm bằng hai tay, đứng vững và bổ nhịp đầu vào lớp đất mặt.
-- **Kết quả cuối:** Một vệt đất đầu tiên được xới; lưỡi cuốc đang được kéo về, không làm lại luống từ đầu.
-- **Nối cảnh:** Lược nhịp đứng lên giữa S008–S008. Chốt góc toàn này để so kết quả ở S013.
-- **Âm thanh:** Lưỡi cuốc chạm đất, đất rời và tiếng thở nhẹ khi làm việc.
-- **Tham chiếu:** B03; P01; D01; D02; D03
-
-#### S009 — Xới tiếp dải đất kế bên
-
-**00:26–00:29 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung chéo bên, thấy hai tay, cán và đất đang làm; máy cố định. Máy ở cùng phía trục công việc. Vệt vừa xới còn trong hình, phần đất mới nằm kế bên.
-- **Địa điểm, thời gian và ánh sáng:** Cùng đầu luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
-- **Nhân vật và dụng cụ:** Cô gái và cuốc.
-- **Trạng thái đầu:** Nhịp cuốc đầu đã hoàn tất, một vệt đất tơi nằm ở mép dải.
-- **Hành động:** Cô chuyển trọng tâm, làm tiếp một đến hai nhịp cuốc ở phần đất kế bên; kéo đất về trong tầm với.
+- **Hành động:** Cô dùng hai tay cuốc hai nhịp liền ở dải đất trong tầm với, bước dịch theo phần vừa làm.
 - **Kết quả cuối:** Dải đất được làm tơi rộng thêm, tư thế và nhịp làm việc liên tục.
-- **Nối cảnh:** Tiếp thời gian S008, không phát lại nhịp cuốc đầu. S010 theo vào tác động kế tiếp ở phần đất mới.
-- **Âm thanh:** Nhịp cuốc trầm, đất vụn, vải áo nhẹ; không tăng tốc âm.
-- **Tham chiếu:** B03; P01; D02
+- **Liên tục và điểm cắt:** Ra ở nhịp kéo đất về, chuyển sang lưỡi cuốc ở dải kế; không diễn lại nhịp cuốc cũ. Sau đó nối S005.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B03; P01; D01; D02; D03
 
-#### S010 — Đất bật và tách dưới lưỡi cuốc
+#### S005 — Đất vỡ dưới lưỡi cuốc
 
-**00:29–00:32 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:16.6–00:19.2 · 2.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận lưỡi cuốc và đất, máy cố định thấp chéo ngoài vùng vung dụng cụ. Thấy cả mép đất thô và phần đã tơi; tay/cán có thể chỉ hiện một phần.
-- **Địa điểm, thời gian và ánh sáng:** Phần đất kế tiếp trong cùng dải C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
-- **Nhân vật và dụng cụ:** Lưỡi cuốc và đất; cô gái hiện qua phần cán/tay.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Phần đất kế tiếp trong cùng dải  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ.
 - **Trạng thái đầu:** Lưỡi cuốc đi vào nhịp kế tiếp, đất còn vón ở điểm tác động mới.
-- **Hành động:** Lưỡi cuốc cắm xuống, được kéo về làm đất tách thành cục nhỏ và rơi lại trên mặt luống.
+- **Hành động:** Lưỡi cuốc bổ xuống dải kế, kéo về làm cục đất tách và rơi lại thành vụn.
 - **Kết quả cuối:** Có thêm một mảng đất được tách; cuốc rời phần đất này.
-- **Nối cảnh:** Là nhịp tiếp theo S009, không quay chậm hay lặp lại cùng cú bổ. S011 bắt đầu sau nhịp này.
-- **Âm thanh:** Âm lưỡi cuốc vào đất và đất rơi, gần và rõ hơn cảnh trung.
+- **Liên tục và điểm cắt:** Cắt sau đất rơi, không giữ thêm bề mặt đứng yên. Sau đó nối S006.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D02
 
-#### S011 — Chuyển sang nhặt phần còn thô
+#### S006 — Nhặt vật thô, bóp tơi đất
 
-**00:32–00:35 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:19.2–00:24.2 · 5.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung chéo từ cùng phía trục, máy cố định. Nhìn rõ nơi đặt cuốc và nơi cô cúi xuống; giỏ vẫn bên lối.
-- **Địa điểm, thời gian và ánh sáng:** Cùng dải đầu luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
-- **Nhân vật và dụng cụ:** Cô gái; cuốc; đoạn đất vừa xới.
-- **Trạng thái đầu:** Cô vừa kết thúc nhịp cuốc ở S010; dải đất có một vài cục lớn và cành khô nhỏ.
-- **Hành động:** Cô hạ cuốc nằm gọn cạnh lối rồi ngồi xổm, nhặt một mẩu cành khô khỏi mặt luống.
-- **Kết quả cuối:** Cuốc được đỡ trên đất; cành khô đã rời mặt luống; cô còn ngồi xổm.
-- **Nối cảnh:** Tiếp trạng thái sau cuốc; S012 chỉ tiếp thao tác tay trên một cục đất khác.
-- **Âm thanh:** Cuốc đặt xuống, cành khô chạm đất ngoài luống, tiếng vải áo.
-- **Tham chiếu:** B03; P01; D02
-
-#### S012 — Bóp tơi cục đất còn lại
-
-**00:35–00:38 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận hai tay và mặt luống, máy cố định hơi từ trên xuống. Một cục đất còn lớn giữa các vụn đất; tay và phần đất tơi cùng rõ.
-- **Địa điểm, thời gian và ánh sáng:** Ngay trước vị trí ngồi xổm C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
-- **Nhân vật và dụng cụ:** Hai tay cô gái; đất và một viên sỏi nhỏ có sẵn trong cục đất.
-- **Trạng thái đầu:** Cô đã ngồi xổm; hai tay rảnh sau khi bỏ cành khô ở S011.
-- **Hành động:** Cô bóp rời một cục đất bằng hai tay, để đất vụn rơi xuống luống rồi nhặt viên sỏi nhỏ đặt ra mép ngoài vùng trồng.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng dải đầu luống  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ.
+- **Trạng thái đầu:** Cô vừa kết thúc nhịp cuốc ở cảnh liên quan; dải đất có một vài cục lớn và cành khô nhỏ.
+- **Hành động:** Sau khi đặt cuốc ngoài vùng trồng qua điểm cắt, cô nhặt mẩu cành, bóp một cục đất rồi đưa viên sỏi ra mép.
 - **Kết quả cuối:** Điểm đất này tơi hơn; không còn sỏi trong phần vừa làm; tay thả đất xong.
-- **Nối cảnh:** Không lặp việc nhặt cành của S011. S013 cho thấy kết quả của cả dải đất đã xử lý.
-- **Âm thanh:** Đất vụn rơi và sỏi đặt xuống nhẹ; không có âm cắt/dao.
-- **Tham chiếu:** B03; P01
+- **Liên tục và điểm cắt:** Ra khi vật thô rời vùng gieo và đất đã tơi; các lượt giống nhau lược. Sau đó nối S007.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B03; P01; D02
 
-#### S013 — Đoạn luống đầu tiên đã tơi
+#### S007 — Đoạn luống đã tơi
 
-**00:38–00:41 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:24.2–00:26.2 · 2.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, máy cố định đúng vị trí S008. Đặt đoạn đất tơi cạnh phần đất còn thô trong cùng hình; giỏ/khay/xẻng và cuốc vẫn đúng chỗ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng đầu luống, lặp góc toàn S008 C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Ban mai dịu, cùng hướng sáng, cùng ngày
-- **Nhân vật và dụng cụ:** Cô gái và bộ dụng cụ đã đặt.
-- **Trạng thái đầu:** Cô còn ngồi xổm sau S012; đoạn đầu luống đã tơi, phần còn lại chưa làm.
-- **Hành động:** Cô gạt nhẹ đất vụn vào phần vừa làm, đứng dậy rồi nhấc cuốc để tiếp tục công việc.
-- **Kết quả cuối:** Một đoạn luống có kết quả nhìn thấy; cô đã đứng với cuốc, giỏ/khay/xẻng còn cạnh lối; chưa gieo giống.
-- **Nối cảnh:** Kết C01 tại đây. Giữ trạng thái cuối làm bàn giao; chỉ phát triển công việc tiếp theo sau khi người dùng duyệt.
-- **Âm thanh:** Đất gạt nhẹ, bước đứng lên, cán cuốc rời nền; gió và chim xa tiếp diễn.
-- **Tham chiếu:** B03; P01; D01; D02; D03
-
-## C02 — Trồng khoai và lấy nước tưới
-
-**19 shot · 62 giây · 00:41–01:43.**
-
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
-|---|---|---:|---|---|
-| S014 | 00:41–00:44 | 3 | Toàn cảnh | Cô bước ngang một nhịp theo luống, cuốc tiếp phần đất còn thô ngay bên đoạn đã làm. |
-| S015 | 00:44–00:47 | 3 | Trung cảnh | Cô kéo cuốc qua dải cuối, gạt một cục đất sang rồi chuyển chân theo nhịp tay. |
-| S016 | 00:47–00:50 | 3 | Cận cảnh | Cô kéo lưỡi cuốc qua đất, mở đoạn rãnh đầu tiên, đất dồn nhẹ sang hai bên. |
-| S017 | 00:50–00:53 | 3 | Toàn cảnh | Cô kéo nốt đoạn rãnh cuối rồi đặt cuốc xuống lối, lưỡi nằm phẳng ngoài vùng trồng. |
-| S018 | 00:53–00:56 | 3 | Trung cảnh | Cô nhấc rổ củ giống bằng hai tay và bước từ hiên về phía vườn. |
-| S019 | 00:56–00:59 | 3 | Cận | Sau khi bày khay cạnh giỏ qua điểm cắt, cô chuyển một lượt củ giống lên khay để chọn. |
-| S020 | 00:59–01:02 | 3 | Trung cảnh | Cô xoay nhẹ hai củ trong tay kiểm tra, chuyển nốt củ phù hợp sang khay rồi kéo khay về phía hàng trồng. |
-| S021 | 01:02–01:05 | 3 | Cận cảnh | Cô xoay củ một góc nhỏ để tìm mặt có mầm rồi hạ tay về phía rãnh. |
-| S022 | 01:05–01:08 | 3 | Toàn cảnh | Cô hạ củ xuống đáy rãnh, buông nhẹ rồi với tay về khay lấy củ kế. |
-| S023 | 01:08–01:11 | 3 | Trung cảnh | Cô đặt củ thứ hai cách củ trước một khoảng đều, dịch gối nhẹ rồi lấy củ tiếp theo. |
-| S024 | 01:11–01:14 | 3 | Cận cảnh | Cô hạ củ nhẹ, chỉnh mầm lên trên bằng đầu ngón tay rồi rút tay. |
-| S025 | 01:14–01:17 | 3 | Toàn cảnh | Cô đặt củ cuối cùng trong khay vào vị trí còn trống, đặt khay rỗng ra lối và đứng lên. |
-| S026 | 01:17–01:20 | 3 | Trung cảnh | Cô nhấc cuốc, kéo đất tơi hai bên vào phủ đoạn cuối hàng rồi tiến ngược dọc rãnh. |
-| S027 | 01:20–01:23 | 3 | Cận cảnh | Lưỡi cuốc kéo đất từ mép vào; đất rơi khép kín trên củ trong vùng nét. |
-| S028 | 01:23–01:27 | 4 | Toàn cảnh | Cô kéo nốt đất vào rãnh, đặt cuốc nằm trên lối rồi xếp khay rỗng sát giỏ. |
-| S029 | 01:27–01:31 | 4 | Toàn | Cô đặt xô dưới vòi, xoay van cho nước chảy rồi chỉnh quai khỏi dòng nước. |
-| S030 | 01:31–01:35 | 4 | Cận | Cô khép van cho dòng nước dứt rồi dựng quai xô bằng tay còn lại. |
-| S031 | 01:35–01:39 | 4 | Toàn | Cô xách xô dọc lối tới hàng khoai, chậm bước ở chỗ đặt xô rồi bắt đầu hạ tay. |
-| S032 | 01:39–01:43 | 4 | Trung | Cô đặt xô vững, ngồi xổm rồi đưa tay nắm cán gáo. |
-
-### Mô tả chi tiết
-
-#### S014 — Tiếp tục dải đất còn thô
-
-**00:41–00:44 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn cảnh; máy cố định. Giữ mốc hậu cảnh và cùng phía trục công việc; thấy quan hệ người–dụng cụ–luống.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày.
-- **Nhân vật và dụng cụ:** Cô gái; cuốc; giỏ, khay gỗ và xẻng nhỏ ở vị trí kế thừa.
-- **Trạng thái đầu:** Cô đã đứng cầm cuốc; một đoạn đầu luống đã tơi.
-- **Hành động:** Cô bước ngang một nhịp theo luống, cuốc tiếp phần đất còn thô ngay bên đoạn đã làm.
-- **Kết quả cuối:** Vùng đất tơi dài thêm; giỏ, khay và xẻng vẫn ở đầu luống.
-- **Nối cảnh:** Nối S013; giữ góc toàn và mốc hậu cảnh của S008/S013, không xới lại vùng cũ.
-- **Âm thanh:** Cuốc vào đất, đất vụn rơi, bước chân nhẹ. Không nhạc, không thoại.
-- **Tham chiếu:** B03; P01; D01; D02; D03
-
-#### S015 — Đất tơi dần về cuối hàng
-
-**00:44–00:47 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung cảnh; máy cố định. Giữ mốc hậu cảnh và cùng phía trục công việc; thấy quan hệ người–dụng cụ–luống.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày.
-- **Nhân vật và dụng cụ:** Cô gái; cuốc; giỏ, khay gỗ và xẻng nhỏ ở vị trí kế thừa.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng; ánh sáng dịu nhất quán, không chuyển ngày.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ.
 - **Trạng thái đầu:** Sau điểm cắt lược công việc, cô đã tiến tới đoạn cuối luống; phần phía sau đã tơi.
-- **Hành động:** Cô kéo cuốc qua dải cuối, gạt một cục đất sang rồi chuyển chân theo nhịp tay.
+- **Hành động:** Sau các lượt cuốc được lược, cô kéo nhịp cuối ở phần hàng còn thô, dịch chân về phía mở rãnh.
 - **Kết quả cuối:** Dải cuối vừa tơi; chiều dài phần đã làm tăng có căn cứ qua vị trí cô.
-- **Nối cảnh:** Lược các nhịp cuốc giữa luống tại điểm cắt; không biến cả vườn thành đất mới.
-- **Âm thanh:** Cuốc vào đất, đất vụn rơi, bước chân nhẹ. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Khung có đất tơi phía sau và đất mới dưới cuốc; không làm lại từ đầu. Sau đó nối S008.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D01; D02; D03
 
-#### S016 — Mở hàng đặt củ
+#### S008 — Mở hàng trồng khoai
 
-**00:47–00:50 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:26.2–00:29.6 · 3.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận cảnh; máy cố định. Đủ gần đọc thao tác và trạng thái vật; giữ một phần mốc nền, không đổi trục vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày.
-- **Nhân vật và dụng cụ:** Cô gái; cuốc; giỏ, khay gỗ và xẻng nhỏ ở vị trí kế thừa.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng; ánh sáng dịu nhất quán, không chuyển ngày.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ.
 - **Trạng thái đầu:** Đất luống đã được làm tơi; lưỡi cuốc đặt ở đầu một hàng dọc luống.
-- **Hành động:** Cô kéo lưỡi cuốc qua đất, mở đoạn rãnh đầu tiên, đất dồn nhẹ sang hai bên.
+- **Hành động:** Cô kéo lưỡi cuốc qua mặt đất tơi, mở một đoạn rãnh có thành đất hai bên.
 - **Kết quả cuối:** Một đoạn rãnh trồng hiện rõ; phần tiếp theo chưa mở.
-- **Nối cảnh:** Cắt lược nhịp cô quay về đầu hàng; chỉ mở rãnh sau khi làm tơi xong.
-- **Âm thanh:** Cuốc vào đất, đất vụn rơi, bước chân nhẹ. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Ra ở đoạn rãnh mới hình thành; lược các mét làm tiếp. Sau đó nối S009.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D01; D02; D03
 
-#### S017 — Hoàn thiện rãnh trồng
+#### S009 — Rãnh đã mở hết đoạn trồng
 
-**00:50–00:53 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:29.6–00:31.7 · 2.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn cảnh; máy cố định. Giữ mốc hậu cảnh và cùng phía trục công việc; thấy quan hệ người–dụng cụ–luống.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày.
-- **Nhân vật và dụng cụ:** Cô gái; cuốc; giỏ, khay gỗ và xẻng nhỏ ở vị trí kế thừa.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng; ánh sáng dịu nhất quán, không chuyển ngày.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ.
 - **Trạng thái đầu:** Sau khi lược đoạn giữa, rãnh đã chạy dọc phần lớn luống; cô ở cuối hàng.
-- **Hành động:** Cô kéo nốt đoạn rãnh cuối rồi đặt cuốc xuống lối, lưỡi nằm phẳng ngoài vùng trồng.
+- **Hành động:** Cô khép nhịp mở rãnh cuối rồi hạ cuốc phẳng ngoài vùng trồng.
 - **Kết quả cuối:** Một hàng rãnh sẵn đặt củ; cô rảnh hai tay.
-- **Nối cảnh:** Giữ nguyên chiều dài luống; một hàng đủ quy mô gia đình. Giỏ/khay/xẻng không tự chuyển chỗ.
-- **Âm thanh:** Cuốc vào đất, đất vụn rơi, bước chân nhẹ. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Đường rãnh và cuốc nằm yên đủ đọc; cắt sang lấy giống. Sau đó nối S010.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D01; D02; D03
 
-#### S018 — Mang rổ củ giống ra
+## C02 — Trồng khoai và tưới lượt đầu
 
-**00:53–00:56 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
+|---|---|---:|---|---|
+| S010 | 00:31.7–00:34.1 | 2.4 | Toàn | Cô mang rổ củ giống ở đoạn lối gần luống, đi tới khay gỗ đã bày cạnh giỏ. |
+| S011 | 00:34.1–00:38.5 | 4.4 | Cận | Cô chuyển vài củ từ rổ lên khay, xoay kiểm một củ rồi đặt vào phần đã chọn. |
+| S012 | 00:38.5–00:40.4 | 1.9 | Cận | Cô xoay nhẹ củ tiếp theo, để lộ mầm ngắn chắc rồi hạ tay về phía rãnh. |
+| S013 | 00:40.4–00:44.5 | 4.1 | Cận | Cô hạ củ đang cầm xuống rãnh, chỉnh mầm hướng lên và rút tay; một củ đã đặt trước làm mốc khoảng cách. |
+| S014 | 00:44.5–00:46.7 | 2.2 | Toàn | Sau các lượt đặt được lược, cô đặt củ cuối vào khoảng còn trống, kéo khay rỗng ra lối. |
+| S015 | 00:46.7–00:51.0 | 4.3 | Cận | Cô kéo đất từ hai mép vào, đất tơi rơi che kín một đoạn rãnh có củ. |
+| S016 | 00:51.0–00:53.4 | 2.4 | Toàn | Cô kéo nốt đất vào cuối rãnh, đặt cuốc xuống lối rồi xoay về hướng vòi nước. |
+| S017 | 00:53.4–00:55.9 | 2.5 | Trung | Cô đặt xô dưới vòi và mở van; gáo gỗ nằm trong xô, nước bắt đầu chảy. |
+| S018 | 00:55.9–00:57.7 | 1.8 | Cận | Sau khoảng hứng, nước gần mức vừa mang; cô khóa vòi rồi dựng quai xô. |
+| S019 | 00:57.7–01:02.3 | 4.6 | Toàn | Ở đoạn lối sát hàng khoai, cô bước tới, hạ xô vững rồi ngồi thấp cạnh luống. |
+| S020 | 01:02.3–01:06.7 | 4.4 | Trung | Cô múc gáo từ xô, nâng thấp rồi hất nước thành quạt nhẹ lên phần đất chưa ẩm. |
+| S021 | 01:06.7–01:09.4 | 2.7 | Cận | Sau các lượt tưới được lược, nước cuối rơi lên dải còn nhạt; ở rìa khung tay đặt gáo về xô. |
 
-- **Góc máy và bố cục:** Trung cảnh; máy cố định. Giữ mốc hậu cảnh và cùng phía trục công việc; thấy quan hệ người–dụng cụ–luống.
-- **Địa điểm, thời gian và ánh sáng:** Góc hiên chứa rổ giống và hướng ra vườn C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày.
-- **Nhân vật và dụng cụ:** Cô gái; củ giống nguyên có mầm ngắn; rổ nhỏ, khay gỗ; cuốc và xẻng tại vị trí đã đặt.
+### Mô tả chi tiết
+
+#### S010 — Mang củ giống tới luống
+
+**00:31.7–00:34.1 · 2.4 giây · Tự nhiên · Chờ duyệt**
+
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Góc hiên chứa rổ giống và hướng ra vườn  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng; ánh sáng dịu nhất quán, không chuyển ngày.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D04 Rổ tre nhỏ đựng củ giống.
 - **Trạng thái đầu:** Rãnh đã xong. Rổ củ giống được đặt sẵn ở góc hiên trong khuôn hình mới.
-- **Hành động:** Cô nhấc rổ củ giống bằng hai tay và bước từ hiên về phía vườn.
+- **Hành động:** Cô mang rổ củ giống ở đoạn lối gần luống, đi tới khay gỗ đã bày cạnh giỏ.
 - **Kết quả cuối:** Rổ được mang hướng đến luống; cuốc vẫn nằm ở lối cạnh luống.
-- **Nối cảnh:** Lược đoạn đi từ luống về hiên; hình cho thấy nơi lấy rổ, không cho củ xuất hiện trong giỏ rỗng.
-- **Âm thanh:** Rổ tre sột soạt, bước chân. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Cắt khi tới vùng đặt đồ; không cần đi hết mọi đoạn đường. Sau đó nối S011.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D01; D02; D03; D04
 
-#### S019 — Bày củ giống trên khay
+#### S011 — Chọn củ giống trên khay
 
-**00:56–00:59 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:34.1–00:38.5 · 4.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày.
-- **Nhân vật và dụng cụ:** Cô gái; củ giống nguyên có mầm ngắn; rổ nhỏ, khay gỗ; cuốc và xẻng tại vị trí đã đặt.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng; ánh sáng dịu nhất quán, không chuyển ngày.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D04 Rổ tre nhỏ đựng củ giống.
 - **Trạng thái đầu:** Rổ giống đã tới luống; khay và xẻng nhỏ còn trong giỏ dụng cụ.
-- **Hành động:** Sau khi bày khay cạnh giỏ qua điểm cắt, cô chuyển một lượt củ giống lên khay để chọn.
-- **Kết quả cuối:** Củ giống được bày đủ nhìn; xẻng nằm gọn bên giỏ.
-- **Nối cảnh:** Nối S018 → S019 → S020. Rổ giống đã tới luống; khay và xẻng nhỏ còn trong giỏ dụng cụ. Cảnh này tạo kết quả mới: Củ giống được bày đủ nhìn; xẻng nằm gọn bên giỏ. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Cán xẻng chạm nền, củ chạm gỗ nhẹ. Không nhạc, không thoại.
-- **Tham chiếu:** B03; P01; D01; D02; D03; D04
-
-#### S020 — Chọn củ chắc, có mầm ngắn
-
-**00:59–01:02 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung cảnh; máy cố định. Giữ mốc hậu cảnh và cùng phía trục công việc; thấy quan hệ người–dụng cụ–luống.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày.
-- **Nhân vật và dụng cụ:** Cô gái; củ giống nguyên có mầm ngắn; rổ nhỏ, khay gỗ; cuốc và xẻng tại vị trí đã đặt.
-- **Trạng thái đầu:** Cô ngồi cạnh khay; rổ còn ít củ chưa chuyển.
-- **Hành động:** Cô xoay nhẹ hai củ trong tay kiểm tra, chuyển nốt củ phù hợp sang khay rồi kéo khay về phía hàng trồng.
+- **Hành động:** Cô chuyển vài củ từ rổ lên khay, xoay kiểm một củ rồi đặt vào phần đã chọn.
 - **Kết quả cuối:** Tất cả củ dành cho hàng đã nằm trong khay; rổ nhỏ rỗng bên giỏ.
-- **Nối cảnh:** Thao tác chọn nối với chuyển củ, không giơ củ trình diễn trước máy.
-- **Âm thanh:** Củ lăn nhẹ trong khay, vải áo. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Ra khi củ được chọn nằm trên khay; phần chọn lặp được lược. Sau đó nối S012.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D01; D02; D03; D04
 
-#### S021 — Nhìn rõ mắt mầm
+#### S012 — Mắt mầm của củ giống
 
-**01:02–01:05 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:38.5–00:40.4 · 1.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận cảnh; máy cố định. Đủ gần đọc thao tác và trạng thái vật; giữ một phần mốc nền, không đổi trục vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày.
-- **Nhân vật và dụng cụ:** Cô gái; củ giống nguyên có mầm ngắn; rổ nhỏ, khay gỗ; cuốc và xẻng tại vị trí đã đặt.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng; ánh sáng dịu nhất quán, không chuyển ngày.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D04 Rổ tre nhỏ đựng củ giống.
 - **Trạng thái đầu:** Một củ nhỏ đã nằm trong tay cô; mầm ngắn, chắc, không phải thân dài.
-- **Hành động:** Cô xoay củ một góc nhỏ để tìm mặt có mầm rồi hạ tay về phía rãnh.
+- **Hành động:** Cô xoay nhẹ củ tiếp theo, để lộ mầm ngắn chắc rồi hạ tay về phía rãnh.
 - **Kết quả cuối:** Mặt mầm đã hướng lên; tay đang đưa củ tới vị trí trồng.
-- **Nối cảnh:** Cắt trong chuyển động xuống S022; không nhặt lại chính củ này.
-- **Âm thanh:** Ngón tay chạm vỏ củ, chim xa. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Cắt theo đường tay đi xuống; shot sau nhận đúng củ này. Sau đó nối S013.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D01; D02; D03; D04
 
-#### S022 — Đặt củ đầu hàng
+#### S013 — Đặt củ vào hàng
 
-**01:05–01:08 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:40.4–00:44.5 · 4.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn cảnh; máy cố định. Giữ mốc hậu cảnh và cùng phía trục công việc; thấy quan hệ người–dụng cụ–luống.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày.
-- **Nhân vật và dụng cụ:** Cô gái; củ giống nguyên có mầm ngắn; rổ nhỏ, khay gỗ; cuốc và xẻng tại vị trí đã đặt.
-- **Trạng thái đầu:** Cô quỳ thấp bên đầu rãnh; củ đang ở tay, khay sát bên trên lối khô.
-- **Hành động:** Cô hạ củ xuống đáy rãnh, buông nhẹ rồi với tay về khay lấy củ kế.
-- **Kết quả cuối:** Củ đầu đã nằm ở rãnh, mầm hướng lên; tay chuyển sang củ thứ hai.
-- **Nối cảnh:** Tiếp phần cuối S021; khay được kéo sát hàng trong đoạn lược, không nằm giữa rãnh.
-- **Âm thanh:** Đất chạm củ nhẹ, vải chuyển. Không nhạc, không thoại.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng; ánh sáng dịu nhất quán, không chuyển ngày.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D04 Rổ tre nhỏ đựng củ giống.
+- **Trạng thái đầu:** Cô đang cầm củ có mầm vừa kiểm, tay hạ về rãnh; một củ từ lượt đầu lược đã ở rãnh làm mốc khoảng cách.
+- **Hành động:** Cô hạ củ đang cầm xuống rãnh, chỉnh mầm hướng lên và rút tay; một củ đã đặt trước làm mốc khoảng cách.
+- **Kết quả cuối:** Củ đang quan sát đã được đất đỡ trong rãnh, mầm hướng lên; tay rút, các vị trí còn lại chưa hoàn tất.
+- **Liên tục và điểm cắt:** Chỉ một lần đặt hoàn chỉnh; các củ tiếp được lược, không phát lại củ này ở góc khác. Sau đó nối S014.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D01; D02; D03; D04
 
-#### S023 — Đặt củ tiếp, giữ khoảng cách
+#### S014 — Hàng củ đã đủ
 
-**01:08–01:11 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:44.5–00:46.7 · 2.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung cảnh; máy cố định. Giữ mốc hậu cảnh và cùng phía trục công việc; thấy quan hệ người–dụng cụ–luống.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày.
-- **Nhân vật và dụng cụ:** Cô gái; củ giống nguyên có mầm ngắn; rổ nhỏ, khay gỗ; cuốc và xẻng tại vị trí đã đặt.
-- **Trạng thái đầu:** Củ đầu đứng yên; cô đã lấy củ thứ hai từ khay.
-- **Hành động:** Cô đặt củ thứ hai cách củ trước một khoảng đều, dịch gối nhẹ rồi lấy củ tiếp theo.
-- **Kết quả cuối:** Hai củ nằm tách nhau; hàng trồng có nhịp khoảng cách rõ.
-- **Nối cảnh:** Không lấy bàn tay đo từng khoảng; làm theo thói quen. Các vị trí khoảng 25–30 cm là ghi chú sản xuất, không cần chữ trên hình.
-- **Âm thanh:** Tay chạm khay, đất vụn. Không nhạc, không thoại.
-- **Tham chiếu:** B03; P01; D01; D02; D03; D04
-
-#### S024 — Củ tiếp theo chạm đất
-
-**01:11–01:14 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận cảnh; máy cố định. Đủ gần đọc thao tác và trạng thái vật; giữ một phần mốc nền, không đổi trục vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày.
-- **Nhân vật và dụng cụ:** Cô gái; củ giống nguyên có mầm ngắn; rổ nhỏ, khay gỗ; cuốc và xẻng tại vị trí đã đặt.
-- **Trạng thái đầu:** Tay đang mang củ thứ ba vào khoảng trống kế hai củ đã đặt.
-- **Hành động:** Cô hạ củ nhẹ, chỉnh mầm lên trên bằng đầu ngón tay rồi rút tay.
-- **Kết quả cuối:** Củ thứ ba nằm yên, chưa phủ đất.
-- **Nối cảnh:** Không đặt lặp củ thứ nhất. Mầm nhỏ nguyên vẹn, không bẻ hoặc kéo ra.
-- **Âm thanh:** Chạm đất rất nhẹ, âm nền vườn. Không nhạc, không thoại.
-- **Tham chiếu:** B03; P01; D01; D02; D03; D04
-
-#### S025 — Hàng củ dần hoàn tất
-
-**01:14–01:17 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn cảnh; máy cố định. Giữ mốc hậu cảnh và cùng phía trục công việc; thấy quan hệ người–dụng cụ–luống.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày.
-- **Nhân vật và dụng cụ:** Cô gái; củ giống nguyên có mầm ngắn; rổ nhỏ, khay gỗ; cuốc và xẻng tại vị trí đã đặt.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng; ánh sáng dịu nhất quán, không chuyển ngày.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D04 Rổ tre nhỏ đựng củ giống.
 - **Trạng thái đầu:** Sau khi lược các vị trí giữa, cô đã tới cuối hàng; phía sau có củ cách đều.
-- **Hành động:** Cô đặt củ cuối cùng trong khay vào vị trí còn trống, đặt khay rỗng ra lối và đứng lên.
+- **Hành động:** Sau các lượt đặt được lược, cô đặt củ cuối vào khoảng còn trống, kéo khay rỗng ra lối.
 - **Kết quả cuối:** Một hàng củ đã đặt đủ; khay rỗng sát chân cô, rổ và giỏ vẫn ở đầu luống.
-- **Nối cảnh:** Lược phần lặp bằng điểm cắt, tốc độ người vẫn tự nhiên. Chỉ một hàng đã có củ, các luống khác giữ nguyên.
-- **Âm thanh:** Khay chạm lối, vải áo khi đứng. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Ra ở hàng đã có đủ củ, khay rỗng ở ngoài vùng trồng. Sau đó nối S015.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D01; D02; D03; D04
 
-#### S026 — Bắt đầu phủ đất lên củ
+#### S015 — Phủ đất che củ
 
-**01:17–01:20 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:46.7–00:51.0 · 4.3 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung cảnh; máy cố định. Giữ mốc hậu cảnh và cùng phía trục công việc; thấy quan hệ người–dụng cụ–luống.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày.
-- **Nhân vật và dụng cụ:** Cô gái; củ giống nguyên có mầm ngắn; rổ nhỏ, khay gỗ; cuốc và xẻng tại vị trí đã đặt.
-- **Trạng thái đầu:** Củ cuối vừa đặt; cuốc ở lối cuối hàng từ S017.
-- **Hành động:** Cô nhấc cuốc, kéo đất tơi hai bên vào phủ đoạn cuối hàng rồi tiến ngược dọc rãnh.
-- **Kết quả cuối:** Đoạn cuối đã được phủ; những đoạn phía trước vẫn còn thấy củ.
-- **Nối cảnh:** Cuốc lấy đúng chỗ đã đặt; không vung lưỡi vào củ. Đất tơi được kéo nhẹ, không nện.
-- **Âm thanh:** Cuốc kéo đất xào xạo. Không nhạc, không thoại.
-- **Tham chiếu:** B03; P01; D01; D02; D03; D04
-
-#### S027 — Đất khép trên hàng trồng
-
-**01:20–01:23 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận cảnh; máy cố định. Đủ gần đọc thao tác và trạng thái vật; giữ một phần mốc nền, không đổi trục vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày.
-- **Nhân vật và dụng cụ:** Cô gái; củ giống nguyên có mầm ngắn; rổ nhỏ, khay gỗ; cuốc và xẻng tại vị trí đã đặt.
-- **Trạng thái đầu:** Một đoạn rãnh kế đoạn đã phủ còn nhìn thấy củ; đất tơi ở mép.
-- **Hành động:** Lưỡi cuốc kéo đất từ mép vào; đất rơi khép kín trên củ trong vùng nét.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng; ánh sáng dịu nhất quán, không chuyển ngày.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D04 Rổ tre nhỏ đựng củ giống.
+- **Trạng thái đầu:** Củ cuối vừa đặt; cuốc ở lối cuối hàng từ cảnh liên quan.
+- **Hành động:** Cô kéo đất từ hai mép vào, đất tơi rơi che kín một đoạn rãnh có củ.
 - **Kết quả cuối:** Củ ở đoạn này đã được phủ kín, bề mặt còn tơi.
-- **Nối cảnh:** Tiến sang đoạn kế tiếp, không làm lại đoạn S026. Không dựng hình củ nằm sát mặt đất sau khi đã phủ.
-- **Âm thanh:** Đất tơi trượt khỏi lưỡi cuốc. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Ra khi vị trí củ trong vùng nét đã khuất, lược các đoạn phủ giống nhau. Sau đó nối S016.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D01; D02; D03; D04
 
-#### S028 — Kết thúc lấp hàng
+#### S016 — Khép hàng trồng
 
-**01:23–01:27 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:51.0–00:53.4 · 2.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn cảnh; máy cố định. Giữ mốc hậu cảnh và cùng phía trục công việc; thấy quan hệ người–dụng cụ–luống.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống C01–C02 cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng C01; ánh sáng dịu nhất quán, không chuyển ngày.
-- **Nhân vật và dụng cụ:** Cô gái; củ giống nguyên có mầm ngắn; rổ nhỏ, khay gỗ; cuốc và xẻng tại vị trí đã đặt.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai tây đầu tiên và lối đi cạnh luống  cùng một buổi sáng bắt đầu vụ trồng; không gắn tháng hay dấu hiệu mùa đặc thù. Cùng buổi sáng; ánh sáng dịu nhất quán, không chuyển ngày.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D04 Rổ tre nhỏ đựng củ giống.
 - **Trạng thái đầu:** Sau phần phủ giữa hàng được lược, cô đã quay về đầu luống; chỉ đoạn đầu còn chưa phủ.
-- **Hành động:** Cô kéo nốt đất vào rãnh, đặt cuốc nằm trên lối rồi xếp khay rỗng sát giỏ.
+- **Hành động:** Cô kéo nốt đất vào cuối rãnh, đặt cuốc xuống lối rồi xoay về hướng vòi nước.
 - **Kết quả cuối:** Hàng đã phủ kín; cuốc, xẻng, giỏ, rổ và khay tập trung đầu luống.
-- **Nối cảnh:** Hàng giữ độ cao hợp lý, không nhảy thành luống vun cao khi cây chưa mọc. Lược nhịp mang khay rỗng từ cuối hàng về đầu trước cảnh này.
-- **Âm thanh:** Cuốc và khay chạm nền nhẹ. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Củ không còn lộ; khay rỗng cạnh giỏ, cô chuyển việc. Sau đó nối S017.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D01; D02; D03; D04
 
-#### S029 — Hứng nước ở vòi
+#### S017 — Bắt đầu hứng nước
 
-**01:27–01:31 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:53.4–00:55.9 · 2.5 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Vòi nước hiện có B04. Cùng buổi sáng bắt đầu vụ, ánh ban mai dịu.
-- **Nhân vật và dụng cụ:** Cô gái; xô gỗ tưới vườn và gáo gỗ; vòi hiện có nếu trong khung.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Vòi nước hiện có B04. Cùng buổi sáng bắt đầu vụ, ánh ban mai dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Xô gỗ và gáo ở cạnh vòi; cô vừa tới chỗ lấy nước.
-- **Hành động:** Cô đặt xô dưới vòi, xoay van cho nước chảy rồi chỉnh quai khỏi dòng nước.
+- **Hành động:** Cô đặt xô dưới vòi và mở van; gáo gỗ nằm trong xô, nước bắt đầu chảy.
 - **Kết quả cuối:** Xô đang hứng nước; gáo nằm trong xô.
-- **Nối cảnh:** Nối S028 → S029 → S030. Xô gỗ và gáo ở cạnh vòi; cô vừa tới chỗ lấy nước. Cảnh này tạo kết quả mới: Xô đang hứng nước; gáo nằm trong xô. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Nước chảy/khép vòi và quai gỗ chạm đúng hình; gió, chim xa. Không nhạc/thoại.
+- **Liên tục và điểm cắt:** Ra khi dòng nước đã vào xô; lược thời gian hứng trước cảnh khóa vòi. Sau đó nối S018.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B04; P01; D05
 
-#### S030 — Khóa vòi khi nước vừa đủ
+#### S018 — Khóa vòi khi xô vừa đủ
 
-**01:31–01:35 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:55.9–00:57.7 · 1.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Vòi nước hiện có B04. Cùng buổi sáng bắt đầu vụ, ánh ban mai dịu.
-- **Nhân vật và dụng cụ:** Cô gái; xô gỗ tưới vườn và gáo gỗ; vòi hiện có nếu trong khung.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Vòi nước hiện có B04. Cùng buổi sáng bắt đầu vụ, ánh ban mai dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Sau khoảng hứng được lược, nước đã tới mức vừa sức xách; tay cô ở gần van.
-- **Hành động:** Cô khép van cho dòng nước dứt rồi dựng quai xô bằng tay còn lại.
+- **Hành động:** Sau khoảng hứng, nước gần mức vừa mang; cô khóa vòi rồi dựng quai xô.
 - **Kết quả cuối:** Vòi đã khóa, quai xô dựng sẵn, nước chưa tràn.
-- **Nối cảnh:** Nối S029 → S030 → S031. Sau khoảng hứng được lược, nước đã tới mức vừa sức xách; tay cô ở gần van. Cảnh này tạo kết quả mới: Vòi đã khóa, quai xô dựng sẵn, nước chưa tràn. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Nước chảy/khép vòi và quai gỗ chạm đúng hình; gió, chim xa. Không nhạc/thoại.
+- **Liên tục và điểm cắt:** Vòi đã tắt trước khi nhấc; không biến xô đầy trong một thao tác mở van. Sau đó nối S019.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B04; P01; D05
 
-#### S031 — Xách nước ra luống
+#### S019 — Mang và hạ xô bên luống
 
-**01:35–01:39 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**00:57.7–01:02.3 · 4.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Lối vườn và luống khoai B03. Cùng buổi sáng bắt đầu vụ, ánh ban mai dịu.
-- **Nhân vật và dụng cụ:** Cô gái; xô gỗ tưới vườn và gáo gỗ; vòi hiện có nếu trong khung.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Lối vườn và luống khoai B03. Cùng buổi sáng bắt đầu vụ, ánh ban mai dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Cô vừa nâng xô khỏi chỗ vòi qua điểm cắt.
-- **Hành động:** Cô xách xô dọc lối tới hàng khoai, chậm bước ở chỗ đặt xô rồi bắt đầu hạ tay.
-- **Kết quả cuối:** Xô đang hạ ở đầu hàng khoai, gáo vẫn ở trong.
-- **Nối cảnh:** Nối S030 → S031 → S032. Cô vừa nâng xô khỏi chỗ vòi qua điểm cắt. Cảnh này tạo kết quả mới: Xô đang hạ ở đầu hàng khoai, gáo vẫn ở trong. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Bước chân, nước sóng trong xô hoặc nước tưới chạm đất đúng hình; gió, chim xa. Không nhạc/thoại.
-- **Tham chiếu:** B03; P01; D05
-
-#### S032 — Ngồi xuống bên xô nước
-
-**01:39–01:43 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Lối vườn và luống khoai B03. Cùng buổi sáng bắt đầu vụ, ánh ban mai dịu.
-- **Nhân vật và dụng cụ:** Cô gái; xô gỗ tưới vườn và gáo gỗ; vòi hiện có nếu trong khung.
-- **Trạng thái đầu:** Xô đang được hạ xuống lối, cô đứng cạnh hàng khoai vừa phủ đất.
-- **Hành động:** Cô đặt xô vững, ngồi xổm rồi đưa tay nắm cán gáo.
+- **Hành động:** Ở đoạn lối sát hàng khoai, cô bước tới, hạ xô vững rồi ngồi thấp cạnh luống.
 - **Kết quả cuối:** Cô ngồi cạnh xô, đã cầm gáo để tưới.
-- **Nối cảnh:** Nối S031 → S032 → S033. Xô đang được hạ xuống lối, cô đứng cạnh hàng khoai vừa phủ đất. Cảnh này tạo kết quả mới: Cô ngồi cạnh xô, đã cầm gáo để tưới. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Bước chân, nước sóng trong xô hoặc nước tưới chạm đất đúng hình; gió, chim xa. Không nhạc/thoại.
+- **Liên tục và điểm cắt:** Ra khi xô đứng và tay cô đã tới gáo; lược đoạn đường lặp. Sau đó nối S020.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D05
 
-## C03 — Tưới nốt luống khoai rồi gieo ươm cà chua
+#### S020 — Múc và tưới một lượt
 
-**19 shot · 69 giây · 01:43–02:52.**
+**01:02.3–01:06.7 · 4.4 giây · Tự nhiên · Chờ duyệt**
 
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
-|---|---|---:|---|---|
-| S033 | 01:43–01:47 | 4 | Cận | Cô múc nước, nâng gáo khỏi mặt xô rồi đưa tay về phía hàng trồng. |
-| S034 | 01:47–01:51 | 4 | Toàn | Cô hất nước nhẹ thành quạt lên hàng khoai rồi đưa gáo trở lại xô để tiếp tục. |
-| S035 | 01:51–01:55 | 4 | Trung | Cô hất lượt nước cuối, đặt gáo trong xô rồi đứng lên nắm quai. |
-| S036 | 01:55–01:59 | 4 | Toàn | Qua điểm cắt lược quãng đường, cô hạ xô cạnh bàn rồi kéo khay ươm về trước người. |
-| S037 | 01:59–02:02 | 3 | Toàn người và góc bàn, hơi chéo | Cô nghiêng thau, chuyển một phần giá thể vào khay rồi đặt thau xuống để tay còn lại dàn phần vừa đổ. |
-| S038 | 02:02–02:06 | 4 | Cận chéo từ trên, đọc rõ thành khay | Cô kéo phần giá thể ở giữa sang góc thấp, bóp tơi một cục nhỏ bằng đầu ngón tay. |
-| S039 | 02:06–02:09 | 3 | Trung bên hông, thấy gáo và toàn khay | Cô nghiêng gáo thấp, cho lượng nước nhỏ chạy lần lượt trên mặt giá thể rồi đưa gáo về xô. |
-| S040 | 02:09–02:13 | 4 | Cận hơi cao, bàn tay và mặt khay rõ | Cô xoa nhẹ lớp mặt, dàn nốt chỗ lõm bằng đầu ngón tay. |
-| S041 | 02:13–02:17 | 4 | Trung | Cô mở nếp gói giấy, nghiêng cho ít hạt rơi vào đĩa rồi đặt gói sang bên. |
-| S042 | 02:17–02:21 | 4 | Toàn chéo hơi cao, thấy khay, gói hạt và hai tay | Cô cầm que tre kéo một rãnh nông qua mặt giá thể ẩm, nhấc que để chuyển sang hàng kế. |
-| S043 | 02:21–02:24 | 3 | Trung chéo đối diện bàn, cùng phía trục tay | Cô lấy một nhúm rất nhỏ, để hạt rơi thưa dọc đoạn đầu rãnh, tay dịch đều theo hàng. |
-| S044 | 02:24–02:28 | 4 | Cận từ trên chéo, đầu ngón tay và rãnh rõ | Cô thả hai hoặc ba hạt cách nhau vào phần rãnh còn trống, nhấc tay trở về đĩa. |
-| S045 | 02:28–02:31 | 3 | Toàn người và mặt bàn | Cô gieo nốt đoạn còn lại, đặt đĩa sang phần khô của bàn rồi với về bát giá thể phủ. |
-| S046 | 02:31–02:35 | 4 | Trung từ đầu ngắn của khay, nhìn rõ bàn tay | Cô bốc một ít giá thể mịn, rắc thưa dọc hàng đầu để che hạt. |
-| S047 | 02:35–02:38 | 3 | Cận | Cô rắc lớp giá thể mịn lên phần hạt còn hở, tay đi đều rồi đưa về bát phủ. |
-| S048 | 02:38–02:42 | 4 | Cận ngang mặt bàn, gói giấy và đĩa trong vùng nét | Cô trút số hạt dư từ đĩa trở lại gói, gập miệng rồi đặt sang góc khô. |
-| S049 | 02:42–02:45 | 3 | Toàn ngang mắt, góc hiên và chỗ đặt cùng đọc được | Cô luồn hai tay đỡ đáy khay, nhấc lên và bước ngắn tới chỗ sáng tán xạ, kín gió. |
-| S050 | 02:45–02:49 | 4 | Trung chéo thấp, thấy tay đỡ và mặt kê | Cô hạ khay lên hai thanh kê thấp có sẵn, chờ đáy được đỡ hoàn toàn rồi buông tay. |
-| S051 | 02:49–02:52 | 3 | Cận chéo mép khay và mặt giá thể | Bàn tay cô rời mép khay; bóng lá rất nhẹ chuyển trên nền hiên phía sau. |
-
-### Mô tả chi tiết
-
-#### S033 — Múc nước theo nhịp làm việc
-
-**01:43–01:47 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Lối vườn và luống khoai B03. Cùng buổi sáng bắt đầu vụ, ánh ban mai dịu.
-- **Nhân vật và dụng cụ:** Cô gái; xô và gáo gỗ D05. Dụng cụ còn lại giữ ở đầu luống.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Lối vườn và luống khoai B03. Cùng buổi sáng bắt đầu vụ, ánh ban mai dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Tay cô cầm gáo cạnh xô, đất trước mặt còn nhạt màu.
-- **Hành động:** Cô múc nước, nâng gáo khỏi mặt xô rồi đưa tay về phía hàng trồng.
-- **Kết quả cuối:** Gáo có nước đang hướng tới đoạn đất chưa tưới.
-- **Nối cảnh:** Nối S032 → S033 → S034. Tay cô cầm gáo cạnh xô, đất trước mặt còn nhạt màu. Cảnh này tạo kết quả mới: Gáo có nước đang hướng tới đoạn đất chưa tưới. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Bước chân, nước sóng trong xô hoặc nước tưới chạm đất đúng hình; gió, chim xa. Không nhạc/thoại.
-- **Tham chiếu:** B03; B02; P01; D05
-
-#### S034 — Tưới dọc đoạn luống đầu
-
-**01:47–01:51 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Lối vườn và luống khoai B03. Cùng buổi sáng bắt đầu vụ, ánh ban mai dịu.
-- **Nhân vật và dụng cụ:** Cô gái; xô và gáo gỗ D05. Dụng cụ còn lại giữ ở đầu luống.
-- **Trạng thái đầu:** Gáo đang được đưa thấp về phía đất.
-- **Hành động:** Cô hất nước nhẹ thành quạt lên hàng khoai rồi đưa gáo trở lại xô để tiếp tục.
+- **Hành động:** Cô múc gáo từ xô, nâng thấp rồi hất nước thành quạt nhẹ lên phần đất chưa ẩm.
 - **Kết quả cuối:** Đoạn đầu đã sẫm ẩm; tay cô trở về xô, đoạn kế còn khô.
-- **Nối cảnh:** Nối S033 → S034 → S035. Gáo đang được đưa thấp về phía đất. Cảnh này tạo kết quả mới: Đoạn đầu đã sẫm ẩm; tay cô trở về xô, đoạn kế còn khô. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Bước chân, nước sóng trong xô hoặc nước tưới chạm đất đúng hình; gió, chim xa. Không nhạc/thoại.
+- **Liên tục và điểm cắt:** Cắt khi lượt nước chạm đất; không bắt lại động tác múc ở góc sau. Sau đó nối S021.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; B02; P01; D05
 
-#### S035 — Tưới nốt rồi chuyển về hiên
+#### S021 — Đất sẫm sau lượt tưới cuối
 
-**01:51–01:55 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:06.7–01:09.4 · 2.7 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Lối vườn và luống khoai B03. Cùng buổi sáng bắt đầu vụ, ánh ban mai dịu.
-- **Nhân vật và dụng cụ:** Cô gái; xô và gáo gỗ D05. Dụng cụ còn lại giữ ở đầu luống.
-- **Trạng thái đầu:** Sau các lượt tưới và dịch xô được lược, cô ở đoạn cuối hàng; các đoạn trước đã ẩm.
-- **Hành động:** Cô hất lượt nước cuối, đặt gáo trong xô rồi đứng lên nắm quai.
-- **Kết quả cuối:** Hàng khoai đã tưới xong; cô sẵn mang phần nước còn lại về góc ươm.
-- **Nối cảnh:** Nối S034 → S035 → S036. Sau các lượt tưới và dịch xô được lược, cô ở đoạn cuối hàng; các đoạn trước đã ẩm. Cảnh này tạo kết quả mới: Hàng khoai đã tưới xong; cô sẵn mang phần nước còn lại về góc ươm. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Bước chân, nước sóng trong xô hoặc nước tưới chạm đất đúng hình; gió, chim xa. Không nhạc/thoại.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Lối vườn và luống khoai B03. Cùng buổi sáng bắt đầu vụ, ánh ban mai dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn.
+- **Trạng thái đầu:** Sau những lượt múc/tưới và dịch xô lược qua cut, cả hàng đã ẩm trừ một dải cuối; gáo đang đưa lượt nước mới.
+- **Hành động:** Sau các lượt tưới được lược, nước cuối rơi lên dải còn nhạt; ở rìa khung tay đặt gáo về xô.
+- **Kết quả cuối:** Đất cả hàng đã sẫm ẩm, gáo trở về xô; phần nước còn lại được mang về hiên trong đoạn đường lược trước cảnh bàn.
+- **Liên tục và điểm cắt:** Đất cả hàng đã ẩm, không ngập; lược đứng lên và mang xô về hiên. Sau đó nối S022.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; B02; P01; D05
 
-#### S036 — Trở lại góc gieo ươm
+## C03 — Gieo ươm cà chua
 
-**01:55–01:59 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
+|---|---|---:|---|---|
+| S022 | 01:09.4–01:12.2 | 2.8 | Trung | Cô hạ xô cạnh bàn hiên, kéo khay ươm riêng về trước người; khay và bộ gieo cùng hiện rõ. |
+| S023 | 01:12.2–01:17.3 | 5.1 | Cận | Cô nghiêng thau cho một phần giá thể vào khay rồi dàn tới góc gần, bóp rời một cục nhỏ. |
+| S024 | 01:17.3–01:21.0 | 3.7 | Cận | Sau khi khay đã được bổ sung đủ giá thể, cô rót dòng nhỏ sát mặt, dịch gáo theo dải khô. |
+| S025 | 01:21.0–01:23.1 | 2.1 | Cận | Cô vuốt nhẹ chỗ lõm còn lại trên giá thể ẩm, rút tay về phía bộ gieo. |
+| S026 | 01:23.1–01:25.5 | 2.4 | Cận | Cô nghiêng gói giấy cho ít hạt rơi xuống đĩa khô rồi dựng gói lại. |
+| S027 | 01:25.5–01:28.4 | 2.9 | Cận | Cô kéo que tre mở một rãnh nông qua giá thể ẩm, nhấc que ở cuối đường. |
+| S028 | 01:28.4–01:32.0 | 3.6 | Cận | Cô thả vài hạt cách nhau dọc một đoạn rãnh, tay dịch tiếp sang vùng trống. |
+| S029 | 01:32.0–01:33.9 | 1.9 | Cận | Qua điểm cắt lược các hàng giữa, cô thả nốt hạt ở đoạn cuối rồi đưa tay về bát phủ. |
+| S030 | 01:33.9–01:37.9 | 4.0 | Cận | Cô rắc giá thể mịn lên hàng gần, dịch tay che phần hạt còn hở ở đoạn kế. |
+| S031 | 01:37.9–01:39.7 | 1.8 | Cận | Cô nghiêng đĩa cho hạt dư về gói rồi gập miệng giấy. |
+| S032 | 01:39.7–01:44.5 | 4.8 | Trung | Cô nâng khay từ bàn, đi quãng ngắn tới mặt kê sát bên và hạ lên hai thanh gỗ. |
+| S033 | 01:44.5–01:46.4 | 1.9 | Cận | Khay đã phủ mỏng và ẩm, không có mầm; mép khay và thanh kê giữ nguyên. |
 
-- **Góc máy và bố cục:** Toàn; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Góc làm việc dưới hiên có sẵn Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+### Mô tả chi tiết
+
+#### S022 — Chuyển sang bàn gieo
+
+**01:09.4–01:12.2 · 2.8 giây · Tự nhiên · Chờ duyệt**
+
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Góc làm việc dưới hiên có sẵn  Cùng buổi sáng, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D06 Khay ươm cà chua riêng, D07 Bộ gieo hạt, D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Cô vừa nhấc xô ở luống; khay ươm riêng đã có sẵn trên bàn hiên.
-- **Hành động:** Qua điểm cắt lược quãng đường, cô hạ xô cạnh bàn rồi kéo khay ươm về trước người.
+- **Hành động:** Cô hạ xô cạnh bàn hiên, kéo khay ươm riêng về trước người; khay và bộ gieo cùng hiện rõ.
 - **Kết quả cuối:** Xô vững cạnh bàn; khay ươm trong tầm thao tác, không dùng khay đựng khoai.
-- **Nối cảnh:** Nối S035 → S036 → S037. Cô vừa nhấc xô ở luống; khay ươm riêng đã có sẵn trên bàn hiên. Cảnh này tạo kết quả mới: Xô vững cạnh bàn; khay ươm trong tầm thao tác, không dùng khay đựng khoai. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Xô chạm nền, gỗ khay trượt nhẹ trên bàn. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Ra ở khay nằm vững trên bàn, khác khay đựng khoai. Sau đó nối S023.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D06; D07; D05
 
-#### S037 — Cho giá thể vào khay
+#### S023 — Cho và dàn giá thể
 
-**01:59–02:02 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:12.2–01:17.3 · 5.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn người và góc bàn, hơi chéo; máy cố định. Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bàn gieo ươm dưới hiên Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn gieo ươm dưới hiên  Cùng buổi sáng, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D06 Khay ươm cà chua riêng, D07 Bộ gieo hạt, D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Khay còn rỗng, thau giá thể bên cạnh, hai tay cô rảnh.
-- **Hành động:** Cô nghiêng thau, chuyển một phần giá thể vào khay rồi đặt thau xuống để tay còn lại dàn phần vừa đổ.
-- **Kết quả cuối:** Khay có lớp giá thể đầu; vẫn còn chỗ để bổ sung.
-- **Nối cảnh:** Chỉ thấy phần chuyển đầu; không làm đầy và san cả khay ngay trong một nhịp. Không trộn phân.
-- **Âm thanh:** Giá thể rơi nhẹ, thau đặt trên gỗ. Không nhạc, không thoại.
-- **Tham chiếu:** B05; P01; D06; D07; D05
-
-#### S038 — Dàn giá thể tới góc khay
-
-**02:02–02:06 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận chéo từ trên, đọc rõ thành khay; máy cố định. Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Cùng bàn gieo ươm Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
-- **Trạng thái đầu:** Sau phần bổ sung được lược, khay gần đủ giá thể; một góc còn thấp.
-- **Hành động:** Cô kéo phần giá thể ở giữa sang góc thấp, bóp tơi một cục nhỏ bằng đầu ngón tay.
+- **Hành động:** Cô nghiêng thau cho một phần giá thể vào khay rồi dàn tới góc gần, bóp rời một cục nhỏ.
 - **Kết quả cuối:** Các góc khay được lấp đều, giá thể thấp hơn thành khay để giữ nước khi tưới.
-- **Nối cảnh:** Kế thừa phần đã đổ, không đổ lại từ khay rỗng. Không dùng đất luống còn dính củ giống.
-- **Âm thanh:** Đầu ngón tay và giá thể trên đáy gỗ. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Ra ở vùng giá thể đã đều; lược các góc tương tự, không làm đầy khay bằng một nhúm. Sau đó nối S024.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D06; D07; D05
 
-#### S039 — Làm ẩm giá thể trước gieo
+#### S024 — Làm ẩm mặt gieo
 
-**02:06–02:09 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:17.3–01:21.0 · 3.7 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung bên hông, thấy gáo và toàn khay; máy cố định. Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bàn gieo ươm, xô đặt dưới cạnh bàn Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn gieo ươm, xô đặt dưới cạnh bàn  Cùng buổi sáng, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D06 Khay ươm cà chua riêng, D07 Bộ gieo hạt, D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Mặt giá thể đã dàn sơ, chưa có hạt. Cô đã múc lượng nước nhỏ trong gáo qua điểm cắt.
-- **Hành động:** Cô nghiêng gáo thấp, cho lượng nước nhỏ chạy lần lượt trên mặt giá thể rồi đưa gáo về xô.
+- **Hành động:** Sau khi khay đã được bổ sung đủ giá thể, cô rót dòng nhỏ sát mặt, dịch gáo theo dải khô.
 - **Kết quả cuối:** Vùng được tưới sẫm ẩm; nước không tràn thành khay.
-- **Nối cảnh:** Được phép tưới trước khi gieo; không đổ dòng mạnh lên hạt. Lược nhịp múc từ xô, không thêm vòi ở bàn.
-- **Âm thanh:** Nước nhỏ vào giá thể, gáo chạm xô nhẹ. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Ra khi nước đã thấm vào vùng cần đọc, không đọng thành vũng. Sau đó nối S025.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D06; D07; D05
 
-#### S040 — Hoàn thiện mặt gieo
+#### S025 — Làm gọn mặt khay
 
-**02:09–02:13 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:21.0–01:23.1 · 2.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận hơi cao, bàn tay và mặt khay rõ; máy cố định. Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Cùng bàn gieo ươm Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng bàn gieo ươm  Cùng buổi sáng, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D06 Khay ươm cà chua riêng, D07 Bộ gieo hạt, D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Sau thời gian nước thấm và phần làm ẩm còn lại được lược, giá thể ẩm đều, không sũng.
-- **Hành động:** Cô xoa nhẹ lớp mặt, dàn nốt chỗ lõm bằng đầu ngón tay.
+- **Hành động:** Cô vuốt nhẹ chỗ lõm còn lại trên giá thể ẩm, rút tay về phía bộ gieo.
 - **Kết quả cuối:** Mặt gieo bằng, tơi ẩm, thấp hơn thành khay; không có hạt.
-- **Nối cảnh:** Điểm cắt lược chờ nước thấm; không dùng timelapse cho bàn tay. Chỉ ép nhẹ để ổn định mặt, không nén chặt.
-- **Âm thanh:** Giá thể ẩm chạm tay; chim xa. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Ra khi mặt khay sẵn gieo, không giữ lâu một mặt đất không đổi. Sau đó nối S026.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D06; D07; D05
 
-#### S041 — Đổ ít hạt vào đĩa gieo
+#### S026 — Hạt cà chua vào đĩa
 
-**02:13–02:17 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:23.1–01:25.5 · 2.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Cùng bàn gieo ươm Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng bàn gieo ươm  Cùng buổi sáng, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D06 Khay ươm cà chua riêng, D07 Bộ gieo hạt, D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Giá thể đã làm ẩm và dàn; đĩa nhỏ sạch nằm trên phần bàn khô.
-- **Hành động:** Cô mở nếp gói giấy, nghiêng cho ít hạt rơi vào đĩa rồi đặt gói sang bên.
+- **Hành động:** Cô nghiêng gói giấy cho ít hạt rơi xuống đĩa khô rồi dựng gói lại.
 - **Kết quả cuối:** Hạt dùng gieo ở đĩa, hạt dư trong gói; không chuyển từ lòng tay sang đĩa ngoài hình.
-- **Nối cảnh:** Nối S040 → S041 → S042. Giá thể đã làm ẩm và dàn; đĩa nhỏ sạch nằm trên phần bàn khô. Cảnh này tạo kết quả mới: Hạt dùng gieo ở đĩa, hạt dư trong gói; không chuyển từ lòng tay sang đĩa ngoài hình. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Giấy sột soạt; âm hiên yên. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Ra khi hạt nằm yên; không chuyển hạt sang tay rồi trở về đĩa vô cớ. Sau đó nối S027.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D06; D07; D05
 
-#### S042 — Tạo rãnh gieo nông
+#### S027 — Tạo rãnh hạt nhỏ
 
-**02:17–02:21 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:25.5–01:28.4 · 2.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn chéo hơi cao, thấy khay, gói hạt và hai tay; máy cố định. Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Cùng bàn gieo ươm Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng bàn gieo ươm  Cùng buổi sáng, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D06 Khay ươm cà chua riêng, D07 Bộ gieo hạt, D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Qua điểm cắt, gói và hạt đã được đặt trong đĩa con khô trên bàn; que tre ở bên khay.
-- **Hành động:** Cô cầm que tre kéo một rãnh nông qua mặt giá thể ẩm, nhấc que để chuyển sang hàng kế.
+- **Hành động:** Cô kéo que tre mở một rãnh nông qua giá thể ẩm, nhấc que ở cuối đường.
 - **Kết quả cuối:** Một rãnh gieo nông xuất hiện; hạt vẫn nằm trong đĩa.
-- **Nối cảnh:** Đĩa hạt đã được bày trực tiếp ở cảnh trước. Tạo rãnh ở giá thể ẩm; các rãnh còn lại lược tại cut trước khi gieo, không chuyển hạt lại vào lòng tay.
-- **Âm thanh:** Que tre lướt qua giá thể ẩm. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Ra ở rãnh đã hình thành; lược các rãnh còn lại trước khi thả hạt. Sau đó nối S028.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D06; D07; D05
 
-#### S043 — Gieo những hạt đầu
+#### S028 — Gieo hạt dọc rãnh
 
-**02:21–02:24 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:28.4–01:32.0 · 3.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung chéo đối diện bàn, cùng phía trục tay; máy cố định. Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Cùng bàn gieo ươm Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng bàn gieo ươm  Cùng buổi sáng, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D06 Khay ươm cà chua riêng, D07 Bộ gieo hạt, D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Qua điểm cắt, các rãnh nông đã tạo xong; que tre đặt sát đĩa hạt.
-- **Hành động:** Cô lấy một nhúm rất nhỏ, để hạt rơi thưa dọc đoạn đầu rãnh, tay dịch đều theo hàng.
-- **Kết quả cuối:** Đoạn đầu rãnh có vài hạt tách nhau; phần sau chưa gieo.
-- **Nối cảnh:** Lược thao tác tạo các rãnh còn lại, không biến thành thao tác lặp trên cùng rãnh. Không rải dày kín mặt.
-- **Âm thanh:** Áo chạm bàn nhẹ, âm nền hiên. Không nhạc, không thoại.
-- **Tham chiếu:** B05; P01; D06; D07; D05
-
-#### S044 — Hạt rơi vào rãnh kế tiếp
-
-**02:24–02:28 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận từ trên chéo, đầu ngón tay và rãnh rõ; máy cố định. Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Cùng khay ươm Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
-- **Trạng thái đầu:** Cô đã tiến qua đoạn đầu; tay mang hạt tới khoảng trống tiếp theo.
-- **Hành động:** Cô thả hai hoặc ba hạt cách nhau vào phần rãnh còn trống, nhấc tay trở về đĩa.
+- **Hành động:** Cô thả vài hạt cách nhau dọc một đoạn rãnh, tay dịch tiếp sang vùng trống.
 - **Kết quả cuối:** Một đoạn mới có hạt; số hạt trong đĩa giảm.
-- **Nối cảnh:** Tiếp diễn công việc, không chiếu lại những hạt S043 vừa thả. Hạt giữ đúng kích thước qua góc cận.
-- **Âm thanh:** Chuyển động tay rất nhẹ; chim xa. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Ra khi các hạt mới nằm yên; không đợi gieo hết khay trong thời gian shot. Sau đó nối S029.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D06; D07; D05
 
-#### S045 — Hoàn tất hàng gieo cuối
+#### S029 — Hoàn tất phần gieo
 
-**02:28–02:31 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:32.0–01:33.9 · 1.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn người và mặt bàn; máy cố định. Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Cùng bàn gieo ươm Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng bàn gieo ươm  Cùng buổi sáng, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D06 Khay ươm cà chua riêng, D07 Bộ gieo hạt, D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Các đoạn gieo giữa đã được lược; chỉ đoạn ngắn cuối hàng cuối còn trống.
-- **Hành động:** Cô gieo nốt đoạn còn lại, đặt đĩa sang phần khô của bàn rồi với về bát giá thể phủ.
+- **Hành động:** Qua điểm cắt lược các hàng giữa, cô thả nốt hạt ở đoạn cuối rồi đưa tay về bát phủ.
 - **Kết quả cuối:** Các hàng đã gieo đủ cho một khay nhỏ, chưa phủ; bát ở trong tầm tay.
-- **Nối cảnh:** Chỉ một khay cho vườn gia đình; không tự nhân thêm khay hoặc xuất hiện cây con.
-- **Âm thanh:** Đĩa chạm gỗ, vải chuyển. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Khán giả nhận diện tiến độ mới; không gieo lại hàng đã thấy. Sau đó nối S030.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D06; D07; D05
 
-#### S046 — Phủ lớp mỏng trên hạt
+#### S030 — Phủ mỏng các hàng hạt
 
-**02:31–02:35 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:33.9–01:37.9 · 4.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung từ đầu ngắn của khay, nhìn rõ bàn tay; máy cố định. Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Cùng bàn gieo ươm Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng bàn gieo ươm  Cùng buổi sáng, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D06 Khay ươm cà chua riêng, D07 Bộ gieo hạt, D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Bát nhỏ có giá thể mịn hơi ẩm đặt bên khay; hạt còn thấy trong các rãnh.
-- **Hành động:** Cô bốc một ít giá thể mịn, rắc thưa dọc hàng đầu để che hạt.
-- **Kết quả cuối:** Hàng đầu đã được phủ lớp mỏng, những hàng kế còn hở.
-- **Nối cảnh:** Đây là phủ hạt, không phải bón phân; không đổ cả bát thành ụ dày.
-- **Âm thanh:** Giá thể mịn rơi nhẹ. Không nhạc, không thoại.
-- **Tham chiếu:** B05; P01; D06; D07; D05
-
-#### S047 — Phủ nốt hàng gieo
-
-**02:35–02:38 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Cùng khay ươm Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
-- **Trạng thái đầu:** Hàng đầu đã phủ mỏng; tay cô tiếp tục sang hàng kế.
-- **Hành động:** Cô rắc lớp giá thể mịn lên phần hạt còn hở, tay đi đều rồi đưa về bát phủ.
+- **Hành động:** Cô rắc giá thể mịn lên hàng gần, dịch tay che phần hạt còn hở ở đoạn kế.
 - **Kết quả cuối:** Các hàng gieo đã phủ mỏng; mặt không bị nén thành mảng.
-- **Nối cảnh:** Nối S046 → S047 → S048. Hàng đầu đã phủ mỏng; tay cô tiếp tục sang hàng kế. Cảnh này tạo kết quả mới: Các hàng gieo đã phủ mỏng; mặt không bị nén thành mảng. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Giá thể và bàn tay; không thêm âm hạt va lớn. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Ra khi vùng hạt đang thấy đã được phủ; phần lặp còn lại lược. Sau đó nối S031.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D06; D07; D05
 
-#### S048 — Cất hạt còn lại gọn bên bàn
+#### S031 — Cất hạt dư
 
-**02:38–02:42 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:37.9–01:39.7 · 1.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận ngang mặt bàn, gói giấy và đĩa trong vùng nét; máy cố định. Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Phần khô của bàn gieo ươm Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Phần khô của bàn gieo ươm  Cùng buổi sáng, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D06 Khay ươm cà chua riêng, D07 Bộ gieo hạt, D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Trong đĩa còn ít hạt; gói mở nằm sát bên, tay đã rời khay.
-- **Hành động:** Cô trút số hạt dư từ đĩa trở lại gói, gập miệng rồi đặt sang góc khô.
+- **Hành động:** Cô nghiêng đĩa cho hạt dư về gói rồi gập miệng giấy.
 - **Kết quả cuối:** Hạt dư đã cất; đĩa rỗng, gói khép, không nằm trên mặt khay.
-- **Nối cảnh:** Chuỗi gọn trong cùng nhịp làm việc; không thêm cảnh lưu kho hạt hoặc ghi nhãn có chữ.
-- **Âm thanh:** Giấy gấp, đĩa chạm bàn nhẹ. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Cắt sau hạt được cất; không giữ thêm việc đặt đồ trang trí. Sau đó nối S032.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D06; D07; D05
 
-#### S049 — Mang khay tới chỗ ươm
+#### S032 — Đặt khay ở góc ươm
 
-**02:42–02:45 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:39.7–01:44.5 · 4.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn ngang mắt, góc hiên và chỗ đặt cùng đọc được; máy cố định. Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Từ bàn tới vị trí ươm trong cùng khu hiên Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Từ bàn tới vị trí ươm trong cùng khu hiên  Cùng buổi sáng, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D06 Khay ươm cà chua riêng, D07 Bộ gieo hạt, D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Khay đã gieo phủ xong, đủ nhẹ để cô nâng bằng hai tay; góc ươm nằm gần bàn.
-- **Hành động:** Cô luồn hai tay đỡ đáy khay, nhấc lên và bước ngắn tới chỗ sáng tán xạ, kín gió.
-- **Kết quả cuối:** Khay được mang ngang, giá thể không đổ; cô tới gần chỗ đặt.
-- **Nối cảnh:** Chọn nơi có thật trong bối cảnh, tránh gió lùa và nắng trưa; không tự thêm nhà kính hay chuyển sang khu bếp.
-- **Âm thanh:** Khay rời bàn, bước chân nhẹ. Không nhạc, không thoại.
-- **Tham chiếu:** B05; P01; D06; D07; D05
-
-#### S050 — Đặt khay vững ở góc ươm
-
-**02:45–02:49 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung chéo thấp, thấy tay đỡ và mặt kê; máy cố định. Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Vị trí ươm trong khu hiên Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
-- **Trạng thái đầu:** Khay còn được cô đỡ hai tay; mặt kê gỗ khô có sẵn ngay trước cô.
-- **Hành động:** Cô hạ khay lên hai thanh kê thấp có sẵn, chờ đáy được đỡ hoàn toàn rồi buông tay.
+- **Hành động:** Cô nâng khay từ bàn, đi quãng ngắn tới mặt kê sát bên và hạ lên hai thanh gỗ.
 - **Kết quả cuối:** Khay đứng vững, đáy thoát nước không bị bịt; tay rút khỏi mép khay.
-- **Nối cảnh:** Nối phần hạ khay sau S049; không đặt lại một lần nữa. Hai thanh kê chỉ là vật nhỏ, không đổi kiến trúc hiên.
-- **Âm thanh:** Gỗ chạm gỗ nhẹ, vải áo. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Ra khi đáy đã được kê vững và tay rời mép; không đặt lại lần nữa. Sau đó nối S033.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D06; D07; D05
 
-#### S051 — Khay ươm mới gieo trong ánh sáng dịu
+#### S033 — Mặt khay vừa gieo
 
-**02:49–02:52 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:44.5–01:46.4 · 1.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận chéo mép khay và mặt giá thể; máy cố định. Giữ một phía trục làm việc, nhận ra vị trí khay và bát/đĩa; cận cảnh vẫn có mép khay hoặc mặt bàn làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Cùng vị trí ươm Cùng buổi sáng C01–C02, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
-- **Nhân vật và dụng cụ:** Cô gái; khay ươm riêng, giá thể ươm sạch, hạt cà chua, gói giấy, đĩa con, bát phủ và que tre. Xô/gáo cạnh bàn.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng vị trí ươm  Cùng buổi sáng, ánh sáng tự nhiên dịu; góc ươm ấm, kín gió, có sáng tán xạ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D06 Khay ươm cà chua riêng, D07 Bộ gieo hạt, D05 Xô gỗ và gáo gỗ tưới vườn.
 - **Trạng thái đầu:** Khay vừa được đặt vững, mặt phủ hơi ẩm; không nhìn thấy hạt hoặc cây.
-- **Hành động:** Bàn tay cô rời mép khay; bóng lá rất nhẹ chuyển trên nền hiên phía sau.
+- **Hành động:** Khay đã phủ mỏng và ẩm, không có mầm; mép khay và thanh kê giữ nguyên.
 - **Kết quả cuối:** Khay nằm yên chờ nảy mầm; hôm gieo chưa có mầm xuất hiện.
-- **Nối cảnh:** Kết C03 tại trạng thái vừa gieo. Chưa tua nhanh, chưa sang ngày mới
-- **Âm thanh:** Lá ngoài hiên, tiếng bước chân cô xa nhẹ nếu vừa rời khung. Không nhạc, không thoại.
+- **Liên tục và điểm cắt:** Kết trạng thái hôm gieo, chuyển thời gian ở shot sau. Sau đó nối S034.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D06; D07; D05
 
-## C04 — Những ngày đầu chăm cây và mầm sống xuất hiện
+## C04 — Những ngày đầu, cây nhú và bà cùng chăm
 
-**28 shot · 99 giây · 02:52–04:31.**
-
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
 |---|---|---:|---|---|
-| S052 | 02:52–02:56 | 4 | Toàn khu nhà, cùng góc S001 | Bóng nắng rút khỏi sân, trời tối dần rồi sáng trở lại; không có người trong khung. |
-| S053 | 02:56–02:59 | 3 | Toàn người và góc hiên | Cô đi tới, ngồi thấp cạnh chỗ kê và nhìn mặt khay, tay đưa về mép. |
-| S054 | 02:59–03:03 | 4 | Cận chéo từ trên, ngón tay và thành khay | Cô chạm nhẹ đầu ngón tay vào mép giá thể, nhấc lên xem độ ẩm bám tay. |
-| S055 | 03:03–03:06 | 3 | Trung bên hông, thấy gáo và toàn khay | Cô nghiêng gáo sát mép khay, cho dòng rất nhỏ vào khoảng trống dọc thành rồi dừng tay. |
-| S056 | 03:06–03:10 | 4 | Cận thấp ngang mép khay | Vệt sẫm lan nhẹ vào lớp giá thể tơi; không có vũng trên mặt. |
-| S057 | 03:10–03:13 | 3 | Toàn | Qua điểm cắt lược đường đi, cô ngồi thấp ở hàng khoai, gạt một mẩu cành khỏi mặt đất rồi đưa tay kiểm lớp đất cạnh hàng. |
-| S058 | 03:13–03:17 | 4 | Trung | Cô múc rồi hất một lượt nước nhẹ lên dải khô, tay tiếp tục hướng theo hàng thay vì nhìn máy. |
-| S059 | 03:17–03:20 | 3 | Trung khay và góc kê cố định | Ánh sáng qua các chu kỳ ngày đổi trên hậu cảnh; cuối đoạn mới thấy vài điểm đất nhô rất nhỏ. |
-| S060 | 03:20–03:24 | 4 | Đặc tả một cụm nhỏ, máy khóa chắc | Mầm nâng lên, thân duỗi dần; hai lá mầm hẹp tách ra, các mầm lân cận nhú không đồng loạt. |
-| S061 | 03:24–03:27 | 3 | Trung ngang người ngồi, thấy mặt và khay | Cô cúi nhìn gần hơn, môi thoáng cười rồi dịch mắt dọc các hàng cây. |
-| S062 | 03:27–03:31 | 4 | Cận ngang tầm cây con | Lá mầm khẽ rung theo luồng khí rất nhẹ dưới hiên; nền thấy tay cô dừng ở mép khay. |
-| S063 | 03:31–03:35 | 4 | Toàn hiên, khay và lối bà đi tới | Bà bước tới chỗ ghế; cô quay nhìn bà và đưa tay về phía ghế để giúp. |
-| S064 | 03:35–03:38 | 3 | Trung chéo bên, thấy bà và tay cô | Cô giữ cạnh ghế cho vững; bà hạ người ngồi xuống, cô chỉ buông khi bà đã ngồi ổn. |
-| S065 | 03:38–03:42 | 4 | Cận hai bàn tay cạnh ghế | Bà chạm nhẹ lên mu bàn tay cô một nhịp; cô đáp lại bằng cách đặt tay mình lên tay bà rồi rút về. |
-| S066 | 03:42–03:45 | 3 | Trung hai người và mép khay | Cô nhìn bà cười nhẹ rồi đưa gáo có ít nước về khoảng đất trống sát thành khay. |
-| S067 | 03:45–03:49 | 4 | Cận chéo trên, thấy khe giữa thành và hàng cây | Cô nghiêng gáo cho lượng nước nhỏ vào mép trống, dựng gáo lại ngay khi giá thể đủ ẩm. |
-| S068 | 03:49–03:52 | 3 | Toàn hiên, giữ cùng phía trục hai người | Cô đưa gáo về xô, quay lại quan sát hàng cây; bà nhìn theo bàn tay cô, nét mặt thư thái. |
-| S069 | 03:52–03:56 | 4 | Toàn khu nhà và vườn, góc khóa S052 | Nắng và bóng mái nhà đi qua sân theo các chu kỳ ngày được nén; không có người trong hình. |
-| S070 | 03:56–03:59 | 3 | Cận thấp, khóa một vị trí trong hàng | Một chồi khoai đội lớp đất lên, nhú khỏi mặt rồi mở cụm lá nhỏ; chồi cạnh chỉ mới hé. |
-| S071 | 03:59–04:03 | 4 | Trung cô và một đoạn luống, góc chéo từ lối | Cô bước tới, ngồi xổm ở lối đi và nhìn dọc hàng, đưa tay về khoảng đất trống giữa hai cây. |
-| S072 | 04:03–04:06 | 3 | Cận tay và khoảng đất trống, có chồi làm mốc | Cô bóp vụn một mảng đất mặt nhỏ ở khoảng trống, rút tay ra để đất rơi nhẹ tại chỗ. |
-| S073 | 04:06–04:10 | 4 | Trung chéo bên, thấy người và cây khoai | Cô dịch tay sang mép, nắm một cây cỏ sát gốc rồi kéo nhẹ lên, đặt sang lối khô. |
-| S074 | 04:10–04:13 | 3 | Cận tay nắm sát gốc cỏ, khoai ở nền | Cô kéo cây cỏ thứ hai lên, rũ ít đất khỏi rễ rồi đưa ra phía lối. |
-| S075 | 04:13–04:17 | 4 | Toàn | Cô dịch người theo hàng, tiếp tục nhổ vài cây cỏ nhỏ giữa những chỗ đất trống. |
-| S076 | 04:17–04:20 | 3 | Trung | Cô gom nắm cỏ vào rổ vụn cạnh lối rồi đứng lên chuyển sang đoạn kế. |
-| S077 | 04:20–04:24 | 4 | Toàn người, đoạn luống và lối ngoài vùng thao tác | Mèo đi chậm qua lối phía sau cô rồi dừng ở mép bóng râm; cô vẫn làm việc. |
-| S078 | 04:24–04:27 | 3 | Trung khay ươm, khóa cùng góc S059 | Thân tăng nhẹ, giữa hai lá mầm xuất hiện lá thật đầu có mép răng cưa; cây lớn lệch nhịp tự nhiên. |
-| S079 | 04:27–04:31 | 4 | Cận ngang tầm cây, nét trên lá thật | Lá thật rung rất nhẹ, một bóng lá nền trượt chậm qua hậu cảnh; không có tay trong khung. |
+| S034 | 01:46.4–01:49.6 | 3.2 | Toàn | Bóng nắng rút khỏi sân, trời tối rồi sáng lại trong timelapse; không có người. |
+| S035 | 01:49.6–01:52.5 | 2.9 | Cận | Cô đã ngồi cạnh khay qua phần đường lược; đầu ngón tay chạm mép giá thể rồi nâng lên xem. |
+| S036 | 01:52.5–01:56.5 | 4.0 | Cận | Cô rót lượng nhỏ dọc thành khay, dựng gáo lại; vệt sẫm thấm vào giá thể trong cùng khung. |
+| S037 | 01:56.5–02:00.7 | 4.2 | Toàn | Qua điểm cắt sang đúng hàng khoai, cô kiểm mặt đất rồi tưới một lượt nhẹ ở dải se mặt. |
+| S038 | 02:00.7–02:06.3 | 5.6 | Cận | Qua nhiều ngày trong timelapse, một điểm đất nhô lên, thân mầm duỗi và hai lá mầm mở; các cây nhú lệch nhau. |
+| S039 | 02:06.3–02:08.6 | 2.3 | Cận | Cô cúi nhìn xuống khay, thoáng cười rồi tiếp tục nhìn dọc hàng mầm. |
+| S040 | 02:08.6–02:10.7 | 2.1 | Cận | Lá mầm rung nhẹ, bàn tay cô ở mép khay trong nền, cây chưa có lá thật. |
+| S041 | 02:10.7–02:16.1 | 5.4 | Trung | Bà tới cạnh ghế, cô đưa tay giữ ghế trong lúc bà hạ người, chỉ buông khi bà đã ngồi ổn. |
+| S042 | 02:16.1–02:19.7 | 3.6 | Cận | Bà chạm nhẹ mu bàn tay cô; cô đặt tay đáp lại một nhịp rồi rút về khay. |
+| S043 | 02:19.7–02:25.4 | 5.7 | Trung | Cô nhìn bà cười nhẹ, nghiêng gáo tưới chút nước vào mép khay; bà nhìn theo, cô trả gáo về xô. |
+| S044 | 02:25.4–02:28.2 | 2.8 | Toàn | Timelapse nắng và bóng mái đi qua sân, khay cà chua và hàng khoai giữ đúng chỗ. |
+| S045 | 02:28.2–02:32.6 | 4.4 | Cận | Timelapse một chồi nâng lớp đất, nhú lên rồi mở cụm lá non; chồi cạnh nhú lệch nhịp. |
+| S046 | 02:32.6–02:36.2 | 3.6 | Cận | Cô đã ngồi ngoài luống, bóp vụn mảng đất ở khoảng trống giữa hai cây, để vụn rơi tại chỗ. |
+| S047 | 02:36.2–02:40.3 | 4.1 | Cận | Cô nắm sát gốc một cây cỏ, kéo rễ khỏi đất, rũ nhẹ rồi đưa ra lối. |
+| S048 | 02:40.3–02:44.9 | 4.6 | Toàn | Cô làm tiếp dải đất kế, cỏ nhổ đã gom ở lối; mèo đi phía sau rồi dừng trong bóng râm ngoài luống. |
+| S049 | 02:44.9–02:49.5 | 4.6 | Cận | Timelapse từ sau đợt chồi khoai tới khoảng ngày 21: lá thật răng cưa mở giữa hai lá mầm. |
+| S050 | 02:49.5–02:53.6 | 4.1 | Cận | Timelapse từ khoảng ngày 21 tới 28, cây có thêm lá thật và thân tăng vừa phải. |
 
 ### Mô tả chi tiết
 
-#### S052 — Buổi gieo trôi sang sáng hôm sau
+#### S034 — Đêm qua, sáng trở lại
 
-**02:52–02:56 · 4 giây · Máy cố định · Timelapse · Chờ duyệt**
+**01:46.4–01:49.6 · 3.2 giây · Timelapse · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn khu nhà, cùng góc S001; máy cố định. Giữ mốc kiến trúc/luống và quan hệ với lối; không đổi vị trí cố định khi đổi ngày.
-- **Địa điểm, thời gian và ánh sáng:** Khu nhà và vườn Cuối ngày gieo → sáng ngày kế. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Không có người trong khung; đúng khay hoặc luống đã xác lập.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Khu nhà và vườn  Cuối ngày gieo → sáng ngày kế. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
 - **Trạng thái đầu:** Hàng khoai đã trồng, khay cà chua vừa gieo dưới hiên.
-- **Hành động:** Bóng nắng rút khỏi sân, trời tối dần rồi sáng trở lại; không có người trong khung.
+- **Hành động:** Bóng nắng rút khỏi sân, trời tối rồi sáng lại trong timelapse; không có người.
 - **Kết quả cuối:** Sang một ngày mới; hình dạng nhà, luống và vị trí góc ươm giữ nguyên.
-- **Nối cảnh:** Lược phần ban ngày còn lại từ S051 tại điểm cắt. Không cho cây mọc trong một đêm.
-- **Âm thanh:** Âm chiều chuyển sang côn trùng đêm rồi chim sáng; không tăng tốc âm thành tiếng rít.
+- **Liên tục và điểm cắt:** Một đêm đã trôi; luống và kiến trúc không đổi vị trí. Sau đó nối S035.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B01; B03; B05
 
-#### S053 — Kiểm tra khay vào sáng hôm sau
+#### S035 — Kiểm ẩm khay
 
-**02:56–02:59 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:49.6–01:52.5 · 2.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn người và góc hiên; máy cố định. Giữ mốc kiến trúc/luống và quan hệ với lối; không đổi vị trí cố định khi đổi ngày.
-- **Địa điểm, thời gian và ánh sáng:** Góc ươm dưới hiên Ngày kế sau gieo. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái nếu trong khung; khay cà chua hoặc hàng khoai và dụng cụ theo hành động.
-- **Trạng thái đầu:** Khay vẫn trên thanh kê S050; chưa có cây nhú.
-- **Hành động:** Cô đi tới, ngồi thấp cạnh chỗ kê và nhìn mặt khay, tay đưa về mép.
-- **Kết quả cuối:** Cô ở tư thế thuận chăm khay; chưa xê dịch khay hoặc mở đất.
-- **Nối cảnh:** Sáng mới sau S052; không lấy khay khác thay. Trang phục cùng bộ tham chiếu cho buổi này.
-- **Âm thanh:** Bước chân, vải áo, chim sáng.
-- **Tham chiếu:** B05; P01; D05; D06
-
-#### S054 — Thử độ ẩm ở mép khay
-
-**02:59–03:03 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận chéo từ trên, ngón tay và thành khay; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Khay ươm D06 Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái nếu trong khung; khay cà chua hoặc hàng khoai và dụng cụ theo hành động.
-- **Trạng thái đầu:** Mặt giá thể hơi nhạt ở khoảng mép không gieo hạt.
-- **Hành động:** Cô chạm nhẹ đầu ngón tay vào mép giá thể, nhấc lên xem độ ẩm bám tay.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Góc ươm dưới hiên  Ngày kế sau gieo. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng.
+- **Trạng thái đầu:** Khay vẫn trên thanh kê cảnh liên quan; chưa có cây nhú.
+- **Hành động:** Cô đã ngồi cạnh khay qua phần đường lược; đầu ngón tay chạm mép giá thể rồi nâng lên xem.
 - **Kết quả cuối:** Xác định mép mặt hơi se; hàng hạt không bị xới hoặc lộ ra.
-- **Nối cảnh:** Tiếp tay đưa tới khay S053; chỉ kiểm khoảng không có hạt.
-- **Âm thanh:** Tiếp xúc rất nhẹ; chim xa, không thêm âm đất nứt.
+- **Liên tục và điểm cắt:** Ra ở dấu đất bám ngón tay; cắt sang bổ sung nước khi cần. Sau đó nối S036.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D05; D06
 
-#### S055 — Bổ sung nước nhẹ ở mép
+#### S036 — Tưới nhẹ mép khay
 
-**03:03–03:06 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:52.5–01:56.5 · 4.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung bên hông, thấy gáo và toàn khay; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Góc ươm dưới hiên Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái nếu trong khung; khay cà chua hoặc hàng khoai và dụng cụ theo hành động.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Góc ươm dưới hiên  Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng.
 - **Trạng thái đầu:** Xô/gáo ở cạnh bàn; qua điểm cắt cô đã múc lượng nước nhỏ và quỳ bên khay.
-- **Hành động:** Cô nghiêng gáo sát mép khay, cho dòng rất nhỏ vào khoảng trống dọc thành rồi dừng tay.
-- **Kết quả cuối:** Mép giá thể nhận nước; lớp phủ hạt còn nguyên.
-- **Nối cảnh:** Lược lần múc tại điểm cắt. Không hất nước như tưới luống; không tưới theo lịch máy móc khi giá thể vẫn ướt.
-- **Âm thanh:** Nước rót rất nhỏ, gáo gỗ, âm hiên.
-- **Tham chiếu:** B05; P01; D05; D06
-
-#### S056 — Nước lan vào lớp giá thể
-
-**03:06–03:10 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận thấp ngang mép khay; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Khay ươm D06 Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái nếu trong khung; khay cà chua hoặc hàng khoai và dụng cụ theo hành động.
-- **Trạng thái đầu:** Vùng mép vừa nhận nước ở S055.
-- **Hành động:** Vệt sẫm lan nhẹ vào lớp giá thể tơi; không có vũng trên mặt.
+- **Hành động:** Cô rót lượng nhỏ dọc thành khay, dựng gáo lại; vệt sẫm thấm vào giá thể trong cùng khung.
 - **Kết quả cuối:** Giá thể ẩm trở lại, hạt vẫn nằm dưới lớp phủ; chưa có cây.
-- **Nối cảnh:** Kết quả của S055, không rót lại lượt nước cũ.
-- **Âm thanh:** Vài giọt cuối, lá ngoài hiên; không phóng đại âm thấm.
+- **Liên tục và điểm cắt:** Giữ tới khi thấy nước ngấm, không chuyển sang mầm ngay sau tưới. Sau đó nối S037.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D05; D06
 
-#### S057 — Tiếp tục chăm hàng đất mới gieo
+#### S037 — Chăm hàng khoai chưa nhú
 
-**03:10–03:13 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**01:56.5–02:00.7 · 4.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai B03. Ngày kế sau gieo. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
-- **Trạng thái đầu:** Khay ươm vừa được kiểm ẩm; hàng khoai ngoài vườn còn chưa nhú.
-- **Hành động:** Qua điểm cắt lược đường đi, cô ngồi thấp ở hàng khoai, gạt một mẩu cành khỏi mặt đất rồi đưa tay kiểm lớp đất cạnh hàng.
-- **Kết quả cuối:** Đất hàng khoai được kiểm; củ vẫn phủ kín, chưa có cây.
-- **Nối cảnh:** Nối S056 → S057 → S058. Khay ươm vừa được kiểm ẩm; hàng khoai ngoài vườn còn chưa nhú. Cảnh này tạo kết quả mới: Đất hàng khoai được kiểm; củ vẫn phủ kín, chưa có cây. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai B03. Ngày kế sau gieo. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn.
+- **Trạng thái đầu:** Cùng ngày chăm ẩm sau gieo, cô đã chuyển sang luống khoai chưa nhú qua cut; xô/gáo cạnh lối, đất mặt có vùng se.
+- **Hành động:** Qua điểm cắt sang đúng hàng khoai, cô kiểm mặt đất rồi tưới một lượt nhẹ ở dải se mặt.
+- **Kết quả cuối:** Hàng khoai được tưới bổ sung, củ vẫn dưới đất, không có chồi xuất hiện tức thì.
+- **Liên tục và điểm cắt:** Đất thêm ẩm, củ vẫn phủ kín; khay cà chua ở không gian khác. Sau đó nối S038.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D05
 
-#### S058 — Tưới phần đất đã se mặt
+#### S038 — Mầm cà chua xuất hiện
 
-**03:13–03:17 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:00.7–02:06.3 · 5.6 giây · Timelapse · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai B03. Ngày kế sau gieo. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
-- **Trạng thái đầu:** Sau khi kiểm, một dải đất mép hàng đã se mặt; xô/gáo ở lối sau lượt lấy nước được lược.
-- **Hành động:** Cô múc rồi hất một lượt nước nhẹ lên dải khô, tay tiếp tục hướng theo hàng thay vì nhìn máy.
-- **Kết quả cuối:** Dải vừa tưới sẫm lại; không ngập úng hoặc lộ củ giống.
-- **Nối cảnh:** Nối S057 → S058 → S059. Sau khi kiểm, một dải đất mép hàng đã se mặt; xô/gáo ở lối sau lượt lấy nước được lược. Cảnh này tạo kết quả mới: Dải vừa tưới sẫm lại; không ngập úng hoặc lộ củ giống. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
-- **Tham chiếu:** B03; P01; D05
-
-#### S059 — Những ngày chờ đầu tiên
-
-**03:17–03:20 · 3 giây · Máy cố định · Timelapse · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung khay và góc kê cố định; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Góc ươm dưới hiên Một số ngày đầu → khoảng ngày 6. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Không có người trong khung; đúng khay hoặc luống đã xác lập.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Góc ươm B05, khay giữ cùng vị trí. Sau vài ngày đầu tới khoảng ngày 9; ánh ngày thay đổi trong timelapse.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
 - **Trạng thái đầu:** Khay đã được chăm ẩm; mặt còn phẳng, không có mầm.
-- **Hành động:** Ánh sáng qua các chu kỳ ngày đổi trên hậu cảnh; cuối đoạn mới thấy vài điểm đất nhô rất nhỏ.
-- **Kết quả cuối:** Bắt đầu giai đoạn hạt đội đất; chưa xuất hiện lá thật.
-- **Nối cảnh:** Nén vài ngày, không phải vài giờ sau tưới. Chăm ẩm được lược ngoài khung; không cho người chạy nhanh trong hình.
-- **Âm thanh:** Âm hiên được dựng dịu theo mốc sáng/tối; không tăng tốc âm gốc.
-- **Tham chiếu:** B05; P01; D05; D06
-
-#### S060 — Mầm cà chua nâng hai lá mầm
-
-**03:20–03:24 · 4 giây · Máy cố định · Timelapse · Chờ duyệt**
-
-- **Góc máy và bố cục:** Đặc tả một cụm nhỏ, máy khóa chắc; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Khay ươm D06 Khoảng ngày 6–9. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Không có người trong khung; đúng khay hoặc luống đã xác lập.
-- **Trạng thái đầu:** Một mầm cong vừa nhô dưới lớp phủ cuối S059.
-- **Hành động:** Mầm nâng lên, thân duỗi dần; hai lá mầm hẹp tách ra, các mầm lân cận nhú không đồng loạt.
+- **Hành động:** Qua nhiều ngày trong timelapse, một điểm đất nhô lên, thân mầm duỗi và hai lá mầm mở; các cây nhú lệch nhau.
 - **Kết quả cuối:** Một nhóm cây con mang hai lá mầm; chưa có lá thật răng cưa.
-- **Nối cảnh:** Tiếp tiến trình S059. Khóa khay và vị trí từng cây, không biến lớp đất thành cây cao bằng hiệu ứng hòa hình.
-- **Âm thanh:** Âm môi trường hiên nhẹ; không có tiếng nứt hoặc mọc cây giả.
+- **Liên tục và điểm cắt:** Đầu là hạt chưa nhú, cuối là lá mầm; không có tay tưới gây cây lớn tức thì. Sau đó nối S039.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D05; D06
 
-#### S061 — Cô nhận ra những mầm mới
+#### S039 — Cô nhận thấy cây nhú
 
-**03:24–03:27 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:06.3–02:08.6 · 2.3 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung ngang người ngồi, thấy mặt và khay; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Góc ươm dưới hiên Sáng khoảng ngày 9. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái nếu trong khung; khay cà chua hoặc hàng khoai và dụng cụ theo hành động.
-- **Trạng thái đầu:** Cây đã nhú như cuối S060; cô tới kiểm tra vào một buổi sáng mới.
-- **Hành động:** Cô cúi nhìn gần hơn, môi thoáng cười rồi dịch mắt dọc các hàng cây.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Góc ươm dưới hiên  Sáng khoảng ngày 9. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng.
+- **Trạng thái đầu:** Cây đã nhú như cuối cảnh liên quan; cô tới kiểm tra vào một buổi sáng mới.
+- **Hành động:** Cô cúi nhìn xuống khay, thoáng cười rồi tiếp tục nhìn dọc hàng mầm.
 - **Kết quả cuối:** Cô thấy cây mọc; khay ở nguyên chỗ, tay không sờ thân non.
-- **Nối cảnh:** Từ timelapse sang người ở tốc độ thật, trạng thái cây giữ đúng tuổi.
-- **Âm thanh:** Vải áo nhẹ, chim xa; không lời nói.
+- **Liên tục và điểm cắt:** Gương mặt có hướng nhìn rõ, không nhìn máy hoặc diễn phản ứng kéo dài. Sau đó nối S040.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D05; D06
 
-#### S062 — Hai lá mầm đã mở
+#### S040 — Mầm dưới bàn tay quan sát
 
-**03:27–03:31 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:08.6–02:10.7 · 2.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận ngang tầm cây con; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Khay ươm D06 Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái nếu trong khung; khay cà chua hoặc hàng khoai và dụng cụ theo hành động.
-- **Trạng thái đầu:** Những cây đã thấy ở S060–S061 có hai lá mầm; mặt giá thể còn ẩm.
-- **Hành động:** Lá mầm khẽ rung theo luồng khí rất nhẹ dưới hiên; nền thấy tay cô dừng ở mép khay.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Khay ươm D06  Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng.
+- **Trạng thái đầu:** Những cây đã thấy ở cảnh liên quan có hai lá mầm; mặt giá thể còn ẩm.
+- **Hành động:** Lá mầm rung nhẹ, bàn tay cô ở mép khay trong nền, cây chưa có lá thật.
 - **Kết quả cuối:** Đọc rõ cây non khỏe, thân ngắn vừa phải; chưa tăng kích thước.
-- **Nối cảnh:** Cảnh quan sát thật sau timelapse, không lặp cảnh nảy mầm. Tay không chạm hoặc vuốt cây.
-- **Âm thanh:** Lá ngoài hiên và âm sân; không thêm tiếng lá mầm lớn.
+- **Liên tục và điểm cắt:** Ra khi hình dạng lá mầm đã đọc đủ; nối bà tới hiên. Sau đó nối S041.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D05; D06
 
-#### S063 — Bà ra ngồi cùng cháu
+#### S041 — Giữ ghế cho bà ngồi
 
-**03:31–03:35 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:10.7–02:16.1 · 5.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn hiên, khay và lối bà đi tới; máy cố định. Giữ mốc kiến trúc/luống và quan hệ với lối; không đổi vị trí cố định khi đổi ngày.
-- **Địa điểm, thời gian và ánh sáng:** Hiên cạnh góc ươm Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái P01, bà P02, ghế gỗ thấp; khay D06, xô/gáo D05.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Hiên cạnh góc ươm  Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng, D08 Ghế gỗ thấp cạnh góc ươm.
 - **Trạng thái đầu:** Cô đang ngồi cạnh khay; một ghế gỗ thấp có sẵn bên hiên, ngoài vùng khay.
-- **Hành động:** Bà bước tới chỗ ghế; cô quay nhìn bà và đưa tay về phía ghế để giúp.
-- **Kết quả cuối:** Bà tới sát ghế; cô đã hướng sự chú ý sang bà.
-- **Nối cảnh:** Bà bước vào từ phía nhà, không xuất hiện đột ngột giữa hai cảnh khay. Không có người khác.
-- **Âm thanh:** Bước chân chậm tự nhiên, vải áo; không thoại.
-- **Tham chiếu:** B05; P01; P02; D05; D06; D08
-
-#### S064 — Giữ ghế cho bà ngồi
-
-**03:35–03:38 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung chéo bên, thấy bà và tay cô; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Ghế cạnh góc ươm Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái P01, bà P02, ghế gỗ thấp; khay D06, xô/gáo D05.
-- **Trạng thái đầu:** Bà đang xoay người trước ghế; tay cô vừa đưa tới ở S063.
-- **Hành động:** Cô giữ cạnh ghế cho vững; bà hạ người ngồi xuống, cô chỉ buông khi bà đã ngồi ổn.
+- **Hành động:** Bà tới cạnh ghế, cô đưa tay giữ ghế trong lúc bà hạ người, chỉ buông khi bà đã ngồi ổn.
 - **Kết quả cuối:** Bà ngồi vững cạnh cô; ghế cách khay đủ để không chạm cây.
-- **Nối cảnh:** Nối chuyển động S063; không kéo ghế dưới người đang ngồi. Bà tự đi và ngồi, không diễn kiệt sức.
-- **Âm thanh:** Ghế chạm nền rất nhẹ, vải áo.
+- **Liên tục và điểm cắt:** Khung thấy hai người và mặt ghế; kết khi trọng lượng đã được ghế đỡ. Sau đó nối S042.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; P02; D05; D06; D08
 
-#### S065 — Bàn tay bà chạm tay cháu
+#### S042 — Bà chạm tay cháu
 
-**03:38–03:42 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:16.1–02:19.7 · 3.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận hai bàn tay cạnh ghế; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Cạnh ghế bà Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái P01, bà P02, ghế gỗ thấp; khay D06, xô/gáo D05.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cạnh ghế bà  Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng, D08 Ghế gỗ thấp cạnh góc ươm.
 - **Trạng thái đầu:** Bà đã ngồi vững; tay cô vừa rời cạnh ghế.
-- **Hành động:** Bà chạm nhẹ lên mu bàn tay cô một nhịp; cô đáp lại bằng cách đặt tay mình lên tay bà rồi rút về.
+- **Hành động:** Bà chạm nhẹ mu bàn tay cô; cô đặt tay đáp lại một nhịp rồi rút về khay.
 - **Kết quả cuối:** Sự quan tâm được thể hiện ngắn; hai người sẵn quay lại nhìn khay.
-- **Nối cảnh:** Tiếp sau ghế đã vững, không lặp việc đỡ ngồi. Không kéo dài thành tiểu cảnh riêng.
-- **Âm thanh:** Vải áo, âm sân bình yên; không giọng nói hoặc nhạc.
+- **Liên tục và điểm cắt:** Giữ đủ chạm–đáp–rút; không tách thêm phản ứng mặt cho cùng cử chỉ. Sau đó nối S043.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; P02; D05; D06; D08
 
-#### S066 — Mỉm cười rồi trở lại chăm cây
+#### S043 — Hai bà cháu bên khay cây
 
-**03:42–03:45 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:19.7–02:25.4 · 5.7 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung hai người và mép khay; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Góc ươm dưới hiên Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái P01, bà P02, ghế gỗ thấp; khay D06, xô/gáo D05.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Góc ươm dưới hiên  Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng, D08 Ghế gỗ thấp cạnh góc ươm.
 - **Trạng thái đầu:** Bà ngồi cạnh, cô vẫn ở tư thế thấp; đầu ngón tay vừa thử thấy mép khay se mặt qua nhịp được lược.
-- **Hành động:** Cô nhìn bà cười nhẹ rồi đưa gáo có ít nước về khoảng đất trống sát thành khay.
-- **Kết quả cuối:** Gáo tới đúng vùng không có cây, chuẩn bị làm ẩm nhẹ.
-- **Nối cảnh:** Lược việc kiểm ẩm và múc nước sau S065; cây đã nhú nên tuyệt đối tránh đổ nước lên thân và lá.
-- **Âm thanh:** Gáo, nước trong lòng gáo, chim xa.
-- **Tham chiếu:** B05; P01; P02; D05; D06; D08
-
-#### S067 — Tưới sát thành, tránh mầm non
-
-**03:45–03:49 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận chéo trên, thấy khe giữa thành và hàng cây; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Khay ươm D06 Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái P01, bà P02, ghế gỗ thấp; khay D06, xô/gáo D05.
-- **Trạng thái đầu:** Gáo đã ở mép như cuối S066; hàng cây cách mép một khoảng.
-- **Hành động:** Cô nghiêng gáo cho lượng nước nhỏ vào mép trống, dựng gáo lại ngay khi giá thể đủ ẩm.
-- **Kết quả cuối:** Giá thể cạnh thành sẫm; cây đứng nguyên, không bị dòng nước quật.
-- **Nối cảnh:** Nối lần đưa gáo S066; không múc hoặc đưa tới lại từ đầu. Lượng ít, không ngập đáy.
-- **Âm thanh:** Nước rót nhỏ, âm sân và lá nền.
-- **Tham chiếu:** B05; P01; P02; D05; D06; D08
-
-#### S068 — Bà ngồi nhìn cháu làm việc
-
-**03:49–03:52 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn hiên, giữ cùng phía trục hai người; máy cố định. Giữ mốc kiến trúc/luống và quan hệ với lối; không đổi vị trí cố định khi đổi ngày.
-- **Địa điểm, thời gian và ánh sáng:** Góc ươm dưới hiên Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái P01, bà P02, ghế gỗ thấp; khay D06, xô/gáo D05.
-- **Trạng thái đầu:** Lượt nước vừa xong; bà ngồi yên bên cạnh, cô cầm gáo.
-- **Hành động:** Cô đưa gáo về xô, quay lại quan sát hàng cây; bà nhìn theo bàn tay cô, nét mặt thư thái.
+- **Hành động:** Cô nhìn bà cười nhẹ, nghiêng gáo tưới chút nước vào mép khay; bà nhìn theo, cô trả gáo về xô.
 - **Kết quả cuối:** Việc chăm khay đã xong lượt này; bà và cháu ngồi cạnh khay, không trò chuyện thành tiếng.
-- **Nối cảnh:** Khép một lần chăm cây và tương tác; không thêm cảnh uống trà hoặc sinh hoạt khác.
-- **Âm thanh:** Gáo đặt vào xô nhẹ, gió và chim.
+- **Liên tục và điểm cắt:** Công việc và quan hệ hai người trong một khung; nước chỉ thêm khi giá thể se mặt. Sau đó nối S044.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; P02; D05; D06; D08
 
-#### S069 — Thêm những ngày nắng đổi trên vườn
+#### S044 — Những ngày tiếp theo trên vườn
 
-**03:52–03:56 · 4 giây · Máy cố định · Timelapse · Chờ duyệt**
+**02:25.4–02:28.2 · 2.8 giây · Timelapse · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn khu nhà và vườn, góc khóa S052; máy cố định. Giữ mốc kiến trúc/luống và quan hệ với lối; không đổi vị trí cố định khi đổi ngày.
-- **Địa điểm, thời gian và ánh sáng:** Khu nhà và vườn Sau buổi sáng với bà → khoảng ngày 14. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Không có người trong khung; đúng khay hoặc luống đã xác lập.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Khu nhà và vườn  Sau buổi sáng với bà → khoảng ngày 14. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
 - **Trạng thái đầu:** Cà chua đã nhú trong khay; mặt luống khoai chưa khẳng định có cây ở cảnh trước.
-- **Hành động:** Nắng và bóng mái nhà đi qua sân theo các chu kỳ ngày được nén; không có người trong hình.
+- **Hành động:** Timelapse nắng và bóng mái đi qua sân, khay cà chua và hàng khoai giữ đúng chỗ.
 - **Kết quả cuối:** Một số ngày nữa đã trôi qua, chuẩn bị sang quan sát luống khoai.
-- **Nối cảnh:** Thời gian luôn tiến tới; không quay ngược sang tuần trước để kể khoai. Trang phục có thể đổi ở ngày mới theo ảnh người dùng.
-- **Âm thanh:** Âm ngày/đêm chuyển dịu; không nhạc, không tiếng tua nhanh.
+- **Liên tục và điểm cắt:** Mốc tiến tới đợt chồi khoai, không lùi ngày. Sau đó nối S045.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B01; B03; B05
 
-#### S070 — Chồi khoai nhô lên khỏi mặt đất
+#### S045 — Chồi khoai đội đất
 
-**03:56–03:59 · 3 giây · Máy cố định · Timelapse · Chờ duyệt**
+**02:28.2–02:32.6 · 4.4 giây · Timelapse · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận thấp, khóa một vị trí trong hàng; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai B03 Khoảng ngày 14–17 sau trồng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Không có người trong khung; đúng khay hoặc luống đã xác lập.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai B03  Khoảng ngày 14–17 sau trồng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
 - **Trạng thái đầu:** Đất đã phủ và được giữ ẩm; một điểm bắt đầu nứt nhẹ tự nhiên, chưa có lá mở.
-- **Hành động:** Một chồi khoai đội lớp đất lên, nhú khỏi mặt rồi mở cụm lá nhỏ; chồi cạnh chỉ mới hé.
+- **Hành động:** Timelapse một chồi nâng lớp đất, nhú lên rồi mở cụm lá non; chồi cạnh nhú lệch nhịp.
 - **Kết quả cuối:** Vài chồi thấp đã hiện trong đúng hàng đặt củ; chưa thành bụi lớn.
-- **Nối cảnh:** Nén nhiều ngày sau S069; chỉ thấy phần trên đất, không dùng mặt cắt xuyên đất hoặc củ nổi lên.
-- **Âm thanh:** Âm vườn nhẹ; không bịa tiếng đất nổ khi cây nhú.
+- **Liên tục và điểm cắt:** Giữ biến đổi đọc được; không dùng toàn–trung–cận lặp cho cùng chồi. Sau đó nối S046.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01
 
-#### S071 — Ra xem hàng khoai mới mọc
+#### S046 — Làm tơi đất cạnh chồi
 
-**03:59–04:03 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:32.6–02:36.2 · 3.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung cô và một đoạn luống, góc chéo từ lối; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Lối cạnh hàng khoai Sáng khoảng ngày 17. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái nếu trong khung; khay cà chua hoặc hàng khoai và dụng cụ theo hành động.
-- **Trạng thái đầu:** Một số chồi đã nhú theo S070; không phải mọi vị trí đều cao như nhau.
-- **Hành động:** Cô bước tới, ngồi xổm ở lối đi và nhìn dọc hàng, đưa tay về khoảng đất trống giữa hai cây.
-- **Kết quả cuối:** Cô ở tư thế chăm đất; không giẫm lên luống hoặc kéo chồi.
-- **Nối cảnh:** Giữ thứ tự sau ngày 17; khay cà chua ngoài khung vẫn đang lớn, không biến mất khỏi câu chuyện.
-- **Âm thanh:** Bước chân trên lối, vải áo, lá nền.
-- **Tham chiếu:** B03; P01
-
-#### S072 — Làm thoáng lớp mặt giữa hai chồi
-
-**04:03–04:06 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận tay và khoảng đất trống, có chồi làm mốc; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Giữa hai chồi khoai Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái nếu trong khung; khay cà chua hoặc hàng khoai và dụng cụ theo hành động.
-- **Trạng thái đầu:** Mặt đất ở khoảng giữa có một mảng se mỏng; chồi khoai cách xa tay.
-- **Hành động:** Cô bóp vụn một mảng đất mặt nhỏ ở khoảng trống, rút tay ra để đất rơi nhẹ tại chỗ.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Lối cạnh hàng khoai  Sáng khoảng ngày 17. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01.
+- **Trạng thái đầu:** Một số chồi đã nhú theo cảnh liên quan; không phải mọi vị trí đều cao như nhau.
+- **Hành động:** Cô đã ngồi ngoài luống, bóp vụn mảng đất ở khoảng trống giữa hai cây, để vụn rơi tại chỗ.
 - **Kết quả cuối:** Khoảng đất nhỏ tơi hơn; chồi, gốc và lớp đất phủ củ không bị xáo.
-- **Nối cảnh:** Chỉ thao tác nông bằng đầu ngón tay, không bới sâu tìm củ hoặc vun cao khi cây mới nhú.
-- **Âm thanh:** Đất vụn rơi nhẹ, âm nền vườn.
+- **Liên tục và điểm cắt:** Cây non ở mép khung làm mốc, tay không xới sát gốc. Sau đó nối S047.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01
 
-#### S073 — Nhổ cỏ nhỏ cạnh hàng
+#### S047 — Nhổ cỏ ở đoạn mới
 
-**04:06–04:10 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:36.2–02:40.3 · 4.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung chéo bên, thấy người và cây khoai; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Mé luống khoai Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái nếu trong khung; khay cà chua hoặc hàng khoai và dụng cụ theo hành động.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Mé luống khoai  Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng.
 - **Trạng thái đầu:** Vài cây cỏ nhỏ mọc ở mé luống, khác hình lá chồi khoai; cô vẫn ngồi ở lối.
-- **Hành động:** Cô dịch tay sang mép, nắm một cây cỏ sát gốc rồi kéo nhẹ lên, đặt sang lối khô.
-- **Kết quả cuối:** Một cây cỏ đã được lấy ra; cô chuyển tay về cây cỏ kế.
-- **Nối cảnh:** Tiếp công việc sau S072; cỏ ở mé luống, không nhầm cây khoai là cỏ. Không tạo cả luống cỏ um tùm.
-- **Âm thanh:** Rễ cỏ rời đất nhẹ, vải áo, chim.
-- **Tham chiếu:** B03; P01
-
-#### S074 — Rễ cỏ kế tiếp rời đất
-
-**04:10–04:13 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận tay nắm sát gốc cỏ, khoai ở nền; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Cùng mé luống Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái nếu trong khung; khay cà chua hoặc hàng khoai và dụng cụ theo hành động.
-- **Trạng thái đầu:** Cây cỏ thứ hai còn nguyên trong đất; tay cô đã tới gần.
-- **Hành động:** Cô kéo cây cỏ thứ hai lên, rũ ít đất khỏi rễ rồi đưa ra phía lối.
+- **Hành động:** Cô nắm sát gốc một cây cỏ, kéo rễ khỏi đất, rũ nhẹ rồi đưa ra lối.
 - **Kết quả cuối:** Cây cỏ thứ hai đã nhổ; gốc khoai không bị động.
-- **Nối cảnh:** Góc mới tiếp cây cỏ khác, không nhổ lại cây vừa lấy ở S073.
-- **Âm thanh:** Đất nhỏ rơi, rễ rời đất rất nhẹ.
-- **Tham chiếu:** B05; P01; D05; D06
+- **Liên tục và điểm cắt:** Một lượt nhổ rõ; không trở lại cùng cây cỏ còn nguyên sau cut. Sau đó nối S048.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B03; P01; B05; D05; D06
 
-#### S075 — Làm cỏ tiếp dọc hàng
+#### S048 — Công việc tiếp diễn, mèo qua lối
 
-**04:13–04:17 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:40.3–02:44.9 · 4.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai B03. Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai B03. Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
+- **Nhân vật và dụng cụ:** Cô gái P01; Mèo P03. Dụng cụ: D01 Giỏ tre và khay gỗ nông.
 - **Trạng thái đầu:** Chồi khoai còn thấp; cô đã nhổ cỏ ở đoạn đầu, cỏ nhổ nằm ở lối.
-- **Hành động:** Cô dịch người theo hàng, tiếp tục nhổ vài cây cỏ nhỏ giữa những chỗ đất trống.
-- **Kết quả cuối:** Đoạn làm sạch dài thêm; các chồi khoai giữ nguyên.
-- **Nối cảnh:** Nối S074 → S075 → S076. Chồi khoai còn thấp; cô đã nhổ cỏ ở đoạn đầu, cỏ nhổ nằm ở lối. Cảnh này tạo kết quả mới: Đoạn làm sạch dài thêm; các chồi khoai giữ nguyên. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
-- **Tham chiếu:** B03; P01
+- **Hành động:** Cô làm tiếp dải đất kế, cỏ nhổ đã gom ở lối; mèo đi phía sau rồi dừng trong bóng râm ngoài luống.
+- **Kết quả cuối:** Cỏ được gom ngoài luống, cô tiếp tục làm việc ở dải kế; mèo dừng trong bóng râm trên lối, cây khoai không bị giẫm.
+- **Liên tục và điểm cắt:** Mèo cùng sống trong không gian, cô không dừng việc để phản ứng riêng. Sau đó nối S049.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B03; P01; D01; P03
 
-#### S076 — Gom cỏ ra ngoài vùng trồng
+#### S049 — Lá thật đầu tiên
 
-**04:17–04:20 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:44.9–02:49.5 · 4.6 giây · Timelapse · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai B03. Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
-- **Trạng thái đầu:** Cỏ vừa nhổ nằm thành nắm nhỏ trên lối, không lẫn với chồi khoai.
-- **Hành động:** Cô gom nắm cỏ vào rổ vụn cạnh lối rồi đứng lên chuyển sang đoạn kế.
-- **Kết quả cuối:** Cỏ rời vùng trồng; công việc làm cỏ kết thúc ở đoạn quan sát.
-- **Nối cảnh:** Nối S075 → S076 → S077. Cỏ vừa nhổ nằm thành nắm nhỏ trên lối, không lẫn với chồi khoai. Cảnh này tạo kết quả mới: Cỏ rời vùng trồng; công việc làm cỏ kết thúc ở đoạn quan sát. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
-- **Tham chiếu:** B03; P01; D01
-
-#### S077 — Mèo đi ngang lối khi cô làm vườn
-
-**04:20–04:24 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn người, đoạn luống và lối ngoài vùng thao tác; máy cố định. Giữ mốc kiến trúc/luống và quan hệ với lối; không đổi vị trí cố định khi đổi ngày.
-- **Địa điểm, thời gian và ánh sáng:** Vườn trước nhà Cùng buổi sáng. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cô gái P01 và mèo P03; hàng khoai, cỏ nhỏ ở mé luống.
-- **Trạng thái đầu:** Cô tiếp tục nhổ vài cây cỏ thưa; một ít cỏ nằm ở lối bên cô.
-- **Hành động:** Mèo đi chậm qua lối phía sau cô rồi dừng ở mép bóng râm; cô vẫn làm việc.
-- **Kết quả cuối:** Đoạn mé luống gọn hơn; mèo ở lối, không lên luống hoặc chạm cây.
-- **Nối cảnh:** Lược một phần việc nhổ cỏ bằng điểm cắt; mèo đi vào khung từ lối có thật, không xuất hiện trên tay cô.
-- **Âm thanh:** Bước chân cô khi đổi thế, lá và chim; không bắt buộc mèo kêu.
-- **Tham chiếu:** B03; P01; P03
-
-#### S078 — Cà chua bắt đầu có lá thật
-
-**04:24–04:27 · 3 giây · Máy cố định · Timelapse · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung khay ươm, khóa cùng góc S059; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Góc ươm dưới hiên Sau ngày 17 → khoảng ngày 21. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Không có người trong khung; đúng khay hoặc luống đã xác lập.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Góc ươm dưới hiên  Sau ngày 17 → khoảng ngày 21. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
 - **Trạng thái đầu:** Cây cà chua đã qua giai đoạn hai lá mầm; các cây trong hàng giữ vị trí cũ.
-- **Hành động:** Thân tăng nhẹ, giữa hai lá mầm xuất hiện lá thật đầu có mép răng cưa; cây lớn lệch nhịp tự nhiên.
+- **Hành động:** Timelapse từ sau đợt chồi khoai tới khoảng ngày 21: lá thật răng cưa mở giữa hai lá mầm.
 - **Kết quả cuối:** Khay có cây con với lá thật đầu, chưa thành cây trưởng thành hoặc ra hoa.
-- **Nối cảnh:** Sau công việc ngày 17, tiếp tục tiến thời gian; chăm ẩm được lược. Không nhảy sang trạng thái đủ lớn để thu hoạch.
-- **Âm thanh:** Âm hiên nhẹ, không tiếng mọc cây; không tăng tốc âm thao tác.
+- **Liên tục và điểm cắt:** Khóa hình học khay, cuối chưa phải cây sẵn ra luống. Sau đó nối S050.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D05; D06
 
-#### S079 — Lá thật đầu tiên trong ánh sáng sớm
+#### S050 — Cây thêm lá trước sang chậu
 
-**04:27–04:31 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:49.5–02:53.6 · 4.1 giây · Timelapse · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận ngang tầm cây, nét trên lá thật; máy cố định. Giữ một phía trục thao tác; thấy mép khay hoặc mép luống để đọc vị trí, không đảo hướng tay qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Khay ươm D06 Sáng khoảng ngày 21. Ánh sáng theo mốc ngày ghi riêng; timelapse đổi sáng tối, cảnh người và chăm cây dùng ánh sáng tự nhiên dịu.
-- **Nhân vật và dụng cụ:** Cây cà chua trong khay D06; không có người trong khung.
-- **Trạng thái đầu:** Một vài cây có lá thật đầu như cuối S078; vẫn nhận ra hai lá mầm thấp hơn.
-- **Hành động:** Lá thật rung rất nhẹ, một bóng lá nền trượt chậm qua hậu cảnh; không có tay trong khung.
-- **Kết quả cuối:** Cà chua có lá thật đầu; khoai ngoài vườn vẫn ở giai đoạn cây non. Chưa cấy cây hoặc gieo hai rau còn lại.
-- **Nối cảnh:** Kết C04 ở trạng thái cây con khoảng ba tuần, không quay lại ảnh chỉ có lá mầm.
-- **Âm thanh:** Lá nền và chim sáng; không nhạc hoặc lời thoại.
-- **Tham chiếu:** B05; P01; D05; D06
-
-## C05 — Sang chậu và cho cà chua quen dần với nắng
-
-**24 shot · 85 giây · 04:31–05:56.**
-
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
-|---|---|---:|---|---|
-| S080 | 04:31–04:34 | 3 | Trung khay, cùng góc cố định S078 | Các lá thật tiếp tục mở, cây tăng chiều cao vừa phải và có thêm lá, vị trí từng cây giữ nguyên. |
-| S081 | 04:34–04:38 | 4 | Toàn người, góc ươm và bàn cùng đọc được | Cô đỡ đáy khay bằng hai tay, nhấc khỏi thanh kê và bước ngắn về bàn. |
-| S082 | 04:38–04:41 | 3 | Trung chéo từ phía bàn, thấy khay cây và chậu | Cô kéo hai chậu gần về phía mình, dàn chỗ cho khay mang chậu gỗ mới cạnh bàn tay. |
-| S083 | 04:41–04:45 | 4 | Trung | Cô thêm thìa giá thể cuối, dùng đầu thìa mở hốc giữa chậu rồi chuyển thìa về phía cây đã chọn. |
-| S084 | 04:45–04:48 | 3 | Cận tay và gốc cây, có thành khay làm mốc | Cô luồn thìa gỗ xuống cạnh bầu, nhẹ nhàng nới phần giá thể quanh một cây; tay kia đỡ rất nhẹ ở một lá. |
-| S085 | 04:48–04:52 | 4 | Cận ngang thấp để thấy thìa đỡ bầu | Cô nâng thìa đỡ cả bầu khỏi khay, đưa cây theo đường ngắn về chậu bên cạnh. |
-| S086 | 04:52–04:56 | 4 | Trung | Cô hạ bầu vào hốc, trượt thìa ra rồi kéo ít đất mép vào giữ cây đứng. |
-| S087 | 04:56–05:00 | 4 | Trung | Cô ấn nhẹ vòng đất ngoài, đặt chậu lên khay mang rồi kéo chậu kế về phía mình. |
-| S088 | 05:00–05:03 | 3 | Toàn người và bàn làm việc | Cô đưa bầu cây thứ hai sang hốc chậu mới, hạ nhẹ và rút thìa. |
-| S089 | 05:03–05:07 | 4 | Trung hơi cao, thấy đủ sáu chậu | Cô kéo nốt giá thể quanh bầu thứ sáu rồi đặt chậu vào chỗ trống cuối trên khay mang. |
-| S090 | 05:07–05:10 | 3 | Trung bên bàn, thấy gáo và chậu đầu | Cô nghiêng gáo cho dòng nhỏ quanh mép trong chậu đầu, tránh thân cây rồi dựng gáo lại. |
-| S091 | 05:10–05:14 | 4 | Cận chậu tiếp theo, thấy mép gáo và mặt giá thể | Lượt nước mới rót sát mép chậu thứ hai, lan vào khoảng quanh bầu rồi dừng. |
-| S092 | 05:14–05:17 | 3 | Toàn | Qua điểm cắt lược các lượt giữa, cô tưới vòng mép chậu cuối rồi đặt gáo lại xô. |
-| S093 | 05:17–05:21 | 4 | Toàn người, bàn và lối ngắn trong hiên | Cô đỡ hai bên khay mang chậu, nâng ngang và bước ngắn về góc ươm. |
-| S094 | 05:21–05:24 | 3 | Trung chéo thấp, thấy mặt kê và khay mang | Cô hạ khay xuống mặt kê, buông sau khi khay được đỡ vững rồi chỉnh một chậu cho không chạm lá chậu bên. |
-| S095 | 05:24–05:28 | 4 | Trung sáu chậu, máy khóa góc S094 | Ánh sáng thay đổi qua vài ngày; lá điều chỉnh hướng nhẹ, ngọn tiếp tục phát triển chậm. |
-| S096 | 05:28–05:31 | 3 | Cận ngang tầm lá, tay ở ngoài thân | Cô xoay nhẹ chậu trên mặt kê bằng cách cầm thành chậu để nhìn phía ngọn, rồi buông. |
-| S097 | 05:31–05:35 | 4 | Trung | Cô nghiêng gáo cho ít nước quanh mép chậu, dựng gáo lại rồi nhìn sang vùng sáng mép hiên. |
-| S098 | 05:35–05:38 | 3 | Toàn hiên và vùng sáng gần mép | Cô mang khay tới vùng sáng hơn ở mép hiên, tránh luồng gió lùa, bước chậm để chậu đứng yên. |
-| S099 | 05:38–05:42 | 4 | Trung chéo bên, thấy bóng hiên và sáu chậu | Cô hạ khay vào vùng nắng sớm nhẹ, kiểm khoảng cách lá rồi rút tay. |
-| S100 | 05:42–05:45 | 3 | Toàn cùng góc hiên, ánh nắng đã dịch | Cô nâng khay bằng hai tay và mang trở vào phần hiên được che. |
-| S101 | 05:45–05:49 | 4 | Trung từ góc ươm nhìn ra | Cô hạ khay vào chỗ cũ, buông tay khi đã vững rồi quay một chậu hơi lệch cho lá có khoảng cách. |
-| S102 | 05:49–05:52 | 3 | Trung sáu chậu, góc cố định trong một vùng sáng an toàn | Trong các khoảng ban ngày được lấy mẫu cùng góc, ngọn cao thêm và các lá thật mở rộng; nắng dịch trên hậu cảnh. |
-| S103 | 05:52–05:56 | 4 | Toàn sáu chậu và cô trong không gian hiên | Cô ngồi xuống kiểm nhanh dọc hàng chậu, nhẹ chỉnh khoảng cách chậu cuối rồi nhìn về hướng vườn. |
-
-### Mô tả chi tiết
-
-#### S080 — Cây con thêm lá thật
-
-**04:31–04:34 · 3 giây · Máy cố định · Timelapse · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung khay, cùng góc cố định S078; máy cố định. Chọn cùng phía trục thao tác, nhận ra chậu đầu và khay cây; cận vẫn thấy mép vật đỡ, không đảo hướng tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Góc ươm dưới hiên Khoảng ngày 21 → 28. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Chỉ cây và khay/chậu, không có người trong khung.
-- **Trạng thái đầu:** Khay có cây con với lá thật đầu như S079.
-- **Hành động:** Các lá thật tiếp tục mở, cây tăng chiều cao vừa phải và có thêm lá, vị trí từng cây giữ nguyên.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Góc ươm dưới hiên  Khoảng ngày 21 → 28. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
+- **Trạng thái đầu:** Khay có cây con với lá thật đầu như cảnh liên quan.
+- **Hành động:** Timelapse từ khoảng ngày 21 tới 28, cây có thêm lá thật và thân tăng vừa phải.
 - **Kết quả cuối:** Cây đạt vài lá thật, vẫn chưa ra hoa hoặc thành bụi lớn.
-- **Nối cảnh:** Nối tuổi cây S079, không quay về giai đoạn hạt. Nén nhiều ngày, chăm ẩm được lược ngoài khung.
-- **Âm thanh:** Âm hiên và chim theo ngày; không tăng tốc âm gốc.
+- **Liên tục và điểm cắt:** Không lặp giai đoạn lá thật đầu; lược khung tĩnh không đổi trạng thái ở giữa. Sau đó nối S051.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
 
-#### S081 — Mang khay về bàn sang chậu
+## C05 — Sang chậu, chăm cây và quen nắng
 
-**04:34–04:38 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn người, góc ươm và bàn cùng đọc được; máy cố định. Giữ quan hệ bàn–góc ươm–mép hiên có thật; đủ thấy đường mang khay và vị trí kê.
-- **Địa điểm, thời gian và ánh sáng:** Góc ươm và bàn gieo dưới hiên Sáng khoảng ngày 28. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Khay D06 ở thanh kê; trên bàn đã có chậu nhỏ và bộ sang chậu sạch.
-- **Hành động:** Cô đỡ đáy khay bằng hai tay, nhấc khỏi thanh kê và bước ngắn về bàn.
-- **Kết quả cuối:** Khay được mang ngang, cây không đổ; cô tới cạnh bàn.
-- **Nối cảnh:** Không kéo cây hoặc cầm thành yếu của khay. Bàn là bàn gieo cũ, không xuất hiện phòng mới.
-- **Âm thanh:** Gỗ rời điểm kê, bước chân nhẹ.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S082 — Bày sáu chậu đất nung
-
-**04:38–04:41 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung chéo từ phía bàn, thấy khay cây và chậu; máy cố định. Chọn cùng phía trục thao tác, nhận ra chậu đầu và khay cây; cận vẫn thấy mép vật đỡ, không đảo hướng tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Bàn gieo dưới hiên Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Qua điểm cắt, cô đã đặt khay lên bàn. Sáu chậu đất nung sạch có lỗ thoát nước, thau giá thể ẩm và thìa gỗ nhỏ có sẵn bên cạnh.
-- **Hành động:** Cô kéo hai chậu gần về phía mình, dàn chỗ cho khay mang chậu gỗ mới cạnh bàn tay.
-- **Kết quả cuối:** Sáu chậu nằm trong vùng làm việc; khay cây ở một bên, không chồng lên cây.
-- **Nối cảnh:** Lược hạ khay tại điểm cắt. Chậu và khay mang chậu khác khay ươm D06, khác khay khoai D01.
-- **Âm thanh:** Chậu đất nung chạm gỗ nhẹ.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S083 — Chuẩn bị chậu đón cây
-
-**04:41–04:45 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Cùng bàn gieo Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Chậu đầu đã có phần giá thể ẩm qua các lượt xúc được lược; khay cây ở sát bên.
-- **Hành động:** Cô thêm thìa giá thể cuối, dùng đầu thìa mở hốc giữa chậu rồi chuyển thìa về phía cây đã chọn.
-- **Kết quả cuối:** Chậu có hốc sẵn; cô bắt đầu lấy cây, không đào hốc lại.
-- **Nối cảnh:** Nối S082 → S083 → S084. Chậu đầu đã có phần giá thể ẩm qua các lượt xúc được lược; khay cây ở sát bên. Cảnh này tạo kết quả mới: Chậu có hốc sẵn; cô bắt đầu lấy cây, không đào hốc lại. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Giá thể rơi, thìa gỗ chạm thành chậu nhẹ.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S084 — Lách thìa dưới bầu rễ
-
-**04:45–04:48 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận tay và gốc cây, có thành khay làm mốc; máy cố định. Chọn cùng phía trục thao tác, nhận ra chậu đầu và khay cây; cận vẫn thấy mép vật đỡ, không đảo hướng tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Khay ươm trên bàn Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Cây được chọn có vài lá thật; giá thể quanh rễ còn ẩm, chưa bị nhấc.
-- **Hành động:** Cô luồn thìa gỗ xuống cạnh bầu, nhẹ nhàng nới phần giá thể quanh một cây; tay kia đỡ rất nhẹ ở một lá.
-- **Kết quả cuối:** Bầu đã được nới nhưng vẫn nằm trong khay; thân không bị kéo hoặc bóp.
-- **Nối cảnh:** Chọn cây có khoảng trống xung quanh, không giật cây ra khỏi cụm rễ đan dày. Không nhổ bằng thân.
-- **Âm thanh:** Thìa và giá thể ẩm, âm hiên.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S085 — Nâng cây cùng bầu đất
-
-**04:48–04:52 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận ngang thấp để thấy thìa đỡ bầu; máy cố định. Chọn cùng phía trục thao tác, nhận ra chậu đầu và khay cây; cận vẫn thấy mép vật đỡ, không đảo hướng tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Giữa khay ươm và chậu đã tạo hốc Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Thìa đã ở dưới bầu, tay còn lại chỉ giữ nhẹ một lá để ổn định.
-- **Hành động:** Cô nâng thìa đỡ cả bầu khỏi khay, đưa cây theo đường ngắn về chậu bên cạnh.
-- **Kết quả cuối:** Bầu rễ giữ phần lớn giá thể, cây không treo bằng thân; bầu đang tới miệng chậu.
-- **Nối cảnh:** Tiếp phần nới S084, không lặp luồn thìa. Một ít đất vụn rơi được phép, không làm bung sạch rễ.
-- **Âm thanh:** Ít đất vụn rơi, thìa chuyển nhẹ.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S086 — Đặt bầu rồi lấp quanh cây
-
-**04:52–04:56 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Cùng bàn gieo Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Bầu đang được thìa đỡ trên miệng hốc, tay còn lại sẵn bên thành chậu.
-- **Hành động:** Cô hạ bầu vào hốc, trượt thìa ra rồi kéo ít đất mép vào giữ cây đứng.
-- **Kết quả cuối:** Bầu đã vào chậu và được đất đỡ; còn cần làm gọn vòng ngoài.
-- **Nối cảnh:** Nối S085 → S086 → S087. Bầu đang được thìa đỡ trên miệng hốc, tay còn lại sẵn bên thành chậu. Cảnh này tạo kết quả mới: Bầu đã vào chậu và được đất đỡ; còn cần làm gọn vòng ngoài. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Thìa rút khỏi đất, chậu chạm tay.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S087 — Hoàn tất chậu đầu rồi làm tiếp
-
-**04:56–05:00 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Cùng bàn gieo Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Cây đứng trong chậu, khe quanh bầu đã được lấp.
-- **Hành động:** Cô ấn nhẹ vòng đất ngoài, đặt chậu lên khay mang rồi kéo chậu kế về phía mình.
-- **Kết quả cuối:** Chậu đầu hoàn tất, công việc chuyển sang cây thứ hai.
-- **Nối cảnh:** Nối S086 → S087 → S088. Cây đứng trong chậu, khe quanh bầu đã được lấp. Cảnh này tạo kết quả mới: Chậu đầu hoàn tất, công việc chuyển sang cây thứ hai. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Đầu ngón tay, đáy chậu đặt lên gỗ.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S088 — Tiếp tục với cây thứ hai
-
-**05:00–05:03 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn người và bàn làm việc; máy cố định. Giữ quan hệ bàn–góc ươm–mép hiên có thật; đủ thấy đường mang khay và vị trí kê.
-- **Địa điểm, thời gian và ánh sáng:** Cùng bàn gieo Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Qua điểm cắt, chậu thứ hai đã có hốc; cây thứ hai đã được thìa đỡ ở sát khay.
-- **Hành động:** Cô đưa bầu cây thứ hai sang hốc chậu mới, hạ nhẹ và rút thìa.
-- **Kết quả cuối:** Chậu thứ hai nhận cây; chậu thứ nhất vẫn ở khay mang.
-- **Nối cảnh:** Lược phần làm hốc/nới bầu lặp lại. Đây là cây khác, không phát lại lần sang chậu đầu.
-- **Âm thanh:** Thìa, giá thể, vải áo nhẹ.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S089 — Sáu cây đã sang chậu
-
-**05:03–05:07 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung hơi cao, thấy đủ sáu chậu; máy cố định. Chọn cùng phía trục thao tác, nhận ra chậu đầu và khay cây; cận vẫn thấy mép vật đỡ, không đảo hướng tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng bàn gieo Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Sau phần lặp được lược, năm chậu đã hoàn thành; cây thứ sáu vừa được lấp bầu. Trong khay ươm vẫn còn cây dự phòng.
-- **Hành động:** Cô kéo nốt giá thể quanh bầu thứ sáu rồi đặt chậu vào chỗ trống cuối trên khay mang.
-- **Kết quả cuối:** Sáu chậu mỗi chậu một cây; khay ươm không tự rỗng hoặc biến mất.
-- **Nối cảnh:** Không tăng tốc người để làm hết sáu chậu trong ba giây. Cây dự phòng vẫn được chăm ngoài phần dựng và chưa đưa ra luống.
-- **Âm thanh:** Chậu thứ sáu đặt lên gỗ, giá thể vụn.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S090 — Tưới chậu đầu sau khi chuyển
-
-**05:07–05:10 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung bên bàn, thấy gáo và chậu đầu; máy cố định. Chọn cùng phía trục thao tác, nhận ra chậu đầu và khay cây; cận vẫn thấy mép vật đỡ, không đảo hướng tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng bàn gieo Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Xô gỗ đã có nước mới lấy từ vòi trước buổi làm, ở cạnh bàn. Qua điểm cắt cô đã múc gáo; sáu chậu trên khay mang có các khe đáy để thoát nước.
-- **Hành động:** Cô nghiêng gáo cho dòng nhỏ quanh mép trong chậu đầu, tránh thân cây rồi dựng gáo lại.
-- **Kết quả cuối:** Giá thể chậu đầu sẫm đều, không ngập tới lá hoặc tràn miệng.
-- **Nối cảnh:** Lược lần múc; giữ đúng gáo/xô D05. Khay mang có khe, không phải khay kín chứa nước đọng.
-- **Âm thanh:** Nước rót nhỏ vào chậu, chim xa.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S091 — Nước thấm quanh bầu
-
-**05:10–05:14 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận chậu tiếp theo, thấy mép gáo và mặt giá thể; máy cố định. Chọn cùng phía trục thao tác, nhận ra chậu đầu và khay cây; cận vẫn thấy mép vật đỡ, không đảo hướng tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng bàn gieo Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Cô đã chuyển sang chậu thứ hai; các chậu sau còn mặt nhạt hơn.
-- **Hành động:** Lượt nước mới rót sát mép chậu thứ hai, lan vào khoảng quanh bầu rồi dừng.
-- **Kết quả cuối:** Chậu thứ hai đủ ẩm; cây đứng yên, lá không bị quật.
-- **Nối cảnh:** Không rót lại chậu đầu ở góc mới. Phần tưới bốn chậu còn lại được lược trước cảnh tiếp.
-- **Âm thanh:** Nước nhỏ, giọt thoát đáy nếu thấy trong khung.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S092 — Tưới tiếp các chậu vừa sang
-
-**05:14–05:17 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Góc ươm B05. Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
-- **Trạng thái đầu:** Hai chậu đầu đã tưới; bốn chậu sau còn chờ trên khay.
-- **Hành động:** Qua điểm cắt lược các lượt giữa, cô tưới vòng mép chậu cuối rồi đặt gáo lại xô.
-- **Kết quả cuối:** Sáu chậu đều được tưới; khay mang sẵn để chuyển về góc ươm.
-- **Nối cảnh:** Nối S091 → S092 → S093. Hai chậu đầu đã tưới; bốn chậu sau còn chờ trên khay. Cảnh này tạo kết quả mới: Sáu chậu đều được tưới; khay mang sẵn để chuyển về góc ươm. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
-- **Tham chiếu:** B05; P01; D05; D09; D10
-
-#### S093 — Mang các chậu về góc ươm
-
-**05:17–05:21 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn người, bàn và lối ngắn trong hiên; máy cố định. Giữ quan hệ bàn–góc ươm–mép hiên có thật; đủ thấy đường mang khay và vị trí kê.
-- **Địa điểm, thời gian và ánh sáng:** Từ bàn đến chỗ ươm dưới hiên Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Sáu chậu đã được tưới, nước thừa đã thoát qua khe; gáo đã về xô sau phần được lược.
-- **Hành động:** Cô đỡ hai bên khay mang chậu, nâng ngang và bước ngắn về góc ươm.
-- **Kết quả cuối:** Sáu chậu cùng được mang, không xếp chồng; khay cây dự phòng còn ở bàn trong chỗ sáng dịu.
-- **Nối cảnh:** Khay mang mới D10 đủ đỡ sáu chậu; không dùng lại khay ươm D06 hoặc giỏ khoai D01.
-- **Âm thanh:** Khay gỗ nhấc, bước chân, chậu chạm rất nhẹ.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S094 — Đặt chậu ở chỗ sáng dịu
-
-**05:21–05:24 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung chéo thấp, thấy mặt kê và khay mang; máy cố định. Chọn cùng phía trục thao tác, nhận ra chậu đầu và khay cây; cận vẫn thấy mép vật đỡ, không đảo hướng tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Góc ươm dưới hiên Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Khay mang còn ở hai tay, vị trí kê khô có sẵn gần chỗ khay gieo trước đây.
-- **Hành động:** Cô hạ khay xuống mặt kê, buông sau khi khay được đỡ vững rồi chỉnh một chậu cho không chạm lá chậu bên.
-- **Kết quả cuối:** Sáu cây ở chỗ kín gió, sáng dịu; lá có khoảng trống, đáy không ngập nước.
-- **Nối cảnh:** Không đặt trên chính hai thanh kê quá hẹp nếu không đủ đỡ; chọn mặt kê có thật đủ rộng trong bộ bối cảnh.
-- **Âm thanh:** Gỗ chạm kê, chậu xê nhẹ.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S095 — Cây ổn định sau chuyển chậu
-
-**05:24–05:28 · 4 giây · Máy cố định · Timelapse · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung sáu chậu, máy khóa góc S094; máy cố định. Chọn cùng phía trục thao tác, nhận ra chậu đầu và khay cây; cận vẫn thấy mép vật đỡ, không đảo hướng tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Góc ươm dưới hiên Khoảng ngày 28 → 31. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Chỉ cây và khay/chậu, không có người trong khung.
-- **Trạng thái đầu:** Sáu cây vừa sang chậu, chưa mô tả héo rũ hoặc tổn thương.
-- **Hành động:** Ánh sáng thay đổi qua vài ngày; lá điều chỉnh hướng nhẹ, ngọn tiếp tục phát triển chậm.
-- **Kết quả cuối:** Cây đã ổn định, vẫn ở đúng sáu chậu; chưa cao vọt hoặc xuất hiện hoa.
-- **Nối cảnh:** Nén thời gian phục hồi, chăm ẩm được lược; không dựng một sự cố héo rồi cứu cây.
-- **Âm thanh:** Âm hiên theo ngày, không tiếng mọc cây.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S096 — Kiểm tra ngọn mới
-
-**05:28–05:31 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận ngang tầm lá, tay ở ngoài thân; máy cố định. Chọn cùng phía trục thao tác, nhận ra chậu đầu và khay cây; cận vẫn thấy mép vật đỡ, không đảo hướng tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Góc ươm dưới hiên Sáng khoảng ngày 31. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Sáu cây đã ổn định; một cây có ngọn và lá non mới rõ.
-- **Hành động:** Cô xoay nhẹ chậu trên mặt kê bằng cách cầm thành chậu để nhìn phía ngọn, rồi buông.
-- **Kết quả cuối:** Thấy ngọn khỏe; cây không bị cầm hoặc xoay bằng thân.
-- **Nối cảnh:** Cây vẫn trong chậu ở vị trí, không nhổ để xem rễ. Chỉ xoay ít để kiểm, không tạo dáng nhìn máy.
-- **Âm thanh:** Đất nung trượt nhẹ trên gỗ, lá ngoài hiên.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S097 — Chăm chậu trước đợt quen nắng
-
-**05:31–05:35 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Góc ươm B05. Sáng khoảng ngày 31. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
-- **Trạng thái đầu:** Sau kiểm ngọn mới, cô thấy mặt giá thể một chậu đã se, cây đứng khỏe.
-- **Hành động:** Cô nghiêng gáo cho ít nước quanh mép chậu, dựng gáo lại rồi nhìn sang vùng sáng mép hiên.
-- **Kết quả cuối:** Giá thể đủ ẩm trước khi chuyển khay ra sáng; không tưới xối ngọn.
-- **Nối cảnh:** Nối S096 → S097 → S098. Sau kiểm ngọn mới, cô thấy mặt giá thể một chậu đã se, cây đứng khỏe. Cảnh này tạo kết quả mới: Giá thể đủ ẩm trước khi chuyển khay ra sáng; không tưới xối ngọn. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
-- **Tham chiếu:** B05; P01; D05; D09; D10
-
-#### S098 — Đưa cây tới mép hiên sáng hơn
-
-**05:35–05:38 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn hiên và vùng sáng gần mép; máy cố định. Giữ quan hệ bàn–góc ươm–mép hiên có thật; đủ thấy đường mang khay và vị trí kê.
-- **Địa điểm, thời gian và ánh sáng:** Từ góc ươm tới mép hiên kín gió Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Cây đã ổn định; cô đã đỡ khay mang bằng hai tay sau điểm cắt.
-- **Hành động:** Cô mang khay tới vùng sáng hơn ở mép hiên, tránh luồng gió lùa, bước chậm để chậu đứng yên.
-- **Kết quả cuối:** Khay tới chỗ làm quen với ánh sáng ngoài trời; chưa đặt giữa nắng trưa.
-- **Nối cảnh:** Bắt đầu cho cây quen nắng từng đợt, chưa trồng ra luống. Góc hiên sáng có thật, không thêm sân phụ.
-- **Âm thanh:** Bước chân và khay gỗ.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S099 — Đặt chậu trong nắng sớm nhẹ
-
-**05:38–05:42 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung chéo bên, thấy bóng hiên và sáu chậu; máy cố định. Chọn cùng phía trục thao tác, nhận ra chậu đầu và khay cây; cận vẫn thấy mép vật đỡ, không đảo hướng tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Mép hiên có nắng sớm dịu Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Khay còn được cô đỡ, mặt kê ở vùng sáng hơn đã có sẵn.
-- **Hành động:** Cô hạ khay vào vùng nắng sớm nhẹ, kiểm khoảng cách lá rồi rút tay.
-- **Kết quả cuối:** Cây nhận đợt sáng ngoài trời ngắn đầu tiên; lá chưa héo hoặc cháy.
-- **Nối cảnh:** Tiếp S098. Đây là buổi sáng dịu, không phơi ngay cả ngày dưới nắng gắt.
-- **Âm thanh:** Khay đặt, áo chuyển nhẹ, chim sân.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S100 — Đưa chậu về sau đợt nắng đầu
-
-**05:42–05:45 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn cùng góc hiên, ánh nắng đã dịch; máy cố định. Giữ quan hệ bàn–góc ươm–mép hiên có thật; đủ thấy đường mang khay và vị trí kê.
-- **Địa điểm, thời gian và ánh sáng:** Mép hiên về góc được che Cuối đợt làm quen sáng, cùng ngày. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Đã lược khoảng thời gian ngoài trời ngắn; sáu chậu vẫn cùng chỗ, bóng mái đã đổi vị trí.
-- **Hành động:** Cô nâng khay bằng hai tay và mang trở vào phần hiên được che.
-- **Kết quả cuối:** Cây rời vùng nắng sau đợt làm quen, vẫn đứng trong chậu.
-- **Nối cảnh:** Lược khoảng chờ bằng điểm cắt, không tạo cảm giác vừa đặt xuống đã bê lại ngay. Không đổi sang chiều hoặc ngày khác không báo.
-- **Âm thanh:** Bước chân, khay và gió sân.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S101 — Trả cây về vị trí kín gió
-
-**05:45–05:49 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung từ góc ươm nhìn ra; máy cố định. Chọn cùng phía trục thao tác, nhận ra chậu đầu và khay cây; cận vẫn thấy mép vật đỡ, không đảo hướng tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Góc ươm dưới hiên Cùng ngày, sau đợt nắng đầu. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Cô đang mang khay về chỗ kê cũ.
-- **Hành động:** Cô hạ khay vào chỗ cũ, buông tay khi đã vững rồi quay một chậu hơi lệch cho lá có khoảng cách.
-- **Kết quả cuối:** Sáu chậu trở lại góc kín gió; khay cây dự phòng vẫn ở góc bàn sáng dịu.
-- **Nối cảnh:** Nối lần mang về S100; không tự đổi số chậu hoặc cây.
-- **Âm thanh:** Gỗ kê, chậu chuyển rất nhẹ.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S102 — Cây lớn qua những ngày làm quen
-
-**05:49–05:52 · 3 giây · Máy cố định · Timelapse · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung sáu chậu, góc cố định trong một vùng sáng an toàn; máy cố định. Chọn cùng phía trục thao tác, nhận ra chậu đầu và khay cây; cận vẫn thấy mép vật đỡ, không đảo hướng tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Vùng hiên dùng cho làm quen ánh sáng Khoảng ngày 32 → 44. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Chỉ cây và khay/chậu, không có người trong khung.
-- **Trạng thái đầu:** Cây đã trải qua đợt làm quen đầu; các đợt đưa ra/vào sau được lược, không chỉ phơi một lần.
-- **Hành động:** Trong các khoảng ban ngày được lấy mẫu cùng góc, ngọn cao thêm và các lá thật mở rộng; nắng dịch trên hậu cảnh.
-- **Kết quả cuối:** Sáu cây có thêm vài lá thật, thân cứng hơn, chưa có hoa hoặc quả.
-- **Nối cảnh:** Timelapse ghi các đợt ban ngày cùng vị trí, không hàm ý chậu ở ngoài suốt đêm. Việc tăng dần thời gian tiếp xúc diễn ra ngoài phần dựng, không biến thành người chạy nhanh hoặc chậu tự trượt.
-- **Âm thanh:** Âm hiên và gió nhẹ; không tua nhanh âm người.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-#### S103 — Sáu cây sẵn cho bước trồng ra vườn
-
-**05:52–05:56 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn sáu chậu và cô trong không gian hiên; máy cố định. Giữ quan hệ bàn–góc ươm–mép hiên có thật; đủ thấy đường mang khay và vị trí kê.
-- **Địa điểm, thời gian và ánh sáng:** Góc hiên làm quen ánh sáng Sáng khoảng ngày 44. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
-- **Nhân vật và dụng cụ:** Cô gái P01; khay ươm D06, sáu chậu đất nung D09, khay mang D10, thìa gỗ D11 và xô/gáo D05 theo thao tác.
-- **Trạng thái đầu:** Sáu cây đang ở chậu riêng, đã quen dần điều kiện ngoài trời; có vài lá thật phát triển.
-- **Hành động:** Cô ngồi xuống kiểm nhanh dọc hàng chậu, nhẹ chỉnh khoảng cách chậu cuối rồi nhìn về hướng vườn.
-- **Kết quả cuối:** Sáu cây vẫn trong chậu, chuẩn bị cho bước tiếp theo; chưa đào hố hoặc mang ra trồng.
-- **Nối cảnh:** Kết C05. Khoai ngoài khung cũng đã tiến tới cùng ngày, không giữ mãi hình cây ba tuần; mức phát triển sẽ gắn ở lần xuất hiện kế tiếp.
-- **Âm thanh:** Chậu đặt nhẹ, lá và chim sáng; không thoại, nhạc.
-- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
-
-## C06 — Trồng sáu cây cà chua ra luống và cắm cọc tre
-
-**23 shot · 81 giây · 05:56–07:17.**
-
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
 |---|---|---:|---|---|
-| S104 | 05:56–05:59 | 3 | Toàn vườn, cùng mốc nhà–luống đã xác lập | Bóng mái đã dài hơn, lá nền lay nhẹ; thấy hàng khoai đã lớn thêm và luống dành cho cà chua còn trống. |
-| S105 | 05:59–06:03 | 4 | Trung chéo bên, thấy cô, cuốc và đất | Cô kéo cuốc qua lớp mặt còn thô, bước dịch theo luống và gạt đất tơi sang vị trí cần làm. |
-| S106 | 06:03–06:06 | 3 | Cận thấp, lưỡi cuốc và phần đất mới | Cô kéo một nhịp cuốc ở dải kế, đất vụn rời lưỡi rơi xuống mặt luống. |
-| S107 | 06:06–06:10 | 4 | Toàn cô và toàn đoạn luống đủ sáu cây | Cô xúc nốt đất ra khỏi hố cuối, đặt đất bên mép rồi hạ xẻng xuống lối. |
-| S108 | 06:10–06:14 | 4 | Toàn | Ở đoạn cuối lối đi, cô mang khay tới cạnh luống rồi hạ xuống chỗ khô. |
-| S109 | 06:14–06:18 | 4 | Trung toàn thân, thấy hố và bó cọc | Cô lấy một cọc, đặt chân cọc lệch bên hố đầu rồi ấn và xoay nhẹ cho cọc đứng ban đầu. |
-| S110 | 06:18–06:21 | 3 | Cận phần tay, vồ và đầu cọc, đủ đọc trục cọc | Cô giữ cọc, gõ vài nhịp vồ vừa sức lên đầu rồi ngừng để kiểm độ đứng. |
-| S111 | 06:21–06:24 | 3 | Trung từ lối nhìn vào, thấy hàng cọc và khay chậu | Cô lấy chậu đầu, nghiêng nhẹ và gõ quanh thành bằng lòng tay để bầu tách khỏi thành chậu. |
-| S112 | 06:24–06:27 | 3 | Cận tay, miệng chậu và bầu rễ | Cô trượt chậu ra khỏi bầu bằng chuyển động nhẹ, giữ bầu nguyên trên lòng tay đỡ. |
-| S113 | 06:27–06:31 | 4 | Toàn người ngồi ở lối, hố đầu và cọc rõ | Cô đưa bầu qua mép hố, hạ xuống giữa hố và chỉnh rất nhẹ để cây đứng thẳng. |
-| S114 | 06:31–06:34 | 3 | Trung chéo bên, thấy tay và gốc | Cô kéo đất tơi từ mép hố vào quanh bầu, hai tay thay nhau lấp cho đầy khe. |
-| S115 | 06:34–06:38 | 4 | Cận đầu ngón tay, đất và thân thấp | Cô ấn nhẹ vòng ngoài bầu để ổn định cây rồi vuốt mép thành hõm tưới nông. |
-| S116 | 06:38–06:41 | 3 | Toàn người, hai hố đầu và các chậu còn lại | Cô hạ bầu thứ hai xuống hố kế, trượt tay ra rồi kéo đất mép vào. |
-| S117 | 06:41–06:45 | 4 | Trung dọc hàng, đọc đủ sáu cây và cọc | Cô vun khép mép hõm tưới cho cây cuối rồi rút tay, nhìn dọc hàng kiểm độ đứng. |
-| S118 | 06:45–06:48 | 3 | Trung tay và một cây đầu hàng | Cô vòng một đầu dây mềm quanh cọc ở độ cao thân cây cần đỡ, đưa đầu kia về phía thân. |
-| S119 | 06:48–06:52 | 4 | Cận | Cô bắt chéo hai vòng thành số tám lỏng rồi thắt nút ở phía cọc, giữ thân không bị siết. |
-| S120 | 06:52–06:56 | 4 | Toàn | Cô xách xô từ lối gần vườn tới hàng cà chua rồi hạ xuống cạnh cây đầu. |
-| S121 | 06:56–07:00 | 4 | Trung thấy xô, tay và gốc đầu hàng | Cô nhúng gáo múc một lượng vừa, nâng lên và hướng về hõm quanh cây đầu. |
-| S122 | 07:00–07:03 | 3 | Cận nghiêng, miệng gáo và vùng rễ rõ | Cô nghiêng gáo rót chậm vào hõm vòng ngoài bầu, cho nước lan quanh vùng rễ rồi dựng gáo. |
-| S123 | 07:03–07:07 | 4 | Toàn dọc luống, cô ở cây cuối | Cô rót lượt cuối quanh bầu thứ sáu rồi đưa gáo về phía xô trên lối. |
-| S124 | 07:07–07:10 | 3 | Cận ngang gốc và dây đỡ, một phần lá rõ | Giọt cuối thấm vào đất, lá cây khẽ rung; thân vẫn đứng, dây không cắt vào vỏ. |
-| S125 | 07:10–07:14 | 4 | Toàn | Cô đặt gáo vào xô, dùng tay gạt chút đất rời khép mép hõm cây cuối rồi đứng dậy. |
-| S126 | 07:14–07:17 | 3 | Toàn | Cô nhìn dọc hàng cây, cúi nhấc khay chậu rỗng rồi xoay về hướng hiên. |
+| S051 | 02:53.6–02:57.6 | 4.0 | Trung | Ở đoạn cuối bước tới bàn, cô hạ khay cây cạnh sáu chậu, kéo chậu đầu về chỗ làm. |
+| S052 | 02:57.6–03:00.6 | 3.0 | Cận | Sau các lượt xúc giá thể được lược, cô thêm thìa cuối và mở hốc ở giữa chậu. |
+| S053 | 03:00.6–03:04.9 | 4.3 | Cận | Cô lách thìa dưới bầu, tay kia giữ nhẹ một lá; nâng bầu còn đất tới miệng chậu bên cạnh. |
+| S054 | 03:04.9–03:09.6 | 4.7 | Cận | Cô hạ bầu vào hốc, trượt thìa ra, kéo đất quanh bầu rồi ấn nhẹ vòng ngoài. |
+| S055 | 03:09.6–03:11.8 | 2.2 | Toàn | Sau phần công việc lặp, cô đặt chậu thứ sáu lên khay; khay gieo vẫn còn cây dự phòng. |
+| S056 | 03:11.8–03:15.3 | 3.5 | Cận | Cô rót ít nước quanh mép chậu đầu; mặt giá thể sẫm dần, dòng dừng trong cùng khung. |
+| S057 | 03:15.3–03:17.2 | 1.9 | Toàn | Sau lượt tưới các chậu giữa được lược, cô tưới chậu cuối rồi trả gáo về xô. |
+| S058 | 03:17.2–03:22.0 | 4.8 | Trung | Cô nâng khay sáu chậu, đi quãng ngắn rồi hạ vững lên mặt kê gần bàn. |
+| S059 | 03:22.0–03:26.0 | 4.0 | Cận | Timelapse qua vài ngày, lá điều chỉnh nhẹ và ngọn tiếp tục phát triển. |
+| S060 | 03:26.0–03:29.8 | 3.8 | Cận | Cô xoay nhẹ một chậu để xem ngọn, thấy mặt giá thể se rồi rót chút nước sát mép. |
+| S061 | 03:29.8–03:33.9 | 4.1 | Toàn | Ở đoạn cuối quãng đi, cô hạ khay tại mép hiên có nắng nhẹ; khoảng cách lá giữ thoáng. |
+| S062 | 03:33.9–03:37.3 | 3.4 | Trung | Sau một đợt nắng ngắn, cô mang khay trở vào hiên và hạ xuống vị trí kê cũ. |
+| S063 | 03:37.3–03:41.8 | 4.5 | Toàn | Timelapse các khoảng ban ngày từ khoảng ngày 32 tới 44; cây lớn thêm, khay được lấy mẫu cùng góc, các lượt mang ra/vào lược. |
+| S064 | 03:41.8–03:43.8 | 2.0 | Cận | Cô chỉnh khoảng cách chậu cuối, ngón tay rời mép; tán lá thật khỏe và thân cứng hơn. |
 
 ### Mô tả chi tiết
 
-#### S104 — Buổi chiều trên khu vườn
+#### S051 — Bày cây và chậu ở bàn
 
-**05:56–05:59 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**02:53.6–02:57.6 · 4.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn vườn, cùng mốc nhà–luống đã xác lập; máy cố định. Giữ quan hệ hiên–lối–luống đã có; mọi vị trí trồng, cây và cọc được khóa qua góc sau.
-- **Địa điểm, thời gian và ánh sáng:** Khu vườn trước nhà Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Không có người trong khung; khu vườn, khoai đã lớn thêm, luống cà chua còn trống.
-- **Trạng thái đầu:** Cuối C05 là sáng khoảng ngày 44; cà chua còn trong sáu chậu ở hiên.
-- **Hành động:** Bóng mái đã dài hơn, lá nền lay nhẹ; thấy hàng khoai đã lớn thêm và luống dành cho cà chua còn trống.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Góc ươm và bàn gieo dưới hiên  Sáng khoảng ngày 28. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D11 Thìa gỗ nhỏ sang cây.
+- **Trạng thái đầu:** Khay D06 ở thanh kê; trên bàn đã có chậu nhỏ và bộ sang chậu sạch.
+- **Hành động:** Ở đoạn cuối bước tới bàn, cô hạ khay cây cạnh sáu chậu, kéo chậu đầu về chỗ làm.
+- **Kết quả cuối:** Sáu chậu nằm trong vùng làm việc; khay cây ở một bên, không chồng lên cây.
+- **Liên tục và điểm cắt:** Khung đọc sáu chậu và khay mang riêng, chưa có cây tự ở chậu. Sau đó nối S052.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
+
+#### S052 — Mở hốc trong chậu đầu
+
+**02:57.6–03:00.6 · 3.0 giây · Tự nhiên · Chờ duyệt**
+
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng bàn gieo  Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D11 Thìa gỗ nhỏ sang cây.
+- **Trạng thái đầu:** Chậu đầu đã có phần giá thể ẩm qua các lượt xúc được lược; khay cây ở sát bên.
+- **Hành động:** Sau các lượt xúc giá thể được lược, cô thêm thìa cuối và mở hốc ở giữa chậu.
+- **Kết quả cuối:** Chậu có hốc sẵn; cô bắt đầu lấy cây, không đào hốc lại.
+- **Liên tục và điểm cắt:** Ra ở vị trí nhận bầu đã rõ. Sau đó nối S053.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
+
+#### S053 — Nới và nâng bầu cây
+
+**03:00.6–03:04.9 · 4.3 giây · Tự nhiên · Chờ duyệt**
+
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Khay ươm trên bàn  Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D11 Thìa gỗ nhỏ sang cây.
+- **Trạng thái đầu:** Cây con khoảng ngày 28 còn trong khay, chậu đầu đã có hốc ẩm sát cạnh; thìa sạch và tay cô sẵn ở bầu.
+- **Hành động:** Cô lách thìa dưới bầu, tay kia giữ nhẹ một lá; nâng bầu còn đất tới miệng chậu bên cạnh.
+- **Kết quả cuối:** Bầu rễ giữ phần lớn giá thể, cây không treo bằng thân; bầu đang tới miệng chậu.
+- **Liên tục và điểm cắt:** Ra ở bầu đang được đỡ trên thìa; cảnh sau nhận bầu, không lấy lại từ khay. Sau đó nối S054.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
+
+#### S054 — Đặt cây, lấp đất và đổi chậu
+
+**03:04.9–03:09.6 · 4.7 giây · Tự nhiên · Chờ duyệt**
+
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng bàn gieo  Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D11 Thìa gỗ nhỏ sang cây.
+- **Trạng thái đầu:** Bầu đang được thìa đỡ trên miệng hốc, tay còn lại sẵn bên thành chậu.
+- **Hành động:** Cô hạ bầu vào hốc, trượt thìa ra, kéo đất quanh bầu rồi ấn nhẹ vòng ngoài.
+- **Kết quả cuối:** Cây đầu đã đứng trong chậu, đất khép quanh bầu; chưa phải cả sáu cây đã trồng xong.
+- **Liên tục và điểm cắt:** Ra khi cây đứng được, lược việc đổi chậu và các cây giữa. Sau đó nối S055.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
+
+#### S055 — Sáu cây đã sang chậu
+
+**03:09.6–03:11.8 · 2.2 giây · Tự nhiên · Chờ duyệt**
+
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng bàn gieo  Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D11 Thìa gỗ nhỏ sang cây.
+- **Trạng thái đầu:** Sau phần lặp được lược, năm chậu đã hoàn thành; cây thứ sáu vừa được lấp bầu. Trong khay ươm vẫn còn cây dự phòng.
+- **Hành động:** Sau phần công việc lặp, cô đặt chậu thứ sáu lên khay; khay gieo vẫn còn cây dự phòng.
+- **Kết quả cuối:** Sáu chậu mỗi chậu một cây; khay ươm không tự rỗng hoặc biến mất.
+- **Liên tục và điểm cắt:** Đọc kết quả sáu cây, không thêm cây thứ bảy. Sau đó nối S056.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
+
+#### S056 — Nước thấm vào chậu
+
+**03:11.8–03:15.3 · 3.5 giây · Tự nhiên · Chờ duyệt**
+
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng bàn gieo  Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D11 Thìa gỗ nhỏ sang cây.
+- **Trạng thái đầu:** Xô gỗ đã có nước mới lấy từ vòi trước buổi làm, ở cạnh bàn. Qua điểm cắt cô đã múc gáo; sáu chậu trên khay mang có các khe đáy để thoát nước.
+- **Hành động:** Cô rót ít nước quanh mép chậu đầu; mặt giá thể sẫm dần, dòng dừng trong cùng khung.
+- **Kết quả cuối:** Chậu thứ hai đủ ẩm; cây đứng yên, lá không bị quật.
+- **Liên tục và điểm cắt:** Không lặp rót ở góc mới; không tưới vào thân. Sau đó nối S057.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
+
+#### S057 — Tưới nốt chậu cuối
+
+**03:15.3–03:17.2 · 1.9 giây · Tự nhiên · Chờ duyệt**
+
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Góc ươm B05. Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu.
+- **Trạng thái đầu:** Hai chậu đầu đã tưới; bốn chậu sau còn chờ trên khay.
+- **Hành động:** Sau lượt tưới các chậu giữa được lược, cô tưới chậu cuối rồi trả gáo về xô.
+- **Kết quả cuối:** Sáu chậu đều được tưới; khay mang sẵn để chuyển về góc ươm.
+- **Liên tục và điểm cắt:** Cả sáu chậu đã nhận nước, sẵn chuyển góc ươm. Sau đó nối S058.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B05; P01; D05; D09; D10
+
+#### S058 — Mang chậu về chỗ sáng dịu
+
+**03:17.2–03:22.0 · 4.8 giây · Tự nhiên · Chờ duyệt**
+
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Từ bàn đến chỗ ươm dưới hiên  Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D11 Thìa gỗ nhỏ sang cây.
+- **Trạng thái đầu:** Sáu chậu đã được tưới, nước thừa đã thoát qua khe; gáo đã về xô sau phần được lược.
+- **Hành động:** Cô nâng khay sáu chậu, đi quãng ngắn rồi hạ vững lên mặt kê gần bàn.
+- **Kết quả cuối:** Sáu cây ở chỗ kín gió, sáng dịu; lá có khoảng trống, đáy không ngập nước.
+- **Liên tục và điểm cắt:** Ra khi khay được đỡ và tay buông; không kéo dài cả hành trình. Sau đó nối S059.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
+
+#### S059 — Cây ổn định sau sang chậu
+
+**03:22.0–03:26.0 · 4.0 giây · Timelapse · Chờ duyệt**
+
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Góc ươm dưới hiên  Khoảng ngày 28 → 31. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
+- **Trạng thái đầu:** Sáu cây vừa sang chậu, chưa mô tả héo rũ hoặc tổn thương.
+- **Hành động:** Timelapse qua vài ngày, lá điều chỉnh nhẹ và ngọn tiếp tục phát triển.
+- **Kết quả cuối:** Cây đã ổn định, vẫn ở đúng sáu chậu; chưa cao vọt hoặc xuất hiện hoa.
+- **Liên tục và điểm cắt:** Sáu chậu giữ đúng vị trí, cây không cao vọt hoặc ra hoa. Sau đó nối S060.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
+
+#### S060 — Kiểm ngọn rồi thêm ẩm
+
+**03:26.0–03:29.8 · 3.8 giây · Tự nhiên · Chờ duyệt**
+
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Góc ươm dưới hiên  Sáng khoảng ngày 31. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D11 Thìa gỗ nhỏ sang cây.
+- **Trạng thái đầu:** Sáu cây đã ổn định; một cây có ngọn và lá non mới rõ.
+- **Hành động:** Cô xoay nhẹ một chậu để xem ngọn, thấy mặt giá thể se rồi rót chút nước sát mép.
+- **Kết quả cuối:** Chậu vừa kiểm có đủ ẩm, cây đứng khỏe; cô chuẩn bị chuyển cả khay vào đợt sáng ngoài trời nhẹ.
+- **Liên tục và điểm cắt:** Ra khi chậu đứng và nước đủ ẩm; không lặp kiểm cho từng chậu. Sau đó nối S061.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
+
+#### S061 — Đưa cây vào nắng sớm
+
+**03:29.8–03:33.9 · 4.1 giây · Tự nhiên · Chờ duyệt**
+
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Từ góc ươm tới mép hiên kín gió  Cùng buổi sáng. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D11 Thìa gỗ nhỏ sang cây.
+- **Trạng thái đầu:** Cây đã ổn định; cô đã đỡ khay mang bằng hai tay sau điểm cắt.
+- **Hành động:** Ở đoạn cuối quãng đi, cô hạ khay tại mép hiên có nắng nhẹ; khoảng cách lá giữ thoáng.
+- **Kết quả cuối:** Cây nhận đợt sáng ngoài trời ngắn đầu tiên; lá chưa héo hoặc cháy.
+- **Liên tục và điểm cắt:** Ra ở khay đặt vững; lược thời gian ngoài trời trước khi mang về. Sau đó nối S062.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
+
+#### S062 — Trở về chỗ che sau đợt quen nắng
+
+**03:33.9–03:37.3 · 3.4 giây · Tự nhiên · Chờ duyệt**
+
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Mép hiên về góc được che  Cuối đợt làm quen sáng, cùng ngày. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D11 Thìa gỗ nhỏ sang cây.
+- **Trạng thái đầu:** Đã lược khoảng thời gian ngoài trời ngắn; sáu chậu vẫn cùng chỗ, bóng mái đã đổi vị trí.
+- **Hành động:** Sau một đợt nắng ngắn, cô mang khay trở vào hiên và hạ xuống vị trí kê cũ.
+- **Kết quả cuối:** Sáu chậu trở lại góc kín gió; khay cây dự phòng vẫn ở góc bàn sáng dịu.
+- **Liên tục và điểm cắt:** Bóng mái đã dịch; đây là sau khoảng chờ, không đưa ra rồi lập tức mang vào. Sau đó nối S063.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
+
+#### S063 — Những ngày làm quen tiếp
+
+**03:37.3–03:41.8 · 4.5 giây · Timelapse · Chờ duyệt**
+
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Vùng hiên dùng cho làm quen ánh sáng  Khoảng ngày 32 → 44. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
+- **Trạng thái đầu:** Cây đã trải qua đợt làm quen đầu; các đợt đưa ra/vào sau được lược, không chỉ phơi một lần.
+- **Hành động:** Timelapse các khoảng ban ngày từ khoảng ngày 32 tới 44; cây lớn thêm, khay được lấy mẫu cùng góc, các lượt mang ra/vào lược.
+- **Kết quả cuối:** Sáu cây có thêm vài lá thật, thân cứng hơn, chưa có hoa hoặc quả.
+- **Liên tục và điểm cắt:** Kết ở cây khỏe đã quen điều kiện ngoài trời, không biến một buổi thành cả quá trình. Sau đó nối S064.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
+
+#### S064 — Cây sẵn ra vườn
+
+**03:41.8–03:43.8 · 2.0 giây · Tự nhiên · Chờ duyệt**
+
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Góc hiên làm quen ánh sáng  Sáng khoảng ngày 44. Ánh sáng tự nhiên theo mốc ngày; cảnh thao tác buổi sáng dịu, đợt làm quen đầu tránh nắng trưa và gió lùa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D06 Khay ươm cà chua riêng, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D11 Thìa gỗ nhỏ sang cây.
+- **Trạng thái đầu:** Khoảng sáng ngày 44: sáu cây trong sáu chậu đã quen nắng qua nhiều đợt, khay gieo dự phòng vẫn ở góc ươm.
+- **Hành động:** Cô chỉnh khoảng cách chậu cuối, ngón tay rời mép; tán lá thật khỏe và thân cứng hơn.
+- **Kết quả cuối:** Sáu cây vẫn trong chậu, thân/lá khỏe sẵn ra luống; chưa trồng, chưa ra hoa hoặc quả.
+- **Liên tục và điểm cắt:** Ra khi trạng thái sẵn trồng đã đọc đủ, chuyển tới chiều cùng ngày. Sau đó nối S065.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B05; P01; D05; D06; D09; D10; D11
+
+## C06 — Trồng cà chua ra luống
+
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
+|---|---|---:|---|---|
+| S065 | 03:43.8–03:46.2 | 2.4 | Toàn | Bóng mái dài hơn, hàng khoai lớn thêm; luống dành cà chua chưa có cây. |
+| S066 | 03:46.2–03:50.4 | 4.2 | Cận | Cô kéo cuốc qua vùng đất còn thô, hai nhịp đất vỡ và rơi vào dải đang làm. |
+| S067 | 03:50.4–03:52.6 | 2.2 | Toàn | Sau các hố trước được lược, cô xúc nốt đất ở hố cuối và đặt xẻng ngoài luống. |
+| S068 | 03:52.6–03:55.6 | 3.0 | Trung | Cô mang khay tới sát luống, hạ xuống lối khô cạnh bó cọc. |
+| S069 | 03:55.6–04:00.7 | 5.1 | Trung | Cô dựng chân cọc cạnh hố, giữ cọc và gõ vài nhịp vồ tiêu biểu cho đứng chắc. |
+| S070 | 04:00.7–04:04.7 | 4.0 | Cận | Cô nghiêng chậu, gõ nhẹ thành rồi trượt chậu ra, tay còn lại đỡ bầu nguyên. |
+| S071 | 04:04.7–04:09.9 | 5.2 | Cận | Cô hạ bầu đang đỡ vào hố, kéo đất khép quanh bầu rồi ấn nhẹ vòng ngoài thành hõm tưới. |
+| S072 | 04:09.9–04:12.0 | 2.1 | Toàn | Sau phần trồng lặp, cô làm gọn hõm cây cuối; khay sáu chậu rỗng nằm ngoài luống. |
+| S073 | 04:12.0–04:16.6 | 4.6 | Cận | Cô vòng dây quanh cọc và thân theo số tám lỏng, thắt phía cọc rồi rút tay. |
+| S074 | 04:16.6–04:19.1 | 2.5 | Toàn | Sau lượt hứng nước được lược, cô mang xô tới đầu hàng và hạ vững bên lối. |
+| S075 | 04:19.1–04:23.2 | 4.1 | Cận | Cô múc gáo, đưa sát hõm rồi rót chậm vòng ngoài bầu; nước lan vào đất. |
+| S076 | 04:23.2–04:25.1 | 1.9 | Toàn | Sau các gốc giữa được lược, cô rót nốt quanh bầu thứ sáu rồi đưa gáo về xô. |
+| S077 | 04:25.1–04:27.1 | 2.0 | Cận | Giọt cuối lắng ở hõm, thân đứng cạnh cọc và dây lỏng vẫn nguyên. |
+| S078 | 04:27.1–04:31.4 | 4.3 | Trung | Cô đặt gáo về xô, làm gọn mép hõm cuối rồi đứng lên nhấc khay chậu rỗng cạnh lối. |
+
+### Mô tả chi tiết
+
+#### S065 — Chiều trên luống cà chua trống
+
+**03:43.8–03:46.2 · 2.4 giây · Tự nhiên · Chờ duyệt**
+
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Khu vườn trước nhà  Chiều khoảng ngày 44 sau gieo; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.  Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
+- **Nhân vật và dụng cụ:** Không có người; cây và kiến trúc theo khung.
+- **Trạng thái đầu:** Cuối là sáng khoảng ngày 44; cà chua còn trong sáu chậu ở hiên.
+- **Hành động:** Bóng mái dài hơn, hàng khoai lớn thêm; luống dành cà chua chưa có cây.
 - **Kết quả cuối:** Xác lập chiều cùng ngày, trời ấm dịu ít gió; chưa có cây cà chua ngoài luống.
-- **Nối cảnh:** Lược từ sáng sang chiều tại điểm cắt. Khoai đã hơn sáu tuần, tán lớn hơn C04, không còn là chồi mới nhú.
-- **Âm thanh:** Gió nhẹ, lá và chim chiều. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Xác lập chiều khoảng ngày 44, không sang hoàng hôn. Sau đó nối S066.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B01; B03; B06
 
-#### S105 — Làm tơi mặt luống cà chua
+#### S066 — Làm tơi luống cà chua
 
-**05:59–06:03 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**03:46.2–03:50.4 · 4.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung chéo bên, thấy cô, cuốc và đất; máy cố định. Giữ cùng phía trục làm việc; cận vẫn có mép hố, cọc hoặc chậu làm mốc, không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Luống cà chua B06 Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống cà chua B06  Chiều khoảng ngày 44 sau gieo; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.  Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D12 Sáu cọc tre và dây vải mềm, D13 Vồ gỗ đóng cọc.
 - **Trạng thái đầu:** Luống có sẵn chưa trồng. Cuốc, xẻng nhỏ, bó sáu cọc tre, dây mềm và vồ gỗ đã được cô mang ra trước phần dựng, đặt trên lối trong hình.
-- **Hành động:** Cô kéo cuốc qua lớp mặt còn thô, bước dịch theo luống và gạt đất tơi sang vị trí cần làm.
-- **Kết quả cuối:** Một phần mặt luống được làm tơi; luống khoai bên ngoài vùng làm không bị động.
-- **Nối cảnh:** Dùng đúng luống trống có sẵn trong bộ bối cảnh, không dựng thêm diện tích vườn. Chỉ lượt làm tiêu biểu.
-- **Âm thanh:** Cuốc xào xạo vào đất, bước chân nhẹ. Không nhạc, không lời thoại.
-- **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
-
-#### S106 — Vụn đất rời khỏi lưỡi cuốc
-
-**06:03–06:06 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận thấp, lưỡi cuốc và phần đất mới; máy cố định. Giữ cùng phía trục làm việc; cận vẫn có mép hố, cọc hoặc chậu làm mốc, không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng luống cà chua Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
-- **Trạng thái đầu:** Dải đất kế đoạn vừa làm còn vài cục nhỏ, lưỡi cuốc chuyển tới đó.
-- **Hành động:** Cô kéo một nhịp cuốc ở dải kế, đất vụn rời lưỡi rơi xuống mặt luống.
+- **Hành động:** Cô kéo cuốc qua vùng đất còn thô, hai nhịp đất vỡ và rơi vào dải đang làm.
 - **Kết quả cuối:** Thêm đoạn đất mới được tơi, không cuốc lại vệt cũ.
-- **Nối cảnh:** Góc cận tiếp tiến triển S105; giữ hình học luống, không đổi từ đất ẩm sang cát khô.
-- **Âm thanh:** Lưỡi cuốc và đất rời, âm nền vườn. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Ra ở vùng mới tơi; phần làm tiếp được lược. Sau đó nối S067.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
 
-#### S107 — Mở xong sáu vị trí trồng
+#### S067 — Sáu hố đã mở
 
-**06:06–06:10 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**03:50.4–03:52.6 · 2.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn cô và toàn đoạn luống đủ sáu cây; máy cố định. Giữ quan hệ hiên–lối–luống đã có; mọi vị trí trồng, cây và cọc được khóa qua góc sau.
-- **Địa điểm, thời gian và ánh sáng:** Cùng luống cà chua Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng luống cà chua  Chiều khoảng ngày 44 sau gieo; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.  Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D12 Sáu cọc tre và dây vải mềm, D13 Vồ gỗ đóng cọc.
 - **Trạng thái đầu:** Qua điểm cắt đã lược phần làm tơi và mở năm hố; cô dùng xẻng nhỏ tại vị trí thứ sáu. Cuốc nằm ở lối.
-- **Hành động:** Cô xúc nốt đất ra khỏi hố cuối, đặt đất bên mép rồi hạ xẻng xuống lối.
+- **Hành động:** Sau các hố trước được lược, cô xúc nốt đất ở hố cuối và đặt xẻng ngoài luống.
 - **Kết quả cuối:** Sáu hố sẵn đón bầu cây, cách đều phù hợp tán cây sau này; chưa có cây hoặc cọc dựng.
-- **Nối cảnh:** Mặt bằng phải có đủ chỗ cho sáu vị trí trên luống thực có. Hố vừa bầu, không biến thành hố sâu lớn. Không phải làm toàn bộ trong ba giây.
-- **Âm thanh:** Xẻng xúc đất, cán đặt xuống lối nhẹ. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Đọc được sáu vị trí; không cần mở riêng từng hố trước máy. Sau đó nối S068.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
 
-#### S108 — Mang khay chậu tới luống
+#### S068 — Mang sáu chậu tới hàng trồng
 
-**06:10–06:14 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**03:52.6–03:55.6 · 3.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Lối hiên–luống cà chua Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Lối hiên–luống cà chua  Chiều khoảng ngày 44 sau gieo; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.  Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D12 Sáu cọc tre và dây vải mềm, D13 Vồ gỗ đóng cọc.
 - **Trạng thái đầu:** Sáu chậu còn ở hiên; hố đã mở, bó cọc tre nằm sẵn bên lối và chưa dựng.
-- **Hành động:** Ở đoạn cuối lối đi, cô mang khay tới cạnh luống rồi hạ xuống chỗ khô.
+- **Hành động:** Cô mang khay tới sát luống, hạ xuống lối khô cạnh bó cọc.
 - **Kết quả cuối:** Khay sáu chậu nằm cạnh luống, tay cô rời khay để lấy cọc.
-- **Nối cảnh:** Nối S107 → S108 → S109. Sáu chậu còn ở hiên; hố đã mở, bó cọc tre nằm sẵn bên lối và chưa dựng. Cảnh này tạo kết quả mới: Khay sáu chậu nằm cạnh luống, tay cô rời khay để lấy cọc. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Bước chân, khay gỗ và chậu chạm nhẹ. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Ra khi khay vững; cọc vẫn ở bó, chưa tự dựng. Sau đó nối S069.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
 
-#### S109 — Dựng cọc trước khi đặt cây
+#### S069 — Dựng và gõ cọc đầu
 
-**06:14–06:18 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**03:55.6–04:00.7 · 5.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung toàn thân, thấy hố và bó cọc; máy cố định. Giữ cùng phía trục làm việc; cận vẫn có mép hố, cọc hoặc chậu làm mốc, không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Đầu luống cà chua Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Đầu luống cà chua  Chiều khoảng ngày 44 sau gieo; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.  Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D12 Sáu cọc tre và dây vải mềm, D13 Vồ gỗ đóng cọc.
 - **Trạng thái đầu:** Hố đầu chưa có cây; bó sáu cọc và vồ ở lối; sáu chậu ở khay.
-- **Hành động:** Cô lấy một cọc, đặt chân cọc lệch bên hố đầu rồi ấn và xoay nhẹ cho cọc đứng ban đầu.
-- **Kết quả cuối:** Cọc đầu ở vị trí sát hố nhưng không nằm giữa chỗ đặt bầu, chuẩn bị gõ chắc.
-- **Nối cảnh:** Cắm cọc trước khi cây vào hố để tránh đâm bầu rễ. Chọn cà chua thân cao phù hợp cọc; chưa chọn tên giống.
-- **Âm thanh:** Tre chạm đất, bó cọc sột soạt. Không nhạc, không lời thoại.
-- **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
-
-#### S110 — Gõ chắc chân cọc
-
-**06:18–06:21 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận phần tay, vồ và đầu cọc, đủ đọc trục cọc; máy cố định. Giữ cùng phía trục làm việc; cận vẫn có mép hố, cọc hoặc chậu làm mốc, không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng vị trí cọc đầu Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
-- **Trạng thái đầu:** Cọc đã được ấn vào đất và giữ thẳng; qua điểm cắt cô đã cầm vồ gỗ.
-- **Hành động:** Cô giữ cọc, gõ vài nhịp vồ vừa sức lên đầu rồi ngừng để kiểm độ đứng.
+- **Hành động:** Cô dựng chân cọc cạnh hố, giữ cọc và gõ vài nhịp vồ tiêu biểu cho đứng chắc.
 - **Kết quả cuối:** Cọc đầu chắc hơn, không nghiêng hoặc lún quá nhanh như xuyên đất rỗng.
-- **Nối cảnh:** Chỉ thấy đoạn cuối của lượt đóng; không yêu cầu hai nhịp làm cọc từ mặt đất lún sâu hoàn toàn. Các cọc khác được làm trong đoạn lược sau.
-- **Âm thanh:** Vồ gõ tre đục, đất và gió nhẹ. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Ra ở cọc đã đứng; lược việc dựng năm cọc còn lại trước lấy cây. Sau đó nối S070.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
 
-#### S111 — Làm rời bầu khỏi chậu đầu
+#### S070 — Rút chậu khỏi bầu
 
-**06:21–06:24 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:00.7–04:04.7 · 4.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung từ lối nhìn vào, thấy hàng cọc và khay chậu; máy cố định. Giữ cùng phía trục làm việc; cận vẫn có mép hố, cọc hoặc chậu làm mốc, không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Đầu luống cà chua Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Đầu luống cà chua  Chiều khoảng ngày 44 sau gieo; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.  Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D12 Sáu cọc tre và dây vải mềm, D13 Vồ gỗ đóng cọc.
 - **Trạng thái đầu:** Qua điểm cắt, cả sáu cọc đã dựng ở cạnh sáu hố. Cô ngồi cạnh khay, sáu cây còn nguyên trong chậu.
-- **Hành động:** Cô lấy chậu đầu, nghiêng nhẹ và gõ quanh thành bằng lòng tay để bầu tách khỏi thành chậu.
-- **Kết quả cuối:** Bầu đã lỏng trong chậu, cây vẫn được đỡ; năm chậu còn ở khay.
-- **Nối cảnh:** Lược đóng năm cọc còn lại và ngồi xuống, không cho cọc tự mọc trong cùng một cảnh. Không nắm kéo thân.
-- **Âm thanh:** Lòng tay vỗ đất nung nhẹ, lá khẽ chạm. Không nhạc, không lời thoại.
-- **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
-
-#### S112 — Đỡ bầu nguyên ra khỏi chậu
-
-**06:24–06:27 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận tay, miệng chậu và bầu rễ; máy cố định. Giữ cùng phía trục làm việc; cận vẫn có mép hố, cọc hoặc chậu làm mốc, không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng đầu luống Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
-- **Trạng thái đầu:** Chậu nghiêng, bầu đã tách thành; một tay đỡ bầu, thân và lá không bị kẹp.
-- **Hành động:** Cô trượt chậu ra khỏi bầu bằng chuyển động nhẹ, giữ bầu nguyên trên lòng tay đỡ.
+- **Hành động:** Cô nghiêng chậu, gõ nhẹ thành rồi trượt chậu ra, tay còn lại đỡ bầu nguyên.
 - **Kết quả cuối:** Một cây cùng bầu đất đã rời chậu; chậu đầu rỗng ở tay kia.
-- **Nối cảnh:** Tiếp S111, không bóp hoặc rửa sạch rễ. Chậu rỗng được đặt lại khay trong nhịp lược trước cảnh kế.
-- **Âm thanh:** Đất nung rời bầu, ít vụn đất rơi. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Ra ở bầu đã rời chậu, không kéo bằng thân cây. Sau đó nối S071.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
 
-#### S113 — Đặt cây đầu xuống hố
+#### S071 — Trồng cây đầu xuống hố
 
-**06:27–06:31 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:04.7–04:09.9 · 5.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn người ngồi ở lối, hố đầu và cọc rõ; máy cố định. Giữ quan hệ hiên–lối–luống đã có; mọi vị trí trồng, cây và cọc được khóa qua góc sau.
-- **Địa điểm, thời gian và ánh sáng:** Hố trồng đầu tiên Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Hố trồng đầu tiên  Chiều khoảng ngày 44 sau gieo; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.  Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D12 Sáu cọc tre và dây vải mềm, D13 Vồ gỗ đóng cọc.
 - **Trạng thái đầu:** Cô đỡ bầu bằng hai tay sau khi đặt chậu rỗng vào khay; hố có cọc bên cạnh, chưa có cây.
-- **Hành động:** Cô đưa bầu qua mép hố, hạ xuống giữa hố và chỉnh rất nhẹ để cây đứng thẳng.
-- **Kết quả cuối:** Bầu đã được đáy hố đỡ, lá thấp vẫn ở trên mặt đất dự kiến; khe quanh bầu còn hở.
-- **Nối cảnh:** Nối cây vừa lấy khỏi chậu, không lấy cây thứ hai. Giữ độ sâu phù hợp, không chôn lá hoặc để bầu nổi trên mặt.
-- **Âm thanh:** Bầu chạm đất nhẹ, vải áo. Không nhạc, không lời thoại.
-- **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
-
-#### S114 — Kéo đất lấp quanh bầu
-
-**06:31–06:34 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung chéo bên, thấy tay và gốc; máy cố định. Giữ cùng phía trục làm việc; cận vẫn có mép hố, cọc hoặc chậu làm mốc, không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng hố đầu Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
-- **Trạng thái đầu:** Bầu ở giữa hố, cô đã buông khi bầu được đỡ chắc.
-- **Hành động:** Cô kéo đất tơi từ mép hố vào quanh bầu, hai tay thay nhau lấp cho đầy khe.
-- **Kết quả cuối:** Bầu được đất bao kín, cây vẫn thẳng, không có rễ lộ.
-- **Nối cảnh:** Tiếp sau hạ bầu, không nhấc cây lên để trồng lại. Đất lấy từ phần xúc ra của chính hố.
-- **Âm thanh:** Đất tơi kéo vào, âm vườn. Không nhạc, không lời thoại.
-- **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
-
-#### S115 — Ép nhẹ vòng đất quanh cây
-
-**06:34–06:38 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận đầu ngón tay, đất và thân thấp; máy cố định. Giữ cùng phía trục làm việc; cận vẫn có mép hố, cọc hoặc chậu làm mốc, không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng cây đầu Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
-- **Trạng thái đầu:** Hố đã lấp, đất quanh bầu còn tơi rời.
-- **Hành động:** Cô ấn nhẹ vòng ngoài bầu để ổn định cây rồi vuốt mép thành hõm tưới nông.
+- **Hành động:** Cô hạ bầu đang đỡ vào hố, kéo đất khép quanh bầu rồi ấn nhẹ vòng ngoài thành hõm tưới.
 - **Kết quả cuối:** Cây đầu đứng chắc, hõm nông giữ nước quanh vùng rễ; cổ gốc và lá không bị vùi.
-- **Nối cảnh:** Không nén cứng bằng cả bàn chân hoặc ấn thẳng vào thân. Chỉ một hõm nhỏ, không tạo hố nước sâu.
-- **Âm thanh:** Tay và đất ẩm nhẹ, chim xa. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Giữ đủ đặt–lấp–ổn định; không làm lại bước hạ bầu khi đổi góc. Sau đó nối S072.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
 
-#### S116 — Trồng tiếp cây thứ hai
+#### S072 — Sáu cây vào hàng
 
-**06:38–06:41 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:09.9–04:12.0 · 2.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn người, hai hố đầu và các chậu còn lại; máy cố định. Giữ quan hệ hiên–lối–luống đã có; mọi vị trí trồng, cây và cọc được khóa qua góc sau.
-- **Địa điểm, thời gian và ánh sáng:** Dọc luống cà chua Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
-- **Trạng thái đầu:** Qua điểm cắt, cô đã lấy bầu thứ hai ra khỏi chậu; cây đầu đứng cạnh cọc, chưa buộc.
-- **Hành động:** Cô hạ bầu thứ hai xuống hố kế, trượt tay ra rồi kéo đất mép vào.
-- **Kết quả cuối:** Cây thứ hai đã trong hố và bắt đầu được lấp; các vị trí sau vẫn trống.
-- **Nối cảnh:** Lược tháo chậu lặp lại. Không phát lại cây đầu từ góc mới; số cây trong chậu giảm tương ứng.
-- **Âm thanh:** Đất, vải áo, âm nền. Không nhạc, không lời thoại.
-- **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
-
-#### S117 — Sáu cây đã vào luống
-
-**06:41–06:45 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung dọc hàng, đọc đủ sáu cây và cọc; máy cố định. Giữ cùng phía trục làm việc; cận vẫn có mép hố, cọc hoặc chậu làm mốc, không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cuối luống cà chua Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cuối luống cà chua  Chiều khoảng ngày 44 sau gieo; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.  Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D12 Sáu cọc tre và dây vải mềm, D13 Vồ gỗ đóng cọc.
 - **Trạng thái đầu:** Sau khi lược các lượt giữa, năm cây đã trồng xong; cây cuối vừa lấp bầu. Sáu chậu rỗng đã được xếp trên khay ở lối.
-- **Hành động:** Cô vun khép mép hõm tưới cho cây cuối rồi rút tay, nhìn dọc hàng kiểm độ đứng.
+- **Hành động:** Sau phần trồng lặp, cô làm gọn hõm cây cuối; khay sáu chậu rỗng nằm ngoài luống.
 - **Kết quả cuối:** Sáu cây từ sáu chậu đã trồng, mỗi cây một cọc; không có cây thứ bảy.
-- **Nối cảnh:** Lược công việc nhiều phút bằng điểm cắt; không dùng timelapse cho thao tác này. Chậu rỗng theo đúng số cây đã lấy.
-- **Âm thanh:** Đất vụn, bước chân khi đổi thế. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Một hàng cây đã tiến triển, chưa có hoa hoặc quả. Sau đó nối S073.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
 
-#### S118 — Đưa dây mềm quanh cọc
+#### S073 — Khép dây đỡ lỏng
 
-**06:45–06:48 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:12.0–04:16.6 · 4.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung tay và một cây đầu hàng; máy cố định. Giữ cùng phía trục làm việc; cận vẫn có mép hố, cọc hoặc chậu làm mốc, không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Đầu hàng cà chua Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
-- **Trạng thái đầu:** Cô đã trở lại cây đầu qua điểm cắt; các đoạn dây vải mềm có sẵn bên dụng cụ. Sáu cây chưa buộc.
-- **Hành động:** Cô vòng một đầu dây mềm quanh cọc ở độ cao thân cây cần đỡ, đưa đầu kia về phía thân.
-- **Kết quả cuối:** Dây đã ôm phía cọc, phần vòng quanh thân chưa khép.
-- **Nối cảnh:** Không dùng dây kim loại hoặc sợi cứng mảnh siết thân. Cọc đã cố định, không đóng thêm cạnh rễ mới trồng.
-- **Âm thanh:** Dây vải cọ tre, lá nền. Không nhạc, không lời thoại.
-- **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
-
-#### S119 — Buộc dây mềm tiếp diễn
-
-**06:48–06:52 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Cùng cây đang buộc Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
-- **Trạng thái đầu:** Sau khi vòng dây quanh cọc ở cảnh trước, cô đã đưa dây về phía thân.
-- **Hành động:** Cô bắt chéo hai vòng thành số tám lỏng rồi thắt nút ở phía cọc, giữ thân không bị siết.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Đầu hàng cà chua  Chiều khoảng ngày 44 sau gieo; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.  Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D12 Sáu cọc tre và dây vải mềm, D13 Vồ gỗ đóng cọc.
+- **Trạng thái đầu:** Sáu cây đã trồng nhưng chưa buộc; cô ngồi bên cọc cây đầu, đoạn dây mềm ở hai tay.
+- **Hành động:** Cô vòng dây quanh cọc và thân theo số tám lỏng, thắt phía cọc rồi rút tay.
 - **Kết quả cuối:** Cây đầu có dây đỡ; các cây kế được buộc trong phần công việc lặp được lược trước tưới.
-- **Nối cảnh:** Nối S118 → S119 → S120. Sau khi vòng dây quanh cọc ở cảnh trước, cô đã đưa dây về phía thân. Cảnh này tạo kết quả mới: Cây đầu có dây đỡ; các cây kế được buộc trong phần công việc lặp được lược trước tưới. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Dây mềm và ngón tay, âm vườn nhẹ. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Ra ở nút đã khép, vòng thân còn khoảng hở; lược năm nút tương tự. Sau đó nối S074.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
 
-#### S120 — Mang nước tới hàng cây mới
+#### S074 — Xách nước tới cây mới
 
-**06:52–06:56 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:16.6–04:19.1 · 2.5 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Lối từ vòi nước tới luống cà chua Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Lối từ vòi nước tới luống cà chua  Chiều khoảng ngày 44 sau gieo; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.  Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D12 Sáu cọc tre và dây vải mềm, D13 Vồ gỗ đóng cọc.
 - **Trạng thái đầu:** Sáu cây đã trồng, các dây đỡ hoàn tất trong phần lặp được lược; chậu rỗng giữ bên lối.
-- **Hành động:** Cô xách xô từ lối gần vườn tới hàng cà chua rồi hạ xuống cạnh cây đầu.
+- **Hành động:** Sau lượt hứng nước được lược, cô mang xô tới đầu hàng và hạ vững bên lối.
 - **Kết quả cuối:** Xô vững cạnh cây, cô sẵn lấy gáo tưới quanh bầu.
-- **Nối cảnh:** Nối S119 → S120 → S121. Sáu cây đã trồng, các dây đỡ hoàn tất trong phần lặp được lược; chậu rỗng giữ bên lối. Cảnh này tạo kết quả mới: Xô vững cạnh cây, cô sẵn lấy gáo tưới quanh bầu. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Bước chân, nước sóng trong xô. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Xô/gáo giữ cùng bộ, không xuất hiện vòi cạnh cây. Sau đó nối S075.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
 
-#### S121 — Múc nước tưới gốc đầu tiên
+#### S075 — Tưới quanh bầu đầu
 
-**06:56–07:00 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:19.1–04:23.2 · 4.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung thấy xô, tay và gốc đầu hàng; máy cố định. Giữ cùng phía trục làm việc; cận vẫn có mép hố, cọc hoặc chậu làm mốc, không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Đầu luống cà chua Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Đầu luống cà chua  Chiều khoảng ngày 44 sau gieo; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.  Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D12 Sáu cọc tre và dây vải mềm, D13 Vồ gỗ đóng cọc.
 - **Trạng thái đầu:** Xô đã đặt vững trên lối qua điểm cắt; tay cô tới cán gáo.
-- **Hành động:** Cô nhúng gáo múc một lượng vừa, nâng lên và hướng về hõm quanh cây đầu.
-- **Kết quả cuối:** Gáo có nước ở gần hõm, chưa đổ; cây đầu và dây vẫn nguyên.
-- **Nối cảnh:** Lược phần cuối đặt xô sau S120. Chuyển sang tưới sát gốc, không hất nước lên tán cây con.
-- **Âm thanh:** Gáo múc, giọt trở vào xô. Không nhạc, không lời thoại.
-- **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
-
-#### S122 — Nước vào hõm quanh bầu
-
-**07:00–07:03 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận nghiêng, miệng gáo và vùng rễ rõ; máy cố định. Giữ cùng phía trục làm việc; cận vẫn có mép hố, cọc hoặc chậu làm mốc, không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cây cà chua đầu hàng Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
-- **Trạng thái đầu:** Gáo vừa tới hõm như cuối S121; mặt đất quanh cây còn nhạt.
-- **Hành động:** Cô nghiêng gáo rót chậm vào hõm vòng ngoài bầu, cho nước lan quanh vùng rễ rồi dựng gáo.
+- **Hành động:** Cô múc gáo, đưa sát hõm rồi rót chậm vòng ngoài bầu; nước lan vào đất.
 - **Kết quả cuối:** Đất quanh bầu sẫm ẩm, mặt lắng nhẹ; thân và lá không bị quật hoặc vùi.
-- **Nối cảnh:** Nối lượt múc S121, không múc lại. Đủ ẩm quanh bầu, không xói bật gốc.
-- **Âm thanh:** Nước vào đất rõ vừa phải, chim chiều. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Ra khi nước thấm quanh bầu; không hất xối tán cây con. Sau đó nối S076.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
 
-#### S123 — Tưới hết lượt cho hàng mới trồng
+#### S076 — Hàng cây đã nhận nước
 
-**07:03–07:07 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:23.2–04:25.1 · 1.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn dọc luống, cô ở cây cuối; máy cố định. Giữ quan hệ hiên–lối–luống đã có; mọi vị trí trồng, cây và cọc được khóa qua góc sau.
-- **Địa điểm, thời gian và ánh sáng:** Cuối hàng cà chua Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cuối hàng cà chua  Chiều khoảng ngày 44 sau gieo; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.  Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D12 Sáu cọc tre và dây vải mềm, D13 Vồ gỗ đóng cọc.
 - **Trạng thái đầu:** Sau các lượt múc, tưới và dịch xô được lược, năm hõm đầu đã ẩm; cô có gáo nước ở cây cuối.
-- **Hành động:** Cô rót lượt cuối quanh bầu thứ sáu rồi đưa gáo về phía xô trên lối.
+- **Hành động:** Sau các gốc giữa được lược, cô rót nốt quanh bầu thứ sáu rồi đưa gáo về xô.
 - **Kết quả cuối:** Cả sáu vùng rễ đã nhận nước; phần mặt luống ngoài vùng tưới vẫn nhạt hơn.
-- **Nối cảnh:** Không biến cả vườn thành ướt như sau mưa. Người ở tốc độ thật; những lượt giống nhau lược tại điểm cắt.
-- **Âm thanh:** Nước tưới, áo chuyển, lá nền. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Khung thấy các hõm trước đã sẫm, không tưới lại cùng cây đầu. Sau đó nối S077.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
 
-#### S124 — Cây con đứng bên cọc tre
+#### S077 — Cây đứng trong đất ẩm
 
-**07:07–07:10 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:25.1–04:27.1 · 2.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận ngang gốc và dây đỡ, một phần lá rõ; máy cố định. Giữ cùng phía trục làm việc; cận vẫn có mép hố, cọc hoặc chậu làm mốc, không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cây cuối vừa tưới Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cây cuối vừa tưới  Chiều khoảng ngày 44 sau gieo; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua.  Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D12 Sáu cọc tre và dây vải mềm, D13 Vồ gỗ đóng cọc.
 - **Trạng thái đầu:** Đất quanh bầu đã ẩm; dây số tám lỏng giữ thân cách cọc.
-- **Hành động:** Giọt cuối thấm vào đất, lá cây khẽ rung; thân vẫn đứng, dây không cắt vào vỏ.
+- **Hành động:** Giọt cuối lắng ở hõm, thân đứng cạnh cọc và dây lỏng vẫn nguyên.
 - **Kết quả cuối:** Thấy kết quả trồng và tưới; chưa có tăng trưởng, hoa hoặc quả trong chiều này.
-- **Nối cảnh:** Kết quả của S123 ở cây cuối, không quay lại tưới cây đầu thêm lần nữa.
-- **Âm thanh:** Giọt nhỏ và gió nhẹ, không âm sinh trưởng. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Kết trạng thái vừa trồng; không giữ thêm cảnh toàn tưới lặp. Sau đó nối S078.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
 
-#### S125 — Hoàn tất lượt tưới cây mới trồng
+#### S078 — Gom khay chậu rỗng
 
-**07:10–07:14 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:27.1–04:31.4 · 4.3 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống cà chua B06. Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống cà chua B06. Chiều khoảng ngày 44 sau gieo; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D05 Xô gỗ và gáo gỗ tưới vườn, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu, D12 Sáu cọc tre và dây vải mềm, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D13 Vồ gỗ đóng cọc.
 - **Trạng thái đầu:** Sáu bầu đã tưới, xô ở lối, chậu rỗng còn trên khay bên cạnh.
-- **Hành động:** Cô đặt gáo vào xô, dùng tay gạt chút đất rời khép mép hõm cây cuối rồi đứng dậy.
-- **Kết quả cuối:** Hõm giữ nước ổn định; cô sẵn gom khay chậu rỗng.
-- **Nối cảnh:** Nối S124 → S125 → S126. Sáu bầu đã tưới, xô ở lối, chậu rỗng còn trên khay bên cạnh. Cảnh này tạo kết quả mới: Hõm giữ nước ổn định; cô sẵn gom khay chậu rỗng. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
-- **Tham chiếu:** B06; P01; D05; D09; D10; D12
-
-#### S126 — Gom khay chậu sau buổi trồng
-
-**07:14–07:17 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Khu vườn trước nhà Chiều khoảng ngày 44 sau gieo, cùng ngày sau cuối C05; ấm dịu ít gió, sau khi nguy cơ rét/sương giá đã qua. Chiều dịu, nắng xiên mềm hoặc mây mỏng, cùng hướng sáng xuyên cụm; không sang hoàng hôn trong khi công việc chưa xong.
-- **Nhân vật và dụng cụ:** Cô gái P01; sáu cây trong chậu hoặc đã trồng theo tiến trình; cuốc D02, xẻng D03, xô/gáo D05, chậu D09, khay D10, cọc/dây D12 và vồ D13 theo vị trí.
-- **Trạng thái đầu:** Cô vừa đứng lên sau khi làm gọn hõm cây cuối; gáo đã ở trong xô, sáu chậu rỗng trên khay bên lối.
-- **Hành động:** Cô nhìn dọc hàng cây, cúi nhấc khay chậu rỗng rồi xoay về hướng hiên.
+- **Hành động:** Cô đặt gáo về xô, làm gọn mép hõm cuối rồi đứng lên nhấc khay chậu rỗng cạnh lối.
 - **Kết quả cuối:** Cô cầm khay sáu chậu rỗng để mang về, các cây đã trồng/buộc/tưới vẫn ở luống.
-- **Nối cảnh:** Nối S125 → S126 → S127. Cô vừa đứng lên sau khi làm gọn hõm cây cuối; gáo đã ở trong xô, sáu chậu rỗng trên khay bên lối. Cảnh này tạo kết quả mới: Cô cầm khay sáu chậu rỗng để mang về, các cây đã trồng/buộc/tưới vẫn ở luống. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Gáo chạm xô, gỗ khay, gió và chim chiều. Không nhạc, không lời thoại.
-- **Tham chiếu:** B06; B05; P01; D02; D03; D05; D09; D10; D12; D13
+- **Liên tục và điểm cắt:** Ra khi khay đã ở tay, đất và cây giữ nguyên; lược đồ phụ được thu gọn. Sau đó nối S079.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B06; P01; D05; D09; D10; D12; B05; D02; D03; D13
 
-## C07 — Vun khoai, gieo dưa chuột và chăm cà chua
+## C07 — Vun khoai, dựng giàn, gieo dưa và chăm cây
 
-**28 shot · 99 giây · 07:17–08:56.**
-
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
 |---|---|---:|---|---|
-| S127 | 07:17–07:21 | 4 | Toàn người và lối về nhà | Cô mang khay theo lối về hiên, chậu rỗng đứng yên trên khay. |
-| S128 | 07:21–07:24 | 3 | Toàn vườn, góc khóa theo nhà–luống | Nắng và bóng mái đổi qua các chu kỳ ngày; tán cây biến đổi nhẹ, không có người trong khung. |
-| S129 | 07:24–07:28 | 4 | Toàn cô và một đoạn hàng khoai | Cô kéo đất hai bên gom về chân cây theo một dải, bước dịch dọc hàng. |
-| S130 | 07:28–07:31 | 3 | Cận thấp, lưỡi cuốc và thân khoai làm mốc | Cô kéo nhịp đất mới tới chân đoạn kế, nhấc lưỡi cuốc khi đất đã gom vào. |
-| S131 | 07:31–07:35 | 4 | Toàn | Cô bước dịch theo lối, kéo đất ở phần hàng kế vào chân cây bằng các nhịp cuốc đều. |
-| S132 | 07:35–07:38 | 3 | Trung | Cô kéo nốt đất ở mép vào chân cây cuối, nhấc cuốc rồi xoay về phía luống dưa còn trống. |
-| S133 | 07:38–07:42 | 4 | Toàn người, giỏ tre và luống trống | Cô bước đến đầu luống, hạ giỏ xuống lối rồi đưa tay lấy cuốc đặt gần đó. |
-| S134 | 07:42–07:46 | 4 | Trung chéo bên, tay–cuốc–đất rõ | Cô xới nhẹ dải đất dành gieo, kéo vụn đất về chỗ thấp rồi dịch chân theo luống. |
-| S135 | 07:46–07:50 | 4 | Trung toàn thân, thấy chân tre và dải gieo | Cô dựng nghiêng một thanh về thanh đối diện đã tựa sẵn, chỉnh chân cho hai thanh giao nhau thành chữ A. |
-| S136 | 07:50–07:53 | 3 | Cận nút giao hai thanh và bàn tay | Cô kéo đầu dây cho các vòng ôm chắc, luồn nút chốt rồi thử nhẹ bằng tay. |
-| S137 | 07:53–07:57 | 4 | Toàn cô và cả luống có giàn | Cô khép nút cuối ở thanh leo thấp, buông tay rồi kiểm khung bằng một cái đẩy nhẹ. |
-| S138 | 07:57–08:00 | 3 | Cận hơi cao, xẻng nhỏ và thành hốc | Cô dùng mũi xẻng mở một hốc nông ở vị trí gieo đầu, gạt đất tơi sang mép. |
-| S139 | 08:00–08:04 | 4 | Trung chéo bên, thấy hốc và tay | Cô hạ hạt xuống hốc, buông nhẹ rồi chuyển tay về phần đất tơi bên mép. |
-| S140 | 08:04–08:07 | 3 | Cận tay và hốc đầu | Cô kéo đất mịn từ mép vào che hạt, ấn rất nhẹ rồi rút tay. |
-| S141 | 08:07–08:11 | 4 | Trung | Cô rải nước nhẹ lên hốc đầu rồi đưa gáo trở lại xô, mắt chuyển theo hốc kế. |
-| S142 | 08:11–08:14 | 3 | Cận vùng gieo thứ hai, miệng gáo ở rìa khung | Lượt nước mới rải xuống vùng thứ hai, các giọt lắng vào đất rồi dứt. |
-| S143 | 08:14–08:18 | 4 | Cận một vị trí gieo, chân tre làm mốc | Một mầm đội đất lên, thân nâng và hai lá mầm tròn dày mở ra; vị trí lân cận nhú lệch nhịp. |
-| S144 | 08:18–08:21 | 3 | Trung cô ngồi ở lối cạnh giàn | Cô ngồi thấp, nhìn lần lượt các cây, nhẹ gạt một vụn đất rời khỏi khoảng trống sát mép hốc. |
-| S145 | 08:21–08:25 | 4 | Trung cả giàn tre, máy khóa chắc | Lá thật mở thêm, ngọn vươn dài về các thanh leo; tua xuất hiện và một số tự chạm giàn. |
-| S146 | 08:25–08:28 | 3 | Trung chéo bên, tay và đường dây leo rõ | Cô luồn bàn tay đỡ phần ngọn có lá, nâng rất nhẹ để dây tựa cạnh thanh tre rồi nới tay. |
-| S147 | 08:28–08:32 | 4 | Cận ngọn vừa dẫn, tua và thanh tre rõ | Cô rút tay khỏi ngọn; lá và tua rung rất nhẹ, ngọn vẫn tựa ổn định. |
-| S148 | 08:32–08:35 | 3 | Toàn | Cô dịch tới dây kế, đỡ nhẹ phần ngọn đưa vào phía giàn rồi thả khi dây tựa ổn định. |
-| S149 | 08:35–08:39 | 4 | Trung chéo từ lối, thấy cọc và thân đã cao hơn | Cô vòng đoạn dây mềm mới ở phần thân cao hơn, khép vòng lỏng và thắt phía cọc. |
-| S150 | 08:39–08:42 | 3 | Cận nách lá và tay, không che chùm hoa | Cô dùng ngón tay bấm gọn chồi nách nhỏ, đưa chồi ra khỏi tán. |
-| S151 | 08:42–08:46 | 4 | Cận chùm hoa vàng còn trên cây | Chùm hoa rung nhẹ theo gió; không có tay can thiệp hoặc quả đỏ xuất hiện. |
-| S152 | 08:46–08:49 | 3 | Toàn cô, hàng cà chua và lối có bóng mát | Cô tiếp tục chỉnh dây ở cây kế, chó đi chậm vào bóng mát cạnh lối rồi nằm xuống. |
-| S153 | 08:49–08:53 | 4 | Toàn | Cô nâng nhẹ cành đang nghiêng rồi nới và chỉnh dây đỡ ở cọc cây kế. |
-| S154 | 08:53–08:56 | 3 | Trung | Cô khép nút phía cọc, buông tay rồi đi dọc lối nhìn lại hàng cây vừa chăm. |
+| S079 | 04:31.4–04:33.3 | 1.9 | Toàn | Cô đi qua đoạn lối có mốc hiên, sáu chậu rỗng đứng yên trên khay. |
+| S080 | 04:33.3–04:36.7 | 3.4 | Toàn | Timelapse bóng mái và nắng đổi qua nhiều ngày; cây tiếp tục tăng tuổi. |
+| S081 | 04:36.7–04:41.0 | 4.3 | Cận | Lưỡi cuốc kéo đất hai bên vào chân cây, nhấc sang dải kế; thân và đường vun cùng thấy. |
+| S082 | 04:41.0–04:43.6 | 2.6 | Toàn | Sau phần vun lặp, cô kéo nốt đất cạnh cây cuối rồi xoay về luống dưa. |
+| S083 | 04:43.6–04:46.7 | 3.1 | Toàn | Giỏ hạt đã ở lối qua phần hạ được lược; cô xới nhẹ dải gieo, kéo đất vụn về chỗ thấp. |
+| S084 | 04:46.7–04:50.5 | 3.8 | Toàn | Cô đưa thanh tre tựa vào thanh đối diện, chỉnh chân để hai thanh giao thành chữ A. |
+| S085 | 04:50.5–04:53.8 | 3.3 | Cận | Cô siết vòng dây ở nút giao, luồn chốt rồi thử nhẹ cho chắc. |
+| S086 | 04:53.8–04:55.9 | 2.1 | Toàn | Sau phần dựng lặp, cô khép nút thanh leo cuối rồi đẩy nhẹ kiểm khung. |
+| S087 | 04:55.9–04:59.9 | 4.0 | Cận | Cô dùng xẻng mở một hốc nông, đặt một hạt thon dẹt vào đáy. |
+| S088 | 04:59.9–05:02.5 | 2.6 | Cận | Cô kéo đất tơi che hạt vừa đặt rồi ấn rất nhẹ. |
+| S089 | 05:02.5–05:06.5 | 4.0 | Cận | Cô rải một lượt nước thấp lên hốc thứ nhất, đưa tay sang hốc thứ hai cho lượt mới. |
+| S090 | 05:06.5–05:10.6 | 4.1 | Cận | Timelapse từ gieo khoảng ngày 50 tới ngày 58, mầm đội đất và mở hai lá mầm dày. |
+| S091 | 05:10.6–05:12.5 | 1.9 | Toàn | Cô ngồi ngoài luống, gạt một vụn đất rời cạnh hốc; bốn cây non phân bố đúng vị trí. |
+| S092 | 05:12.5–05:17.0 | 4.5 | Toàn | Timelapse tới khoảng ngày 70: lá thật mở, ngọn dài thêm, tua chạm các thanh tre. |
+| S093 | 05:17.0–05:20.9 | 3.9 | Cận | Cô nâng nhẹ phần ngọn đặt tựa vào thanh thấp, nới tay rồi rút ra khi ngọn ổn. |
+| S094 | 05:20.9–05:22.9 | 2.0 | Toàn | Cô dịch sang dây thứ hai, đưa ngọn vào phía giàn; khung thấy khoảng giàn còn trống. |
+| S095 | 05:22.9–05:26.3 | 3.4 | Cận | Cô khép vòng dây mềm mới ở đoạn thân cao hơn, thắt phía cọc và thử độ hở. |
+| S096 | 05:26.3–05:28.6 | 2.3 | Cận | Cô bấm một chồi nách nhỏ, đưa chồi rời ra khỏi tán. |
+| S097 | 05:28.6–05:31.3 | 2.7 | Cận | Chùm hoa rõ ở tiền cảnh rung nhẹ; ở lớp sau cô chuyển tay sang dây đỡ kế, không nhìn máy. |
+| S098 | 05:31.3–05:36.9 | 5.6 | Toàn | Cô hoàn tất chỉnh dây ở cây kế, dịch theo hàng; chó đi vào bóng mát ngoài luống rồi nằm xuống. |
 
 ### Mô tả chi tiết
 
-#### S127 — Mang chậu rỗng về hiên
+#### S079 — Mang khay trở về hiên
 
-**07:17–07:21 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:31.4–04:33.3 · 1.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn người và lối về nhà; máy cố định. Giữ quan hệ luống–lối–nhà và đúng hình khung tre; vị trí cây và dụng cụ phải kế thừa qua góc sau.
-- **Địa điểm, thời gian và ánh sáng:** Lối từ luống cà chua về hiên Chiều ngày 44, nối cuối C06 Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
-- **Trạng thái đầu:** Cô đã nhấc khay sáu chậu rỗng ở S126; cà chua đã ở luống.
-- **Hành động:** Cô mang khay theo lối về hiên, chậu rỗng đứng yên trên khay.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Lối từ luống cà chua về hiên  Chiều ngày 44  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu.
+- **Trạng thái đầu:** Cô đã nhấc khay sáu chậu rỗng ở cảnh liên quan; cà chua đã ở luống.
+- **Hành động:** Cô đi qua đoạn lối có mốc hiên, sáu chậu rỗng đứng yên trên khay.
 - **Kết quả cuối:** Khay và sáu chậu được mang khỏi vùng làm vườn, không còn cây trong chậu.
-- **Nối cảnh:** Nối đúng vật đang cầm cuối S126. Các dụng cụ còn lại được thu gọn cùng buổi ngoài phần dựng, không để bất động ngoài vườn nhiều tuần.
-- **Âm thanh:** Bước chân, khay và đất nung chạm nhẹ.
+- **Liên tục và điểm cắt:** Cắt khi hướng về hiên rõ, không đợi đi hết khung. Sau đó nối S080.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B01; B03; B05; P01; D02; D09; D10
 
-#### S128 — Thêm vài buổi sáng trên vườn
+#### S080 — Vườn qua đợt ngày mới
 
-**07:21–07:24 · 3 giây · Máy cố định · Timelapse · Chờ duyệt**
+**04:33.3–04:36.7 · 3.4 giây · Timelapse · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn vườn, góc khóa theo nhà–luống; máy cố định. Giữ quan hệ luống–lối–nhà và đúng hình khung tre; vị trí cây và dụng cụ phải kế thừa qua góc sau.
-- **Địa điểm, thời gian và ánh sáng:** Khu nhà và vườn Sau ngày 44 → sáng khoảng ngày 50 Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Không có người; chỉ khu vườn hoặc cây và khung tre đúng trạng thái.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Khu nhà và vườn  Sau ngày 44 → sáng khoảng ngày 50  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
 - **Trạng thái đầu:** Cà chua đã trồng trong luống B06, sáu cọc còn nguyên; khoai đã lớn hơn giai đoạn chồi.
-- **Hành động:** Nắng và bóng mái đổi qua các chu kỳ ngày; tán cây biến đổi nhẹ, không có người trong khung.
+- **Hành động:** Timelapse bóng mái và nắng đổi qua nhiều ngày; cây tiếp tục tăng tuổi.
 - **Kết quả cuối:** Sang khoảng ngày 50; luống dưa chuột vẫn trống, rau dền chưa gieo.
-- **Nối cảnh:** Thời gian chỉ tiến tới; không đổi kiến trúc hoặc tự có giàn dưa. Chăm ẩm trong những ngày giữa được lược.
-- **Âm thanh:** Âm sáng–chiều chuyển dịu, không tăng tốc âm gốc.
+- **Liên tục và điểm cắt:** Tới đợt vun khoai và gieo dưa khoảng ngày 50. Sau đó nối S081.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B01; B03; B05; P01; D02; D09; D10
 
-#### S129 — Vun đất quanh hàng khoai
+#### S081 — Vun đất quanh khoai
 
-**07:24–07:28 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:36.7–04:41.0 · 4.3 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn cô và một đoạn hàng khoai; máy cố định. Giữ quan hệ luống–lối–nhà và đúng hình khung tre; vị trí cây và dụng cụ phải kế thừa qua góc sau.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai B03 Sáng khoảng ngày 50 Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai B03  Sáng khoảng ngày 50  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ, D09 Sáu chậu đất nung ươm cà chua, D10 Khay gỗ mang chậu.
 - **Trạng thái đầu:** Cây khoai đã cao đủ vun, khoảng gần một gang đến ngang cẳng chân, chưa thu hoạch; đất hai bên hàng tơi. Cuốc đã được cô mang ra trong đoạn lược.
-- **Hành động:** Cô kéo đất hai bên gom về chân cây theo một dải, bước dịch dọc hàng.
-- **Kết quả cuối:** Đoạn gốc đầu được phủ đất thêm; ngọn và phần lớn lá vẫn ở trên đất.
-- **Nối cảnh:** Vun theo trạng thái cây, không theo con số ngày cứng. Không bới lộ củ, không đổ đất lên toàn bộ tán.
-- **Âm thanh:** Cuốc kéo đất xào xạo, bước chân nhẹ.
-- **Tham chiếu:** B01; B03; B05; P01; D02; D09; D10
-
-#### S130 — Đất ôm kín phần chân kế tiếp
-
-**07:28–07:31 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận thấp, lưỡi cuốc và thân khoai làm mốc; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng hàng khoai Cùng buổi sáng Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
-- **Trạng thái đầu:** Đoạn kế vùng vừa vun còn thấp; cây đứng nguyên.
-- **Hành động:** Cô kéo nhịp đất mới tới chân đoạn kế, nhấc lưỡi cuốc khi đất đã gom vào.
+- **Hành động:** Lưỡi cuốc kéo đất hai bên vào chân cây, nhấc sang dải kế; thân và đường vun cùng thấy.
 - **Kết quả cuối:** Dải vun tiến thêm, phủ phần chân nhưng không làm gãy thân.
-- **Nối cảnh:** Tiếp tiến triển S129, không kéo lại cùng mẻ đất. Phần còn lại của hàng được hoàn tất ngoài phần dựng trước khi sang việc khác.
-- **Âm thanh:** Đất trượt khỏi lưỡi cuốc, lá ngoài vùng thao tác.
+- **Liên tục và điểm cắt:** Ra ở dải vun mới, không che kín ngọn lá. Sau đó nối S082.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B01; B03; B05; P01; D02; D09; D10
 
-#### S131 — Vun tiếp phần hàng còn lại
+#### S082 — Kết hàng vun, chuyển luống
 
-**07:31–07:35 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:41.0–04:43.6 · 2.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai B03. Sáng khoảng ngày 50 Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
-- **Trạng thái đầu:** Đoạn đầu đã vun; phần kế vẫn thấp hơn, cây khoai cùng độ tuổi.
-- **Hành động:** Cô bước dịch theo lối, kéo đất ở phần hàng kế vào chân cây bằng các nhịp cuốc đều.
-- **Kết quả cuối:** Phần vun được nối dài; đất không phủ kín ngọn lá.
-- **Nối cảnh:** Nối S130 → S131 → S132. Đoạn đầu đã vun; phần kế vẫn thấp hơn, cây khoai cùng độ tuổi. Cảnh này tạo kết quả mới: Phần vun được nối dài; đất không phủ kín ngọn lá. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
-- **Tham chiếu:** B03; P01; D02
-
-#### S132 — Kết thúc hàng vun rồi đổi việc
-
-**07:35–07:38 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai B03. Sáng khoảng ngày 50 Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai B03. Sáng khoảng ngày 50 Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D02 Cuốc cán gỗ.
 - **Trạng thái đầu:** Sau phần việc lặp được lược, cô tới cuối hàng, gốc đã phủ đất cao đều.
-- **Hành động:** Cô kéo nốt đất ở mép vào chân cây cuối, nhấc cuốc rồi xoay về phía luống dưa còn trống.
+- **Hành động:** Sau phần vun lặp, cô kéo nốt đất cạnh cây cuối rồi xoay về luống dưa.
 - **Kết quả cuối:** Hàng khoai vun xong; cô chuyển công việc sang gieo dưa.
-- **Nối cảnh:** Nối S131 → S132 → S133. Sau phần việc lặp được lược, cô tới cuối hàng, gốc đã phủ đất cao đều. Cảnh này tạo kết quả mới: Hàng khoai vun xong; cô chuyển công việc sang gieo dưa. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
+- **Liên tục và điểm cắt:** Hàng vun đã dài thêm; lược lượt kéo giống nhau ở giữa. Sau đó nối S083.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; B07; P01; D02
 
-#### S133 — Mang hạt và đồ làm giàn ra luống mới
+#### S083 — Làm dải đất dưới giàn sắp dựng
 
-**07:38–07:42 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:43.6–04:46.7 · 3.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn người, giỏ tre và luống trống; máy cố định. Giữ quan hệ luống–lối–nhà và đúng hình khung tre; vị trí cây và dụng cụ phải kế thừa qua góc sau.
-- **Địa điểm, thời gian và ánh sáng:** Lối cạnh luống dưa chuột B07 Sau khi vun xong, cùng buổi sáng Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
-- **Trạng thái đầu:** Bó tre, vồ và dây buộc đã được mang tới lối trước phần dựng; cô cầm giỏ tre có gói hạt dưa, xẻng nhỏ và dây mềm.
-- **Hành động:** Cô bước đến đầu luống, hạ giỏ xuống lối rồi đưa tay lấy cuốc đặt gần đó.
-- **Kết quả cuối:** Hạt và dụng cụ ở cạnh đúng luống, chưa có cây dưa hoặc giàn dựng.
-- **Nối cảnh:** Dùng giỏ D01 đã thu gọn từ các buổi trước; gói hạt là vật mới được mang ra, không tự xuất hiện trong tay.
-- **Âm thanh:** Giỏ đặt nền, tre và cán gỗ chạm nhẹ.
-- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15
-
-#### S134 — Làm tơi dải gieo dưới giàn
-
-**07:42–07:46 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung chéo bên, tay–cuốc–đất rõ; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Luống dưa chuột B07 Cùng buổi sáng Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
-- **Trạng thái đầu:** Luống có sẵn, mặt còn thô; vật liệu tre trên lối bên ngoài vùng cuốc.
-- **Hành động:** Cô xới nhẹ dải đất dành gieo, kéo vụn đất về chỗ thấp rồi dịch chân theo luống.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Lối cạnh luống dưa chuột B07  Sau khi vun xong, cùng buổi sáng  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D13 Vồ gỗ đóng cọc, D14 Giàn tre chữ A cho dưa, D15 Gói hạt dưa và dây mềm bổ sung.
+- **Trạng thái đầu:** Luống dưa chưa có cây; giỏ hạt, xẻng và bó tre đã mang tới, phần hạ giỏ được lược; cô cầm cuốc ở lối.
+- **Hành động:** Giỏ hạt đã ở lối qua phần hạ được lược; cô xới nhẹ dải gieo, kéo đất vụn về chỗ thấp.
 - **Kết quả cuối:** Một dải gieo tơi hơn, chưa tạo hố hoặc đặt hạt.
-- **Nối cảnh:** Chỉ lượt làm tiêu biểu; phần còn lại lược trước cảnh dựng cọc. Không tăng diện tích vườn.
-- **Âm thanh:** Cuốc và đất, vải áo nhẹ.
+- **Liên tục và điểm cắt:** Ra ở mặt gieo tơi, bó tre vẫn ở cạnh luống. Sau đó nối S084.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15
 
-#### S135 — Dựng cặp tre đầu giàn
+#### S084 — Dựng cặp tre đầu
 
-**07:46–07:50 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:46.7–04:50.5 · 3.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung toàn thân, thấy chân tre và dải gieo; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng luống dưa chuột Cùng buổi sáng Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng luống dưa chuột  Cùng buổi sáng  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D13 Vồ gỗ đóng cọc, D14 Giàn tre chữ A cho dưa, D15 Gói hạt dưa và dây mềm bổ sung.
 - **Trạng thái đầu:** Dải gieo đã làm tơi. Chân tre đặt ngoài các vị trí sẽ gieo; cặp đầu có hai thanh tre dài, vồ ở lối.
-- **Hành động:** Cô dựng nghiêng một thanh về thanh đối diện đã tựa sẵn, chỉnh chân cho hai thanh giao nhau thành chữ A.
+- **Hành động:** Cô đưa thanh tre tựa vào thanh đối diện, chỉnh chân để hai thanh giao thành chữ A.
 - **Kết quả cuối:** Cặp tre đầu đứng ở tư thế chuẩn bị buộc; chưa có cả giàn hoàn chỉnh.
-- **Nối cảnh:** Dựng trước khi gieo để tránh dẫm lên hạt hoặc chọc rễ. Tre đã được cắm chân đủ ban đầu trong nhịp lược, không tự đứng trên mặt đất.
-- **Âm thanh:** Tre chạm tre, chân tre cọ đất.
+- **Liên tục và điểm cắt:** Khung thấy chân và đỉnh, không cận mất cấu trúc. Sau đó nối S085.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15
 
-#### S136 — Siết nút buộc đỉnh tre
+#### S085 — Buộc mối giao tre
 
-**07:50–07:53 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:50.5–04:53.8 · 3.3 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận nút giao hai thanh và bàn tay; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Đỉnh cặp tre đầu Cùng buổi sáng Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Đỉnh cặp tre đầu  Cùng buổi sáng  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D13 Vồ gỗ đóng cọc, D14 Giàn tre chữ A cho dưa, D15 Gói hạt dưa và dây mềm bổ sung.
 - **Trạng thái đầu:** Dây đã quấn vài vòng quanh chỗ giao; một tay cô giữ cặp tre đứng.
-- **Hành động:** Cô kéo đầu dây cho các vòng ôm chắc, luồn nút chốt rồi thử nhẹ bằng tay.
+- **Hành động:** Cô siết vòng dây ở nút giao, luồn chốt rồi thử nhẹ cho chắc.
 - **Kết quả cuối:** Cặp tre đầu được buộc chắc, không lắc rời hoặc tự xoay.
-- **Nối cảnh:** Chỉ phần cuối một nút buộc; không yêu cầu quấn và hoàn thành toàn bộ từ dây thẳng trong ba giây.
-- **Âm thanh:** Dây cọ tre, tiếng tre khẽ chạm.
+- **Liên tục và điểm cắt:** Ra khi nút chịu được lực, không dựng lại cặp tre sau cut. Sau đó nối S086.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15
 
-#### S137 — Khung giàn chữ A hoàn tất
+#### S086 — Giàn chữ A hoàn chỉnh
 
-**07:53–07:57 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:53.8–04:55.9 · 2.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn cô và cả luống có giàn; máy cố định. Giữ quan hệ luống–lối–nhà và đúng hình khung tre; vị trí cây và dụng cụ phải kế thừa qua góc sau.
-- **Địa điểm, thời gian và ánh sáng:** Luống dưa chuột B07 Cùng buổi sáng Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống dưa chuột B07  Cùng buổi sáng  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D13 Vồ gỗ đóng cọc, D14 Giàn tre chữ A cho dưa, D15 Gói hạt dưa và dây mềm bổ sung.
 - **Trạng thái đầu:** Hai cặp tre còn lại, thanh dọc đỉnh và các thanh leo đã được làm trong đoạn lược; cô ở mối buộc cuối.
-- **Hành động:** Cô khép nút cuối ở thanh leo thấp, buông tay rồi kiểm khung bằng một cái đẩy nhẹ.
+- **Hành động:** Sau phần dựng lặp, cô khép nút thanh leo cuối rồi đẩy nhẹ kiểm khung.
 - **Kết quả cuối:** Giàn tre nhỏ chắc, chân giàn ngoài bốn vị trí gieo; chưa có dây dưa leo lên.
-- **Nối cảnh:** Giàn gồm ba cặp tre và một thanh dọc đỉnh, thanh leo thưa, giữ hình qua mọi lần xuất hiện. Không biến khung tre thành lưới kim loại.
-- **Âm thanh:** Dây, tre, bước chân nhẹ.
+- **Liên tục và điểm cắt:** Giàn có ba cặp và thanh đỉnh, chưa có dây dưa mọc. Sau đó nối S087.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15
 
-#### S138 — Mở hốc gieo cạnh chân giàn
+#### S087 — Mở hốc rồi đặt hạt dưa
 
-**07:57–08:00 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:55.9–04:59.9 · 4.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận hơi cao, xẻng nhỏ và thành hốc; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Dải gieo dưới giàn B07 Cùng buổi sáng Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Dải gieo dưới giàn B07  Cùng buổi sáng  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D13 Vồ gỗ đóng cọc, D14 Giàn tre chữ A cho dưa, D15 Gói hạt dưa và dây mềm bổ sung.
 - **Trạng thái đầu:** Giàn đã chắc; dải gieo còn chưa có hạt. Xẻng nhỏ lấy từ giỏ, gói hạt ở cạnh.
-- **Hành động:** Cô dùng mũi xẻng mở một hốc nông ở vị trí gieo đầu, gạt đất tơi sang mép.
-- **Kết quả cuối:** Hốc đầu sâu vừa cho hạt dưa, không thành hố đặt bầu cà chua.
-- **Nối cảnh:** Bốn vị trí gieo có khoảng cách cho dây leo, tránh sát chân tre. Chọn độ sâu theo hạt, không phủ sơ như hạt rau dền.
-- **Âm thanh:** Mũi xẻng và đất vụn.
+- **Hành động:** Cô dùng xẻng mở một hốc nông, đặt một hạt thon dẹt vào đáy.
+- **Kết quả cuối:** Một hạt dưa đã nằm ở đáy hốc đầu, chưa phủ; giàn và chân tre giữ nguyên.
+- **Liên tục và điểm cắt:** Ra ở hạt nằm yên, chân tre làm mốc; shot sau tiếp phần phủ. Sau đó nối S088.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15
 
-#### S139 — Đặt hạt dưa đầu tiên
+#### S088 — Phủ hạt trong hốc
 
-**08:00–08:04 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**04:59.9–05:02.5 · 2.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung chéo bên, thấy hốc và tay; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng vị trí gieo đầu Cùng buổi sáng Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
-- **Trạng thái đầu:** Gói giấy đã mở trong đoạn lược, một hạt dưa trong tay; hốc đầu còn trống.
-- **Hành động:** Cô hạ hạt xuống hốc, buông nhẹ rồi chuyển tay về phần đất tơi bên mép.
-- **Kết quả cuối:** Hạt đầu nằm trong hốc; chưa phủ, các vị trí khác chưa gieo.
-- **Nối cảnh:** Một hạt cho mỗi vị trí, bốn vị trí cho quy mô gia đình. Hạt thon dẹt màu sáng, không biến thành hạt cà chua nhỏ.
-- **Âm thanh:** Giấy sột soạt nhẹ, âm sân; không khuếch đại tiếng hạt.
-- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15
-
-#### S140 — Khép đất trên hạt
-
-**08:04–08:07 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận tay và hốc đầu; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng vị trí gieo đầu Cùng buổi sáng Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng vị trí gieo đầu  Cùng buổi sáng  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D13 Vồ gỗ đóng cọc, D14 Giàn tre chữ A cho dưa, D15 Gói hạt dưa và dây mềm bổ sung.
 - **Trạng thái đầu:** Hạt vừa được đặt nằm yên trong hốc.
-- **Hành động:** Cô kéo đất mịn từ mép vào che hạt, ấn rất nhẹ rồi rút tay.
+- **Hành động:** Cô kéo đất tơi che hạt vừa đặt rồi ấn rất nhẹ.
 - **Kết quả cuối:** Hốc đầu đã được phủ, mặt còn tơi; không có cây nhú.
-- **Nối cảnh:** Nối S139, không đặt lại hạt. Lớp phủ phù hợp hạt dưa, không nén cứng hoặc hất bật hạt ra.
-- **Âm thanh:** Đất vụn và tay nhẹ.
+- **Liên tục và điểm cắt:** Không đặt lại hạt; lược gieo ba vị trí còn lại trước tưới. Sau đó nối S089.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15
 
-#### S141 — Tưới các vị trí vừa gieo dưa
+#### S089 — Tưới nhẹ các hốc đã gieo
 
-**08:07–08:11 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**05:02.5–05:06.5 · 4.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Đầu luống dưa chuột Cùng buổi sáng Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
-- **Trạng thái đầu:** Sau các lượt gieo/phủ lặp được lược, cả bốn hốc đã phủ; xô/gáo ở lối cạnh giàn.
-- **Hành động:** Cô rải nước nhẹ lên hốc đầu rồi đưa gáo trở lại xô, mắt chuyển theo hốc kế.
-- **Kết quả cuối:** Hốc đầu ẩm; hốc thứ hai còn chờ lượt nước tiếp theo.
-- **Nối cảnh:** Nối S140 → S141 → S142. Sau các lượt gieo/phủ lặp được lược, cả bốn hốc đã phủ; xô/gáo ở lối cạnh giàn. Cảnh này tạo kết quả mới: Hốc đầu ẩm; hốc thứ hai còn chờ lượt nước tiếp theo. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Nước rơi lên đất, lá nền.
-- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15
-
-#### S142 — Nước thấm ở chỗ gieo kế
-
-**08:11–08:14 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận vùng gieo thứ hai, miệng gáo ở rìa khung; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Vị trí gieo thứ hai dưới giàn Cùng buổi sáng Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
-- **Trạng thái đầu:** Qua điểm cắt cô đã múc lượt mới, chỗ thứ hai còn nhạt.
-- **Hành động:** Lượt nước mới rải xuống vùng thứ hai, các giọt lắng vào đất rồi dứt.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Đầu luống dưa chuột  Cùng buổi sáng  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D13 Vồ gỗ đóng cọc, D14 Giàn tre chữ A cho dưa, D15 Gói hạt dưa và dây mềm bổ sung.
+- **Trạng thái đầu:** Cả bốn vị trí đã gieo/phủ qua các lượt lặp được lược; gáo có nước trong tay, xô ngoài lối.
+- **Hành động:** Cô rải một lượt nước thấp lên hốc thứ nhất, đưa tay sang hốc thứ hai cho lượt mới.
 - **Kết quả cuối:** Chỗ thứ hai đã ẩm; hạt vẫn ở dưới lớp phủ.
-- **Nối cảnh:** Không phát lại lượt S141. Hai vị trí cuối được tưới trong đoạn lược trước khi chuyển ngày.
-- **Âm thanh:** Giọt nước và âm vườn, không tiếng thấm phóng đại.
+- **Liên tục và điểm cắt:** Ra khi hai vùng đất đã sẫm; những hốc còn lại được tưới trong phần lặp lược. Sau đó nối S090.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15
 
-#### S143 — Dưa chuột nhú lá mầm
+#### S090 — Dưa nhú lá mầm
 
-**08:14–08:18 · 4 giây · Máy cố định · Timelapse · Chờ duyệt**
+**05:06.5–05:10.6 · 4.1 giây · Timelapse · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận một vị trí gieo, chân tre làm mốc; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Luống dưa chuột B07 Khoảng ngày 50 → 58 của câu chuyện Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Không có người; chỉ khu vườn hoặc cây và khung tre đúng trạng thái.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Luống dưa chuột B07  Khoảng ngày 50 → 58 của câu chuyện  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
 - **Trạng thái đầu:** Bốn hạt đã gieo và tưới, đất được giữ ẩm; giàn có sẵn.
-- **Hành động:** Một mầm đội đất lên, thân nâng và hai lá mầm tròn dày mở ra; vị trí lân cận nhú lệch nhịp.
+- **Hành động:** Timelapse từ gieo khoảng ngày 50 tới ngày 58, mầm đội đất và mở hai lá mầm dày.
 - **Kết quả cuối:** Bắt đầu có bốn cây dưa ở đúng bốn chỗ gieo; chưa phủ kín giàn hoặc có quả.
-- **Nối cảnh:** Nén nhiều ngày, không phải mọc ngay sau tưới. Không thêm mầm ngoài vị trí đã gieo hoặc đổi thành lá cà chua.
-- **Âm thanh:** Âm vườn dịu theo ngày, không tiếng mọc cây hoặc tăng tốc âm.
+- **Liên tục và điểm cắt:** Giữ chân giàn làm mốc; chưa có quả hoặc tán kín giàn. Sau đó nối S091.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15
 
-#### S144 — Kiểm tra cây dưa vừa lên
+#### S091 — Quan sát bốn chỗ mọc
 
-**08:18–08:21 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**05:10.6–05:12.5 · 1.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung cô ngồi ở lối cạnh giàn; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Luống dưa chuột B07 Sáng khoảng ngày 58 Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống dưa chuột B07  Sáng khoảng ngày 58  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D13 Vồ gỗ đóng cọc, D14 Giàn tre chữ A cho dưa, D15 Gói hạt dưa và dây mềm bổ sung.
 - **Trạng thái đầu:** Bốn cây có lá mầm, một số mới hé lá thật; đất mặt đủ ẩm.
-- **Hành động:** Cô ngồi thấp, nhìn lần lượt các cây, nhẹ gạt một vụn đất rời khỏi khoảng trống sát mép hốc.
+- **Hành động:** Cô ngồi ngoài luống, gạt một vụn đất rời cạnh hốc; bốn cây non phân bố đúng vị trí.
 - **Kết quả cuối:** Cây đứng nguyên, mặt đất quanh chỗ gieo gọn; không nhổ cây để kiểm rễ.
-- **Nối cảnh:** Quan sát ngắn nối kết quả S143. Chưa dẫn một cây chỉ có lá mầm lên cao trên giàn.
-- **Âm thanh:** Vải áo, tay chạm đất rất nhẹ, chim sáng.
+- **Liên tục và điểm cắt:** Ra khi quan hệ cây–giàn rõ, không thêm cận mặt phản ứng. Sau đó nối S092.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15
 
-#### S145 — Dây dưa dài dần dưới giàn
+#### S092 — Dây dưa vươn lên thanh thấp
 
-**08:21–08:25 · 4 giây · Máy cố định · Timelapse · Chờ duyệt**
+**05:12.5–05:17.0 · 4.5 giây · Timelapse · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung cả giàn tre, máy khóa chắc; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Luống dưa chuột B07 Sau ngày 58 → khoảng ngày 70 Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Không có người; chỉ khu vườn hoặc cây và khung tre đúng trạng thái.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Luống dưa chuột B07  Sau ngày 58 → khoảng ngày 70  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
 - **Trạng thái đầu:** Bốn cây còn thấp, giàn trống phần trên.
-- **Hành động:** Lá thật mở thêm, ngọn vươn dài về các thanh leo; tua xuất hiện và một số tự chạm giàn.
+- **Hành động:** Timelapse tới khoảng ngày 70: lá thật mở, ngọn dài thêm, tua chạm các thanh tre.
 - **Kết quả cuối:** Dây đủ dài để được dẫn lên thanh thấp; giàn vẫn còn nhiều khoảng trống, chưa có quả thu hoạch.
-- **Nối cảnh:** Cây lớn trong nhiều ngày, chân cây và thanh tre giữ cùng vị trí; chăm nước giữa các ngày được lược. Không hòa hình biến giàn trống thành giàn kín quả.
-- **Âm thanh:** Gió và chim nhẹ, không tiếng tăng trưởng.
+- **Liên tục và điểm cắt:** Không tua nhanh thao tác tay, chưa có quả thu hoạch. Sau đó nối S093.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15
 
-#### S146 — Dẫn ngọn dưa tới thanh thấp
+#### S093 — Dẫn và thả ngọn dưa
 
-**08:25–08:28 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**05:17.0–05:20.9 · 3.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung chéo bên, tay và đường dây leo rõ; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng giàn dưa Sáng khoảng ngày 70 Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng giàn dưa  Sáng khoảng ngày 70  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D02 Cuốc cán gỗ, D03 Xẻng nhỏ, D05 Xô gỗ và gáo gỗ tưới vườn, D13 Vồ gỗ đóng cọc, D14 Giàn tre chữ A cho dưa, D15 Gói hạt dưa và dây mềm bổ sung.
 - **Trạng thái đầu:** Một ngọn đã đủ dài nhưng đang lệch khỏi thanh leo thấp.
-- **Hành động:** Cô luồn bàn tay đỡ phần ngọn có lá, nâng rất nhẹ để dây tựa cạnh thanh tre rồi nới tay.
-- **Kết quả cuối:** Ngọn nằm gần chỗ bám, thân không bị kéo căng; tua mới chạm thanh.
-- **Nối cảnh:** Chỉ đưa hướng, không cuộn cưỡng bức cả dây quanh cọc hoặc bẻ thân. Không tự sinh dây buộc trên thân dưa.
-- **Âm thanh:** Lá cọ tay và tre nhẹ, chim.
-- **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15
-
-#### S147 — Tua dưa chạm thanh tre
-
-**08:28–08:32 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận ngọn vừa dẫn, tua và thanh tre rõ; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng thanh leo thấp Cùng buổi sáng Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
-- **Trạng thái đầu:** Ngọn vừa tựa vào thanh; một tua chạm bề mặt tre nhưng chưa quấn kín.
-- **Hành động:** Cô rút tay khỏi ngọn; lá và tua rung rất nhẹ, ngọn vẫn tựa ổn định.
+- **Hành động:** Cô nâng nhẹ phần ngọn đặt tựa vào thanh thấp, nới tay rồi rút ra khi ngọn ổn.
 - **Kết quả cuối:** Thấy kết quả dẫn dây, không giả tua cuốn hết trong ba giây.
-- **Nối cảnh:** Tiếp S146; sự tự bám sẽ phát triển theo thời gian ở các cảnh sau. Không tua nhanh bàn tay.
-- **Âm thanh:** Lá cọ tre rất nhẹ, âm nền vườn.
+- **Liên tục và điểm cắt:** Ra ở ngọn vẫn tựa sau tay rút; tua không quấn hết trong vài giây. Sau đó nối S094.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D01; D02; D03; D05; D13; D14; D15
 
-#### S148 — Dẫn ngọn kế theo giàn
+#### S094 — Dẫn dây kế trên giàn
 
-**08:32–08:35 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**05:20.9–05:22.9 · 2.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống dưa B07. Sáng khoảng ngày 70 Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống dưa B07. Sáng khoảng ngày 70 Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D14 Giàn tre chữ A cho dưa.
 - **Trạng thái đầu:** Ngọn đầu đã tựa thanh thấp; một dây dưa kế còn nghiêng ra lối.
-- **Hành động:** Cô dịch tới dây kế, đỡ nhẹ phần ngọn đưa vào phía giàn rồi thả khi dây tựa ổn định.
+- **Hành động:** Cô dịch sang dây thứ hai, đưa ngọn vào phía giàn; khung thấy khoảng giàn còn trống.
 - **Kết quả cuối:** Các ngọn nằm trong vùng giàn, lối đi thoáng; không ép tua quấn tức thì.
-- **Nối cảnh:** Nối S147 → S148 → S149. Ngọn đầu đã tựa thanh thấp; một dây dưa kế còn nghiêng ra lối. Cảnh này tạo kết quả mới: Các ngọn nằm trong vùng giàn, lối đi thoáng; không ép tua quấn tức thì. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
+- **Liên tục và điểm cắt:** Ra ở tiến độ thêm một dây, không quay lại ngọn đầu. Sau đó nối S095.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D14
 
-#### S149 — Buộc thêm dây đỡ cà chua
+#### S095 — Nới dây đỡ cà chua lớn
 
-**08:35–08:39 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**05:22.9–05:26.3 · 3.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung chéo từ lối, thấy cọc và thân đã cao hơn; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Luống cà chua B06 Sau khi dẫn dưa, cùng buổi sáng ngày 70 Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống cà chua B06  Sau khi dẫn dưa, cùng buổi sáng ngày 70  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D12 Sáu cọc tre và dây vải mềm.
 - **Trạng thái đầu:** Sáu cây đã lớn từ lúc trồng ngày 44; có thêm nhánh và một số chùm hoa. Dây cũ còn thấp, dây mềm mới trong giỏ cô mang theo.
-- **Hành động:** Cô vòng đoạn dây mềm mới ở phần thân cao hơn, khép vòng lỏng và thắt phía cọc.
+- **Hành động:** Cô khép vòng dây mềm mới ở đoạn thân cao hơn, thắt phía cọc và thử độ hở.
 - **Kết quả cuối:** Một đoạn thân mới được đỡ; dây cũ không biến mất, ngọn và chùm hoa tự do.
-- **Nối cảnh:** Lược quãng đi giữa hai luống; cọc vẫn đúng sáu cọc D12. Nút bắt đầu từ dây đã vòng sơ, không đòi thắt trọn chuỗi dài trong bốn giây.
-- **Âm thanh:** Vải mềm cọ tre, lá nhẹ.
+- **Liên tục và điểm cắt:** Ra khi nút giữ được thân, không siết hoặc đóng thêm cọc sát rễ. Sau đó nối S096.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; P01; D01; D12
 
-#### S150 — Bấm một chồi nách còn nhỏ
+#### S096 — Bấm chồi nách nhỏ
 
-**08:39–08:42 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**05:26.3–05:28.6 · 2.3 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận nách lá và tay, không che chùm hoa; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Một cây cà chua thân cao Cùng buổi sáng Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Một cây cà chua thân cao  Cùng buổi sáng  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D12 Sáu cọc tre và dây vải mềm.
 - **Trạng thái đầu:** Chồi non nhỏ nằm ở nách giữa thân chính và cuống lá; phân biệt rõ với ngọn và chùm hoa.
-- **Hành động:** Cô dùng ngón tay bấm gọn chồi nách nhỏ, đưa chồi ra khỏi tán.
+- **Hành động:** Cô bấm một chồi nách nhỏ, đưa chồi rời ra khỏi tán.
 - **Kết quả cuối:** Chồi đã được lấy ra; thân chính, lá lớn và chùm hoa vẫn nguyên.
-- **Nối cảnh:** Chỉ một lượt tiêu biểu cho kiểu cà chua thân cao đã chọn; không tước sạch lá hoặc bẻ chùm hoa. Không có sâu bệnh hay xử lý hóa chất.
-- **Âm thanh:** Tiếng bấm rất nhẹ, lá xào xạc.
+- **Liên tục và điểm cắt:** Một sự kiện nhỏ kết ở chồi đã rời, không kéo dài tay giữ chồi. Sau đó nối S097.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; P01; D01; D12
 
-#### S151 — Hoa cà chua trong tán xanh
+#### S097 — Hoa trên cây đang được chăm
 
-**08:42–08:46 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**05:28.6–05:31.3 · 2.7 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận chùm hoa vàng còn trên cây; máy cố định. Giữ cùng phía trục thao tác; cận có mép luống, chân tre hoặc thân cây làm mốc; không đảo chiều tay vô cớ.
-- **Địa điểm, thời gian và ánh sáng:** Cùng luống cà chua Cùng buổi sáng Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; cuốc D02, xẻng D03, xô/gáo D05, giỏ D01 và hạt/giàn theo hành động.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng luống cà chua  Cùng buổi sáng  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D12 Sáu cọc tre và dây vải mềm.
 - **Trạng thái đầu:** Chùm hoa còn nguyên sau chăm cây; dây đỡ và cọc có thể mờ trong nền.
-- **Hành động:** Chùm hoa rung nhẹ theo gió; không có tay can thiệp hoặc quả đỏ xuất hiện.
+- **Hành động:** Chùm hoa rõ ở tiền cảnh rung nhẹ; ở lớp sau cô chuyển tay sang dây đỡ kế, không nhìn máy.
 - **Kết quả cuối:** Xác lập giai đoạn ra hoa; chưa thu hoạch cà chua.
-- **Nối cảnh:** Cảnh kết quả sau S150, chùm hoa không phải chồi vừa bấm. Không quay ngược về cây con trong chậu.
-- **Âm thanh:** Gió và lá nhẹ; không tiếng hoa nở giả.
+- **Liên tục và điểm cắt:** Hoa là trạng thái mới của cây, lao động vẫn tiếp diễn ở nền. Sau đó nối S098.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; P01; D01; D12
 
-#### S152 — Chó nằm cạnh lối khi cô chăm vườn
+#### S098 — Cô chăm cây, chó nằm cạnh lối
 
-**08:46–08:49 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**05:31.3–05:36.9 · 5.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn cô, hàng cà chua và lối có bóng mát; máy cố định. Giữ quan hệ luống–lối–nhà và đúng hình khung tre; vị trí cây và dụng cụ phải kế thừa qua góc sau.
-- **Địa điểm, thời gian và ánh sáng:** Lối vườn cạnh luống cà chua Cùng buổi sáng ngày 70 Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 và chó P04; sáu cây cà chua và lối ngoài luống.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Lối vườn cạnh luống cà chua  Cùng buổi sáng ngày 70  Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01; Chó P04. Dụng cụ: D12 Sáu cọc tre và dây vải mềm.
 - **Trạng thái đầu:** Cô chuyển sang kiểm dây đỡ ở cây kế; chó đi vào từ lối phía sau, chưa xuất hiện ở cảnh trước.
-- **Hành động:** Cô tiếp tục chỉnh dây ở cây kế, chó đi chậm vào bóng mát cạnh lối rồi nằm xuống.
-- **Kết quả cuối:** Công việc vẫn tiếp diễn; chó ở ngoài luống, cà chua đang ra hoa và dưa còn leo non.
-- **Nối cảnh:** Kết C07; không tương tác làm gián đoạn việc, không để chó giẫm cây. Rau dền chưa gieo; chưa có nông sản được thu hoạch.
-- **Âm thanh:** Bước chân chó nhẹ, áo và lá; không bắt buộc sủa, không nhạc/thoại.
-- **Tham chiếu:** B06; P01; P04; D12
-
-#### S153 — Chỉnh dây cho cây cà chua kế
-
-**08:49–08:53 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống cà chua B06. Cùng buổi sáng ngày 70 Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
-- **Trạng thái đầu:** Cô vẫn ở luống cà chua, chó đã nằm ngoài lối trồng, chùm hoa chưa thành quả đỏ.
-- **Hành động:** Cô nâng nhẹ cành đang nghiêng rồi nới và chỉnh dây đỡ ở cọc cây kế.
-- **Kết quả cuối:** Cành đứng thoáng, dây không siết; chó tiếp tục nghỉ ngoài luống.
-- **Nối cảnh:** Nối S152 → S153 → S154. Cô vẫn ở luống cà chua, chó đã nằm ngoài lối trồng, chùm hoa chưa thành quả đỏ. Cảnh này tạo kết quả mới: Cành đứng thoáng, dây không siết; chó tiếp tục nghỉ ngoài luống. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
-- **Tham chiếu:** B06; P01; P04; D12
-
-#### S154 — Chuyển sang cây cuối hàng
-
-**08:53–08:56 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống cà chua B06. Cùng buổi sáng ngày 70 Ánh sáng theo mốc ngày; cảnh thao tác sáng dịu, các cảnh timelapse thể hiện thời gian trôi, không gán dấu hiệu mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
-- **Trạng thái đầu:** Sau những cây giữa được lược, cô đang chỉnh dây ở cây cuối; cành hoa nằm sát tay.
-- **Hành động:** Cô khép nút phía cọc, buông tay rồi đi dọc lối nhìn lại hàng cây vừa chăm.
+- **Hành động:** Cô hoàn tất chỉnh dây ở cây kế, dịch theo hàng; chó đi vào bóng mát ngoài luống rồi nằm xuống.
 - **Kết quả cuối:** Hàng cà chua được đỡ chắc, hoa vẫn trên cây; chưa sang ngày mới.
-- **Nối cảnh:** Nối S153 → S154 → S155. Sau những cây giữa được lược, cô đang chỉnh dây ở cây cuối; cành hoa nằm sát tay. Cảnh này tạo kết quả mới: Hàng cà chua được đỡ chắc, hoa vẫn trên cây; chưa sang ngày mới. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
-- **Tham chiếu:** B06; P01; D12
+- **Liên tục và điểm cắt:** Giữ tiến triển của cả việc và vật nuôi trong một khung, lược cây chỉnh giống nhau. Sau đó nối S099.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B06; P01; P04; D12
 
-## C08 — Gieo rau dền và theo vườn tới ngày thu hoạch
+## C08 — Gieo dền, chăm quả và chờ tới độ thu
 
-**28 shot · 100 giây · 08:56–10:36.**
-
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
 |---|---|---:|---|---|
-| S155 | 08:56–09:00 | 4 | Toàn nhà và vườn, góc khóa đã dùng | Nắng và bóng cây đi qua vườn theo các chu kỳ ngày được nén; không có người trong khung. |
-| S156 | 09:00–09:04 | 4 | Toàn | Cô kéo cào dàn đất từ chỗ cao sang chỗ thấp, bước dịch theo dải đất vừa làm. |
-| S157 | 09:04–09:08 | 4 | Cận thấp, răng cào và mặt đất rõ | Răng cào kéo tiếp qua dải mới, vụn đất nhỏ tản đều khi cô nhấc cào. |
-| S158 | 09:08–09:12 | 4 | Trung | Cô nghiêng gói cho ít hạt vào bát, đặt gói xuống rồi đảo nhẹ hạt với cát bằng đầu ngón tay. |
-| S159 | 09:12–09:16 | 4 | Toàn cô và dải gieo, góc chéo hơi cao | Cô rải nhúm nhỏ thành dải thưa, đi đều dọc lối và tiếp tục lấy nhúm kế. |
-| S160 | 09:16–09:19 | 3 | Trung tay và mặt luống | Cô rắc một lớp đất mịn mỏng lên dải vừa gieo, tay đi đều theo mặt luống. |
-| S161 | 09:19–09:23 | 4 | Toàn người, luống và xô ở lối | Cô hất nước thấp thành quạt nhẹ phủ một đoạn đầu luống, hạ gáo về xô. |
-| S162 | 09:23–09:26 | 3 | Cận mặt đất, mép gáo ở rìa khung | Các giọt từ lượt tưới mới rơi xuống, bề mặt sẫm và nước lắng vào vụn đất. |
-| S163 | 09:26–09:30 | 4 | Trung thấp dọc mặt luống, góc khóa | Mầm nhỏ nhú rải đều, mở lá mầm rồi hé lá thật đầu; các cụm tăng không đồng loạt. |
-| S164 | 09:30–09:33 | 3 | Trung chéo bên, thấy cô và khoảng cây nhỏ | Cô giữ mặt đất quanh cây muốn để lại, lấy bớt một cây chen quá gần rồi chuyển tay sang cụm kế. |
-| S165 | 09:33–09:37 | 4 | Toàn | Cô ngồi trên lối, nhổ một cây cỏ ở khoảng trống cạnh gốc rồi gom vào rổ vụn. |
-| S166 | 09:37–09:40 | 3 | Trung | Cô múc gáo rồi rót thấp quanh vùng rễ, đưa tay tiếp sang phía đất còn khô. |
-| S167 | 09:40–09:44 | 4 | Cận một chùm, cọc và dây làm mốc | Cánh hoa tàn tự nhiên, phần quả xanh lớn dần từ dưới đài; các quả trong chùm tăng lệch nhau. |
-| S168 | 09:44–09:47 | 3 | Trung cô bên một cây, thấy cọc và chùm | Cô luồn tay đỡ nhẹ dưới chùm để nhìn cuống, tay kia đưa lá che sang bên rồi buông. |
-| S169 | 09:47–09:51 | 4 | Cận cuống và bề mặt quả còn xanh | Quả rung rất nhẹ rồi dừng, cuống nối nguyên vào cành; ánh sáng lướt trên vỏ xanh. |
-| S170 | 09:51–09:54 | 3 | Trung | Cô đỡ cành bằng một tay, tay kia đưa dây đỡ về cọc để giữ cành khỏi sà xuống. |
-| S171 | 09:54–09:58 | 4 | Toàn | Cô khép nút lỏng phía cọc, thả tay rồi bước sang cây kế để tiếp tục chăm. |
-| S172 | 09:58–10:01 | 3 | Cận một đốt dây, hoa và quả non | Hoa tàn tự nhiên, bầu quả xanh kéo dài chậm; các tua gần đó bám thêm vào thanh leo. |
-| S173 | 10:01–10:05 | 4 | Trung cô và mảng giàn, thấy quả nhỏ | Cô đưa lá sang bên, nhẹ dẫn quả ra khoảng trống giữa hai thanh rồi rút tay. |
-| S174 | 10:05–10:08 | 3 | Cận quả nhỏ, cuống và đài hoa rõ | Quả khẽ đung đưa rồi đứng yên giữa khoảng lá, tua gần đó đã quấn tre. |
-| S175 | 10:08–10:12 | 4 | Toàn | Cô múc và rải nước thấp quanh gốc dưa, tay đi theo phần đất cần tưới dưới giàn. |
-| S176 | 10:12–10:15 | 3 | Cận chùm đã mang quả xanh, cùng mốc cọc | Một vài quả chuyển từ xanh sang ửng rồi đỏ, các quả kế vẫn xanh hoặc hồng nhạt. |
-| S177 | 10:15–10:19 | 4 | Toàn cô và luống rau dền | Cô đi dọc lối, ngồi thấp và đưa tay đỡ nhẹ một ngọn để nhìn độ lớn của lá. |
-| S178 | 10:19–10:22 | 3 | Cận ngọn dền và tay đỡ ở bên dưới | Cô buông tay cho ngọn trở lại, các lá mở mềm trong ánh sáng dịu. |
-| S179 | 10:22–10:26 | 4 | Toàn | Cô đi chậm theo lối, cúi nhìn thêm dải rau kế rồi đứng lên hướng về hàng khoai. |
-| S180 | 10:26–10:29 | 3 | Trung một đoạn hàng khoai, máy cố định | Lá già khẽ lay theo gió; mặt đất và đường vun vẫn nguyên. |
-| S181 | 10:29–10:33 | 4 | Toàn khu vườn, góc khóa thấy các khu trồng | Bóng chiều rút khỏi sân, ánh sáng tắt rồi ban mai lên lại; các công trình và luống giữ nguyên. |
-| S182 | 10:33–10:36 | 3 | Toàn cô đi từ hiên tới lối vườn | Cô mang giỏ đi vào lối cạnh các luống, dừng gần chỗ đặt giỏ để bắt đầu thu. |
+| S099 | 05:36.9–05:40.0 | 3.1 | Toàn | Timelapse khu nhà–vườn đổi bóng nắng, tiến tới khoảng ngày 75. |
+| S100 | 05:40.0–05:44.0 | 4.0 | Cận | Cô kéo cào qua một dải đất, vụn tơi dàn đều rồi nhấc cào sang bên. |
+| S101 | 05:44.0–05:47.8 | 3.8 | Cận | Cô cho ít hạt li ti vào bát cát mịn sạch, đảo nhẹ bằng đầu ngón tay rồi lấy nhúm đầu. |
+| S102 | 05:47.8–05:51.2 | 3.4 | Cận | Cô rải nhúm cát trộn hạt thành dải, tay tiến sang đoạn đất chưa gieo. |
+| S103 | 05:51.2–05:53.9 | 2.7 | Cận | Tay cô rắc lớp đất mịn rất mỏng trên dải vừa gieo. |
+| S104 | 05:53.9–05:57.6 | 3.7 | Cận | Lượt hất nhẹ đi vào dải gieo mới; nước lắng, đất đổi sẫm trong cùng khung. |
+| S105 | 05:57.6–06:02.4 | 4.8 | Cận | Timelapse khoảng ngày 75–82: mầm xuất hiện rải đều, mở lá mầm rồi hé lá thật. |
+| S106 | 06:02.4–06:05.6 | 3.2 | Cận | Cô giữ đất quanh cây muốn để lại, nhổ một cây sát bên rồi đưa sang rổ vụn. |
+| S107 | 06:05.6–06:10.7 | 5.1 | Trung | Qua cut sang đúng luống cà chua, cô nhổ cỏ nhỏ ở vùng trống, gom ra lối rồi rót một lượt nước thấp quanh gốc. |
+| S108 | 06:10.7–06:16.1 | 5.4 | Cận | Timelapse tới khoảng ngày 90: cánh hoa tàn và quả xanh lớn dần dưới đài, các quả khác nhau về cỡ. |
+| S109 | 06:16.1–06:19.9 | 3.8 | Cận | Cô đỡ chùm xanh, vén lá để xem cuống rồi thả; quả đung nhẹ và dừng. |
+| S110 | 06:19.9–06:24.8 | 4.9 | Cận | Cô nâng cành, đưa dây về cọc rồi khép nút lỏng; chỉ rút tay khi cành đã được đỡ. |
+| S111 | 06:24.8–06:29.5 | 4.7 | Cận | Timelapse tới khoảng ngày 96: hoa cái tàn, bầu quả kéo dài, tua bám thêm vào tre. |
+| S112 | 06:29.5–06:33.1 | 3.6 | Cận | Cô vén lá, dẫn quả khỏi khe tre rồi rút tay; quả còn trên cuống, đung nhẹ. |
+| S113 | 06:33.1–06:37.7 | 4.6 | Cận | Timelapse tới khoảng ngày 103: quả đủ cỡ đổi xanh–ửng–đỏ, những quả bên vẫn xanh hoặc hồng. |
+| S114 | 06:37.7–06:41.3 | 3.6 | Cận | Cô đỡ một ngọn dền để nhìn lá, buông nhẹ; tán lá xanh pha đỏ tím đã lớn. |
+| S115 | 06:41.3–06:44.1 | 2.8 | Toàn | Hàng khoai có thân lá già vàng, khô tự nhiên; đất vun vẫn phủ kín củ. |
+| S116 | 06:44.1–06:47.7 | 3.6 | Toàn | Timelapse chiều tắt rồi ban mai trở lại trên cùng vườn; dưa đã lớn thêm trong những ngày trước. |
 
 ### Mô tả chi tiết
 
-#### S155 — Vườn bước sang đợt gieo rau cuối
+#### S099 — Tới đợt gieo rau dền
 
-**08:56–09:00 · 4 giây · Máy cố định · Timelapse · Chờ duyệt**
+**05:36.9–05:40.0 · 3.1 giây · Timelapse · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn nhà và vườn, góc khóa đã dùng; máy cố định. Giữ mốc nhà–luống–lối có thật, các giàn và cọc giữ cùng hình học qua thời gian.
-- **Địa điểm, thời gian và ánh sáng:** Khu nhà và vườn Sau ngày 70 → khoảng ngày 75 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Không có người trong khung; đúng luống hoặc quả đã xác lập.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Khu nhà và vườn  Sau ngày 70 → khoảng ngày 75  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
 - **Trạng thái đầu:** Cà chua đang ra hoa, dưa leo non trên giàn, khoai đã vun; luống rau dền còn trống.
-- **Hành động:** Nắng và bóng cây đi qua vườn theo các chu kỳ ngày được nén; không có người trong khung.
+- **Hành động:** Timelapse khu nhà–vườn đổi bóng nắng, tiến tới khoảng ngày 75.
 - **Kết quả cuối:** Tới đợt gieo rau ngắn ngày sau cùng; các luống và giàn giữ nguyên hình học.
-- **Nối cảnh:** Tiếp thời gian sau S152. Không giữ chó ở nguyên một chỗ qua nhiều ngày hoặc tự mọc rau dền trước gieo.
-- **Âm thanh:** Âm sáng–chiều dịu; không tăng tốc âm người. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Các cây cũ cùng tiến tuổi; luống dền vẫn trống. Sau đó nối S100.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B01; B03; B06; B07; B08; P01; D01
 
-#### S156 — San đất để gieo rau dền
+#### S100 — Cào mịn dải gieo dền
 
-**09:00–09:04 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**05:40.0–05:44.0 · 4.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Luống rau dền B08 Cùng buổi sáng Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; giỏ D01, cào D16, bộ hạt dền D17, xô/gáo D05 hoặc cây theo cảnh.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống rau dền B08  Cùng buổi sáng  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D05 Xô gỗ và gáo gỗ tưới vườn, D16 Cào cán gỗ, D17 Bộ gieo rau dền.
 - **Trạng thái đầu:** Cô đã tới luống với giỏ hạt và cào, đứng trên lối; rau dền chưa gieo.
-- **Hành động:** Cô kéo cào dàn đất từ chỗ cao sang chỗ thấp, bước dịch theo dải đất vừa làm.
-- **Kết quả cuối:** Một phần mặt luống đã mịn; cô tiếp tục sang dải kế.
-- **Nối cảnh:** Nối S155 → S156 → S157. Cô đã tới luống với giỏ hạt và cào, đứng trên lối; rau dền chưa gieo. Cảnh này tạo kết quả mới: Một phần mặt luống đã mịn; cô tiếp tục sang dải kế. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Răng cào kéo đất nhẹ, bước chân. Không nhạc, không lời thoại.
-- **Tham chiếu:** B08; P01; D01; D05; D16; D17
-
-#### S157 — Răng cào đi qua dải đất kế
-
-**09:04–09:08 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận thấp, răng cào và mặt đất rõ; máy cố định. Cùng phía trục thao tác; cận vẫn có cuống, mép luống hoặc thanh tre làm mốc. Không đảo chiều tay hoặc đổi cây qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Cùng luống rau dền Cùng buổi sáng Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; giỏ D01, cào D16, bộ hạt dền D17, xô/gáo D05 hoặc cây theo cảnh.
-- **Trạng thái đầu:** Dải kế còn vụn đất lớn hơn; phần vừa san đã mịn ở mép hình.
-- **Hành động:** Răng cào kéo tiếp qua dải mới, vụn đất nhỏ tản đều khi cô nhấc cào.
+- **Hành động:** Cô kéo cào qua một dải đất, vụn tơi dàn đều rồi nhấc cào sang bên.
 - **Kết quả cuối:** Dải gieo tiến thêm, mặt đủ mịn cho hạt rất nhỏ.
-- **Nối cảnh:** Nối tiến triển S156, không kéo lại một vệt. Phần mặt luống còn lại được hoàn tất trong đoạn lược.
-- **Âm thanh:** Răng gỗ và đất vụn, âm vườn. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Ra ở mặt mịn mới, phần còn lại lược trước lấy hạt. Sau đó nối S101.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B08; P01; D01; D05; D16; D17
 
-#### S158 — Chuẩn bị hỗn hợp hạt nhỏ
+#### S101 — Trộn hạt dền với cát
 
-**09:08–09:12 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**05:44.0–05:47.8 · 3.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Đầu luống rau dền Cùng buổi sáng Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; giỏ D01, cào D16, bộ hạt dền D17, xô/gáo D05 hoặc cây theo cảnh.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Đầu luống rau dền  Cùng buổi sáng  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D05 Xô gỗ và gáo gỗ tưới vườn, D16 Cào cán gỗ, D17 Bộ gieo rau dền.
 - **Trạng thái đầu:** Bát có cát mịn sạch đã sẵn; mặt luống đã san qua phần lặp được lược.
-- **Hành động:** Cô nghiêng gói cho ít hạt vào bát, đặt gói xuống rồi đảo nhẹ hạt với cát bằng đầu ngón tay.
+- **Hành động:** Cô cho ít hạt li ti vào bát cát mịn sạch, đảo nhẹ bằng đầu ngón tay rồi lấy nhúm đầu.
 - **Kết quả cuối:** Hạt phân trong cát; bát ở tầm tay để lấy nhúm gieo.
-- **Nối cảnh:** Nối S157 → S158 → S159. Bát có cát mịn sạch đã sẵn; mặt luống đã san qua phần lặp được lược. Cảnh này tạo kết quả mới: Hạt phân trong cát; bát ở tầm tay để lấy nhúm gieo. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Giấy sột soạt, bát gỗ chạm tay. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Hạt và cát phân đều, không phải phân bón. Sau đó nối S102.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B08; P01; D01; D05; D16; D17
 
-#### S159 — Rải thưa dọc mặt luống
+#### S102 — Rải thưa dọc dải đất
 
-**09:12–09:16 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**05:47.8–05:51.2 · 3.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn cô và dải gieo, góc chéo hơi cao; máy cố định. Giữ mốc nhà–luống–lối có thật, các giàn và cọc giữ cùng hình học qua thời gian.
-- **Địa điểm, thời gian và ánh sáng:** Luống rau dền B08 Cùng buổi sáng Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; giỏ D01, cào D16, bộ hạt dền D17, xô/gáo D05 hoặc cây theo cảnh.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống rau dền B08  Cùng buổi sáng  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D05 Xô gỗ và gáo gỗ tưới vườn, D16 Cào cán gỗ, D17 Bộ gieo rau dền.
 - **Trạng thái đầu:** Mặt luống đã san mịn; tay cô có nhúm cát trộn hạt, tay kia cầm bát.
-- **Hành động:** Cô rải nhúm nhỏ thành dải thưa, đi đều dọc lối và tiếp tục lấy nhúm kế.
+- **Hành động:** Cô rải nhúm cát trộn hạt thành dải, tay tiến sang đoạn đất chưa gieo.
 - **Kết quả cuối:** Dải đầu đã nhận hạt phân bố thưa; phần cuối chưa gieo.
-- **Nối cảnh:** Hạt nhỏ không cần thấy rõ từng hạt ở góc toàn; cử chỉ và dải cát thể hiện rải đều, không đổ cả bát thành một đống.
-- **Âm thanh:** Bước chân, bát và áo; âm nền vườn. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Ra khi vùng mới nhận hạt; không cần thấy từng hạt ở cả luống. Sau đó nối S103.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B08; P01; D01; D05; D16; D17
 
-#### S160 — Phủ lớp đất mịn rất mỏng
+#### S103 — Phủ đất mỏng lên hạt dền
 
-**09:16–09:19 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**05:51.2–05:53.9 · 2.7 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung tay và mặt luống; máy cố định. Cùng phía trục thao tác; cận vẫn có cuống, mép luống hoặc thanh tre làm mốc. Không đảo chiều tay hoặc đổi cây qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Cùng luống rau dền Cùng buổi sáng Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; giỏ D01, cào D16, bộ hạt dền D17, xô/gáo D05 hoặc cây theo cảnh.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng luống rau dền  Cùng buổi sáng  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D05 Xô gỗ và gáo gỗ tưới vườn, D16 Cào cán gỗ, D17 Bộ gieo rau dền.
 - **Trạng thái đầu:** Các dải gieo còn lại đã hoàn tất trong đoạn lược. Bát đã về giỏ, cô lấy đất mịn từ rổ nhỏ ở lối.
-- **Hành động:** Cô rắc một lớp đất mịn mỏng lên dải vừa gieo, tay đi đều theo mặt luống.
+- **Hành động:** Tay cô rắc lớp đất mịn rất mỏng trên dải vừa gieo.
 - **Kết quả cuối:** Một đoạn hạt được che nông, mặt vẫn tơi, không thành lớp đất dày như trồng khoai.
-- **Nối cảnh:** Độ phủ chỉ vài milimét phù hợp hạt dền; đoạn còn lại được phủ trong nhịp lược trước tưới. Không thêm bón phân.
-- **Âm thanh:** Đất mịn rơi nhẹ, rổ tre sột soạt. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Ra khi lớp phủ khép vùng đang thấy, không phủ lại cùng dải sau cut. Sau đó nối S104.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B08; P01; D01; D05; D16; D17
 
-#### S161 — Tưới nhẹ trên luống vừa gieo
+#### S104 — Nước ngấm trên luống rau
 
-**09:19–09:23 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**05:53.9–05:57.6 · 3.7 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn người, luống và xô ở lối; máy cố định. Giữ mốc nhà–luống–lối có thật, các giàn và cọc giữ cùng hình học qua thời gian.
-- **Địa điểm, thời gian và ánh sáng:** Đầu luống rau dền Cùng buổi sáng Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; giỏ D01, cào D16, bộ hạt dền D17, xô/gáo D05 hoặc cây theo cảnh.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Đầu luống rau dền  Cùng buổi sáng  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D05 Xô gỗ và gáo gỗ tưới vườn, D16 Cào cán gỗ, D17 Bộ gieo rau dền.
 - **Trạng thái đầu:** Hạt đã gieo phủ xong; xô có nước mới từ vòi, được mang tới trong đoạn lược; cô đã múc gáo.
-- **Hành động:** Cô hất nước thấp thành quạt nhẹ phủ một đoạn đầu luống, hạ gáo về xô.
-- **Kết quả cuối:** Đoạn đầu sẫm ẩm, lớp phủ không bị xói hoặc lộ hạt.
-- **Nối cảnh:** Giữ cách tưới thủ công đã chốt, lượng nhẹ cho hạt nhỏ. Không dùng bình phun hoặc vòi tưới mới.
-- **Âm thanh:** Nước rải trên đất, gáo và gió nhẹ. Không nhạc, không lời thoại.
-- **Tham chiếu:** B08; P01; D01; D05; D16; D17
-
-#### S162 — Nước lắng trên đoạn gieo kế
-
-**09:23–09:26 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận mặt đất, mép gáo ở rìa khung; máy cố định. Cùng phía trục thao tác; cận vẫn có cuống, mép luống hoặc thanh tre làm mốc. Không đảo chiều tay hoặc đổi cây qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Đoạn kế trên luống rau dền Cùng buổi sáng Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; giỏ D01, cào D16, bộ hạt dền D17, xô/gáo D05 hoặc cây theo cảnh.
-- **Trạng thái đầu:** Qua điểm cắt cô đã múc lượt mới và đưa tới phần đất còn nhạt.
-- **Hành động:** Các giọt từ lượt tưới mới rơi xuống, bề mặt sẫm và nước lắng vào vụn đất.
+- **Hành động:** Lượt hất nhẹ đi vào dải gieo mới; nước lắng, đất đổi sẫm trong cùng khung.
 - **Kết quả cuối:** Thêm đoạn được tưới; không có cây mọc tức thì.
-- **Nối cảnh:** Không chiếu lại lượt đầu S161. Cô hoàn tất phần còn lại ngoài phần dựng trước khi chuyển ngày.
-- **Âm thanh:** Giọt nước, lá nền; không tiếng thấm giả quá lớn. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Ra khi nước đã ngấm; lược tưới phần còn lại, không lộ hạt. Sau đó nối S105.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B08; P01; D01; D05; D16; D17
 
-#### S163 — Rau dền nhú thành những hàng lá nhỏ
+#### S105 — Rau dền nhú lá
 
-**09:26–09:30 · 4 giây · Máy cố định · Timelapse · Chờ duyệt**
+**05:57.6–06:02.4 · 4.8 giây · Timelapse · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung thấp dọc mặt luống, góc khóa; máy cố định. Cùng phía trục thao tác; cận vẫn có cuống, mép luống hoặc thanh tre làm mốc. Không đảo chiều tay hoặc đổi cây qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Luống rau dền B08 Khoảng ngày 75 → 82 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Không có người trong khung; đúng luống hoặc quả đã xác lập.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Luống rau dền B08  Khoảng ngày 75 → 82  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
 - **Trạng thái đầu:** Hạt đã gieo, mặt luống được giữ ẩm; chưa có cây.
-- **Hành động:** Mầm nhỏ nhú rải đều, mở lá mầm rồi hé lá thật đầu; các cụm tăng không đồng loạt.
+- **Hành động:** Timelapse khoảng ngày 75–82: mầm xuất hiện rải đều, mở lá mầm rồi hé lá thật.
 - **Kết quả cuối:** Có cây dền non thấp, giữa cây vẫn còn khoảng đất; chưa thành bụi cao hoặc trổ bông.
-- **Nối cảnh:** Nén nhiều ngày, không phải vài giờ sau tưới. Khóa mép luống, không mọc ra ngoài vùng gieo.
-- **Âm thanh:** Âm vườn dịu theo ngày, không tiếng cây mọc. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Giữ hình học luống, chưa thành rau đủ thu trong cùng giai đoạn. Sau đó nối S106.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B08; P01; D01; D05; D16; D17
 
-#### S164 — Tỉa chỗ cây mọc quá sát
+#### S106 — Tỉa cây mọc chen
 
-**09:30–09:33 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:02.4–06:05.6 · 3.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung chéo bên, thấy cô và khoảng cây nhỏ; máy cố định. Cùng phía trục thao tác; cận vẫn có cuống, mép luống hoặc thanh tre làm mốc. Không đảo chiều tay hoặc đổi cây qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Luống rau dền B08 Sáng khoảng ngày 82 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; giỏ D01, cào D16, bộ hạt dền D17, xô/gáo D05 hoặc cây theo cảnh.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống rau dền B08  Sáng khoảng ngày 82  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D05 Xô gỗ và gáo gỗ tưới vườn, D16 Cào cán gỗ, D17 Bộ gieo rau dền.
 - **Trạng thái đầu:** Một vài cây mọc quá sát nhau, đất ẩm nhẹ; các vùng khác đã thưa.
-- **Hành động:** Cô giữ mặt đất quanh cây muốn để lại, lấy bớt một cây chen quá gần rồi chuyển tay sang cụm kế.
+- **Hành động:** Cô giữ đất quanh cây muốn để lại, nhổ một cây sát bên rồi đưa sang rổ vụn.
 - **Kết quả cuối:** Một khoảng đã thoáng hơn; cây giữ lại đứng nguyên và có chỗ lớn.
-- **Nối cảnh:** Chỉ lượt tỉa tiêu biểu, không nhổ sạch hoặc biến cây dền thành cỏ. Cây tỉa nhỏ chưa đủ cho món ăn, chưa tính là lượt thu hoạch.
-- **Âm thanh:** Tay chạm đất nhẹ, vải áo, chim. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Ra ở khoảng đã thoáng, cây giữ lại không bật gốc. Sau đó nối S107.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B08; P01; D01; D05; D16; D17
 
-#### S165 — Chăm gốc cà chua giữa đợt lớn
+#### S107 — Chăm gốc cà chua cùng buổi
 
-**09:33–09:37 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:05.6–06:10.7 · 5.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống cà chua B06. Sáng khoảng ngày 82 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
-- **Trạng thái đầu:** Cùng sáng tỉa dền, cô chuyển sang luống cà chua; cây có hoa và phần quả mới đậu, chưa quả đỏ.
-- **Hành động:** Cô ngồi trên lối, nhổ một cây cỏ ở khoảng trống cạnh gốc rồi gom vào rổ vụn.
-- **Kết quả cuối:** Cỏ được gom, gốc cà chua thoáng; quả mới đậu không bị chạm.
-- **Nối cảnh:** Nối S164 → S165 → S166. Cùng sáng tỉa dền, cô chuyển sang luống cà chua; cây có hoa và phần quả mới đậu, chưa quả đỏ. Cảnh này tạo kết quả mới: Cỏ được gom, gốc cà chua thoáng; quả mới đậu không bị chạm. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
-- **Tham chiếu:** B06; P01; D01
-
-#### S166 — Tưới quanh gốc cây đang mang hoa
-
-**09:37–09:40 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống cà chua B06. Sáng khoảng ngày 82 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
-- **Trạng thái đầu:** Sau lượt lấy nước được lược, xô ở cạnh lối; đất quanh gốc cần thêm ẩm.
-- **Hành động:** Cô múc gáo rồi rót thấp quanh vùng rễ, đưa tay tiếp sang phía đất còn khô.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống cà chua B06. Sáng khoảng ngày 82 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D05 Xô gỗ và gáo gỗ tưới vườn.
+- **Trạng thái đầu:** Sáng khoảng ngày 82, cô đã rời luống dền tới luống cà chua; xô/gáo và rổ vụn ở cạnh gốc, hoa/đài non trên cây.
+- **Hành động:** Qua cut sang đúng luống cà chua, cô nhổ cỏ nhỏ ở vùng trống, gom ra lối rồi rót một lượt nước thấp quanh gốc.
 - **Kết quả cuối:** Đất vùng rễ ẩm, hoa và tán lá không bị xối; thời gian vẫn sáng ngày này.
-- **Nối cảnh:** Nối S165 → S166 → S167. Sau lượt lấy nước được lược, xô ở cạnh lối; đất quanh gốc cần thêm ẩm. Cảnh này tạo kết quả mới: Đất vùng rễ ẩm, hoa và tán lá không bị xối; thời gian vẫn sáng ngày này. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
-- **Tham chiếu:** B06; P01; D05
+- **Liên tục và điểm cắt:** Khung giữ lá cà chua làm mốc, không nhầm là tiếp tục tưới dền; lượt lấy gáo được lược ở đầu động tác nếu cần. Sau đó nối S108.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B06; P01; D01; D05
 
-#### S167 — Hoa cà chua chuyển thành quả xanh
+#### S108 — Hoa cà chua đậu quả xanh
 
-**09:40–09:44 · 4 giây · Máy cố định · Timelapse · Chờ duyệt**
+**06:10.7–06:16.1 · 5.4 giây · Timelapse · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận một chùm, cọc và dây làm mốc; máy cố định. Cùng phía trục thao tác; cận vẫn có cuống, mép luống hoặc thanh tre làm mốc. Không đảo chiều tay hoặc đổi cây qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Luống cà chua B06 Sau ngày 82 → khoảng ngày 90 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Không có người trong khung; đúng luống hoặc quả đã xác lập.
-- **Trạng thái đầu:** Cùng các cây đã ra hoa ở C07, một chùm vừa bắt đầu đậu quả.
-- **Hành động:** Cánh hoa tàn tự nhiên, phần quả xanh lớn dần từ dưới đài; các quả trong chùm tăng lệch nhau.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Luống cà chua B06  Sau ngày 82 → khoảng ngày 90  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
+- **Trạng thái đầu:** Cùng các cây đã ra hoa ở, một chùm vừa bắt đầu đậu quả.
+- **Hành động:** Timelapse tới khoảng ngày 90: cánh hoa tàn và quả xanh lớn dần dưới đài, các quả khác nhau về cỡ.
 - **Kết quả cuối:** Có chùm quả xanh nhỏ đến vừa, chưa chuyển đỏ.
-- **Nối cảnh:** Không cho quả xuất hiện rời cành; cuống và vị trí chùm giữ liền qua thời gian. Cây không quay lại giai đoạn mới trồng.
-- **Âm thanh:** Gió và lá nhẹ; không thêm tiếng hoa rụng hoặc quả lớn giả. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Giữ biến đổi vật liệu, không chỉ là ảnh quả đứng yên kéo dài. Sau đó nối S109.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; P01; D12
 
-#### S168 — Đỡ kiểm tra chùm quả non
+#### S109 — Kiểm chùm quả còn nguyên cuống
 
-**09:44–09:47 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:16.1–06:19.9 · 3.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung cô bên một cây, thấy cọc và chùm; máy cố định. Cùng phía trục thao tác; cận vẫn có cuống, mép luống hoặc thanh tre làm mốc. Không đảo chiều tay hoặc đổi cây qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Luống cà chua B06 Sáng khoảng ngày 90 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; giỏ D01, cào D16, bộ hạt dền D17, xô/gáo D05 hoặc cây theo cảnh.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống cà chua B06  Sáng khoảng ngày 90  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D12 Sáu cọc tre và dây vải mềm.
 - **Trạng thái đầu:** Cây đã cao, một chùm quả xanh nằm dưới lá; dây đỡ mới đã bổ sung theo cây lớn ngoài phần dựng.
-- **Hành động:** Cô luồn tay đỡ nhẹ dưới chùm để nhìn cuống, tay kia đưa lá che sang bên rồi buông.
-- **Kết quả cuối:** Chùm còn nguyên trên cây; quả xanh chưa hái, dây đỡ không siết thân.
-- **Nối cảnh:** Không kéo hoặc xoắn quả; đây là kiểm tra trong lúc chăm, không phải thu hoạch sớm. Giữ đúng sáu cây và cọc cũ.
-- **Âm thanh:** Lá cọ tay nhẹ, áo và chim. Không nhạc, không lời thoại.
-- **Tham chiếu:** B06; P01; D12
-
-#### S169 — Quả xanh nằm dưới đài
-
-**09:47–09:51 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận cuống và bề mặt quả còn xanh; máy cố định. Cùng phía trục thao tác; cận vẫn có cuống, mép luống hoặc thanh tre làm mốc. Không đảo chiều tay hoặc đổi cây qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Cùng chùm cà chua Cùng buổi sáng Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; giỏ D01, cào D16, bộ hạt dền D17, xô/gáo D05 hoặc cây theo cảnh.
-- **Trạng thái đầu:** Bàn tay vừa buông chùm; lá đã trở lại gần vị trí cũ.
-- **Hành động:** Quả rung rất nhẹ rồi dừng, cuống nối nguyên vào cành; ánh sáng lướt trên vỏ xanh.
+- **Hành động:** Cô đỡ chùm xanh, vén lá để xem cuống rồi thả; quả đung nhẹ và dừng.
 - **Kết quả cuối:** Đọc được quả còn non và phát triển đều, chưa đỏ hoặc nằm trong giỏ.
-- **Nối cảnh:** Tiếp kết quả S168; không bẻ chùm hoặc lặp tay nâng từ đầu ở góc cận.
-- **Âm thanh:** Lá và gió nhẹ. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Ra ở chùm nguyên trên cây, không tự hái hoặc đổi màu. Sau đó nối S110.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; P01; D12
 
-#### S170 — Đỡ cành đang nặng quả
+#### S110 — Đỡ cành đang nặng quả
 
-**09:51–09:54 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:19.9–06:24.8 · 4.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống cà chua B06. Sáng khoảng ngày 90 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
-- **Trạng thái đầu:** Cô vừa kiểm chùm quả xanh, một cành nghiêng nhẹ; dây mềm có sẵn trong giỏ.
-- **Hành động:** Cô đỡ cành bằng một tay, tay kia đưa dây đỡ về cọc để giữ cành khỏi sà xuống.
-- **Kết quả cuối:** Cành được nâng, dây đã vòng qua chỗ đỡ; quả vẫn xanh và nguyên cuống.
-- **Nối cảnh:** Nối S169 → S170 → S171. Cô vừa kiểm chùm quả xanh, một cành nghiêng nhẹ; dây mềm có sẵn trong giỏ. Cảnh này tạo kết quả mới: Cành được nâng, dây đã vòng qua chỗ đỡ; quả vẫn xanh và nguyên cuống. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
-- **Tham chiếu:** B06; P01; D12
-
-#### S171 — Khép dây rồi đi tiếp dọc hàng
-
-**09:54–09:58 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống cà chua B06. Sáng khoảng ngày 90 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
-- **Trạng thái đầu:** Cành quả xanh đang được đỡ, dây đã vào vị trí.
-- **Hành động:** Cô khép nút lỏng phía cọc, thả tay rồi bước sang cây kế để tiếp tục chăm.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống cà chua B06. Sáng khoảng ngày 90 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D12 Sáu cọc tre và dây vải mềm.
+- **Trạng thái đầu:** Cùng ngày kiểm quả xanh khoảng ngày 90, cành còn nghiêng; cô có đoạn dây mềm ở tay, cọc đã có sẵn.
+- **Hành động:** Cô nâng cành, đưa dây về cọc rồi khép nút lỏng; chỉ rút tay khi cành đã được đỡ.
 - **Kết quả cuối:** Cành mang quả có điểm đỡ, công việc tiếp diễn; chưa hái hoặc có quả đỏ.
-- **Nối cảnh:** Nối S170 → S171 → S172. Cành quả xanh đang được đỡ, dây đã vào vị trí. Cảnh này tạo kết quả mới: Cành mang quả có điểm đỡ, công việc tiếp diễn; chưa hái hoặc có quả đỏ. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
+- **Liên tục và điểm cắt:** Giữ đủ chuyển điểm đỡ; không thêm một cảnh đi tới cây giống nhau. Sau đó nối S111.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; P01; D12
 
-#### S172 — Dưa bắt đầu đậu trái
+#### S111 — Dưa đậu quả non
 
-**09:58–10:01 · 3 giây · Máy cố định · Timelapse · Chờ duyệt**
+**06:24.8–06:29.5 · 4.7 giây · Timelapse · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận một đốt dây, hoa và quả non; máy cố định. Cùng phía trục thao tác; cận vẫn có cuống, mép luống hoặc thanh tre làm mốc. Không đảo chiều tay hoặc đổi cây qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Giàn dưa chuột B07 Sau ngày 90 → khoảng ngày 96 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Không có người trong khung; đúng luống hoặc quả đã xác lập.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Giàn dưa chuột B07  Sau ngày 90 → khoảng ngày 96  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
 - **Trạng thái đầu:** Dây đã leo thêm; một hoa cái có bầu nhỏ ở gốc hoa, giàn giữ nguyên.
-- **Hành động:** Hoa tàn tự nhiên, bầu quả xanh kéo dài chậm; các tua gần đó bám thêm vào thanh leo.
+- **Hành động:** Timelapse tới khoảng ngày 96: hoa cái tàn, bầu quả kéo dài, tua bám thêm vào tre.
 - **Kết quả cuối:** Một quả dưa non vài centimét hiện rõ, chưa đạt cỡ hái.
-- **Nối cảnh:** Giữ cuống gắn ở cùng đốt dây; không biến hoa đực không bầu thành quả. Quả non vẫn nhỏ để tiếp tục lớn tới ngày thu hoạch.
-- **Âm thanh:** Âm vườn nhẹ, không tăng tốc âm thao tác. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Kết ở quả non vài centimét, chưa đạt cỡ hái. Sau đó nối S112.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D14
 
-#### S173 — Đưa quả non ra ngoài chỗ lá chèn
+#### S112 — Đưa quả non ra chỗ thoáng
 
-**10:01–10:05 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:29.5–06:33.1 · 3.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung cô và mảng giàn, thấy quả nhỏ; máy cố định. Cùng phía trục thao tác; cận vẫn có cuống, mép luống hoặc thanh tre làm mốc. Không đảo chiều tay hoặc đổi cây qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Giàn dưa chuột B07 Sáng khoảng ngày 96 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; giỏ D01, cào D16, bộ hạt dền D17, xô/gáo D05 hoặc cây theo cảnh.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Giàn dưa chuột B07  Sáng khoảng ngày 96  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D14 Giàn tre chữ A cho dưa.
 - **Trạng thái đầu:** Quả non đang bị một lá phủ sát, ngọn dây đã tự bám giàn.
-- **Hành động:** Cô đưa lá sang bên, nhẹ dẫn quả ra khoảng trống giữa hai thanh rồi rút tay.
-- **Kết quả cuối:** Quả còn trên dây, có chỗ phát triển thẳng; không mắc kẹt hoặc bị kéo khỏi cuống.
-- **Nối cảnh:** Không cố nắn quả đã lớn hoặc xé lá; tránh bóp mạnh bề mặt quả non. Chưa hái dưa.
-- **Âm thanh:** Lá cọ tay và tre rất nhẹ, chim. Không nhạc, không lời thoại.
-- **Tham chiếu:** B07; P01; D14
-
-#### S174 — Quả dưa non thả dưới giàn
-
-**10:05–10:08 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận quả nhỏ, cuống và đài hoa rõ; máy cố định. Cùng phía trục thao tác; cận vẫn có cuống, mép luống hoặc thanh tre làm mốc. Không đảo chiều tay hoặc đổi cây qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Cùng quả dưa vừa được đưa ra Cùng buổi sáng Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; giỏ D01, cào D16, bộ hạt dền D17, xô/gáo D05 hoặc cây theo cảnh.
-- **Trạng thái đầu:** Tay đã rời, quả còn nhỏ xanh, phần hoa héo tự nhiên ở đầu quả.
-- **Hành động:** Quả khẽ đung đưa rồi đứng yên giữa khoảng lá, tua gần đó đã quấn tre.
+- **Hành động:** Cô vén lá, dẫn quả khỏi khe tre rồi rút tay; quả còn trên cuống, đung nhẹ.
 - **Kết quả cuối:** Thấy cuống và thân quả nguyên vẹn; chưa thành dưa già vàng hoặc quả thu hoạch.
-- **Nối cảnh:** Nối S173; không cho quả lớn thêm ở tốc độ thật trong bốn giây.
-- **Âm thanh:** Gió, lá nền; không thêm âm quả lắc. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Ra khi quả ổn ở khoảng trống; không kéo quả dài thêm bằng tác động tay. Sau đó nối S113.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D14
 
-#### S175 — Tưới gốc bên giàn đang mang trái
+#### S113 — Quả cà chua chuyển chín
 
-**10:08–10:12 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:33.1–06:37.7 · 4.6 giây · Timelapse · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống dưa B07. Sáng khoảng ngày 96 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
-- **Trạng thái đầu:** Dưa non vẫn trên giàn; qua điểm cắt cô đã tới bên xô, cùng ngày quan sát trái non.
-- **Hành động:** Cô múc và rải nước thấp quanh gốc dưa, tay đi theo phần đất cần tưới dưới giàn.
-- **Kết quả cuối:** Gốc được tưới, quả non không rời dây; cây tiếp tục lớn qua khoảng thời gian sau.
-- **Nối cảnh:** Nối S174 → S175 → S176. Dưa non vẫn trên giàn; qua điểm cắt cô đã tới bên xô, cùng ngày quan sát trái non. Cảnh này tạo kết quả mới: Gốc được tưới, quả non không rời dây; cây tiếp tục lớn qua khoảng thời gian sau. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
-- **Tham chiếu:** B07; P01; D05; D14
-
-#### S176 — Cà chua chuyển dần sang đỏ
-
-**10:12–10:15 · 3 giây · Máy cố định · Timelapse · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận chùm đã mang quả xanh, cùng mốc cọc; máy cố định. Cùng phía trục thao tác; cận vẫn có cuống, mép luống hoặc thanh tre làm mốc. Không đảo chiều tay hoặc đổi cây qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Luống cà chua B06 Sau ngày 96 → khoảng ngày 103 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Không có người trong khung; đúng luống hoặc quả đã xác lập.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Luống cà chua B06  Sau ngày 96 → khoảng ngày 103  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
 - **Trạng thái đầu:** Quả đã đạt cỡ phù hợp giống, còn xanh; trên cây có nhiều lứa quả.
-- **Hành động:** Một vài quả chuyển từ xanh sang ửng rồi đỏ, các quả kế vẫn xanh hoặc hồng nhạt.
+- **Hành động:** Timelapse tới khoảng ngày 103: quả đủ cỡ đổi xanh–ửng–đỏ, những quả bên vẫn xanh hoặc hồng.
 - **Kết quả cuối:** Có quả chín đỏ để chọn; không đồng loạt cả sáu cây chín cùng màu.
-- **Nối cảnh:** Thời gian luôn tiến sau S174; cuống, vị trí quả và tán cây giữ nhất quán, không đổi giống hoặc kích thước đột ngột.
-- **Âm thanh:** Lá và gió nhẹ theo thời gian; không âm biến hình. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Màu chín là thông tin mới, không làm cả vườn đỏ cùng lúc. Sau đó nối S114.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; P01; D12
 
-#### S177 — Kiểm tra luống rau đã đủ lớn
+#### S114 — Kiểm độ non của rau dền
 
-**10:15–10:19 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:37.7–06:41.3 · 3.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn cô và luống rau dền; máy cố định. Giữ mốc nhà–luống–lối có thật, các giàn và cọc giữ cùng hình học qua thời gian.
-- **Địa điểm, thời gian và ánh sáng:** Luống rau dền B08 Sáng khoảng ngày 104 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; giỏ D01, cào D16, bộ hạt dền D17, xô/gáo D05 hoặc cây theo cảnh.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống rau dền B08  Sáng khoảng ngày 104  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D05 Xô gỗ và gáo gỗ tưới vườn, D16 Cào cán gỗ, D17 Bộ gieo rau dền.
 - **Trạng thái đầu:** Rau đã gần một tháng sau gieo, lá thật mở rộng; cây còn non ăn lá, chưa trổ bông.
-- **Hành động:** Cô đi dọc lối, ngồi thấp và đưa tay đỡ nhẹ một ngọn để nhìn độ lớn của lá.
-- **Kết quả cuối:** Rau vẫn ở luống, cô đã kiểm được độ non; chưa nhổ hoặc cắt.
-- **Nối cảnh:** Nối sau các ngày quả phát triển, không quay về cây dền mới nảy mầm. Chọn dền ăn lá xanh có mảng đỏ tím, giữ màu này tới món ăn.
-- **Âm thanh:** Bước chân, lá cọ tay, chim. Không nhạc, không lời thoại.
-- **Tham chiếu:** B08; P01; D01; D05; D16; D17
-
-#### S178 — Lá dền non trên ngọn
-
-**10:19–10:22 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận ngọn dền và tay đỡ ở bên dưới; máy cố định. Cùng phía trục thao tác; cận vẫn có cuống, mép luống hoặc thanh tre làm mốc. Không đảo chiều tay hoặc đổi cây qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Cùng luống rau dền Cùng buổi sáng Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; giỏ D01, cào D16, bộ hạt dền D17, xô/gáo D05 hoặc cây theo cảnh.
-- **Trạng thái đầu:** Một ngọn đang được tay cô đỡ nhẹ; lá mềm xanh với mảng đỏ tím, không có bông.
-- **Hành động:** Cô buông tay cho ngọn trở lại, các lá mở mềm trong ánh sáng dịu.
+- **Hành động:** Cô đỡ một ngọn dền để nhìn lá, buông nhẹ; tán lá xanh pha đỏ tím đã lớn.
 - **Kết quả cuối:** Thấy phần lá và ngọn còn non, đủ dùng cho bữa ăn sắp tới; chưa vào giỏ.
-- **Nối cảnh:** Tiếp S177, không hái thử rồi bỏ hoặc đổi thành rau bina. Màu đỏ tím là màu lá, không phải vết bệnh.
-- **Âm thanh:** Lá chạm tay nhẹ, âm nền vườn. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Ra khi ngọn trở lại và lá đủ đọc; không thêm lượt kiểm dải giống nhau. Sau đó nối S115.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B08; P01; D01; D05; D16; D17
 
-#### S179 — Kiểm tiếp dải rau dành cho bữa ăn
+#### S115 — Khoai đã già tới độ thu
 
-**10:22–10:26 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**06:41.3–06:44.1 · 2.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, chéo bên cùng phía trục công việc. Giữ khoảng đất/cây đã chăm trong khung để đọc tiến triển.
-- **Địa điểm, thời gian và ánh sáng:** Luống dền B08. Sáng khoảng ngày 104 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01; dụng cụ đã nêu trong hành động và tham chiếu. Vật nuôi chỉ xuất hiện nếu đã được nêu ở cảnh nối trước, ngoài vùng trồng.
-- **Trạng thái đầu:** Cô vừa buông ngọn dền đầu, luống đã đủ lớn, chưa thu hoạch.
-- **Hành động:** Cô đi chậm theo lối, cúi nhìn thêm dải rau kế rồi đứng lên hướng về hàng khoai.
-- **Kết quả cuối:** Luống rau vẫn nguyên; cô chuyển sang kiểm khoai trước buổi thu ngày sau.
-- **Nối cảnh:** Nối S178 → S179 → S180. Cô vừa buông ngọn dền đầu, luống đã đủ lớn, chưa thu hoạch. Cảnh này tạo kết quả mới: Luống rau vẫn nguyên; cô chuyển sang kiểm khoai trước buổi thu ngày sau. Đổi góc để tiếp diễn, không lặp động tác; đường đi/lượt làm giống nhau được lược ở điểm cắt.
-- **Âm thanh:** Âm tay, đất, nước hoặc dây chạm đúng thao tác đang thấy; gió và chim thưa tiếp diễn. Không nhạc, không thoại, không lời bình.
-- **Tham chiếu:** B08; P01
-
-#### S180 — Hàng khoai tới độ thu củ
-
-**10:26–10:29 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Trung một đoạn hàng khoai, máy cố định; máy cố định. Cùng phía trục thao tác; cận vẫn có cuống, mép luống hoặc thanh tre làm mốc. Không đảo chiều tay hoặc đổi cây qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai B03 Cùng buổi sáng khoảng ngày 104 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Thân lá khoai đã già tự nhiên, đất vun phủ củ; không có người.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai B03  Cùng buổi sáng khoảng ngày 104  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Không có người; cây và kiến trúc theo khung.
 - **Trạng thái đầu:** Khoai đã đi qua thời gian lớn trong các cụm trước; đến lúc này phần lớn thân lá già vàng, khô tự nhiên, đất vun còn phủ kín củ.
-- **Hành động:** Lá già khẽ lay theo gió; mặt đất và đường vun vẫn nguyên.
+- **Hành động:** Hàng khoai có thân lá già vàng, khô tự nhiên; đất vun vẫn phủ kín củ.
 - **Kết quả cuối:** Xác lập cây đủ già cho đợt thu củ; chưa đào, không thấy củ nổi trên mặt.
-- **Nối cảnh:** Không quay lại bụi xanh non C07 hoặc diễn sâu bệnh, thối củ. Chọn giống khoai phù hợp để đạt già ở khoảng thời gian này; mốc ngày là khoảng dựng, không quy luật cứng cho mọi giống.
-- **Âm thanh:** Gió nhẹ, lá khô xào xạc vừa phải. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Đọc tuổi cây mới, không lộ củ trên mặt; phần lớn lên diễn ra qua các ngày đã lược. Sau đó nối S116.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03
 
-#### S181 — Từ chiều yên tới sáng thu hoạch
+#### S116 — Qua đêm tới sáng thu hoạch
 
-**10:29–10:33 · 4 giây · Máy cố định · Timelapse · Đã duyệt**
+**06:44.1–06:47.7 · 3.6 giây · Timelapse · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn khu vườn, góc khóa thấy các khu trồng; máy cố định. Giữ mốc nhà–luống–lối có thật, các giàn và cọc giữ cùng hình học qua thời gian.
-- **Địa điểm, thời gian và ánh sáng:** Khu nhà và vườn Cuối ngày 104 → sáng khoảng ngày 105 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Không có người trong khung; đúng luống hoặc quả đã xác lập.
-- **Trạng thái đầu:** Cà chua có quả đỏ, dưa đã lớn thêm, rau dền gần độ non thu, khoai đã già; chưa có giỏ nông sản.
-- **Hành động:** Bóng chiều rút khỏi sân, ánh sáng tắt rồi ban mai lên lại; các công trình và luống giữ nguyên.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Khóa hình học vật thể và vị trí máy qua các ngày.
+- **Địa điểm, ngày và ánh sáng:** Khu nhà và vườn  Cuối ngày 104 → sáng khoảng ngày 105  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Không có người trong khung; cây, luống, khay hoặc kiến trúc đúng giai đoạn và cùng hình học.
+- **Trạng thái đầu:** Cuối ngày khoảng 104: cà có quả đỏ, dưa đã đủ cỡ qua các ngày lớn lên được lược, dền non và khoai già đều sẵn thu; không có giỏ thu đầy.
+- **Hành động:** Timelapse chiều tắt rồi ban mai trở lại trên cùng vườn; dưa đã lớn thêm trong những ngày trước.
 - **Kết quả cuối:** Bắt đầu sáng thu hoạch; vườn có đủ bốn loại cây đã được gieo trước đó.
-- **Nối cảnh:** Không dùng timelapse để làm tất cả chín từ đầu trong một đêm; trạng thái đủ độ đã được chuẩn bị qua S167–S180.
-- **Âm thanh:** Âm chiều sang đêm rồi chim sáng; không nhạc hoặc tiếng tua nhanh. Không nhạc, không lời thoại.
+- **Liên tục và điểm cắt:** Sáng khoảng ngày 105, cả bốn loại đủ độ thu; chưa có giỏ đầy. Sau đó nối S117.
+- **Âm thanh:** Gió, lá và chim xa nối không gian; không tăng tốc âm thao tác hoặc thêm âm cây mọc. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B01; B03; B06; B07; B08; P01; D01
 
-#### S182 — Mang giỏ trống tới vườn
+## C09 — Thu hoạch, chia phần và mang vào bếp
 
-**10:33–10:36 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Toàn cô đi từ hiên tới lối vườn; máy cố định. Giữ mốc nhà–luống–lối có thật, các giàn và cọc giữ cùng hình học qua thời gian.
-- **Địa điểm, thời gian và ánh sáng:** Lối hiên–vườn Sáng khoảng ngày 105 Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
-- **Nhân vật và dụng cụ:** Cô gái P01 nếu trong khung; giỏ D01, cào D16, bộ hạt dền D17, xô/gáo D05 hoặc cây theo cảnh.
-- **Trạng thái đầu:** Cô cầm giỏ tre sạch còn trống; cà chua đỏ xen quả xanh, dưa cỡ vừa ăn vỏ xanh, dền non và khoai già đã sẵn.
-- **Hành động:** Cô mang giỏ đi vào lối cạnh các luống, dừng gần chỗ đặt giỏ để bắt đầu thu.
-- **Kết quả cuối:** Giỏ vẫn trống trong tay; chưa có quả hoặc rau đã hái.
-- **Nối cảnh:** Kết C08 tại đầu buổi thu hoạch, chưa thực hiện thao tác hái/đào. Cụm sau phải nối tay đang cầm giỏ, chọn nông sản đủ độ.
-- **Âm thanh:** Bước chân, quai giỏ, chim và gió sáng. Không nhạc, không lời thoại.
-- **Tham chiếu:** B01; B03; B06; B07; B08; P01; D01
-
-## C09 — Thu hoạch bốn loại thực phẩm, chia phần và mang vào bếp
-
-**24 shot · 84 giây · 10:36–12:00.**
-
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
 |---|---|---:|---|---|
-| S183 | 10:36–10:40 | 4 | Toàn người, đầu luống và vùng đặt đồ | Cô hạ giỏ khoai xuống chỗ khô, buông quai khi giỏ vững rồi lấy xẻng nhỏ. |
-| S184 | 10:40–10:43 | 3 | Trung chéo bên, thấy xẻng và gốc già | Cô đưa xẻng xuống phía ngoài vùng gốc, nạy nhẹ cho đất rời rồi dịch sang cạnh kế. |
-| S185 | 10:43–10:47 | 4 | Cận thấp, tay, chân gốc và đất rõ | Cô nâng nhẹ phần gốc trong khi tay kia gạt đất tơi ra, để lộ vài củ còn nằm trong đất. |
-| S186 | 10:47–10:50 | 3 | Trung cô và giỏ ở cạnh lối | Cô nhặt củ vừa cỡ từ đất tơi, đặt nhẹ vào giỏ rồi đưa tay tìm củ kế. |
-| S187 | 10:50–10:54 | 4 | Cận tay và miệng giỏ khoai | Cô gỡ nhẹ cục đất rời trên vỏ, đặt củ vào khoảng trống trong giỏ rồi rút tay. |
-| S188 | 10:54–10:57 | 3 | Toàn cô, rổ sạch và tán cà chua | Cô đặt rổ trên lối cạnh cây, đưa mắt theo một chùm có quả đỏ rồi đưa tay tới. |
-| S189 | 10:57–11:01 | 4 | Trung chéo bên, thấy hai tay và chùm quả | Một tay cô đỡ quả đỏ, tay kia giữ nhẹ đoạn cành gần cuống rồi xoay quả lên một góc nhỏ. |
-| S190 | 11:01–11:04 | 3 | Cận tay, cuống quả đỏ và cành | Cô hoàn tất nhịp xoay nhẹ tại khớp cuống, quả tách ra nằm trong lòng tay. |
-| S191 | 11:04–11:08 | 4 | Trung cô và rổ trên lối | Cô hạ quả nhẹ vào rổ rồi đưa tay lên chùm kế để chọn quả đỏ khác. |
-| S192 | 11:08–11:11 | 3 | Cận rổ có cà chua và tay đang hạ quả mới | Cô đặt quả mới vào rổ, rút tay; hậu cảnh vẫn thấy chùm còn quả xanh chưa hái. |
-| S193 | 11:11–11:15 | 4 | Toàn cô, giàn và rổ dưa riêng | Cô đặt rổ dưới khoảng lối cạnh giàn, nâng một quả dưa vỏ xanh vừa cỡ, đưa kéo tới cuống. |
-| S194 | 11:15–11:18 | 3 | Trung tay, cuống và phần dây leo | Cô khép kéo cắt cuống, giữ quả yên khi quả vừa rời dây. |
-| S195 | 11:18–11:22 | 4 | Cận quả vừa cắt và rổ ở dưới | Cô hạ quả nằm nhẹ trong rổ, buông khi quả được đáy rổ đỡ. |
-| S196 | 11:22–11:25 | 3 | Toàn cô và mảng giàn | Cô đặt quả cuối vào rổ, cất kéo gọn ở giỏ dụng cụ rồi nâng rổ khỏi lối. |
-| S197 | 11:25–11:29 | 4 | Toàn cô, luống dền và rổ rau riêng | Cô ngồi thấp, gom nhẹ vài thân dền vừa cỡ vào một tay, tay kia giữ mặt đất cạnh gốc. |
-| S198 | 11:29–11:32 | 3 | Trung chéo thấp, thấy tay và gốc | Cô kéo nhẹ nhóm cây lên theo trục thân, tay còn lại đỡ sát chân để rễ rời đất. |
-| S199 | 11:32–11:36 | 4 | Cận rễ dền và tay giữ bó, lá ngoài vùng đất rơi | Cô rũ nhẹ một nhịp trên mép luống để đất rời rơi xuống, giữ bó không quật lá. |
-| S200 | 11:36–11:39 | 3 | Trung cô, rổ rau và phần luống còn lại | Cô hạ bó cuối vào rổ, để rễ cùng một hướng và phần lá không bị đè, rồi rút tay. |
-| S201 | 11:39–11:43 | 4 | Toàn người trên lối về kho | Cô xách hai giỏ/rổ lượng vừa sức đi theo lối về khu nhà, không chồng chúng lên nhau. |
-| S202 | 11:43–11:46 | 3 | Trung mặt kê có sẵn và các rổ riêng | Cô đặt củ khoai cuối dành cho bữa vào rổ con đúng loại, chỉnh rổ cà chua bên cạnh rồi đẩy giỏ phần để dành về phía cửa kho. |
-| S203 | 11:46–11:50 | 4 | Trung cô và kệ kho hiện có | Cô hạ giỏ lên kệ thấp thoáng, tránh ánh sáng trực tiếp rồi buông quai. |
-| S204 | 11:50–11:53 | 3 | Cận tay và rổ cà chua trên kệ khác | Cô đặt rổ lên mặt kê thoáng riêng, chỉnh một quả khỏi chỗ bị tì rồi rút tay. |
-| S205 | 11:53–11:57 | 4 | Toàn cô đi qua cửa bếp | Cô đỡ giỏ phần nấu bằng hai tay, bước qua cửa bếp phụ hướng tới bàn chuẩn bị. |
-| S206 | 11:57–12:00 | 3 | Trung bàn bếp phụ, giỏ và tay cô | Cô hạ giỏ lên bàn vững, buông tay rồi nhấc rổ cà chua riêng đặt sát chậu gỗ. |
+| S117 | 06:47.7–06:52.1 | 4.4 | Toàn | Ở đoạn lối gần hàng khoai, cô mang giỏ trống tới, hạ xuống chỗ khô rồi lấy xẻng nhỏ. |
+| S118 | 06:52.1–06:55.3 | 3.2 | Cận | Cô đưa xẻng ở phía ngoài gốc, nạy một nhịp làm đất rời rồi chuyển cạnh. |
+| S119 | 06:55.3–06:59.0 | 3.7 | Cận | Cô nâng nhẹ phần gốc, tay kia gạt đất tơi để lộ vài củ còn nằm trong đất. |
+| S120 | 06:59.0–07:03.4 | 4.4 | Cận | Cô nhấc một củ vừa cỡ, gỡ cục đất rời rồi đặt nhẹ vào khoảng trống trong giỏ. |
+| S121 | 07:03.4–07:05.5 | 2.1 | Toàn | Cô tới luống cà chua, đặt rổ ngoài lối rồi đưa tay về chùm có quả đỏ. |
+| S122 | 07:05.5–07:09.1 | 3.6 | Cận | Một tay cô đỡ quả đỏ, tay kia giữ cành gần cuống; cô xoay nhẹ để quả rời tại khớp. |
+| S123 | 07:09.1–07:11.9 | 2.8 | Cận | Cô hạ quả vừa tách vào rổ rồi đưa tay lên chọn quả đỏ kế. |
+| S124 | 07:11.9–07:14.1 | 2.2 | Cận | Sau các lượt hái được lược, cô đặt thêm quả chín; rổ có nhiều quả hơn, phía sau vẫn còn quả xanh trên cây. |
+| S125 | 07:14.1–07:18.2 | 4.1 | Cận | Cô nâng quả xanh đủ cỡ bằng một tay, đưa kéo tới và cắt cuống bằng tay kia. |
+| S126 | 07:18.2–07:20.4 | 2.2 | Cận | Cô hạ quả vừa cắt nằm trong rổ, chỉ buông khi quả được đáy đỡ. |
+| S127 | 07:20.4–07:23.7 | 3.3 | Toàn | Sau các quả giữa được lược, cô đặt quả cuối, cất kéo vào giỏ dụng cụ rồi nâng rổ. |
+| S128 | 07:23.7–07:28.3 | 4.6 | Cận | Cô gom vài thân vừa cỡ, tay kia giữ đất cạnh gốc rồi kéo cho rễ rời nhẹ. |
+| S129 | 07:28.3–07:30.7 | 2.4 | Cận | Cô rũ bó một nhịp trên mép luống, đất rơi xuống, lá không bị quật. |
+| S130 | 07:30.7–07:33.6 | 2.9 | Cận | Sau các bó giữa được lược, cô hạ bó cuối vào rổ, rễ cùng hướng và lá không bị đè. |
+| S131 | 07:33.6–07:37.3 | 3.7 | Toàn | Cô xách giỏ khoai và rổ cà chua theo đoạn lối về khu chia; dưa/dền chờ chuyến sau trong râm. |
+| S132 | 07:37.3–07:41.3 | 4.0 | Cận | Sau chuyến thứ hai được lược, cô chuyển củ cuối vào rổ phần nấu, chỉnh bốn rổ con rồi đẩy phần khoai/cà dư sang phía kho. |
+| S133 | 07:41.3–07:43.6 | 2.3 | Trung | Cô hạ giỏ khoai lên kệ thấp thoáng, khuất nắng trực tiếp. |
+| S134 | 07:43.6–07:45.5 | 1.9 | Cận | Cô đặt rổ cà lên mặt kê thoáng riêng, chỉnh quả khỏi chỗ tì. |
+| S135 | 07:45.5–07:49.7 | 4.2 | Trung | Ở đoạn cuối qua cửa, cô mang giỏ bốn rổ con tới bàn phụ, hạ vững rồi kéo rổ cà sát chậu. |
 
 ### Mô tả chi tiết
 
-#### S183 — Đặt giỏ xuống cạnh hàng khoai
+#### S117 — Mang giỏ vào thu khoai
 
-**10:36–10:40 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**06:47.7–06:52.1 · 4.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn người, đầu luống và vùng đặt đồ; máy cố định. Giữ đường đi vườn–kho–bếp theo bối cảnh thật; thấy vị trí giỏ và phần luống đã thu, không đổi trạng thái ngoài lý do dựng.
-- **Địa điểm, thời gian và ánh sáng:** Lối cạnh luống khoai B03 Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
-- **Trạng thái đầu:** Cô vẫn cầm giỏ trống cuối S182. Ba rổ tre riêng cho cà chua, dưa và rau cùng xẻng nhỏ/kéo đã đặt sẵn trên lối khô trước buổi thu, nay mới vào góc máy.
-- **Hành động:** Cô hạ giỏ khoai xuống chỗ khô, buông quai khi giỏ vững rồi lấy xẻng nhỏ.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Lối hiên–vườn  Sáng khoảng ngày 105  Ánh sáng theo mốc ngày riêng; cảnh người ở sáng dịu, timelapse thể hiện nhiều ngày hoặc một đêm đã ghi, không gán thời tiết/mùa chưa khóa.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D03 Xẻng nhỏ, D18 Ba rổ thu riêng, D19 Kéo nhỏ thu cuống dưa.
+- **Trạng thái đầu:** Sáng khoảng ngày 105: cô mang giỏ khoai trống trên đoạn lối cạnh luống; các rổ riêng và kéo được đặt ở vùng dụng cụ ngoài luống.
+- **Hành động:** Ở đoạn lối gần hàng khoai, cô mang giỏ trống tới, hạ xuống chỗ khô rồi lấy xẻng nhỏ.
 - **Kết quả cuối:** Giỏ ở cạnh luống, tay cô có xẻng; chưa đào hoặc có củ trong giỏ.
-- **Nối cảnh:** Nối đúng tay cầm giỏ cuối C08. Không đổ chung bốn loại vào giỏ dính đất; các rổ trống đã được xác lập ngay đầu cụm.
-- **Âm thanh:** Giỏ chạm nền, cán xẻng và bước chân nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
-- **Tham chiếu:** B03; P01; D01; D03; D18; D19
+- **Liên tục và điểm cắt:** Ra khi giỏ đã vững và xẻng ở tay; các rổ/kéo thu loại khác để ngoài luống. Sau đó nối S118.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
+- **Tham chiếu:** B01; B03; B06; B07; B08; P01; D01; D03; D18; D19
 
-#### S184 — Xới vòng ngoài gốc khoai
+#### S118 — Nạy đất ngoài vùng củ
 
-**10:40–10:43 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**06:52.1–06:55.3 · 3.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung chéo bên, thấy xẻng và gốc già; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Luống khoai B03 Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
-- **Trạng thái đầu:** Thân lá đã già như S180; đất vun còn che củ, cô đứng/ngồi ở lối.
-- **Hành động:** Cô đưa xẻng xuống phía ngoài vùng gốc, nạy nhẹ cho đất rời rồi dịch sang cạnh kế.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống khoai B03  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D03 Xẻng nhỏ, D18 Ba rổ thu riêng, D19 Kéo nhỏ thu cuống dưa.
+- **Trạng thái đầu:** Thân lá đã già như cảnh liên quan; đất vun còn che củ, cô đứng/ngồi ở lối.
+- **Hành động:** Cô đưa xẻng ở phía ngoài gốc, nạy một nhịp làm đất rời rồi chuyển cạnh.
 - **Kết quả cuối:** Vòng đất quanh một gốc đã được nới, chưa có củ bị xẻng chém trúng.
-- **Nối cảnh:** Xới cách gốc, không bổ thẳng vào chỗ có củ. Chỉ thấy các nhịp tiêu biểu; phần nới còn lại được lược trước nhấc gốc.
-- **Âm thanh:** Xẻng vào đất, đất tách xào xạo. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Xẻng tránh đâm củ; cắt vào phần đất vừa được nới. Sau đó nối S119.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D01; D03; D18; D19
 
-#### S185 — Lộ củ dưới lớp đất đã nới
+#### S119 — Củ khoai lộ khỏi đất
 
-**10:43–10:47 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**06:55.3–06:59.0 · 3.7 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận thấp, tay, chân gốc và đất rõ; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Cùng gốc khoai Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng gốc khoai  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D03 Xẻng nhỏ, D18 Ba rổ thu riêng, D19 Kéo nhỏ thu cuống dưa.
 - **Trạng thái đầu:** Đất đã nới quanh gốc; tay cô đặt thấp gần chân thân già.
-- **Hành động:** Cô nâng nhẹ phần gốc trong khi tay kia gạt đất tơi ra, để lộ vài củ còn nằm trong đất.
+- **Hành động:** Cô nâng nhẹ phần gốc, tay kia gạt đất tơi để lộ vài củ còn nằm trong đất.
 - **Kết quả cuối:** Một số củ đã lộ, phần lớn vẫn tựa đất; không thành chùm củ treo như chùm nho trên rễ.
-- **Nối cảnh:** Tiếp gốc đã xới S184. Chỉ thấy củ sau khi đất mở; không dựng xuyên đất hoặc củ tự trồi lên.
-- **Âm thanh:** Đất vụn, thân già cọ tay nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Ra khi củ đã hiện rõ, không biến cả giỏ đầy ở nhịp này. Sau đó nối S120.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D01; D03; D18; D19
 
-#### S186 — Nhặt củ nguyên vẹn vào giỏ
+#### S120 — Nhặt củ, gỡ đất và đặt giỏ
 
-**10:47–10:50 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**06:59.0–07:03.4 · 4.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung cô và giỏ ở cạnh lối; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Cùng luống khoai Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng luống khoai  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D03 Xẻng nhỏ, D18 Ba rổ thu riêng, D19 Kéo nhỏ thu cuống dưa.
 - **Trạng thái đầu:** Vài củ đã lộ, gốc nhấc sang bên; giỏ còn trống.
-- **Hành động:** Cô nhặt củ vừa cỡ từ đất tơi, đặt nhẹ vào giỏ rồi đưa tay tìm củ kế.
-- **Kết quả cuối:** Giỏ bắt đầu có khoai còn vỏ và ít đất khô bám; không ném củ.
-- **Nối cảnh:** Không cắt hoặc rửa khoai tại vườn. Chọn củ đủ độ, nguyên vẹn; không thêm cảnh củ hỏng hoặc bị thương.
-- **Âm thanh:** Củ chạm giỏ tre đục nhẹ, đất vụn. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
-- **Tham chiếu:** B03; P01; D01; D03; D18; D19
-
-#### S187 — Gỡ đất khô trên củ cuối
-
-**10:50–10:54 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Cận tay và miệng giỏ khoai; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Cuối lượt thu khoai tiêu biểu Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
-- **Trạng thái đầu:** Sau các lượt nhặt và vài gốc được lược, giỏ có lượng khoai vừa cho dùng và để dành; tay cô cầm củ cuối còn ít đất khô.
-- **Hành động:** Cô gỡ nhẹ cục đất rời trên vỏ, đặt củ vào khoảng trống trong giỏ rồi rút tay.
+- **Hành động:** Cô nhấc một củ vừa cỡ, gỡ cục đất rời rồi đặt nhẹ vào khoảng trống trong giỏ.
 - **Kết quả cuối:** Giỏ khoai đủ lượt này, củ chưa rửa, không chà tróc vỏ; phần luống chưa đào vẫn còn.
-- **Nối cảnh:** Không làm sạch bóng hoặc gọt vỏ. Chỉ thu phần đủ dùng và để dành, không làm cả vườn biến thành luống trống.
-- **Âm thanh:** Đất vụn rơi, củ chạm tre nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Ra khi giỏ đã đỡ củ; lược những lượt đào/nhặt giống nhau. Sau đó nối S121.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B03; P01; D01; D03; D18; D19
 
-#### S188 — Chuyển sang chọn cà chua chín
+#### S121 — Chuyển sang cây cà chua
 
-**10:54–10:57 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**07:03.4–07:05.5 · 2.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn cô, rổ sạch và tán cà chua; máy cố định. Giữ đường đi vườn–kho–bếp theo bối cảnh thật; thấy vị trí giỏ và phần luống đã thu, không đổi trạng thái ngoài lý do dựng.
-- **Địa điểm, thời gian và ánh sáng:** Luống cà chua B06 Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống cà chua B06  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D18 Ba rổ thu riêng.
 - **Trạng thái đầu:** Khoai giữ trong giỏ riêng ở vùng đặt đồ có bóng râm. Cô đã lấy rổ cà chua rỗng từ bộ rổ đầu cụm và tới luống trong đoạn lược.
-- **Hành động:** Cô đặt rổ trên lối cạnh cây, đưa mắt theo một chùm có quả đỏ rồi đưa tay tới.
+- **Hành động:** Cô tới luống cà chua, đặt rổ ngoài lối rồi đưa tay về chùm có quả đỏ.
 - **Kết quả cuối:** Rổ cà chua ở chỗ đỡ chắc, tay cô gần quả chín; các quả xanh còn trên cây.
-- **Nối cảnh:** Lược quãng đi và lấy rổ, không đổi giỏ khoai đầy thành rổ trống. Chọn quả đỏ đủ độ, chưa mềm nát.
-- **Âm thanh:** Rổ tre đặt nền, lá và áo. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Mốc cọc và tán cà chua rõ, giỏ khoai không biến thành rổ cà. Sau đó nối S122.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; P01; D18
 
-#### S189 — Đỡ quả đỏ, giữ cành ổn định
+#### S122 — Đỡ và tách quả chín
 
-**10:57–11:01 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**07:05.5–07:09.1 · 3.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung chéo bên, thấy hai tay và chùm quả; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Cùng cây cà chua Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng cây cà chua  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D18 Ba rổ thu riêng.
 - **Trạng thái đầu:** Tay cô vừa tới quả đỏ, cuống còn nguyên, quả xanh ở cạnh.
-- **Hành động:** Một tay cô đỡ quả đỏ, tay kia giữ nhẹ đoạn cành gần cuống rồi xoay quả lên một góc nhỏ.
-- **Kết quả cuối:** Quả chín đã được nâng và xoay, chưa khẳng định rời cuống; cành không bị kéo xuống.
-- **Nối cảnh:** Cắt trong chuyển động sang cận S190; không giật cả chùm hoặc bứt quả xanh.
-- **Âm thanh:** Lá cọ tay nhẹ, chim sáng. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
-- **Tham chiếu:** B06; P01; D18
-
-#### S190 — Quả chín rời cuống
-
-**11:01–11:04 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Cận tay, cuống quả đỏ và cành; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Cùng chùm cà chua Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
-- **Trạng thái đầu:** Quả đang ở góc nâng cuối S189, tay giữ cành ổn định.
-- **Hành động:** Cô hoàn tất nhịp xoay nhẹ tại khớp cuống, quả tách ra nằm trong lòng tay.
+- **Hành động:** Một tay cô đỡ quả đỏ, tay kia giữ cành gần cuống; cô xoay nhẹ để quả rời tại khớp.
 - **Kết quả cuối:** Một quả đỏ đã rời cây, vỏ còn nguyên; quả xanh vẫn gắn trên chùm.
-- **Nối cảnh:** Tiếp phần cuối S189, không diễn lại lần đưa tay và đỡ quả từ đầu. Quả không tự tách trước khi tay tác động.
-- **Âm thanh:** Tiếng cuống tách rất nhẹ, lá xào xạc. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Ra ở quả đã trong lòng tay; không phát lại lần xoay sau cut. Sau đó nối S123.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; P01; D18
 
-#### S191 — Đặt quả đầu rồi chọn tiếp
+#### S123 — Quả đỏ vào rổ
 
-**11:04–11:08 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**07:09.1–07:11.9 · 2.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung cô và rổ trên lối; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Cùng luống cà chua Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng luống cà chua  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D18 Ba rổ thu riêng.
 - **Trạng thái đầu:** Quả đầu đã nằm trong tay; rổ cà chua còn rỗng.
-- **Hành động:** Cô hạ quả nhẹ vào rổ rồi đưa tay lên chùm kế để chọn quả đỏ khác.
+- **Hành động:** Cô hạ quả vừa tách vào rổ rồi đưa tay lên chọn quả đỏ kế.
 - **Kết quả cuối:** Rổ có quả đầu, cô tiếp tục ở vị trí mới, không sắp hàng tạo dáng.
-- **Nối cảnh:** Không đặt lại quả đã thấy vào rổ nhiều lần. Rổ không nằm trên mặt đất ướt hoặc giẫm lên gốc.
-- **Âm thanh:** Quả chạm tre nhẹ, vải áo. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Ra khi rổ nhận quả, lượng quả tăng đúng một lượt. Sau đó nối S124.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; P01; D18
 
-#### S192 — Giữ lại quả xanh trên cây
+#### S124 — Giỏ đầy thêm, quả xanh để lại
 
-**11:08–11:11 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**07:11.9–07:14.1 · 2.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận rổ có cà chua và tay đang hạ quả mới; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Cuối lượt thu cà chua Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cuối lượt thu cà chua  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D18 Ba rổ thu riêng.
 - **Trạng thái đầu:** Các lượt hái giữa đã được lược; rổ có một lớp quả đỏ, tay cô cầm quả chín mới từ chùm khác.
-- **Hành động:** Cô đặt quả mới vào rổ, rút tay; hậu cảnh vẫn thấy chùm còn quả xanh chưa hái.
+- **Hành động:** Sau các lượt hái được lược, cô đặt thêm quả chín; rổ có nhiều quả hơn, phía sau vẫn còn quả xanh trên cây.
 - **Kết quả cuối:** Rổ cà chua đủ phần dùng và để dành ngắn ngày; không chất cao đè dập.
-- **Nối cảnh:** Đây là quả mới, không chiếu lại quả đầu S191. Giữ đủ lượng cà chua cho hai món có cà chua và Hồng tam đóa, không chỉ một quả tượng trưng.
-- **Âm thanh:** Quả và giỏ, lá nền. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Đọc kết quả chọn chín, không biến cả cây trụi quả. Sau đó nối S125.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B06; P01; D18
 
-#### S193 — Chọn quả dưa vừa cỡ
+#### S125 — Cắt cuống dưa trong tay đỡ
 
-**11:11–11:15 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**07:14.1–07:18.2 · 4.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn cô, giàn và rổ dưa riêng; máy cố định. Giữ đường đi vườn–kho–bếp theo bối cảnh thật; thấy vị trí giỏ và phần luống đã thu, không đổi trạng thái ngoài lý do dựng.
-- **Địa điểm, thời gian và ánh sáng:** Giàn dưa chuột B07 Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Giàn dưa chuột B07  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D18 Ba rổ thu riêng, D19 Kéo nhỏ thu cuống dưa.
 - **Trạng thái đầu:** Rổ cà chua đã đưa về bóng râm trong đoạn lược. Cô có rổ dưa rỗng riêng và kéo nhỏ sạch từ vùng đặt đồ đầu cụm.
-- **Hành động:** Cô đặt rổ dưới khoảng lối cạnh giàn, nâng một quả dưa vỏ xanh vừa cỡ, đưa kéo tới cuống.
-- **Kết quả cuối:** Quả được tay đỡ, kéo ở gần cuống; dây vẫn tựa giàn không bị kéo căng.
-- **Nối cảnh:** Không chọn quả già vàng, không dùng rổ đã chứa cà chua hoặc giỏ đất khoai. Giàn giữ nguyên hình từ C07.
-- **Âm thanh:** Rổ đặt, lá cọ tay, kéo mở nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
-- **Tham chiếu:** B07; P01; D18; D19
-
-#### S194 — Cắt cuống, giữ quả trên tay
-
-**11:15–11:18 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Trung tay, cuống và phần dây leo; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Cùng quả dưa đã chọn Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
-- **Trạng thái đầu:** Quả nằm trong tay đỡ, lưỡi kéo mở sát cuống nhưng tránh thân chính.
-- **Hành động:** Cô khép kéo cắt cuống, giữ quả yên khi quả vừa rời dây.
+- **Hành động:** Cô nâng quả xanh đủ cỡ bằng một tay, đưa kéo tới và cắt cuống bằng tay kia.
 - **Kết quả cuối:** Quả dưa có đoạn cuống ngắn đã tách, dây và tua không bị giật khỏi giàn.
-- **Nối cảnh:** Tiếp vị trí kéo S193, không kéo đứt cả dây. Không cắt lặp lại cùng cuống ở góc sau.
-- **Âm thanh:** Một tiếng kéo gọn, lá nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Ra khi quả rời dây nhưng vẫn được tay đỡ, không xoay như cà chua. Sau đó nối S126.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D18; D19
 
-#### S195 — Hạ quả dưa vào rổ
+#### S126 — Hạ dưa vào rổ
 
-**11:18–11:22 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**07:18.2–07:20.4 · 2.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận quả vừa cắt và rổ ở dưới; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Cùng vị trí thu dưa Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
-- **Trạng thái đầu:** Quả đã rời cuống ở S194; cô giữ bằng tay, kéo ở tay kia ngoài đường hạ.
-- **Hành động:** Cô hạ quả nằm nhẹ trong rổ, buông khi quả được đáy rổ đỡ.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng vị trí thu dưa  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D18 Ba rổ thu riêng, D19 Kéo nhỏ thu cuống dưa.
+- **Trạng thái đầu:** Quả đã rời cuống ở cảnh liên quan; cô giữ bằng tay, kéo ở tay kia ngoài đường hạ.
+- **Hành động:** Cô hạ quả vừa cắt nằm trong rổ, chỉ buông khi quả được đáy đỡ.
 - **Kết quả cuối:** Rổ có quả đầu, vỏ nguyên, kéo không chạm vào thực phẩm hoặc rổ khi hạ.
-- **Nối cảnh:** Chỉ phần đặt quả sau lần cắt, không làm lại việc hái. Không thả rơi từ cao.
-- **Âm thanh:** Quả chạm tre nhẹ, áo chuyển. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Không bắt lại cắt cuống; rổ dưa riêng rổ cà. Sau đó nối S127.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D18; D19
 
-#### S196 — Kết lượt dưa cho bữa ăn
+#### S127 — Kết lượt thu dưa
 
-**11:22–11:25 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**07:20.4–07:23.7 · 3.3 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn cô và mảng giàn; máy cố định. Giữ đường đi vườn–kho–bếp theo bối cảnh thật; thấy vị trí giỏ và phần luống đã thu, không đổi trạng thái ngoài lý do dựng.
-- **Địa điểm, thời gian và ánh sáng:** Cuối lượt thu dưa Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cuối lượt thu dưa  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D18 Ba rổ thu riêng, D19 Kéo nhỏ thu cuống dưa.
 - **Trạng thái đầu:** Sau các lượt chọn/cắt được lược, rổ có vài quả xanh; tay cô cầm quả cuối đã cắt.
-- **Hành động:** Cô đặt quả cuối vào rổ, cất kéo gọn ở giỏ dụng cụ rồi nâng rổ khỏi lối.
+- **Hành động:** Sau các quả giữa được lược, cô đặt quả cuối, cất kéo vào giỏ dụng cụ rồi nâng rổ.
 - **Kết quả cuối:** Dưa đã thu đủ cho bữa, các quả non còn trên giàn; rổ dưa không trộn quả khác.
-- **Nối cảnh:** Không làm toàn bộ giàn trụi quả và lá. Lượng vừa quy mô hai bà cháu, chưa rửa hoặc cắt đầu quả.
-- **Âm thanh:** Rổ nhấc, kéo đặt gọn, lá giàn. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Ra ở rổ đã được nhấc, phần giàn còn quả non để lại. Sau đó nối S128.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B07; P01; D18; D19
 
-#### S197 — Chọn ngọn dền còn non
+#### S128 — Nhổ bó rau dền đủ non
 
-**11:25–11:29 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**07:23.7–07:28.3 · 4.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn cô, luống dền và rổ rau riêng; máy cố định. Giữ đường đi vườn–kho–bếp theo bối cảnh thật; thấy vị trí giỏ và phần luống đã thu, không đổi trạng thái ngoài lý do dựng.
-- **Địa điểm, thời gian và ánh sáng:** Luống rau dền B08 Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Luống rau dền B08  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D18 Ba rổ thu riêng.
 - **Trạng thái đầu:** Rổ dưa đã về bóng râm qua đoạn lược. Cô đặt rổ rau rỗng riêng bên lối; dền đủ non, chưa trổ bông.
-- **Hành động:** Cô ngồi thấp, gom nhẹ vài thân dền vừa cỡ vào một tay, tay kia giữ mặt đất cạnh gốc.
-- **Kết quả cuối:** Một nhóm cây đã được chọn, vẫn còn rễ trong đất, không gom cả luống.
-- **Nối cảnh:** Dền xanh có mảng đỏ tím đúng C08. Thu rau cuối để mang vào bếp ngay; không tước lá hoặc nhặt bỏ rễ ở vườn.
-- **Âm thanh:** Lá rau cọ tay, vải áo nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
-- **Tham chiếu:** B08; P01; D18
-
-#### S198 — Nhổ nhẹ cây dền đã chọn
-
-**11:29–11:32 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Trung chéo thấp, thấy tay và gốc; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Cùng vị trí rau dền Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
-- **Trạng thái đầu:** Một nhóm thân đang được giữ thấp, đất đủ tơi để nhổ.
-- **Hành động:** Cô kéo nhẹ nhóm cây lên theo trục thân, tay còn lại đỡ sát chân để rễ rời đất.
+- **Hành động:** Cô gom vài thân vừa cỡ, tay kia giữ đất cạnh gốc rồi kéo cho rễ rời nhẹ.
 - **Kết quả cuối:** Rau đã rời luống cùng rễ, lá không dập; phần dền chưa chọn vẫn nguyên.
-- **Nối cảnh:** Nối nhóm đang cầm S197. Không nhổ rồi trồng lại hoặc biến rau thành bó đã cắt rễ sạch.
-- **Âm thanh:** Rễ rời đất nhẹ, lá xào xạc. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Ra ở rễ đã rời đất, không chuyển cảnh mất nhịp nhổ. Sau đó nối S129.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B08; P01; D18
 
-#### S199 — Rũ phần đất rời ở rễ
+#### S129 — Rũ đất khỏi rễ
 
-**11:32–11:36 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**07:28.3–07:30.7 · 2.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận rễ dền và tay giữ bó, lá ngoài vùng đất rơi; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Cùng mép luống Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cùng mép luống  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D18 Ba rổ thu riêng.
 - **Trạng thái đầu:** Rau vừa nhổ, rễ còn ít đất tơi; rổ rau đặt cách vùng rũ.
-- **Hành động:** Cô rũ nhẹ một nhịp trên mép luống để đất rời rơi xuống, giữ bó không quật lá.
+- **Hành động:** Cô rũ bó một nhịp trên mép luống, đất rơi xuống, lá không bị quật.
 - **Kết quả cuối:** Rễ còn nguyên và có thể bám chút đất; rau chưa rửa hoặc sơ chế.
-- **Nối cảnh:** Đất rơi trở về luống, không rũ lên rổ cà chua hoặc dưa. Không cắt rễ ở cảnh này.
-- **Âm thanh:** Đất nhỏ rơi, lá nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Một lượt rũ đủ đọc, không kéo dài rung bó. Sau đó nối S130.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B08; P01; D18
 
-#### S200 — Xếp rau vào rổ riêng
+#### S130 — Rau vào rổ theo hướng rễ
 
-**11:36–11:39 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**07:30.7–07:33.6 · 2.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung cô, rổ rau và phần luống còn lại; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Cuối lượt thu rau dền Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Cuối lượt thu rau dền  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D18 Ba rổ thu riêng.
 - **Trạng thái đầu:** Qua phần thu lặp được lược, rổ có vài bó rau non; cô cầm bó cuối đã rũ đất rời.
-- **Hành động:** Cô hạ bó cuối vào rổ, để rễ cùng một hướng và phần lá không bị đè, rồi rút tay.
+- **Hành động:** Sau các bó giữa được lược, cô hạ bó cuối vào rổ, rễ cùng hướng và lá không bị đè.
 - **Kết quả cuối:** Rau đủ bữa trong rổ riêng, vẫn nguyên rễ; không chất giỏ nặng lên lá.
-- **Nối cảnh:** Chưa nhặt, rửa, cắt hoặc bó chặt. Các bước sơ chế dành cho phần bếp; phần rau khác còn trên luống.
-- **Âm thanh:** Lá chạm rổ, tre và vải. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Ra khi bó nằm vững, bốn loại ở bốn giỏ/rổ riêng. Sau đó nối S131.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B08; P01; D18
 
-#### S201 — Mang lượt thu về khu nhà
+#### S131 — Mang lượt thu về nhà
 
-**11:39–11:43 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**07:33.6–07:37.3 · 3.7 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn người trên lối về kho; máy cố định. Giữ đường đi vườn–kho–bếp theo bối cảnh thật; thấy vị trí giỏ và phần luống đã thu, không đổi trạng thái ngoài lý do dựng.
-- **Địa điểm, thời gian và ánh sáng:** Lối vườn–khu nhà Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Lối vườn–khu nhà  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D18 Ba rổ thu riêng, D20 Giỏ mang bếp và bốn rổ con.
 - **Trạng thái đầu:** Bốn loại đã ở bốn giỏ/rổ riêng trong bóng râm. Cô đã lấy giỏ khoai một tay và rổ cà chua tay kia; dưa/dền còn chờ chuyến sau ở chỗ mát.
-- **Hành động:** Cô xách hai giỏ/rổ lượng vừa sức đi theo lối về khu nhà, không chồng chúng lên nhau.
+- **Hành động:** Cô xách giỏ khoai và rổ cà chua theo đoạn lối về khu chia; dưa/dền chờ chuyến sau trong râm.
 - **Kết quả cuối:** Khoai và cà chua được đưa tới khu chia phần; rau dưa còn trong bóng râm chờ chuyến ngắn tiếp.
-- **Nối cảnh:** Chỉ thể hiện một chuyến mang tiêu biểu; chuyến dưa/rau được lược trước cảnh sau. Không bắt cô mang bốn rổ đầy bằng hai tay.
-- **Âm thanh:** Bước chân, quai tre chuyển, chim sân. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Đọc đường về có mốc nhà; lược chuyến mang thứ hai. Sau đó nối S132.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B09; P01; D01; D18; D20
 
-#### S202 — Chia phần nấu và phần để dành
+#### S132 — Chia phần nấu và phần để dành
 
-**11:43–11:46 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**07:37.3–07:41.3 · 4.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung mặt kê có sẵn và các rổ riêng; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Chỗ chia phần có bóng râm gần kho Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Chỗ chia phần có bóng râm gần kho  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D18 Ba rổ thu riêng, D20 Giỏ mang bếp và bốn rổ con.
 - **Trạng thái đầu:** Sau chuyến thứ hai được lược, bốn loại đều ở chỗ chia. Giỏ mang bếp sạch D20 có bốn rổ con đã nhận phần dùng nấu qua các lượt chọn được lược; phần khoai/cà dư còn riêng.
-- **Hành động:** Cô đặt củ khoai cuối dành cho bữa vào rổ con đúng loại, chỉnh rổ cà chua bên cạnh rồi đẩy giỏ phần để dành về phía cửa kho.
+- **Hành động:** Sau chuyến thứ hai được lược, cô chuyển củ cuối vào rổ phần nấu, chỉnh bốn rổ con rồi đẩy phần khoai/cà dư sang phía kho.
 - **Kết quả cuối:** Phần nấu có đủ bốn loại, vẫn nguyên chưa rửa; dưa/dền dùng cho bữa, khoai và cà chua có phần để dành riêng.
-- **Nối cảnh:** Phần chia ngắn, chỉ một lượt chọn cuối đại diện, không cân hoặc đếm kỹ. Rổ con ngăn riêng khoai, quả và lá, không đè rau bằng củ nặng.
-- **Âm thanh:** Củ chạm tre, rổ xê nhẹ trên mặt kê. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Bốn loại phần nấu còn nguyên, dưa/dền dùng bữa; không sơ chế ở đây. Sau đó nối S133.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B09; P01; D01; D18; D20
 
-#### S203 — Đặt giỏ khoai vào chỗ thoáng tối
+#### S133 — Đặt khoai để dành trong kho
 
-**11:46–11:50 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**07:41.3–07:43.6 · 2.3 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung cô và kệ kho hiện có; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Kho B09 Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Kho B09  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D18 Ba rổ thu riêng, D20 Giỏ mang bếp và bốn rổ con.
 - **Trạng thái đầu:** Giỏ khoai để dành còn củ nguyên chưa rửa, ít đất khô bám; cô đã mang giỏ tới cửa kho qua điểm cắt.
-- **Hành động:** Cô hạ giỏ lên kệ thấp thoáng, tránh ánh sáng trực tiếp rồi buông quai.
+- **Hành động:** Cô hạ giỏ khoai lên kệ thấp thoáng, khuất nắng trực tiếp.
 - **Kết quả cuối:** Khoai ở khu riêng, giỏ mở thoáng, không đậy kín hoặc trộn với cà chua.
-- **Nối cảnh:** Đây là bước đặt khoai chờ khô/để dành, không khẳng định đã hoàn tất bảo quản dài ngày ngay sau đào. Không thêm quy trình xử lý hoặc đóng gói.
-- **Âm thanh:** Giỏ chạm kệ gỗ, bước chân. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Ra khi giỏ vững; không kể thêm cách bảo quản dài ngày. Sau đó nối S134.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B09; P01; D01; D18; D20
 
-#### S204 — Để riêng rổ cà chua còn lại
+#### S134 — Cà chua nằm khu riêng
 
-**11:50–11:53 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**07:43.6–07:45.5 · 1.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận tay và rổ cà chua trên kệ khác; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Khu thoáng mát gần cửa kho, tránh nắng Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Khu thoáng mát gần cửa kho, tránh nắng  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D01 Giỏ tre và khay gỗ nông, D18 Ba rổ thu riêng, D20 Giỏ mang bếp và bốn rổ con.
 - **Trạng thái đầu:** Rổ cà chua để dành ngắn ngày ở tay cô, không có khoai hoặc rau lá bên trong.
-- **Hành động:** Cô đặt rổ lên mặt kê thoáng riêng, chỉnh một quả khỏi chỗ bị tì rồi rút tay.
+- **Hành động:** Cô đặt rổ cà lên mặt kê thoáng riêng, chỉnh quả khỏi chỗ tì.
 - **Kết quả cuối:** Cà chua được để theo loại, một lớp thoáng; phần nguyên liệu nấu vẫn ở giỏ D20 ngoài kho.
-- **Nối cảnh:** Không mô tả đây là cách giữ cà chua chín lâu nhiều tuần. Không đặt ngay trong vùng tối bí hoặc dưới giỏ khoai nặng.
-- **Âm thanh:** Rổ và gỗ nhẹ, âm sân xa. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Phân biệt với giỏ khoai, không xếp chồng hai loại. Sau đó nối S135.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B09; P01; D01; D18; D20
 
-#### S205 — Mang phần dùng nấu vào bếp phụ
+#### S135 — Mang phần nấu vào bếp
 
-**11:53–11:57 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**07:45.5–07:49.7 · 4.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn cô đi qua cửa bếp; máy cố định. Giữ đường đi vườn–kho–bếp theo bối cảnh thật; thấy vị trí giỏ và phần luống đã thu, không đổi trạng thái ngoài lý do dựng.
-- **Địa điểm, thời gian và ánh sáng:** Từ chỗ chia phần tới bếp phụ B10 Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Từ chỗ chia phần tới bếp phụ B10  Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế.  Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D20 Giỏ mang bếp và bốn rổ con.
 - **Trạng thái đầu:** Giỏ D20 có bốn rổ con riêng: khoai còn vỏ, cà chua nguyên, dưa nguyên và dền còn rễ. Phần để dành đã ở khu kho.
-- **Hành động:** Cô đỡ giỏ phần nấu bằng hai tay, bước qua cửa bếp phụ hướng tới bàn chuẩn bị.
-- **Kết quả cuối:** Bốn loại thực phẩm cùng được đưa vào bếp, vẫn chưa rửa hoặc cắt.
-- **Nối cảnh:** Lược quãng đi quay lại lấy giỏ; giỏ D20 được xác lập ở S202, không biến giỏ khoai lưu lại thành giỏ sạch chứa cả bốn loại.
-- **Âm thanh:** Bước chân trên nền bếp, quai tre và áo. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
-- **Tham chiếu:** B10; P01; D20
-
-#### S206 — Đặt nguyên liệu thô lên bàn bếp
-
-**11:57–12:00 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Trung bàn bếp phụ, giỏ và tay cô; máy cố định. Giữ cùng phía trục thao tác; cận có cuống, mép giỏ/rổ hoặc mặt đất làm mốc. Cảnh sau nối phần động tác chưa xong hoặc lược công việc lặp đã ghi.
-- **Địa điểm, thời gian và ánh sáng:** Bàn bếp phụ B10 Cùng buổi sáng thu hoạch khoảng ngày 105; không quay ngược ngày hoặc chuyển sang nguyên liệu đã sơ chế. Sáng dịu, vườn đủ sáng; khu chia/kho tránh nắng trực tiếp, bếp có ánh sáng cửa. Hướng sáng giữ theo từng không gian.
-- **Nhân vật và dụng cụ:** Cô gái P01; giỏ khoai D01, xẻng D03, bộ ba rổ D18, kéo D19 hoặc giỏ bếp bốn rổ con D20 theo cảnh.
-- **Trạng thái đầu:** Cô đang đỡ giỏ D20 cạnh bàn; chậu gỗ rửa đặt ở bàn, xô cao gần cửa đúng thiết kế, chưa lấy nước.
-- **Hành động:** Cô hạ giỏ lên bàn vững, buông tay rồi nhấc rổ cà chua riêng đặt sát chậu gỗ.
+- **Hành động:** Ở đoạn cuối qua cửa, cô mang giỏ bốn rổ con tới bàn phụ, hạ vững rồi kéo rổ cà sát chậu.
 - **Kết quả cuối:** Bốn loại đã tới bàn: cà chua nguyên, khoai còn vỏ, dưa nguyên, dền còn rễ. Chậu rửa chưa có thao tác rửa, chưa nấu.
-- **Nối cảnh:** Kết C09 ở mốc 12:00. Phần bếp sau phải bắt đầu từ trạng thái nguyên liệu thô này, lấy nước từ xô cao gần cửa.
-- **Âm thanh:** Giỏ chạm bàn, rổ cà chua đặt nhẹ, âm sân qua cửa; không nhạc/thoại. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Liên tục và điểm cắt:** Ra khi nguyên liệu ở bàn, vẫn chưa rửa/cắt; lược từ sáng tới chiều ở shot sau. Sau đó nối S136.
+- **Âm thanh:** Âm thao tác đang thấy: bước chân, đất/dụng cụ, nước hoặc dây/tre chạm đúng thời điểm; nền gió và chim thưa. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; P01; D20
 
-## C10 — Nhóm bếp, vo gạo và bắt đầu luộc khoai
+## C10 — Nhóm lửa, vo gạo và bắt đầu luộc khoai
 
-**22 shot · 72 giây · 12:00–13:12.**
-
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
 |---|---|---:|---|---|
-| S207 | 12:00–12:03 | 3 | Toàn bếp phụ nhìn sang bếp chính | Cô đặt bát trứng nguyên vào hàng bát ở phần bàn khô rồi quay về phía chỗ củi có sẵn cạnh lò. |
-| S208 | 12:03–12:06 | 3 | Trung | Cô lấy mồi khô, đặt trước cửa lò rồi kê hai thanh củi nhỏ bên cạnh trong cùng nhịp. |
-| S209 | 12:06–12:09 | 3 | Cận tay, que diêm và mồi trên mặt gạch | Cô quẹt que diêm, đưa đầu cháy tới mép mồi rồi rút que khi mồi đã bắt lửa. |
-| S210 | 12:09–12:12 | 3 | Trung chéo cửa lò, thấy tay và hai thanh củi | Cô đẩy mồi đang cháy vào phần gạch cửa lò, đưa các thanh củi nhỏ tựa lên phía trên chừa khe thoáng. |
-| S211 | 12:12–12:15 | 3 | Cận cửa lò, mồi và đầu củi rõ | Lửa lan nhẹ trên mép củi, vài tiếng nổ nhỏ, khói mỏng đi theo đường hút của bếp. |
-| S212 | 12:15–12:19 | 4 | Trung | Cô rót nước vào nồi, trả gáo về chỗ sạch rồi đưa tay vào đảo lớp gạo đầu. |
-| S213 | 12:19–12:22 | 3 | Cận | Cô tiếp tục đảo gạo nhẹ một vòng, nâng tay cho hạt rơi lại nồi rồi nắm thành nồi. |
-| S214 | 12:22–12:25 | 3 | Trung chéo mép bàn và chỗ xả có sẵn | Cô nghiêng nồi ở vị trí xả nước có sẵn, một tay giữ gạo ở mép để nước chảy đi rồi đưa nồi trở lại ngang. |
-| S215 | 12:25–12:28 | 3 | Cận gạo và tay, góc khác nhưng cùng phía trục | Cô đảo nhẹ gạo lần nữa rồi rút tay ra, các hạt lắng xuống. |
-| S216 | 12:28–12:31 | 3 | Trung tay và nồi, thấy hướng xả | Cô nghiêng nồi chắt nước lượt cuối, giữ hạt lại rồi hạ nồi về mặt kê sạch. |
-| S217 | 12:31–12:34 | 3 | Trung chéo bàn, gáo và lòng nồi rõ | Cô thêm lượng nước nấu phù hợp gạo vào nồi, ngừng rót rồi đặt gáo về chỗ sạch. |
-| S218 | 12:34–12:38 | 4 | Toàn | Cô hạ nồi lên vị trí trái, buông khi vững rồi đưa tay lấy nắp cạnh bếp. |
-| S219 | 12:38–12:42 | 4 | Trung | Cô đậy nắp rồi quay người về bàn có rổ khoai, tiếp tục công việc. |
-| S220 | 12:42–12:46 | 4 | Toàn | Cô nghiêng rổ chuyển một lượt củ vào chậu, đặt rổ sát bên rồi với tay về gáo sạch. |
-| S221 | 12:46–12:50 | 4 | Trung | Cô rót nước vào chậu, đặt gáo lại chỗ sạch rồi đưa hai tay xuống xoay củ khoai đầu. |
-| S222 | 12:50–12:53 | 3 | Cận hai tay, một củ và nước trong chậu | Cô xoay củ giữa hai tay, chà nhẹ vỏ bằng đầu ngón tay rồi chuyển sang củ kế. |
-| S223 | 12:53–12:56 | 3 | Trung tay, chậu và rổ sạch nhận khoai | Cô nhấc vài củ sạch khỏi nước, để ráo một nhịp rồi hạ vào rổ bên cạnh. |
-| S224 | 12:56–12:59 | 3 | Toàn cô, chậu và đường ngắn tới cửa | Cô bưng chậu bằng hai tay tới cửa, nghiêng đổ ở vị trí xả phù hợp hiện có. |
-| S225 | 12:59–13:02 | 3 | Trung bàn chuẩn bị, rổ và nồi thứ hai | Cô chuyển các củ vừa cỡ vào nồi luộc, đặt nhẹ để không va mạnh. |
-| S226 | 13:02–13:05 | 3 | Cận gáo và miệng nồi luộc | Cô rót nước lạnh quanh các củ tới mức ngập, dựng gáo rồi đặt lại chỗ sạch. |
-| S227 | 13:05–13:08 | 3 | Toàn cô và hai vị trí nấu trên bếp | Cô đỡ nồi khoai bằng hai tay, bước tới bếp và hạ lên vị trí phải. |
-| S228 | 13:08–13:12 | 4 | Trung | Cô đậy nắp nồi khoai, quay về phía bàn chuẩn bị rồi bước ra khỏi vùng bếp. |
+| S136 | 07:49.7–07:52.3 | 2.6 | Cận | Ánh chiều đã đổi; cô đặt bát trứng nguyên cạnh các bát phụ chưa sơ chế, tay chuyển về phía củi sẵn. |
+| S137 | 07:52.3–07:55.7 | 3.4 | Cận | Cô đặt mồi khô ở cửa lò, kê hai thanh củi nhỏ chừa khe thoáng. |
+| S138 | 07:55.7–08:00.8 | 5.1 | Cận | Cô quẹt diêm, châm mép mồi; khi mồi bắt, cô đẩy vào phần gạch cửa lò dưới các thanh củi đã kê. |
+| S139 | 08:00.8–08:03.3 | 2.5 | Cận | Lửa bám mép củi, khói mỏng theo đường hút; củi và khe thoáng không đổi. |
+| S140 | 08:03.3–08:08.2 | 4.9 | Cận | Cô rót nước sạch vào nồi gạo, trả gáo về chỗ sạch rồi đảo gạo nhẹ một vòng. |
+| S141 | 08:08.2–08:11.0 | 2.8 | Cận | Cô nghiêng nồi ở chỗ xả, giữ hạt trong nồi cho nước đục chảy đi. |
+| S142 | 08:11.0–08:14.8 | 3.8 | Cận | Sau lượt thêm nước/vo lại được lược rõ tại cut, cô chắt nước vo cuối rồi đặt nồi về mặt kê. |
+| S143 | 08:14.8–08:18.0 | 3.2 | Cận | Cô rót nước sạch tới lượng nấu phù hợp rồi trả gáo riêng về chỗ sạch. |
+| S144 | 08:18.0–08:22.8 | 4.8 | Trung | Cô mang nồi ở đoạn cuối tới bếp trái, hạ vững rồi lấy nắp đậy. |
+| S145 | 08:22.8–08:27.0 | 4.2 | Trung | Ở bàn phụ, cô chuyển khoai vào chậu, rót nước rồi đặt gáo về chỗ sạch. |
+| S146 | 08:27.0–08:30.7 | 3.7 | Cận | Cô xoay một củ dưới nước, chà vỏ làm đất rời ra rồi chuyển sang củ kế. |
+| S147 | 08:30.7–08:35.5 | 4.8 | Cận | Sau các lượt rửa được lược, cô nhấc củ sạch cuối sang rổ; chuyển chậu về phía xả ở rìa khung và bắt đầu nghiêng. |
+| S148 | 08:35.5–08:40.5 | 5.0 | Cận | Cô chuyển vài củ sạch cuối vào nồi luộc rồi rót nước lạnh ngập củ. |
+| S149 | 08:40.5–08:45.0 | 4.5 | Trung | Cô đặt nồi vào vị trí phải, đậy nắp rồi quay về bàn chuẩn bị. |
 
 ### Mô tả chi tiết
 
-#### S207 — Ánh chiều và nguyên liệu trên bàn bếp
+#### S136 — Nguyên liệu trước bữa tối
 
-**12:00–12:03 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:49.7–07:52.3 · 2.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn bếp phụ nhìn sang bếp chính; máy cố định. Giữ đường bàn bếp phụ–cửa/xô cao–bếp chính và thứ tự hai nồi, không đảo trái phải qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: gạo chưa vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô đặt bát trứng nguyên vào hàng bát ở phần bàn khô rồi quay về phía chỗ củi có sẵn cạnh lò.
-- **Kết quả cuối:** Cơm: gạo chưa vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S206 → S207 → S208. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Bát chạm gỗ, bước chân trên nền bếp. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: gạo khô, chưa vo; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Ánh chiều đã đổi; cô đặt bát trứng nguyên cạnh các bát phụ chưa sơ chế, tay chuyển về phía củi sẵn.
+- **Kết quả cuối:** Cơm: gạo khô, chưa vo; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Bốn rau củ chính ở bàn và nguyên liệu phụ riêng bát; không kể nguồn gốc phần phụ. Sau đó nối S137.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S208 — Lấy mồi rồi xếp củi
+#### S137 — Xếp mồi và củi nhỏ
 
-**12:03–12:06 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:52.3–07:55.7 · 3.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: gạo chưa vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có. Củi và mồi khô có sẵn cạnh lò, bếp chưa cháy.
-- **Hành động:** Cô lấy mồi khô, đặt trước cửa lò rồi kê hai thanh củi nhỏ bên cạnh trong cùng nhịp.
-- **Kết quả cuối:** Cơm: gạo chưa vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S207 → S208 → S209. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Mồi sột soạt, củi chạm nền gạch nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: gạo khô, chưa vo; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô đặt mồi khô ở cửa lò, kê hai thanh củi nhỏ chừa khe thoáng.
+- **Kết quả cuối:** Cơm: gạo khô, chưa vo; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở mồi và củi đã sẵn, chưa có lửa tự xuất hiện. Sau đó nối S138.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S209 — Châm mồi bằng que diêm
+#### S138 — Châm mồi rồi đưa vào lò
 
-**12:06–12:09 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**07:55.7–08:00.8 · 5.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận tay, que diêm và mồi trên mặt gạch; máy cố định. Cùng phía trục thao tác; cận còn thấy mép chậu/nồi hoặc nền bếp làm mốc. Phần hành động mới nối trạng thái trước, không diễn lại lượt cũ.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: gạo chưa vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô quẹt que diêm, đưa đầu cháy tới mép mồi rồi rút que khi mồi đã bắt lửa.
-- **Kết quả cuối:** Cơm: gạo chưa vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S208 → S209 → S210. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng quẹt diêm và mồi cháy tí tách nhỏ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: gạo khô, chưa vo; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô quẹt diêm, châm mép mồi; khi mồi bắt, cô đẩy vào phần gạch cửa lò dưới các thanh củi đã kê.
+- **Kết quả cuối:** Cơm: gạo khô, chưa vo; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Giữ đủ lửa bắt và mồi được đưa vào, không châm lại ở góc sau. Sau đó nối S139.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S210 — Đưa mồi vào lò, kê củi
+#### S139 — Củi bắt lửa
 
-**12:09–12:12 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:00.8–08:03.3 · 2.5 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung chéo cửa lò, thấy tay và hai thanh củi; máy cố định. Cùng phía trục thao tác; cận còn thấy mép chậu/nồi hoặc nền bếp làm mốc. Phần hành động mới nối trạng thái trước, không diễn lại lượt cũ.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: gạo chưa vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô đẩy mồi đang cháy vào phần gạch cửa lò, đưa các thanh củi nhỏ tựa lên phía trên chừa khe thoáng.
-- **Kết quả cuối:** Cơm: gạo chưa vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S209 → S210 → S211. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Củi chạm gạch, mồi và lửa nhỏ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: gạo khô, chưa vo; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Lửa bám mép củi, khói mỏng theo đường hút; củi và khe thoáng không đổi.
+- **Kết quả cuối:** Cơm: gạo khô, chưa vo; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở kết quả lửa bám, chuyển sang vo gạo. Sau đó nối S140.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S211 — Lửa bám vào củi nhỏ
+#### S140 — Rót nước và vo gạo
 
-**12:12–12:15 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:03.3–08:08.2 · 4.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận cửa lò, mồi và đầu củi rõ; máy cố định. Cùng phía trục thao tác; cận còn thấy mép chậu/nồi hoặc nền bếp làm mốc. Phần hành động mới nối trạng thái trước, không diễn lại lượt cũ.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: gạo chưa vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Lửa lan nhẹ trên mép củi, vài tiếng nổ nhỏ, khói mỏng đi theo đường hút của bếp.
-- **Kết quả cuối:** Cơm: gạo chưa vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S210 → S211 → S212. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Lửa tí tách, củi nổ nhẹ, âm sân xa. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: gạo khô, chưa vo; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô rót nước sạch vào nồi gạo, trả gáo về chỗ sạch rồi đảo gạo nhẹ một vòng.
+- **Kết quả cuối:** Cơm: đã vo lượt đầu; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi nước đã đục và tay nắm thành nồi để chắt. Sau đó nối S141.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S212 — Lấy nước rồi bắt đầu vo gạo
+#### S141 — Chắt nước vo đầu
 
-**12:15–12:19 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:08.2–08:11.0 · 2.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: gạo chưa vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có. Gạo khô ở nồi trên mặt kê sạch, xô cao/gáo bếp riêng gần cửa.
-- **Hành động:** Cô rót nước vào nồi, trả gáo về chỗ sạch rồi đưa tay vào đảo lớp gạo đầu.
-- **Kết quả cuối:** Cơm: đang vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S211 → S212 → S213. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước vào nồi, gáo gỗ chạm chỗ tựa nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đã vo lượt đầu; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô nghiêng nồi ở chỗ xả, giữ hạt trong nồi cho nước đục chảy đi.
+- **Kết quả cuối:** Cơm: đã vo lượt đầu; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi nồi trở ngang, không bỏ mất toàn bộ gạo. Sau đó nối S142.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S213 — Vo gạo tiếp diễn
+#### S142 — Lượt nước mới sau vo lại
 
-**12:19–12:22 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:11.0–08:14.8 · 3.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đang vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có. Tay cô đã ở trong nồi từ cảnh trước, nước bắt đầu đục.
-- **Hành động:** Cô tiếp tục đảo gạo nhẹ một vòng, nâng tay cho hạt rơi lại nồi rồi nắm thành nồi.
-- **Kết quả cuối:** Cơm: đang vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S212 → S213 → S214. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Gạo và nước xào xạc dịu trong nồi. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đã vo lượt đầu; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Sau lượt thêm nước/vo lại được lược rõ tại cut, cô chắt nước vo cuối rồi đặt nồi về mặt kê.
+- **Kết quả cuối:** Cơm: vo xong, đã chắt; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Lược lần vo lặp, nhưng đầu shot phải có nước mới và gạo vẫn ở nồi. Sau đó nối S143.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S214 — Chắt bỏ nước vo đầu
+#### S143 — Thêm nước nấu cơm
 
-**12:22–12:25 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:14.8–08:18.0 · 3.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung chéo mép bàn và chỗ xả có sẵn; máy cố định. Cùng phía trục thao tác; cận còn thấy mép chậu/nồi hoặc nền bếp làm mốc. Phần hành động mới nối trạng thái trước, không diễn lại lượt cũ.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đang vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô nghiêng nồi ở vị trí xả nước có sẵn, một tay giữ gạo ở mép để nước chảy đi rồi đưa nồi trở lại ngang.
-- **Kết quả cuối:** Cơm: đang vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S213 → S214 → S215. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước chảy, nồi chuyển nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: vo xong, đã chắt; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô rót nước sạch tới lượng nấu phù hợp rồi trả gáo riêng về chỗ sạch.
+- **Kết quả cuối:** Cơm: đủ nước nấu; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi lượng nước đã đủ, không đặt lên bếp với nồi vừa chắt cạn. Sau đó nối S144.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S215 — Vo lại với lượt nước mới
+#### S144 — Đặt và đậy nồi cơm
 
-**12:25–12:28 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:18.0–08:22.8 · 4.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận gạo và tay, góc khác nhưng cùng phía trục; máy cố định. Cùng phía trục thao tác; cận còn thấy mép chậu/nồi hoặc nền bếp làm mốc. Phần hành động mới nối trạng thái trước, không diễn lại lượt cũ.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đang vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô đảo nhẹ gạo lần nữa rồi rút tay ra, các hạt lắng xuống.
-- **Kết quả cuối:** Cơm: đang vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S214 → S215 → S216. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước và gạo, âm hiên qua cửa. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đủ nước nấu; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô mang nồi ở đoạn cuối tới bếp trái, hạ vững rồi lấy nắp đậy.
+- **Kết quả cuối:** Cơm: đun đậy ở bếp trái; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi nắp ở nồi trái và cô bắt đầu xoay về bàn; lược quãng đường không đổi thông tin. Sau đó nối S145.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S216 — Chắt nước vo cuối
+#### S145 — Cho khoai và nước vào chậu
 
-**12:28–12:31 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:22.8–08:27.0 · 4.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung tay và nồi, thấy hướng xả; máy cố định. Cùng phía trục thao tác; cận còn thấy mép chậu/nồi hoặc nền bếp làm mốc. Phần hành động mới nối trạng thái trước, không diễn lại lượt cũ.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đang vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô nghiêng nồi chắt nước lượt cuối, giữ hạt lại rồi hạ nồi về mặt kê sạch.
-- **Kết quả cuối:** Cơm: đang vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S215 → S216 → S217. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước chảy nhỏ dần, đáy nồi đặt nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đun đậy ở bếp trái; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Ở bàn phụ, cô chuyển khoai vào chậu, rót nước rồi đặt gáo về chỗ sạch.
+- **Kết quả cuối:** Cơm: đun đậy ở bếp trái; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi tay cô bắt đầu đưa vào nước, nồi cơm vẫn đun ngoài khung. Sau đó nối S146.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S217 — Thêm nước để nấu cơm
+#### S146 — Rửa vỏ khoai còn đất
 
-**12:31–12:34 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:27.0–08:30.7 · 3.7 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung chéo bàn, gáo và lòng nồi rõ; máy cố định. Cùng phía trục thao tác; cận còn thấy mép chậu/nồi hoặc nền bếp làm mốc. Phần hành động mới nối trạng thái trước, không diễn lại lượt cũ.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đang vo; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô thêm lượng nước nấu phù hợp gạo vào nồi, ngừng rót rồi đặt gáo về chỗ sạch.
-- **Kết quả cuối:** Cơm: đã thêm nước nấu; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S216 → S217 → S218. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước sạch rót vào nồi, gáo gỗ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đun đậy ở bếp trái; Khoai: nguyên vỏ chưa rửa; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô xoay một củ dưới nước, chà vỏ làm đất rời ra rồi chuyển sang củ kế.
+- **Kết quả cuối:** Cơm: đun đậy ở bếp trái; Khoai: đang rửa vỏ; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi bề mặt củ đại diện sạch hơn, không tự sạch toàn mẻ trong một lượt chà. Sau đó nối S147.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S218 — Đưa nồi cơm lên bếp
+#### S147 — Vớt khoai sạch, bỏ nước bẩn
 
-**12:34–12:38 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:30.7–08:35.5 · 4.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đã thêm nước nấu; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có. Nồi đã có nước nấu; cô đang mang nồi ở đoạn cuối đường tới bếp.
-- **Hành động:** Cô hạ nồi lên vị trí trái, buông khi vững rồi đưa tay lấy nắp cạnh bếp.
-- **Kết quả cuối:** Cơm: đã thêm nước nấu; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S217 → S218 → S219. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Bước chân, nồi chạm mặt đỡ, lửa nền. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đun đậy ở bếp trái; Khoai: đang rửa vỏ; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Sau các lượt rửa được lược, cô nhấc củ sạch cuối sang rổ; chuyển chậu về phía xả ở rìa khung và bắt đầu nghiêng.
+- **Kết quả cuối:** Cơm: đun đậy ở bếp trái; Khoai: đã rửa ráo, nguyên vỏ; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi nước bẩn bắt đầu đổ ở vị trí xả; lược hoàn tất đổ/trả chậu trước cảnh nồi sạch. Sau đó nối S148.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S219 — Rời nồi cơm để làm việc khác
+#### S148 — Khoai nguyên vỏ vào nước lạnh
 
-**12:38–12:42 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:35.5–08:40.5 · 5.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đã thêm nước nấu; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có. Nắp đang ở tay cô trên miệng nồi trái.
-- **Hành động:** Cô đậy nắp rồi quay người về bàn có rổ khoai, tiếp tục công việc.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S218 → S219 → S220. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nắp chạm nồi gọn, lửa nhỏ dưới bếp. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đun đậy ở bếp trái; Khoai: đã rửa ráo, nguyên vỏ; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô chuyển vài củ sạch cuối vào nồi luộc rồi rót nước lạnh ngập củ.
+- **Kết quả cuối:** Cơm: đun đậy ở bếp trái; Khoai: nguyên vỏ trong nước lạnh ngập; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Giữ đủ nhận củ và mức nước, không bắt đầu với khoai đã chín/bóc. Sau đó nối S149.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S220 — Chuyển khoai vào chậu rửa
+#### S149 — Đặt và đậy nồi khoai
 
-**12:42–12:46 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:40.5–08:45.0 · 4.5 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có. Rổ khoai cạnh chậu gỗ trên bàn phụ; nồi cơm đang đun bên trái.
-- **Hành động:** Cô nghiêng rổ chuyển một lượt củ vào chậu, đặt rổ sát bên rồi với tay về gáo sạch.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S219 → S220 → S221. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Củ chạm gỗ, rổ đặt, bước chân. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đun đậy ở bếp trái; Khoai: nguyên vỏ trong nước lạnh ngập; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô đặt nồi vào vị trí phải, đậy nắp rồi quay về bàn chuẩn bị.
+- **Kết quả cuối:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Hai nồi bắt đầu đun; phần chờ chín đi qua việc rửa rau phía sau. Sau đó nối S150.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S221 — Rót nước rồi rửa khoai
+## C11 — Rửa rau quả, kiểm nồi và chuẩn bị gia vị
 
-**12:46–12:50 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có. Gáo đã múc nước sạch; khoai chưa rửa trong chậu.
-- **Hành động:** Cô rót nước vào chậu, đặt gáo lại chỗ sạch rồi đưa hai tay xuống xoay củ khoai đầu.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S220 → S221 → S222. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước vào chậu gỗ, củ dịch nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S222 — Rửa sạch đất trên vỏ khoai
-
-**12:50–12:53 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận hai tay, một củ và nước trong chậu; máy cố định. Cùng phía trục thao tác; cận còn thấy mép chậu/nồi hoặc nền bếp làm mốc. Phần hành động mới nối trạng thái trước, không diễn lại lượt cũ.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: khoai nguyên chưa rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô xoay củ giữa hai tay, chà nhẹ vỏ bằng đầu ngón tay rồi chuyển sang củ kế.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: đang rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S221 → S222 → S223. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tay chà vỏ, nước và củ chạm gỗ nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S223 — Vớt khoai đã rửa ra rổ
-
-**12:53–12:56 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung tay, chậu và rổ sạch nhận khoai; máy cố định. Cùng phía trục thao tác; cận còn thấy mép chậu/nồi hoặc nền bếp làm mốc. Phần hành động mới nối trạng thái trước, không diễn lại lượt cũ.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: đang rửa; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô nhấc vài củ sạch khỏi nước, để ráo một nhịp rồi hạ vào rổ bên cạnh.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: đã rửa, còn vỏ; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S222 → S223 → S224. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước nhỏ xuống chậu, củ chạm rổ nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S224 — Đổ nước rửa bẩn khỏi chậu
-
-**12:56–12:59 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn cô, chậu và đường ngắn tới cửa; máy cố định. Giữ đường bàn bếp phụ–cửa/xô cao–bếp chính và thứ tự hai nồi, không đảo trái phải qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: đã rửa, còn vỏ; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô bưng chậu bằng hai tay tới cửa, nghiêng đổ ở vị trí xả phù hợp hiện có.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: đã rửa, còn vỏ; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S223 → S224 → S225. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Bước chân, nước đổ, chậu gỗ chuyển. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S225 — Cho khoai sạch vào nồi luộc
-
-**12:59–13:02 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung bàn chuẩn bị, rổ và nồi thứ hai; máy cố định. Cùng phía trục thao tác; cận còn thấy mép chậu/nồi hoặc nền bếp làm mốc. Phần hành động mới nối trạng thái trước, không diễn lại lượt cũ.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: đã rửa, còn vỏ; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô chuyển các củ vừa cỡ vào nồi luộc, đặt nhẹ để không va mạnh.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: đã rửa, còn vỏ; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S224 → S225 → S226. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Củ chạm nồi đục nhẹ, rổ tre. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S226 — Thêm nước lạnh ngập khoai
-
-**13:02–13:05 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận gáo và miệng nồi luộc; máy cố định. Cùng phía trục thao tác; cận còn thấy mép chậu/nồi hoặc nền bếp làm mốc. Phần hành động mới nối trạng thái trước, không diễn lại lượt cũ.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: đã rửa, còn vỏ; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô rót nước lạnh quanh các củ tới mức ngập, dựng gáo rồi đặt lại chỗ sạch.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: đã rửa, còn vỏ; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S225 → S226 → S227. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước vào nồi, gáo và củ dịch nhẹ. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S227 — Đặt nồi khoai lên vị trí bếp phải
-
-**13:05–13:08 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn cô và hai vị trí nấu trên bếp; máy cố định. Giữ đường bàn bếp phụ–cửa/xô cao–bếp chính và thứ tự hai nồi, không đảo trái phải qua điểm cắt.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: đã rửa, còn vỏ; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô đỡ nồi khoai bằng hai tay, bước tới bếp và hạ lên vị trí phải.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: đã rửa, còn vỏ; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S226 → S227 → S228. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nồi chạm mặt đỡ, bước chân và lửa. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S228 — Đậy khoai rồi quay về bàn
-
-**13:08–13:12 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: đã rửa, còn vỏ; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có. Nồi khoai đã đặt lên vị trí phải; cơm ở trái đang đun.
-- **Hành động:** Cô đậy nắp nồi khoai, quay về phía bàn chuẩn bị rồi bước ra khỏi vùng bếp.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S227 → S228 → S229. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nắp chạm nồi, lửa tí tách, âm sân qua cửa; không nhạc/thoại. Chỉ âm thao tác/môi trường, không nhạc hoặc lời thoại.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-## C11 — Rửa rau quả, kiểm nồi cơm và chuẩn bị gia vị
-
-**22 shot · 70 giây · 13:12–14:22.**
-
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
 |---|---|---:|---|---|
-| S229 | 13:12–13:15 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Cô múc nước sạch từ xô cao, tráng lòng chậu rồi nghiêng bỏ lượt nước tráng ở chỗ xả hiện có. |
-| S230 | 13:15–13:18 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô đặt chậu lại bàn, rót gáo nước sạch vào rồi trả gáo về chỗ sạch. |
-| S231 | 13:18–13:21 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô chuyển cà chua nguyên từ rổ sát chậu xuống nước, dùng tay đỡ để quả không va mạnh. |
-| S232 | 13:21–13:24 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô xoay một quả dưới nước, miết nhẹ vùng quanh đài rồi chuyển tay sang quả kế. |
-| S233 | 13:24–13:27 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô nâng những quả đã rửa, để giọt trở lại chậu rồi đặt vào rổ sạch. |
-| S234 | 13:27–13:30 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Sau khi thay nước/tráng chậu được lược, cô đưa dưa nguyên vào chậu, xoay quả trong tay. |
-| S235 | 13:30–13:34 | 4 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô miết dọc vỏ một quả, xoay để rửa phía còn lại rồi nâng lên cho nước ráo. |
-| S236 | 13:34–13:37 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Cô đặt bó dền còn rễ lên thớt rau sạch, gom phần gốc cùng một hướng. |
-| S237 | 13:37–13:40 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô giữ bó sát gốc, cắt rời phần rễ bám đất, đưa rễ vào rổ vụn riêng. |
-| S238 | 13:40–13:44 | 4 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô tách một lá già và đoạn thân cứng nếu có, giữ phần non thành bó rời rồi đặt vào rổ. |
-| S239 | 13:44–13:47 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Sau khi tráng chậu/thay nước, cô nhúng rau đã nhặt vào, nới bó để nước vào giữa lá. |
-| S240 | 13:47–13:50 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Hai tay cô nâng và đảo nhẹ phần lá dưới nước, tránh vò nát. |
-| S241 | 13:50–13:53 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô nâng rau khỏi mặt nước, để cặn lắng lại đáy rồi chuyển sang rổ bên cạnh. |
-| S242 | 13:53–13:57 | 4 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Sau phần thay nước được lược, cô nhúng rau vào nước sạch lần nữa, đảo nhẹ rồi nhấc lên. |
-| S243 | 13:57–14:00 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô đặt rau vào rổ sạch, dàn nhẹ cho lá không bị nén rồi nghiêng rổ để nước dư nhỏ vào chậu. |
-| S244 | 14:00–14:03 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Với nước mới, cô rửa ớt tươi và hành lá nguyên, nhấc sang rổ gia vị riêng. |
-| S245 | 14:03–14:06 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Sau thời gian đun thực được lược qua các việc sơ chế, cô hé nắp trái, nhìn mặt gạo đã hút nước rồi đậy lại. |
-| S246 | 14:06–14:09 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô dùng kẹp củi đưa bớt thanh đang cháy ra rìa vùng lửa, giữ than hồng và khe thoáng dưới bếp. |
-| S247 | 14:09–14:12 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô ấn nhẹ tép tỏi bằng mặt dao, bóc lớp vỏ đã lỏng và đẩy vỏ ra rổ vụn. |
-| S248 | 14:12–14:15 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô gom tỏi đã bóc, băm đều tay rồi gạt vào bát nhỏ. |
-| S249 | 14:15–14:19 | 4 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô dùng cạnh thìa cạo một miếng gừng nhỏ, đặt lại thớt và thái lát đầu. |
-| S250 | 14:19–14:22 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô băm các lát gừng đã thái, gom thành phần nhỏ rồi chuyển vào bát riêng. |
+| S150 | 08:45.0–08:48.1 | 3.1 | Cận | Chậu đã được tráng và trả về bàn qua phần lược trước shot; cô rót nước sạch vào chậu, đưa gáo về chỗ riêng. |
+| S151 | 08:48.1–08:51.9 | 3.8 | Cận | Cô hạ quả đầu vào nước sạch, xoay và miết nhẹ quanh đài, chuyển sang quả kế. |
+| S152 | 08:51.9–08:54.1 | 2.2 | Cận | Cô nâng quả sạch cuối cho nước nhỏ về chậu rồi đặt vào rổ riêng. |
+| S153 | 08:54.1–08:58.0 | 3.9 | Cận | Với chậu đã tráng và thay nước qua cut, cô xoay một quả dưa, miết dọc vỏ rồi nhấc lên ráo. |
+| S154 | 08:58.0–09:01.6 | 3.6 | Cận | Bó đã gom gốc trên thớt rau; cô cắt rời rễ rồi đưa phần rễ vào rổ vụn. |
+| S155 | 09:01.6–09:04.3 | 2.7 | Cận | Cô tách một lá già, bỏ đoạn thân cứng rồi giữ phần non thành bó rời. |
+| S156 | 09:04.3–09:09.3 | 5.0 | Trung | Với nước sạch mới, cô nhúng rau đã nhặt, nới các lớp lá, đảo nhẹ rồi nhấc rau lên để cặn ở đáy. |
+| S157 | 09:09.3–09:12.7 | 3.4 | Cận | Sau lượt thay nước được lược, cô tráng rau trong nước sạch, nhấc lên đặt vào rổ ráo. |
+| S158 | 09:12.7–09:15.1 | 2.4 | Cận | Cô đảo ớt tươi và hành trong nước mới rồi nhấc sang rổ gia vị. |
+| S159 | 09:15.1–09:18.1 | 3.0 | Cận | Sau thời gian đun qua việc rửa, cô hé nắp trái, thấy gạo hút nước rồi đậy lại. |
+| S160 | 09:18.1–09:20.1 | 2.0 | Cận | Cô dùng kẹp đưa bớt thanh đang cháy ra rìa, giữ than hồng và khe thoáng. |
+| S161 | 09:20.1–09:23.3 | 3.2 | Cận | Cô ấn nhẹ tép bằng mặt dao rồi bóc lớp vỏ lỏng, đẩy vỏ ra rổ vụn. |
+| S162 | 09:23.3–09:28.0 | 4.7 | Cận | Cô băm nhiều nhịp trên phần tỏi đã bóc, gom nhỏ rồi gạt vào bát dùng chung các món. |
+| S163 | 09:28.0–09:33.2 | 5.2 | Cận | Cô cạo nốt vỏ ở miếng gừng đã xử lý phần lớn, thái vài lát mỏng rồi băm những lát trong tầm tay. |
 
 ### Mô tả chi tiết
 
-#### S229 — Tráng lại chậu gỗ
+#### S150 — Lấy nước vào chậu đã tráng
 
-**13:12–13:15 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:45.0–08:48.1 · 3.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô múc nước sạch từ xô cao, tráng lòng chậu rồi nghiêng bỏ lượt nước tráng ở chỗ xả hiện có.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S228 → S229 → S230. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có. Chậu đã bỏ nước khoai bẩn, tráng và trả về bàn ở phần lược; gáo bếp riêng đang có nước sạch.
+- **Hành động:** Chậu đã được tráng và trả về bàn qua phần lược trước shot; cô rót nước sạch vào chậu, đưa gáo về chỗ riêng.
+- **Kết quả cuối:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Shot chỉ giữ lượt rót mới; việc tráng là trạng thái đầu đã hoàn tất, không có cut bên trong shot. Sau đó nối S151.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S230 — Lấy lượt nước rửa mới
+#### S151 — Rửa quanh đài cà chua
 
-**13:15–13:18 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:48.1–08:51.9 · 3.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô đặt chậu lại bàn, rót gáo nước sạch vào rồi trả gáo về chỗ sạch.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S229 → S230 → S231. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô hạ quả đầu vào nước sạch, xoay và miết nhẹ quanh đài, chuyển sang quả kế.
+- **Kết quả cuối:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở bề mặt đã rửa; các quả cùng cách làm được lược. Sau đó nối S152.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S231 — Đưa cà chua vào chậu
+#### S152 — Cà chua sạch để ráo
 
-**13:18–13:21 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:51.9–08:54.1 · 2.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô chuyển cà chua nguyên từ rổ sát chậu xuống nước, dùng tay đỡ để quả không va mạnh.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S230 → S231 → S232. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô nâng quả sạch cuối cho nước nhỏ về chậu rồi đặt vào rổ riêng.
+- **Kết quả cuối:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi rổ nhận quả, không thêm toàn người cho cùng lần đặt. Sau đó nối S153.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S232 — Rửa quanh đài và vỏ quả
+#### S153 — Rửa lớp vỏ dưa
 
-**13:21–13:24 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:54.1–08:58.0 · 3.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô xoay một quả dưới nước, miết nhẹ vùng quanh đài rồi chuyển tay sang quả kế.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S231 → S232 → S233. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Với chậu đã tráng và thay nước qua cut, cô xoay một quả dưa, miết dọc vỏ rồi nhấc lên ráo.
+- **Kết quả cuối:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Giữ thao tác khác bề mặt cà chua; không quay lại nghi thức lấy nước đầy đủ. Sau đó nối S154.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S233 — Vớt cà chua để ráo
+#### S154 — Cắt rễ dền còn đất
 
-**13:24–13:27 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**08:58.0–09:01.6 · 3.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô nâng những quả đã rửa, để giọt trở lại chậu rồi đặt vào rổ sạch.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S232 → S233 → S234. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Bó đã gom gốc trên thớt rau; cô cắt rời rễ rồi đưa phần rễ vào rổ vụn.
+- **Kết quả cuối:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: đã cắt rễ; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi rễ tách khỏi phần ăn được, không để rễ bẩn trở vào chậu rau đã sạch. Sau đó nối S155.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S234 — Rửa dưa bằng nước mới
+#### S155 — Nhặt thân và lá non
 
-**13:27–13:30 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:01.6–09:04.3 · 2.7 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Sau khi thay nước/tráng chậu được lược, cô đưa dưa nguyên vào chậu, xoay quả trong tay.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S233 → S234 → S235. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: đã cắt rễ; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô tách một lá già, bỏ đoạn thân cứng rồi giữ phần non thành bó rời.
+- **Kết quả cuối:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: đã nhặt phần non; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở phần được chọn; lược những lượt nhặt giống nhau. Sau đó nối S156.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S235 — Chà vỏ dưa rồi vớt
+#### S156 — Rửa rau, nhấc khỏi cặn
 
-**13:30–13:34 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:04.3–09:09.3 · 5.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô miết dọc vỏ một quả, xoay để rửa phía còn lại rồi nâng lên cho nước ráo.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S234 → S235 → S236. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: đã nhặt phần non; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Với nước sạch mới, cô nhúng rau đã nhặt, nới các lớp lá, đảo nhẹ rồi nhấc rau lên để cặn ở đáy.
+- **Kết quả cuối:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: đã rửa lần đầu; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Giữ đủ nhúng–rửa–nhấc; không vò nát hoặc nhấc cả nước cặn lên rổ. Sau đó nối S157.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S236 — Đặt rau dền lên thớt rau
+#### S157 — Tráng lần mới và để ráo
 
-**13:34–13:37 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:09.3–09:12.7 · 3.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô đặt bó dền còn rễ lên thớt rau sạch, gom phần gốc cùng một hướng.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S235 → S236 → S237. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Lá và gió nhẹ, chim chiều hoặc côn trùng thưa khi trời tối. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: đã rửa lần đầu; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Sau lượt thay nước được lược, cô tráng rau trong nước sạch, nhấc lên đặt vào rổ ráo.
+- **Kết quả cuối:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở rau sạch trên rổ, bó không bị nén; nước cũ đã bỏ ngoài shot. Sau đó nối S158.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S237 — Cắt phần rễ dền
+#### S158 — Rửa nhóm hành và ớt
 
-**13:37–13:40 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:12.7–09:15.1 · 2.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô giữ bó sát gốc, cắt rời phần rễ bám đất, đưa rễ vào rổ vụn riêng.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S236 → S237 → S238. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô đảo ớt tươi và hành trong nước mới rồi nhấc sang rổ gia vị.
+- **Kết quả cuối:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Nhận diện nhóm nguyên liệu mới; không thêm toàn–trung cho lần rửa đã hiểu. Sau đó nối S159.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S238 — Nhặt phần lá và thân non
+#### S159 — Kiểm tra mặt cơm đã cạn
 
-**13:40–13:44 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:15.1–09:18.1 · 3.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô tách một lá già và đoạn thân cứng nếu có, giữ phần non thành bó rời rồi đặt vào rổ.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã nhặt, chờ rửa; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S237 → S238 → S239. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Lá và gió nhẹ, chim chiều hoặc côn trùng thưa khi trời tối. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Sau thời gian đun qua việc rửa, cô hé nắp trái, thấy gạo hút nước rồi đậy lại.
+- **Kết quả cuối:** Cơm: cạn mặt ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi mặt gạo đã đọc, không ngụ ý chín chỉ sau vừa đặt bếp. Sau đó nối S160.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S239 — Rửa rau ở lượt nước sạch
+#### S160 — Giảm lửa dưới cơm
 
-**13:44–13:47 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:18.1–09:20.1 · 2.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã nhặt, chờ rửa; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Sau khi tráng chậu/thay nước, cô nhúng rau đã nhặt vào, nới bó để nước vào giữa lá.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã nhặt, chờ rửa; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S238 → S239 → S240. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Thấp chếch ngang vùng đất/chân cây/cửa lò; thấy tác động và kết cấu. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: cạn mặt ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô dùng kẹp đưa bớt thanh đang cháy ra rìa, giữ than hồng và khe thoáng.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Giữ lửa nhỏ, khoai bên phải vẫn tiếp tục đun; không thêm toàn người giữa hai cận. Sau đó nối S161.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S240 — Đảo lá nhẹ trong nước
+#### S161 — Bóc tép tỏi
 
-**13:47–13:50 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:20.1–09:23.3 · 3.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã nhặt, chờ rửa; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Hai tay cô nâng và đảo nhẹ phần lá dưới nước, tránh vò nát.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã nhặt, chờ rửa; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S239 → S240 → S241. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô ấn nhẹ tép bằng mặt dao rồi bóc lớp vỏ lỏng, đẩy vỏ ra rổ vụn.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Giữ cơ chế vỏ rời; lược các tép còn lại. Sau đó nối S162.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S241 — Nhấc rau khỏi phần cặn
+#### S162 — Băm tỏi và chuyển bát
 
-**13:50–13:53 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:23.3–09:28.0 · 4.7 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã nhặt, chờ rửa; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô nâng rau khỏi mặt nước, để cặn lắng lại đáy rồi chuyển sang rổ bên cạnh.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã nhặt, chờ rửa; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S240 → S241 → S242. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô băm nhiều nhịp trên phần tỏi đã bóc, gom nhỏ rồi gạt vào bát dùng chung các món.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi băm, gừng chưa băm; ớt/hành rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi bát nhận phần tỏi, không dùng một nhát dao biến toàn tép thành băm. Sau đó nối S163.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S242 — Tráng rau bằng lượt nước mới
+#### S163 — Cạo gừng rồi băm phần đã thái
 
-**13:53–13:57 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:28.0–09:33.2 · 5.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã nhặt, chờ rửa; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Sau phần thay nước được lược, cô nhúng rau vào nước sạch lần nữa, đảo nhẹ rồi nhấc lên.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã nhặt, chờ rửa; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S241 → S242 → S243. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi băm, gừng chưa băm; ớt/hành rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô cạo nốt vỏ ở miếng gừng đã xử lý phần lớn, thái vài lát mỏng rồi băm những lát trong tầm tay.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở phần gừng nhỏ; các lát còn lại được băm/gạt bát trong phần lược sau. Sau đó nối S164.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S243 — Để rau ráo cạnh bàn
+## C12 — Sơ chế trong thời gian chờ, để khoai nguội rồi bóc
 
-**13:57–14:00 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã nhặt, chờ rửa; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô đặt rau vào rổ sạch, dàn nhẹ cho lá không bị nén rồi nghiêng rổ để nước dư nhỏ vào chậu.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S242 → S243 → S244. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S244 — Rửa ớt và hành
-
-**14:00–14:03 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Với nước mới, cô rửa ớt tươi và hành lá nguyên, nhấc sang rổ gia vị riêng.
-- **Kết quả cuối:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S243 → S244 → S245. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S245 — Kiểm tra nồi cơm đã cạn mặt
-
-**14:03–14:06 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Sau thời gian đun thực được lược qua các việc sơ chế, cô hé nắp trái, nhìn mặt gạo đã hút nước rồi đậy lại.
-- **Kết quả cuối:** Cơm: cạn mặt bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S244 → S245 → S246. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nắp/nồi, hơi nước ở mức nhìn thấy, lửa nền nhỏ. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S246 — Hạ lửa để cơm chín tiếp
-
-**14:06–14:09 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: cạn mặt bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô dùng kẹp củi đưa bớt thanh đang cháy ra rìa vùng lửa, giữ than hồng và khe thoáng dưới bếp.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S245 → S246 → S247. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Kẹp/củi chạm gạch, lửa tí tách vừa phải. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S247 — Bóc tỏi
-
-**14:09–14:12 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô ấn nhẹ tép tỏi bằng mặt dao, bóc lớp vỏ đã lỏng và đẩy vỏ ra rổ vụn.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S246 → S247 → S248. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S248 — Băm tỏi dùng chung các món
-
-**14:12–14:15 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô gom tỏi đã bóc, băm đều tay rồi gạt vào bát nhỏ.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: tỏi băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S247 → S248 → S249. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S249 — Cạo vỏ gừng
-
-**14:15–14:19 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: tỏi băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô dùng cạnh thìa cạo một miếng gừng nhỏ, đặt lại thớt và thái lát đầu.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: tỏi băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S248 → S249 → S250. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S250 — Băm gừng
-
-**14:19–14:22 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: tỏi băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô băm các lát gừng đã thái, gom thành phần nhỏ rồi chuyển vào bát riêng.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S249 → S250 → S251. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-## C12 — Chuẩn bị dưa trong lúc đun, vớt khoai để nguội và thái nguyên liệu
-
-**22 shot · 73 giây · 14:22–15:35.**
-
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
 |---|---|---:|---|---|
-| S251 | 14:22–14:26 | 4 | Trung | Cô đặt quả dưa lên thớt, cắt hai đầu bỏ vào bát vụn rồi xoay quả nằm ngang. |
-| S252 | 14:26–14:29 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô đặt mặt dao bản rộng lên dưa, ấn/gõ nhẹ để quả nứt dọc mà không nghiền nát. |
-| S253 | 14:29–14:32 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô cắt quả đã đập thành đoạn vừa ăn rồi dùng mặt dao gạt vào bát trộn sạch. |
-| S254 | 14:32–14:36 | 4 | Cận | Cô khuấy tỏi, nước tương, giấm, chút muối/đường và dầu mè trong bát nhỏ rồi đặt cạnh bát dưa. |
-| S255 | 14:36–14:39 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Sau khoảng đun đủ được lược, cô dùng khăn khô nhấc nắp nồi phải, để hơi thoát khỏi hướng mặt. |
-| S256 | 14:39–14:42 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô đưa một đũa sạch xuyên thử vào củ lớn nhất rồi rút ra khi đũa đi qua dễ. |
-| S257 | 14:42–14:46 | 4 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô dùng muôi thủng vớt các củ vào bát chịu nhiệt, để nước rơi lại nồi. |
-| S258 | 14:46–14:50 | 4 | Toàn | Cô đặt bát khoai lên đế kê khô, để thoáng cho nguội bớt rồi đưa tay lấy cà chua ở rổ ráo. |
-| S259 | 14:50–14:53 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Cô đưa cà chua đã ráo lên thớt rau, đặt hai bát trống bên cạnh để tách phần xào trứng và phần Hồng tam đóa. |
-| S260 | 14:53–14:56 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô cắt bỏ phần cuống cứng của một quả rồi chia quả thành các múi vừa ăn. |
-| S261 | 14:56–15:00 | 4 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Sau phần cắt các quả cùng loại được lược, cô gạt các múi vào bát dành món trứng. |
-| S262 | 15:00–15:03 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô bỏ phần cuống ở phần quả còn lại, thái nhỏ rồi băm vài nhịp để dùng Hồng tam đóa. |
-| S263 | 15:03–15:06 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô cắt cuống ớt đã rửa, bổ dọc và gạt phần hạt/lõi theo lượng muốn dùng vào bát vụn. |
-| S264 | 15:06–15:09 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô thái phần thịt ớt thành hạt nhỏ, gom rồi chuyển vào bát riêng. |
-| S265 | 15:09–15:13 | 4 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô xếp hành đã rửa, cắt gọn phần gốc cần bỏ và thái phần còn lại thành đoạn nhỏ. |
-| S266 | 15:13–15:16 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cải muối được đảo qua bát nước sạch; cô nhấc lên và vắt nhẹ nước dư vào bát. |
-| S267 | 15:16–15:19 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô thái phần cải đã vắt thành miếng nhỏ, gạt vào bát dành món khoai. |
-| S268 | 15:19–15:22 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Cô đặt thớt và dao dùng thịt ở vùng riêng, đưa miếng thịt heo từ bát lên thớt. |
-| S269 | 15:22–15:25 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô giữ miếng thịt, thái các lát đầu rồi chuyển chiều để cắt dải nhỏ. |
-| S270 | 15:25–15:28 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Sau các lát/dải còn lại được lược, cô băm đều các miếng nhỏ rồi dùng dao gạt vào bát thịt riêng. |
-| S271 | 15:28–15:32 | 4 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô thêm chút muối và nước tương theo bữa, dùng đũa riêng đảo đều thịt rồi đặt bát sang bên. |
-| S272 | 15:32–15:35 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô gõ một quả trứng, tách vỏ cho trứng rơi vào bát sạch, đưa vỏ ra bát vụn. |
+| S164 | 09:33.2–09:35.8 | 2.6 | Cận | Cô cắt hai đầu quả dưa đã ráo, gạt vào bát vụn rồi xoay quả nằm ngang. |
+| S165 | 09:35.8–09:38.0 | 2.2 | Cận | Cô đặt mặt dao bản rộng và ấn/gõ nhẹ để quả nứt dọc. |
+| S166 | 09:38.0–09:41.4 | 3.4 | Cận | Cô cắt đoạn dưa đã đập, dùng mặt dao gạt phần trong tầm tay vào bát trộn. |
+| S167 | 09:41.4–09:44.5 | 3.1 | Cận | Các gia vị đã định lượng trong bát nhỏ qua cut; cô thêm tỏi rồi khuấy nước tương, giấm, muối/đường và dầu mè. |
+| S168 | 09:44.5–09:49.3 | 4.8 | Cận | Cô nhấc nắp nồi phải bằng khăn khô, đưa đũa sạch xuyên thử củ lớn rồi rút ra khi qua dễ. |
+| S169 | 09:49.3–09:52.9 | 3.6 | Cận | Cô vớt vài củ nguyên vỏ vào bát chịu nhiệt, cho nước rơi lại nồi. |
+| S170 | 09:52.9–09:55.3 | 2.4 | Trung | Cô đặt bát khoai trên đế khô, để thoáng rồi đưa tay lấy cà chua đã ráo. |
+| S171 | 09:55.3–09:57.6 | 2.3 | Cận | Cô đưa cà chua lên thớt, kéo hai bát trống về hai phía để chia múi và phần băm. |
+| S172 | 09:57.6–10:01.7 | 4.1 | Cận | Cô bỏ cuống cứng ở quả đang làm, cắt vài múi rồi gạt phần đã cắt sang bát dành trứng. |
+| S173 | 10:01.7–10:06.5 | 4.8 | Cận | Sau khi phần còn lại đã bỏ cuống/thái nhỏ qua cut, cô băm nhiều nhịp để thấy kết cấu nhỏ hơn rồi gom. |
+| S174 | 10:06.5–10:10.8 | 4.3 | Cận | Cô bổ phần ớt đang làm, gạt lõi/hạt theo lượng dùng rồi thái phần thịt ớt thành hạt nhỏ. |
+| S175 | 10:10.8–10:13.3 | 2.5 | Cận | Hành đã cắt gọn gốc qua phần lược; cô thái một dải đoạn nhỏ, gom vào bát. |
+| S176 | 10:13.3–10:16.2 | 2.9 | Cận | Cô đảo cải muối qua bát nước, nhấc lên vắt nhẹ để nước dư rơi lại. |
+| S177 | 10:16.2–10:19.4 | 3.2 | Cận | Cô thái phần cải đã vắt thành miếng nhỏ rồi gạt sang bát gia vị món khoai. |
+| S178 | 10:19.4–10:21.9 | 2.5 | Trung | Cô đặt thịt heo nguyên lên thớt và dao riêng ở vùng thịt, xa bát dưa ăn sống. |
+| S179 | 10:21.9–10:25.2 | 3.3 | Cận | Cô thái vài lát thịt rồi đổi chiều cắt thành dải nhỏ. |
+| S180 | 10:25.2–10:30.8 | 5.6 | Cận | Cô băm nhiều nhịp trên các dải đã nhỏ, gom thịt rồi gạt phần đã băm vào bát riêng. |
+| S181 | 10:30.8–10:34.5 | 3.7 | Cận | Cô thêm chút gia vị vào thịt băm, dùng đũa riêng đảo cho phân đều rồi đặt bát sang bên. |
+| S182 | 10:34.5–10:37.5 | 3.0 | Cận | Cô gõ quả trứng, tách vỏ cho trứng rơi vào bát sạch, đưa vỏ ra bát vụn. |
+| S183 | 10:37.5–10:41.3 | 3.8 | Cận | Sau các quả bổ sung được lược nếu có, cô thêm chút muối và đánh cho lòng đỏ/trắng hòa. |
+| S184 | 10:41.3–10:45.5 | 4.2 | Cận | Cô đỡ một củ bằng khăn sạch, tách và kéo lớp vỏ rời khỏi phần thịt củ. |
+| S185 | 10:45.5–10:47.6 | 2.1 | Cận | Sau các củ lặp được lược, cô bóc mảng vỏ cuối rồi đặt củ sạch vào bát. |
 
 ### Mô tả chi tiết
 
-#### S251 — Chuẩn bị dưa trong lúc chờ nồi
+#### S164 — Bỏ hai đầu dưa
 
-**14:22–14:26 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:33.2–09:35.8 · 2.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có. Dưa đã rửa ráo; cơm đang chín nhỏ, khoai còn luộc; thớt rau sạch và bát trộn sẵn.
-- **Hành động:** Cô đặt quả dưa lên thớt, cắt hai đầu bỏ vào bát vụn rồi xoay quả nằm ngang.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S250 → S251 → S252. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô cắt hai đầu quả dưa đã ráo, gạt vào bát vụn rồi xoay quả nằm ngang.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi quả ở tư thế đập, không thêm góc toàn chỉ để đặt dao. Sau đó nối S165.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S252 — Đập dưa nhẹ bằng mặt dao
+#### S165 — Đập cho dưa nứt
 
-**14:26–14:29 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:35.8–09:38.0 · 2.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô đặt mặt dao bản rộng lên dưa, ấn/gõ nhẹ để quả nứt dọc mà không nghiền nát.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S251 → S252 → S253. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô đặt mặt dao bản rộng và ấn/gõ nhẹ để quả nứt dọc.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở vết nứt đọc rõ; không nghiền dưa nát. Sau đó nối S166.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S253 — Cắt đoạn và chuyển vào bát
+#### S166 — Cắt dưa và đưa vào bát
 
-**14:29–14:32 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:38.0–09:41.4 · 3.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô cắt quả đã đập thành đoạn vừa ăn rồi dùng mặt dao gạt vào bát trộn sạch.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã cắt, chưa trộn; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S252 → S253 → S254. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô cắt đoạn dưa đã đập, dùng mặt dao gạt phần trong tầm tay vào bát trộn.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: cắt đoạn, chưa trộn; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi bát nhận, lược đoạn cắt phần còn lại trước pha nước trộn. Sau đó nối S167.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S254 — Pha nước trộn rồi để chờ
+#### S167 — Pha nước trộn để riêng
 
-**14:32–14:36 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:41.4–09:44.5 · 3.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã cắt, chưa trộn; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có. Dưa đã cắt ở bát trộn; tỏi băm đã có, khoai còn đun; trứng/thịt chưa xử lý.
-- **Hành động:** Cô khuấy tỏi, nước tương, giấm, chút muối/đường và dầu mè trong bát nhỏ rồi đặt cạnh bát dưa.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S253 → S254 → S255. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: cắt đoạn, chưa trộn; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có. Gia vị nước trộn đã định lượng vào bát nhỏ qua cut, dưa chưa nhận nước trộn.
+- **Hành động:** Các gia vị đã định lượng trong bát nhỏ qua cut; cô thêm tỏi rồi khuấy nước tương, giấm, muối/đường và dầu mè.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi bát sốt hòa, để cạnh dưa chưa trộn; không trộn dưa sớm. Sau đó nối S168.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S255 — Mở nồi khoai sau thời gian luộc
+#### S168 — Mở khoai và thử mềm
 
-**14:36–14:39 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:44.5–09:49.3 · 4.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Sau khoảng đun đủ được lược, cô dùng khăn khô nhấc nắp nồi phải, để hơi thoát khỏi hướng mặt.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S254 → S255 → S256. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nắp/nồi, hơi nước ở mức nhìn thấy, lửa nền nhỏ. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô nhấc nắp nồi phải bằng khăn khô, đưa đũa sạch xuyên thử củ lớn rồi rút ra khi qua dễ.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: luộc mềm, còn vỏ; Cà: đã rửa ráo; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở dấu khoai mềm, không cầm thử bằng tay hoặc bỏ mất bước kiểm. Sau đó nối S169.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S256 — Thử độ mềm của khoai
+#### S169 — Vớt khoai chín
 
-**14:39–14:42 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:49.3–09:52.9 · 3.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô đưa một đũa sạch xuyên thử vào củ lớn nhất rồi rút ra khi đũa đi qua dễ.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc mềm, còn trong nồi; cà: đã rửa ráo; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S255 → S256 → S257. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nắp/nồi, hơi nước ở mức nhìn thấy, lửa nền nhỏ. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: luộc mềm, còn vỏ; Cà: đã rửa ráo; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có. Bát chịu nhiệt sạch đặt cạnh nồi để nhận khoai.
+- **Hành động:** Cô vớt vài củ nguyên vỏ vào bát chịu nhiệt, cho nước rơi lại nồi.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: vớt ra bát còn nóng; nồi phải rời bếp ở đoạn lược; Cà: đã rửa ráo; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi củ được bát đỡ; lược củ còn lại và nhấc nồi phải ra mặt kê an toàn. Sau đó nối S170.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S257 — Vớt khoai luộc
+#### S170 — Đặt khoai nguội, chuyển việc
 
-**14:42–14:46 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:52.9–09:55.3 · 2.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc mềm, còn trong nồi; cà: đã rửa ráo; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô dùng muôi thủng vớt các củ vào bát chịu nhiệt, để nước rơi lại nồi.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: vớt ra bát, còn nóng; bếp phải trống sau đoạn lược; cà: đã rửa ráo; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S256 → S257 → S258. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: vớt ra bát còn nóng; nồi phải rời bếp ở đoạn lược; Cà: đã rửa ráo; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô đặt bát khoai trên đế khô, để thoáng rồi đưa tay lấy cà chua đã ráo.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: đã rửa ráo; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra theo tay chuyển việc; thời gian nguội đi qua phần thái/băm sau. Sau đó nối S171.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S258 — Đặt khoai nguội bớt rồi thái rau quả
+#### S171 — Hai bát dành hai món cà chua
 
-**14:46–14:50 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:55.3–09:57.6 · 2.3 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: vớt ra bát, còn nóng; bếp phải trống sau đoạn lược; cà: đã rửa ráo; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có. Khoai vừa vớt còn nóng trong bát; nồi luộc đã rời bếp phải ở khoảng lược, cơm còn đun nhỏ.
-- **Hành động:** Cô đặt bát khoai lên đế kê khô, để thoáng cho nguội bớt rồi đưa tay lấy cà chua ở rổ ráo.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: đã rửa ráo; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S257 → S258 → S259. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: đã rửa ráo; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô đưa cà chua lên thớt, kéo hai bát trống về hai phía để chia múi và phần băm.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: đã rửa ráo; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi hai vị trí nhận rõ, giữ nguyên vị trí qua các cận sau. Sau đó nối S172.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S259 — Chia cà chua cho hai món
+#### S172 — Cắt múi và gạt bát trứng
 
-**14:50–14:53 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**09:57.6–10:01.7 · 4.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: đã rửa ráo; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô đưa cà chua đã ráo lên thớt rau, đặt hai bát trống bên cạnh để tách phần xào trứng và phần Hồng tam đóa.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: đã rửa ráo; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S258 → S259 → S260. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: đã rửa ráo; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô bỏ cuống cứng ở quả đang làm, cắt vài múi rồi gạt phần đã cắt sang bát dành trứng.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: phần múi ở bát trứng; phần sốt chưa băm; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở múi đã được bát nhận; lược các quả cùng cách cắt. Sau đó nối S173.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S260 — Bỏ cuống, cắt múi cho món trứng
+#### S173 — Băm phần cà chua làm sốt
 
-**14:53–14:56 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:01.7–10:06.5 · 4.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: đã rửa ráo; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô cắt bỏ phần cuống cứng của một quả rồi chia quả thành các múi vừa ăn.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: đã rửa ráo; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S259 → S260 → S261. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: phần múi ở bát trứng; phần sốt chưa băm; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Sau khi phần còn lại đã bỏ cuống/thái nhỏ qua cut, cô băm nhiều nhịp để thấy kết cấu nhỏ hơn rồi gom.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Kết ở phần băm khác rõ phần múi, không trộn hai bát. Sau đó nối S174.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S261 — Đưa múi cà chua vào bát
+#### S174 — Bỏ lõi và thái ớt
 
-**14:56–15:00 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:06.5–10:10.8 · 4.3 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: đã rửa ráo; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Sau phần cắt các quả cùng loại được lược, cô gạt các múi vào bát dành món trứng.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: phần múi đã cắt, phần băm đang chuẩn bị; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S260 → S261 → S262. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô bổ phần ớt đang làm, gạt lõi/hạt theo lượng dùng rồi thái phần thịt ớt thành hạt nhỏ.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở phần ớt đã nhỏ; những quả lặp và việc gạt bát lược. Sau đó nối S175.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S262 — Băm nhỏ phần cà chua còn lại
+#### S175 — Thái hành lá
 
-**15:00–15:03 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:10.8–10:13.3 · 2.5 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: phần múi đã cắt, phần băm đang chuẩn bị; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô bỏ phần cuống ở phần quả còn lại, thái nhỏ rồi băm vài nhịp để dùng Hồng tam đóa.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S261 → S262 → S263. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Hành đã cắt gọn gốc qua phần lược; cô thái một dải đoạn nhỏ, gom vào bát.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi lượng thái đủ đọc, không thêm góc người cho mỗi nhịp dao. Sau đó nối S176.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S263 — Bỏ cuống và lõi ớt tươi
+#### S176 — Rửa và vắt cải muối
 
-**15:03–15:06 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:13.3–10:16.2 · 2.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô cắt cuống ớt đã rửa, bổ dọc và gạt phần hạt/lõi theo lượng muốn dùng vào bát vụn.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S262 → S263 → S264. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô đảo cải muối qua bát nước, nhấc lên vắt nhẹ để nước dư rơi lại.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi cải đã ráo bớt, bát nước giữ riêng. Sau đó nối S177.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S264 — Thái ớt nhỏ
+#### S177 — Thái cải cho món khoai
 
-**15:06–15:09 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:16.2–10:19.4 · 3.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô thái phần thịt ớt thành hạt nhỏ, gom rồi chuyển vào bát riêng.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S263 → S264 → S265. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô thái phần cải đã vắt thành miếng nhỏ rồi gạt sang bát gia vị món khoai.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở bát nhận, giữ kết cấu khác tỏi/gừng băm. Sau đó nối S178.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S265 — Thái hành lá
+#### S178 — Chuyển sang bộ thớt thịt
 
-**15:09–15:13 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:19.4–10:21.9 · 2.5 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô xếp hành đã rửa, cắt gọn phần gốc cần bỏ và thái phần còn lại thành đoạn nhỏ.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S264 → S265 → S266. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô đặt thịt heo nguyên lên thớt và dao riêng ở vùng thịt, xa bát dưa ăn sống.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Mốc vệ sinh và vị trí mới rõ, không tiếp thịt sống trên thớt dưa. Sau đó nối S179.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S266 — Rửa nhanh và vắt cải muối
+#### S179 — Thái thịt thành dải
 
-**15:13–15:16 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:21.9–10:25.2 · 3.3 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cải muối được đảo qua bát nước sạch; cô nhấc lên và vắt nhẹ nước dư vào bát.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S265 → S266 → S267. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có. Dao/thớt thịt riêng, bát dưa ăn sống ở vùng rau.
+- **Hành động:** Cô thái vài lát thịt rồi đổi chiều cắt thành dải nhỏ.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở kết cấu đã nhỏ hơn; lược phần thái lặp trước băm. Sau đó nối S180.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S267 — Thái cải muối chua
+#### S180 — Băm thịt đều nhịp
 
-**15:16–15:19 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:25.2–10:30.8 · 5.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô thái phần cải đã vắt thành miếng nhỏ, gạt vào bát dành món khoai.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S266 → S267 → S268. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô băm nhiều nhịp trên các dải đã nhỏ, gom thịt rồi gạt phần đã băm vào bát riêng.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm, còn sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi bát nhận thịt băm, không dùng một nhát để biến miếng nguyên thành băm. Sau đó nối S181.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S268 — Chuyển sang thớt thịt riêng
+#### S181 — Trộn gia vị với thịt sống
 
-**15:19–15:22 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:30.8–10:34.5 · 3.7 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô đặt thớt và dao dùng thịt ở vùng riêng, đưa miếng thịt heo từ bát lên thớt.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S267 → S268 → S269. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm, còn sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô thêm chút gia vị vào thịt băm, dùng đũa riêng đảo cho phân đều rồi đặt bát sang bên.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Thịt vẫn sống, chưa tự chín; lược rửa tay và đổi đồ sạch trước làm trứng. Sau đó nối S182.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S269 — Thái thịt thành lát, dải nhỏ
+#### S182 — Tách trứng vào bát
 
-**15:22–15:25 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:34.5–10:37.5 · 3.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô giữ miếng thịt, thái các lát đầu rồi chuyển chiều để cắt dải nhỏ.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S268 → S269 → S270. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: nguyên vỏ. Món đã xong: chưa có.
+- **Hành động:** Cô gõ quả trứng, tách vỏ cho trứng rơi vào bát sạch, đưa vỏ ra bát vụn.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã tách vỏ, còn sống. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi trứng đã nằm trong bát, không làm rơi vỏ vào lòng trắng. Sau đó nối S183.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S270 — Băm thịt và gom vào bát
+#### S183 — Đánh trứng hòa đều
 
-**15:25–15:28 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:37.5–10:41.3 · 3.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Sau các lát/dải còn lại được lược, cô băm đều các miếng nhỏ rồi dùng dao gạt vào bát thịt riêng.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã băm, còn sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S269 → S270 → S271. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Dao/thìa và thực phẩm trên thớt đúng nhịp, không phóng đại tiếng chặt. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã tách vỏ, còn sống. Món đã xong: chưa có.
+- **Hành động:** Sau các quả bổ sung được lược nếu có, cô thêm chút muối và đánh cho lòng đỏ/trắng hòa.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở bề mặt trứng hòa, vẫn còn sống. Sau đó nối S184.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S271 — Trộn gia vị vào thịt băm
+#### S184 — Bóc khoai đã nguội bớt
 
-**15:28–15:32 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:41.3–10:45.5 · 4.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã băm, còn sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô thêm chút muối và nước tương theo bữa, dùng đũa riêng đảo đều thịt rồi đặt bát sang bên.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S270 → S271 → S272. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có. Khoảng thái rau, băm thịt và đánh trứng đã đủ để khoai nguội tới mức cầm bằng khăn sạch.
+- **Hành động:** Cô đỡ một củ bằng khăn sạch, tách và kéo lớp vỏ rời khỏi phần thịt củ.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Giữ một lượt bóc đọc rõ; khoảng chờ nguội đã nằm ở các việc trước. Sau đó nối S185.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S272 — Đập trứng vào bát
+#### S185 — Bát khoai bóc xong
 
-**15:32–15:35 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:45.5–10:47.6 · 2.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô gõ một quả trứng, tách vỏ cho trứng rơi vào bát sạch, đưa vỏ ra bát vụn.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S271 → S272 → S273. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Vỏ trứng tách, đũa đánh vào bát đúng nhịp. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: để nguội trong bát ở mặt kê khô; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Hành động:** Sau các củ lặp được lược, cô bóc mảng vỏ cuối rồi đặt củ sạch vào bát.
+- **Kết quả cuối:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: chín đã bóc vỏ, chờ xào; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở kết quả cả mẻ, không trở lại củ nguyên vỏ sau cut. Sau đó nối S186.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-## C13 — Hoàn tất sơ chế, xào khoai rồi bắt đầu món thịt cà chua
+## C13 — Cho cơm nghỉ, nấu khoai và Hồng tam đóa
 
-**21 shot · 72 giây · 15:35–16:47.**
-
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
 |---|---|---:|---|---|
-| S273 | 15:35–15:39 | 4 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô thêm chút muối vào bát trứng, dùng đũa đánh cho lòng đỏ và trắng hòa đều. |
-| S274 | 15:39–15:42 | 3 | Cận | Cô đỡ củ bằng khăn, tách lớp vỏ bằng ngón tay rồi thả vỏ vào bát vụn. |
-| S275 | 15:42–15:46 | 4 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Sau các lượt lặp được lược, cô bóc nốt mảng vỏ trên củ cuối, đặt vào bát khoai sạch. |
-| S276 | 15:46–15:49 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Sau thời gian chín lửa nhỏ trong lúc cô sơ chế, cô dùng khăn nhấc nồi cơm đã đậy khỏi bếp trái, đặt lên đế kê giữ ấm. |
-| S277 | 15:49–15:53 | 4 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Cô kê chảo sạch A ở vị trí trái, dùng kẹp đẩy một thanh củi nhỏ có sẵn vào để tăng lửa vừa. |
-| S278 | 15:53–15:56 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô rót ít dầu vào lòng chảo rồi nghiêng nhẹ để dầu phủ vùng xào. |
-| S279 | 15:56–16:00 | 4 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô bẻ một ít ớt khô thành đoạn nhỏ vào bát thơm cạnh tỏi băm, bỏ cuống cứng. |
-| S280 | 16:00–16:03 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Sau nhịp dầu nóng được lược, cô đưa phần tỏi/ớt khô vào chảo A, dùng xẻng đảo nhẹ. |
-| S281 | 16:03–16:07 | 4 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Xẻng lùa tỏi và ớt qua đáy chảo, dầu nổi bọt nhỏ quanh chúng. |
-| S282 | 16:07–16:10 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô cho bát cải muối thái nhỏ vào chảo, đảo đều với tỏi và ớt. |
-| S283 | 16:10–16:14 | 4 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Cô nghiêng bát khoai chín đã bóc, đưa khoai vào chảo A rồi đặt bát rỗng xuống. |
-| S284 | 16:14–16:17 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô ép một củ mềm bằng mặt xẻng rồi kéo phần khoai vỡ vào giữa. |
-| S285 | 16:17–16:21 | 4 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Sau các lượt ép lặp được lược, cô đảo khoai mềm để cải và gia vị phân đều. |
-| S286 | 16:21–16:24 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô rắc ít muối/tiêu theo bữa, thêm một chút nước sạch nếu cần rồi đảo xẻng qua phần vừa nêm. |
-| S287 | 16:24–16:27 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô cho một phần hành đã thái vào, gập khoai qua hành vài lượt. |
-| S288 | 16:27–16:31 | 4 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Cô xúc khoai vào đĩa/bát dùng bàn ăn, gạt nốt phần cuối và đậy nhẹ bằng nắp giữ ấm. |
-| S289 | 16:31–16:34 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Qua điểm cắt chảo sạch B đã ở vị trí phải; cô cho ít dầu và phần gừng/tỏi băm vào đảo thơm. |
-| S290 | 16:34–16:37 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô trút thịt băm đã trộn vào dầu thơm, dùng xẻng tản thành lớp để tiếp xúc đáy. |
-| S291 | 16:37–16:41 | 4 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô miết xẻng tách các cụm nhỏ, đảo phần thịt tiếp xúc đáy đã chuyển màu lên trên. |
-| S292 | 16:41–16:44 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Sau các lượt đảo đủ được lược, thịt đã chín; cô xúc vào bát chịu nhiệt sạch để chờ trộn lại. |
-| S293 | 16:44–16:47 | 3 | Trung | Cô cho cà chua băm vào, đảo trải trên đáy chảo rồi hạ nhịp tay khi quả bắt đầu tiết nước. |
+| S186 | 10:47.6–10:51.3 | 3.7 | Trung | Cô dùng khăn nhấc nồi cơm đã chín khỏi bếp trái, đặt lên đế kê rồi giữ nắp đậy. |
+| S187 | 10:51.3–10:54.1 | 2.8 | Trung | Cô đặt chảo sạch A ở trái, dùng kẹp đẩy thanh củi nhỏ có sẵn để tăng lửa vừa. |
+| S188 | 10:54.1–10:56.2 | 2.1 | Cận | Cô rót ít dầu rồi nghiêng chảo nhẹ cho dầu lan qua vùng xào. |
+| S189 | 10:56.2–10:58.4 | 2.2 | Cận | Cô bẻ ít ớt khô vào bát cạnh tỏi băm, bỏ phần cuống. |
+| S190 | 10:58.4–11:02.5 | 4.1 | Cận | Cô cho tỏi/ớt vào dầu đã nóng, dùng xẻng lùa qua đáy để dầu nổi bọt nhỏ quanh gia vị. |
+| S191 | 11:02.5–11:05.4 | 2.9 | Cận | Cô đưa cải thái nhỏ vào chảo A, đảo cho lẫn tỏi và ớt. |
+| S192 | 11:05.4–11:08.6 | 3.2 | Cận | Cô nghiêng bát đưa các củ khoai đã bóc vào chảo, đặt bát rỗng sang bên. |
+| S193 | 11:08.6–11:12.5 | 3.9 | Cận | Cô dùng mặt xẻng ép một củ mềm, kéo phần vỡ vào giữa rồi tiếp củ kế. |
+| S194 | 11:12.5–11:15.3 | 2.8 | Cận | Sau các lượt ép được lược, cô đảo phần khoai mềm để cải và gia vị phân đều. |
+| S195 | 11:15.3–11:19.4 | 4.1 | Cận | Gia vị đã ở tay/bát qua cut; cô rắc lượng vừa, cho hành rồi gập khoai một lượt để phân đều. |
+| S196 | 11:19.4–11:23.0 | 3.6 | Cận | Cô xúc phần khoai cuối vào đĩa, gạt xẻng gọn rồi đưa nắp che nhẹ vào vị trí. |
+| S197 | 11:23.0–11:26.1 | 3.1 | Cận | Nồi khoai đã rời vị trí phải trong phần lược, chảo B sạch đã nóng; cô cho dầu và gừng/tỏi vào đảo. |
+| S198 | 11:26.1–11:31.0 | 4.9 | Cận | Cô trút thịt băm vào dầu thơm, miết xẻng tách cụm rồi đảo lớp tiếp xúc đáy đã chuyển màu lên trên. |
+| S199 | 11:31.0–11:34.4 | 3.4 | Cận | Sau thời gian xào đủ được lược, cô xúc thịt đã chín vào bát chịu nhiệt sạch. |
+| S200 | 11:34.4–11:38.6 | 4.2 | Cận | Cô cho phần cà chua băm vào chảo B, kéo xẻng trải qua đáy, nước quả tiết ra rồi để lửa vừa. |
+| S201 | 11:38.6–11:43.4 | 4.8 | Trung | Cô rưới bát nước trộn đã pha lên dưa, đảo đều bằng đũa sạch rồi quay chú ý về chảo sốt sát bên. |
+| S202 | 11:43.4–11:46.6 | 3.2 | Cận | Sau khoảng trộn dưa, cô kéo xẻng qua sốt đã mềm hơn rồi cho ớt tươi thái nhỏ vào đảo. |
+| S203 | 11:46.6–11:51.2 | 4.6 | Cận | Cô trút thịt chín trở lại sốt, thêm gia vị đã chuẩn bị rồi đảo cho sốt bám thịt. |
+| S204 | 11:51.2–11:54.6 | 3.4 | Cận | Cô xúc món vào đĩa riêng, đưa sốt cuối theo rồi che nhẹ giữ ấm. |
 
 ### Mô tả chi tiết
 
-#### S273 — Đánh trứng với chút muối
+#### S186 — Nhấc cơm ra nghỉ
 
-**15:35–15:39 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:47.6–10:51.3 · 3.7 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: trứng nguyên. Món đã xong: chưa có.
-- **Hành động:** Cô thêm chút muối vào bát trứng, dùng đũa đánh cho lòng đỏ và trắng hòa đều.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S272 → S273 → S274. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Vỏ trứng tách, đũa đánh vào bát đúng nhịp. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín tiếp lửa nhỏ ở trái; Khoai: chín đã bóc vỏ, chờ xào; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Hành động:** Cô dùng khăn nhấc nồi cơm đã chín khỏi bếp trái, đặt lên đế kê rồi giữ nắp đậy.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: chín đã bóc vỏ, chờ xào; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi nồi được đế đỡ, bếp trái trống; nồi khoai đã rời phải. Sau đó nối S187.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S274 — Trở lại bóc khoai đã bớt nóng
+#### S187 — Kê chảo A, chỉnh lửa
 
-**15:39–15:42 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:51.3–10:54.1 · 2.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có. Sau khoảng chuẩn bị rau quả, thịt và trứng, khoai đã nguội tới mức cầm bằng khăn sạch.
-- **Hành động:** Cô đỡ củ bằng khăn, tách lớp vỏ bằng ngón tay rồi thả vỏ vào bát vụn.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S273 → S274 → S275. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Khoảng làm rau quả, thịt và trứng nằm giữa vớt khoai và bóc, nên khoai đã có thời gian nguội.
-- **Âm thanh:** Vải áo, bước chân hoặc ghế đúng động tác, âm sân dịu. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: chín đã bóc vỏ, chờ xào; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Hành động:** Cô đặt chảo sạch A ở trái, dùng kẹp đẩy thanh củi nhỏ có sẵn để tăng lửa vừa.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: chín đã bóc vỏ, chờ xào; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi chảo đúng vị trí, không thêm bếp hoặc đổi kiến trúc. Sau đó nối S188.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S275 — Hoàn tất bát khoai đã bóc
+#### S188 — Dầu phủ lòng chảo
 
-**15:42–15:46 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:54.1–10:56.2 · 2.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Hành động:** Sau các lượt lặp được lược, cô bóc nốt mảng vỏ trên củ cuối, đặt vào bát khoai sạch.
-- **Kết quả cuối:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S274 → S275 → S276. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: chín đã bóc vỏ, chờ xào; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Hành động:** Cô rót ít dầu rồi nghiêng chảo nhẹ cho dầu lan qua vùng xào.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: chín đã bóc vỏ, chờ xào; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở mặt dầu đã trải, lược nhịp dầu nóng trước phi. Sau đó nối S189.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S276 — Cho nồi cơm nghỉ đậy nắp
+#### S189 — Bẻ ớt khô
 
-**15:46–15:49 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:56.2–10:58.4 · 2.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín tiếp trên than nhỏ bên trái; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Hành động:** Sau thời gian chín lửa nhỏ trong lúc cô sơ chế, cô dùng khăn nhấc nồi cơm đã đậy khỏi bếp trái, đặt lên đế kê giữ ấm.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S275 → S276 → S277. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nắp/nồi, hơi nước ở mức nhìn thấy, lửa nền nhỏ. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: chín đã bóc vỏ, chờ xào; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Hành động:** Cô bẻ ít ớt khô vào bát cạnh tỏi băm, bỏ phần cuống.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: chín đã bóc vỏ, chờ xào; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Giữ động tác đặc trưng; dầu đang nóng chờ ở chảo trái. Sau đó nối S190.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S277 — Đặt chảo lên bếp, thêm củi nhỏ
+#### S190 — Tỏi và ớt vào dầu
 
-**15:49–15:53 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**10:58.4–11:02.5 · 4.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Hành động:** Cô kê chảo sạch A ở vị trí trái, dùng kẹp đẩy một thanh củi nhỏ có sẵn vào để tăng lửa vừa.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S276 → S277 → S278. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Kẹp/củi chạm gạch, lửa tí tách vừa phải. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: chín đã bóc vỏ, chờ xào; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Hành động:** Cô cho tỏi/ớt vào dầu đã nóng, dùng xẻng lùa qua đáy để dầu nổi bọt nhỏ quanh gia vị.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: chín đã bóc vỏ, chờ xào; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi gia vị phân trong dầu, không thêm toàn để ngắt chuỗi cận. Sau đó nối S191.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S278 — Cho dầu vào chảo
+#### S191 — Xào cải muối với gia vị
 
-**15:53–15:56 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:02.5–11:05.4 · 2.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Hành động:** Cô rót ít dầu vào lòng chảo rồi nghiêng nhẹ để dầu phủ vùng xào.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S277 → S278 → S279. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: chín đã bóc vỏ, chờ xào; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Hành động:** Cô đưa cải thái nhỏ vào chảo A, đảo cho lẫn tỏi và ớt.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: chín đã bóc vỏ, chờ xào; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi cải đã phân bố, chưa có khoai trong chảo. Sau đó nối S192.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S279 — Bẻ ớt khô cho món khoai
+#### S192 — Khoai chín vào chảo
 
-**15:56–16:00 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:05.4–11:08.6 · 3.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Hành động:** Cô bẻ một ít ớt khô thành đoạn nhỏ vào bát thơm cạnh tỏi băm, bỏ cuống cứng.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S278 → S279 → S280. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Vải áo, bước chân hoặc ghế đúng động tác, âm sân dịu. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: chín đã bóc vỏ, chờ xào; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Hành động:** Cô nghiêng bát đưa các củ khoai đã bóc vào chảo, đặt bát rỗng sang bên.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: đang xào trong chảo A trái; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi khoai ở lòng chảo, không biến thành khoai nghiền trước động tác ép. Sau đó nối S193.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S280 — Phi tỏi và ớt khô
+#### S193 — Ép vỡ khoai mềm
 
-**16:00–16:03 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:08.6–11:12.5 · 3.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Hành động:** Sau nhịp dầu nóng được lược, cô đưa phần tỏi/ớt khô vào chảo A, dùng xẻng đảo nhẹ.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S279 → S280 → S281. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: đang xào trong chảo A trái; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Hành động:** Cô dùng mặt xẻng ép một củ mềm, kéo phần vỡ vào giữa rồi tiếp củ kế.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: đang xào trong chảo A trái; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Giữ cơ chế khác biệt của món; không ép lại cùng củ nguyên ở góc khác. Sau đó nối S194.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S281 — Đảo gia vị trong dầu
+#### S194 — Khoai và cải hòa đều
 
-**16:03–16:07 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:12.5–11:15.3 · 2.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Hành động:** Xẻng lùa tỏi và ớt qua đáy chảo, dầu nổi bọt nhỏ quanh chúng.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S280 → S281 → S282. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: đang xào trong chảo A trái; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Hành động:** Sau các lượt ép được lược, cô đảo phần khoai mềm để cải và gia vị phân đều.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: đã ép mềm, hòa cải/gia vị; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra ở kết cấu mới, không kéo dài lượt đảo không thay đổi. Sau đó nối S195.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S282 — Xào cải muối
+#### S195 — Nêm và gập hành vào khoai
 
-**16:07–16:10 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:15.3–11:19.4 · 4.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Hành động:** Cô cho bát cải muối thái nhỏ vào chảo, đảo đều với tỏi và ớt.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S281 → S282 → S283. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: đã ép mềm, hòa cải/gia vị; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Hành động:** Gia vị đã ở tay/bát qua cut; cô rắc lượng vừa, cho hành rồi gập khoai một lượt để phân đều.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: đã ép mềm, hòa cải/gia vị; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Liên tục và điểm cắt:** Ra khi hành hòa, khoai ẩm mềm; không thêm nước thành canh. Sau đó nối S196.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S283 — Đưa khoai chín vào chảo
+#### S196 — Khoai ra đĩa giữ ấm
 
-**16:10–16:14 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:19.4–11:23.0 · 3.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: chín đã bóc vỏ; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Hành động:** Cô nghiêng bát khoai chín đã bóc, đưa khoai vào chảo A rồi đặt bát rỗng xuống.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: đang xào chảo A trái; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S282 → S283 → S284. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: đã ép mềm, hòa cải/gia vị; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có.
+- **Hành động:** Cô xúc phần khoai cuối vào đĩa, gạt xẻng gọn rồi đưa nắp che nhẹ vào vị trí.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà.
+- **Liên tục và điểm cắt:** Ra khi đĩa nhận món và che ấm; chảo A còn cần rửa trước dùng rau. Sau đó nối S197.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S284 — Dùng xẻng ép vỡ khoai
+#### S197 — Phi gừng tỏi ở chảo B
 
-**16:14–16:17 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:23.0–11:26.1 · 3.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: đang xào chảo A trái; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Hành động:** Cô ép một củ mềm bằng mặt xẻng rồi kéo phần khoai vỡ vào giữa.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: đang xào chảo A trái; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S283 → S284 → S285. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà. Nồi luộc đã rời vị trí phải, chảo B sạch đã được đặt và làm nóng qua đoạn lược.
+- **Hành động:** Nồi khoai đã rời vị trí phải trong phần lược, chảo B sạch đã nóng; cô cho dầu và gừng/tỏi vào đảo.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà.
+- **Liên tục và điểm cắt:** Ra khi gia vị tỏa trong dầu, bát thịt sống vẫn chờ. Sau đó nối S198.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S285 — Đảo khoai với cải và tỏi
+#### S198 — Thịt đổi màu khi xào
 
-**16:17–16:21 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:26.1–11:31.0 · 4.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: đang xào chảo A trái; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Hành động:** Sau các lượt ép lặp được lược, cô đảo khoai mềm để cải và gia vị phân đều.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: đang xào chảo A trái; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S284 → S285 → S286. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà.
+- **Hành động:** Cô trút thịt băm vào dầu thơm, miết xẻng tách cụm rồi đảo lớp tiếp xúc đáy đã chuyển màu lên trên.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: đang xào tơi chảo B phải; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà.
+- **Liên tục và điểm cắt:** Ra ở thịt tơi và chín thêm, lược các lượt đảo đủ trước xúc ra. Sau đó nối S199.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S286 — Nêm món khoai
+#### S199 — Thịt chín chờ ở bát sạch
 
-**16:21–16:24 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:31.0–11:34.4 · 3.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: đang xào chảo A trái; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Hành động:** Cô rắc ít muối/tiêu theo bữa, thêm một chút nước sạch nếu cần rồi đảo xẻng qua phần vừa nêm.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: đang xào chảo A trái; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S285 → S286 → S287. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: đang xào tơi chảo B phải; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà.
+- **Hành động:** Sau thời gian xào đủ được lược, cô xúc thịt đã chín vào bát chịu nhiệt sạch.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: xào chín ở bát sạch chờ; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà.
+- **Liên tục và điểm cắt:** Bát nhận khác bát ướp sống, thịt chờ ngoài chảo trong lúc làm sốt. Sau đó nối S200.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S287 — Thêm hành lá cuối
+#### S200 — Cà chua bắt đầu thành sốt
 
-**16:24–16:27 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:34.4–11:38.6 · 4.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: đang xào chảo A trái; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Hành động:** Cô cho một phần hành đã thái vào, gập khoai qua hành vài lượt.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: đang xào chảo A trái; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Nối cảnh:** Nối S286 → S287 → S288. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: xào chín ở bát sạch chờ; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà.
+- **Hành động:** Cô cho phần cà chua băm vào chảo B, kéo xẻng trải qua đáy, nước quả tiết ra rồi để lửa vừa.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đang thành sốt ở B; phần múi chờ; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: xào chín ở bát sạch chờ; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà.
+- **Liên tục và điểm cắt:** Ra khi sốt còn cần mềm, cô có khoảng chờ ngắn để trộn dưa gần bếp. Sau đó nối S201.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S288 — Cho khoai ra đĩa
+#### S201 — Trộn dưa trong khoảng chờ
 
-**16:27–16:31 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:38.6–11:43.4 · 4.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: đang xào chảo A trái; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: chưa có.
-- **Hành động:** Cô xúc khoai vào đĩa/bát dùng bàn ăn, gạt nốt phần cuối và đậy nhẹ bằng nắp giữ ấm.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà.
-- **Nối cảnh:** Nối S287 → S288 → S289. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đang thành sốt ở B; phần múi chờ; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: xào chín ở bát sạch chờ; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà.
+- **Hành động:** Cô rưới bát nước trộn đã pha lên dưa, đảo đều bằng đũa sạch rồi quay chú ý về chảo sốt sát bên.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đang thành sốt ở B; phần múi chờ; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: xào chín ở bát sạch chờ; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà, dưa trộn.
+- **Liên tục và điểm cắt:** Giữ bát dưa ở bàn và chảo B ở nền; lược chuyển dưa ra đĩa trước khi trở lại sốt. Sau đó nối S202.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S289 — Làm nóng chảo Hồng tam đóa
+#### S202 — Trở lại sốt mềm, thêm ớt
 
-**16:31–16:34 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:43.4–11:46.6 · 3.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà.
-- **Hành động:** Qua điểm cắt chảo sạch B đã ở vị trí phải; cô cho ít dầu và phần gừng/tỏi băm vào đảo thơm.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà.
-- **Nối cảnh:** Nối S288 → S289 → S290. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đang thành sốt ở B; phần múi chờ; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: xào chín ở bát sạch chờ; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà, dưa trộn.
+- **Hành động:** Sau khoảng trộn dưa, cô kéo xẻng qua sốt đã mềm hơn rồi cho ớt tươi thái nhỏ vào đảo.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: sốt đã mềm, có ớt; múi còn riêng; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: xào chín ở bát sạch chờ; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà, dưa trộn.
+- **Liên tục và điểm cắt:** Không trở lại cà chua vừa sống; thịt chín vẫn ở bát chờ. Sau đó nối S203.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S290 — Cho thịt băm vào chảo
+#### S203 — Trả thịt, nêm và đảo hòa
 
-**16:34–16:37 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:46.6–11:51.2 · 4.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà.
-- **Hành động:** Cô trút thịt băm đã trộn vào dầu thơm, dùng xẻng tản thành lớp để tiếp xúc đáy.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đang xào chảo B phải; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà.
-- **Nối cảnh:** Nối S289 → S290 → S291. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: sốt đã mềm, có ớt; múi còn riêng; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: xào chín ở bát sạch chờ; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà, dưa trộn.
+- **Hành động:** Cô trút thịt chín trở lại sốt, thêm gia vị đã chuẩn bị rồi đảo cho sốt bám thịt.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: sốt đã mềm, có ớt; múi còn riêng; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: đã hòa sốt cà/ớt, nóng; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà, dưa trộn.
+- **Liên tục và điểm cắt:** Ra khi hỗn hợp hòa và nóng, không trộn thịt sống thẳng vào đĩa. Sau đó nối S204.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S291 — Tách thịt băm khi đảo
+#### S204 — Hồng tam đóa ra đĩa
 
-**16:37–16:41 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:51.2–11:54.6 · 3.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đang xào chảo B phải; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà.
-- **Hành động:** Cô miết xẻng tách các cụm nhỏ, đảo phần thịt tiếp xúc đáy đã chuyển màu lên trên.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đang xào chảo B phải; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà.
-- **Nối cảnh:** Nối S290 → S291 → S292. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: sốt đã mềm, có ớt; múi còn riêng; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: đã hòa sốt cà/ớt, nóng; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà, dưa trộn.
+- **Hành động:** Cô xúc món vào đĩa riêng, đưa sốt cuối theo rồi che nhẹ giữ ấm.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đã vào món thịt, phần múi chờ trứng; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
+- **Liên tục và điểm cắt:** Kết món thứ hai nóng; dưa đã trộn, trứng và dền còn chưa nấu. Sau đó nối S205.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S292 — Xúc thịt đã xào ra bát
+## C14 — Trứng cà chua, xới cơm và món rau cuối
 
-**16:41–16:44 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đang xào chảo B phải; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà.
-- **Hành động:** Sau các lượt đảo đủ được lược, thịt đã chín; cô xúc vào bát chịu nhiệt sạch để chờ trộn lại.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: xào chín, chờ ở bát sạch; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà.
-- **Nối cảnh:** Nối S291 → S292 → S293. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S293 — Cho cà chua vào chảo rồi chờ mềm
-
-**16:44–16:47 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: xào chín, chờ ở bát sạch; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà. Thịt đã xào chín để bát riêng; chảo B còn dầu thơm.
-- **Hành động:** Cô cho cà chua băm vào, đảo trải trên đáy chảo rồi hạ nhịp tay khi quả bắt đầu tiết nước.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: xào chín, chờ ở bát sạch; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà.
-- **Nối cảnh:** Nối S292 → S293 → S294. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-## C14 — Trộn dưa trong lúc chờ sốt, hoàn tất các món và xào rau cuối
-
-**21 shot · 73 giây · 16:47–18:00.**
-
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
 |---|---|---:|---|---|
-| S294 | 16:47–16:51 | 4 | Trung | Cô rưới nước trộn lên dưa, dùng đũa sạch đảo đều rồi quay chú ý về chảo cà chua. |
-| S295 | 16:51–16:54 | 3 | Trung | Cô kéo xẻng qua sốt, trút ớt thái nhỏ vào rồi đảo đều. |
-| S296 | 16:54–16:58 | 4 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Cô nghiêng bát thịt xào vào chảo sốt, đảo cho các thành phần hòa đều. |
-| S297 | 16:58–17:01 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô thêm lượng nước tương/muối vừa bữa, kéo xẻng đảo để sốt sôi nhẹ và bám thịt. |
-| S298 | 17:01–17:05 | 4 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô xúc món vào đĩa riêng, đưa phần sốt cuối theo rồi đậy giữ ấm cạnh món khoai. |
-| S299 | 17:05–17:08 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Sau lượt tráng chảo B được lược, cô đổ nước tráng cuối ở chỗ xả, dùng khăn cầm quai đặt chảo về bếp phải. |
-| S300 | 17:08–17:12 | 4 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Sau nhịp làm nóng dầu được lược, cô nghiêng bát trứng đánh vào chảo B. |
-| S301 | 17:12–17:15 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô lùa xẻng từ mép vào, gập phần trứng đã se thành miếng mềm, không chặt vụn. |
-| S302 | 17:15–17:19 | 4 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Khi trứng vừa chín, cô xúc sang bát chịu nhiệt sạch để giữ mềm. |
-| S303 | 17:19–17:22 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô thêm chút dầu còn cần, đưa cà chua múi vào chảo và kéo xẻng đảo. |
-| S304 | 17:22–17:26 | 4 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Sau thời gian xào cà chua được lược, cô cho trứng vừa xào trở lại, đảo gập nhẹ. |
-| S305 | 17:26–17:29 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô rắc chút muối và hành đã thái, gập hỗn hợp một lượt cuối sau khi đã đủ nóng. |
-| S306 | 17:29–17:33 | 4 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Cô đưa món ra đĩa riêng, đặt cạnh hai món đã xong và đậy nhẹ giữ ấm. |
-| S307 | 17:33–17:36 | 3 | Toàn | Cô mở nồi cơm đang nghỉ, xới nhẹ cho tơi rồi đậy lại trước khi quay sang chảo rau. |
-| S308 | 17:36–17:39 | 3 | Trung | Với chảo A đã được rửa qua khoảng lược sau món khoai, cô làm nóng chút dầu rồi cho tỏi băm vào. |
-| S309 | 17:39–17:43 | 4 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô lùa xẻng qua tỏi trong dầu, ngừng trước khi tỏi chuyển sẫm. |
-| S310 | 17:43–17:46 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Cô nghiêng rổ rau đã ráo vào chảo, dùng xẻng đỡ cho lá nằm trong lòng chảo. |
-| S311 | 17:46–17:49 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô nâng và gập các lớp lá, đưa phần dưới lên trên, giữ rau trong lòng chảo. |
-| S312 | 17:49–17:53 | 4 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Khi rau đã xẹp mềm sau thời gian đảo, cô rắc ít muối, thêm vài giọt nước sạch nếu cần rồi đảo lượt cuối. |
-| S313 | 17:53–17:56 | 3 | Trung | Cô xúc rau lên đĩa, đưa chút nước xào theo rồi đặt lên vùng bàn khô cạnh các món. |
-| S314 | 17:56–18:00 | 4 | Toàn | Cô chỉnh đĩa rau vào khoảng khô, lấy khăn lau tay rồi nhìn ra bàn sân để bắt đầu dọn. |
+| S205 | 11:54.6–11:57.1 | 2.5 | Cận | Sau lượt rửa chảo được lược, cô đổ nước tráng cuối ở chỗ xả rồi đặt chảo về phải bằng khăn cầm quai. |
+| S206 | 11:57.1–12:02.1 | 5.0 | Cận | Cô đổ trứng đánh vào dầu nóng, lùa xẻng từ mép vào rồi gập các phần đã se thành miếng mềm. |
+| S207 | 12:02.1–12:04.8 | 2.7 | Cận | Cô xúc phần trứng vừa chín sang bát sạch để giữ mềm. |
+| S208 | 12:04.8–12:08.0 | 3.2 | Cận | Cô thêm chút dầu cần thiết, cho cà chua múi vào rồi đảo trải qua đáy. |
+| S209 | 12:08.0–12:12.6 | 4.6 | Cận | Khi cà chua đã mềm sau khoảng xào được lược, cô trả trứng, nêm và gập nhẹ thêm hành. |
+| S210 | 12:12.6–12:15.7 | 3.1 | Cận | Cô đưa món vào đĩa riêng, đặt gần hai món nóng đã xong rồi che nhẹ. |
+| S211 | 12:15.7–12:19.5 | 3.8 | Cận | Cô mở nồi cơm đang nghỉ, xới nhẹ cho tơi rồi đậy lại giữ ấm. |
+| S212 | 12:19.5–12:23.0 | 3.5 | Cận | Chảo A đã rửa sạch ở phần lược; cô cho tỏi vào dầu nóng, lùa xẻng trước khi tỏi sẫm. |
+| S213 | 12:23.0–12:26.4 | 3.4 | Cận | Cô nghiêng rổ rau ráo vào chảo A, dùng xẻng đỡ cho lá nằm gọn. |
+| S214 | 12:26.4–12:31.2 | 4.8 | Cận | Sau các lượt đảo đầu được lược, cô nâng gập rau đã bắt đầu xẹp, rắc muối rồi đảo lượt cuối. |
+| S215 | 12:31.2–12:34.5 | 3.3 | Cận | Cô xúc rau vào đĩa riêng, đưa chút nước xào theo rồi đặt cạnh các món. |
+| S216 | 12:34.5–12:36.8 | 2.3 | Trung | Cô chỉnh đĩa rau vào vùng bàn khô, lau tay rồi hướng nhìn ra sân; năm món và nồi cơm hiện trong khung. |
 
 ### Mô tả chi tiết
 
-#### S294 — Trộn dưa trong khoảng chờ sốt
+#### S205 — Chảo B sạch trở lại bếp
 
-**16:47–16:51 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:54.6–11:57.1 · 2.5 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: xào chín, chờ ở bát sạch; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà. Sau khi hạ lửa vừa, cà chua tiếp tục mềm trong chảo B gần bàn; dưa cắt và nước trộn đã sẵn.
-- **Hành động:** Cô rưới nước trộn lên dưa, dùng đũa sạch đảo đều rồi quay chú ý về chảo cà chua.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: xào chín, chờ ở bát sạch; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà, dưa trộn.
-- **Nối cảnh:** Nối S293 → S294 → S295. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Đảo cà chua, để lửa vừa rồi mới rời chảo trộn dưa; trở lại chảo ngay cảnh sau.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đã vào món thịt, phần múi chờ trứng; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa. Chảo B đã rửa sạch, đang ở chỗ xả để đổ nước tráng cuối; không rửa trên lửa.
+- **Hành động:** Sau lượt rửa chảo được lược, cô đổ nước tráng cuối ở chỗ xả rồi đặt chảo về phải bằng khăn cầm quai.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đã vào món thịt, phần múi chờ trứng; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
+- **Liên tục và điểm cắt:** Ra khi chảo sạch ở đúng vị trí; lược làm khô/làm nóng dầu trước trứng. Sau đó nối S206.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S295 — Trở lại sốt cà chua, thêm ớt
+#### S206 — Trứng từ lỏng thành miếng mềm
 
-**16:51–16:54 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**11:57.1–12:02.1 · 5.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: xào chín, chờ ở bát sạch; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà, dưa trộn. Trong khoảng cô trộn dưa, cà chua ở lửa vừa đã mềm hơn; thịt chín vẫn chờ riêng.
-- **Hành động:** Cô kéo xẻng qua sốt, trút ớt thái nhỏ vào rồi đảo đều.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: xào chín, chờ ở bát sạch; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà, dưa trộn.
-- **Nối cảnh:** Nối S294 → S295 → S296. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đã vào món thịt, phần múi chờ trứng; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa. Chảo B đã làm khô và dầu đủ nóng sau khoảng chờ lược.
+- **Hành động:** Cô đổ trứng đánh vào dầu nóng, lùa xẻng từ mép vào rồi gập các phần đã se thành miếng mềm.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đã vào món thịt, phần múi chờ trứng; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: đã xào thành miếng mềm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
+- **Liên tục và điểm cắt:** Giữ chuyển trạng thái thật; không chặt vụn hoặc vừa đổ đã chín hết tức thì. Sau đó nối S207.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S296 — Trộn thịt trở lại
+#### S207 — Trứng tạm ra bát
 
-**16:54–16:58 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:02.1–12:04.8 · 2.7 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: xào chín, chờ ở bát sạch; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà, dưa trộn.
-- **Hành động:** Cô nghiêng bát thịt xào vào chảo sốt, đảo cho các thành phần hòa đều.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn lại trong chảo sốt cà/ớt; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà, dưa trộn.
-- **Nối cảnh:** Nối S295 → S296 → S297. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đã vào món thịt, phần múi chờ trứng; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: đã xào thành miếng mềm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
+- **Hành động:** Cô xúc phần trứng vừa chín sang bát sạch để giữ mềm.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đã vào món thịt, phần múi chờ trứng; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: chín ở bát sạch chờ. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
+- **Liên tục và điểm cắt:** Ra khi bát nhận trứng; chảo B trống phần chính cho cà chua. Sau đó nối S208.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S297 — Nêm và đảo lượt cuối
+#### S208 — Múi cà chua vào chảo
 
-**16:58–17:01 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:04.8–12:08.0 · 3.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn lại trong chảo sốt cà/ớt; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà, dưa trộn.
-- **Hành động:** Cô thêm lượng nước tương/muối vừa bữa, kéo xẻng đảo để sốt sôi nhẹ và bám thịt.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn lại trong chảo sốt cà/ớt; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà, dưa trộn.
-- **Nối cảnh:** Nối S296 → S297 → S298. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đã vào món thịt, phần múi chờ trứng; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: chín ở bát sạch chờ. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
+- **Hành động:** Cô thêm chút dầu cần thiết, cho cà chua múi vào rồi đảo trải qua đáy.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đã thành món; phần múi đang xào ở B; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: chín ở bát sạch chờ. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
+- **Liên tục và điểm cắt:** Ra khi múi bắt đầu nóng, lược thời gian mềm trước trả trứng. Sau đó nối S209.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S298 — Cho Hồng tam đóa ra đĩa
+#### S209 — Trộn trứng với cà chua mềm
 
-**17:01–17:05 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:08.0–12:12.6 · 4.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn lại trong chảo sốt cà/ớt; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà, dưa trộn.
-- **Hành động:** Cô xúc món vào đĩa riêng, đưa phần sốt cuối theo rồi đậy giữ ấm cạnh món khoai.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Nối cảnh:** Nối S297 → S298 → S299. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đã thành món; phần múi đang xào ở B; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: chín ở bát sạch chờ. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
+- **Hành động:** Khi cà chua đã mềm sau khoảng xào được lược, cô trả trứng, nêm và gập nhẹ thêm hành.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đã thành món; phần múi đang xào ở B; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: đã hòa cà chua múi mềm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
+- **Liên tục và điểm cắt:** Ra khi hỗn hợp hòa, miếng trứng vẫn mềm; không diễn lại trứng còn lỏng. Sau đó nối S210.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S299 — Làm sạch chảo cho món trứng
+#### S210 — Bày trứng cà chua
 
-**17:05–17:08 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:12.6–12:15.7 · 3.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Hành động:** Sau lượt tráng chảo B được lược, cô đổ nước tráng cuối ở chỗ xả, dùng khăn cầm quai đặt chảo về bếp phải.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Nối cảnh:** Nối S298 → S299 → S300. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nước rót/rửa/chắt đúng động tác, giọt về chậu, âm sân xa. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đã thành món; phần múi đang xào ở B; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: đã hòa cà chua múi mềm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
+- **Hành động:** Cô đưa món vào đĩa riêng, đặt gần hai món nóng đã xong rồi che nhẹ.
+- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: hai phần đã thành món; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: trứng cà chua đã ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
+- **Liên tục và điểm cắt:** Ra ở ba món nóng tách đĩa, dưa riêng, rau dền còn sống. Sau đó nối S211.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S300 — Đổ trứng vào dầu nóng
+#### S211 — Xới và đậy cơm
 
-**17:08–17:12 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:15.7–12:19.5 · 3.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Hành động:** Sau nhịp làm nóng dầu được lược, cô nghiêng bát trứng đánh vào chảo B.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: đang xào chảo B. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Nối cảnh:** Nối S299 → S300 → S301. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: hai phần đã thành món; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: trứng cà chua đã ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
+- **Hành động:** Cô mở nồi cơm đang nghỉ, xới nhẹ cho tơi rồi đậy lại giữ ấm.
+- **Kết quả cuối:** Cơm: đã xới, đậy giữ ấm; Khoai: món đã ra đĩa, che ấm; Cà: hai phần đã thành món; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: trứng cà chua đã ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
+- **Liên tục và điểm cắt:** Ra khi nắp đã đậy; chảo rau là việc cuối trước dọn. Sau đó nối S212.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S301 — Gom trứng thành miếng mềm
+#### S212 — Phi tỏi cho món rau cuối
 
-**17:12–17:15 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:19.5–12:23.0 · 3.5 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: đang xào chảo B. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Hành động:** Cô lùa xẻng từ mép vào, gập phần trứng đã se thành miếng mềm, không chặt vụn.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: đang xào chảo B. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Nối cảnh:** Nối S300 → S301 → S302. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đã xới, đậy giữ ấm; Khoai: món đã ra đĩa, che ấm; Cà: hai phần đã thành món; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: trứng cà chua đã ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua. Chảo A đã rửa, làm khô và có dầu nóng qua phần lược; giữ cùng vị trí trái.
+- **Hành động:** Chảo A đã rửa sạch ở phần lược; cô cho tỏi vào dầu nóng, lùa xẻng trước khi tỏi sẫm.
+- **Kết quả cuối:** Cơm: đã xới, đậy giữ ấm; Khoai: món đã ra đĩa, che ấm; Cà: hai phần đã thành món; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: trứng cà chua đã ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
+- **Liên tục và điểm cắt:** Ra khi dầu thơm sẵn nhận rau, không thêm nghi thức kê chảo lại từ đầu. Sau đó nối S213.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S302 — Xúc trứng ra bát sạch
+#### S213 — Lá dền đầy lòng chảo
 
-**17:15–17:19 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:23.0–12:26.4 · 3.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: đang xào chảo B. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Hành động:** Khi trứng vừa chín, cô xúc sang bát chịu nhiệt sạch để giữ mềm.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: vừa chín, tạm ra bát sạch. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Nối cảnh:** Nối S301 → S302 → S303. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đã xới, đậy giữ ấm; Khoai: món đã ra đĩa, che ấm; Cà: hai phần đã thành món; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: trứng cà chua đã ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
+- **Hành động:** Cô nghiêng rổ rau ráo vào chảo A, dùng xẻng đỡ cho lá nằm gọn.
+- **Kết quả cuối:** Cơm: đã xới, đậy giữ ấm; Khoai: món đã ra đĩa, che ấm; Cà: hai phần đã thành món; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: vừa vào chảo A, còn phồng; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: trứng cà chua đã ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
+- **Liên tục và điểm cắt:** Ra khi rau đã vào chảo nhưng còn độ phồng, chưa tự xẹp hết. Sau đó nối S214.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S303 — Cho múi cà chua vào chảo
+#### S214 — Rau xẹp và thấm gia vị
 
-**17:19–17:22 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:26.4–12:31.2 · 4.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: vừa chín, tạm ra bát sạch. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Hành động:** Cô thêm chút dầu còn cần, đưa cà chua múi vào chảo và kéo xẻng đảo.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: vừa chín, tạm ra bát sạch. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Nối cảnh:** Nối S302 → S303 → S304. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đã xới, đậy giữ ấm; Khoai: món đã ra đĩa, che ấm; Cà: hai phần đã thành món; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: vừa vào chảo A, còn phồng; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: trứng cà chua đã ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
+- **Hành động:** Sau các lượt đảo đầu được lược, cô nâng gập rau đã bắt đầu xẹp, rắc muối rồi đảo lượt cuối.
+- **Kết quả cuối:** Cơm: đã xới, đậy giữ ấm; Khoai: món đã ra đĩa, che ấm; Cà: hai phần đã thành món; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: đã xẹp chín, nêm vừa; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: trứng cà chua đã ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
+- **Liên tục và điểm cắt:** Giữ biến đổi lá, không lặp xẻng không thêm thông tin; rau chín vừa. Sau đó nối S215.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S304 — Trả trứng vào cà chua mềm
+#### S215 — Rau nóng ra đĩa
 
-**17:22–17:26 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:31.2–12:34.5 · 3.3 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: vừa chín, tạm ra bát sạch. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Hành động:** Sau thời gian xào cà chua được lược, cô cho trứng vừa xào trở lại, đảo gập nhẹ.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: đã trộn lại với cà chua múi mềm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Nối cảnh:** Nối S303 → S304 → S305. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đã xới, đậy giữ ấm; Khoai: món đã ra đĩa, che ấm; Cà: hai phần đã thành món; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: đã xẹp chín, nêm vừa; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: trứng cà chua đã ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
+- **Hành động:** Cô xúc rau vào đĩa riêng, đưa chút nước xào theo rồi đặt cạnh các món.
+- **Kết quả cuối:** Cơm: đã xới, đậy giữ ấm; Khoai: món đã ra đĩa, che ấm; Cà: hai phần đã thành món; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: ra đĩa nóng cuối; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: trứng cà chua đã ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua, dền xào tỏi.
+- **Liên tục và điểm cắt:** Đây là món nóng cuối, ra đĩa trước khi dọn. Sau đó nối S216.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S305 — Nêm và thêm ít hành
+#### S216 — Bữa cơm đủ năm món
 
-**17:26–17:29 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
+**12:34.5–12:36.8 · 2.3 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: đã trộn lại với cà chua múi mềm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Hành động:** Cô rắc chút muối và hành đã thái, gập hỗn hợp một lượt cuối sau khi đã đủ nóng.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: đã trộn lại với cà chua múi mềm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Nối cảnh:** Nối S304 → S305 → S306. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
+- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát và nguyên liệu trong trạng thái đầu. Dao/thớt rau D26 riêng bộ thịt D27; gáo bếp D21 riêng gáo vườn. Không thêm người.
+- **Trạng thái đầu:** Cơm: đã xới, đậy giữ ấm; Khoai: món đã ra đĩa, che ấm; Cà: hai phần đã thành món; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: ra đĩa nóng cuối; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: trứng cà chua đã ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua, dền xào tỏi.
+- **Hành động:** Cô chỉnh đĩa rau vào vùng bàn khô, lau tay rồi hướng nhìn ra sân; năm món và nồi cơm hiện trong khung.
+- **Kết quả cuối:** Cơm: đã xới, đậy giữ ấm; Khoai: món đã ra đĩa, che ấm; Cà: hai phần đã thành món; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: ra đĩa nóng cuối; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: trứng cà chua đã ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua, dền xào tỏi.
+- **Liên tục và điểm cắt:** Ra khi mâm chuẩn bị đã đủ, không thêm món ngoài câu chuyện. Sau đó nối S217.
+- **Âm thanh:** Âm đúng vật đang thấy: nước, dao/thớt, bát/nắp, lửa hoặc xẻng/dầu xèo theo thao tác; nền bếp liên tục. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
 
-#### S306 — Bày trứng xào cà chua
+## C15 — Dọn bàn, mời bà và chia cơm
 
-**17:29–17:33 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: đã trộn lại với cà chua múi mềm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa.
-- **Hành động:** Cô đưa món ra đĩa riêng, đặt cạnh hai món đã xong và đậy nhẹ giữ ấm.
-- **Kết quả cuối:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
-- **Nối cảnh:** Nối S305 → S306 → S307. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S307 — Xới cơm trước món rau cuối
-
-**17:33–17:36 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua. Khoai, Hồng tam đóa, trứng cà chua đã xong; dưa trộn ở đĩa riêng; rau dền còn ráo trong rổ.
-- **Hành động:** Cô mở nồi cơm đang nghỉ, xới nhẹ cho tơi rồi đậy lại trước khi quay sang chảo rau.
-- **Kết quả cuối:** Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
-- **Nối cảnh:** Nối S306 → S307 → S308. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Nắp/nồi, hơi nước ở mức nhìn thấy, lửa nền nhỏ. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S308 — Bắt đầu món rau sát giờ dọn
-
-**17:36–17:39 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua. Bốn món đã sẵn gồm khoai, Hồng tam đóa, trứng cà chua và dưa; cơm đã xới, rau dền còn sống.
-- **Hành động:** Với chảo A đã được rửa qua khoảng lược sau món khoai, cô làm nóng chút dầu rồi cho tỏi băm vào.
-- **Kết quả cuối:** Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
-- **Nối cảnh:** Nối S307 → S308 → S309. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S309 — Tỏi thơm trước khi thêm rau
-
-**17:39–17:43 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
-- **Hành động:** Cô lùa xẻng qua tỏi trong dầu, ngừng trước khi tỏi chuyển sẫm.
-- **Kết quả cuối:** Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
-- **Nối cảnh:** Nối S308 → S309 → S310. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S310 — Đưa rau dền vào chảo
-
-**17:43–17:46 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
-- **Hành động:** Cô nghiêng rổ rau đã ráo vào chảo, dùng xẻng đỡ cho lá nằm trong lòng chảo.
-- **Kết quả cuối:** Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đang xào chảo A; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
-- **Nối cảnh:** Nối S309 → S310 → S311. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S311 — Đảo rau cho chín đều
-
-**17:46–17:49 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đang xào chảo A; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
-- **Hành động:** Cô nâng và gập các lớp lá, đưa phần dưới lên trên, giữ rau trong lòng chảo.
-- **Kết quả cuối:** Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đang xào chảo A; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
-- **Nối cảnh:** Nối S310 → S311 → S312. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S312 — Nêm rau gần chín
-
-**17:49–17:53 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục bếp/bàn, vị trí hai nồi/chảo và bát nguyên liệu; cận có mép vật làm mốc.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đang xào chảo A; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
-- **Hành động:** Khi rau đã xẹp mềm sau thời gian đảo, cô rắc ít muối, thêm vài giọt nước sạch nếu cần rồi đảo lượt cuối.
-- **Kết quả cuối:** Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đang xào chảo A; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua.
-- **Nối cảnh:** Nối S311 → S312 → S313. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Tiếng dầu/thực phẩm xèo và xẻng chảo đúng vật đang đảo. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S313 — Đưa rau nóng ra đĩa
-
-**17:53–17:56 · 3 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Trung; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: đang xào chảo A; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua. Rau dền đã chín mềm vừa, bốn món kia và cơm đã sẵn.
-- **Hành động:** Cô xúc rau lên đĩa, đưa chút nước xào theo rồi đặt lên vùng bàn khô cạnh các món.
-- **Kết quả cuối:** Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: vừa chín, đã ra đĩa; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua, dền xào tỏi.
-- **Nối cảnh:** Nối S312 → S313 → S314. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-#### S314 — Gom mâm cơm vừa hoàn thành
-
-**17:56–18:00 · 4 giây · Máy cố định · Tự nhiên · Chờ duyệt**
-
-- **Góc máy và bố cục:** Toàn; máy cố định, quan sát chéo bên cùng phía trục. Khung đủ thấy vùng thao tác và phần việc đã hoàn thành; không đổi góc để làm lại động tác.
-- **Địa điểm, thời gian và ánh sáng:** Bếp chính B11 / bàn bếp phụ B10 theo vị trí động tác. Chiều cùng ngày thu hoạch khoảng ngày 105; ánh cửa tự nhiên dịu dần tới giờ dọn tối. Nồi và nguyên liệu tiến đúng trạng thái đã ghi, không quay lại lúc trước.
-- **Nhân vật và dụng cụ:** Cô gái P01; đúng nồi/chảo/bát nguyên liệu trong trạng thái đầu và hành động. Hai vị trí nấu trái/phải giữ nguyên; thớt thịt và thớt rau riêng, gáo bếp D21 riêng gáo vườn.
-- **Trạng thái đầu:** Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: vừa chín, đã ra đĩa; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua, dền xào tỏi. Năm đĩa và nồi cơm đã sẵn trên bàn, rau dền vừa rời chảo.
-- **Hành động:** Cô chỉnh đĩa rau vào khoảng khô, lấy khăn lau tay rồi nhìn ra bàn sân để bắt đầu dọn.
-- **Kết quả cuối:** Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: vừa chín, đã ra đĩa; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua, dền xào tỏi.
-- **Nối cảnh:** Nối S313 → S314 → S315. Cắt thẳng tiếp nhịp hoặc lược phần lặp/chờ; không diễn lại phần đã hoàn tất. Giữ trạng thái các nồi đang đun trong lúc cô làm việc khác, không tự thêm người hoặc tua nhanh tay.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B11; P01; D21; D22; D23; D24; D25; D26; D27; D28; D29
-
-## C15 — Dọn năm món ra sân và mời bà vào bàn
-
-**18 shot · 60 giây · 18:00–19:00.**
-
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
 |---|---|---:|---|---|
-| S315 | 18:00–18:04 | 4 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Cô ra bàn sân, lau một lượt mặt bàn sạch rồi gấp khăn về bên cạnh. |
-| S316 | 18:04–18:07 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô đặt bát và đũa cho hai vị trí đối diện/gần nhau đúng bàn, chừa giữa bàn cho món chung. |
-| S317 | 18:07–18:10 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô đặt muỗng sạch vào bên thuận tay của chỗ bà, chỉnh đũa gọn rồi rút tay. |
-| S318 | 18:10–18:14 | 4 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Trở lại bếp qua điểm cắt, cô đỡ khay gỗ có khoai, Hồng tam đóa và trứng cà chua, nhấc bằng hai tay. |
-| S319 | 18:14–18:17 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô đi đoạn lối từ cửa bếp ra bàn, giữ khay ngang để sốt không tràn. |
-| S320 | 18:17–18:20 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô hạ khay vào khoảng trống, buông tay sau khi đáy được bàn đỡ. |
-| S321 | 18:20–18:24 | 4 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Sau khi hai đĩa đầu được đặt trong nhịp lược, cô nhấc đĩa trứng cuối khỏi khay, đặt vào chỗ còn trống. |
-| S322 | 18:24–18:27 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Sau chuyến quay lại bếp được lược, cô mang khay có rau dền, dưa trộn và nồi cơm đậy nắp tới bàn. |
-| S323 | 18:27–18:30 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô hạ khay thứ hai vào vùng trống rồi đưa tay tới các đĩa. |
-| S324 | 18:30–18:34 | 4 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Sau các nhịp đặt được lược, cô đặt nốt đĩa dưa vào giữa khoảng món, dịch nồi cơm về bên thuận múc. |
-| S325 | 18:34–18:37 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Bà đi từ phía nhà ra lối sân; cô quay nhìn, bước về phía ghế bà. |
-| S326 | 18:37–18:40 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô kéo ghế một khoảng vừa đủ, mở tay về phía chỗ ngồi và mỉm cười nhẹ. |
-| S327 | 18:40–18:43 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Tay bà chạm thành ghế, cô giữ ghế vững trong phần bà hạ người xuống. |
-| S328 | 18:43–18:47 | 4 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Bà ngồi vào bàn; cô đứng cạnh, nhấc nắp nồi cơm và cầm muôi sạch. |
-| S329 | 18:47–18:50 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô múc lượng cơm vừa vào bát bà, vun nhẹ bằng cạnh muôi. |
-| S330 | 18:50–18:53 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô đặt bát đã múc trong tầm với của bà, buông tay khi bát đứng vững. |
-| S331 | 18:53–18:57 | 4 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô múc cơm vào bát mình, đặt muôi gọn, đậy nồi rồi ngồi cạnh vị trí đã chuẩn bị. |
-| S332 | 18:57–19:00 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Bà nhìn cháu, cô đáp bằng nụ cười nhỏ rồi cầm muỗng món khoai để bắt đầu mời bà. |
+| S217 | 12:36.8–12:42.8 | 6.0 | Trung | Cô lau một dải mặt bàn, gấp khăn sang bên rồi đặt bát/đũa và muỗng cho chỗ bà; chỗ cô đã bày trong phần lược trước. |
+| S218 | 12:42.8–12:48.2 | 5.4 | Toàn | Ở đoạn cuối từ cửa bếp tới bàn, cô mang ba món đầu, hạ khay vào khoảng trống rồi buông tay. |
+| S219 | 12:48.2–12:51.4 | 3.2 | Cận | Hai đĩa đầu đã đặt qua phần lặp được lược; cô đặt đĩa trứng vào vị trí còn lại. |
+| S220 | 12:51.4–12:56.7 | 5.3 | Trung | Sau chuyến quay lại bếp được lược, khay thứ hai đã tới sát bàn; cô hạ vững rồi đặt đĩa dưa cuối, cơm cạnh phía múc. |
+| S221 | 12:56.7–13:03.1 | 6.4 | Toàn | Bà đã tới gần ghế, cô kéo ghế rồi giữ khi bà hạ người ngồi, chỉ buông sau khi bà ổn. |
+| S222 | 13:03.1–13:08.9 | 5.8 | Trung | Cô mở nồi, múc phần cơm vừa vào bát bà rồi đặt trong tầm với của bà. |
+| S223 | 13:08.9–13:13.4 | 4.5 | Trung | Cô múc bát mình, đặt muôi gọn, đậy nồi rồi ngồi xuống vị trí đã chuẩn bị. |
 
 ### Mô tả chi tiết
 
-#### S315 — Chuẩn bị bàn ăn ngoài sân
+#### S217 — Chuẩn bị hai chỗ ăn
 
-**18:00–18:04 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**12:36.8–12:42.8 · 6.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Chỉ cô gái P01 trong cảnh dọn; bà chưa vào khung, vật nuôi ngoài vùng bàn.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Mốc 18:00: năm món và cơm đã hoàn thành ở bếp. Bàn ăn ngoài sân theo thiết kế chưa có món, bà vẫn ở khu nhà, không có khách khác.
-- **Hành động:** Cô ra bàn sân, lau một lượt mặt bàn sạch rồi gấp khăn về bên cạnh.
-- **Kết quả cuối:** Bàn sẵn dọn, không có thức ăn bày sẵn từ trước.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Vải áo, bước chân hoặc ghế đúng động tác, âm sân dịu. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Năm món và cơm sẵn trong bếp; cô ở bàn sân, một chỗ bát/đũa của cô đã bày trong đoạn lược; phía bà còn cần lau/gọn và đặt bộ ăn.
+- **Hành động:** Cô lau một dải mặt bàn, gấp khăn sang bên rồi đặt bát/đũa và muỗng cho chỗ bà; chỗ cô đã bày trong phần lược trước.
+- **Kết quả cuối:** Mặt bàn gọn, có đúng hai bộ ăn và muỗng bà, giữa bàn còn trống cho năm món.
+- **Liên tục và điểm cắt:** Đầu shot nêu một chỗ đã chuẩn bị, tránh ép lau cả bàn và bày mọi thứ trong sáu giây. Sau đó nối S218.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B12; P01; D22; D29; D30
 
-#### S316 — Đặt hai bộ bát đũa
+#### S218 — Mang khay đầu ra sân
 
-**18:04–18:07 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**12:42.8–12:48.2 · 5.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Chỉ cô gái P01 trong cảnh dọn; bà chưa vào khung, vật nuôi ngoài vùng bàn.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Bàn sẵn dọn, không có thức ăn bày sẵn từ trước.
-- **Hành động:** Cô đặt bát và đũa cho hai vị trí đối diện/gần nhau đúng bàn, chừa giữa bàn cho món chung.
-- **Kết quả cuối:** Hai bộ bát đũa cho bà và cháu, không thêm người ăn.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B12; P01; D22; D29; D30
-
-#### S317 — Chỉnh muỗng cạnh bát bà
-
-**18:07–18:10 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Chỉ cô gái P01 trong cảnh dọn; bà chưa vào khung, vật nuôi ngoài vùng bàn.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Hai bộ bát đũa cho bà và cháu, không thêm người ăn.
-- **Hành động:** Cô đặt muỗng sạch vào bên thuận tay của chỗ bà, chỉnh đũa gọn rồi rút tay.
-- **Kết quả cuối:** Chỗ bà có đủ dụng cụ trong tầm với; không thay kiểu bát qua góc sau.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B12; P01; D22; D29; D30
-
-#### S318 — Lấy khay ba món đầu
-
-**18:10–18:14 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Chỉ cô gái P01 trong cảnh dọn; bà chưa vào khung, vật nuôi ngoài vùng bàn.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Chỗ bà có đủ dụng cụ trong tầm với; không thay kiểu bát qua góc sau.
-- **Hành động:** Trở lại bếp qua điểm cắt, cô đỡ khay gỗ có khoai, Hồng tam đóa và trứng cà chua, nhấc bằng hai tay.
-- **Kết quả cuối:** Ba đĩa đã có trên khay, rau dền/dưa và nồi cơm còn ở bếp.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B12; P01; D22; D29; D30
-
-#### S319 — Mang khay tới bàn sân
-
-**18:14–18:17 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Chỉ cô gái P01 trong cảnh dọn; bà chưa vào khung, vật nuôi ngoài vùng bàn.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Ba đĩa đã có trên khay, rau dền/dưa và nồi cơm còn ở bếp.
-- **Hành động:** Cô đi đoạn lối từ cửa bếp ra bàn, giữ khay ngang để sốt không tràn.
-- **Kết quả cuối:** Khay tới cạnh bàn; món không đổi vị trí hoặc bay khỏi khay.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Vải áo, bước chân hoặc ghế đúng động tác, âm sân dịu. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B12; P01; D22; D29; D30
-
-#### S320 — Hạ khay lên bàn
-
-**18:17–18:20 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Chỉ cô gái P01 trong cảnh dọn; bà chưa vào khung, vật nuôi ngoài vùng bàn.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Khay tới cạnh bàn; món không đổi vị trí hoặc bay khỏi khay.
-- **Hành động:** Cô hạ khay vào khoảng trống, buông tay sau khi đáy được bàn đỡ.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Chỗ bà có đủ dụng cụ trong tầm với; không thay kiểu bát qua góc sau.
+- **Hành động:** Ở đoạn cuối từ cửa bếp tới bàn, cô mang ba món đầu, hạ khay vào khoảng trống rồi buông tay.
 - **Kết quả cuối:** Ba món vẫn trên khay đặt bàn, chưa tự xuất hiện rải cả bàn.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
+- **Liên tục và điểm cắt:** Ra khi khay được bàn đỡ; không cắt mất nhịp hạ trọng lượng. Sau đó nối S219.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B12; P01; D22; D29; D30
 
-#### S321 — Bày ba đĩa đầu
+#### S219 — Ba món đầu ở bàn
 
-**18:20–18:24 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**12:48.2–12:51.4 · 3.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Chỉ cô gái P01 trong cảnh dọn; bà chưa vào khung, vật nuôi ngoài vùng bàn.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Ba món vẫn trên khay đặt bàn, chưa tự xuất hiện rải cả bàn.
-- **Hành động:** Sau khi hai đĩa đầu được đặt trong nhịp lược, cô nhấc đĩa trứng cuối khỏi khay, đặt vào chỗ còn trống.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Ba món vẫn trên khay đặt bàn, chưa tự xuất hiện rải cả bàn.
+- **Hành động:** Hai đĩa đầu đã đặt qua phần lặp được lược; cô đặt đĩa trứng vào vị trí còn lại.
 - **Kết quả cuối:** Khoai, Hồng tam đóa và trứng đã trên bàn; khay đầu rỗng.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
+- **Liên tục và điểm cắt:** Ra ở ba món tách vị trí ổn định, không bày lại từ đầu ở góc sau. Sau đó nối S220.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B12; P01; D22; D29; D30
 
-#### S322 — Mang phần còn lại ra sân
+#### S220 — Hoàn tất năm món và cơm
 
-**18:24–18:27 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**12:51.4–12:56.7 · 5.3 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Chỉ cô gái P01 trong cảnh dọn; bà chưa vào khung, vật nuôi ngoài vùng bàn.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Khoai, Hồng tam đóa và trứng đã trên bàn; khay đầu rỗng.
-- **Hành động:** Sau chuyến quay lại bếp được lược, cô mang khay có rau dền, dưa trộn và nồi cơm đậy nắp tới bàn.
-- **Kết quả cuối:** Phần món/cơm còn lại tới bàn, ba món đầu vẫn ở chỗ đã bày.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Vải áo, bước chân hoặc ghế đúng động tác, âm sân dịu. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Ba món đầu ở bàn đúng vị trí, khay đầu đã cất; sau lượt quay lại được lược, khay rau/dưa/cơm tới sát mép bàn.
+- **Hành động:** Sau chuyến quay lại bếp được lược, khay thứ hai đã tới sát bàn; cô hạ vững rồi đặt đĩa dưa cuối, cơm cạnh phía múc.
+- **Kết quả cuối:** Cả năm món và cơm đã bày sau phần đặt lặp được lược, khay ở ngoài vùng ăn; chỗ bà và cháu giữ nguyên.
+- **Liên tục và điểm cắt:** Các món còn lại đã đặt qua phần lặp lược trước nhịp cuối; giữ đủ đường đặt một vật đại diện. Sau đó nối S221.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B10; B12; P01; D22; D29; D30
 
-#### S323 — Đặt khay thứ hai vững
+#### S221 — Đón bà ngồi vào bàn
 
-**18:27–18:30 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**12:56.7–13:03.1 · 6.4 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Chỉ cô gái P01 trong cảnh dọn; bà chưa vào khung, vật nuôi ngoài vùng bàn.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Phần món/cơm còn lại tới bàn, ba món đầu vẫn ở chỗ đã bày.
-- **Hành động:** Cô hạ khay thứ hai vào vùng trống rồi đưa tay tới các đĩa.
-- **Kết quả cuối:** Khay thứ hai được đỡ chắc, không đặt đè lên ba món đầu.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B12; P01; D22; D29; D30
-
-#### S324 — Khép mâm cơm đủ năm món
-
-**18:30–18:34 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Chỉ cô gái P01 trong cảnh dọn; bà chưa vào khung, vật nuôi ngoài vùng bàn.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Khay thứ hai được đỡ chắc, không đặt đè lên ba món đầu.
-- **Hành động:** Sau các nhịp đặt được lược, cô đặt nốt đĩa dưa vào giữa khoảng món, dịch nồi cơm về bên thuận múc.
-- **Kết quả cuối:** Bàn đủ năm món và cơm, hai bát cá nhân còn trống.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B10; B12; P01; D22; D29; D30
-
-#### S325 — Bà bước ra bàn ăn
-
-**18:34–18:37 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Bàn đủ năm món và cơm, hai bát cá nhân còn trống.
-- **Hành động:** Bà đi từ phía nhà ra lối sân; cô quay nhìn, bước về phía ghế bà.
-- **Kết quả cuối:** Bà tới cạnh chỗ ngồi; không có lời mời bằng thoại.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Vải áo, bước chân hoặc ghế đúng động tác, âm sân dịu. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Bà đã tới gần ghế qua phần đường lược; cô đứng cạnh ghế, mâm năm món và cơm đã bày đủ.
+- **Hành động:** Bà đã tới gần ghế, cô kéo ghế rồi giữ khi bà hạ người ngồi, chỉ buông sau khi bà ổn.
+- **Kết quả cuối:** Bà ngồi vững, cô buông tay giữ ghế và đứng cạnh nồi cơm; hai vị trí không đổi.
+- **Liên tục và điểm cắt:** Cắt ở bà đã ngồi; không chia mỗi lần đổi tay giữ ghế thành một shot. Sau đó nối S222.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
 
-#### S326 — Kéo ghế và mời bằng cử chỉ
+#### S222 — Múc cơm cho bà
 
-**18:37–18:40 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**13:03.1–13:08.9 · 5.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Bà tới cạnh chỗ ngồi; không có lời mời bằng thoại.
-- **Hành động:** Cô kéo ghế một khoảng vừa đủ, mở tay về phía chỗ ngồi và mỉm cười nhẹ.
-- **Kết quả cuối:** Bà đứng trước ghế đã sẵn, cô vẫn giữ cạnh ghế.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Vải áo, bước chân hoặc ghế đúng động tác, âm sân dịu. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Bà đã ngồi ổn, nồi cơm đậy cạnh cô, bát bà sạch ở tầm tay, cô sẵn cầm muôi.
+- **Hành động:** Cô mở nồi, múc phần cơm vừa vào bát bà rồi đặt trong tầm với của bà.
+- **Kết quả cuối:** Bát bà có phần cơm vừa đã đặt vững trong tầm với; cô chưa múc phần mình.
+- **Liên tục và điểm cắt:** Khung thấy nồi, đường muôi và nơi nhận; ra khi bát vững trên bàn. Sau đó nối S223.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
 
-#### S327 — Giữ ghế cho bà ngồi
+#### S223 — Cô múc phần mình rồi ngồi
 
-**18:40–18:43 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**13:08.9–13:13.4 · 4.5 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Bà đứng trước ghế đã sẵn, cô vẫn giữ cạnh ghế.
-- **Hành động:** Tay bà chạm thành ghế, cô giữ ghế vững trong phần bà hạ người xuống.
-- **Kết quả cuối:** Bà đã được chỗ ngồi đỡ, cô chỉ buông sau khi ghế ổn định.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Vải áo, bước chân hoặc ghế đúng động tác, âm sân dịu. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
-
-#### S328 — Bà ngồi, cháu mở nồi cơm
-
-**18:43–18:47 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Bà đã được chỗ ngồi đỡ, cô chỉ buông sau khi ghế ổn định.
-- **Hành động:** Bà ngồi vào bàn; cô đứng cạnh, nhấc nắp nồi cơm và cầm muôi sạch.
-- **Kết quả cuối:** Bà đã ngồi yên, nồi cơm mở chuẩn bị múc; cô chưa ngồi.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Nắp/nồi, hơi nước ở mức nhìn thấy, lửa nền nhỏ. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
-
-#### S329 — Múc cơm cho bà
-
-**18:47–18:50 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Bà đã ngồi yên, nồi cơm mở chuẩn bị múc; cô chưa ngồi.
-- **Hành động:** Cô múc lượng cơm vừa vào bát bà, vun nhẹ bằng cạnh muôi.
-- **Kết quả cuối:** Bát bà có cơm, bát cô vẫn trống.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
-
-#### S330 — Đưa bát cơm tới tay bà
-
-**18:50–18:53 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Bát bà có cơm, bát cô vẫn trống.
-- **Hành động:** Cô đặt bát đã múc trong tầm với của bà, buông tay khi bát đứng vững.
-- **Kết quả cuối:** Bà nhận bát cơm trên bàn, không cần với qua món nóng.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
-
-#### S331 — Múc phần cháu rồi ngồi xuống
-
-**18:53–18:57 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Bà nhận bát cơm trên bàn, không cần với qua món nóng.
-- **Hành động:** Cô múc cơm vào bát mình, đặt muôi gọn, đậy nồi rồi ngồi cạnh vị trí đã chuẩn bị.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Bà nhận bát cơm trên bàn, không cần với qua món nóng.
+- **Hành động:** Cô múc bát mình, đặt muôi gọn, đậy nồi rồi ngồi xuống vị trí đã chuẩn bị.
 - **Kết quả cuối:** Hai người có cơm, nồi đậy giữ ấm; năm món còn nguyên hoặc gần nguyên trước bữa.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
+- **Liên tục và điểm cắt:** Ra ở hai người cùng bàn, bát/đũa giữ đúng chỗ. Sau đó nối S224.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
 
-#### S332 — Hai bà cháu bên mâm cơm
+## C16 — Hai bà cháu ăn tối, khép ngày
 
-**18:57–19:00 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Hai người có cơm, nồi đậy giữ ấm; năm món còn nguyên hoặc gần nguyên trước bữa.
-- **Hành động:** Bà nhìn cháu, cô đáp bằng nụ cười nhỏ rồi cầm muỗng món khoai để bắt đầu mời bà.
-- **Kết quả cuối:** Cả hai đã ngồi, chuẩn bị ăn, chưa chuyển sang cảnh bữa ăn đã vơi.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Vải áo, bước chân hoặc ghế đúng động tác, âm sân dịu. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
-
-## C16 — Hai bà cháu ăn tối và khép lại ngày làm vườn
-
-**18 shot · 60 giây · 19:00–20:00.**
-
-### Bảng đọc nhanh
-
-| Mã | Dòng thời gian | Giây | Cỡ cảnh | Diễn biến |
+| Mã | Bắt đầu–kết thúc | Giây | Cỡ cảnh | Hành động |
 |---|---|---:|---|---|
-| S333 | 19:00–19:04 | 4 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Cô múc một phần khoai nhỏ từ đĩa chung, đưa về phía bát bà, bà nhìn theo và mỉm cười. |
-| S334 | 19:04–19:07 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô hạ muỗng cho khoai nằm bên cơm, rút muỗng khi thức ăn đã ở bát. |
-| S335 | 19:07–19:10 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Bà lấy muỗng sạch của món Hồng tam đóa, múc phần nhỏ đưa về bát cháu. |
-| S336 | 19:10–19:14 | 4 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô đưa bát gần hơn, bà đặt phần thịt cà chua cạnh cơm rồi trả muỗng về món chung. |
-| S337 | 19:14–19:17 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Bà ăn miếng cơm với khoai, cô bắt đầu ăn phần trong bát mình; hai người làm tự nhiên, không đồng bộ như trình diễn. |
-| S338 | 19:17–19:20 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Bà nhai chậm vừa phải, đặt muỗng cạnh bát rồi nhìn cháu một thoáng với nét mặt thư thái. |
-| S339 | 19:20–19:24 | 4 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Cô gắp một miếng trứng với cà chua từ đĩa chung vào bát mình rồi nâng bát. |
-| S340 | 19:24–19:27 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô ăn miếng vừa lấy, hạ bát xuống, ngước nhìn bà cười nhẹ khi bà vẫn ăn. |
-| S341 | 19:27–19:30 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Góc nghiêng thấy bà đưa miếng dưa vừa gắp lên miệng và cắn một miếng nhỏ. |
-| S342 | 19:30–19:34 | 4 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Sau vài lượt ăn được lược bằng điểm cắt, cả hai tiếp tục chọn món; cơm và thức ăn ít hơn rõ so với đầu bữa. |
-| S343 | 19:34–19:37 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Cô gắp ít dền mềm từ đĩa chung, đưa vào bát bà rồi rút đũa khi rau đã nằm trong bát. |
-| S344 | 19:37–19:40 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Bà nhấc bát của mình ở rìa khung; vùng nét thấy các món đã vơi và muỗng chung đặt gọn. |
-| S345 | 19:40–19:43 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Bà ngước nhìn cháu, hai người mỉm cười nhẹ rồi trở về bát ăn. |
-| S346 | 19:43–19:47 | 4 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Ở góc lối sân khác, chó nằm cạnh bậc hiên, mèo ngồi ở mép bóng râm rồi quay nhìn phía bàn xa. |
-| S347 | 19:47–19:50 | 3 | Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. | Sau phần ăn tiếp được lược, cô đặt đũa cạnh bát cơm đã vơi, bà hạ bát ở mép hình. |
-| S348 | 19:50–19:53 | 3 | Trung, chếch bên cùng phía trục thao tác, máy cố định. | Bà chạm nhẹ tay lên cẳng tay cháu, cô đặt tay đáp lại một nhịp rồi để tay trở về cạnh bát. |
-| S349 | 19:53–19:57 | 4 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Qua điểm cắt đã lược thêm thời gian, ánh trời dịu dần, nguồn sáng hiên có sẵn ấm lên; hai người vẫn ngồi cạnh mâm đã dùng. |
-| S350 | 19:57–20:00 | 3 | Toàn, ngang mắt hoặc góc cao có thật, máy cố định. | Từ góc toàn xa cố định có thật, bàn hai bà cháu nằm trong ánh hiên ấm; lá ngoài sân chuyển nhẹ, tiếng bát xa lắng xuống. |
+| S224 | 13:13.4–13:19.0 | 5.6 | Trung | Cô thoáng cười với bà, múc khoai từ đĩa chung sang bát bà rồi rút muỗng khi thức ăn đã nằm cạnh cơm. |
+| S225 | 13:19.0–13:23.9 | 4.9 | Trung | Bà múc ít Hồng tam đóa; cô đưa bát gần hơn, bà đặt phần ăn vào rồi trả muỗng về món chung. |
+| S226 | 13:23.9–13:31.1 | 7.2 | Toàn | Bà ăn cơm với khoai, cô ăn phần được bà mời; nhịp hai người lệch tự nhiên, bà nhìn cháu trong lúc hạ muỗng. |
+| S227 | 13:31.1–13:35.8 | 4.7 | Trung | Cô gắp trứng và cà vào bát, ăn rồi hạ bát, nhìn bà thoáng cười khi bà vẫn tiếp tục ăn. |
+| S228 | 13:35.8–13:38.6 | 2.8 | Cận | Góc nghiêng thấy bà đưa miếng dưa lên và cắn một miếng nhỏ. |
+| S229 | 13:38.6–13:46.4 | 7.8 | Toàn | Sau vài lượt ăn được lược, hai người ăn tiếp quanh mâm đã vơi; cô gắp ít dền mềm sang bát bà rồi trở về phần mình. |
+| S230 | 13:46.4–13:49.0 | 2.6 | Cận | Bà nâng bát ở mép khung, vùng nét thấy năm món đã dùng và muỗng chung đặt gọn. |
+| S231 | 13:49.0–13:55.2 | 6.2 | Trung | Sau đoạn ăn cuối được lược, cô hạ đũa; bà chạm nhẹ cẳng tay cháu, cô đáp bằng tay rồi hai người mỉm cười. |
+| S232 | 13:55.2–13:58.2 | 3.0 | Toàn | Ở góc lối sân riêng sau cử chỉ, chó nằm cạnh bậc hiên, mèo ngồi trong râm rồi quay về phía bàn xa. |
+| S233 | 13:58.2–14:02.0 | 3.8 | Toàn | Sau khoảng thời gian cuối bữa được lược, trời chuyển chạng vạng, hai người vẫn bên mâm đã dùng, ánh hiên ấm nhẹ. |
+| S234 | 14:02.0–14:05.1 | 3.1 | Toàn | Từ điểm nhìn xa cố định có thật, thấy ngôi nhà và bàn hai bà cháu trong ánh hiên; lá ngoài sân chuyển nhẹ. |
 
 ### Mô tả chi tiết
 
-#### S333 — Mời bà phần khoai mềm
+#### S224 — Mời bà phần khoai
 
-**19:00–19:04 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**13:13.4–13:19.0 · 5.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Mốc 19:00: bà và cháu ngồi ở bàn sân, hai bát có cơm, năm món đã dọn. Không hội thoại, chỉ cử chỉ, tiếng bát đũa và môi trường.
-- **Hành động:** Cô múc một phần khoai nhỏ từ đĩa chung, đưa về phía bát bà, bà nhìn theo và mỉm cười.
-- **Kết quả cuối:** Muỗng khoai đang tới bát bà, chưa múc lại lần thứ hai.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
-
-#### S334 — Khoai được đặt vào bát bà
-
-**19:04–19:07 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Muỗng khoai đang tới bát bà, chưa múc lại lần thứ hai.
-- **Hành động:** Cô hạ muỗng cho khoai nằm bên cơm, rút muỗng khi thức ăn đã ở bát.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Hai người có cơm, nồi đậy giữ ấm; năm món còn nguyên hoặc gần nguyên trước bữa.
+- **Hành động:** Cô thoáng cười với bà, múc khoai từ đĩa chung sang bát bà rồi rút muỗng khi thức ăn đã nằm cạnh cơm.
 - **Kết quả cuối:** Bát bà có phần khoai mềm, đĩa chung vơi đúng lượng.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
+- **Liên tục và điểm cắt:** Giữ một lượt mời trọn vẹn và người nhận trong cùng khung, không lặp cận phần đặt. Sau đó nối S225.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
 
-#### S335 — Bà múc lại món cho cháu
+#### S225 — Bà đáp phần ăn cho cháu
 
-**19:07–19:10 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**13:19.0–13:23.9 · 4.9 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Bát bà có phần khoai mềm, đĩa chung vơi đúng lượng.
-- **Hành động:** Bà lấy muỗng sạch của món Hồng tam đóa, múc phần nhỏ đưa về bát cháu.
-- **Kết quả cuối:** Muỗng của bà đang mang món về bát cô, cô giữ bát ở vị trí dễ nhận.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
-
-#### S336 — Cháu nhận phần bà mời
-
-**19:10–19:14 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Muỗng của bà đang mang món về bát cô, cô giữ bát ở vị trí dễ nhận.
-- **Hành động:** Cô đưa bát gần hơn, bà đặt phần thịt cà chua cạnh cơm rồi trả muỗng về món chung.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Bát bà có phần khoai mềm, đĩa chung vơi đúng lượng.
+- **Hành động:** Bà múc ít Hồng tam đóa; cô đưa bát gần hơn, bà đặt phần ăn vào rồi trả muỗng về món chung.
 - **Kết quả cuối:** Bát cô có phần Hồng tam đóa; không tự đầy các món khác.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
+- **Liên tục và điểm cắt:** Ra khi phần ăn được bát nhận; giữ hai vị trí người, không đổi trục. Sau đó nối S226.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
 
-#### S337 — Bắt đầu dùng bữa
+#### S226 — Hai bà cháu bắt đầu ăn
 
-**19:14–19:17 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**13:23.9–13:31.1 · 7.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Bát cô có phần Hồng tam đóa; không tự đầy các món khác.
-- **Hành động:** Bà ăn miếng cơm với khoai, cô bắt đầu ăn phần trong bát mình; hai người làm tự nhiên, không đồng bộ như trình diễn.
-- **Kết quả cuối:** Bữa đã bắt đầu, các bát và món chung bắt đầu vơi.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát đũa nhẹ, âm nhai/cắn tự nhiên vừa đủ khi thấy hành động; không thoại. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
-
-#### S338 — Bà thưởng thức miếng đầu
-
-**19:17–19:20 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Bữa đã bắt đầu, các bát và món chung bắt đầu vơi.
-- **Hành động:** Bà nhai chậm vừa phải, đặt muỗng cạnh bát rồi nhìn cháu một thoáng với nét mặt thư thái.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Bát cô có phần Hồng tam đóa; không tự đầy các món khác.
+- **Hành động:** Bà ăn cơm với khoai, cô ăn phần được bà mời; nhịp hai người lệch tự nhiên, bà nhìn cháu trong lúc hạ muỗng.
 - **Kết quả cuối:** Bà vẫn đang dùng bữa, không diễn nuốt khó hoặc quá trình bệnh lý.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát đũa nhẹ, âm nhai/cắn tự nhiên vừa đủ khi thấy hành động; không thoại. Không nhạc, không lời thoại, không lời bình.
+- **Liên tục và điểm cắt:** Giữ vì hai tuyến người vẫn có hành động mới; không kéo bằng hai người ngồi yên. Sau đó nối S227.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
 
-#### S339 — Cháu lấy trứng cà chua
+#### S227 — Cô thưởng thức trứng cà chua
 
-**19:20–19:24 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**13:31.1–13:35.8 · 4.7 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Bà vẫn đang dùng bữa, không diễn nuốt khó hoặc quá trình bệnh lý.
-- **Hành động:** Cô gắp một miếng trứng với cà chua từ đĩa chung vào bát mình rồi nâng bát.
-- **Kết quả cuối:** Phần trứng đã sang bát cô, đĩa trứng vơi một ít.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
-
-#### S340 — Cô ăn rồi nhìn bà
-
-**19:24–19:27 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Phần trứng đã sang bát cô, đĩa trứng vơi một ít.
-- **Hành động:** Cô ăn miếng vừa lấy, hạ bát xuống, ngước nhìn bà cười nhẹ khi bà vẫn ăn.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Bà vẫn đang dùng bữa, không diễn nuốt khó hoặc quá trình bệnh lý.
+- **Hành động:** Cô gắp trứng và cà vào bát, ăn rồi hạ bát, nhìn bà thoáng cười khi bà vẫn tiếp tục ăn.
 - **Kết quả cuối:** Hai người tiếp tục bữa, không có lời nói hoặc cử động môi giả thoại.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát đũa nhẹ, âm nhai/cắn tự nhiên vừa đủ khi thấy hành động; không thoại. Không nhạc, không lời thoại, không lời bình.
+- **Liên tục và điểm cắt:** Một nhịp ăn và quan tâm, không bắt phản ứng mặt riêng cho từng miếng. Sau đó nối S228.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
 
-#### S341 — Bà thử miếng dưa giòn
+#### S228 — Bà ăn miếng dưa
 
-**19:27–19:30 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**13:35.8–13:38.6 · 2.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Hai người tiếp tục bữa, không có lời nói hoặc cử động môi giả thoại.
-- **Hành động:** Góc nghiêng thấy bà đưa miếng dưa vừa gắp lên miệng và cắn một miếng nhỏ.
+- **Góc máy và bố cục:** Cận; Ngang tầm chi tiết chủ thể; giữ hình dạng, tiếp xúc tay và vật làm mốc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Hai người tiếp tục bữa, không có lời nói hoặc cử động môi giả thoại.
+- **Hành động:** Góc nghiêng thấy bà đưa miếng dưa lên và cắn một miếng nhỏ.
 - **Kết quả cuối:** Miếng dưa đã được ăn một phần, tiếng giòn chỉ xuất hiện khi cắn thấy được.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát đũa nhẹ, âm nhai/cắn tự nhiên vừa đủ khi thấy hành động; không thoại. Không nhạc, không lời thoại, không lời bình.
+- **Liên tục và điểm cắt:** Ra khi lượt ăn đã đọc, không phóng đại tiếng nhai. Sau đó nối S229.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
 
-#### S342 — Bữa cơm tiếp diễn
+#### S229 — Bữa ăn tiếp diễn, cô gắp rau cho bà
 
-**19:30–19:34 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**13:38.6–13:46.4 · 7.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Miếng dưa đã được ăn một phần, tiếng giòn chỉ xuất hiện khi cắn thấy được.
-- **Hành động:** Sau vài lượt ăn được lược bằng điểm cắt, cả hai tiếp tục chọn món; cơm và thức ăn ít hơn rõ so với đầu bữa.
-- **Kết quả cuối:** Các đĩa đã vơi hợp lý, không tự đầy trở lại qua góc mới.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát đũa nhẹ, âm nhai/cắn tự nhiên vừa đủ khi thấy hành động; không thoại. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
-
-#### S343 — Gắp rau cho bà
-
-**19:34–19:37 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Các đĩa đã vơi hợp lý, không tự đầy trở lại qua góc mới.
-- **Hành động:** Cô gắp ít dền mềm từ đĩa chung, đưa vào bát bà rồi rút đũa khi rau đã nằm trong bát.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Miếng dưa đã được ăn một phần, tiếng giòn chỉ xuất hiện khi cắn thấy được.
+- **Hành động:** Sau vài lượt ăn được lược, hai người ăn tiếp quanh mâm đã vơi; cô gắp ít dền mềm sang bát bà rồi trở về phần mình.
 - **Kết quả cuối:** Bà có phần rau mới, cô không liên tục ép bà ăn hoặc dừng việc ăn quá lâu.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
+- **Liên tục và điểm cắt:** Giữ lượng thức ăn vơi và người nhận trong một khung, không cần cận để diễn lại lượt gắp. Sau đó nối S230.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
 
-#### S344 — Dấu bữa ăn trên mâm
+#### S230 — Mâm cơm đã vơi
 
-**19:37–19:40 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**13:46.4–13:49.0 · 2.6 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Bà có phần rau mới, cô không liên tục ép bà ăn hoặc dừng việc ăn quá lâu.
-- **Hành động:** Bà nhấc bát của mình ở rìa khung; vùng nét thấy các món đã vơi và muỗng chung đặt gọn.
+- **Góc máy và bố cục:** Cận; Chếch từ trên khoảng 30–45°, đủ thấy mặt thao tác và điểm nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Bà có phần rau mới, cô không liên tục ép bà ăn hoặc dừng việc ăn quá lâu.
+- **Hành động:** Bà nâng bát ở mép khung, vùng nét thấy năm món đã dùng và muỗng chung đặt gọn.
 - **Kết quả cuối:** Mâm cơm có tiến triển thật, vẫn giữ năm món đúng màu/kết cấu, không mọc thêm món canh.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
+- **Liên tục và điểm cắt:** Ra khi tiến độ bữa ăn rõ, không làm đĩa tự đầy trở lại. Sau đó nối S231.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
 
-#### S345 — Ánh mắt giữa hai người
+#### S231 — Khép bữa bằng cử chỉ gần gũi
 
-**19:40–19:43 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**13:49.0–13:55.2 · 6.2 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Mâm cơm có tiến triển thật, vẫn giữ năm món đúng màu/kết cấu, không mọc thêm món canh.
-- **Hành động:** Bà ngước nhìn cháu, hai người mỉm cười nhẹ rồi trở về bát ăn.
-- **Kết quả cuối:** Tình cảm ngắn tự nhiên giữa bữa, không trò chuyện bằng giọng hoặc môi.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Vải áo, bước chân hoặc ghế đúng động tác, âm sân dịu. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Trung; Chếch bên, cùng phía trục; thấy tư thế, tay, vật mang và nơi nhận. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Sau những lượt ăn cuối được lược, thức ăn/cơm đã vơi; hai bà cháu vẫn cùng vị trí, cô chuẩn bị hạ đũa.
+- **Hành động:** Sau đoạn ăn cuối được lược, cô hạ đũa; bà chạm nhẹ cẳng tay cháu, cô đáp bằng tay rồi hai người mỉm cười.
+- **Kết quả cuối:** Bữa ăn khép bằng cử chỉ chạm và đáp tay, cả hai thư thái bên mâm đã dùng; vật nuôi ngoài bàn.
+- **Liên tục và điểm cắt:** Khung giữ mâm đã vơi; cử chỉ có chạm–đáp–rút, không thêm chuỗi phản ứng trang trí. Sau đó nối S232.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
 
-#### S346 — Vật nuôi nghỉ ngoài vùng bàn ăn
+#### S232 — Vật nuôi nghỉ ngoài bàn ăn
 
-**19:43–19:47 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**13:55.2–13:58.2 · 3.0 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Lối sân ngoài vùng bàn ăn Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Chó P04 và mèo P03 ở lối sân; bà và cô ngoài khung. Không có vật nuôi trên bàn/ghế hoặc chạm thực phẩm.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Tình cảm ngắn tự nhiên giữa bữa, không trò chuyện bằng giọng hoặc môi.
-- **Hành động:** Ở góc lối sân khác, chó nằm cạnh bậc hiên, mèo ngồi ở mép bóng râm rồi quay nhìn phía bàn xa.
-- **Kết quả cuối:** Chó/mèo ở ngoài bàn, không chạm thức ăn hoặc nhảy lên ghế.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Lá và gió nhẹ, chim chiều hoặc côn trùng thưa khi trời tối. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Lối sân ngoài vùng bàn ăn  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Mèo P03; Chó P04.
+- **Trạng thái đầu:** Sau cử chỉ hai người, mâm ở bàn xa vẫn đã vơi; chó/mèo ở góc lối riêng, không có thực phẩm dưới chân chúng.
+- **Hành động:** Ở góc lối sân riêng sau cử chỉ, chó nằm cạnh bậc hiên, mèo ngồi trong râm rồi quay về phía bàn xa.
+- **Kết quả cuối:** Chó nằm và mèo ngồi ngoài vùng ăn; hai người vẫn bên mâm đã dùng, không quay ngược về đầu bữa.
+- **Liên tục và điểm cắt:** Cảnh sống trong cùng không gian, không cho vật nuôi lên bàn; không quay lại bữa còn đầy. Sau đó nối S233.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B12; P03; P04
 
-#### S347 — Đặt đũa sau lượt ăn cuối
+#### S233 — Hai bà cháu trong ánh hiên
 
-**19:47–19:50 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**13:58.2–14:02.0 · 3.8 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Cận/đặc tả, hơi cao cho tay và vật hoặc ngang tầm chủ thể, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Chó/mèo ở ngoài bàn, không chạm thức ăn hoặc nhảy lên ghế.
-- **Hành động:** Sau phần ăn tiếp được lược, cô đặt đũa cạnh bát cơm đã vơi, bà hạ bát ở mép hình.
-- **Kết quả cuối:** Hai người gần kết bữa; đĩa chung còn lượng dư hợp lý, không cần ăn sạch mọi thứ.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Bát, muỗng, đũa và mặt gỗ chạm nhẹ đúng hình. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
-
-#### S348 — Cử chỉ cảm ơn không lời
-
-**19:50–19:53 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Trung, chếch bên cùng phía trục thao tác, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Hai người gần kết bữa; đĩa chung còn lượng dư hợp lý, không cần ăn sạch mọi thứ.
-- **Hành động:** Bà chạm nhẹ tay lên cẳng tay cháu, cô đặt tay đáp lại một nhịp rồi để tay trở về cạnh bát.
-- **Kết quả cuối:** Bữa ăn khép bằng sự gần gũi, không thêm cảnh sinh hoạt hoặc lời thoại.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Vải áo, bước chân hoặc ghế đúng động tác, âm sân dịu. Không nhạc, không lời thoại, không lời bình.
-- **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
-
-#### S349 — Sân nhà vào chạng vạng
-
-**19:53–19:57 · 4 giây · Máy cố định · Tự nhiên · Đã duyệt**
-
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Bữa ăn khép bằng sự gần gũi, không thêm cảnh sinh hoạt hoặc lời thoại.
-- **Hành động:** Qua điểm cắt đã lược thêm thời gian, ánh trời dịu dần, nguồn sáng hiên có sẵn ấm lên; hai người vẫn ngồi cạnh mâm đã dùng.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Bữa ăn khép bằng sự gần gũi, không thêm cảnh sinh hoạt hoặc lời thoại.
+- **Hành động:** Sau khoảng thời gian cuối bữa được lược, trời chuyển chạng vạng, hai người vẫn bên mâm đã dùng, ánh hiên ấm nhẹ.
 - **Kết quả cuối:** Thời điểm sang chạng vạng, vị trí bàn, người và thức ăn còn lại nhất quán.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Lá và gió nhẹ, chim chiều hoặc côn trùng thưa khi trời tối. Không nhạc, không lời thoại, không lời bình.
+- **Liên tục và điểm cắt:** Ra khi quan hệ người–mâm–sân đọc được; không timelapse thao tác người. Sau đó nối S234.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
 
-#### S350 — Ngôi nhà yên trong buổi tối
+#### S234 — Ngôi nhà ôm lấy bữa tối
 
-**19:57–20:00 · 3 giây · Máy cố định · Tự nhiên · Đã duyệt**
+**14:02.0–14:05.1 · 3.1 giây · Tự nhiên · Chờ duyệt**
 
-- **Góc máy và bố cục:** Toàn, ngang mắt hoặc góc cao có thật, máy cố định. Giữ trục hai người và vị trí năm món/bát riêng; đổi cỡ để tiếp diễn, không quay lại lượt mời/ăn trước.
-- **Địa điểm, thời gian và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian. Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
-- **Nhân vật và dụng cụ:** Cô gái P01 và bà P02 theo cảnh; chó P04/mèo P03 chỉ ở cảnh riêng S346.
-- **Trạng thái đầu:** Kế thừa trạng thái đã đạt: Thời điểm sang chạng vạng, vị trí bàn, người và thức ăn còn lại nhất quán.
-- **Hành động:** Từ góc toàn xa cố định có thật, bàn hai bà cháu nằm trong ánh hiên ấm; lá ngoài sân chuyển nhẹ, tiếng bát xa lắng xuống.
-- **Kết quả cuối:** Kết phim ở 20:00: lao động trong vườn đã trở thành bữa cơm và sự chăm sóc dành cho bà. Không logo, chữ kết hoặc nhạc.
-- **Nối cảnh:** Cắt thẳng để tiếp diễn phần động tác còn lại hoặc lược lượt lặp/chờ đã ghi. Không quay lại đầu động tác cũ. Khoảng đun, chín và ăn dài hơn thời lượng dựng, không tua nhanh người.
-- **Âm thanh:** Lá và gió nhẹ, chim chiều hoặc côn trùng thưa khi trời tối. Không nhạc, không lời thoại, không lời bình.
+- **Góc máy và bố cục:** Toàn; Ngang tầm mắt hoặc điểm nhìn cố định có thật; đọc quan hệ không gian và tiến độ công việc. Máy cố định, không pan/tilt/zoom, không gimbal/slider. Một khung liên tục; không diễn lại động tác khi đổi góc.
+- **Địa điểm, ngày và ánh sáng:** Bàn ăn ngoài sân B12 và lối bếp–sân  Chiều cùng ngày thu hoạch khoảng ngày 105, tiến đến bữa tối và chạng vạng; không quay ngược thời gian.  Ánh chiều ngoài sân; cuối bữa sang chạng vạng qua điểm cắt, ánh hiên có sẵn ấm nhẹ.
+- **Nhân vật và dụng cụ:** Cô gái P01; Bà P02. Dụng cụ: D22 Nồi cơm có nắp, D29 Đĩa thành phẩm, nắp nhẹ và khay mang, D30 Hai bộ bát đũa bàn ăn.
+- **Trạng thái đầu:** Thời điểm sang chạng vạng, vị trí bàn, người và thức ăn còn lại nhất quán.
+- **Hành động:** Từ điểm nhìn xa cố định có thật, thấy ngôi nhà và bàn hai bà cháu trong ánh hiên; lá ngoài sân chuyển nhẹ.
+- **Kết quả cuối:** Kết phim: ngôi nhà bao bọc bữa tối đã dùng của bà và cháu, ánh hiên ấm nhẹ; không chữ, logo hoặc nhạc.
+- **Liên tục và điểm cắt:** Mở thêm quan hệ nhà–sân so với cảnh trước; kết khi hình đã đủ, không kéo theo nhạc. Kết phim.
+- **Âm thanh:** Bát đũa và muỗng chạm nhẹ đúng hình, gió/lá ngoài sân; không phóng đại tiếng nhai. Không nhạc, không thoại, không lời bình.
 - **Tham chiếu:** B12; B10; P01; P02; D22; D29; D30
-
-## Tài nguyên và liên tục
-
-| Mã | Tài nguyên / điểm bàn giao | Trạng thái | Yêu cầu liên tục |
-|---|---|---|---|
-| B01 | Toàn thể khu nhà và vườn trước nhà | Giữ tường bao, các công trình liền kề và luống có sẵn; không thêm suối/cầu. | Cần gắn ảnh tổng thể hiện hành khi sản xuất. |
-| B02 | Hiên, lối ra vườn và nơi để dụng cụ | Dùng vị trí có thật trong bộ bối cảnh. Hướng đi trên màn ảnh từ hiên đến vườn giữ nhất quán. | Chưa khóa tên ảnh/góc máy cụ thể. |
-| B03 | Luống khoai tây đầu tiên và lối đi cạnh luống | Đúng luống S006–S013; C02 làm tơi tiếp phần còn lại, mở một hàng trồng dọc luống, đặt củ rồi phủ đất. Các luống khác chưa trồng. | Giữ hình học luống; chỉ mặt đất thay đổi theo công việc. |
-| P01 | Cô gái | Ngoại hình và trang phục từ ảnh người dùng gắn khi sản xuất. | Ngoại hình/trang phục giữ xuyên C01–C02, cùng một buổi sáng. |
-| D01 | Giỏ tre và khay gỗ nông | S014–S018 giỏ và khay ở đầu luống; xẻng trong khay. S019 khay nhận củ từ rổ giống; S022 khay theo cô dọc hàng; S028 khay rỗng trở lại cạnh giỏ. | Không đổi kích thước hoặc biến khay thành rổ. Củ vừa đủ cho một hàng tự cung tự cấp. |
-| D02 | Cuốc cán gỗ | Một cây cuốc duy nhất. Cán và lưỡi không đổi hình; vị trí phải được ghi qua điểm cắt. | Dùng cả hai tay khi cuốc, không đồng thời xách giỏ. |
-| D03 | Xẻng nhỏ | Nằm trong giỏ ở cảnh đầu; S008 đặt vào khay, chưa dùng ở C01. | Không tự xuất hiện trên luống. |
-| B04 | Vòi nước hiện có | Gắn với một vòi thật trong bộ bối cảnh, không tự thêm hệ thống nước. | Chưa khóa tên ảnh; không suy đoán vị trí vòi từ ảnh bếp. |
-| D04 | Rổ tre nhỏ đựng củ giống | S018 mang từ góc hiên đã để sẵn; củ nhỏ, nguyên, có mầm ngắn chắc; không phải hạt khoai. | Rổ đặt cạnh giỏ sau khi chuyển củ sang khay; không biến thành giỏ D01. |
-| D05 | Xô gỗ và gáo gỗ tưới vườn | Có sẵn cùng nhau cạnh vòi ở S029. Gáo nằm trong xô; khi xách, gáo vẫn ở xô. | Dụng cụ tưới ngoài vườn, khác xô cao lấy nước rửa trong bếp. |
-| S013 | C01 đã duyệt | Đầu luống đã tơi; cô đứng cầm cuốc. | C02 nối vào đúng phần đất còn thô. |
-| S033 | Bàn giao C02 | Một hàng khoai đặt củ và phủ đất xong. Đầu hàng đã tưới; chưa khẳng định tưới xong cả hàng. | Cô, xô và gáo cạnh đầu luống; giỏ, rổ, khay, xẻng và cuốc ở lối đầu luống. Chưa có cây mọc. |
-| S051 | Bàn giao C03 | Hàng khoai đã tưới xong. Một khay cà chua vừa gieo, phủ mỏng, đủ ẩm đặt ở góc ươm ấm, kín gió dưới hiên. | Xô/gáo cạnh bàn; giỏ/khay khoai, rổ, cuốc, xẻng vẫn đầu luống. Chưa có cây mọc. |
-| B05 | Góc gieo ươm và vị trí đặt khay dưới hiên | Dùng góc hiên hiện có, ấm và kín gió. Khóa bàn và vị trí kê khay qua S036–S051. | Chưa gắn ảnh; không tạo thêm công trình hoặc nhà kính. |
-| D06 | Khay ươm cà chua riêng | Một khay gỗ sạch có lỗ thoát đáy và lưới giữ giá thể. Khác khay khoai D01; mặt kê có hai thanh thấp. | Cuối S051: đã gieo, phủ mỏng, giá thể đủ ẩm; không có cây con. |
-| D07 | Bộ gieo hạt | Thau giá thể ươm tơi sạch, bát nhỏ lớp phủ mịn, đĩa con khô, gói giấy hạt và que tre. | Gói hạt đã khép tại S048; các đồ nhỏ ở bàn. Không có chữ, logo. |
-| Phạm vi | 350 shot · bản sửa 1.2 | Người dùng duyệt cách sửa gộp nhịp việc/đan xen nấu. | Mã cảnh theo bản 1.2; prompt và storyboard hình chưa triển khai. |
-| P02 | Bà | Dùng đúng bộ tham chiếu bà khi sản xuất; bà tự đi ra hiên, ngồi cạnh cháu S063–S068. | Không lời thoại; quan tâm qua đỡ ghế, chạm tay, ánh mắt. Không mặc định bà có bệnh. |
-| P03 | Mèo | Dùng đúng bộ tham chiếu mèo; chỉ đi trên lối ngoài luống S077. | Không chạm cây, thực phẩm hoặc chen vào tay cô. |
-| D08 | Ghế gỗ thấp cạnh góc ươm | Có sẵn bên hiên trước khi bà tới; giữ cùng ghế qua S063–S068. | Đặt ngoài khay/cây; cô giữ ghế cho bà ngồi, không thay vị trí khay. |
-| S079 | Bàn giao C04 | Khoảng ngày 21: cà chua có lá thật đầu, chưa cấy. Khoai cây non, chưa vun cao hoặc có củ thu hoạch. Các luống khác chưa gieo. | Khay vẫn trên thanh kê dưới hiên; xô/gáo cạnh bàn; gói hạt và đồ gieo ở bàn. Bà chỉ thấy ở ngày 9; mèo trên lối ở ngày 17, không mặc định còn ở đó ngày 21. |
-| D09 | Sáu chậu đất nung ươm cà chua | Sáu chậu nhỏ sạch cùng kiểu, có lỗ thoát đáy; mỗi chậu một cây. Khóa số lượng từ S089 trở đi. | S103 vẫn sáu cây trong chậu, chưa trồng ra luống. |
-| D10 | Khay gỗ mang chậu | Một khay gỗ chắc, đủ sáu chậu nhỏ, đáy có khe thoát nước. Khác D01 khay khoai và D06 khay gieo. | Mang ngang bằng hai tay; không chồng chậu hoặc để nước đọng. |
-| D11 | Thìa gỗ nhỏ sang cây | Dụng cụ sạch, dùng chuyển giá thể và đỡ bầu rễ, không dùng để nấu. | Không kéo bằng thân; cây được nâng cùng bầu, tay chỉ giữ nhẹ lá nếu cần. |
-| S103 | Bàn giao C05 | Khoảng ngày 44: sáu cây cà chua trong sáu chậu, có vài lá thật, đã quen nắng dần. Khay gieo còn cây dự phòng, không tự biến mất. | Sáu chậu trên khay mang ở hiên; xô/gáo cạnh bàn, thìa ở bàn. Chưa trồng ra luống. Khoai cũng đã tới cùng ngày, cần thể hiện đúng tuổi ở lần xuất hiện sau. |
-| B06 | Luống dành cho sáu cây cà chua | Chọn luống trống có thật trong vườn hiện hành, đủ sáu vị trí và khoảng cách cho tán sau này. Khác hàng khoai B03. | S104 còn trống; S117 đủ sáu cây; S126 đã cọc, buộc mềm và tưới. Không tự tăng diện tích vườn. |
-| D12 | Sáu cọc tre và dây vải mềm | Sáu cọc chắc cùng kiểu, dựng cạnh hố trước khi đặt cây. Sáu dây mềm buộc số tám lỏng, thắt phía cọc. | Cà chua được chọn theo kiểu thân cao cần cọc; chưa khóa tên giống. Không thêm giàn ngang hoặc dây kim loại. |
-| D13 | Vồ gỗ đóng cọc | Vồ gỗ nhỏ vừa sức; cô giữ cọc và gõ các nhịp tiêu biểu, phần lặp lược qua điểm cắt. | Đóng cọc trước khi cây vào hố, không đánh sát thân cây đã trồng. |
-| S126 | Bàn giao C06 | Sáu cây cà chua đã ra luống, mỗi cây một cọc và dây đỡ mềm lỏng, đất quanh bầu đã tưới. Chưa có hoa/quả. | Cô đang nhấc khay sáu chậu rỗng; cuốc, xẻng, vồ, xô/gáo trên lối. Khay cây dự phòng ở hiên. Khoai đã lớn đúng ngày 44; hai rau còn lại chưa gieo. |
-| B07 | Luống dưa chuột | Luống trống có thật trong bộ vườn, khác khoai và cà chua; bốn vị trí gieo dưới giàn. | S133 còn trống; S142 gieo xong; S147 bốn dây đang lên thanh thấp, chưa có quả. |
-| D14 | Giàn tre chữ A cho dưa | Ba cặp tre, thanh dọc đỉnh và thanh leo thưa; chân khung ngoài vị trí gieo, vừa quy mô gia đình. | Giữ số cặp, hình học và mối buộc khi cây lớn; không biến thành giàn kim loại hoặc giàn cà chua. |
-| D15 | Gói hạt dưa và dây mềm bổ sung | Gói giấy không chữ/logo, hạt dưa thon dẹt màu sáng; mang trong giỏ D01. Dây mềm mới dùng cho cà chua lớn thêm. | Bốn vị trí, mỗi vị trí một hạt; phần hạt dư cất lại giỏ, không cần kể nguồn gốc. |
-| P04 | Chó | Dùng đúng bộ tham chiếu chó khi sản xuất; S152 đi vào từ lối và nằm ở bóng mát. | Không chạy vào luống, chạm cây hoặc thực phẩm; không thêm người. |
-| S152 | Bàn giao C07 | Khoảng ngày 70: khoai đã vun; sáu cà chua cao hơn, có hoa, dây đỡ bổ sung; bốn dưa chuột dạng leo non trên giàn chữ A, chưa có quả thu hoạch. | Cô đang kiểm dây đỡ cây cà chua kế; chó nằm bóng mát ngoài luống. Dụng cụ gieo và hạt dư đã được thu gọn ngoài phần dựng. Rau dền chưa gieo. |
-| B08 | Luống rau dền ăn lá | Chọn luống có thật còn trống, riêng với khoai/cà chua/dưa. Mặt đất mịn, gieo thưa rồi tỉa khoảng chen sát. | Dền ăn lá xanh có mảng đỏ tím, giữ màu và kiểu lá từ cây lớn tới thu hoạch/nấu; chưa trổ bông. |
-| D16 | Cào cán gỗ | Một cào thủ công cùng kiểu qua S156–S157, dùng san lớp mặt, đặt lại ở lối khi gieo. | Không biến thành cuốc hoặc máy xới. |
-| D17 | Bộ gieo rau dền | Gói giấy hạt nâu đen li ti; bát gỗ ít cát sạch mịn để trộn rải đều; rổ đất mịn phủ mỏng. | Không phải phân bón hoặc thuốc, không truy nguồn. Gieo khoảng ngày 75, đến sáng ngày 105 đủ non để thu. |
-| S182 | Bàn giao C08 | Sáng khoảng ngày 105: cà chua đỏ xen quả xanh; dưa đủ cỡ ăn, vỏ còn xanh; dền lá non xanh/đỏ tím chưa bông; khoai phần lớn lá già vàng khô tự nhiên, củ còn dưới đất. | Cô cầm giỏ tre sạch còn trống ở lối vườn, chưa hái/đào bất kỳ loại nào. Sáu cà chua/cọc, bốn dưa và giàn chữ A giữ đúng vị trí. |
-| B09 | Chỗ chia phần và kho hiện có | Dùng mặt kê có sẵn trong bóng râm gần kho; khoai và cà chua đặt riêng theo loại. | Khoai để thoáng tránh sáng, cà chua để riêng thoáng mát dùng ngắn ngày; không có cảnh bảo quản cầu kỳ. |
-| B10 | Bàn bếp phụ theo thiết kế | Bàn gỗ, chậu gỗ rửa trên bàn và xô cao gần cửa đúng ảnh bếp người dùng; không thêm vòi ở bàn. | S206 mới đặt thực phẩm nguyên lên bàn, chưa rửa/gọt/cắt hoặc nhóm lửa. |
-| D18 | Ba rổ thu riêng | Ba rổ tre sạch riêng cho cà chua, dưa và rau; xác lập cạnh vùng đặt đồ S183. Giỏ D01 dành khoai. | Không đổi rổ khoai đầy thành rổ quả trống qua điểm cắt; rau luôn tránh bị củ/quả đè. |
-| D19 | Kéo nhỏ thu cuống dưa | Kéo thủ công sạch, có ở vùng đặt đồ S183; dùng cắt cuống dưa, tay kia đỡ quả. | Không kéo đứt cả dây dưa; cất kéo sau lượt thu. |
-| D20 | Giỏ mang bếp và bốn rổ con | Một giỏ sạch đỡ bốn rổ nhỏ ngăn riêng bốn loại phần nấu, xác lập khi chia phần S202. | S206 ở bàn bếp; rổ cà chua đã nhấc ra sát chậu rửa, các loại khác vẫn trong rổ riêng. |
-| S206 | Bàn giao C09 / đầu phần bếp | Phần nấu đủ bốn loại, chưa rửa/gọt/cắt: khoai vỏ còn đất khô, cà chua nguyên, dưa nguyên, dền còn rễ. Khoai/cà để dành ở hai khu riêng. | Giỏ D20 đã trên bàn bếp phụ, rổ cà chua nhấc ra sát chậu gỗ. Rổ ba loại còn lại nằm riêng trong giỏ. Xô cao gần cửa; chưa múc nước hoặc nhóm lửa. |
-| B11 | Bếp củi chính hai vị trí | Dùng đúng bếp chính trong ảnh: củi sẵn cạnh lò, hai vị trí nấu phù hợp nồi. Trái cơm, phải khoai trong C10. | Không dùng bếp lò ngoài sân, không thêm bếp điện hoặc đổi kiến trúc. Chọn nồi/mặt đỡ đúng ảnh khi sản xuất. |
-| D21 | Bộ nước và chậu rửa trong bếp | Xô cao gần cửa, gáo gỗ sạch riêng cho nước bếp, chậu gỗ trên bàn bếp phụ. Khác xô/gáo tưới D05. | Gáo không nhúng nước rửa bẩn; chậu bỏ nước khoai trước lượt thực phẩm sau. Điểm xả chọn từ bối cảnh hiện có. |
-| D22 | Nồi cơm có nắp | Một nồi phù hợp vị trí bếp trái; vo gạo trong nồi sạch rồi chắt, thêm nước nấu và đặt lên bếp. | Cuối S228 đang nấu, chưa là cơm chín; không đổi thành nồi khoai. |
-| D23 | Nồi khoai có nắp | Một nồi riêng vừa vị trí phải, đủ khoai nguyên vỏ và nước lạnh ngập; dùng để luộc trước bước bóc vỏ/nghiền sau. | Cuối S228 vừa nhận nhiệt, chưa khẳng định đã sôi hoặc khoai mềm. |
-| D24 | Bộ nhóm lửa có sẵn | Mồi khô, củi nhỏ và hộp diêm không chữ/logo. Củi lấy ngay cạnh lò, không có chẻ/cưa. | Lửa bắt từ mồi rồi lan củi, không tự bùng toàn lò khi chưa châm. |
-| D25 | Bát nguyên liệu phụ chưa sơ chế | Gạo khô, trứng nguyên, thịt heo miếng, tỏi/gừng/hành/ớt tươi hoặc khô, cải muối chua và gia vị để riêng; rau quả chính từ phần thu đã tới bàn. | Không kể nguồn gốc; chưa băm thịt, bóc tỏi, thái cải hoặc đập trứng trong C10. Sẽ xử lý ở phần được duyệt sau. |
-| C10/S228 | 13:12 | Cơm: đun đậy bên trái; khoai: luộc đậy bên phải; cà: cà chua chưa rửa; dưa: dưa chưa rửa; dền: dền còn rễ chưa nhặt; gia vị: gia vị chưa sơ chế; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có. | Chưa có nồi chín ngay khi vừa đặt bếp. |
-| B12 | Bàn ăn ngoài sân | Dùng bàn và đường bếp–sân trong bộ thiết kế người dùng; đúng hai chỗ cho bà và cháu. | Khoai gần bà, trứng gần cô, Hồng tam đóa giữa; dưa/dền hai bên còn lại, nồi cơm gần cô. Giữ vị trí và mức vơi qua các góc. |
-| D26 | Bộ dao/thớt rau và bát sơ chế | Dao bản rộng, thớt rau sạch, bát vụn và bát nguyên liệu riêng. Dùng cho rau, gia vị, dưa trộn. | Không dùng thớt/dao thịt cho dưa ăn trộn. Các lượt rửa/khay ráo được giữ theo trạng thái. |
-| D27 | Bộ dao/thớt và bát thịt | Dao/thớt riêng ở khu thịt, bát ướp thịt sống và bát nhận thịt đã xào khác nhau. | C12 thịt băm sống; C13 xào, lấy ra, xào sốt và trộn lại; không đổi sang thịt chín khi chưa có quá trình. |
-| D28 | Hai chảo và dụng cụ xào | Chảo A trái cho khoai rồi rửa để xào dền; chảo B phải cho Hồng tam đóa rồi rửa làm trứng cà chua. Xẻng và khăn/quai phù hợp. | Cơm/khoai nhấc ra trước khi kê chảo; không thêm bếp mới hoặc đổi kiến trúc. |
-| D29 | Đĩa thành phẩm, nắp nhẹ và khay mang | Năm đĩa/bát món nhất quán, nắp che nhẹ giữ ấm, khay gỗ mang hai chuyến. Muỗng chung riêng từng món. | Không tự nhân thêm món hoặc đổi đĩa qua cảnh. C15 hai chuyến dọn, món được hạ vững trước buông. |
-| D30 | Hai bộ bát đũa bàn ăn | Bát cơm/đũa hai người, muỗng cho bà và muôi cơm sạch. Giữ cùng bộ đồ ăn khi đổi cỡ cảnh. | Bà nhận cơm trước, cô múc sau. S333–S350 mức thức ăn/cơm vơi dần; vật nuôi ngoài bàn. |
-| C11/S250 | 14:22 | Cơm: chín tiếp trên than nhỏ bên trái; khoai: luộc đậy bên phải; cà: đã rửa ráo; dưa: đã rửa ráo; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm; ớt/hành đã rửa; thịt: thịt nguyên sống; trứng: trứng nguyên. Món đã xong: chưa có. | Nối cụm sau từ trạng thái này, không quay lại đầu việc đã xong. |
-| C12/S272 | 15:35 | Cơm: chín tiếp trên than nhỏ bên trái; khoai: nguội dần trong bát trong lúc cô thái/băm; cà: múi và phần băm đã tách bát; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: đã trộn gia vị, còn sống; trứng: trứng nguyên. Món đã xong: chưa có. | Nối cụm sau từ trạng thái này, không quay lại đầu việc đã xong. |
-| C13/S293 | 16:47 | Cơm: chín, nghỉ đậy ngoài bếp; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã cắt, nước trộn để riêng; dền: đã rửa ráo, còn sống; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: xào chín, chờ ở bát sạch; trứng: đã đánh, còn sống. Món đã xong: khoai kiểu bà. | Nối cụm sau từ trạng thái này, không quay lại đầu việc đã xong. |
-| C14/S314 | 18:00 | Cơm: đã xới, đậy giữ ấm; khoai: món khoai đã ra đĩa, che ấm; cà: phần băm đang mềm thành sốt ở chảo B; múi chờ riêng; dưa: đã trộn ra đĩa; dền: vừa chín, đã ra đĩa; gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; thịt: Hồng tam đóa ra đĩa, che ấm; trứng: trứng cà chua ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua, dền xào tỏi. | Nối cụm sau từ trạng thái này, không quay lại đầu việc đã xong. |
-| C15/S332 | 19:00 | Cả hai đã ngồi, chuẩn bị ăn, chưa chuyển sang cảnh bữa ăn đã vơi. | Nối cụm sau từ trạng thái này, không quay lại đầu việc đã xong. |
-| C16/S350 | 20:00 | Kết phim ở 20:00: lao động trong vườn đã trở thành bữa cơm và sự chăm sóc dành cho bà. Không logo, chữ kết hoặc nhạc. | Kết phim, không thêm sinh hoạt sau bữa. |
 
 ## Quy chuẩn hiện hành
 
-- **Phạm vi duyệt:** Phiên bản 1.2: thực hiện hai hướng người dùng duyệt: gộp động tác vụn thành nhịp công việc tự nhiên và đan xen việc bếp theo thời gian chờ. Giữ cốt truyện, 350 shot, 20 phút. Các dòng sửa/đổi vị trí để trạng thái Chờ duyệt để người dùng rà bản kết quả; chưa viết prompt hoặc tạo ảnh/video.
+- **Phiên bản:** 1.3 · 25/10/2026. Toàn bộ shotlist chỉnh theo tài liệu ADN 9 đầu mục người dùng cung cấp; các dòng là bản đề xuất dựng để người dùng duyệt. Chưa viết prompt hoặc tạo ảnh/video.
 
-- **Thời lượng:** Bản đủ 20:00 gồm 350 shot, mỗi shot 3–4 giây. 00:00–12:00: vườn/thu hoạch/lưu; 12:00–18:00: sơ chế và nấu; 18:00–20:00: dọn và ăn tối. Thời lượng là phần dùng trong dựng, thời gian lao động/chờ thực được lược.
+- **Thời lượng:** 234 shot · 845.1 giây · 14:05.1. Thời lượng dùng trong dựng được đề xuất theo dạng hành động và điểm nhận thông tin; sẽ tinh chỉnh khi có take thực. Không ép tổng thời lượng hoặc số lượng shot.
 
-- **Diễn xuất và nhịp:** Quan sát cô gái sống và làm việc: mục đích công việc dẫn hành động. Gộp các động tác thuận tay trong 3–4 giây; lược đường đi, phần lặp và chờ tại cut. Cỡ cảnh toàn–trung–cận linh hoạt, không bắt đủ bộ góc cho mỗi thao tác; không làm lại động tác khi đổi góc.
+- **Diễn xuất và nhịp:** Quan sát cô gái làm việc hằng ngày. Giữ bước chính; lược động tác phụ và lần làm lặp. Mỗi shot có đầu–hành động–kết quả rõ, không nhìn máy để trình diễn.
 
-- **Máy và dựng:** Máy cố định ở mọi cảnh. Chủ yếu toàn–trung–cận. Cắt thẳng; đổi góc để tiếp diễn hoặc lược thời gian ở điểm cắt. Không yêu cầu hoàn thành nhiều phút lao động trong vài giây tự nhiên.
+- **Máy và dựng:** Máy cố định toàn bộ, không gimbal, slider, pan, tilt hoặc zoom. Cỡ toàn–trung–cận theo thông tin cần thấy, không tuần hoàn, không ép tỷ lệ chung. Cắt thẳng, nối tiếp hoặc lược rõ khoảng chờ.
 
-- **Tốc độ:** Máy cố định toàn bộ. Timelapse chỉ ở: S052, S059, S060, S069, S070, S078, S080, S095, S102, S128, S143, S145, S155, S163, S167, S172, S176, S181. Tất cả thao tác người, nấu và tình cảm ở tốc độ tự nhiên; cảnh sau tiếp tục trạng thái đã đạt.
+- **Tốc độ:** Các shot Timelapse được ghi riêng để thể hiện sinh trưởng/qua ngày; người và tình cảm ở tốc độ tự nhiên. Timelapse: S034, S038, S044, S045, S049, S050, S059, S063, S080, S090, S092, S099, S105, S108, S111, S113, S116.
 
-- **Âm thanh:** Chỉ âm thao tác và môi trường khớp hình; không nhạc, không lời thoại, không lời bình. Tiếng chim thưa và gió nhẹ nối liền qua các điểm cắt.
+- **Âm thanh:** Chỉ âm thao tác và môi trường khớp hình; không nhạc, không lời thoại hoặc lời bình. Không suy âm mẫu chưa nghe; giữ quy chuẩn dự án.
 
-- **Nhân vật:** Cô gái P01 chính; bà xuất hiện trong chăm cây và bữa tối; chó/mèo xuất hiện thưa ngoài vùng thực phẩm. Không thêm tương tác hoặc cảnh sinh hoạt mới ngoài cốt truyện. Tra đúng mã mới ở danh sách cảnh; không dùng mã bản 1.1 cho ảnh/prompt.
+- **Nhân vật:** Cô gái P01 chính; bà P02 trong chăm cây và bữa tối. Chó P04, mèo P03 thưa, ở lối riêng ngoài thực phẩm. Không thêm nhân vật hoặc sinh hoạt mới.
 
-- **Cây và món:** Cà chua là tuyến chính; khoai tây, dưa chuột, rau dền là các tuyến bổ sung. Năm món đã chốt: khoai tây kiểu bà, Hồng tam đóa, trứng xào cà chua, dưa chuột trộn tỏi, rau dền xào tỏi.
+- **Cây và món:** Cà chua là tuyến chính; khoai tây, dưa chuột, dền ăn lá. Năm món: khoai kiểu bà, Hồng tam đóa, trứng cà chua, dưa trộn tỏi, dền xào tỏi; có cơm.
 
-- **Thủ công:** Cuốc, cào, xẻng nhỏ, giỏ tre, cọc tre và dây buộc. Tưới bằng gáo gỗ múc từ xô gỗ; hất nước ra luống. Xô được hứng tại vòi rồi xách ra vườn.
+- **Thủ công và nước vườn:** Cuốc/cào/xẻng, giỏ tre, cọc và dây mềm. Xô/gáo gỗ lấy nước ở vòi hiện có, xách ra luống; tưới thấp tránh xói hạt hoặc bầu.
 
-- **Bếp và nước:** Củi sẵn cạnh lò; chậu gỗ trên bàn phụ và gáo sạch riêng lấy từ xô cao gần cửa. Cơm trái/khoai phải; rửa/nhặt rau, chuẩn bị dưa trong lúc đun. Vớt khoai, để nguội trong lúc thái/băm rồi bóc. Trộn dưa trong khoảng sốt cà chua chín lửa vừa; trở lại chảo ngay. Xới cơm trước xào dền; dền là món nóng cuối. Thớt/dao thịt riêng rau, hai chảo A/B dùng đúng vị trí và rửa khi đổi món.
+- **Bếp và nước:** Củi sẵn cạnh lò; chậu gỗ trên bàn phụ, gáo sạch riêng từ xô cao gần cửa. Cơm trái/khoai phải; chảo A trái, B phải sau khi nhấc nồi. Thay nước giữa thực phẩm, dao/thớt thịt riêng rau.
 
-- **Thu hoạch và lưu trữ:** Thu đủ độ và lượng vừa bữa + một phần để dành. C09 thu riêng bốn loại; chia phần ngắn, khoai và cà chua để theo loại trong kho. Dưa/dền dùng bữa, rau thu cuối. Thực phẩm phần nấu còn nguyên, chưa rửa/gọt/cắt khi tới bàn bếp. Không có bảo quản cầu kỳ.
+- **Đan xen nấu:** Rửa/sơ chế trong lúc nồi đun; vớt khoai rồi làm rau/thịt/trứng cho khoai nguội mới bóc. Trộn dưa khi sốt cà chua mềm ở lửa vừa, trở lại chảo ngay. Xới cơm trước xào dền cuối; món nóng đã xong che ấm.
 
-- **Tính nhất quán:** Giữ nhân vật, kiến trúc, bố trí luống, dụng cụ và bát đĩa. Trang phục do người dùng gắn tham chiếu. Chi tiết không cần cố định có thể để Seedance tạo.
+- **Thu và lưu:** Thu đủ độ, để riêng bốn loại; chia phần nấu và phần để dành. Khoai/cà dư đặt khu riêng, trình bày ngắn; nguyên liệu phụ hiện ở bếp chưa sơ chế, không kể nguồn gốc.
 
-- **Loại khỏi phim:** Không bón phân, xử lý sâu bệnh, giết mổ, lao động kiệt sức, mất vệ sinh, sự cố căng thẳng, vật nuôi chạm thực phẩm, tương tác kéo dài làm ngắt việc hoặc lặp hành động không tiến triển.
+- **Liên tục:** Giữ người, trang phục trong cùng buổi, hình học nhà/luống, dụng cụ, vị trí và lượng thực phẩm. Khi đổi cỡ không làm lại động tác; mỗi cut có điểm nhận hoặc trạng thái mới.
 
-- **Hình ảnh:** 16:9, ánh sáng tự nhiên, màu đất và cây chân thực. Không logo, chữ hoặc hình mờ trong video. Độ sâu trường ảnh được dùng để đọc chủ thể, không thay chuyển động máy.
+- **Loại khỏi phim:** Không bón phân, xử lý sâu bệnh, giết mổ, tai nạn, lao động kiệt sức, vật nuôi chạm thực phẩm, sinh hoạt thêm sau bữa; không chữ/logo/watermark.
 
-- **Đối chiếu nguồn:** Kich-ban-Vuon-nho-bua-com-nha(2).md; phỏng vấn trong hội thoại đến 24/10/2026; sơ đồ tổng thể người dùng đã cung cấp. Chưa gán ảnh tham chiếu nhân vật hoặc góc sân cụ thể cho từng cảnh.
+- **Thời gian và mùa:** Ngày tương đối từ bắt đầu vụ tới khoảng ngày 105: khoai/cà gieo trước, dưa sau, dền ngắn ngày cuối. Thu sáng, nấu chiều và ăn tối cùng ngày. Chưa khóa tháng/mùa hoặc giống cụ thể; chọn giống phù hợp đợt thu chung.
 
-- **Thời gian và mùa:** Khoảng ngày 105 thu sáng, lược tới chiều cùng ngày chuẩn bị bữa tối; nguyên liệu giữ râm mát trong đoạn chờ. Sơ chế, các nồi chín và bữa ăn có các khoảng thời gian thực được lược qua điểm cắt. Cuối bữa sang chạng vạng. Chưa khóa tháng/mùa địa phương và tên giống cụ thể; số ngày là khoảng dựng để giữ tuổi cây, không cam kết mọi giống cùng chín.
+- **Hình ảnh:** 16:9, ánh sáng và vật liệu tự nhiên, giữ sắc da/đất/lá và hướng sáng qua các shot. Chi tiết tham chiếu chọn từ bộ tài nguyên người dùng khi sản xuất.
 
-## Căn cứ
+- **Nguồn và phạm vi:** Nguồn nền: 261101US; căn cứ hình/nhịp: ADN-9-dau-muc-Chi-dan-va-co-so-quy-tac(1).xlsx, các trang ADN 9 dau muc, Nhip va bang chung, Tan suat va chuoi, Chi dan hai truc, Co so quy tac. Không coi số giây mẫu là thời lượng bắt buộc cho vật liệu khác.
 
-Phỏng vấn của người dùng là căn cứ ưu tiên. Khung đã đọc: Kich-ban-Vuon-nho-bua-com-nha(2).md. Đây là thiết kế cảnh mới, không phải bóc tách trực tiếp từng shot video Lý Tử Thất.
+- **Trình bày:** Chỉ shotlist hiện hành, không cột đối chiếu cũ hoặc cột giải thích ADN. Mã liên tục theo thứ tự dựng mới; dùng trạng thái đầu/cuối và điểm cắt làm căn cứ sản xuất.
 
-- [Nguyên tắc dùng củ giống nguyên nhỏ](https://www.yunfu.gov.cn/nyncj/zdht/syjs/content/post_1519127.html): Cơ quan nông nghiệp Vân Phù: củ giống cỡ khoảng 50 g có thể trồng nguyên. Chỉ dùng để đối chiếu dạng củ giống, không dùng lịch mùa vùng này cho Côn Minh.
-- [Bối cảnh mùa vụ Vân Nam](https://agri-history.ihns.ac.cn/agrobiology/sunmaolin3.htm): Nghiên cứu của tác giả thuộc Viện KHNN Vân Nam và ĐH Sư phạm Vân Nam: lịch khoai khác theo vùng sinh thái. Chưa đủ để khóa lịch chung bốn cây tại địa điểm cụ thể.
 
-- [Kỹ thuật gieo ươm — UMN Extension](https://extension.umn.edu/planting-and-growing-guides/starting-seeds-indoors): chỉ đối chiếu giá thể tơi sạch, khay có thoát nước, làm ẩm trước gieo và phủ phù hợp kích thước hạt. Không áp dụng lịch Minnesota cho Côn Minh.
+## Tài nguyên và liên tục
 
-- [Mầm khoai](https://lancaster.unl.edu/planting-seed-potatoes/): Nebraska Extension: cây khoai có thể nhú sau 1–3 tuần, tùy độ ấm đất. Chỉ đối chiếu nhịp sinh học; không dùng lịch Nebraska cho Côn Minh.
-- [Mầm cà chua](https://yardandgarden.extension.iastate.edu/how-to/germination-requirements-annuals-and-vegetables): Iowa State Extension: bảng tham khảo cà chua nảy mầm khoảng 6–12 ngày trong điều kiện phù hợp. Chỉ là cơ sở chọn khoảng thời gian, không cam kết mọi hạt cùng mọc đúng ngày.
-
-- [Sang chậu và làm quen nắng](https://extension.umn.edu/planting-and-growing-guides/starting-seeds-indoors): UMN Extension: nâng cây bằng bầu rễ, có thể dùng thìa đỡ, tránh nắm thân. Làm quen điều kiện ngoài trời dần trong khoảng hai tuần. Dùng cho kỹ thuật, không áp dụng lịch Minnesota cho Côn Minh.
-
-- [Trồng và cọc cà chua](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes): UMN Extension: trồng ra ngoài khi đất ấm, hết nguy cơ sương giá; chọn chiều muộn hoặc ngày dịu ít gió, bố trí cọc ngay khi trồng. Chỉ đối chiếu kỹ thuật, không dùng lịch Minnesota cho Côn Minh.
-- [Buộc thân vào cọc](https://yardandgarden.extension.iastate.edu/how-to/how-train-tomatoes-home-garden): Iowa State Extension: buộc mềm theo vòng số tám lỏng, cọc một vòng và thân một vòng, tránh làm hại rễ vì đóng cọc muộn. Dùng nguyên tắc hỗ trợ cây, không sao chép toàn bộ hệ kích thước.
-
-- [Gieo và dẫn dưa chuột](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-cucumbers): UMN Extension: gieo trực tiếp khi đất đã ấm, dùng giàn cho giống dạng leo. Chỉ đối chiếu kỹ thuật, không dùng tháng gieo Minnesota cho Côn Minh.
-- [Vun khoai](https://lancaster.unl.edu/planting-seed-potatoes/): Nebraska Extension: vun khi thân cây đủ cao, kéo đất dọc chân hàng. Trạng thái cây quyết định thời điểm, không chỉ số ngày trong kịch bản.
-- [Chăm cà chua thân cao](https://yardandgarden.extension.iastate.edu/how-to/how-train-tomatoes-home-garden): Iowa State Extension: bổ sung dây đỡ mềm lỏng theo thân lớn và bấm chồi nách với hệ trồng cọc. Giữ chùm hoa và phần lá cần thiết.
-
-- [Dền ăn lá và nhịp sinh trưởng](https://ask.ifas.ufl.edu/publication/HS1407): UF/IFAS, Production Guide of Vegetable Amaranth: hạt nhỏ nâu đen, gieo nông, tỉa thưa khi lớn; rau ăn lá có thể thu khoảng 30 ngày tùy điều kiện. Chỉ dùng kỹ thuật và khoảng tuổi, không áp dụng lịch Florida cho Côn Minh.
-- [Trộn hạt dền để rải đều](https://cast.caas.cn/kj/syjs/zzyjs/213034.html): Viện Khoa học Nông nghiệp Trung Quốc, bài kỹ thuật 苋菜: có thể trộn hạt với cát mịn để rải đều. Chỉ lấy nguyên tắc trộn hạt, không dùng phần bón phân/xử lý sâu bệnh ngoài phạm vi người dùng.
-
-- [Độ thu hoạch và khoai để dành](https://www.umass.edu/agriculture-food-environment/home-lawn-garden/fact-sheets/harvesting-vegetables): UMass Extension, Harvesting Vegetables: nhận độ thu qua trạng thái cây; cà chua đỏ còn chắc, dưa xanh chưa già; khoai thu nhẹ tay khi thân lá đã già và đất phù hợp. Khoai để dài ngày cần giai đoạn làm lành vỏ riêng; cụm này chỉ đặt thoáng, không mô tả đã hoàn tất bảo quản.
-- [Cắt cuống dưa](https://hgic.clemson.edu/factsheet/cucumber/): Clemson Extension, Cucumber: dùng dao/kéo sắc cắt cuống khi thu, tránh làm hỏng dây. Kịch bản chọn kéo nhỏ sạch để tay còn lại đỡ quả.
-
-- [Khoai tây kiểu bà: luộc trước](https://m.xiachufang.com/recipe/105950790/): Amanda曼达, công thức do tác giả đăng: khoai được luộc nguyên vỏ từ nước lạnh trước khi bóc và làm món 老奶洋芋. Kịch bản lấy chuỗi luộc–bóc–nghiền/xào, không coi một công thức là phiên bản duy nhất của Vân Nam.
-
-- [Đối chiếu Hồng tam đóa — DayDayCook](https://www.daydaycook.com/zh-Hant/recipe/traditional-three-red-minces-2-3-servings): tham khảo chuỗi thịt băm xào riêng, cà chua xào sốt, thêm ớt, trộn thịt lại. Bản phim là biến thể gia đình, không sao chép toàn bộ tỷ lệ hoặc mọi chi tiết công thức.
-
-**Kiểm tra:** đủ 350 mã S001–S350, không trùng; mỗi cảnh 3–4 giây. 00:00–12:00: vườn/thu hoạch/lưu trữ, 206 cảnh/720 giây. 12:00–18:00: bếp, 108 cảnh/360 giây. 18:00–20:00: dọn/ăn tối, 36 cảnh/120 giây. Tổng đúng 1.200 giây. Các cảnh quay đều cố định; chỉ những cảnh chuyển ngày/sinh trưởng đã ghi mới timelapse. Các công đoạn kéo dài được lược tại điểm cắt, không tăng tốc người.
-
-**Điểm duyệt:** duyệt tổng thể C10–C16 và bản 20 phút trước bước viết prompt Seedance. Chưa tạo prompt, ảnh hoặc video.
+| Mã | Nhóm | Chi tiết cố định | Trạng thái / bàn giao |
+|---|---|---|---|
+| B01 | Toàn thể khu nhà và vườn trước nhà | Giữ tường bao, các công trình liền kề và luống có sẵn; không thêm suối/cầu. | Cần gắn ảnh tổng thể hiện hành khi sản xuất. |
+| B02 | Hiên, lối ra vườn và nơi để dụng cụ | Dùng vị trí có thật trong bộ bối cảnh. Hướng đi trên màn ảnh từ hiên đến vườn giữ nhất quán. | Chưa khóa tên ảnh/góc máy cụ thể. |
+| B03 | Luống khoai tây đầu tiên và lối đi cạnh luống | Một luống khoai đầu vụ có thật; làm tơi, mở hàng, đặt củ rồi phủ đất; các luống còn lại trống cho tới lượt gieo. | Giữ hình học hàng, chỉ đất/cây tiến theo công việc và ngày. |
+| P01 | Cô gái | Ngoại hình và trang phục từ ảnh người dùng gắn khi sản xuất. | Ngoại hình/trang phục giữ xuyên, cùng một buổi sáng. |
+| D01 | Giỏ tre và khay gỗ nông | Một giỏ tre và khay gỗ nông riêng cho củ giống/khoai; xẻng ở giỏ. Khay nhận củ đã chọn, đi theo hàng rồi trở lại lối khi rỗng. | Không đổi khay thành rổ hoặc tự nhân thêm đồ. |
+| D02 | Cuốc cán gỗ | Một cây cuốc duy nhất. Cán và lưỡi không đổi hình; vị trí phải được ghi qua điểm cắt. | Dùng cả hai tay khi cuốc, không đồng thời xách giỏ. |
+| D03 | Xẻng nhỏ | Xẻng nhỏ ở giỏ dụng cụ; dùng mở hốc, trồng và thu theo hành động, đặt trên lối ngoài vùng trồng. | Không đổi kiểu xẻng hoặc tự chuyển vị trí giữa tay và đất. |
+| B04 | Vòi nước hiện có | Gắn với một vòi thật trong bộ bối cảnh, không tự thêm hệ thống nước. | Chưa khóa tên ảnh; không suy đoán vị trí vòi từ ảnh bếp. |
+| D04 | Rổ tre nhỏ đựng củ giống | cảnh liên quan mang từ góc hiên đã để sẵn; củ nhỏ, nguyên, có mầm ngắn chắc; không phải hạt khoai. | Rổ đặt cạnh giỏ sau khi chuyển củ sang khay; không biến thành giỏ D01. |
+| D05 | Xô gỗ và gáo gỗ tưới vườn | Một xô và gáo gỗ vườn, có sẵn cạnh vòi; gáo ở xô khi xách. | Phân biệt với gáo nước sạch trong bếp; lượng nước giảm theo tưới. |
+| B05 | Góc gieo ươm và vị trí đặt khay dưới hiên | Dùng góc hiên hiện có, ấm và kín gió. Khóa bàn và vị trí kê khay qua cảnh liên quan. | Chưa gắn ảnh; không tạo thêm công trình hoặc nhà kính. |
+| D06 | Khay ươm cà chua riêng | Một khay gỗ sạch có lỗ thoát đáy và lưới giữ giá thể. Khác khay khoai D01; mặt kê có hai thanh thấp. | Cuối cảnh liên quan: đã gieo, phủ mỏng, giá thể đủ ẩm; không có cây con. |
+| D07 | Bộ gieo hạt | Thau giá thể ươm tơi sạch, bát nhỏ lớp phủ mịn, đĩa con khô, gói giấy hạt và que tre. | Gói hạt đã khép tại cảnh liên quan; các đồ nhỏ ở bàn. Không có chữ, logo. |
+| P02 | Bà | Bà từ bộ tham chiếu người dùng; xuất hiện bên góc ươm và bữa tối. | Giữ ghế khi bà ngồi, quan tâm qua hành động, không thoại. |
+| P03 | Mèo | Mèo theo bộ tham chiếu, đi trên lối ngoài luống và nghỉ ngoài vùng bàn ăn. | Không giẫm cây hoặc chạm thực phẩm. |
+| D08 | Ghế gỗ thấp cạnh góc ươm | Có sẵn bên hiên trước khi bà tới; giữ cùng ghế qua cảnh liên quan. | Đặt ngoài khay/cây; cô giữ ghế cho bà ngồi, không thay vị trí khay. |
+| D09 | Sáu chậu đất nung ươm cà chua | Sáu chậu đất nung cùng kiểu có lỗ thoát; mỗi chậu một cây, sau trồng còn đúng sáu chậu rỗng. | Khay gieo có cây dự phòng vẫn được giữ ngoài phần dựng. |
+| D10 | Khay gỗ mang chậu | Một khay gỗ chắc, đủ sáu chậu nhỏ, đáy có khe thoát nước. Khác D01 khay khoai và D06 khay gieo. | Mang ngang bằng hai tay; không chồng chậu hoặc để nước đọng. |
+| D11 | Thìa gỗ nhỏ sang cây | Dụng cụ sạch, dùng chuyển giá thể và đỡ bầu rễ, không dùng để nấu. | Không kéo bằng thân; cây được nâng cùng bầu, tay chỉ giữ nhẹ lá nếu cần. |
+| B06 | Luống dành cho sáu cây cà chua | Chọn luống trống có thật trong vườn hiện hành, đủ sáu vị trí và khoảng cách cho tán sau này. Khác hàng khoai B03. | cảnh liên quan còn trống; cảnh liên quan đủ sáu cây; cảnh liên quan đã cọc, buộc mềm và tưới. Không tự tăng diện tích vườn. |
+| D12 | Sáu cọc tre và dây vải mềm | Sáu cọc chắc cùng kiểu, dựng cạnh hố trước khi đặt cây. Sáu dây mềm buộc số tám lỏng, thắt phía cọc. | Cà chua được chọn theo kiểu thân cao cần cọc; chưa khóa tên giống. Không thêm giàn ngang hoặc dây kim loại. |
+| D13 | Vồ gỗ đóng cọc | Vồ gỗ nhỏ vừa sức; cô giữ cọc và gõ các nhịp tiêu biểu, phần lặp lược qua điểm cắt. | Đóng cọc trước khi cây vào hố, không đánh sát thân cây đã trồng. |
+| B07 | Luống dưa chuột | Luống trống có thật trong bộ vườn, khác khoai và cà chua; bốn vị trí gieo dưới giàn. | cảnh liên quan còn trống; cảnh liên quan gieo xong; cảnh liên quan bốn dây đang lên thanh thấp, chưa có quả. |
+| D14 | Giàn tre chữ A cho dưa | Ba cặp tre, thanh dọc đỉnh và thanh leo thưa; chân khung ngoài vị trí gieo, vừa quy mô gia đình. | Giữ số cặp, hình học và mối buộc khi cây lớn; không biến thành giàn kim loại hoặc giàn cà chua. |
+| D15 | Gói hạt dưa và dây mềm bổ sung | Gói giấy không chữ/logo, hạt dưa thon dẹt màu sáng; mang trong giỏ D01. Dây mềm mới dùng cho cà chua lớn thêm. | Bốn vị trí, mỗi vị trí một hạt; phần hạt dư cất lại giỏ, không cần kể nguồn gốc. |
+| P04 | Chó | Chó theo bộ tham chiếu, vào bóng mát ngoài luống khi cô làm việc; cuối bữa ở lối sân. | Không thêm phản ứng làm ngắt việc hoặc cho chó lên bàn. |
+| B08 | Luống rau dền ăn lá | Chọn luống có thật còn trống, riêng với khoai/cà chua/dưa. Mặt đất mịn, gieo thưa rồi tỉa khoảng chen sát. | Dền ăn lá xanh có mảng đỏ tím, giữ màu và kiểu lá từ cây lớn tới thu hoạch/nấu; chưa trổ bông. |
+| D16 | Cào cán gỗ | Một cào thủ công cùng kiểu qua cảnh liên quan, dùng san lớp mặt, đặt lại ở lối khi gieo. | Không biến thành cuốc hoặc máy xới. |
+| D17 | Bộ gieo rau dền | Gói giấy hạt nâu đen li ti; bát gỗ ít cát sạch mịn để trộn rải đều; rổ đất mịn phủ mỏng. | Không phải phân bón hoặc thuốc, không truy nguồn. Gieo khoảng ngày 75, đến sáng ngày 105 đủ non để thu. |
+| B09 | Chỗ chia phần và kho hiện có | Dùng mặt kê có sẵn trong bóng râm gần kho; khoai và cà chua đặt riêng theo loại. | Khoai để thoáng tránh sáng, cà chua để riêng thoáng mát dùng ngắn ngày; không có cảnh bảo quản cầu kỳ. |
+| B10 | Bàn bếp phụ theo thiết kế | Bàn gỗ, chậu gỗ rửa trên bàn và xô cao gần cửa đúng ảnh bếp người dùng; không thêm vòi ở bàn. | cảnh liên quan mới đặt thực phẩm nguyên lên bàn, chưa rửa/gọt/cắt hoặc nhóm lửa. |
+| D18 | Ba rổ thu riêng | Ba rổ tre riêng cho cà chua, dưa, dền; đặt ở vùng dụng cụ khi bắt đầu thu. Giỏ khoai riêng. | Không lẫn loại hoặc chuyển rổ khi đổi góc. |
+| D19 | Kéo nhỏ thu cuống dưa | Kéo nhỏ sạch ở vùng dụng cụ ngoài luống, dùng cắt cuống dưa với tay kia đỡ quả. | Không xoay dưa như cách tách cà chua. |
+| D20 | Giỏ mang bếp và bốn rổ con | Giỏ sạch có bốn rổ con, xuất hiện khi chia phần nấu, mỗi loại một rổ. | Nguyên liệu chưa rửa/sơ chế khi vào bếp. |
+| B11 | Bếp củi chính hai vị trí | Bếp củi chính hai vị trí theo thiết kế; củi sẵn cạnh lò. Trái cơm, phải khoai lúc đầu. | Hai nồi được nhấc ra rồi chảo A trái/B phải; không thêm bếp. |
+| D21 | Bộ nước và chậu rửa trong bếp | Xô cao gần cửa, gáo gỗ sạch riêng cho nước bếp, chậu gỗ trên bàn bếp phụ. Khác xô/gáo tưới D05. | Gáo không nhúng nước rửa bẩn; chậu bỏ nước khoai trước lượt thực phẩm sau. Điểm xả chọn từ bối cảnh hiện có. |
+| D22 | Nồi cơm có nắp | Một nồi phù hợp vị trí bếp trái; vo gạo trong nồi sạch rồi chắt, thêm nước nấu và đặt lên bếp. | Cuối cảnh liên quan đang nấu, chưa là cơm chín; không đổi thành nồi khoai. |
+| D23 | Nồi khoai có nắp | Một nồi riêng vừa vị trí phải, đủ khoai nguyên vỏ và nước lạnh ngập; dùng để luộc trước bước bóc vỏ/nghiền sau. | Cuối cảnh liên quan vừa nhận nhiệt, chưa khẳng định đã sôi hoặc khoai mềm. |
+| D24 | Bộ nhóm lửa có sẵn | Mồi khô, củi nhỏ và hộp diêm không chữ/logo. Củi lấy ngay cạnh lò, không có chẻ/cưa. | Lửa bắt từ mồi rồi lan củi, không tự bùng toàn lò khi chưa châm. |
+| D25 | Bát nguyên liệu phụ chưa sơ chế | Gạo khô, trứng nguyên, thịt heo miếng, tỏi/gừng/hành/ớt tươi hoặc khô, cải muối chua và gia vị để riêng; rau quả chính từ phần thu đã tới bàn. | Không kể nguồn gốc; chưa băm thịt, bóc tỏi, thái cải hoặc đập trứng trong. Sẽ xử lý ở phần được duyệt sau. |
+| B12 | Bàn ăn ngoài sân | Dùng bàn và đường bếp–sân trong bộ thiết kế người dùng; đúng hai chỗ cho bà và cháu. | Khoai gần bà, trứng gần cô, Hồng tam đóa giữa; dưa/dền hai bên còn lại, nồi cơm gần cô. Giữ vị trí và mức vơi qua các góc. |
+| D26 | Bộ dao/thớt rau và bát sơ chế | Dao bản rộng, thớt rau sạch, bát vụn và bát nguyên liệu riêng. Dùng cho rau, gia vị, dưa trộn. | Không dùng thớt/dao thịt cho dưa ăn trộn. Các lượt rửa/khay ráo được giữ theo trạng thái. |
+| D27 | Bộ dao/thớt và bát thịt | Dao/thớt riêng ở khu thịt, bát ướp thịt sống và bát nhận thịt đã xào khác nhau. | thịt băm sống; xào, lấy ra, xào sốt và trộn lại; không đổi sang thịt chín khi chưa có quá trình. |
+| D28 | Hai chảo và dụng cụ xào | Chảo A trái cho khoai rồi rửa để xào dền; chảo B phải cho Hồng tam đóa rồi rửa làm trứng cà chua. Xẻng và khăn/quai phù hợp. | Cơm/khoai nhấc ra trước khi kê chảo; không thêm bếp mới hoặc đổi kiến trúc. |
+| D29 | Đĩa thành phẩm, nắp nhẹ và khay mang | Năm đĩa/bát món nhất quán, nắp che nhẹ giữ ấm, khay gỗ mang hai chuyến. Muỗng chung riêng từng món. | Không tự nhân thêm món hoặc đổi đĩa qua cảnh. hai chuyến dọn, món được hạ vững trước buông. |
+| D30 | Hai bộ bát đũa bàn ăn | Bát cơm/đũa hai người, muỗng cho bà và muôi cơm sạch. Giữ cùng bộ đồ ăn khi đổi cỡ cảnh. | Bà nhận cơm trước, cô múc sau. cảnh liên quan mức thức ăn/cơm vơi dần; vật nuôi ngoài bàn. |
+| C01 | Buổi sáng và chuẩn bị đất | S001–S009 · 00:00.0–00:31.7 | Một hàng rãnh sẵn đặt củ; cô rảnh hai tay. |
+| C02 | Trồng khoai và tưới lượt đầu | S010–S021 · 00:31.7–01:09.4 | Đất cả hàng đã sẫm ẩm, gáo trở về xô; phần nước còn lại được mang về hiên trong đoạn đường lược trước cảnh bàn. |
+| C03 | Gieo ươm cà chua | S022–S033 · 01:09.4–01:46.4 | Khay nằm yên chờ nảy mầm; hôm gieo chưa có mầm xuất hiện. |
+| C04 | Những ngày đầu, cây nhú và bà cùng chăm | S034–S050 · 01:46.4–02:53.6 | Cây đạt vài lá thật, vẫn chưa ra hoa hoặc thành bụi lớn. |
+| C05 | Sang chậu, chăm cây và quen nắng | S051–S064 · 02:53.6–03:43.8 | Sáu cây vẫn trong chậu, thân/lá khỏe sẵn ra luống; chưa trồng, chưa ra hoa hoặc quả. |
+| C06 | Trồng cà chua ra luống | S065–S078 · 03:43.8–04:31.4 | Cô cầm khay sáu chậu rỗng để mang về, các cây đã trồng/buộc/tưới vẫn ở luống. |
+| C07 | Vun khoai, dựng giàn, gieo dưa và chăm cây | S079–S098 · 04:31.4–05:36.9 | Hàng cà chua được đỡ chắc, hoa vẫn trên cây; chưa sang ngày mới. |
+| C08 | Gieo dền, chăm quả và chờ tới độ thu | S099–S116 · 05:36.9–06:47.7 | Bắt đầu sáng thu hoạch; vườn có đủ bốn loại cây đã được gieo trước đó. |
+| C09 | Thu hoạch, chia phần và mang vào bếp | S117–S135 · 06:47.7–07:49.7 | Bốn loại đã tới bàn: cà chua nguyên, khoai còn vỏ, dưa nguyên, dền còn rễ. Chậu rửa chưa có thao tác rửa, chưa nấu. |
+| C10 | Nhóm lửa, vo gạo và bắt đầu luộc khoai | S136–S149 · 07:49.7–08:45.0 | Cơm: đun đậy ở bếp trái; Khoai: đun đậy ở bếp phải; Cà: nguyên chưa rửa; Dưa: nguyên chưa rửa; Dền: còn rễ chưa nhặt; Gia vị: chưa sơ chế; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có. |
+| C11 | Rửa rau quả, kiểm nồi và chuẩn bị gia vị | S150–S163 · 08:45.0–09:33.2 | Cơm: chín tiếp lửa nhỏ ở trái; Khoai: đun đậy ở bếp phải; Cà: đã rửa ráo; Dưa: đã rửa ráo; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm; ớt/hành đã rửa; Thịt: miếng heo sống; Trứng: nguyên vỏ. Món đã xong: chưa có. |
+| C12 | Sơ chế trong thời gian chờ, để khoai nguội rồi bóc | S164–S185 · 09:33.2–10:47.6 | Cơm: chín tiếp lửa nhỏ ở trái; Khoai: chín đã bóc vỏ, chờ xào; Cà: múi và phần băm tách hai bát; Dưa: cắt đoạn, nước trộn để riêng; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: băm đã trộn gia vị, còn sống; Trứng: đã đánh hòa, còn sống. Món đã xong: chưa có. |
+| C13 | Cho cơm nghỉ, nấu khoai và Hồng tam đóa | S186–S204 · 10:47.6–11:54.6 | Cơm: chín, nghỉ đậy ngoài bếp; Khoai: món đã ra đĩa, che ấm; Cà: phần băm đã vào món thịt, phần múi chờ trứng; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: tráng sạch, ráo, còn sống; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: đã đánh hòa, còn sống. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa. |
+| C14 | Trứng cà chua, xới cơm và món rau cuối | S205–S216 · 11:54.6–12:36.8 | Cơm: đã xới, đậy giữ ấm; Khoai: món đã ra đĩa, che ấm; Cà: hai phần đã thành món; Dưa: đã trộn, ra đĩa qua đoạn lược; Dền: ra đĩa nóng cuối; Gia vị: tỏi/gừng băm, ớt/hành/cải muối đã thái; Thịt: Hồng tam đóa đã ra đĩa, che ấm; Trứng: trứng cà chua đã ra đĩa, che ấm. Món đã xong: khoai kiểu bà, dưa trộn, Hồng tam đóa, trứng cà chua, dền xào tỏi. |
+| C15 | Dọn bàn, mời bà và chia cơm | S217–S223 · 12:36.8–13:13.4 | Hai người có cơm, nồi đậy giữ ấm; năm món còn nguyên hoặc gần nguyên trước bữa. |
+| C16 | Hai bà cháu ăn tối, khép ngày | S224–S234 · 13:13.4–14:05.1 | Kết phim: ngôi nhà bao bọc bữa tối đã dùng của bà và cháu, ánh hiên ấm nhẹ; không chữ, logo hoặc nhạc. |
