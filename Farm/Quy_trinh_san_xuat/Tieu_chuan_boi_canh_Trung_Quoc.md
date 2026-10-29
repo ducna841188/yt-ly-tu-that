@@ -1,13 +1,13 @@
 # Farm — Tiêu chuẩn bối cảnh Trung Quốc và tính đúng mùa
 
-- Phiên bản: **1.0.0**; biên soạn **29/10/2026**, giờ Việt Nam.
-- Yêu cầu đã xác nhận: nông thôn Trung Quốc; vật dụng, màu sắc, hành động, cảnh quan và sinh hoạt phù hợp văn hóa Trung Quốc; kiểm soát theo mùa.
+- Phiên bản: **1.1.0**; cập nhật **29/10/2026**, giờ Việt Nam.
+- Yêu cầu đã xác nhận: **nông thôn Vân Nam, Trung Quốc**; vật dụng, màu sắc, hành động, cảnh quan và sinh hoạt phù hợp bối cảnh địa phương; kiểm soát theo mùa; lấy video **Lý Tử Thất làm ý tưởng và hướng tới motif/concept tương tự**.
 - Phần đề xuất triển khai: hồ sơ, trường dữ liệu, mã kiểm và cách bàn giao trong tài liệu này. Chưa cài skill, chưa xác minh một vùng cụ thể hoặc nghiệm thu ảnh/video hiện có.
 - Đọc cùng [định hướng chính thức](../Dinh_huong_chinh_thuc.md) và [đặc tả chín skill](Dac_ta_skill_doan_phim.md). Đây là lớp tiêu chuẩn bắt buộc dùng chung, không thêm một khâu độc lập sau khi đã tạo xong video.
 
 ## 1. Mục tiêu kiểm soát
 
-Mỗi shot phải thuộc về **một nơi sống ở Trung Quốc, trong một thời kỳ và một giai đoạn mùa xác định đủ cho nội dung đang kể**. Hình đẹp, mái ngói, tre, đèn lồng hoặc dòng chữ “Chinese countryside” không tự chứng minh điều đó.
+Mỗi shot phải thuộc về **một nơi sống tại Vân Nam, Trung Quốc, trong một thời kỳ và một giai đoạn mùa xác định đủ cho nội dung đang kể**. Hình đẹp, mái ngói, tre, đèn lồng hoặc dòng chữ “Chinese countryside” không tự chứng minh điều đó.
 
 Kiểm theo quan hệ: **địa phương/khí hậu → thời gian/mùa → cảnh quan và nông sản → nhà cửa và vật dụng → trang phục và hành động → ánh sáng/màu → liên tục giữa các shot**. Các bằng chứng phải cùng hỗ trợ một thế giới sống được, thay vì gom những dấu hiệu được cho là “Á Đông”.
 
@@ -19,8 +19,8 @@ Khâu 01–03 cùng lập `world-profile.json`. Bản đầu có thể còn bi�
 
 | Trường / nhóm | Nội dung cần ghi |
 | --- | --- |
-| Nhận diện | `profile_id`, `version`, `country: CN`, yêu cầu người dùng và căn cứ quyết định. |
-| Địa phương | Tỉnh/vùng, tiểu vùng/làng mẫu hoặc phạm vi tham chiếu đủ cụ thể; địa hình, độ cao/khí hậu khi cần. Không tự chốt tên làng thật cho một làng hư cấu. |
+| Nhận diện | `profile_id`, `version`, `country: CN`, `province: Yunnan`, yêu cầu người dùng và căn cứ quyết định; Vân Nam là phần đã chốt. |
+| Địa phương | Tiểu vùng/làng mẫu tại Vân Nam hoặc phạm vi tham chiếu đủ cụ thể; địa hình, độ cao/khí hậu khi cần. Không tự chốt tên làng thật cho một làng hư cấu hoặc mặc định một tiểu vùng đại diện toàn tỉnh. |
 | Thời kỳ | Hiện đại, giai đoạn lịch sử hoặc đời sống đương đại giữ nghề truyền thống; mức hiện diện của điện, nhựa, kim loại, máy móc theo brief và nguồn. Chưa chọn thì để mở. |
 | Văn hóa | Sinh hoạt/ẩm thực/nghề của địa phương, phong tục có dùng trong câu chuyện; nhóm văn hóa cụ thể chỉ ghi khi có nguồn và lựa chọn phù hợp. |
 | Lịch tập | Mùa, giai đoạn trong mùa, khoảng tháng nếu có căn cứ, giờ trong ngày, thời tiết; lịch dương/âm/tiết khí phải ghi rõ loại lịch nếu sử dụng. |
@@ -86,7 +86,7 @@ Mỗi tiêu chí chỉ đánh giá phần có thể kiểm: cận tay không th�
 
 | Mã | Điều kiện đạt | Bộ phận dẫn kiểm |
 | --- | --- | --- |
-| **CN-01** | Hồ sơ xác định Trung Quốc và đủ địa phương/thời kỳ/giai đoạn mùa cho cảnh; biến chưa biết không làm vô hiệu kết luận được đưa ra. | Kịch bản + kiểm chứng. |
+| **CN-01** | Hồ sơ giữ đúng **Vân Nam, Trung Quốc** và đủ tiểu vùng/thời kỳ/giai đoạn mùa cho cảnh; biến chưa biết không làm vô hiệu kết luận được đưa ra. | Kịch bản + kiểm chứng. |
 | **CN-02** | Kiến trúc, vật liệu, địa hình và quan hệ nhà–sân–vườn phù hợp hồ sơ và giữ liên tục ở các góc. | Mỹ thuật. |
 | **CN-03** | Vật dụng đúng thiết kế, vật liệu, công năng và cách dùng có căn cứ trong đời sống vùng/thời kỳ đó. | Kiểm chứng + mỹ thuật. |
 | **CN-04** | Trang phục phù hợp việc, thời tiết và nhân vật; giữ tham chiếu đã duyệt; không tự áp cổ trang/nghi lễ. | Mỹ thuật. |
@@ -105,7 +105,7 @@ Mỗi phép kiểm ghi kỳ vọng cụ thể từ hồ sơ, kết quả `pass|f
 
 | Khâu | Nhiệm vụ bổ sung | Sản phẩm/điều kiện phải bàn giao |
 | --- | --- | --- |
-| 01 — Kịch bản | Đặt nơi sống tại Trung Quốc; gắn lịch mùa và nguồn nguyên liệu với công việc, gia đình và thành quả. | Brief và lịch tập; câu hỏi địa phương/thời kỳ/mùa cần giải quyết; mapping nhịp–giai đoạn. |
+| 01 — Kịch bản | Đặt nơi sống tại Vân Nam; gắn lịch mùa và nguồn nguyên liệu với công việc, gia đình và thành quả; lập concept/motif từ video tham chiếu đã chọn. | Brief và lịch tập; câu hỏi tiểu vùng/thời kỳ/mùa; mapping nhịp–giai đoạn và bản đối chiếu tham chiếu. |
 | 02 — Kiểm chứng | Xác minh chi tiết địa phương, công năng vật dụng, thao tác/sinh hoạt và mùa vụ; phân biệt nguồn thật với ảnh tạo. | Bằng chứng cho world profile và CN-01/03/05/06; danh sách mâu thuẫn/chưa biết. |
 | 03 — Mỹ thuật/liên tục | Xây bộ thiết kế kiến trúc–đạo cụ–áo–cây–màu theo vùng và mùa; giữ asset ID, sổ trạng thái. | `world-profile.json`, ảnh chuẩn/thiết kế có thật và `shot-context.json` phần mỹ thuật. |
 | 04 — Thiết kế quay | Chọn khung thấy đủ thông tin công việc và môi trường cần thiết; giữ bối cảnh cả ngoài hành động chính. | Mapping shot với phiếu bối cảnh và dấu hiệu cần thấy; kế hoạch nối/chuyển mùa. |
@@ -141,7 +141,7 @@ Thiếu bằng chứng là `not_checked`/`blocked` đúng mục, không tự th�
 
 | Ca | Đầu vào giả lập | Hành vi đúng |
 | --- | --- | --- |
-| T13 | Brief chỉ nói Trung Quốc; một tài liệu mẫu mặc định Tứ Xuyên | Giữ quốc gia đã xác nhận; địa phương vẫn là đề xuất/chưa chốt, nghiên cứu đúng biến cần thiết. |
+| T13 | Dự án đã chốt Vân Nam nhưng một tài liệu/ảnh mẫu mặc định tỉnh khác | Giữ Vân Nam; chỉ tiểu vùng còn mở. Đối chiếu chi tiết và điều chỉnh theo hồ sơ, không đổi tỉnh theo nguồn mẫu. |
 | T14 | Nhà, bếp và đạo cụ lấy từ nhiều nguồn khác vùng nhưng chưa có căn cứ cùng xuất hiện | Kiểm nguồn và tính tương thích cụ thể, lập bộ thống nhất; không đánh đồng là đều Trung Quốc nên tự đạt. |
 | T15 | Hai shot liền hành động có mưa/đất ướt rồi khô ngay không có thời gian trôi | Ghi lỗi liên tục mùa/thời tiết và sửa đúng thiết kế hoặc take. |
 | T16 | Cây nền và nông sản trái lịch địa phương đã xác minh | Chặn mục mâu thuẫn, kiểm nguồn nguyên liệu/giai đoạn; không tự thêm nhà kính hoặc hàng mua để chữa lời kể. |
@@ -152,4 +152,49 @@ Thiếu bằng chứng là `not_checked`/`blocked` đúng mục, không tự th�
 
 ## 11. Phần cần tiếp tục xác định theo tập
 
-Quốc gia Trung Quốc và yêu cầu đúng văn hóa/mùa đã được người dùng xác nhận. Địa phương cụ thể, thời kỳ, mùa/giai đoạn của từng tập, giống cây, bộ ảnh có nguồn và palette tương ứng còn cần nghiên cứu/lựa chọn khi triển khai. Tài liệu này chưa tự chọn Tứ Xuyên, lịch bốn mùa, bản sắc dân tộc hoặc thay đổi bộ nhân vật/bối cảnh đã duyệt.
+**Vân Nam, Trung Quốc** và mục tiêu motif/concept tương tự video Lý Tử Thất đã được người dùng xác nhận. Tiểu vùng/làng mẫu, thời kỳ, mùa/giai đoạn của từng tập, giống cây, bộ ảnh có nguồn và palette tương ứng còn cần nghiên cứu/lựa chọn khi triển khai. Không hỏi lại tỉnh đã chốt; chỉ làm rõ chi tiết thực sự chặn cảnh cụ thể. Tài liệu này chưa chọn một tiểu vùng, lịch bốn mùa, bản sắc dân tộc hoặc thay đổi bộ nhân vật/bối cảnh đã duyệt.
+
+## 12. Học motif và concept từ Lý Tử Thất, triển khai trong thế giới Vân Nam
+
+### 12.1. Hai lớp phải cùng đạt
+
+1. **Lớp concept/motif:** xác định điều muốn học từ tập nguồn — ý tưởng trung tâm, vòng công việc, sự biến đổi sản vật, cách cho thấy năng lực/thành quả, quan hệ gia đình, nhịp nghỉ–làm–nhận kết quả và các hình ảnh/hành động được lặp có chức năng. Đây là những nội dung cần đọc từ nguồn cụ thể hoặc ghi là thiết kế đề xuất; chưa quan sát thì chưa báo là đặc điểm của tập đó.
+2. **Lớp bối cảnh thực hiện:** thể hiện ý tưởng bằng nhân vật và tài sản Farm, với nhà–vườn–bếp, vật dụng, nguyên liệu, sinh hoạt, ánh sáng và mùa phù hợp Vân Nam. Chi tiết nào dùng chung có căn cứ thì giữ; chi tiết nào mâu thuẫn phải điều chỉnh có lý do và giữ chức năng cảnh.
+
+Theo lựa chọn hiện hành, tập đầu vẫn ưu tiên giữ gần trình tự tham chiếu để học làm; các tập sau nâng cấp/sáng tạo hơn. Nếu điều chỉnh theo thực tế Vân Nam buộc đổi phần đã chốt của trình tự hay nội dung, ghi rõ tác động và xử lý theo quyền hiện có. Không tự bỏ lựa chọn giữ gần trình tự hoặc tự chuyển cả thế giới sang địa phương của nguồn.
+
+### 12.2. Bản đối chiếu nguồn → concept/motif → cảnh Farm
+
+Tạo `reference-adaptation.json` theo tập. Đây là hợp đồng dữ liệu đề xuất của Farm, không phải schema core đã có. Có phần concept/motif toàn tập và các hàng theo chuỗi/nhịp/shot:
+
+| Nhóm | Cần ghi |
+| --- | --- |
+| Nguồn và độ phủ | Video/asset ID, bản nguồn/checksum khi có, URL và locator/timecode; đã xem hình, nghe âm hay chỉ đọc báo cáo/ảnh; phần chưa kiểm. |
+| Ý tưởng tập | Concept nguồn được quan sát/thuật lại/diễn giải, concept Farm lựa chọn, mục tiêu trải nghiệm và phần người dùng đã chốt. |
+| Motif | Hình ảnh/hành động/âm hoặc quan hệ trở lại có chức năng gì, xuất hiện ở đâu, dự kiến biến đổi/được trả kết quả thế nào trong Farm. Một chủ đề chung chưa tự là motif lặp. |
+| Chức năng nguồn | Chuỗi/shot nguồn cho thấy điều gì, vì sao cần trong mạch; bằng chứng hay giả thuyết về chức năng được ghi đúng loại. |
+| Chuyển sang Farm | Beat/shot ID, phần giữ về concept/motif/trình tự, phần đổi sang Vân Nam và lý do; liên kết world profile và shot-context. |
+| Kiểm thực tế | Kiến trúc, đồ dùng, thao tác, món/nguyên liệu, mùa vụ hoặc biểu tượng cần đối chiếu; nguồn kiểm địa phương và kết quả. |
+| Nghiệm thu | Dấu hiệu phải thấy/nghe, phần đã duyệt cần giữ, đánh đổi, trạng thái quyết định và bằng chứng sản phẩm thật khi đã có. |
+
+Không dùng bảng này để tuyên bố đã xem toàn bộ một tập từ shot list hoặc ảnh trích. Không tự gán tỷ lệ giống, cảm xúc người xem hoặc ý đồ tác giả như dữ kiện đã đo. Mức tương đồng được mô tả bằng các lựa chọn cụ thể có thể kiểm, đồng thời tuân thủ CN-01 đến CN-12.
+
+### 12.3. Trách nhiệm bổ sung cho chín khâu
+
+- **01:** lập concept tập và đường đi motif; mapping nhịp/trình tự với nguồn đã chọn, ghi rõ phần giữ/điều chỉnh.
+- **02:** đối chiếu từng chi tiết phụ thuộc địa phương/mùa với Vân Nam; ghi mâu thuẫn và phương án thực tế.
+- **03:** xây asset/không gian/đạo cụ/palette thực hiện được concept tại Vân Nam, giữ bộ nhân vật đã duyệt.
+- **04:** chuyển chức năng cảnh nguồn thành bộ góc Farm đọc được hành động, chất liệu, tiến trình và thành quả; ghi lựa chọn giống/đổi cùng lý do.
+- **05:** prompt mô tả nội dung và hành động cụ thể từ bản đối chiếu; tên Lý Tử Thất riêng lẻ không thay nội dung, ảnh đầu hoặc bộ tham chiếu.
+- **06:** so nguồn → bản đối chiếu → hồ sơ Vân Nam → ảnh/prompt; chặn mâu thuẫn nội dung/văn hóa/mùa còn ảnh hưởng job.
+- **07:** chạy đúng gói, liên kết run/take với bản đối chiếu và profile đã dùng; không sửa ý tưởng hoặc tỉnh trong lúc vận hành.
+- **08:** kiểm take thực hiện đúng chức năng shot và giữ motif/phần phải giữ; đồng thời kiểm bối cảnh Vân Nam trên vùng nhìn/nghe được.
+- **09:** nghiệm thu concept/motif ở cấp chuỗi/toàn tập: tiến trình rõ, motif có chỗ trở lại/biến đổi phù hợp thiết kế, thành quả và quan hệ được thể hiện; hình–âm không phá bối cảnh/mùa. Nhận xét biên tập chưa phải kết quả khán giả.
+
+### 12.4. Ca nghiệm thu bổ sung
+
+| Ca | Đầu vào giả lập | Hành vi đúng |
+| --- | --- | --- |
+| T21 | Concept từ tập nguồn được giữ nhưng một công đoạn/đạo cụ chưa được xác minh cho Vân Nam | Giữ chức năng/ý tưởng đã chọn, kiểm chi tiết địa phương rồi giữ hoặc điều chỉnh có căn cứ; không tự coi nguồn là chứng nhận Vân Nam. |
+| T22 | Prompt chỉ ghi “giống Lý Tử Thất, Vân Nam” nhưng thiếu hành động, vật liệu và điểm nối | Trả về concept/motif, world profile và shot plan để viết yêu cầu cụ thể; chưa coi đủ điều kiện chạy. |
+| T23 | Các take riêng đẹp nhưng motif hoặc tiến trình đã duyệt mất trong bản dựng | Định vị phần thiếu ở timeline, sửa cấu trúc/coverage đúng phạm vi; kiểm lại cả concept và CN, không chấm giống bằng vẻ ảnh đơn lẻ. |

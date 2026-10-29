@@ -1,7 +1,7 @@
 # Farm — Định hướng chính thức
-- Phiên bản: **1.2**.
+- Phiên bản: **1.3**.
 - Cập nhật: **29/10/2026**, theo giờ Việt Nam.
-- Nguồn quyết định: câu trả lời 1–11 và yêu cầu bổ sung bối cảnh Trung Quốc ngày 29/10/2026 của người dùng trong dự án Nghiên Cứu LTT.
+- Nguồn quyết định: câu trả lời 1–11, yêu cầu bối cảnh Trung Quốc và câu trả lời chốt **Vân Nam; motif/concept tham chiếu Lý Tử Thất** ngày 29/10/2026 của người dùng trong dự án Nghiên Cứu LTT.
 - Tài liệu này ghi quyết định hiện hành. [Dữ liệu đầu vào](Farm_Du_lieu_goc_01.md) và câu hỏi ban đầu được giữ để truy nguyên, không dùng phần giới thiệu cũ thay cho lựa chọn mới.
 - Tên dự án tạm thời vẫn là **Farm**; chưa chốt tên kênh chính thức.
 
@@ -33,12 +33,12 @@ Người dùng mô tả mong muốn xoa dịu sự mệt mỏi, stress và trầ
 - Lần thử hiện hành chỉ cô gái và vườn, tạm chưa thêm bà hoặc vật nuôi. Thiết lập đời sống lâu dài có bà vẫn giữ.
 - Tham chiếu cụ thể của bà/vật nuôi, loài nông sản và lịch mùa vụ chưa được đối chiếu trong bài thử này; không tự coi ảnh khác là bản đã duyệt.
 
-### Bối cảnh Trung Quốc và các mùa — yêu cầu bổ sung ngày 29/10/2026
+### Bối cảnh Vân Nam, Trung Quốc và các mùa — bổ sung ngày 29/10/2026
 
-- **Thế giới trong phim là nông thôn Trung Quốc.** Kiến trúc, sân vườn, cảnh quan, vật dụng, trang phục, màu sắc, hành động lao động và sinh hoạt phải phù hợp văn hóa và bối cảnh Trung Quốc.
+- **Thế giới trong phim là nông thôn Vân Nam, Trung Quốc.** Đây là lựa chọn địa phương đã được người dùng chốt. Kiến trúc, sân vườn, cảnh quan, vật dụng, trang phục, màu sắc, hành động lao động và sinh hoạt phải phù hợp bối cảnh Vân Nam cụ thể được thiết kế cho tập.
 - Các tập/cảnh có thể diễn ra trong những mùa khác nhau. Từng shot cần xác định mùa/giai đoạn, thời tiết, trạng thái cây trồng, trang phục, vật liệu và hoạt động tương ứng; chuyển mùa hoặc lược thời gian phải có quan hệ rõ trong mạch phim.
 - Hình ảnh làng quê xanh tươi là lời hứa trải nghiệm, không yêu cầu mọi cây xanh quanh năm; dấu hiệu sinh trưởng/rụng lá/thu hoạch cần đúng loài, địa phương và giai đoạn đã chọn.
-- Địa phương cụ thể, thời kỳ đời sống và lịch mùa vụ của từng tập **chưa được chốt chỉ từ yêu cầu này**. Không tự lấy một tỉnh, một nhóm văn hóa hoặc phong tục làm đại diện toàn Trung Quốc.
+- **Tỉnh Vân Nam đã chốt**; tiểu vùng/làng mẫu, thời kỳ đời sống và lịch mùa vụ của từng tập còn cần xác định theo nội dung. Không tự lấy một kiểu nhà, nhóm văn hóa, phong tục hoặc lịch cây trồng làm đại diện toàn tỉnh.
 - Mỹ vẫn là thị trường khán giả ưu tiên; bối cảnh trong phim vẫn là Trung Quốc. Thiết kế cho khán giả Mỹ không tự cho phép chuyển vật dụng, nhà cửa hay sinh hoạt sang bối cảnh khác.
 - Áp dụng [tiêu chuẩn bối cảnh Trung Quốc](Quy_trinh_san_xuat/Tieu_chuan_boi_canh_Trung_Quoc.md) xuyên suốt chín khâu. Bối cảnh/văn hóa/mùa phù hợp là điều kiện nghiệm thu bắt buộc, cùng với nhận diện, vật lý và khả năng dựng.
 - Giữ nguyên bộ ảnh đã duyệt để truy nguyên. Khi có dấu hiệu mâu thuẫn với yêu cầu mới, kiểm và ghi rõ phần xung đột; không tự thay mặt, thiết kế vườn hoặc ghi đè ảnh chuẩn. Bản đã duyệt về bố cục/nhân vật chưa tự có nghĩa đã được xác minh văn hóa và mùa.
@@ -57,10 +57,13 @@ Chuỗi “mùa vụ → thu hoạch → chế biến → quây quần” là c�
 
 ## 5. Học tập từ Lý Tử Thất
 
+- **Mục tiêu người dùng làm rõ ngày 29/10/2026:** lấy video Lý Tử Thất làm ý tưởng và làm video có **motif, concept giống video Lý Tử Thất**. Đây là tham chiếu sáng tạo xuyên suốt, cần được chuyển thành yêu cầu quan sát/thiết kế cụ thể cho từng tập.
 - **Tập đầu:** người dùng muốn giữ gần nguyên trình tự cảnh của video tham chiếu để học quy trình làm.
 - **Các tập sau:** nâng cấp và sáng tạo hơn.
 - Dùng nhân vật và bối cảnh của người dùng.
 - Học bố cục, quan hệ cỡ cảnh, chiều sâu, chất liệu, nhịp kể công việc và cách cho thấy thành quả.
+- Ghi rõ concept tập, motif được học, vai trò từng chuỗi/shot nguồn, phần muốn giữ và phần cần điều chỉnh sang Vân Nam. Đối chiếu nhà cửa, vật dụng, món ăn, thao tác, cây trồng và mùa với nguồn địa phương trước sản xuất; video tham chiếu không tự chứng minh các chi tiết đó thuộc Vân Nam.
+- Mức giống được nghiệm thu qua cấu trúc trải nghiệm, tiến trình lao động, motif, hình–âm và nhịp đã xác định; không tự đặt phần trăm giống hoặc dùng riêng nhãn “phong cách Lý Tử Thất” làm tiêu chí. Tài sản nhân vật/bối cảnh đã duyệt vẫn được giữ theo quyền tham chiếu.
 - [VID 01](VID_01/README.md) hiện là bộ shot list đã được phân tích trong kho; chưa có xác nhận riêng rằng đây chắc chắn là video được chọn cho tập đầu.
 - Một số trường tái dựng của nguồn còn mâu thuẫn. Khi viết shot sản xuất, kiểm lại diễn tiến và tính nhất quán từng cảnh; giữ thứ tự tham chiếu không có nghĩa dùng nguyên các trường sai.
 - Việc đăng video hoàn chỉnh chưa thuộc thao tác đã thực hiện trong lần tiếp nhận này.
@@ -110,7 +113,7 @@ Chưa đặt ngưỡng CTR, VPH, retention hoặc doanh thu tuyệt đối. Bài
 - Độ dài video thành phẩm, lịch đăng, trần chi phí và nhân lực.
 - Bộ ảnh cô gái/vườn đã chốt cho test hiện hành; tham chiếu bà và vật nuôi sẽ đối chiếu khi tới cảnh tương ứng.
 - Nông sản/món ăn cụ thể và trạng thái ở từng công đoạn.
-- Địa phương tại Trung Quốc, thời kỳ đời sống, mùa/giai đoạn theo từng tập và bộ tham chiếu kiểm chứng tương ứng.
+- Tiểu vùng/làng mẫu tại Vân Nam, thời kỳ đời sống, mùa/giai đoạn theo từng tập và bộ tham chiếu kiểm chứng tương ứng; tỉnh Vân Nam đã chốt.
 - Giao diện, chế độ tham chiếu, độ dài và âm thanh mà Dola thực sự cung cấp.
 - Tiêu chí lỗi chấp nhận/cần tạo lại; người kiểm tra thao tác trồng/nấu.
 - Cách giới thiệu thế giới/nhân vật AI với người xem.
