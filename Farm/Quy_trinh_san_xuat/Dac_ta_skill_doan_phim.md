@@ -1,6 +1,6 @@
 # Farm — Đặc tả nhiệm vụ và đầu ra cho 9 skill sản xuất
 
-- Phiên bản: **1.0.0**.
+- Phiên bản: **1.1.0**.
 - Ngày biên soạn: **29/10/2026**, giờ Việt Nam.
 - Trạng thái: **đề xuất để xây skill Codex; chưa cài đặt hoặc chạy thử các skill**.
 - Phạm vi: Kịch bản → kiểm chứng thực tế → mỹ thuật và tính liên tục → thiết kế quay → prompt → kiểm tra trước chạy → tạo video → kiểm tra thành phẩm → dựng.
@@ -9,6 +9,8 @@
 ## 1. Căn cứ và cách dùng
 
 Đọc [AGENTS.md](../../AGENTS.md), [định hướng chính thức](../Dinh_huong_chinh_thuc.md), [hồ sơ khán giả](../Ho_so_khan_gia.md) và yêu cầu hiện hành trước khi làm. Giữ lời hứa thư giãn trong thế giới làng quê, ưu tiên Mỹ, chủ yếu không thoại, nhân vật và đời sống tiếp diễn. Người dùng phụ trách âm môi trường và nhạc. Công cụ dự kiến là Seedance 2.5 qua Dola; khả năng thực có của tài khoản cần được kiểm tra.
+
+**Yêu cầu bổ sung đã được người dùng xác nhận ngày 29/10/2026:** thế giới trong phim là **nông thôn Trung Quốc**; bối cảnh, vật dụng, màu sắc, hành động và sinh hoạt phải phù hợp văn hóa Trung Quốc và các mùa của câu chuyện. Cả chín skill phải đọc [tiêu chuẩn bối cảnh Trung Quốc và tính đúng mùa](Tieu_chuan_boi_canh_Trung_Quoc.md). Khán giả ưu tiên Mỹ không làm thay đổi địa điểm trong phim. Địa phương/thời kỳ chưa chốt thì ghi đúng phần còn mở; không tự chốt Tứ Xuyên hoặc lấy hình tượng “Á Đông” chung làm căn cứ nghiệm thu.
 
 Đã đối chiếu FILM-KB hiện hành trên main: **1.3.1**, commit quan sát `ac1077c2444fc9351528da64ca109f0ba7869d28`. Các đường dẫn làm việc luôn trỏ main:
 
@@ -65,6 +67,7 @@ Mỗi khâu bàn giao **tệp sản phẩm + phiếu kiểm + việc tiếp theo
 | Nhận diện | `episode_id`, `stage_id`, `item_ids`, `artifact_id`, `artifact_version`, `producer_role`, người/công cụ thực hiện. |
 | Phụ thuộc | `input_refs`: đường dẫn/URI, ID, phiên bản và checksum nội dung đầu vào; commit khi phù hợp. |
 | Ràng buộc | `protected_elements`, phạm vi đã duyệt, ngân sách/ủy quyền nếu có thực thi tốn phí. |
+| Bối cảnh | `world_profile_ref` gồm ID/phiên bản/checksum; `shot_context_refs`, giai đoạn mùa và `context_check_ids` áp dụng từ CN-01 đến CN-12; dữ liệu thiếu và lý do không áp dụng. |
 | Sản phẩm | `output_refs`: vị trí tệp thật, loại tệp, checksum; hoặc trạng thái chưa tạo cùng lý do. |
 | Kiểm tra | `checks`: mã tiêu chí, kỳ vọng, kết quả, bằng chứng và phạm vi đã kiểm. |
 | Vấn đề | `issues`: mức lỗi, item/timecode, triệu chứng, bằng chứng, khâu nhận sửa, cách kiểm lại. |
@@ -84,6 +87,8 @@ Khi đầu vào thay đổi, đánh dấu `stale` cho các gate phụ thuộc tr
 ```text
 <thu-muc-tap>/
   brief.md
+  world-profile.json
+  shot-context.json
   script.json
   reality-check.json
   art-continuity.json
@@ -98,6 +103,8 @@ Khi đầu vào thay đổi, đánh dấu `stale` cho các gate phụ thuộc tr
 ```
 
 `script.json`, `shot-plan.json` và từng yêu cầu tạo sử dụng schema core tương ứng. Trường điều phối bổ sung đặt trong `gates.json` hoặc tệp liên quan, không tự thêm trường vào schema core có `additionalProperties: false`. `generation-requests.json` là mảng các đối tượng theo schema yêu cầu tạo. Markdown là bản đọc xuất từ dữ liệu khi cần, không duy trì hai nguồn nội dung độc lập.
+
+`world-profile.json` là hồ sơ địa phương–thời kỳ–văn hóa–mùa dùng chung; `shot-context.json` ánh xạ từng shot với địa điểm, đạo cụ, màu, cây trồng, hành động và dấu hiệu mùa. Hai tệp này theo hợp đồng Farm trong tài liệu bối cảnh, không phải schema core đã có. Khâu đầu lập theo beat; khi có shot ID phải bổ sung mapping. Các trường CN chỉ đặt trong các tệp bổ sung/phiếu gate; `acceptance_checks` hiện có của core có thể dẫn mã và mô tả yêu cầu.
 
 ## 3. Skill 01 — Kịch bản
 
@@ -120,8 +127,11 @@ Khi đầu vào thay đổi, đánh dấu `stale` cho các gate phụ thuộc tr
 - `KB-03`: kết và phần mở đầu phù hợp lời hứa đã chọn; không thêm xung đột mạnh trái định hướng chỉ để tạo chú ý.
 - `KB-04`: danh tính, số người và phạm vi từng bài đúng yêu cầu. Bài thử chỉ cô gái/vườn không tự thêm bà; các tập khác vẫn giữ thế giới có bà theo brief.
 - `KB-05`: cảm giác thư giãn là ý đồ cần thử; thời lượng là mục tiêu, không coi 3 giây/cảnh hay số cảnh của nguồn là định mức toàn dự án.
+- `KB-06`: câu chuyện đặt tại nông thôn Trung Quốc; công việc, sinh hoạt, nguồn nguyên liệu và lịch mùa được gắn với hồ sơ bối cảnh. Mùa/địa phương còn mở được đánh dấu để kiểm chứng, không tự viết thành sự thật. Dẫn CN-01/05/06/10 theo phạm vi.
 
 **Đầu ra:** `script.json` theo [script.schema.json](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/schema/script.schema.json), kèm danh sách câu hỏi kiểm chứng và phiếu gate 01. Có các ID phân đoạn/nhịp, chức năng, trạng thái, hình/âm, giả định, ràng buộc và tiêu chí kiểm. `viewer_tested` phản ánh dữ liệu thật.
+
+**Bàn giao bối cảnh:** brief và lịch tập ghi Trung Quốc, địa phương/thời kỳ/mùa đã chọn hoặc còn mở; mapping nhịp–giai đoạn và câu hỏi kiểm thực tế. Skill chủ động kiểm KB-06 trước chuyển, không chỉ thêm tên quốc gia vào mô tả.
 
 **Điều kiện chuyển:** kịch bản rõ việc, đúng brief và các chỗ cần kiểm chứng được định vị. Gate này xác nhận đủ để kiểm chứng, chưa chứng nhận quy trình trồng/nấu đúng. Nếu brief mâu thuẫn, làm rõ đúng mâu thuẫn; phần nháp độc lập vẫn tiếp tục.
 
@@ -146,8 +156,11 @@ Khi đầu vào thay đổi, đánh dấu `stale` cho các gate phụ thuộc tr
 - `TT-03`: mùa vụ, vật liệu, thời gian và chuỗi chế biến không mâu thuẫn làm sai nội dung; khoảng chờ/lược được thiết kế rõ khi cần.
 - `TT-04`: nguồn mâu thuẫn được ghi và xử lý; còn bất định trọng yếu thì chặn đúng cảnh, không tuyên bố đã kiểm xong cả tập.
 - `TT-05`: lựa chọn hư cấu/thẩm mỹ được ghi riêng; quan sát AI tạo ra không được dùng làm nguồn chứng minh thao tác đời thực.
+- `TT-06`: kiểm bằng nguồn phù hợp địa phương/thời kỳ tại Trung Quốc đối với kiến trúc/đồ dùng, thao tác/sinh hoạt và lịch cây–nguồn nguyên liệu–mùa; không khái quát một vùng cho cả nước. Dẫn CN-01/02/03/05/06/07/09 theo cảnh.
 
 **Đầu ra:** `reality-check.json`, gồm mỗi mục: `claim_id`, beat liên quan, điều cần kiểm, nguồn/locator, loại bằng chứng, kết luận `supported|contradicted|uncertain`, lý do, ảnh hưởng và đề xuất sửa. Kèm gate 02 và danh sách điều bắt buộc giữ khi chuyển sang thiết kế.
+
+**Bàn giao bối cảnh:** bằng chứng và giới hạn cho `world-profile.json`, các bảng kiểm mùa vụ/đạo cụ/hành động theo lịch câu chuyện. Chưa xác minh thì ghi chưa biết; không lấy ảnh AI làm chứng cứ văn hóa đúng.
 
 **Điều kiện chuyển:** các vấn đề thực tế ảnh hưởng cảnh được giải quyết hoặc được thay bằng phương án phù hợp đã duyệt. Thiếu chuyên gia/nguồn cho chi tiết trọng yếu thì `blocked` cảnh đó; tiếp tục kiểm phần khác. Codex không tự nhận là chuyên gia đã nghiệm thu khi chỉ tổng hợp tài liệu.
 
@@ -172,8 +185,11 @@ Khi đầu vào thay đổi, đánh dấu `stale` cho các gate phụ thuộc tr
 - `MT-03`: mỗi thay đổi quan trọng từ nhịp/cảnh trước sang sau có nguyên nhân hoặc khoảng lược rõ.
 - `MT-04`: ảnh đầu có người/vật/dụng cụ và quan hệ khả thi; chi tiết nằm ngoài ảnh được ghi thiếu thay vì tự coi đã xác nhận.
 - `MT-05`: thiết kế đủ thông tin phục vụ shot, không thêm chi tiết làm đổi thế giới đã duyệt.
+- `MT-06`: bộ thiết kế và ảnh đầu thống nhất vùng quê Trung Quốc, thời kỳ và giai đoạn mùa; kiến trúc, cây nền, đạo cụ, trang phục, màu vật liệu và dấu sinh hoạt có tham chiếu phù hợp. Kiểm CN-02/03/04/06/07/08/09/12, bảo vệ ảnh đã duyệt khi xử lý xung đột.
 
 **Đầu ra:** `art-continuity.json`: asset registry, reference authority, sơ đồ/ảnh thiết kế được liên kết, sổ trạng thái theo beat rồi theo shot, thuộc tính giữ/được đổi, vùng chưa biết và gate 03. Tệp hình có thật được lưu/liên kết với checksum; tệp chưa tạo phải ghi rõ.
+
+**Bàn giao bối cảnh:** `world-profile.json` phần thiết kế, bộ ảnh chuẩn có nguồn và `shot-context.json` theo beat/shot; mỗi màu chủ đạo có vật mang, mỗi thay đổi mùa có thời gian/tác nhân. Bộ ảnh duyệt cũ phải được đối chiếu lớp này trước khi báo đạt bối cảnh mới.
 
 **Điều kiện chuyển:** đủ thiết kế và trạng thái để lập bộ góc. Ảnh đầu theo shot có thể hoàn thiện sau khâu 04 nhưng phải được kiểm trước khâu 06. Mâu thuẫn thao tác trả khâu 02; mâu thuẫn câu chuyện trả khâu 01.
 
@@ -200,8 +216,11 @@ Khi đầu vào thay đổi, đánh dấu `stale` cho các gate phụ thuộc tr
 - `QY-04`: thời lượng đủ cho hành động và điểm cắt dự kiến; ghi là thiết kế cho tới khi có take thật.
 - `QY-05`: camera, ánh sáng và màu có mô tả thực hiện được; thông số máy thật chỉ là ý đồ khi chưa có công cụ/metadata bảo đảm.
 - `QY-06`: đã xác định shot rủi ro để thử trước, tránh tạo hàng loạt trước khi biết cảnh quyết định có làm được hay không.
+- `QY-07`: bố cục và bộ góc giữ đúng nơi sống Trung Quốc và giai đoạn mùa, đủ thông tin môi trường khi cần; điểm nối/chuyển mùa có phương án rõ. Ánh sáng/màu được thiết kế theo hồ sơ, kiểm CN-02/06/07/08/10 trong phạm vi hình ảnh.
 
 **Đầu ra:** `shot-plan.json` theo [shot-plan.schema.json](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/schema/shot-plan.schema.json); storyboard/animatic nếu thực sự đã tạo; mapping beat–shot–job và gate 04 trong phiếu điều phối. Mỗi shot có ID, trạng thái, hành động, góc/bố cục, hình–âm, tham chiếu, liên tục và acceptance checks.
+
+**Bàn giao bối cảnh:** hoàn thiện mapping shot–hồ sơ–giai đoạn trong `shot-context.json`, chỉ rõ dấu hiệu nhìn thấy và nội dung ngoài khung kế thừa hồ sơ. Không yêu cầu mọi shot cận phải nhồi mái nhà/đèn lồng để biểu thị quốc gia.
 
 **Điều kiện chuyển:** có bộ shot đủ dựng và tiêu chí cụ thể để viết prompt. Nếu cần đổi vị trí, đạo cụ hoặc ảnh đầu, trả khâu 03 để cập nhật; thay hành động quan trọng quay về kiểm chứng/kịch bản tương ứng.
 
@@ -228,8 +247,11 @@ Khi đầu vào thay đổi, đánh dấu `stale` cho các gate phụ thuộc tr
 - `PR-04`: một job có mục tiêu thực hiện rõ; nhiều hành động/shot chỉ gộp khi công cụ và bài thử hỗ trợ cách đó.
 - `PR-05`: thời lượng yêu cầu sinh và thời lượng dùng trong dựng được ghi riêng; ý định cắt 3 giây không biến thành cài đặt sinh 3 giây.
 - `PR-06`: yêu cầu âm phù hợp brief; với trường hợp hiện hành, không tự thêm thoại/nhạc, ghi tiếng thao tác cần kiểm.
+- `PR-07`: prompt và tham chiếu thể hiện chi tiết đã kiểm của vùng/thời kỳ/mùa Trung Quốc theo shot: vật liệu, vật dụng, hành động, cây, phục trang và ánh sáng/màu liên quan; các mã CN áp dụng có mapping. Cụm “Chinese countryside” hoặc màu đỏ/đèn lồng tự thêm không thay thế hồ sơ.
 
 **Đầu ra:** `generation-requests.json`, mỗi mục theo [generation-request.schema.json](https://github.com/ducna841188/kien-thuc-dien-anh/blob/main/thu-vien/schema/generation-request.schema.json). Phiếu kèm mapping ID yêu cầu–shot–ảnh, checksum prompt/ảnh, ngôn ngữ, thiết lập, phần chưa hỗ trợ và gate 05. `tested` chỉ đổi khi có lượt thử thực phù hợp.
+
+**Bàn giao bối cảnh:** trong phiếu điều phối, gắn request với bản world profile/shot-context và các chi tiết cần giữ/không tương thích có lý do. Tách phần nhập thật vào công cụ khỏi metadata, không thêm field giả để khóa địa phương hoặc mùa.
 
 **Điều kiện chuyển:** gói prompt đủ để kiểm trước chạy. Đây chưa phải giấy phép chạy và chưa xác nhận video sẽ đạt. Thiếu cách điều khiển một ràng buộc then chốt thì chuyển thành bài thử nhỏ hoặc phương án chia việc, không hứa prompt khóa tuyệt đối.
 
@@ -255,8 +277,11 @@ Khi đầu vào thay đổi, đánh dấu `stale` cho các gate phụ thuộc tr
 - `PC-03`: model/chế độ, số ảnh và thiết lập cần thiết đủ bằng chứng sử dụng; điều chưa biết chỉ được thử trong job thăm dò có phạm vi rõ.
 - `PC-04`: có quyền thực hiện và giới hạn chi phí/lượt chạy phù hợp. Tận dụng quyền hiện có, chỉ hỏi phần thiếu thực sự chặn việc.
 - `PC-05`: có tiêu chí kiểm sản phẩm và đường sửa khi thất bại; job chạy lại không trùng một job đang chờ xử lý.
+- `PC-06`: đối chiếu ảnh thật, prompt và gói tham chiếu với CN áp dụng: vùng/thời kỳ, kiến trúc, đồ dùng, màu, hành động, cây và mùa; rà tiền–trung–hậu cảnh. Thiếu dữ kiện ảnh hưởng trực tiếp thì chặn job chính thức; xung đột ảnh đã duyệt được giải quyết đúng quyền.
 
 **Đầu ra:** `preflight.json` theo từng request/job: snapshot/checksum đầu vào, checklist, lỗi, job đủ điều kiện, job bị chặn, hạn mức, căn cứ ủy quyền, điều kiện dừng và gate 06. Chỉ job `pass` với quyền hợp lệ mới được nộp chạy.
+
+**Bàn giao bối cảnh:** kết quả các phép kiểm CN trên đúng gói, world profile/shot-context còn hiệu lực, danh sách sai/thiếu và khâu nhận sửa. “Đã có ảnh đẹp” không miễn kiểm văn hóa/mùa.
 
 **Điều kiện chuyển:** gói được kiểm đúng bản và đủ quyền. Thiếu công cụ truy cập Dola thì hoàn thành phần kiểm tĩnh, ghi phần giao diện `not_checked`, bàn giao gói thao tác cho người thực hiện; không báo `pass` toàn gói hoặc đã nộp job. Có thể duyệt riêng job thăm dò chỉ để xác minh giao diện/năng lực nếu được phép.
 
@@ -281,8 +306,11 @@ Khi đầu vào thay đổi, đánh dấu `stale` cho các gate phụ thuộc tr
 - `TV-02`: tệp thực tồn tại, đọc được, có thời lượng/kích thước/fps hoặc timestamp đo từ file; không lấy thời lượng yêu cầu thay thời lượng đầu ra.
 - `TV-03`: giữ nguyên nguồn, không ghi đè, không tự đổi model/nội dung hoặc vượt hạn mức; mọi lần chạy đều được tính vào thống kê thực.
 - `TV-04`: phân biệt chờ chạy, lỗi dịch vụ, đã nhận tệp và take đạt chất lượng. Nộp thành công chưa có nghĩa đạt hình/chuyển động.
+- `TV-05`: run giữ đúng profile vùng–thời kỳ–mùa, ảnh/prompt và đạo cụ đã kiểm; ghi tham chiếu thực dùng, không tự đổi sang bối cảnh khác để dễ sinh. Đối chiếu CN-12 và chuyển các tiêu chí nội dung sang khâu 08.
 
 **Đầu ra:** `runs.json`, tệp video nguyên gốc hoặc URI truy cập được kèm checksum; request/run/take mapping; metadata đo; trạng thái job; đầu vào thực; credit/chi phí/thời gian; lỗi thực thi. Gate 07 xác nhận bàn giao tệp đủ để kiểm, không xác nhận chất lượng nội dung.
+
+**Bàn giao bối cảnh:** mỗi run/take truy được world profile, shot-context và kết quả preflight đúng bản. Video nhận được chưa được ghi là đúng văn hóa/mùa trước lượt kiểm nội dung.
 
 **Điều kiện chuyển:** có take thật đọc được để khâu 08 kiểm. Khi không có khả năng thao tác dịch vụ, ghi `execution_status: not_run` và điểm chặn chính xác; giữ gói chạy sẵn sàng. Không tự tạo API, nút giao diện, seed hoặc job ID giả.
 
@@ -309,8 +337,11 @@ Khi đầu vào thay đổi, đánh dấu `stale` cho các gate phụ thuộc tr
 - `TP-04`: trạng thái ra nối được với shot tiếp; chưa có shot tiếp thì ghi đánh giá liên tục chuỗi chưa hoàn tất.
 - `TP-05`: âm được nghe và đối chiếu nếu kết luận đồng bộ. Hình đạt/âm sai có thể giao hình cùng chỉ dẫn bỏ/thay âm, đúng phạm vi người dùng phụ trách.
 - `TP-06`: báo cáo phân biệt ảnh mẫu, khoảng chuyển động và khoảng âm đã tiếp cận. Metadata/ảnh trích không chứng nhận đã xem toàn chuyển động hoặc đã nghe.
+- `TP-07`: kiểm các mã CN áp dụng trên take/khoảng dùng thật, bao gồm vật dụng, hành động, cảnh nền, màu, trang phục, nông sản và dấu mùa trong toàn diễn tiến đã tiếp cận. Take đúng vật lý nhưng sai bối cảnh/văn hóa/mùa vẫn chưa đạt; kết luận dựa trên hồ sơ có căn cứ, không dựa định kiến hình thức.
 
 **Đầu ra:** `take-review.json`: take ID/checksum, từng phép kiểm và evidence span, lỗi/timecode, khoảng được dùng, trạng thái vào/ra, âm dùng/bỏ/chưa kiểm, kết luận `accept|accept_range|repair|regenerate|blocked`, khâu sửa và gate 08 theo take/đoạn. Nếu kết luận bị giới hạn bởi khả năng xem/nghe, ghi rõ phạm vi chưa kiểm; đoạn chưa đủ kiểm không được coi là đã đạt toàn bộ.
+
+**Bàn giao bối cảnh:** kết quả CN theo shot/take/source range, nguồn so và vị trí lỗi, phần chưa nhìn/nghe được; cảnh sai vùng/mùa/văn hóa phải có đường sửa và kiểm lại trước dùng chính thức.
 
 **Điều kiện chuyển:** dựng chính thức dùng các khoảng đã được nghiệm thu đúng phạm vi. Dựng nháp có thể dùng placeholder gắn nhãn rõ; không trộn placeholder vào bản giao như clip đã đạt. Sau upscale, nội suy, sửa vùng hoặc ghép phải kiểm lại phần chịu tác động.
 
@@ -338,8 +369,11 @@ Khi đầu vào thay đổi, đánh dấu `stale` cho các gate phụ thuộc tr
 - `DG-05`: thông số file được chọn theo mục đích và khả năng nguồn. Resolution, fps, codec, audio sample rate và mục tiêu loudness/true peak nếu dùng phải ghi rõ; không tự upscale hay gán 24 fps/-14 LUFS thành chuẩn mọi tập.
 - `DG-06`: tệp xuất thực được mở/kiểm lại. Nếu công cụ chỉ làm được kế hoạch dựng/EDL, bàn giao đúng loại đó và ghi bước dựng/xuất chưa thực hiện.
 - `DG-07`: bản cuối chỉ `ready_for_release` khi đủ hình/âm, kiểm bản xuất đã đạt và có nghiệm thu theo quyền được giao. Trạng thái đã phát hành cần bằng chứng thao tác phát hành riêng.
+- `DG-08`: chuỗi/toàn phim giữ đúng địa điểm, thời kỳ và lịch mùa; màu/âm/hậu kỳ không tạo dấu hiệu trái hồ sơ. Kiểm CN-08/10/11 và các CN chịu tác động sau ghép/grade; từng take đúng mùa chưa đủ khi timeline nối sai mùa.
 
 **Đầu ra:** `edit-plan.json` chứa timeline/EDL và ánh xạ nguồn; project dựng nếu công cụ hỗ trợ; master thật khi đã xuất; `delivery.json` chứa vị trí/checksum, metadata, phiên bản nội dung, phạm vi kiểm hình/âm, lỗi còn lại và quyết định nghiệm thu. Gate 09 ghi rõ `rough_cut|picture_lock|master` là loại bản giao, cùng trạng thái duyệt/phát hành tách biệt.
+
+**Bàn giao bối cảnh:** timeline gắn shot–giai đoạn mùa, điểm chuyển thời gian, kết quả kiểm toàn chuỗi và bản xuất trên đúng profile. Bản giao có lỗi bối cảnh bắt buộc chưa giải quyết chưa đủ điều kiện phát hành.
 
 **Điều kiện hoàn tất:** giao đúng loại sản phẩm người dùng yêu cầu, có bằng chứng kiểm tương ứng. Lỗi bản dựng/bản xuất đi qua lượt kiểm của khâu 08 trên đúng file rồi quay lại khâu 09 để sửa; không kết thúc quy trình ở việc xuất file thành công. Phát hành chỉ khi người dùng đã cho phép.
 
@@ -356,6 +390,7 @@ Khi đầu vào thay đổi, đánh dấu `stale` cho các gate phụ thuộc tr
 | Take đúng hình nhưng có nhạc/âm sai | 08 → 09, phối hợp người dùng làm âm | Phần hình đạt, nếu âm có thể thay mà vẫn đúng yêu cầu. |
 | Clip đạt riêng nhưng nối sai trong timeline | 09; quay 03/04 khi thiếu thông tin | Các source range đã đạt nếu vẫn phù hợp. |
 | File master sai màu/âm/timebase so với timeline | 09 → kiểm lại 08 | Nguồn gốc và lựa chọn dựng đã duyệt. |
+| Sai vùng quê Trung Quốc, đồ dùng/văn hóa hoặc lịch mùa | 02 kiểm căn cứ → 03/04/05 sửa gói → 08 kiểm take; lỗi nối mùa trả 09 | Bộ nhân vật/ảnh đã duyệt và phần hình–hành động đạt; ghi xung đột trước khi đổi tài sản. |
 
 Mỗi yêu cầu sửa có: lỗi và bằng chứng → giả thuyết nguyên nhân → thay đổi đề nghị → phần phải giữ → tiêu chí kiểm lại → phạm vi phụ thuộc cần làm mới. Không tự chạy lại cả chuỗi khi chỉ một cảnh bị ảnh hưởng.
 
@@ -398,6 +433,8 @@ Nếu cần điều phối, trước hết dùng một manifest quy trình chứ
 
 Các ca dưới đây là **tiêu chuẩn thử sau khi xây**, chưa phải kết quả đã chạy:
 
+Bổ sung các ca **T13–T20** trong [tiêu chuẩn bối cảnh Trung Quốc](Tieu_chuan_boi_canh_Trung_Quoc.md): thiếu vùng, trộn tham chiếu, sai thời tiết/mùa vụ, áp màu theo biểu tượng, vật dụng dùng chung, xung đột ảnh đã duyệt và nối sai mùa. Cả chín skill phải xử lý các ca phù hợp phạm vi.
+
 | Ca | Tình huống đưa vào | Hành vi phải thấy |
 | --- | --- | --- |
 | T01 — kịch bản | Brief không thoại nhưng mẫu nguồn có lời thuyết minh | Giữ brief, chuyển thông tin sang hình/âm phù hợp; không chép thoại mặc định. |
@@ -417,4 +454,4 @@ Khi nghiệm thu skill, ghi từng ca đã chạy, sản phẩm nhận được,
 
 ## 15. Phạm vi đã hoàn thành của tài liệu này
 
-Đã biên soạn hợp đồng bàn giao chung, nhiệm vụ/tiêu chí/đầu ra của chín khâu, quyền quyết định, vòng sửa lỗi và tình huống thử. Chưa tạo hoặc cài `SKILL.md`, chưa thực thi ca thử hành vi, chưa chạy Dola, chưa tạo tập phim và chưa có số liệu khán giả. Các chuẩn nghiệm thu đề xuất cần áp dụng thử vào một đoạn đại diện trước khi mở rộng sản xuất.
+Đã biên soạn hợp đồng bàn giao chung, nhiệm vụ/tiêu chí/đầu ra của chín khâu, quyền quyết định, vòng sửa lỗi và tình huống thử; bổ sung yêu cầu Trung Quốc–văn hóa–địa phương–mùa vào toàn bộ chín khâu. Có **58 tiêu chí theo khâu** và **12 tiêu chí bối cảnh dùng chung**, cùng **20 tình huống thử dự kiến**. Chưa tạo hoặc cài `SKILL.md`, chưa thực thi ca thử hành vi, chưa chạy Dola, chưa tạo tập phim và chưa có số liệu khán giả. Các chuẩn nghiệm thu đề xuất cần áp dụng thử vào một đoạn đại diện trước khi mở rộng sản xuất.

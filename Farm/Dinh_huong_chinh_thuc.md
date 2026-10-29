@@ -1,7 +1,7 @@
 # Farm — Định hướng chính thức
-- Phiên bản: **1.1**.
-- Cập nhật: **12/10/2026**, theo giờ Việt Nam.
-- Nguồn quyết định: câu trả lời 1–11 của người dùng trong dự án Nghiên Cứu LTT.
+- Phiên bản: **1.2**.
+- Cập nhật: **29/10/2026**, theo giờ Việt Nam.
+- Nguồn quyết định: câu trả lời 1–11 và yêu cầu bổ sung bối cảnh Trung Quốc ngày 29/10/2026 của người dùng trong dự án Nghiên Cứu LTT.
 - Tài liệu này ghi quyết định hiện hành. [Dữ liệu đầu vào](Farm_Du_lieu_goc_01.md) và câu hỏi ban đầu được giữ để truy nguyên, không dùng phần giới thiệu cũ thay cho lựa chọn mới.
 - Tên dự án tạm thời vẫn là **Farm**; chưa chốt tên kênh chính thức.
 
@@ -32,6 +32,16 @@ Người dùng mô tả mong muốn xoa dịu sự mệt mỏi, stress và trầ
 - Ngày 12/10/2026, người dùng đã duyệt hai ảnh cô gái và hai hướng nhìn của khu vườn; bản nguyên byte nằm trong [bộ tham chiếu test](Tests/Co_gai_va_vuon_30s/references/).
 - Lần thử hiện hành chỉ cô gái và vườn, tạm chưa thêm bà hoặc vật nuôi. Thiết lập đời sống lâu dài có bà vẫn giữ.
 - Tham chiếu cụ thể của bà/vật nuôi, loài nông sản và lịch mùa vụ chưa được đối chiếu trong bài thử này; không tự coi ảnh khác là bản đã duyệt.
+
+### Bối cảnh Trung Quốc và các mùa — yêu cầu bổ sung ngày 29/10/2026
+
+- **Thế giới trong phim là nông thôn Trung Quốc.** Kiến trúc, sân vườn, cảnh quan, vật dụng, trang phục, màu sắc, hành động lao động và sinh hoạt phải phù hợp văn hóa và bối cảnh Trung Quốc.
+- Các tập/cảnh có thể diễn ra trong những mùa khác nhau. Từng shot cần xác định mùa/giai đoạn, thời tiết, trạng thái cây trồng, trang phục, vật liệu và hoạt động tương ứng; chuyển mùa hoặc lược thời gian phải có quan hệ rõ trong mạch phim.
+- Hình ảnh làng quê xanh tươi là lời hứa trải nghiệm, không yêu cầu mọi cây xanh quanh năm; dấu hiệu sinh trưởng/rụng lá/thu hoạch cần đúng loài, địa phương và giai đoạn đã chọn.
+- Địa phương cụ thể, thời kỳ đời sống và lịch mùa vụ của từng tập **chưa được chốt chỉ từ yêu cầu này**. Không tự lấy một tỉnh, một nhóm văn hóa hoặc phong tục làm đại diện toàn Trung Quốc.
+- Mỹ vẫn là thị trường khán giả ưu tiên; bối cảnh trong phim vẫn là Trung Quốc. Thiết kế cho khán giả Mỹ không tự cho phép chuyển vật dụng, nhà cửa hay sinh hoạt sang bối cảnh khác.
+- Áp dụng [tiêu chuẩn bối cảnh Trung Quốc](Quy_trinh_san_xuat/Tieu_chuan_boi_canh_Trung_Quoc.md) xuyên suốt chín khâu. Bối cảnh/văn hóa/mùa phù hợp là điều kiện nghiệm thu bắt buộc, cùng với nhận diện, vật lý và khả năng dựng.
+- Giữ nguyên bộ ảnh đã duyệt để truy nguyên. Khi có dấu hiệu mâu thuẫn với yêu cầu mới, kiểm và ghi rõ phần xung đột; không tự thay mặt, thiết kế vườn hoặc ghi đè ảnh chuẩn. Bản đã duyệt về bố cục/nhân vật chưa tự có nghĩa đã được xác minh văn hóa và mùa.
 
 ## 4. Chất liệu nội dung người dùng xác nhận
 
@@ -100,6 +110,7 @@ Chưa đặt ngưỡng CTR, VPH, retention hoặc doanh thu tuyệt đối. Bài
 - Độ dài video thành phẩm, lịch đăng, trần chi phí và nhân lực.
 - Bộ ảnh cô gái/vườn đã chốt cho test hiện hành; tham chiếu bà và vật nuôi sẽ đối chiếu khi tới cảnh tương ứng.
 - Nông sản/món ăn cụ thể và trạng thái ở từng công đoạn.
+- Địa phương tại Trung Quốc, thời kỳ đời sống, mùa/giai đoạn theo từng tập và bộ tham chiếu kiểm chứng tương ứng.
 - Giao diện, chế độ tham chiếu, độ dài và âm thanh mà Dola thực sự cung cấp.
 - Tiêu chí lỗi chấp nhận/cần tạo lại; người kiểm tra thao tác trồng/nấu.
 - Cách giới thiệu thế giới/nhân vật AI với người xem.

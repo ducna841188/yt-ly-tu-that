@@ -12,9 +12,10 @@ Quy ước do người dùng xác nhận ngày 12/10/2026, theo giờ Việt Nam
 
 ## Tài liệu định hướng hiện hành của Farm
 
-- Đọc [Farm/Dinh_huong_chinh_thuc.md](Farm/Dinh_huong_chinh_thuc.md) trước khi lập kịch bản/quy trình sản xuất; đây là bản tổng hợp các quyết định người dùng đã chốt ngày 12/10/2026.
+- Đọc [Farm/Dinh_huong_chinh_thuc.md](Farm/Dinh_huong_chinh_thuc.md) trước khi lập kịch bản/quy trình sản xuất; đây là bản tổng hợp các quyết định người dùng đã chốt ngày 12/10/2026 và bổ sung ngày 29/10/2026.
 - Câu trả lời nguyên văn lưu trong [Farm/Y_tuong_chinh_thuc_va_cau_hoi_01.md](Farm/Y_tuong_chinh_thuc_va_cau_hoi_01.md).
 - Dùng lựa chọn hiện hành: ưu tiên Mỹ; trải nghiệm thư giãn làng quê; Seedance 2.5 qua Dola; chủ yếu không thoại; người dùng lo âm môi trường/nhạc.
+- Theo yêu cầu bổ sung ngày 29/10/2026: thế giới Farm đặt ở **nông thôn Trung Quốc**. Bối cảnh, vật dụng, màu sắc, hành động và dấu hiệu mùa phải phù hợp văn hóa, địa phương và thời gian của Trung Quốc. Đọc [tiêu chuẩn bối cảnh](Farm/Quy_trinh_san_xuat/Tieu_chuan_boi_canh_Trung_Quoc.md) trước thiết kế hoặc kiểm shot; địa phương cụ thể chưa chốt thì ghi rõ, không tự coi Tứ Xuyên hay vùng khác là quyết định người dùng.
 - Các đề xuất thử nghiệm và mục chưa chốt không tự trở thành quyết định của người dùng.
 
 
